@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://rawgit.com/tillgrallert/TeachingTei/master/schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online-local-facsimiles/xslt-boilerplate/custom.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns:xd="http://www.pnp-software.com/XSLTdoc"
+     xmlns:opf="http://www.idpf.org/2007/opf"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+                <title xml:lang="ar">مجلة الحقائق</title>
+                <title xml:lang="en">Majallat al-Ḥaqāʾiq</title>
+                <title type="sub" xml:lang="en">TEI edition</title>
+                <author>
+                    <persName xml:lang="ar">عبد القادر الإسكندراني</persName>
+                    <persName xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir al-Iskandarānī</persName>
+                </author>
+                <respStmt xml:lang="en">
+                    <resp xml:lang="en">Transcription</resp>
+                    <orgName xml:id="org_MS" xml:lang="ar">المكتبة الشاملة</orgName>
+                </respStmt>
+                <respStmt xml:lang="en">
+                    <resp xml:lang="en">TEI edition</resp>
+                    <persName xml:id="pers_TG" xml:lang="en">Till Grallert</persName>
+                </respStmt>
+            </titleStmt>
+         <publicationStmt>
+                <authority xml:lang="en">
+                    <persName xml:lang="en">Till Grallert</persName>
+                </authority>
+                <pubPlace xml:lang="en">Beirut</pubPlace>
+                <date when="2016" xml:lang="en">2016</date>
+                <availability status="restricted" xml:lang="en">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0
+                        International (CC BY-SA 4.0) license</licence>
+                </availability>
+                
+            <idno type="url">https://github.com/tillgrallert/digital-haqaiq/blob/master/xml/oclc_644997575-i_17.TEIP5.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+                <biblStruct xml:lang="en">
+                    <monogr>
+                        <title level="j" xml:lang="ar">الحقائق</title>
+                        <title level="j" xml:lang="ar" type="sub">مجلة علمية دينية اخلاقية
+                            اجتماعية</title>
+                        <title level="j" xml:lang="ar-Latn-x-ijmes">al-Ḥaqāʾiq</title>
+                        <title level="j" xml:lang="ar-Latn-x-ijmes" type="sub">Majalla ʿilmiyya
+                            dīniyya akhlāqiyya ijtimāʿiyya</title>
+                        <editor ref="http://viaf.org/viaf/4795364">
+                            <persName xml:lang="ar">عبد القادر الإسكندراني</persName>
+                            <persName xml:lang="ar-Latn-x-ijmes">
+                                <forename>ʿAbd al-Qādir</forename>
+                                <surname>al-Iskandarānī</surname>
+                            </persName>
+                        </editor>
+                        <imprint>
+                            <publisher>
+                                <orgName xml:lang="ar">شركة القائق</orgName>
+                                <orgName xml:lang="ar-Latn-x-ijmes">Sharikat al-Ḥaqāiq</orgName>
+                            </publisher>
+                            <publisher>
+                                <orgName xml:lang="ar">مطبعة المقاصد</orgName>
+                                <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa al-Maqāṣid</orgName>
+                            </publisher>
+                            <pubPlace xml:lang="en">
+                                <placeName xml:lang="ar">دمشق</placeName>
+                                <placeName xml:lang="en">Damascus</placeName>
+                            </pubPlace>
+                            <date xml:lang="ar"
+                           from-custom="1329-07-01"
+                           datingMethod="#cal_islamic"
+                           calendar="#cal_islamic"
+                           from="1910-08-08">غرة شعبان ١٣٢٨</date>
+                            <date xml:lang="ar-Latn-x-ijmes"
+                           from-custom="1329-07-01"
+                           datingMethod="#cal_islamic"
+                           calendar="#cal_islamic"
+                           from="1910-08-08">Shaʿ 1328</date>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3">3</biblScope>
+                        <biblScope unit="issue" from="1" to="34">34</biblScope>
+                    </monogr>
+                    <idno type="oclc" xml:lang="en">644997575</idno>
+                    <idno type="oclc" xml:lang="en">145393412</idno>
+                    <idno type="oclc" xml:lang="en">145289742</idno>
+                    <idno type="epub" xml:lang="en">urn:uuid:381100bcebe62d09ade63dd41b7ddd38</idno>
+                    <idno type="shamela" xml:lang="en">29676</idno>
+                </biblStruct>
+            </sourceDesc>
+      </fileDesc>
+      <encodingDesc xml:lang="en">
+            <samplingDecl xml:lang="en">
+                <p xml:lang="en">The edition is based on the digital transcripts (HTML files wrapped
+                    in ePub) available from <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
+                        <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
+                    </ref>.</p>
+            </samplingDecl>
+            <editorialDecl xml:lang="en">
+                <p xml:lang="en">The original editorial practices followed by <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
+                        <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
+                    </ref> can only be deduced from the limited mark-up found in the digital text
+                    provided online and as ePub. It appears from that that paragraphs and head lines
+                    were recorded and preserved. They also recorded page breaks, but at least for
+                    the earlier issues these do not correspond to the page breaks in the print
+                    edition and should thus be marked with <att xml:lang="en">ed</att>="shamela"</p>
+                <p xml:lang="en">It remains unclear to which extent publication dates for individual
+                    issues are correct. The transcribers seemingly normalised <foreign xml:lang="ar-Latn-x-ijmes">hijrī</foreign> dates for the first two years
+                    (1906-1907) and then recorded all issue as having been published on the first of
+                    each Gregorian month. This needs to be checked against the image files and other
+                    sources.</p>
+                <p xml:lang="en">Some phenomena have been marked in red spans by <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
+                        <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
+                    </ref>. Red spans that contained three points only were considered indicators of
+                    ellipses and transformed into <gi xml:lang="en">gap</gi> with <att xml:lang="en">resp</att>="#org_MS". Upon further scrutiny, it turned out that most, if
+                    not all, of these <gi xml:lang="en">gap</gi>s indicated the division between two
+                    halfs of the line of a <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>. I
+                    have converted all <gi xml:lang="en">p</gi>s that contained two short lines of
+                    text divided by <gi xml:lang="en">gap</gi> into <gi xml:lang="en">lg</gi> of
+                        <att xml:lang="en">type</att>="bayt" with <gi xml:lang="en">l</gi> child
+                    elements. All other red spans have been retained as <gi xml:lang="en">hi</gi>.</p>
+            </editorialDecl>
+        </encodingDesc>
+      <profileDesc xml:lang="en">
+            <!-- as we deal with sources from an area and period which also used non-Latin scripts and preferred a number of calenders over the Gregorian, this should be declared here -->
+            <calendarDesc xml:lang="en">
+                <calendar xml:id="cal_gregorian" xml:lang="en">
+                    <p xml:lang="en">Following the hegemonial approach of standards rooted in the
+                        English language, the Gregorian calendar is presumed as the norm and must
+                        not be specified.</p>
+                    <p xml:lang="en">The <att xml:lang="en">when</att> attribute always provides W3C
+                        dates, while the <att xml:lang="en">when-custom</att> attribute follows the
+                        inherent logic of the chosen calendar.</p>
+                    <p xml:lang="en">E.g. <date when="1841-05-23" xml:lang="en">23 May 1841,
+                            Sunday</date>, <date when="1908-03-05" xml:lang="en">5 Mar 1908,
+                            Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_islamic" xml:lang="en">
+                    <p xml:lang="en">Islamic <hi xml:lang="en">hijrī</hi> calendar: lunar calendar
+                        beginning the Year with 1 Muḥarram. Dates differ between locations as the
+                        beginning of the month is based on sightings of the new moon.</p>
+                    <p xml:lang="en">E.g. <date calendar="#cal_islamic"
+                        datingMethod="#cal_islamic"
+                        when="1841-05-23"
+                        when-custom="1257-04-01"
+                        xml:lang="en">1 Rab II 1257,
+                            Sunday</date>, <date calendar="#cal_islamic"
+                        datingMethod="#cal_islamic"
+                        when="1908-03-05"
+                        when-custom="1326-02-01"
+                        xml:lang="en">1 Ṣaf 1326,
+                            Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_julian" xml:lang="en">
+                    <p xml:lang="en">Reformed Julian calendar beginning the Year with 1 January. In
+                        the Ottoman context usually referred to as <hi xml:lang="en">rūmī</hi>.
+                        Arabic newspapers usually labelled this calendar as <hi xml:lang="en">sharqī</hi>.</p>
+                    <p xml:lang="en">All solar calendars add an intercalated 366th day every fourth
+                        (and, in the case of Gregorian and rūmī calendars, even-numbered) year at
+                        the end of February (the last day of the old Julian calendar). The Gregorian
+                        calendar suppresses this rule in centesimal years that cannot be divided by
+                        400. This difference creates a growing offset between Gregorian and Julian
+                        calendars: while 1900 R was a leap year, 1900 was not, which in turn caused
+                        the difference between the Gregorian calendar, on the one hand, and the <hi xml:lang="en">mālī</hi> and <hi xml:lang="en">rūmī</hi> calendars, on
+                        the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R /
+                        1315 M (13 March 1900) onwards.</p>
+                    <p xml:lang="en">E.g. <date calendar="#cal_julian"
+                        datingMethod="#cal_julian"
+                        when="1841-05-23"
+                        when-custom="1841-05-11"
+                        xml:lang="en">11 Ayyār 1841,
+                            Sunday</date>, <date calendar="#cal_julian"
+                        datingMethod="#cal_julian"
+                        when="1908-03-05"
+                        when-custom="1908-02-21"
+                        xml:lang="en">21 Shub 1908,
+                            Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
+                    <p xml:lang="en">Ottoman fiscal calendar: a lunosolar calendar. It is based on
+                        the Old Julian calendar beginning the Year with 1 March. Introduced as
+                        fiscal calendar in 1676 and in the Ottoman context usually referred to as
+                            <hi xml:lang="en">mālī</hi> and sometimes, confusingly, also as <hi xml:lang="en">rūmī</hi>. Every 33 lunar years, a <hi xml:lang="en">hijrī</hi> year would complete within a single solar <hi xml:lang="en">mālī</hi> year. In this case the counting of the <hi xml:lang="en">mālī</hi> years skipped a year to catch up with the faster <hi xml:lang="en">hijrī</hi> calendar. Due to a printing error in the coupon
+                        booklets for the consolidated debt repayment program for 1872 (1288 M
+                        instead of 1289 M), synchronisation of <hi xml:lang="en">mālī</hi> and <hi xml:lang="en">hijrī</hi> years was henceforth abolished. As <hi xml:lang="en">mālī</hi> years began with 1 March, <hi xml:lang="en">mālī</hi> leap years preceded their <hi xml:lang="en">rūmī</hi> and
+                        Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
+                    <p xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal"
+                        datingMethod="#cal_ottomanfiscal"
+                        when="1841-05-23"
+                        when-custom="1257-03-11"
+                        xml:lang="en">11 Māyis 1257, Sunday</date>,
+                            <date calendar="#cal_ottomanfiscal"
+                        datingMethod="#cal_ottomanfiscal"
+                        when="1908-03-05"
+                        when-custom="1323-12-21"
+                        xml:lang="en">21 Shub 1323,
+                            Thursday</date>.</p>
+                </calendar>
+            </calendarDesc>
+            <!-- According to TEI P5 @xml:lang should follow BCP 47 <note target="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>, which specifies for Arabic in Latin transcription "ar-Latn". The specific type of transcription should be added as a private use subtag, i.e. "ar-Latn-x-ijmes" for the
+               IJMES transcription of Arabic in Latin script. -->
+            <langUsage xml:lang="en">
+                <language ident="ar" xml:lang="en">Arabic</language>
+                <language ident="ar-Latn-x-ijmes" xml:lang="en">Arabic transcribed into Latin script
+                    following the IJMES conventions</language>
+                <language ident="ar-Latn-EN" xml:lang="en">Arabic transcribed into Latin script
+                    following common English practices</language>
+                <language ident="ar-Latn-FR" xml:lang="en">Arabic transcribed into Latin script
+                    following common French practices</language>
+                <language ident="en" xml:lang="en">English</language>
+                <language ident="fa" xml:lang="en">Farsi</language>
+                <language ident="fa-Latn-x-ijmes" xml:lang="en">Farsi transcribed into Latin script
+                    following the IJMES conventions</language>
+                <language ident="fr" xml:lang="en">French</language>
+                <language ident="ota" xml:lang="en">Ottoman</language>
+                <language ident="ota-Latn-x-ijmes" xml:lang="en">Ottoman transcribed into Latin
+                    script following the IJMES conventions</language>
+                <language ident="tr" xml:lang="en">Turkish</language>
+                <language ident="en-Arab-AR" xml:lang="en">English transcribed into Arabic script
+                    following common Levantine Arabic practices</language>
+                <language ident="fr-Arab-AR" xml:lang="en">French transcribed into Arabic script
+                    following common Levantine Arabic practices</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc>
+         <change when="2016-02-26" who="pers_TG">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
+         <change when="2016-02-26">Divided the <gi>body</gi> into a <gi>group</gi> of <gi>text</gi>s along the issues of this periodical.</change>
+            <change when="2016-02-26">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of
+                    <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
+            <change when="2016-02-26" who="#pers_TG">Created this TEI P5 file by automatic
+                conversion from ePub.</change>
+        </revisionDesc>
+   </teiHeader>
+   <text xml:id="text" xml:lang="ar" type="issue" n="i_17">
+            <front xml:lang="ar">
+               <div>
+                  <biblStruct xml:lang="ar">
+                     <monogr>
+                        <title level="j" xml:lang="ar">الحقائق</title>
+                        <editor ref="http://viaf.org/viaf/4795364">
+                            <persName xml:lang="ar">عبد القادر الإسكندراني</persName>
+                            <persName xml:lang="ar-Latn-x-ijmes">
+                                <forename>ʿAbd al-Qādir</forename>
+                                <surname>al-Iskandarānī</surname>
+                            </persName>
+                        </editor>
+                        <imprint>
+                           <pubPlace xml:lang="en">
+                                <placeName xml:lang="ar">دمشق</placeName>
+                                <placeName xml:lang="en">Damascus</placeName>
+                            </pubPlace>
+                           <date when="1911-12-21">بتاريخ: 21 - 12 - 1911</date>
+                           <biblScope n="17" unit="issue">العدد 17</biblScope>
+                           <biblScope unit="page" from="x" to="y"/>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </div>
+            </front>
+            <body>
+                <head>
+                    <bibl>
+                        <biblScope n="17" unit="issue">العدد 17</biblScope>
+                        <date when="1911-12-21">بتاريخ: 21 - 12 - 1911</date>
+                    </bibl>
+                </head>
+                <pb ed="shamela"
+             n="n17-p1"
+             corresp="file:../epub/29676/OEBPS/xhtml/P489.xhtml"/>
+
+
+                <div type="article">
+                    <head>استحباب القيام عند ذكر ولادته</head>
+                    <p>عليه الصلاة والسلام</p>
+                    <p>الحمد لله رب العالمين والصلاة والسلام على أشرف خلقه أجمعين وبعد فقد اطلعت على
+                        سؤال ورد من المدينة المنورة بإمضاء السيد أحمد علي الهندي الرامضوري وهذا
+                        نصه:</p>
+                    <p>بسم الله الرحمن الرحيم</p>
+                    <p>ماقول علماء المسلمين أيد الله بهم الدين وقواهم على إزاحة شبه الملحدين في قول
+                        رجل سئل عن القيام عند ذكر الولادة الشريفة النبوية فأجاب (وهذا نص كلامه) وأما
+                        توجيه القيام بقدوم روحه الشريفة صلى الله عليه وسلم من عالم الأرواح إلى عالم
+                        الشهادة فيقومون تعظيماً له فهذا أيضاً من حماقاتهم لأن هذا الوجه يقتضي القيام
+                        عند تحقق نفس الولادة الشريفة ومتى تكرر الولادة في هذه الأيام فهذه الإعادة
+                        للولادة الشريفة مماثلة بفعل مجوس الهند حيث يأتون بعين حكاية ولادة معبودهم
+                        (منهيا) أو مماثلة للروافض الذين ينقلون شهادة أهل البيت رضي الله عنهم كل سنة
+                        (أي فعله وعمله) فمعاذ الله فصار هذا حكاية للولادة المنيفة الحقيقية وهذه
+                        الحركة بلا شك وشبهة حرية باللوم والحرمة والفسق بل فعلهم هذا يزيد على فعل
+                        أولئك فإنهم يفعلونه في كل عام مرة واحدة وهؤلاء يفعلون هذه المزخرفات الفرضية
+                        متى شاؤُا وليس لهذا نظير في الشرع بأن يفرض أمر ويعامل معه معاملة الحقيقة بل
+                        هو محرم شرعاً انتهى كلامه فهل هذا الجواب صحيح أم لا أفيدونا مأجورين. وأقول
+                        جواباً عن ذلك مستعيناً بالله.</p>
+                    <p>إنَّ هذا الجواب غير صحيح من وجوه وبسط الكلام في هذا المقام يحتاج لبيان حكم
+                        القيام لأهل الشرف إكراماً وتعظيماً لهم ومنه يعلم استحباب القيام عند ذكر
+                        مولده الشريف صلى الله عليه وسلم بالأولى إذ الفرض أنه إنما يفعل إكراماً
+                        وتعظيماً ومحبةً لأشرف الرسل صلى الله عليه وسلم فنقول القيام للعلماء تعظيماً
+                        للعلم مسنون دليله ما رواه أبو داود في سننه عن أبي سعيد الخدري بإسناد صحيح أن
+                        النبي صلى الله عليه وسلم قال (قوموا إلى سيدكم) يعني سعد بن معاذ القادم عليكم
+                        لما له من الشرف المقتضي للتعظيم قال الإمام النووي يستحب القيام للقادم من أهل
+                        الفضل وقد جاءت به أحاديث ولم يصح في النهي عنه شيء صريح أهـ وقال شراح الجامع
+                        الصغير يؤخذ من الحديث أي المتقدم سن القيام لنحو <pb ed="shamela"
+                   n="n17-p2"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P490.xhtml"/> العلماء تعظيماً
+                        للعلم لا عجباً ورياء أما القيام للأمراء فيطلب للمداراة وقد ثبت أنه صلى الله
+                        عليه وسلم قام لبعض الصحابة كعكرمة وعدي رضي الله عنهما وأقر حسان بن ثابت
+                        عندما قام له وحمل الحديث على أن الأمر بالقيام لسعد كان للتعظيم أولى من حمله
+                        على القيام لأجل تنزيله عن الدابة لمرض به أهـ لأنه لو كان كذلك لأمر البعض لا
+                        الكل ولا ينافي استحباب القيام مارواه الإمام أحمد وغيره عن معاوية بإسناد صحيح
+                        أن النبي صلى الله عليه وسلم قال (من أحبَّ أن يتمثل له الرجال قياماً فليتبوء
+                        مقعده من النار) لقول شراح الحديث كالإمام الطبري غيره هذا الخبر إنما نهي من
+                        يقام له إذا أحبه تكبراً لا من يقام له إكراماً ورجحه الإمام النووي قائلاً
+                        الأصح والأولى بل الذي لا حاجة إلى ما سواه أن معناه زجر المكلف أن يحب القيام
+                        له فهو المنهي عنه فلو لم يخطر بباله فقاموا له فلا لوم عليه أهـ وأما ما روي
+                        أن الصحابة كانوا إذا دخل عليهم رسول الله صلى الله عليه وسلم لا يقومون له لما
+                        يرون من كراهته له فهو من تواضعه وشفقته صلى الله عليه وسلم بأمته زاده الله
+                        شرفاً إذ هو سيد المتواضعين حتى أنه كان يعفو عمن انتقصه كما هو معلوم من سيرته
+                        لا إنَّ القيام منهي عنه وإلاَّ لما أمر به وفعله لغيره وكذا ما ورد عنه عليه
+                        السلام (لاتقوموا كما الأعاجم يعظم بعضهم بعضا) فهو محمول على محبة القيام
+                        تعاظماً وتكبراً بدليل كما تقوم الأعاجم فإذا ثبت أن القيام مطلوب للتعظيم
+                        والإكرام لأهل الشرف فكيف يمنع منه عند ذكر مولده صلى الله عليه وسلم تعظيماً
+                        له بل إنه أولى وأحق من القيام لأحد أمته وقد نص غير واحد من الفقهاء الأئمة
+                        الأربعة ومن المحدثين وأهل السير على استحبابه فالذي ينبغي أن يُعول عليه ولا
+                        يلتفت لغيره استحبابه وتأكده لعموم المسلمين ولا يغتر بقول ابن حجر الهيتمي في
+                        فتلواه من أن الناس إنما يفعلونه تعظيماً فالعوام معذورون بخلاف الخواص
+                        أهـ.</p>
+                    <p>فهذا هفوة منه بل الخواص أحق بتعظيمه صلى الله عليه وسلم وقد فعله العالم الشهير
+                        تقي الدين السبكي وغيره ممن لا يحصى واستمر عليه العمل إلى يومنا هذا ويستمر إن
+                        شاء الله إلى يوم القيامة ولا ينكره ويحرمه إلا متبدع غالٍ فإن تخيل له أنه
+                        بدعة مذمومة بل البدعة تعتريها الأحكام الخمسة كما هو معلوم فكم من بدعة هي فرض
+                        أو واجب كتدوين العلوم الدينية ورد الشبه على الفرق الضلالية الذين هذا المانع
+                        منهم فليت شعري ماذا يقول هذا <pb ed="shamela"
+                   n="n17-p3"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P491.xhtml"/> المانع في قيام
+                        بعضنا لبعض وفي القيام عند ذكر مولده الشريف هل فيه تعظيم أم لا فإن منع
+                        التعظيم فهو مكابر معاند للحس والمشاهدة فلا يليق أن يخاطب وإن سلم أنه يفيد
+                        التعظيم وعد تعظيمه صلى الله عليه وسلم حماقة فيكون تنقيصاً وإهانة لجنابه
+                        الشريف صلى الله عليه وسلم ومن أهانه يحكم بكفره وردته وهدر دمه لأن الفقهاء
+                        قاطبة ذكروا في باب الردة أن منها الاستهزاء بالعلم أو العلماء وإهانتهم فإذا
+                        كان إهانة أحد علماء أمته عليه السلام موجباً للكفر والردة فكيف بأفضل
+                        المخلوقات عليه أفضل الصلوات والتسليمات قال ملا خسرو في شرح الدرر نقلاً عن
+                        فتاوي البزازية أن من انتقصه عليه السلام أو شتمه ولو في حال سكره يقتل حداً
+                        وهو مذهب أبي بكر الصديق رضي الله عنه والإمام الأعظم أبي حنيفة والثوري وأهل
+                        الكوفة والمشهور من مذهب مالك وأصحابه وقال الخطابي لا أعلم أحداً من المسلمين
+                        اختلف في وجوب قتله وقال ابن سحنون المالكي أجمع العلماء على أن شاتمه صلى الله
+                        عليه وسلم كافر وحكمه القتل إلى آخر ما قال. قال في الدر المختار ويجب إلحاق
+                        الاستهزاء والاستخفاف به (أي الشتم) ونقل الإمام الشعراني في كتابه كشف الغمة
+                        عن هذه الأمة في كتاب الردة عن ابن عباس رضي الله عنه قال كتن أعمى له امرأة
+                        تشتم النبي صلى الله عليه وسلم وتقع فيه فينهاها فلا تنتهي ويزجرها فلا تنزجر
+                        فلما كانت ذات ليلة جعلت تقع في النبي عليه الصلاة والسلام فأخذ المعول فوضعه
+                        في بطنها واتكأ عليه فقتلها فلما أصبح ذكر ذلك للنبي صلى الله عليه وسلم فجمع
+                        الناس فقال أنشد الله رجلاً فعل مافعل ألا قام فقام الأعمى يتخطى الناس حتى قعد
+                        بين يديه صلى الله عليه وسلم فقال يا رسول الله أنا صاحبها كانت تشتمك وتقع فيك
+                        فأنهاها فلا تنتهي ولي منها ابنان مثل اللؤلؤتين وكانت بي رفيقة فلما كان
+                        البارحة جعلت تقع فيك فأخذت المعول فوضعته في بطنها واتكأت عليها حتى قتلتها
+                        فقال عليه السلام (ألا اشهدوا أن دمها هدر) ومعلوم أن عدم القيام لأحد كبراء
+                        الناس يشعر بإهانته وعدم المبلاة به ولذا يورث الحقد والضغائن كما هو العرف
+                        الآن والعرف أحد مدارات الشرع الشريف تبنى عليه الأحكام قال العلامة ابن عابدين
+                        في رسالته آداب المفتي:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>والعرف في الشرع له اعتبار </seg>
+                            <seg> لذا عليه الحكم قد يدار</seg>
+                        </l>
+                    </lg>
+                    <p>فكم من مسألة لا نص فيها وقد تعارف الناس عليها وحكم الفقهاء بها وتداولوها في
+                        كتبهم <pb ed="shamela"
+                   n="n17-p4"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P492.xhtml"/> فكيف يقول المانع
+                        أن فاعل القيام بلا شك حري باللوم والحرمة والفسق وهو شبيه بفعل المجوس الخ
+                        فهذا افتراء وتهور عظيم لا يصدر مثله من مسلم فضلاً عن عالم فالمسلم الموحد إذا
+                        قام عند ذكر مولده الشريف لا يريد إلاَّ التعظيم والاحترام لمنصب الرسالة الذي
+                        بذل الأرواح دونه قليل فرحاً بإيجاد هذا الرسول الذي هو رحمة للعالمين لما فيه
+                        من عظم منة الله على خلقه أجمعين كما سن السجود لله تعالى شكراً عند تجدد نعمة
+                        وأي نعمة أعظم من نعمة ظهور أشرف الرسل حتى أن عمه أبا لهب لما بشر بولادته صلى
+                        الله عليه وسلم أعتق جاريته فرحاً به عليه الصلاة والسلام فجازاه الله بسبب ذلك
+                        بأن خفف عنه العذاب في كل ليلة اثنين مع أنه كافر معاند فكيف حال المسلم المحب
+                        والمقصود التعظيم بكل ما يفيده ومنه القيام كما هو العرف العام وربما يشعر كلام
+                        المانع بأن هذا القيام إذا طلب بطلب للساعة التي برز فيها عليه الصلاة والسلام
+                        من بطن أمه إذ هو أعظم نعمة كما تقدم وأما تكرار ذلك كلما قريء المولد فلا
+                        فيشبه فعل المجوس الخ فنقول له هذا تحكم بحت لأنه متى كان القصد بالقيام
+                        التعظيم فلا يمنع من تكرره وله نظائر في الشرع كثيرة لا كما قال المانع لا نظير
+                        له فمنت نظيره وجوب الصلاة عليه صلى الله عليه وسلم كما ذكر حتى قال كثير من
+                        الأئمة لو ذكر في المجلس الواحد ألف مرة يصلى عليه ألف مرة لوجود سببه وهو ذكر
+                        اسمه الشريف كما ذكر علماء الأصول من أن الأمر يتكرر بتكرر سببه وكذا تعظيم
+                        الأيام الفاضلة والليالي بصومها وإحيائها يتكرر كلما تكررت كذلك هنا لما وجد
+                        السبب وهو قراءة سيرته عليه الصلاة والسلام الشريفة والاطلاع على أحواله
+                        المنيفة التي هي مناط كل كمال وعلى المؤمن أن يجعلها نصب عينيه في كل حال فحين
+                        مايصل القارئ إلى ذكر بروزه صلى الله عليه وسلم من بطن أمه يتذكر هذه النعمة
+                        العظمى فيقوم تعظيماً له وشكراً لله تعالى عليها فهل هذا يلام عليه المرء ويقال
+                        بأنه شبيه بفعل المجوس الكفرة الذين يحكون ولادة معبودهم وفعل الرافضة الذين
+                        يمثلون ما فعل بأهل البيت كل سنة فإن ما يفعله المجوس منكر من أصله يجعلون
+                        معبوداً حادثاً متولداً فهو كفر صراح فكلما كرروا ذلك فقد زاودا ضلالاً على
+                        ضلال وكذا تمثيل ما فعل بأهل البيت مشتمل على عدة مفاسد محرمات لا تخفى فكيف
+                        يشبه هذا المانع حال المسلمين الموحدين الجالسين في محل معظم فيه رائحة طيبة
+                        يتلون كتاب الله وينشرون قصة اشرف خلقه بكل آداب مطلوبة ويصلون <pb ed="shamela"
+                   n="n17-p5"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P493.xhtml"/> عليه كلما ذكر
+                        ويقومون لذكر ولادته تعظيماً له وفرحاً بوجوده بحال هؤلاء حتى حمله الغلو فجعله
+                        أزيد من فعل المجوس والروافض سبحانك اللهم هذا بهتان عظيم ونظير هذا القيام
+                        تعظيماً له عليه الصلاة والسلام الأمر بغض الصوت بحضرته عليه السلام في حياته
+                        وعند قراءة حديثه وسيرته بعد وفاته وكذا مناداته باسم يشعر بتعظيمه كيا رسول
+                        الله قال تعالى (يا آيها الذين آمنوا لا ترفعوا أصواتكم فوق صوت النبي ولا
+                        تجهروا له بالقول كجهر بعضكم لبعض أن تحبط أعمالكم وأنتم لا تشعرون إن الذين
+                        يغضون أصواتهم عند رسول الله أولئك الذين امتحن الله قلوبهم للتقوى لهم مغفرة
+                        وأجر عظيم) وقال أيضاً: (لا تجعلوا دعاء الرسول بينكم كدعاء بعضكم بعضاً) فهل
+                        هذا النهي من الله تعالى وتحريم رفع الصوت على صوته الشريف وتحريم ندائه باسمه
+                        إلاَّ لمزيد تعظيمه عليه السلام ونظيره أيضاً ماورد في الصحيحين أنه صلى الله
+                        عليه وسلم لما قدم المدينة وجد اليهود يصومون يوم عاشوراء فسألهم عن حكمة ذلك
+                        فقالوا هذا يوم أغرق الله فيه فرعون ونجى موسى فصامه فنحن نصومه فقال صلى الله
+                        عليه وسلم أنا أحق بموسى منكم فصامه وأمر بصيامه أي شكر الله تعالى فهذا صريح
+                        في أن تجديد إظهار الشكر على النعمة السابقة في الوقت الموافق لوقت حدوثها
+                        مطلوب بل هو مطلوب في كل وقت تذكر فيه ومن نظيره أيضاً كما يظهر لي عمل الأضحية
+                        في أيام النحر المأمور به أمر إيجاب أو ندب لمن قدر عليه إظهاراً للشكر بنجاة
+                        الذبيح عليه وعلى نبينا أفضل الصلاة والتسليم في مثل هذا اليوم من ذبح أبيه له
+                        بإنزال الفداء وهو كبش من الجنة فاختبر الله خليله بتكليفه ذبح مهجة قلبه ثم
+                        فداه بعد ماسعى في رضاه بذبح عظيم بقصد التكريم إيثاراً لبقائه عن إمضاء قضائه
+                        إذ جعله أباً للعرب عموماً ولحبيبه الأعظم خصوصاً وإذا كان الحق أمر الخلق
+                        باتخاذ هذا اليوم الذي نجى فيه والد نبيه وحبيبه عيداً أكبر وأمرهم فيه بالنحر
+                        مشاكلة للفداء الذي وقع منه تعالى لقصد إظهار الشكر وفي كل عام يتكرر فاتخاذ
+                        يوم ظهور جسم حبيبه الأعظم رحمة لعموم عامة العالم عيداً أكبر أحق وأجدر فانظر
+                        بعين الانصاف إلى محموع هذه النظائر المنصوص عليها المقصود منها تعظيمه عليه
+                        الصلاة والسلام أليس هذا القيام مثلها في التعظيم فيكون مأموراً به ليس بدعة
+                        منكرة على أنا نجعله فرداً من أفراد التعظيم الذي كلفنا به عموماً فحينئذٍ يدخل
+                        تحت الأمر فيكون من باب دلالة النص لا من باب القياس كما <pb ed="shamela"
+                   n="n17-p6"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P494.xhtml"/> حرره
+                        علماء الأصول في مثل قوله تعالى: (ولا تأكلوا مال اليتيم) فالمنصوص عليه حرمة
+                        الأكل وأهل اللغة فهموا من النص حرمة مطلق التناول من مال اليتيم فيشمل النص
+                        الشرب من مائه ولبس ثوب من ثيابه وسكنى داره وهكذا ومثله قوله تعالى: (ولا تقل
+                        لهما أف) المراد مطلق الأذى فكل فرد يدل على الأذى يدخل في النص فيدخل الضرب
+                        والشتم بالأولى وهكذا هنا لما كان القيام خصوصاً في زمننا هذا من جملة التعظيم
+                        للنبي صلى الله عليه وسلم دخل في النص الدال على تعظيمه وهو كثير في القرآن
+                        والسنة فمنه قوله تعالى: (إنا أرسلناك شاهداً ومبشراً ونذيراً لتؤمنوا بالله
+                        ورسوله وتعزروه وتوقروه) وقال تعالى: (لتؤمنن به ولتنصرنه) فقد فرض الله تعالى
+                        تعظيمه وجعله مثل الإيمان به وكم في القرآن العظيم من آية دالة على تعظيمه عليه
+                        الصلاة والسلام ومن أراد بسط الكلام على وجوب تعظيمه وفرضيته على كل مكلف
+                        مبرهناً عليه بالأدلة القاطعة فليرجع لكتب السير كالشفا لقاضي عياض والمواهب
+                        اللدنية للإمام القسطلاني وزاد المعاد لابن القيم وغيرها فيجد فيها ما يشفي
+                        الغليل فحينئذٍ لا يكون هذا القيام بدعة بل منصوصاً عليه بدلالة النص فمن يدعي
+                        إنكاره وتحريمه فهو مبتدع ضال وعند قصد الإهانة والتنقيص لمنصبه الشريف يكون
+                        كفراً وردة كما سلف وقد أفتى العلامة مفتي الثقلين الإمام أبو السعود بكفر من
+                        يتركه حين يقوم الناس إهانة واستنكاراً كما نقله العلامة السمنودي.</p>
+                    <p>هذا وربما كان في ترك القيام إثارة فتنة عند عموم الناس ونسبة من لا يقوم عند
+                        قيام الناس تعظيماً له صلى الله عليه وسلم إلى مذهب الوهابية الذين تجاوزا الحد
+                        في الغلو بتكفير أهل التوحيد حيث يقولون بالتوسل بالأنبياء والأولياء وزيارتهم
+                        والتبرك بهم وطلب الحاجات من الله تعالى بواسطتهم فلا سبيل لتكفير المسلمين
+                        الموحدين الناطقين بالتوحيد كل يوم مرات متعددة بل كل ساعة ولحظة إذا سألوا
+                        الله تعالى حاجة وطلبوا منه تعالى بجاه أحبابه عنده قضاءها بل من يكفرهم إلى
+                        الكفر أقرب حتى لو سمعنا المؤمن الموحد يقول يا رسول الله أقضي لي حاجتي أو يا
+                        عبد القادر أطلب منك كذا لا تكفره بل تنهاه عن اعتقاد ظاهره ونحمل كلامه على
+                        المجاز في الإسناد وهو المجاز العقلي كما بينه علماء المعاني وهو كثير في
+                        القرآن كقوله تعالى (ياهامان ابن لي صرحاً) فإن البناء فعل العملة وهامان سبب
+                        آمر حتى أننا لو قلنا للعامي كيف تطلب من العبد قضاء حاجتك فيقول أنا مرادي أن
+                        الله يقضي <pb ed="shamela"
+                   n="n17-p7"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P495.xhtml"/> حاجتي بسبب ذلك
+                        العبد وجاهه عنده تعالى فمتى وجدنا قرينة دالة على أن المتكلم موحد نحمل كلامه
+                        الذي ظاهره إسناده الأفعال لغيره تعالى على المجاز كما حملوا قول الشاعر:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>أشاب الصغير وأفنى الكبي </seg>
+                            <seg> ر كر الغداة ومر العشي</seg>
+                        </l>
+                    </lg>
+                    <p>على المجاز بدليل قوله بعد:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>فملتنا إننا مسلمو </seg>
+                            <seg> ن على دين صديقنا والنبي</seg>
+                        </l>
+                    </lg>
+                    <p>فإنه دلّ على أنه موحد وكذا العامي الذي ينطلق بالتوحيد دائماً يلزمنا أن نحمل
+                        كلامه الذي لا يراد ظاهره على المجاز.</p>
+                    <p>هذا ولنرجع لما نحن فيه من استحباب القيام عند ذكر مولده الشريف صلى الله عليه
+                        وسلم مطلوب ومؤكد ظاهراً وباطناً وقد كنت مرة في مجلس وكان فيه أحد المعاصرين
+                        وكان ممن لا يرى القيام عند ذكر الولادة الشريفة فقلت أليس فيه تعظيمه صلى الله
+                        عليه وسلم فقال إنَّ التعظيم بالقلب وباتباع سنته عليه الصلاة والسلام لا بهذا
+                        القيام الذي هو بدعة فقلت لا بأس به بل هو عنوان على التعظيم بالقلب دال عليه
+                        ومعاملة الشرع الشريف ظاهرية حتى حكم على من أقر بلسانه أن لا إله إلا الله
+                        بالإسلام مع عدم اطلاعنا على قلبه ومن أين يعلم ما في القلب إذا لم يدل الظاهر
+                        عليه وقد صار م ألفناه في نفوسنا من القيام لبعضنا بعضاً وأعمال الجوارح من
+                        اليد واللسان من أسباب التعظيم والإكرام أهـ وقد قالوا في تعريف الحمد العرفي
+                        بأنه فعل يشعر بتعظيم المنعم سواء كان ذلك الفعل باللسان أو بالأركان أو بالقلب
+                        كما قال بعضهم:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>أفادتكم النعماء مني ثلاثة </seg>
+                            <seg> يدي ولساني والضمير المحجبا</seg>
+                        </l>
+                    </lg>
+                    <p>وقد عرفت أنه ليس ببدعة بل هو مثل القيام لذاته الشريفة تعظيماً له صلى الله
+                        عليه وسلم ولله در سيدنا حسان حيث قام حين مرّ عليه سيد الأكوان وقال:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>قيامي للعزيز عليَّ فرض </seg>
+                            <seg> وترك الفرض ماهو مستقيم</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>عجبت لمن له عقل وفهم </seg>
+                            <seg> يرى هذا الجمال ولا يقوم</seg>
+                        </l>
+                    </lg>
+                    <p>ويروى قيامي للنبي بدل للعزيز. نشدتك الله أيها المنكر للقيام لو أقبلت على مجلس
+                        وقام لك أكثر من فيه وتخلف البعض أما يقع في نفسك وفي نفس غيرك أن الذي ما قام
+                        لك حقرك بخلاف من قام لك واحترمك فما أسمجك وأجهلك فوالله أني لأخاف على منكر
+                        القيام <pb ed="shamela"
+                   n="n17-p8"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P496.xhtml"/> ومحرمه ومشبه فاعله
+                        بالمجوس والرافضة قائلاً بل هو أزيد وهو فعل الحمقى الخ ما قال الكفرَ
+                        والردةَ.</p>
+                    <p>فتلخص أنه يندب القيام ويتأكد ويستحب عند ذكر ولادته الشريفة تعظيماً له صلى
+                        الله عليه وسلم وإكراماً وفرحاً بإيجاده الذي هو أجل نعمة على العالم وقد
+                        استحسن ذلك المسلمون ورأوه حسناً وقد ورد مرفوعاً إليه صلى الله عليه وسلم (ما
+                        رآه المسلمون حسناً فهو عند الله حسن) وورد أيضاً (يد الله مع الجماعة ومن شذ
+                        شذ في النار) إلى غير ذلك من الأحاديث الدالة على اتباع سبيل المسلمين الناجين
+                        فلا عبرة بإنكار هذا المنكر وتحريمه القيام وتفسيقه فاعله فما هو إلاَّ نزعة
+                        شيطانية استولت على قلبه أعاذ الله المسلمين منه ومن أمثاله الذين يحطون من
+                        منصبه عليه الصلاة والسلام ويفسقون ويكفرون أهل الإسلام فوجود مثلهم أعظم بلية
+                        على المسلمين لأنهم يدعون الإرشاد ويبثون بين العباد أعظم الفساد من جهة
+                        الاعتقاد نسأله تعالى أما أن يوفقهم سبيل الرشاد أو يمحوهم من سائر البلاد
+                        ويكثر من كل متبع للسنة والجماعة يحث الناس على وجوب تعظيمه صلى الله عليه وسلم
+                        حياً وميتاً وتعظيم أصحابه وأئمة الدين الذين خدموا شريعته ودونوها وعمل الناس
+                        بها إلى يوم القيامة. <pb ed="shamela"
+                   n="n17-p9"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P497.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>المسلمون والسياسة الدينية</head>
+                    <p>أصاب المسلمين في القرون الأخيرة من عوامل الضعف والانحطاط ما حرجت منه صدور
+                        الغيورين من محبي الإصلاح فتسلطت الأغيار عليهم وتداخلوا في شؤونهم فخربت
+                        البلاد وسادت الفوضى وانقسم الناس شيعاً وأحزاباً ورق الدين حتى صار التظاهر
+                        بالمروق أمراً هيناً لا يعبأ به بل ربما يعد عند الجهلة الأغرار تمدناً وتنوراً
+                        وكادت تزول من بينهم رابطة الدين وتستبدل بما لا يخرج عن دائرة الوهم ولا يكون
+                        له نصيب قوي من التأثير في اجتماع الأمم.</p>
+                    <p>كل ذلك أصاب المسلمين بسبب ركونهم إلى أعداء دينهم من الأوروبيين ونظرهم إليهم
+                        نظر المعلم الناصح وانخداعهم بما يخدعونهم به من أنهم يخدمون الإنسانية من غير
+                        تفريق في المذهب والدين.</p>
+                    <p>اغترت الدولة الإسلامية بقوتها يوم كانت سيدة الدول وظنت أن الأوروبيين يسعون
+                        لمصلحتها ويعملون لرقيها وسعادتها ليستفيدوا من قوتها فسهلت لم طرق التداخل في
+                        البلاد ليعمروها فلا والله لم يجدوا طريقاً للفساد إلاَّ سلكوه. ولا مورداً
+                        لتدمير البلاد إلاَّ وردوه. وأشد ما فعلوه تأثيراً هو تداخلهم في أمور التعليم
+                        فكانوا أساتذة في المدارس يبثون فيها أفانين الإلحاد وينفثون سموم التفريق بصور
+                        مختلفة وأشكال متنوعة ويدعون أنهم يخدمون الإنسانية والمدنية! أما الغاية
+                        الحقيقة التي يسيرون وراءها ويسعون للحصول عليها فهي إضعاف تلك الرابطة الدينية
+                        الإسلامية فتخرج على أيديهم من المسلمين من كانوا أشد ضرراً على المسلمين من
+                        الإفرنجة أنفسهم لأن العدو الداخلي لا يتقى كما يتقى العدو الخارجي فانساب
+                        هؤلاء التلامذة المتفرنجون في البلاد آخذين في الغالب مهنة التعليم حرفة لهم
+                        فتخرج عليهم أيضاً فريق كبير من المتفرنجين كانوا السبب الحقيقي في ضعف الرابطة
+                        الدينية بين العثمانيين وصاروا كلما غمزهم الأوروبيون مغمزاً لانوا له وظنوه
+                        أمراً بسيطاً لا يقصد به إضعافهم وحل رابطتهم فطمع فيهم العدو وجرد عليهم سلاحه
+                        السياسي الضار الذي لايبقي ولا يذر فعم الشر وطغى الفساد حتى كاد أهل الدين
+                        ييأسون من الصلاح والإصلاح لما يشاهدونه من تهور هؤلاء المتفرنجين وانصباغهم
+                        بالصبغة اللادينية وانخداعهم بما تخدعهم به أوربا من الأقوال الفارغة وغفلتهم
+                        عنما تنويه للمسلمين إلاَّ أن المفكرين من أهل الدين كانوا مدركين لهذا الأمر
+                        وهو ينادون ولا مجيب ويجأرون إلى الله <pb ed="shamela"
+                   n="n17-p10"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P498.xhtml"/> أن ينبه المسلمين
+                        من هذه الغفلة التي كادت تضر بالدولة العلية دولة الخلافة التي تجمع عامة
+                        المسلمين تحت لوائها فسعادتها سعادتهم وشقاؤها شقاؤهم. ولا ننكر أن بين
+                        السياسيين من يعرفون حقيقة الأمر ومبلغ الخطر ولكن يغضون على الأذى لما يتوهمون
+                        من ضعف الدولة المادي بصورة لاتقوى على دفع العدو إذا حافظت على مصالحها فكانوا
+                        يقبلون مداخلة أوربا تسكيناً لشرتها ويرتجون من وراء ذلك أن يتسع الوقت للدولة
+                        العلية فتنهض من سباتها وتأخذ لنفسها الحذر وتستعد للطوارئ إذا هي رفضت مايضر
+                        بالسياسة الدينية ولكن مع الأسف كان مايدسه أعداء الإسلام عاملاً كبيراً على
+                        إضعافها في حين أنها لم تنتبه فترقع الخرق من جهات أخرى لتكون في مأمن منهم يوم
+                        يظهرون مكنونات ضمائرهم فكان هذا الإغضاء عن تداخل أوربا خطأً محضاً لأن الدولة
+                        لم تتمكن من لم شعثها كما كانوا يتوهمون بل كان هذا الإغضاء مما سهل لأعدائها
+                        سبل المطامع ولو أدركت الدولة الأمر من أوله يوم أخذوا يعقدون المعاهدات لتجزئة
+                        بلادها بدعوى المحافظة على السلم والموازنة الدولية وغير ذلك من الأقاويل التي
+                        لا يقبلها إلاَّ من يرى الضعف في نفسه فلا يطيق دفاعاً. لو أدركت الدولة ذلك
+                        فأخذت نفسها بالسياسة الدينية وقامت تدعو عموم المسلمين للدفاع عن دينهم وشرفهم
+                        لوجدت من حماستهم وتفانيهم ما يعلم أوربا أن المسلمين ذوو قوة ومنعة وأن
+                        أموالهم وأبناءهم ودماءهم لا تزن عندهم شيئاً في سبيل الدفاع عن دين الله ولكن
+                        سلبت الدول بعض أملاكنا وتداخلوا في شؤوننا واستباحوا حمانا وقطّعوا بلادنا كما
+                        يتقطع الجسم عضواً بعد عضو ومع هذا كله لم يرتدع أولئك المتفرنجون عن غيهم ولم
+                        يزالوا ينادون بأن أوربا هي محبة الإنسانية والمدنية وأنها تعمل على نفع
+                        الإنسان فهل نحن بعد ذلك منتبهون؟</p>
+                    <p>بلغ من تهجم أوربا وتجاسرها علينا أن قامت في هذه الآونة إيطاليا تلك الدولة
+                        الحقيرة التي غضب الله عليها وعلى بلادها تغتصب بلادنا الطيبة فأعلنت علينا
+                        الحرب بصورة تترفع عنها الصعاليك وخرقت العهود الدولية واقتحمت بأسطولها البحر
+                        وضربت طرابلس الغرب وأباحت الأعراض وقتلت الصبيان والعجائز والشيوخ وفعلت فيها
+                        من الأفعال البربرية ما يخجل وجه الإنسانية كل ذلك بمرأى من الدول التي تتبجح
+                        دائماً بحب الإنسانية والمدنية مما يؤكد ما أسلفناه وأن أوربا إنما تتظاهر بهذه
+                        الأمور لتقضي على المسلمين سلمياً وأن <pb ed="shamela"
+                   n="n17-p11"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P499.xhtml"/> القصد هو استئصال
+                        شأفة المسلمين لمخالفتهم في الدين وتعلقهم بخليفة المسلمين وإلاَّ فلمَ تغير
+                        هذه الدول على الشعوب الإسلامية الآمنة في سربها. الخافضة جناح الرحمة
+                        لمواطنيها ومساكنيها من غير ما ذنب سابق ولا عدوان موجب؟ هاج لذلك الشعب
+                        الإسلامي في سائر أقطار الأرض وعرف ما تريده هؤلاء الدول الغريبة فأظهروا
+                        تعلقهم بعرش الخلافة الأقدس ونهضوا لمساعدة إخوانهم الطرابلسيين لما بينهم من
+                        الرابطة الدينية المحكمة التي تجمع المسلمين في مشارق الأرض ومغاربها فقام
+                        الشيخ السنوسي ينادي بالجهاد ويدعو الناس للدفاع عن إخوانهم في الدين، وعقد
+                        الهنديون الاجتماعات وأقاموا الاحتجاجات وطلبوا من حكوماتهم ردع إيطاليا عن
+                        اعتدائها الفظيع وعرض الإمام يحيى على دولة الخلافة مائة ألف مجاهد لإنقاذ
+                        إخوانهم من ظلم الأعداء الجائرين وأعلن مجتهدوا الشيعة وجوب الجهاد على كل مسلم
+                        ومسلمة لإعلاء كلمة الدين ورد كيد الظالمين.</p>
+                    <p>وقام المصريون بما يسطره لهم التاريخ بمداد الذهب فأظهروا عطفهم على الأمة
+                        الإسلامية وتعلقهم بالدولة العثمانية فعقدوا الجمعيات وجمعوا الإعانات الطائلة
+                        وبذلوا أموالهم وأنفسهم في سبيل الله.</p>
+                    <p>فظهرت بهذه الأعمال الرابطة الدينية بأجلى مظاهرها وعرف الناس عامة فضل تلك
+                        الرابطة وأنها قائمة بحول الله تعالى على أسس قوية لا تنقصها أحلام المتفرنجين
+                        وأنه لا حياة لهم إلا بها فتلفت أنظار المفكرين من علماء الدين إلى اغتنام
+                        الفرصة والسعي وراء إيجاد طرق للتعارف بين المسلمين ليستفيدوا من رابطتهم
+                        الدينية ويسعوا يداً واحدة لإيقاف هذا السيل الجارف الذي كاد يكتسح عموم
+                        الممالك الإسلامية علهم يرجعون إلى سالف عزهم وسامق مجدهم. حقق الله الآمال.
+                            <pb ed="shamela"
+                   n="n17-p12"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P500.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>في طرابلس</head>
+                    <lg>
+                        <l type="bayt">
+                            <seg>هو النصر معقودُ برايتنا الحمرا </seg>
+                            <seg> على أنه في الحرب آيتنا الكبرى</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>حليفان من نصر مبين وراية </seg>
+                            <seg> به وبها تعلو على غيرنا قدرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>لئن أدبر التليان عند كفاحنا </seg>
+                            <seg> فخذ لهم من سيف سطوتنا عذرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فإنا لقوم إن نهضنا لحادث </seg>
+                            <seg> من الدهر أفزعنا بنهضتنا الدهرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ندك هضاب الأرض حتى نثيرها </seg>
+                            <seg> غباراً على أعدائنا ينثر الذعرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ونأكل هول الموت حتى كأننا </seg>
+                            <seg> نلوك به ما بين أضراسنا تمرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فسل جيش (قاناوا) بنا كيف قومت </seg>
+                            <seg> شفار مواضينا خدودهم الصعرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وكيف دحرنا فلولواً كأننا </seg>
+                            <seg> وإياهم أسد الشرى تطرد الحمرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وكم قد نثرنا بالسيوف جماجماً </seg>
+                            <seg> نظمنا بها فوق الثرى للعدى شعرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وما جزعي للحرب يحمي وطيسها </seg>
+                            <seg> ولكن لأرواح بها قتلت صبرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>لك الله يا قتلى طرابلس التي </seg>
+                            <seg> بها حكم التليان أسيافهم غدرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>أداموا بها قتل النفوس نكاية </seg>
+                            <seg> إلى أن أصاروا كل بيت بها قبرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ولما أحاط المسلمون بجيشهم </seg>
+                            <seg> فعاد الفضاء الرحب في عينه شبرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>تقهقر يبغي في الديار تحصناً </seg>
+                            <seg> فقربها من خشية الموت واستذرى</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وقد ظل ينكي أهلها من تغيظ </seg>
+                            <seg> فيقتلهم صبراً ويرهقهم عسرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فأوسعهم بالسيف ضرباً رقابهم </seg>
+                            <seg> وآنافهم جدعاً وأجوافهم بقرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وماضرَّ (قاناوا) اللعين لو أنه </seg>
+                            <seg> تقحم في الهيجاء عسكرنا المجرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>أيحجم عنا هارباً بعلوجه </seg>
+                            <seg> ويبغي بقتل الأبرياء له فخرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وهل حسبوا قتل النساء شجاعة </seg>
+                            <seg> وقد تركوا عند الرجال لهم ثأرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>لقد شجعوا والموت ليس له يد </seg>
+                            <seg> ولم يشجعوا والموت يطعنهم شزرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>يعز على أسيافنا اليوم أنها </seg>
+                            <seg> تقارع قوماً هم بقرع العصا أحرى</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ولم تك لولا الحرب تعلو سيوفنا </seg>
+                            <seg> رؤوساً نرى ملء القحوف بها عهرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ومن مبكيات الدهر أو مضحكاته </seg>
+                            <seg> لدى الناس حر لم يكن خصمه حرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>لئن أيها القتلى أريقت دماؤكم </seg>
+                            <seg> فما ذهبت عند العدى بعدكم هدرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>سنثأر حتى تسأم الحرب ثأرنا </seg>
+                            <seg> ونقتل عن كل امريء أنفساً عشرا </seg>
+                        </l>
+                        <l type="bayt">
+                            <seg> وإني ليغشاني إذا ما ذكرتكم </seg>
+                            <seg> لواعج هم ترتمي في الحشا جمرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>على أن قرص الشمس عند غروبها </seg>
+                            <seg> يذكرني تلك الدماء إذا احمرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فأبكي تجاه الغرب والبدر لائح </seg>
+                            <seg> من الشرق حتى أبكي الشمس والبدرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ويا أهل هاتيك الديار تحية </seg>
+                            <seg> توفيكم الشكر الذي يرأس الشكرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فقد قمتم للحرب دون بلادكم </seg>
+                            <seg> تذودون عن أحواضها البغي والنكرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وثرتم أسوداً في الوغى يعربية </seg>
+                            <seg> إذا كل سيف في براثنها ظفرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>تراها لدى الحرب العوان مشيحة </seg>
+                            <seg> تهمهم حتى تنطق الفتكة البكرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ولو أن كفي تستطيع تناوشاً </seg>
+                            <seg> فتبلغ في أبعادها الأنجم الزهرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>لرتبت منها في السماء قصيدة </seg>
+                            <seg> لكم واتخذت البدر في رأسها طغرى</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وخلدتها آياً لكم سرمدية </seg>
+                            <seg> مدائحها تستوعب الكون والدهرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>يقولون أن العصر عصر تمدن </seg>
+                            <seg> فما باله أمسى عن الحق مزورا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>إلى الله أشكو في الورى جاهلية </seg>
+                            <seg> يعدون فيها من تمدنهم عصرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>أتتنا بثوب العلم تمشي تبخترا </seg>
+                            <seg> فإن أظهرت حلواً فقد أبطنت مرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>لقد ملك الإفرنج أمر مراكش </seg>
+                            <seg> وقد ملكوا من قبها تونساً قهرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ففاجأنا التليان من أجل ملكهم </seg>
+                            <seg> لكي يسلبونا في طرابلس الأمرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>وقالوا ألم تأت الفرنجة تونساً </seg>
+                            <seg> وهذي جيوش الإنجليز أتت مصرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فخلوا لنا ما بين هذي وهذه </seg>
+                            <seg> وإلا قسرناكم على تركها قسرا</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فقلنا لهم إنا أحق بملكها </seg>
+                            <seg> فقالوا ولكن زند قوتنا أورى</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>أهذا هو العصر الذي يعونه </seg>
+                            <seg> فسحقاً ودفراً له دفراً</seg>
+                        </l>
+                    </lg>
+                    <p>الأستانة</p>
+                    <p>معروف الرصافي <pb ed="shamela"
+                   n="n17-p14"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P502.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>أقوال العلماء في التمثيل</head>
+                    <p>4</p>
+                    <p>تحت هذا العنوان ننشر ما يرد إلينا من أقوال علماء الإسلام وفتاويهم في سائر
+                        الأقطار ليظهر حكم الله تعالى في هذه المسألة الخطيرة</p>
+                    <p>الجواب الحادي عشر للعالم الفاضل صاحب الإمضاء</p>
+                    <p>بسم الله الرحمن الرحيم الحمد لله رب العالمين والصلاة والسلام على سيد المرسلين
+                        وعلى آله وصحبه ومن تبعهم من العلماء العاملين إلى يوم الدين أما بعد فإني كنت
+                        أطالع مجلة الحقائق الغراء فرأيت فيها سؤالاً لبعض الفضلاء بعنوان رواية زهير
+                        الأندلسي يسأل فيه أهل العلم عن حكم تمثيل هذه الرواية وغيرها وقد أجاب
+                        العالمان الفاضلان الشيخ عارف أفندي المنير والشيخ محمد أفندي القاسمي في الجزء
+                        الثالث سؤاله وبينا حرمة ذلك وأثبتنا أنه منكر ولقد ساءَني ما رأيته في المفيد
+                        تعريضاً بهما لبعض المتفرنجين بلا دليل ولا روية بل حباً بنصرة أمثالهم
+                        المتجرئين على الدين بدون علم فأحببت أن أكتب ما خطر ببالي غير مبال بمن لا
+                        أخلاق لهم لا يعرفون إلا البذاءة وتنقيص أهل الفضل فأقول وبالله التوفيق أن
+                        التمثيل المعروف الآن مشتمل على عدة محرمات منها السمر بعد العشاء إلى نصف
+                        الليل في الغيبة واللهو المحظور وقد يكون ذلك سبباً لترك صلاة الفجر ومنها أن
+                        الرواية مشتملة على ممثلين غيروا هيئة وجوههم بوضع اللحى والشوارب المستعارة
+                        وفي ذلك تغيير لخلق الله المنهي عنه بالأحاديث الصحيحة أخرج البخاري في كتاب
+                        اللباس عن علقمة رضي الله عنه قال لعن عبد الله الواشمات والمتنمصات والمتفلجات
+                        للحسن المغيرات خلق الله فقالت أم يعقوب ما هذا قال عبد الله ومالي لا ألعن من
+                        لعن رسول الله وفي كتاب الله قالت والله لقد قرأت مابين اللوحين فما وجدته قال
+                        والله لئن قرأتيه لقد وجدتيه (وما آتاكم الرسول فخذوه وما نهاكم عنه فانتهوا)
+                        وقد لعن النبي صلى الله عليه وسلم فاعله فلنلعنه ومن فعل ذلك فهو ظالم وقال
+                        تعالى (ألا لعنة الله على الظالمين).</p>
+                    <p>وأخرج البخاري أيضاً في كتاب اللباس من حديث ابن عباس رضي الله تعالى عنهما قال
+                        لعن رسول الله صلى الله عليه وسلم المتشبهين من الرجال بالنساء والمتشبهات من
+                        النساء بالرجال. قال شارحه القسطلاني رحمه الله تعالى. لإخراج الشيء عن الصفة
+                        التي وضعها <pb ed="shamela"
+                   n="n17-p15"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P503.xhtml"/> أحكم الحاكمين كما
+                        ورد ذلك في لعن الواصلات بقوله صلى الله عليه وسلم المغيرات خلق الله. وفي
+                        الجامع الصغير (لعن الله الواشمات والمستوشمات والمتنمصات والتفلجات للحسن
+                        المغيرات خلق الله) قال العلامة المناوي وفيه أن ذلك حرام بل عده بعضهم من
+                        الكبائر للوعيد عليه باللعن أهـ وقال العلامة الحفني وخص النساء بالذكر في
+                        الحديث لكون الأغلب وقوع ذلك منهن فإن فعل ذلك الذكور كان الحكم كذلك فتبين من
+                        هذا أن ما يشتمل عليه التمثيل من تغيير وجوه الغلمان بوضع اللحى والشوارب
+                        المستعارة حرام وداخل تحت قوله عليه الصلاة والسلام المغيرات خلق الله لأن
+                        العلة في حرمة ذلك التغيير فينسحب على الرجال كما أشار لذلك العلامة الحفني
+                        ومنها كون بعض الممثلين مرداً يخشى من النظر إليهم الفتنة ومعلوم أن النظر إلى
+                        المرد بشهوة حرام قال في تنوير الأبصار (وتمنع المرأة الشابة من كشف الوجه بين
+                        الرجال لخوف الفتنة ولا يجوز النظر إليه بشهوة كوجه أمرد) قال العلامة ابن
+                        عابدين هنا ما ملخصه الأمرد الشاب الذي طر شاربه ولم تنبت لحيته والغلام إذ بلغ
+                        مبلغ الرجال ولم يكن صبيحاً فحكمه حكم الرجال وإن كان صبيحاً فحكمه حكم النساء
+                        وهو عورة من فرقه إلى قدمه وهذا شامل لمن نبت عذاره بل بعض الفسقة يفضله على
+                        الأمرد خالي العذار والمراد من كونه صبيحاً أن يكون جميلاً بحب طبع الناظر ولو
+                        كان أسود لأن الحسن يختلف باختلاف الطبائع ويستفاد من تشبيه وجه المرأة بوجه
+                        الأمرد أن حرمة النظر غليه بشهوة أعظم إثماً لأن خشية الفتنة به أعظم منها
+                        ولأنه لا يحل بحال بخلاف المرأة كما قالوا في الزنا واللواطة ولذا بالغ السلف
+                        في التنفير منهم وسموهم الانتان لاستقذارهم شرعاً قال بعضهم قال ابن القحطان
+                        أجمعوا على أنه يحرم النظر إلى غير الملتحي بقصد التلذذ بالنظر وتمتع البصر
+                        بمحاسنه وأجمعوا على جوازه بغير قصد اللذة والناظر مع ذلك آمن من الفتنة
+                        أهـ.</p>
+                    <p>ومنها اشتمال التمثيل على التشبه بالإفرنجة بلبس القبعة (البرنيطة) وهو من
+                        المحرمات المكفرات والعياذ بالله تعالى قال في الفتاوى الهندية في الجزء الثاني
+                        من باب المكفرات يكفر بوضع قلنسوة المجوس على رأسه على الصحيح إلا لضرورة دفع
+                        الحر والبرد أهـ.</p>
+                    <p>وقال في مجمع الأنهر ويكفر بوضع قلنسوة المجوس على الصحيح إلا لتخليص الأسير أو
+                        لدفع الحر والبرد عند البعض وقيل أن قصد به التشبه يكفر أهـ. <pb ed="shamela"
+                   n="n17-p16"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P504.xhtml"/> وأما
+                        قول معلم المدرسة في خطابه قد ورد الأمر فيه بالقرآن بقوله تعالى (فاعتبروا)
+                        الآية يفيد ذلك أن النبي صلى الله عليه وسلم ترك ذلك الفرض لأنه لم يبينه عليه
+                        الصلاة والسلام ولا أصحابه ولو بينه لوصل إلينا فيكون المعلم نسب النبي صلى
+                        الله عليه وسلم إلى الكتمان وحاشاه من ذلك لأنه لم يبلغنا ذلك وقد قال تعالى في
+                        كتابه العزيز (يا آيها الرسول بلغ ما أنزل إليك من ربك وإن لم تفعل فما بلغت
+                        رسالته والله يعصمك من الناس إن الله لا يهدي القوم الكافرين) وقد ثبت أن النبي
+                        صلى الله عليه وسلم بلغ جميع ما أمر بتبليغه عملاً بهذه الآية وحيث أنه بلغ
+                        جميع ما أمر بتبليغه ثبت أن التمثيل ليس من الاعتبار الوارد في الآيات بل هو
+                        الاعتبار بذكر الأمم الماضية والأنبياء الكرام والأمثال البليغة والتذكر في
+                        المخلوقات والاستدلال بالأثر على المؤثر وقوله أن التمثيل من مكارم الأخلاق
+                        الواردة في السنة ليس كما زعم وإلا لسبقنا السلف الصالح والأصحاب الكرام لأنهم
+                        رضي الله عنهم ما تركوا شيئاً من السنة الشريفة والأحاديث المنيفة إلا وعملوا
+                        به وما بلغنا أنهم نصبوا مسارح لأجل تشخيص الروايات فعلم أن الذهاب إلى
+                        الروايات حرام ولا يجوز التصدق باسمها كيف وهي من الأمور المحدثة والبدع
+                        المفسدة للأخلاق وقد قال عليه الصلاة والسلام إياكم ومحدثات الأمور الحديث.</p>
+                    <p>فبعد هذا هل يشك من له عقل وتمسك بالدين في حرمة فعل الروايات (التمثيل) وحرمة
+                        دفع الصدقة باسمها ورحم الله من قال وأجاد في المقال:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>وإذا أراد الله فتنة معشر </seg>
+                            <seg> وأضلهم رأووا القبيح جميلا</seg>
+                        </l>
+                    </lg>
+                    <p>حلب</p>
+                    <p>صلاح الدين</p>
+                    <p>الجواب الثاني عشر لحضرة العالم المحقق صاحب الإمضاء</p>
+                    <p>الحمد لله والصلاة والسلام على رسول الله وعلى آله وصحبه ومن والاه. أما بعد فقد
+                        اطلعت على السؤال الوارد في حكم التمثيل فسرحت الطرف في فتوى مولانا العلامة
+                        فضيلة مفتي بيروت وأجوبة العلماء الأعلام التي يقضي كل منها بتحريمه المحررة
+                        جميعها في أجزاء مجلة الحقائق الغراء فجزاهم الله عن الملة الحنيفية أعظم جزءاً
+                        فكم استلفتوا أنظاراً، ونبهوا أفكاراً، لأمر كثر ارتكابه، وعمت آثامه حيث
+                        أوضحوا المرام، وبينوا <pb ed="shamela"
+                   n="n17-p17"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P505.xhtml"/> الحلال من الحرام،
+                        بأدلة ساطعة، وبراهين قاطعة. كيف لا وهم من الأمة الوارد في شأنها قوله صلى
+                        الله عليه وسلم (لاتزال هذه الأمة قائمة على أمر الله لا يضرهم من خالفهم حتى
+                        يأتي أمر الله) ولله در السائل لقد اهتدى بهديه عليه الصلاة والسلام القائل
+                        العلم خزائن ومفتاحها السؤال فسلوا يرحمكم الله فإنه يؤجر فيه أربعة السائل
+                        والمعلم والمستمع والمحب لهم. غير أنه لقلة بضاعتي في العلوم خطر لي أوهام خيلت
+                        لي قبلاً أن التمثيل ربما يكون من المستثنيات عن حكم الكذب والمحاكاة المحرمين
+                        فراجعت أقوال السادة الحنيفة التي هي وسائر المسائل الفقهية ثمرة الكتاب
+                        والحديث فلم أرد أبداً من القول بالتحريم وها إني أذكر ما عنَّ لي على صورة
+                        الإيراد والجواب مستعيناً بالله ملهم الصواب.</p>
+                    <p>لا يقال أن الممثلين (بفتح الثاء) قوم انقرضوا ومضوا فلا وجه لحرمة غيبتهم لأنه
+                        لا فرق بين غيبة الحي والميت قال في الدر المختار الغيبة أنه تصف أخاك الخ قال
+                        في رد المحتار أي المسلم ولو ميتاً الخ والعقيدة الحقة التي نلقى الله عليها أن
+                        الميت يتألم ويتلذذ كالحي.</p>
+                    <p>وكذا لا يقال أن هؤلاء الممثلين مجهولون وغيبة المجهول ليست بغيبة لأن جهالة
+                        أشخاصهم مع معرفة أسمائهم وأنسابهم وألقابهم وأزمنتهم وأمكنتهم لا تؤثر في سقوط
+                        حرمة غيبتهم قال في الدر ولو اغتاب أهل قرية ليس بغيبةٍ لأنه لا يريد كلهم بل
+                        بعضهم وهو مجهول قال في رد المحتار مفهومه أنه لو أراد ذلك (أي كلهم) كان غيبة
+                        تأمل أهـ وما ذاك إلا لأن الكل معلومون ولو بأنسابهم دون أشخاصهم وما نحن فيه
+                        أولى.</p>
+                    <p>فإن قيل كانت العلة في تحريم الغيبة هي الإيذاء وهو إنما يوجد حيث أفهمت الغير
+                        ما يكرهه المغتاب فلربما لا يكره الممثلون محاكاتهم كما إذا مثلت الأمراء مثلاً
+                        على وجه لا يشعر بتنقيصهم بل بعدلهم ليقتدى بهم ومثل معهم من لا تحرم غيبته
+                        كالحربيين مثلاً على وجه يشعر بتنقيصهم بسبب ظلمهم لتنفر الناس عن أعمالهم فلم
+                        يلزم حينئذ حرمة التمثيل من أصله قلنا لا نسلم أن الممثلين لا يكرهون محاكاتهم
+                        حسبما صورته فإنا نجد من أنفسنا كراهة تشخيصنا على أي حال كان ولا شك أن تشخيص
+                        الأمراء تنقيص لهم قال في الدر المختار ومن ذلك (أي أنواع) الغيبة المحاكاة كأن
+                        يمشي متعارجاً أو كما يمشي مقابلاً لقوله متعارجاً دليل على أن الإنسان يكره
+                        محاكاته مطلقاً على أن مناط العلة في التحريم الكراهة ولو في الجملة إذ عدم
+                        كراهة شخص لشيء يوصف به والحال أنه يكرهه من سواه إن <pb ed="shamela"
+                   n="n17-p18"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P506.xhtml"/> وصف به
+                        يعد غيبة إن وصف به بدليل حرمة غيبة الصبي والمجنون وإن لم يعقلا الكراهة
+                        والإيذاء ولم يكن لهما من يتأذى بذلك من الأقارب كما ذكر ذلك في رد المحتار عن
+                        ابن حجر بقي هنا صورة وهي ما إذا كان جميع الممثلين من الذين لا تحرم غيبتهم
+                        كالحربيين ولم يوجد محظور من نحو تخنث أو لبس قبعة فالظاهر عدم الحرمة من حيث
+                        ذلك وإن كان حراماً من حيث كونه كذباً كما سنبينه.</p>
+                    <p>هذا ما يراد من كونه جهة التمثيل غيبة أما ما يراد من جهة كونه كذباً فبيانه
+                        موقوف على بيان كونه كذباً وذلك من وجهين أحدهما إدعاء أن الممثلين (بكسر
+                        الهاء) هم أؤلئك القوم الغابرون. والثاني عدم خلو القصة التمثيلية عن زيادة أو
+                        نقص غير مطابق للواقع بصورة أنه صدق مطابق للواقع فيرد على الأول أنه مما يتيقن
+                        كذبه كمقامات الحريري مثلاً فإن الظاهر أن الحكايات عن الحرث بن همام والسروجي
+                        لا أصل لها فكيف يحرم كذب التشخيص دون كذب ما في المقامات وعلى الوجه الثاني أن
+                        القصة التمثيلية لها أصل معروف محقق فهي ككتب التاريخ وتحريمها دون التاريخ
+                        تحكم مع أن كتب التاريخ كثيرة تصنيفاً وقراءة وتعليماً وتعلماً. قلنا هذا إنما
+                        يرد أن لو كانت الروايات التمثيلية مجرد قصص خالية عن المحاكاة والتشخيص
+                        فحينئذٍ فيها وفي سماعها ما في التاريخ من تفصيل وتقسيم واختلاف مذاهب على
+                        اختلاف المقاصد والمآرب وللفقهاء في هذا المقام تحقيق للمرام فليرجع إليه من
+                        شاء وأما ما نحن فيه فحيث أن الروايات المنوه عنها بارزة بصورة التمثيل الذي
+                        ثبتت لدينا حرمته فلا يغتفر شيء من وجهي الكذب المذكورين.</p>
+                    <p>لا يقال إذا كان المقصود من التمثيل رياضة الصبيان ومن الريع إعانة الفقراء
+                        والمحتاجين فهلا يكون هذا المقصد مبيحاً لذلك والأمور بمقاصدها لأن المقاصد
+                        الحسنة لا تجعل الحرام مباحاً والصبيان في غنى عن هذه الرياضة وفيما جاء في
+                        جواب الأستاذ الشيخ محمد القاسمي الحلاق تحت عنوان فصل في رياضة الصبيان وفي ما
+                        كتبه الأستاذ الشيخ محمد عارف أفندي المنير تحت عنوان الإعانة بالوسائل المنكرة
+                        ما هو كافٍ لكل منصف هذا ما ظهر لفهمي القاصر والله أعلم وأستغفر الله العظيم
+                        (حمص)</p>
+                    <p>عبد القادر الخوجه.</p>
+                    <p>الجواب الثالث عشر للعلامة المفضال الأستاذ المحقق صاحب الإمضاء <pb ed="shamela"
+                   n="n17-p19"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P507.xhtml"/> بسم الله الرحمن
+                        الرحيم الحمد لله. والصلاة والسلام على رسول الله. أما بعد فإني قد اطلعت على
+                        سؤال في مجلة الحقائق موقعاً برمز ي ص وإني لوددت أن يكون هذا السائل قد صرح
+                        باسمه لا برمزه وقد طلب بيان حكم الله تعالى في هذا التمثيل الواقع على هذه
+                        الصورة بحضور كثير ممن كان بسمة أهل العلم وغيرهم من العوام الذين لا معرفة لهم
+                        بحله وحرمته فنقول جواباً عن ذلك. التمثيل المسؤول عنه حرام بإجماع من يعتد
+                        بإجماعه المسلمين لاشتماله على محرمات عديدة منها النظر إلى الغلمان المرد مع
+                        مااشتملوا عليه من إسدال الشعور وتسريحها وتلو الأجساد وتمايلها وترقيق الصوت
+                        ولين الكلام المعبر عنه بالتخنث أي التشبه بالنساء قال العلامة ابن حجر المخنث
+                        هو من يتخلق بخلق النساء حركة وهيئة وعليه حملت الأحاديث الواردة بلعنه أهـ
+                        باختصار وقال العلامة البيجوري ونظر الرجل إلى الأمرد الجميل بشهوة أو خوف فتنة
+                        فهو حرام بالإجماع ولا يختص ذلك بالأمرد الجميل بل النظر بشهوة حرام لكل ما لا
+                        يجوز الاستمتاع به ولو جماداً وضابط الشهوة كما قاله الغزالي أن يتأثر بجمال
+                        صورته بحيث يظهر من نفسه الفرق بينه وبين الملتحي ويعرف ذلك بميل النفس إلى
+                        القرب والملامسة وكثير من الناس ينظرون إلى الأمرد مع التلذذ بجماله والمحبة له
+                        ويظنون أنهم سالمون من الإثم لاقتصارهم على النظر دون إرادة الفاحشة وليسوا
+                        سالمين. ويحرم أيضاً استماع صوته إن تلذذ به أو خيف منه الفتنة كما بحثه
+                        العلامة الزركشي رحمه الله تعالى وأما الانحناء إلى قرب الركوع فنص الفقهاء على
+                        كراهته وأعظم من هذا كله لبس البرنيطة فإنهم عدوه من المكفرات قال الثقة ابن
+                        حجر في كتاب الردة عند قوله أو سجود لصنم أو شمس تنبيه وقع في المواقف وتبعه
+                        السيد الجرجاني في شرحه الخ ما نقله عنهما وقال ثم قالا ماحاصله أيضاً يلزم على
+                        تفسير الكفر بأنه عدم تصديق الرسول في بعض ما جاء به ضرورة تكفير من لبس الغيار
+                        مختاراً أي لبس ما كان مختصاً بغير المسلمين لأنه لم يصدق بالكل وذلك لأننا
+                        جعلنا اللبس الصادر عنه باختياره علامة على الكفر بناءً هنا على أن ذلك اللبس
+                        ردة فحكمنا عليه بأنه كافر لأنه غير مصدق أهـ كلامه وقال في كتاب التعزيز من
+                        سعى في إفساد النساء والغلمان ولم ينزجر إلا بحبسه حبس فعلى هذا لا يوجد تمثيل
+                        بالمعنى المصطلح عليه الآن إلا وقد اشتمل على محرمات عديدة فقد قام بهذا
+                        التمثيل أبو خليل القباني وسماه بالكميدا فقام على <pb ed="shamela"
+                   n="n17-p20"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P508.xhtml"/> إنكاره
+                        علماء زمانه حتى تصدر لإزالته المرحوم الشيخ سعيد أفندي الغبرة واستحصل أمراً
+                        سلطانياً بمنعه وأصدرت الحكومة أيضاً أوامر جديدة بمنع التمثيل في المدارس
+                        فحينئذٍ منعه واجب للأمر بإطاعة أولي الأمر قال تعالى (أطيعوا الله وأطيعوا
+                        الرسول وأولي الأمر منكم) وقال القسطلاني عند قوله صلى الله عليه وسلم لا ترفعن
+                        رؤوسكن حتى يستوي الرجال جلوساً ما نصه واستنبط من هذا الحديث النهي عن فعلٍ
+                        مستحب وهو متابعة المأموم للإمام في غير تخلفٍ خشية ارتكاب محذور وهو مظنة رؤية
+                        شيء من عورة الرجال أهـ بتصرف.</p>
+                    <p>فعلى هذا لو فرض أن للتمثيل فوائد فينبغي النهي عنه لاشتماله على كثير من
+                        المفاسد وأما قول أحد المعلمين مستدلاً على جواز هذا التمثيل بقوله تعالى
+                        (فاعتبروا يا أولي الأبصار) فهو حجة عليه لأن الاعتبار هو الاتعاظ بمن سبق من
+                        الأمم كيف حلّ بهم العذاب بارتكابهم المناهي وعدم امتثال الأوامر وأي اتعاظ
+                        يكون بهذا التمثيل المشتمل على أنواع من المحرمات كما تقدم لك ببيانه وقوله
+                        أيضاً مستدلاً على جواز هذا التمثيل بقوله صلى الله عليه وسلم إنما بعثت لأتمم
+                        الخ لا يخفى إن إنما للحصر فكأنه قال ما بعثت إلاَّ لأتمم مكارم الأخلاق وهو
+                        كذلك لأنه الخاتم لمن سبقه من الأنبياء عليهم وعلى نبينا أشرف الصلاة وأتم
+                        التسليم وإنما جاء من قبله بالبعض أو بالمعظم ولا يخفى أيضاً أن قوله مكارم
+                        الأخلاق هو من إضافة الصفة للموصوف أي الأخلاق الكريمة وهي الاتباع لسنة الله
+                        ورسوله فيكون به شريفاً ديناً صالحاً فأي خلق كريم بهذا التمثيل حتى يكون من
+                        جملة ما بعث لإتمامه عليه الصلاة والسلام وقد احتوى على محرمات وخرافات عديدة
+                        كما نقدم لك بيانه فإن قال ذلك المعلم أنه قد فعله النبي صلى الله عليه وسلم
+                        نقول هاتوا برهانكم إن كنتم صادقين بل تقوله الذين لا يعلمون وإن قال أنه لم
+                        يفعله لكنه من مكارم الأخلاق نقول هذا طعن بالرسالة فإنه يقتضي أنه لم يتمم وقد
+                        قال صلى الله عليه وسلم مستشهداً للصحابة إلا هل بلغن ثلاث مرات ليت شعري هل
+                        يجوز لنا أن نطلق اللسان ونقول هذا التمثيل من مكارم الأخلاق التي بعث النبي
+                        لإتمامها كلا والله قال صلى الله عليه وسلم وهل يكب الناس على مناخرهم أو على
+                        وجوههم إلا حصائد ألسنتهم وقول الممثلين إنما التمثيل فرض جاء في القرآن يستدل
+                        به على حصر هذا التمثيل بالفرضية ويستدل على الفرض أنه جاء به القرآن لأن <pb ed="shamela"
+                   n="n17-p21"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P509.xhtml"/> إنما للحصر فكأنه
+                        قال ما التمثيل إلا فرض بدليل أنه جاء به القرآن أقول لا يخفى على من له أدنى
+                        إلمام بفن من الفنون أو بفن الوضع فقط أن أل الداخلة على الأسماء وضعت لأن تدل
+                        إما على الاستغراق وهي التي يصلح في موضعها ما يدل على العموم كلفظة كل أو على
+                        الجنس وهي التي يشار بها إلى الماهية المتحققة في ضمن فرد من الأفراد أو على
+                        العهد الذكري وهي ما تدل على المذكور سابقاً على مدخولها أو على العهد الذهني
+                        أو الخارجي فالأول ما يشار بها إلى حصة معلومة في الذهن والثاني ما يشار بها
+                        إلى حصة معينة في الخارج فكأنه قال كل تمثيل أو ماهيته المتحققة في ضمن فرد أو
+                        المعهود ذهناً أو خارجاً فرض جاء به القرآن وأما العهد الذكري فلا سبيل إليه
+                        هنا إلا أن يقال أنه مذكور بالقوة فكأن السائل يقول ما حكم هذا التمثيل فقال
+                        إنما التمثيل فرض الخ فيتركب من هذا قياس منطقي فيقال هذا الدال على قول وفعل
+                        الأندلسيين تمثيل وكل تمثيل أو ماهيته أو المعهود ذهناً أو خارجاً أو ذكراً على
+                        ما سبق فرض جاء به القرآن فهذا الدال على فعل وقول الأندلسيين فرض جاء به
+                        القرآن وأنت خبير بفساد النتيجة لفساد المقدمة الكبرى فيسقط الاستدلال به على
+                        فرضية هذا التمثيل. فانظر يا أخي بعين الإنصاف هل من قائل بهذا؟ إن هذا لشيء
+                        عجاب ما سمعنا بهذا في الملة الآخرة إن هذا ألا اختلاق وهل مراده بالفرض المؤكد
+                        كما هو أحد معانيه أو الفرض العيني أو الكفائي وعلى كل لا قائل به لما يلزم
+                        عليه تأْثيم الكل إن قلنا أنه فرض عيني أو البعض على القول بأنه كفائي أو اللوم
+                        على القول بأن المراد به المؤكد كما سبق وهل المراد بالقرآن كل ما يقرأ كما هو
+                        أحد معانيه أيضاً والمراد به المنزل على سيدنا محمد المتعبد بتلاوته المتحدي
+                        بأقصى سورة منه وعلى كلٍ فهو غير مسلم لأنه على الأول ليس كل ما يقرأ يكون حجة
+                        على الفرضية وعلى الثاني لم يسمع بآية تدل على فرضية تمثيل فعل الأندلسيين هذا
+                        ما يسره الله تعالى في هذا المعنى. ثم رأيت في جريدة المفيد في عدد 847 مقالة
+                        بإمضاء مشاهد يدعي أن الممثلين لم يقولوا إنما التمثيل فرض جاء في القرآن وإنما
+                        قالوا إن ذكر الماضي فرض جاء في القرآن يظن صاحب المقالة أنه قد خلص الممثلين
+                        مما وقعوا فيه وليس كذلك من وجوه منها أن إنكاره للبيت الأول واعترافه بالبيت
+                        الثاني واعتراف بخطأ البيت الأول ومنها أن جميع ما قيل في البيت الأول يقال في
+                        البيت الثاني عيناً بعين كما لا يخفى على المتأمل ومنها قوله <pb ed="shamela"
+                   n="n17-p22"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P510.xhtml"/> إن ذكر
+                        الماضي الخ يرد عليه أن الممثلين فعلوا وما اقتصروا على الذكر فالدليل غير
+                        المدعى كما هو ظاهر وأما استهزاؤه بمن كتب في التمثيل من جلة العلماء الأعلام
+                        فالجواب عنه ما أجاب الله تعالى من استهزأ بمن آمن بالله ورسوله (الله يستهزئ
+                        بهم ويمدهم في طغيانهم يعمهون).</p>
+                    <p>وفي الختام نقدم النصيحة لآباء الأولاد أن يحفظوا عليهم آدابهم وأخلاقهم فلا
+                        يرموا بهم في المدارس التي تفسد تربيتهم وتضيع أوقاتهم فإن للأبناء حقوقاً على
+                        الآباء منها تحسين الأسماء وتعليمهم ما يلزم من أحكام الشريعة المطهرة وتأديبهم
+                        بآداب النبي صلى الله تعالى عليه وسلم وتمرينهم على سلوك طريقته وفقنا الله
+                        لاتباعه وأماتنا على سنته.</p>
+                    <p>دمشق</p>
+                    <p>عبد الوهاب الشركة</p>
+                    <p>الجواب الرابع عشر لأحد علماء بيروت الأفاضل</p>
+                    <p>قيل لي ألا تكتب في مسألة تمثيل الروايات من حيث حلها أو حرمتها فقلت لقد كتب
+                        جملة من الأفاضل العلماء وكشفوا القناع عن حقيقة المسألة فهل بعد قول أولئك
+                        الأفاضل اعتراض لمعترض ولكني مع هذا أتطفل فأقول:</p>
+                    <p>إن التمثيل بالنسبة إلى الإفرنجة يجوز عده من الفضائل إن جاز نسبته الفضيلة
+                        إليهم وذلك لأنه يظهر لهم قبائح الوقائع الماضية ومحاسنها عياناً فينهجون على
+                        ما يظهر لهم حسنه ويجتنبون قبيحه كأحوال الملوك الظلمة وغيرها وأما بالنسبة
+                        إلينا نحن المسلمين فلا يعد فضيلة لأن لنا شريعة كاملة تكفلت لنا ببيان كل حسن
+                        وقبيح في دنيانا وديننا وعلمتنا الجزئيات والكليات من سياسة الممالك إلى كيفية
+                        دخول الخلاء ولكن لما تركنا العمل بها أخذنا نقلد الإفرنجة فيما يلهون به دون
+                        جدياتهم نرجو بذلك الاهتداء لإصلاح أمر دنيانا معرضين عن أمر ديننا وهيهات فما
+                        دمنا على هذه الحالة لا نزداد إلاَّ انحطاطاً. التمثيل إن خلا عن منكر وهيهات
+                        فهو أقرب إلى اللعب منه إلى الجد ولو كان فيه كما يقولون اعتبار لمثل الشارع
+                        صلى الله عليه وسلم لأصحابه ما كرر الله تعالى ذكره في كتابه العزيز من إهلاك
+                        الأقوام السالفة وغيره والعاقل يتعظ بالإشارة على أن في مسرح الوجود وفي
+                        الوقائع الحاضرة من العبر ما يغني عن مسارح التمثيل التي هي في الحقيقة ملاهي
+                        ومراقص. <pb ed="shamela"
+                   n="n17-p23"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P511.xhtml"/> التمثيل كان
+                        معروفاً عند الرومان ومسارحهم باقية إلى اليوم في بعض البلدان فلماذا لم يدخله
+                        إلينا الخلفاء السالفون كالمأمون وإضرابه وقد أدخلوا علومهم من العقليات
+                        والرياضيات والفلكيات ألم يكن لأولئك الرجال من التمييز بين الغث والسمين
+                        مالشباننا المتفرنجين؟.</p>
+                    <p>ثم إن حضور بعض من تزيا بزي العلماء تلك المسارح لا يكون حجة على إباحة التمثيل
+                        ولقد كنا نرى البعض يحضرون مسارح (القباني) ورواياته في دمشق وفيها ما لا يخفى
+                        من التهتك ثم لو فرضنا حصول الاعتبار بشهود الرواية الخالية من المنكر إن فرض
+                        خلوها من قبيل فرض المحال فهل يوازي ذلك الاعتبار تضييع صلوة الفجر عند من يصلي
+                        من أنصار التمثيل أو يعتقد مشروعية الصلاة. وهؤلاء نأمل من الله أن يكونوا قد
+                        اقتنعوا بما كتبه علماء الدين في الحقائق.</p>
+                    <p>أما التاركون للصلاة الجاحدون لها فلا كلام لنا معهم وإنما نبين ما صح عن الشارع
+                        صلى الله عليه وسلم فيهم ليكون الناس على بينة في اجتنابهم ولتقوم الحجة على
+                        المؤثرين لأتباعهم.</p>
+                    <p>روى البخاري ومسلم في صحيحها وغيرهما من أصحاب السنن عن علي رضي الله عنه أنه
+                        قال إذا حدثتكم عن رسول الله صلى الله عليه وسلم فلأن أخرُّ من السماء فتخطفني
+                        الطير أحب إليَّ من أن أكذب عليه سمعته يقول سيخرج في آخر الزمان قوم أحداث
+                        الأسنان سفهاء الأحلام يقولون من خير قول البرية يمرقون من الدين كما يمرق
+                        السهم من الرمية لا يجاوز إيمانهم حناجرهم إلى آخر الحديث وقد أخرجه البخاري في
+                        الجزء الرابع من صحيحه في كتاب الفتن فليراجع.؟ وقد تكلم الشراح على هذا الحديث
+                        فقال البعض أن علياً رضي الله عنه أراد بهؤلاء الخوارج الذين قاتلهم وأولوا آخر
+                        الزمان بآخر زمان الخلفاء الراشدين.</p>
+                    <p>وقال بعض الشراح لا يمتنع تكرر الخروج فكما خرج هؤلاء في آخر زمن خلافة النبوة
+                        فيجوز أن يخرج أيضاً في آخر الزمان قوم على تلك الصفة سيما ولفظ الحديث يساعد
+                        ذلك لإطلاق آخر الزمان أهـ وعندي أن هؤلاء اليوم هم بعض المتفرنجين النابذين
+                        للدين ظهرياً ولأجل تأييد ذلك فلنطابق بين ألفاظ الحديث وبين حالهم قوله صلى
+                        الله عليه وسلم (أحداث <pb ed="shamela"
+                   n="n17-p24"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P512.xhtml"/> الأسنان) وهو كذلك
+                        يسمون أنفسهم بالشبان المتنورين حتى إن من تقدم منهم في السن نوعاً يتزيا بزي
+                        الشبان في الملبس والتزيين وحلق اللحية والتخنث في الكلام حتى وفي الكتابة
+                        أيضاً وقوله عليه الصلاة والسلام سفهاء الأحلام ينطبق عليهم. من سفه أحلامهم
+                        تضليلهم السلف وطعنهم في مذاهب الأئمة ونظرهم لكتب الفقه بالاستخفاف مع أن كتب
+                        أصول الفقه تقرأ اليوم باللغة العربية في بعض كليات أوربا لأجل التضلع في علم
+                        الحقوق وهم يزعمون أن أوربا هي منشأ العلوم فهلا اقتدوا بأهل أوربا في تعلم
+                        الفقه الإسلامي؟ ومن ذلك تدرك مقدار سفه أحلامهم. وقولاه صلى الله عليه وسلم
+                        يقولون من خير قول البرية أي أنهم خطباء كتبة شعراء (وإن يقولوا تسمع
+                        لقولهم).</p>
+                    <p>تقدم أن بعض شراح الحديث قالوا في هؤلاء الخوارج المرادين بقوله صلى الله عليه
+                        وسلم سيخرج في آخر الزمان الحديث أنه لا مانع من تكرر خروجهم فمنهم من خرج في
+                        آخر زمن الخلافة ومنهم من يخرج في آخر الزمان وعلى كلٍ فإن بين الذين خرجوا على
+                        أمير المؤمنين علي كرم الله وجهه وبين الموجودين اليوم بين ظهرانينا شبه ظاهر
+                        لا ينكر على بعد العهد وتقادم الزمن وسآتيك على ذلك بالبرهان الساطع فأقول:
+                        اطلعت منذ عامين على مقالة في إحدى جرائد بيروت لبعضهم ذكر فيها الخوارج الذين
+                        تآمروا على قتل علي رضي الله عنه وكرم وجهه وعلى قتل معاوية وعمرو رضي الله
+                        عنهما والشروط التي وضعوها لإقامة جمهورية لو تمَّ لهم قتل الثلاثة.</p>
+                    <p>يريد الكاتب أن هؤلاء الخوارج من قتلهم الإمام علياً رضي الله عنه وتصديهم لقتل
+                        معاوية وعمرو بن العاص رضي الله عنهما من أجل تأسيس الجمهورية هو أمر إسلامي
+                        مشروع وكنت وقتئذٍ عرضت المقالة على ناظم باشا أيام ولايته في بيروت فحال دون
+                        تتبعها مانع.</p>
+                    <p>فهذه المقالة التي استحسن فيها صاحبها فعل الخوارج الذين اغتالوا الإمام علياً
+                        رضي الله عنه وأرادوا اغتيال معاوية وعمرو بن العاص رضي الله عنهما اللذين يقول
+                        فيهما مؤرخوا الإفرنجة (لولا معاوية بالشام وعمرو بمصر لما ثبت الإسلام في هذين
+                        القطرين) هي دليل قاطع على أن بين هؤلاء الموجودين اليوم بين ظهرانينا وبين
+                        الخوارج الذين قاتلهم علي رضي الله عنه صلة ظاهرة.</p>
+                    <p>فقد ظهر لك معدن هؤلاء فماذا عسى أن يكون تمثيل الروايات بازاء هذه الآراء <pb ed="shamela"
+                   n="n17-p25"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P513.xhtml"/> والمعتقدات (وما
+                        تخفي صدورهم أكبر) نسأل الله أن يلهمنا رشدنا ويتولى هدانا أجمعين. <pb ed="shamela"
+                   n="n17-p26"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P514.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>الإصلاح ومنتحلوه</head>
+                    <p>عود على بدء</p>
+                    <p>يأسف العاقل حين يرى هذا القلب الفخيم، والنعت الكريم، (الإصلاح) وقد أصبح
+                        ينتحله حثالة الناس وطغمتهم، وشرار الناس وفسقهم، فمن جاهل عنده ولا علم، ولا
+                        عقل له ولا فهم، ولا عدة له إلا ما تعوذه من أفانين البذاءة وأنواع الشتائم
+                        وثلب أعراض الناس بالباطل، ومن عالم قد خلف الشيطان في تضليله، وناب عنه في
+                        تلبيس الباطل بصورة الحق والتلاعب بأحكام الدين، ساعد على ظهور هؤلاء السفلة
+                        بمظهر المصلحين جهل الأمة وسكوت العلماء عنهم برهة من الزمن موهوا في خلالها
+                        على عقول بسطاء الناس وانخدع بهم بعض الجهلة الأغرار فزادوا غياً على غيهم
+                        وضلالاً على ضلالهم.</p>
+                    <p>دعوى الإصلاح وحب الرقي والتقدم كثيرة ولكن الدعوى الفارغة لا تقلب الباطل حقاً
+                        ولا تجعل الكذب صدقاً فإنا رأينا هؤلاء المتفرنجين الذين يسمون أنفسهم المصلحين
+                        يتلاعبون بدين الله ويفسرون كتاب الله وحديث رسوله صلى الله عليه وسلم بمقتضى
+                        أهوائهم وينشرون البدع والأضاليل بين العامة ويقعدون عن تعظيم النبي صلى الله
+                        عليه وسلم حين يعظمه المسلمون ويكفرون أهل القبلة لأنهم يتوسلون إلى الله في
+                        حاجاتهم.</p>
+                    <p>رأيناهم يدعون إلى الفواحش والتياترو والتمثيل والللهو والفسق على صفحات جرائدهم
+                        ويحترفون بالسمسرة إلى المدارس الأجنبية ويرغبون الناس في الدخول إليها.
+                        رأيناهم يفرقون بين العناصر والملل ويسقطون من هيبة الحكومة بمفترياتهم ويطلبون
+                        خروج النساء المسلمات مكشوفات الرؤوس متبذلات أمام الفساق. رأيناهم تساق عليهم
+                        الدلائل الواضحة والحجج الناصعة والبراهين التي لا ينكرها إلا مكابر ولا يرفضها
+                        إلا جاهل أو متجاهل فينكرون ويستكبرون ويموهون ويدلسون وإذا ذُكروا لا يذكرون.
+                        رأيناهم ولا همَّ لهم إلا مقاومة العلماء وشتم الصلحاء وإيذاء كل من ينتمي
+                        للدين ويتمسك بشريعة سيد المرسلين وهو من الذين آمنوا يضحكون، وإذا مرّوا بهم
+                        يتغامزون وإذا رأوهم قالوا إن هؤلاء لضالون. رأيناهم والعجب ملء قلوبهم والغرور
+                        مستولٍ على أفئدتهم والتفرنج آخذ بنواصيهم يسوقهم إلى الضار من هذه المدنية
+                        الغربية حتى أن تعلقهم بما لا ينطبق على الشرع منع أشد وحرصهم عليه أكيد.
+                        رأيناهم إذا ذكر لهم قول عالم من علماء أوربا أكبروه <pb ed="shamela"
+                   n="n17-p27"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P515.xhtml"/> وأخذوه
+                        قضية مسلمة لا ريب فيها وإذا قيل لهم قال الله ورسوله طفقوا يؤولونه على حسب
+                        أغراضهم مما لا يرضاه الله ورسوله.</p>
+                    <p>رأيناهم إذا ولي عليهم رجل يحب الدين وينصره ويهجر الفسق ويقاومه سلقوه بألسنة
+                        حداد وآذوه بكل أنواع الإيذاء ولقبوه بالمتدين الصالح سخرية واستهزاء. كل ذلك
+                        وأضعاف أضعافه يجنيه أولئك الذين يسمون أنفسهم (المصلحين) ثم إذا زجرهم علماء
+                        الدين الذين انقطعوا للعلم والتعليم ووقفوا أنفسهم لخدمة الدين قاموا عليهم
+                        يشتمونهم ويموهون على العامة بأنهم يتكلمون بذلك لحاجة في نفسهم أو عداء
+                        للإصلاح ورفضاً لكل جديد مع أن أولئك العلماء لم يقاوموهم بالحجة ولم يطلبوا
+                        منهم إلا أن يرجعوا إلى الحق ويعترفوا به ولكن ما دام أولئك المغرورون يعتقدون
+                        بنفسهم الإصلاح ويتبجحون بالباطل من قادتها أن يضعوا حداً لذاك الأمر الذي إذا
+                        دام على هذا النسق كان سبباً لفساد الأمور وضياع الحقيقة. من لنا بأن يعرف
+                        هؤلاء السفلة أقدارهم ويقفوا عند حدودهم ويرجعوا عن تضليل العامة والتسلط على
+                        الخاصة فإنهم لا تقنعهم الحجة ولا يردعهم البرهان. لهم قلوب لا يفقهون بها ولهم
+                        أعين لا يبصرون بها ولهم آذان لا يسمعون بها أولئك كالأنعام بل هم أضل.</p>
+                    <p>فاللهم ألهم العلماء أن يصرفوا أوقاتهم إلى تحذير العامة من غوايتهم وأضاليلهم
+                        وأنزل على أوليائك روحاً من عندك وهبهم ثباتاً على إظهار دينك والانتصار
+                        لشرعك.</p>
+                    <p>ونصيحتنا لهؤلاء الذين يغررون بالأمة في أقوالهم وأفعالهم أن يذكروا يوماً
+                        يرجعون فيه إلى الله يوم تشهد عليهم ألسنتهم وأيديهم وأرجلهم بما كانوا يعملون
+                        ويرجعوا عن تضليل العامة وتسفيه الخاصة والتلاعب بدين الله وأن يعلموا على ما
+                        يرقي الأمة إن استطاعوا فإن تولوا فما علينا إلا البلاغ. <pb ed="shamela"
+                   n="n17-p28"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P516.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>البقاء لله</head>
+                    <p>لموت قبيلة أيسر من موت عالم</p>
+                    <p>حديث شريف</p>
+                    <p>رزأت دمشق بفقد نخبة من خيرة علمائها، وصفوة أتقيائها وفضلائها، فجلّ بذلك
+                        الخطب، وعظمَ المصاب، وحلت عرى الجلد، وهدمت دعائم الصبر، ولكن ما الحيلة وقد
+                        كتب الله الموت على خلقه، وقضى بذلك قضاءً حتماً على عباده، ولا رادّ لقضاء
+                        الله فاجئتنا الأيام وداهمتنا الليالي بفادحة عظيمة كورت ثلاث شموس من أفضل
+                        علمائنا المبرزين. بكى عليهم العلم والفضل وآسف عليهم الأدب والنبل. وهم الحسيب
+                        النسيب، شيخ الشيوخ في دمشق المعمر المدقق البركة الصالح الأستاذ الشيخ عبد
+                        الله الركابي الشهير بالسكري والعلامة المفضال سليل بيت العلم والمج، صاحب
+                        العفة والاستقامة الشيخ رضا الحلبي مفتي دمشق الشام والعلامة النبيل، آية الأدب
+                        والفضل، الورع الصالح، صديقنا الشيخ محمد أبي الخير الطباع مؤسس وصاحب المدرسة
+                        الوطنية بدمشق. وقد كان لموتهم رنة أسف عمت القاصي والداني، والقريب والبعيد.
+                        مصاب أدمى القلوب، وأجرى الدموع، وأسال الآماق وكأن لسان الحال يقول:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>ولو كان سهماً واحداً لأتقيه </seg>
+                            <seg> ولكنه سهم وثانٍ وثالث</seg>
+                        </l>
+                    </lg>
+                    <p>فإنا لله وإنا إليه راجعون. وهنا يحسن بنا أن نذكر كلمة عن هؤلاء الأفاضل خدمة
+                        للعلم، وقياماً بواجب فضلهم عليهم من الله الرحمة والرضوان.</p>
+                    <p>العلامة الشيخ عبد الركابي السكري</p>
+                    <p>ولد رحمه الله سنة 1230 للهجرة بدمشق وتلقى علوم الفقه والكلام والتفسير والأصول
+                        والحديث واللغة والنحو والصرف والبيان وغيرها عن إجلاء قادة، وهداة سادة، من
+                        أفضلهم العلامة العمدة البركة محدث الديار الشامية الشيخ عبد الرحمن الكزبري
+                        والعلامة المحقق المدقق رأس الفقهاء الشيخ سعيد الحلبي والعلامة المحدث المفسر
+                        الصالح البركة الشيخ حامد العطار والعلامة المتفنن الورع شافعي عصره الشيخ عبد
+                        الرحمن الطيبي فحاز قصبات السبق في المعقول والمنقول وصار مرجع أهل عصره،
+                        وانقطع للقراءة والإقراء والتأليف، وعُين مدرساً للبخاري الشريف تحت قبة النسر
+                        بين العشائين وخطيباً لجامع <pb ed="shamela"
+                   n="n17-p29"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P517.xhtml"/> الشيخ الأكبر
+                        ورئيساً لمشيخة جامع بني أمية. وقد انفرد بعلو الإسناد حتى نقل عن بعض مشايخه
+                        أنه قال (وسندي هذا اليوم أعلا سند على وجه الأرض) وله التآليف العديدة،
+                        والتصانيف المفيدة في كثير من العلوم. وقد قال في بعضها (ومع ذلك لي بحمد الله
+                        تعالى نيف وعشرون مؤلفاً منها ما تم ومنها ما لم يتم فمن أعظمها كتابي المسمى
+                        بنعمة الباري شرح صحيح الإمام البخاري) وله كتاب شرح عقيدة الباجوري. وشرح على
+                        السنوسية، ورسالة في الإضافة لياء المتكلم، ورسالة في التهنئة بالأعياد، ورسالة
+                        في إغاثة الملهوف. وثبت جمع فيه إجازاته من شيوخه سماه تنبيه الإفهام في بيان
+                        صور إجازاتي من مشايخ الإسلام وقد انتفع منه خلق كثيرون منهم العلامة المفضال
+                        التقي الورع أوحد الفقهاء شيخنا الشيخ عطا الكسم والعالم التقي الحسيب النسيب
+                        السيد عبد الكريم أفندي الحمزاوي والعالم العامل الزاهد المرحوم الشيخ محمد
+                        الشاش وأخو الفقيد لأمه العالم الصالح المرحوم الشيخ عبد اللطيف الذهبي وغيرهم.
+                        وعمر حتى بلغ من العمر ما يقرب من مائة عام وكانت وفاته في الليلة الثالثة عشر
+                        من شوال سنة 1329 ودفن في مدفن خاص في تربة باب الصغير تغمده الله رحمته،
+                        وأدخله فسيح جنته.</p>
+                    <p>العلامة الشيخ رضا الحلبي</p>
+                    <p>هو العلامة المفضال الشيخ رضا ابن العلامة المحقق الجليل الشيخ أحمد ابن العالم
+                        العلامة الفقيه الورع الطائر الصيت الشيخ عبد الله ابن العلامة شيخ الشيوخ في
+                        عصره الحبر البحر الشيخ سعيد الحلبي. ولد رحمه الله بدمشق سنة 1379 وتلقى مبادئ
+                        العلوم في المدرسة الجقمقية وبعد أن تخرج فيها مدة سنتين واستوفى ما تدعو إليه
+                        حاجة المبتدي تاقت نفسه إلى الأخذ من العلوم بنصيب وافر فقرأ على والده وعلى
+                        العلامة المحدث المفسر الذائع الشهرة علماً وفضلاً الشيخ سليم العطار. وعلى
+                        العلامة الأوحد المنفرد بالتحقيق والتدقيق في جميع الفنون الشيخ محمد الطنطاوي
+                        وعلى العلامة المجمع على فضله صاحب التآليف العديدة مفتي دمشق الأسبق السيد
+                        محمود أفندي الحمزاوي وعلى العلامة الجليل المشهود له بالعلم والفضل الشيخ سعيد
+                        الأسطواني وغيرهم وبرع في الطلب حتى عد أوقد أقرانه ذكاءً وفضلاً واستقامة
+                        ونبلاً وفي سنة 1304 تقرر عليه تدريس البخاري الشريبف ودرس الفقه والوعظ في
+                        جامع بني أمية ثم في سنة 1317 وجهت عليه نيابة محكمة <pb ed="shamela"
+                   n="n17-p30"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P518.xhtml"/>
+                        الميدان فقام بها قيام الرجل الكفؤ قياماً دل على شرف في النفس، واستقامة في
+                        الأمر، ونزاهة في العمل، ثم عين سنة 1326 نائباً للمحكمة الشرعية الكبرى فكان
+                        أيضاً مثال النزاهة والعفة، جمع للقوة الإجرائية الرحمة والرأفة فكم أنقذ
+                        مظلوماً، وأغاث يتيماً، وأعان أيما ثم في سنة 13219 انتخب مفتياً لدمشق فزاد
+                        لطفاً على لطفه، وتواضعاً على تواضعه، وحسن مودة لمن يعرفه ولمن لا يعرفه، مما
+                        أوجب له الثناء من عموم معارفه والمترددين عليه وكان يظن لو امتد به الأجل أن
+                        ينفع وطنه، ويرقي شأن العلم والعلماء ولكن عاجله الأجل فانتزع من بين الآلاف من
+                        أصحابه وأحبابه، ولبى داعي ربه ليلة الجمعة لثلاث ليال خلون من ذي الحجة سنة
+                        1329 وفي صبيحة يوم الجمعة ماجت الأرض بالألوف من الناس على اختلاف طبقاتهم
+                        ومراتبهم الأمير والحاكم، والتاجر والعالم والغني والفقير، والصغير والكبير،
+                        ودلائل الأسف والحزن بادية على كل وجه، وأكثرهم يردد عبارات الحوقلة والترجيع
+                        حتى وصلوا به إلى مدفنه في مقبرة الدحداح حيث واروا جسده الكريم ثم انفضوا
+                        راجعين وألسنتهم رطبة بالثناء على عفته ونزاهته، واستقامته وكرائم خصاله. فنسأل
+                        الله له الرحمة والإحسان.</p>
+                    <p>العلامة الشيخ محمد أبو الخير الطباع</p>
+                    <p>ولد رحمه الله سنة 1298 وتربى يتيماً في حجر والدته العفيفة، تلك الوالدة التي
+                        كانت تشغل أكثر أوقاتها لاكتساب ما تنفق عليه. وبعد أن ترعرع وتعلم المبادئ
+                        الأولية، دخل المدرسة الرشدية، وكان رحمه الله نزوعاً لطلب العلوم الدينية،
+                        ميالاً للصلاح والتقوى، واقفاً مع أدب الشريعة الطاهرة، ترغب نفسه الأدب،
+                        ومطالعة كتبه فما عتم بعد أن أتم دروس المدرسة وحصل على شهادتها حتى اصطف مع
+                        طلاب العلم الشريف، وتحلى بجليتهم فتلقوه على الرحب والسعة، فقرأ على أجلة من
+                        الأفاضل، وعدة من الأماثل كالعلامة المحقق المدقق الورع الزاهد صاحب التصانيف
+                        الممتعة المفيدة الأستاذ الشيخ عبد الحكيم الأفغان نزيل دمشق. والعلامة العالم
+                        العامل محدث الديار الشامية المتفق على ورعه وجلالته الشيخ محمد بدر الدين
+                        المغربي حفظه الله وأبقاه والعلامة المتفنن العمدة المرحوم الشيخ سلطان
+                        الداغستاني والعلامة المحقق المفضال الشيخ محمود العطار وغيرهم وبعد أن تذوق
+                        لذة العلم والتعليم حنت نفسه الطاهرة إلى خدمة بني وطنه فدرس بمدرسة الريحانية
+                            <pb ed="shamela"
+                   n="n17-p31"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P519.xhtml"/> مدة لا تقل عن
+                        سنتين انتفع به خلق كثير. ثم شرع في توسيع نطاق الإفادة ونفع أهل الوطن فأسس
+                        مدرسته الوحيدة المعروفة (بالمدرسة العلمية الوطنية) وسعى في تحسينها وترقيتها
+                        فأقبلت الناس على أبوابها، ونمى عدد طلابها حتى ناف على 400 ولم يكن عمله هذا
+                        ليقطعه عن القراءة والإقراء فكنت ترى صباح مساء عدداً وفيراً من طلبة العلم
+                        يفدون داره للقراءة عليه، والأخذ عنه. وكان له عدة تآليف منها رسالة في
+                        الانتصار للكمال بن الهمام وأرجوزة في النحو وأخرى في الصرف وديوان كبير ضمنه
+                        بديع الشعر ورقيقه ورسالة في انتقاد شرح شعر أبي تمام ومقامة خيالية سبق نشرها
+                        في (الحقائق) وكتابات على كثير من كتب العلم والأدب. وما زال هذا دأبه وتلك
+                        عادته ينتفع منه صغير القوم وكبيرهم حتى لبى دعاء ربه وأجاب نداء خالقه في شوال
+                        سنة 1329 فأسف عليه كل من عرف أدبه وأخلاقه. وبكاه الناس وإنما بكوا الأدب
+                        والفضل، والغيرة والصلاح والنبل وكثير منهم يردد قول القائل:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>الموت نقاد على كفه </seg>
+                            <seg> جواهر يختار منها الجيا</seg>
+                        </l>
+                    </lg>
+                    <p>فرحمه الله وأنزل على جدثه شأبيب العفو والغفران. <pb ed="shamela"
+                   n=""
+                   corresp="file:../epub/29676/OEBPS/xhtml/P520.xhtml"/>
+                    </p>
+                </div>
+            </body>
+         </text>
+</TEI>

@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://rawgit.com/tillgrallert/TeachingTei/master/schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online-local-facsimiles/xslt-boilerplate/custom.xsl"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns:xd="http://www.pnp-software.com/XSLTdoc"
+     xmlns:opf="http://www.idpf.org/2007/opf"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+                <title xml:lang="ar">مجلة الحقائق</title>
+                <title xml:lang="en">Majallat al-Ḥaqāʾiq</title>
+                <title type="sub" xml:lang="en">TEI edition</title>
+                <author>
+                    <persName xml:lang="ar">عبد القادر الإسكندراني</persName>
+                    <persName xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir al-Iskandarānī</persName>
+                </author>
+                <respStmt xml:lang="en">
+                    <resp xml:lang="en">Transcription</resp>
+                    <orgName xml:id="org_MS" xml:lang="ar">المكتبة الشاملة</orgName>
+                </respStmt>
+                <respStmt xml:lang="en">
+                    <resp xml:lang="en">TEI edition</resp>
+                    <persName xml:id="pers_TG" xml:lang="en">Till Grallert</persName>
+                </respStmt>
+            </titleStmt>
+         <publicationStmt>
+                <authority xml:lang="en">
+                    <persName xml:lang="en">Till Grallert</persName>
+                </authority>
+                <pubPlace xml:lang="en">Beirut</pubPlace>
+                <date when="2016" xml:lang="en">2016</date>
+                <availability status="restricted" xml:lang="en">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0
+                        International (CC BY-SA 4.0) license</licence>
+                </availability>
+                
+            <idno type="url">https://github.com/tillgrallert/digital-haqaiq/blob/master/xml/oclc_644997575-i_2.TEIP5.xml</idno>
+         </publicationStmt>
+         <sourceDesc>
+                <biblStruct xml:lang="en">
+                    <monogr>
+                        <title level="j" xml:lang="ar">الحقائق</title>
+                        <title level="j" xml:lang="ar" type="sub">مجلة علمية دينية اخلاقية
+                            اجتماعية</title>
+                        <title level="j" xml:lang="ar-Latn-x-ijmes">al-Ḥaqāʾiq</title>
+                        <title level="j" xml:lang="ar-Latn-x-ijmes" type="sub">Majalla ʿilmiyya
+                            dīniyya akhlāqiyya ijtimāʿiyya</title>
+                        <editor ref="http://viaf.org/viaf/4795364">
+                            <persName xml:lang="ar">عبد القادر الإسكندراني</persName>
+                            <persName xml:lang="ar-Latn-x-ijmes">
+                                <forename>ʿAbd al-Qādir</forename>
+                                <surname>al-Iskandarānī</surname>
+                            </persName>
+                        </editor>
+                        <imprint>
+                            <publisher>
+                                <orgName xml:lang="ar">شركة القائق</orgName>
+                                <orgName xml:lang="ar-Latn-x-ijmes">Sharikat al-Ḥaqāiq</orgName>
+                            </publisher>
+                            <publisher>
+                                <orgName xml:lang="ar">مطبعة المقاصد</orgName>
+                                <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa al-Maqāṣid</orgName>
+                            </publisher>
+                            <pubPlace xml:lang="en">
+                                <placeName xml:lang="ar">دمشق</placeName>
+                                <placeName xml:lang="en">Damascus</placeName>
+                            </pubPlace>
+                            <date xml:lang="ar"
+                           from-custom="1329-07-01"
+                           datingMethod="#cal_islamic"
+                           calendar="#cal_islamic"
+                           from="1910-08-08">غرة شعبان ١٣٢٨</date>
+                            <date xml:lang="ar-Latn-x-ijmes"
+                           from-custom="1329-07-01"
+                           datingMethod="#cal_islamic"
+                           calendar="#cal_islamic"
+                           from="1910-08-08">Shaʿ 1328</date>
+                        </imprint>
+                        <biblScope unit="volume" from="1" to="3">3</biblScope>
+                        <biblScope unit="issue" from="1" to="34">34</biblScope>
+                    </monogr>
+                    <idno type="oclc" xml:lang="en">644997575</idno>
+                    <idno type="oclc" xml:lang="en">145393412</idno>
+                    <idno type="oclc" xml:lang="en">145289742</idno>
+                    <idno type="epub" xml:lang="en">urn:uuid:381100bcebe62d09ade63dd41b7ddd38</idno>
+                    <idno type="shamela" xml:lang="en">29676</idno>
+                </biblStruct>
+            </sourceDesc>
+      </fileDesc>
+      <encodingDesc xml:lang="en">
+            <samplingDecl xml:lang="en">
+                <p xml:lang="en">The edition is based on the digital transcripts (HTML files wrapped
+                    in ePub) available from <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
+                        <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
+                    </ref>.</p>
+            </samplingDecl>
+            <editorialDecl xml:lang="en">
+                <p xml:lang="en">The original editorial practices followed by <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
+                        <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
+                    </ref> can only be deduced from the limited mark-up found in the digital text
+                    provided online and as ePub. It appears from that that paragraphs and head lines
+                    were recorded and preserved. They also recorded page breaks, but at least for
+                    the earlier issues these do not correspond to the page breaks in the print
+                    edition and should thus be marked with <att xml:lang="en">ed</att>="shamela"</p>
+                <p xml:lang="en">It remains unclear to which extent publication dates for individual
+                    issues are correct. The transcribers seemingly normalised <foreign xml:lang="ar-Latn-x-ijmes">hijrī</foreign> dates for the first two years
+                    (1906-1907) and then recorded all issue as having been published on the first of
+                    each Gregorian month. This needs to be checked against the image files and other
+                    sources.</p>
+                <p xml:lang="en">Some phenomena have been marked in red spans by <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
+                        <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
+                    </ref>. Red spans that contained three points only were considered indicators of
+                    ellipses and transformed into <gi xml:lang="en">gap</gi> with <att xml:lang="en">resp</att>="#org_MS". Upon further scrutiny, it turned out that most, if
+                    not all, of these <gi xml:lang="en">gap</gi>s indicated the division between two
+                    halfs of the line of a <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>. I
+                    have converted all <gi xml:lang="en">p</gi>s that contained two short lines of
+                    text divided by <gi xml:lang="en">gap</gi> into <gi xml:lang="en">lg</gi> of
+                        <att xml:lang="en">type</att>="bayt" with <gi xml:lang="en">l</gi> child
+                    elements. All other red spans have been retained as <gi xml:lang="en">hi</gi>.</p>
+            </editorialDecl>
+        </encodingDesc>
+      <profileDesc xml:lang="en">
+            <!-- as we deal with sources from an area and period which also used non-Latin scripts and preferred a number of calenders over the Gregorian, this should be declared here -->
+            <calendarDesc xml:lang="en">
+                <calendar xml:id="cal_gregorian" xml:lang="en">
+                    <p xml:lang="en">Following the hegemonial approach of standards rooted in the
+                        English language, the Gregorian calendar is presumed as the norm and must
+                        not be specified.</p>
+                    <p xml:lang="en">The <att xml:lang="en">when</att> attribute always provides W3C
+                        dates, while the <att xml:lang="en">when-custom</att> attribute follows the
+                        inherent logic of the chosen calendar.</p>
+                    <p xml:lang="en">E.g. <date when="1841-05-23" xml:lang="en">23 May 1841,
+                            Sunday</date>, <date when="1908-03-05" xml:lang="en">5 Mar 1908,
+                            Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_islamic" xml:lang="en">
+                    <p xml:lang="en">Islamic <hi xml:lang="en">hijrī</hi> calendar: lunar calendar
+                        beginning the Year with 1 Muḥarram. Dates differ between locations as the
+                        beginning of the month is based on sightings of the new moon.</p>
+                    <p xml:lang="en">E.g. <date calendar="#cal_islamic"
+                        datingMethod="#cal_islamic"
+                        when="1841-05-23"
+                        when-custom="1257-04-01"
+                        xml:lang="en">1 Rab II 1257,
+                            Sunday</date>, <date calendar="#cal_islamic"
+                        datingMethod="#cal_islamic"
+                        when="1908-03-05"
+                        when-custom="1326-02-01"
+                        xml:lang="en">1 Ṣaf 1326,
+                            Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_julian" xml:lang="en">
+                    <p xml:lang="en">Reformed Julian calendar beginning the Year with 1 January. In
+                        the Ottoman context usually referred to as <hi xml:lang="en">rūmī</hi>.
+                        Arabic newspapers usually labelled this calendar as <hi xml:lang="en">sharqī</hi>.</p>
+                    <p xml:lang="en">All solar calendars add an intercalated 366th day every fourth
+                        (and, in the case of Gregorian and rūmī calendars, even-numbered) year at
+                        the end of February (the last day of the old Julian calendar). The Gregorian
+                        calendar suppresses this rule in centesimal years that cannot be divided by
+                        400. This difference creates a growing offset between Gregorian and Julian
+                        calendars: while 1900 R was a leap year, 1900 was not, which in turn caused
+                        the difference between the Gregorian calendar, on the one hand, and the <hi xml:lang="en">mālī</hi> and <hi xml:lang="en">rūmī</hi> calendars, on
+                        the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R /
+                        1315 M (13 March 1900) onwards.</p>
+                    <p xml:lang="en">E.g. <date calendar="#cal_julian"
+                        datingMethod="#cal_julian"
+                        when="1841-05-23"
+                        when-custom="1841-05-11"
+                        xml:lang="en">11 Ayyār 1841,
+                            Sunday</date>, <date calendar="#cal_julian"
+                        datingMethod="#cal_julian"
+                        when="1908-03-05"
+                        when-custom="1908-02-21"
+                        xml:lang="en">21 Shub 1908,
+                            Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
+                    <p xml:lang="en">Ottoman fiscal calendar: a lunosolar calendar. It is based on
+                        the Old Julian calendar beginning the Year with 1 March. Introduced as
+                        fiscal calendar in 1676 and in the Ottoman context usually referred to as
+                            <hi xml:lang="en">mālī</hi> and sometimes, confusingly, also as <hi xml:lang="en">rūmī</hi>. Every 33 lunar years, a <hi xml:lang="en">hijrī</hi> year would complete within a single solar <hi xml:lang="en">mālī</hi> year. In this case the counting of the <hi xml:lang="en">mālī</hi> years skipped a year to catch up with the faster <hi xml:lang="en">hijrī</hi> calendar. Due to a printing error in the coupon
+                        booklets for the consolidated debt repayment program for 1872 (1288 M
+                        instead of 1289 M), synchronisation of <hi xml:lang="en">mālī</hi> and <hi xml:lang="en">hijrī</hi> years was henceforth abolished. As <hi xml:lang="en">mālī</hi> years began with 1 March, <hi xml:lang="en">mālī</hi> leap years preceded their <hi xml:lang="en">rūmī</hi> and
+                        Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
+                    <p xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal"
+                        datingMethod="#cal_ottomanfiscal"
+                        when="1841-05-23"
+                        when-custom="1257-03-11"
+                        xml:lang="en">11 Māyis 1257, Sunday</date>,
+                            <date calendar="#cal_ottomanfiscal"
+                        datingMethod="#cal_ottomanfiscal"
+                        when="1908-03-05"
+                        when-custom="1323-12-21"
+                        xml:lang="en">21 Shub 1323,
+                            Thursday</date>.</p>
+                </calendar>
+            </calendarDesc>
+            <!-- According to TEI P5 @xml:lang should follow BCP 47 <note target="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>, which specifies for Arabic in Latin transcription "ar-Latn". The specific type of transcription should be added as a private use subtag, i.e. "ar-Latn-x-ijmes" for the
+               IJMES transcription of Arabic in Latin script. -->
+            <langUsage xml:lang="en">
+                <language ident="ar" xml:lang="en">Arabic</language>
+                <language ident="ar-Latn-x-ijmes" xml:lang="en">Arabic transcribed into Latin script
+                    following the IJMES conventions</language>
+                <language ident="ar-Latn-EN" xml:lang="en">Arabic transcribed into Latin script
+                    following common English practices</language>
+                <language ident="ar-Latn-FR" xml:lang="en">Arabic transcribed into Latin script
+                    following common French practices</language>
+                <language ident="en" xml:lang="en">English</language>
+                <language ident="fa" xml:lang="en">Farsi</language>
+                <language ident="fa-Latn-x-ijmes" xml:lang="en">Farsi transcribed into Latin script
+                    following the IJMES conventions</language>
+                <language ident="fr" xml:lang="en">French</language>
+                <language ident="ota" xml:lang="en">Ottoman</language>
+                <language ident="ota-Latn-x-ijmes" xml:lang="en">Ottoman transcribed into Latin
+                    script following the IJMES conventions</language>
+                <language ident="tr" xml:lang="en">Turkish</language>
+                <language ident="en-Arab-AR" xml:lang="en">English transcribed into Arabic script
+                    following common Levantine Arabic practices</language>
+                <language ident="fr-Arab-AR" xml:lang="en">French transcribed into Arabic script
+                    following common Levantine Arabic practices</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc>
+         <change when="2016-02-26" who="pers_TG">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
+         <change when="2016-02-26">Divided the <gi>body</gi> into a <gi>group</gi> of <gi>text</gi>s along the issues of this periodical.</change>
+            <change when="2016-02-26">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to <gi>l</gi> of
+                    <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
+            <change when="2016-02-26" who="#pers_TG">Created this TEI P5 file by automatic
+                conversion from ePub.</change>
+        </revisionDesc>
+   </teiHeader>
+   <text xml:id="text" xml:lang="ar" type="issue" n="i_2">
+            <front xml:lang="ar">
+               <div>
+                  <biblStruct xml:lang="ar">
+                     <monogr>
+                        <title level="j" xml:lang="ar">الحقائق</title>
+                        <editor ref="http://viaf.org/viaf/4795364">
+                            <persName xml:lang="ar">عبد القادر الإسكندراني</persName>
+                            <persName xml:lang="ar-Latn-x-ijmes">
+                                <forename>ʿAbd al-Qādir</forename>
+                                <surname>al-Iskandarānī</surname>
+                            </persName>
+                        </editor>
+                        <imprint>
+                           <pubPlace xml:lang="en">
+                                <placeName xml:lang="ar">دمشق</placeName>
+                                <placeName xml:lang="en">Damascus</placeName>
+                            </pubPlace>
+                           <date when="1910-09-05">بتاريخ: 5 - 9 - 1910</date>
+                           <biblScope n="2" unit="issue">العدد 2</biblScope>
+                           <biblScope unit="page" from="x" to="y"/>
+                        </imprint>
+                     </monogr>
+                  </biblStruct>
+               </div>
+            </front>
+            <body>
+                <head>
+                    <bibl>
+                        <biblScope n="2" unit="issue">العدد 2</biblScope>
+                        <date when="1910-09-05">بتاريخ: 5 - 9 - 1910</date>
+                    </bibl>
+                </head>
+                <pb ed="shamela"
+             n="n2-p1"
+             corresp="file:../epub/29676/OEBPS/xhtml/P25.xhtml"/>
+
+
+                <div type="article">
+                    <head>الدين الإسلامي والتوحيد</head>
+                    <p>تابع ما قبله</p>
+                    <p>أسس هذا الدين على أصول وفروع، أما أصوله فتوحيد الله عز وجل وتصديق الرسول صلى
+                        الله عليه وسلم فيما جاء به وهذا (أي التوحيد) هو الأصل الذي ترجع إليه سائر
+                        الأصول، والقطب الذي تدور حوله جميع أفلاك العقائد الدينية، وأما فروعه
+                        فالاقتداء بالقرآن العظيم، وسنة نبيه عليه الصلاة والسلام. وأمتثال المأمورات
+                        واجتناب المنهيات والشفقة على عباد الله تعالى. وكف الأذى عنهم، وبذل النصح لهم
+                        إلى غير ذلك التوحيد هو أفراد المعبود بالعبادة مع اعتقاد وحدته ذاتاً وصفات
+                        وأفعالاً وهو الغاية العظمى والنهاية القصوى، من بعثة الرسل عليهم الصلاة
+                        والسلام الحكام الشرعية منها ما يتعلق بكيفية العمل ومنها ما يتعلق بالاعتقاد
+                        فالعلم المتعلق بالأولى يسمي علم الشرائع والأحكام، والمتعلق بالثانية يسمى علم
+                        التوحيد والصفات. وهو ما يبحث فيه عن ذات الله وصفاته وأحوال الممكنات في
+                        المبدأ والمعاد. ولذا كان أشرف العلوم.</p>
+                    <p>انقسمت مباحث هذا العلم ثلاثة أقسام، في الإلهيات، وهي المسائل المبحوث فيها عن
+                        الآله من حيث صفاته، لا من حيث ذاته، للإجماع على عدم وقوع معرفة الكنه فإن
+                        الحادث يقصر بالطبع عن عظيم هذا المقام (سبحان من لا يعلم كنهه غيره) والعجز عن
+                        ذات الله إدراك والبحث فيها إشراك والثاني في النبويات وهي المسائل المبحوث
+                        فيها عن حقيقة النبوة وعن ما يجب للأنبياء، وما يجوز وما يمتنع، والثالث في
+                        السمعيات وهي المسائل التي لا تعرف إلا من طريق السمع ولا تؤخذ إلا من الأدلة
+                        النقلية كالصراط والميزان ونحو ذلك.</p>
+                    <p>أبحاث الإلهيات يتوقف الشروع فيها على معرفة ثلاثة أشياء، الوجوب والاستحالة
+                        والجواز، وهي أقسام المعلوم، فالواجب ما لا يتصور في العقل عدمه كصفات الله
+                        تعالى والمستحيل ما لا يتصور في العقل وجوده كالجمع بين النقيضين. والجائز ما
+                        يصح في العقل وجوده وعدمه كهذا العالم.</p>
+                    <p>الواجب لله تعالى من الكمالات لا نهاية له لكن بعضه نصب لنا دليل على خصوصه فوجب
+                        علينا معرفته تفصيلاً وهو الصفات العشرون وبعضه لم ينصب لنا دليل عليه <pb ed="shamela"
+                   n="n2-p2"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P26.xhtml"/> بخصوصه فوجب علينا
+                        معرفته إجمالاً لعدم ما يدل على تعينه.</p>
+                    <p>الصفات العشرون الواجبة له تعالى هي الوجود والقدم والبقاء والمخالفة للحوادث
+                        والقيام بنفسه والوحدانية والقدرة والإرادة والعلم والحياة والسمع والبصر
+                        والكلام وكونه قادراً مريداً عالماً حياً سمعياً بصيراً متكلماً.</p>
+                    <p>الوجود</p>
+                    <p>لاشك أن الإنسان إذا أعمل الفكر في عجائب مصنوعات الله تعالى اضطر إلى الحكم بأن
+                        هذه الموجودات مع هذا الترتيب المحكم لا تستغني عن صانع أوجدها من العدم، وحكيم
+                        رتبها على قانون أودع فيه فنون الحكم، قال إعرابي وقد سئل ما الدليل على وجود
+                        الصانع أثار القدم تدل على المسير فهيكل علوي ومركز سفلي إلا يدلان على اللطيف
+                        الخبير ووقف قس ابن ساعدة الأيادي يعظ قومه في سوق عكاظ فقال يا أيها الناس
+                        اجتمعوا واسمعوا وعوا. وأن وعيتم شيئاً فانتقعوا. أن من عاش مات ومن مات فات.
+                        وكل ما هو آت آت. مظرونبات. وأرزاق وأقوات. وجمع وأشتات. وآيات بعد آيات، إن في
+                        السماء لخبرا، وفي الأرض لعبرا. نجوم تمور وبحار تغور. وسقف مرفوع. ومهاد
+                        موضوع. أقسم بالله قسماً. لا حانثاً ولا آتماً. أن الله ديناً أحب من دينكم.
+                        ونبياً قد أظلكم أوانه. وأدرككم أبانه. فطوبي لمن أدركه فآمن به وهداه. وويل
+                        لمن خالفه وعصاه ثم قال ما لي أرى الناس يذهبون ولا يرجعون. أرضوا بالمقام
+                        فأقاموا. أم تركوا هناك فناموا. يا معشر بني آدم أين الآباء والأجداد. أين
+                        المرضى والعواد. طحنهم الثري بكلكله ومزقهم الدهر بتطاوله كلا بل هو الله
+                        الواحد المعبود. ليس بوالد ولا مولود. وقال أبو حنيفة رحمه الله وقد همّ بقتله
+                        جماعة ممن أنكروا الآله هل يعقل أن سفينة مشحونة بالإحمال. مملوءة من الأثقال.
+                        قد احتوشها في لجة البحر أمواج متلاطمة وزياح مختلفة وهي من بينها تجري مستوية
+                        بلا اضطراب، لا ملاح لها يجريها. ولا متعهد يدفعها. قالوا لا هذا شيء لا يقبله
+                        العقل. فقال أبو حنيفة يا سبحان الله إذا لم يجز في العقل جريان سفينة مستوية
+                        من غير متعهد ولا مجر فكيف يجوز قيام هذه الدنيا على اختلاف أحوالها. وتغير
+                        أعمالها. وسعة أطرافها. وتباين أكنافها من غير وجود صانع فبكوا جميعاً ثم تابوا
+                        وانصرفوا.</p>
+                    <p>وعلى هذا درست العقلاء إلا من لا عبرة بمكابرته من الدهرية والطبيعية اتفقت كلمة
+                        من <pb ed="shamela"
+                   n="n2-p3"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P27.xhtml"/> يعتد بقولهم أنه لا
+                        طريق لرقي الإنسان إلى أوج السعادة واقتحامه عقبات هذه الحياة إلا بالنظر في
+                        النفس والتأمل في ملكوت السموات والأرض. ليقف على حقائق الكون وطبائعه، فيزداد
+                        إيماناً بوجود الصانع وكمال تدبيره.</p>
+                    <p>ليس المراد من النظر تقليب الحدقة فإن البهائم تشارك الإنسان فيه، ومن لم ير من
+                        السماء إلا رزقتها، ومن الأرض إلا غبرتها، فهو مشارك للبهائم وأدنى حالة منها
+                        وأشد غفلة (لهم قلوب لا يفقهون بها ولهم أعين لا يبصرون بها ولهم آذان لا
+                        يسمعون بها أولئك كالأنعام بل هم أضل).</p>
+                    <p>فعلم أن المراد من النظر التفكر في المعقولات، والنظر في المحسوسات والبحث عن
+                        حكمتها وتصاريفها لتظهر حقائقها وكلما أمعن الإنسان النظر فيها ازداد هداية
+                        ويقيناً ونوراً وتحقيقاً وعجائب السموات والأرض بحار لا تدري سواحلها، ولا تعرف
+                        أوئلها ولا أواخرها (قل انظروا ماذا في السموات والأرض) ومع هذا كله نرى أن
+                        الإنسان إذا دهاه أمر، أو ألمت به ملمة، فلابد أن يفزع إلى مرجع يرجع إليه،
+                        ويعتمد في كشف بلواه عليه، فيستغيث به طبعاً وجبلة، لا تكلفاً وتصنعاً هذا كله
+                        مر كزوفى جبلة الإنسان العاقل ولكن أكثر الناس يذهلون عن ذلك في السراء ويرجعون
+                        إليه تعالى في الضراء (وإذا مسكم الضر في البحر ضل من تدعون إلا أياه فلما
+                        نجاكم إلى البر أعرضتم) فثبت بهذا أن عامة الناس ارتكز في طبائعهم وتمكن من
+                        نفوسهم من غير معلم أرشدهم، ولا اصطلاح وقع بينهم أن لهم خالقاً يدبر شئونهم
+                        وهم متساوون في هذا الاعتقاد مهما اختلفت طرائقهم ومشاربهم، وتضاربت آرائهم
+                        ونزعاتهم والرسل عليهم الصلاة والسلام لم يرسلوا ليعلموا الناس بوجود الصانع
+                        فإنه معلوم الوجود بداهة كما قدمنا وإنما أرسلوا عليهم الصلاة والسلام ليدعوا
+                        الناس إلى التوحيد كما تشهد آية (فاعلم أنه لا إله إلا الله).</p>
+                    <p>الصيام</p>
+                    <p>قال الله تعالى (يا أيها الذين آمنوا كتب عليكم الصيام كما كتب على الذين من
+                        قبلكم لعلكم تنقون أياماً معدودات) أمر الله جبت حكمته عباده المؤمنين بالصيام
+                        وألزمهم به أعتناء بهم. وتفضلاً عليهم. ليطهرهم به من الآثام. ويحررهم من رق
+                        الشهوات ليخلقهم ببعض أخلاقه، ويلحق أوصافهم بأوصاف ملائكته، ليستخلصهم لنفسه،
+                        ويدخلهم حظيرة قدسه. ثبتت <pb ed="shamela"
+                   n="n2-p4"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P28.xhtml"/> فرضية صوم رمضان على
+                        المكلفين بالآية المتقدمة وبقوله صلى الله عليه وسلم بني الإسلام على خمس شهادة
+                        إن لا إله إلا الله وأن محمداً رسول الله، وأقام الصلاة، وأيتاء الزكاة، وصوم
+                        رمضان، وحج البيت من استطاع إليه سبيلاً، وعلى هذا انعقد الإجماع فيكفر جاحده
+                        ويستحق عذاب النار تاركه.</p>
+                    <p>(مسئلة)</p>
+                    <p>الصوم هو الإمساك عن جميع المفطرات من الصبح إلى الغروب بنية مخصوصة وهاك نبذة
+                        من المفطرات أثبتناها هنا لكثرة طروها، وشدة الحاجة إليها، وهي الأكل والشرب
+                        والجماع، واستعمال الدخان، والسعوط. والاحتقان وسبق الماء إلى الفم أو الأنف في
+                        المضمضة والاستنشاق. وتعمد القيء ولو دون ملء الفم. وإعادة ما غلبه منه بصنعه.
+                        إذا كان ملء الفم. وأكل ما بين الأسنان إذا كان قدر الحمصة. واستعمال هذه
+                        المفطرات أو أحداها عمداً بعدما صدرت نسياناً أو مع الشك في طلوع الفجر والحال
+                        أنه قد طلع أو مع ظن أن الشمس غربت وهي لم تغرب. إلى غير ذلك مما يجب على
+                        الإنسان طلبه من محاله مهما وجد داعية إليه.</p>
+                    <p>ليس الصيام كما يظن من خصوصية أمة (محمد) صلى الله عليه وسلم بل هو عام في جميع
+                        الأمم. حضت عليه الأنبياء وحثت عليه عامة الشرائع لما له من المنافع الدينية
+                        والدنيوية. والفوائد الصحية والأدبية. حسبك من مناقبه أن الثواب عليه بعيد من
+                        مظان الحصر. وخارج عن دائرة التقدير. إذ كان متميزاً بخاصية نسبة إليه تعالى.
+                        لا يدانيه فيها غيره من جلائل الأعمال. ولا يشابهه فيها سواه من عظائم الخصال
+                        قال الله تعالى في الحديث القدسي كل حسنة بعشر أمثالها إلي سبعمائة ضعف إلا
+                        الصوم فإنه لي وأنا أجزي به وأنه الغاية التي يرمى إليها كبار الأطباء في حفظ
+                        الصحة. والأمر الجامع لتقوية الجسم ونشاطه. وأنه من الدروس العالية في الأخلاق،
+                        تنكسر به شهوة النفس. وتضعف سيطرتها وفي ذلك من الفوائد ما لا يخفى. ضعف سيطرة
+                        النفس ويقلل الذنوب. ويكسب الإنسان ميلاً إلى الحق. ورغبة في الأنصاف. وبعداً
+                        عن كل ما يعيب. حتى أنه لا يهمز ولا يلمز. ولا يعتوا ولا يتعجرف بل يكون لين
+                        الجانب سهل الانقياد. (سمحاً إذا باع سمحاً إذا اشترى. سمحاً إذا قضى. سمحاً
+                        إذا استقضى) لا يظلم ولا يخون. ولا يؤذي أحداً من خلق <pb ed="shamela"
+                   n="n2-p5"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P29.xhtml"/> الله،
+                        الصيام كما أنه يكثر شهوة النفس ويذهب بسيطرتها يسبب صفاء القلب. وسعة الفكر.
+                        وطيب السريرة. ويبعث في النفس رحمة تضطر الصائم إلى النظر في حال أولئك الضعفاء
+                        المساكين وهو أحد أسباب مشروعية الصيام. فمن أدكر أن بعض الفقراء تلجئه الضرورة
+                        في أيام رمضان إلى الاقتصار على لون واحد من الطعام وبعضهم يضطره العدم إلى أن
+                        يبيت حزيناً طاوياً يقع في قلبه أثر هذه الرحمة ويشعر بمذاق ذلك الحنان. فتراه
+                        يحن على الفقير حنينه على جسده. ويعطف إليه عطفه إلى ولده وبذلك يستوجب رضاء
+                        الله ورحمته (الراحمون يرحمهم الرحمان تبارك وتعالى) يكون متقبل العمل مكتوباً
+                        اسمه في ديوان الصائمين. أما من غفل عن أسرار الصيام وفوائده وظن أنه يحصل
+                        بمجرد ترك الكل والشرب وأن نام الإنسان ثلثي النهار وتناول الكثير من الأطعمة
+                        ليخفف وطئة الصوم ورفث وفسق وأكل الحرام. وسرح في ميدان الشهوات وأذى آله
+                        وجيرانه. ووقع في أعراض الناس. فليس لله حاجة في صيامه روى البخاري مرفوعاً (من
+                        لم يدع قول الزور والعمل به فليس لله حاجة في أن يدع طعامه وشرابه) وجاء في بعض
+                        روايات الحديث السابق أمره صلى الله عليه وسلم الصائم بحفظ اللسان بقوله (إذا
+                        كان أحدكم صائماً فلا يرفث ولا يجهل فإن أمرؤ قاتله أو شاتمة فليقل أني صائم
+                        أني صائم) زد على هذا إن الغافل لم يعرف مقدار نعمة الله على عباده فإن من لم
+                        يذق ألم الجوع ولا يعرف مقدار نعمة وجود الطعام. وإن نفسه ضعيفة لم تعتد الصبر
+                        على تحمل المشاق. والرضا بالقليل عند فقد الكثير. وإنها النفس الشريرة التي
+                        تكره الطاعات. وترغب في الشهوات. وبذلك تقل الحسنات وتكثر السيئات ويكون هذا
+                        الرجل هو الذي لم ينله من صيامه إلا الجوع وتحمل الأوزار. وفقنا الله لمرضاته
+                        وألهمنا العمل بواجباته. مع فهم أسرارها. وجنى ثمارها. وأعاد علينا وعلى
+                        المسلمين أمثال هذا الشهر المبارك ممتعين بما يسر الصديق. ويكبت العدو. أمين.
+                            <pb ed="shamela"
+                   n="n2-p6"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P30.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>اللغة العربية</head>
+                    <p>ومن يسعى في محوها كالذهاوي</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>حفظ اللغات علينا </seg>
+                            <seg> فرض كحفظ الصلاة</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>إذ ليس يحفظ دين </seg>
+                            <seg> إلا بحفظ اللغات</seg>
+                        </l>
+                    </lg>
+                    <p>أطبق علماء الاجتماع والعمران، على أن احتفاظ كل أمة بلغتها مما يضمن لها حفظ
+                        حسبها ومجدها، وبقاء ميزاتها بين سائر الأمم وهي العلاقة الوثيقة التي تجمع بين
+                        أفراد الأمة مهما افترقوا وتباعدوا ومهما اختلفت آرائهم وتباينت أهوائهم، ومن
+                        أمعن النظر في أسرار الجامعة اللغوية، ظهر له فضل هذه الحكمة العمرية التي كتب
+                        بها سيدنا عمر بن الخطاب رضي الله عنه إلى أبي موسى الأشعري وهي قوله له (خذ
+                        الناس بالعربية، فإنها تزيد في العقل، وتثبت المروءة).</p>
+                    <p>فإن العربي المطلع على كنه لغة قومه باستقراء أشعارهم وأمثالهم وتتبع حكمهم،
+                        وسائر أوقالهم، يعرف بذوقه العربي ما كانوا عليه من الأنفة والإباء، والشهامة
+                        والذكاء، وسمو المدارك والأفكار، وسائر مكارمه ومأثر أخلاقه، من سعة الصدر
+                        والسماحة والوفاء بالعهد والتزام الصدق. وبذل النفس والنفيس. في حماية الجار
+                        والمستجير. وإغاثة الملهوف والمتصرخ. مع الحذق في الفراسة. والمهارة في
+                        الفروسية والشجاعة. التي كانت تقلل في عيونهم جحافل الأعداء. وكتائب العاديين
+                        مهما بلغت عدداً وعدداً وماذا عسى أن أسرد للقراء مما يمكنهم أن يستنبطوه من
+                        خلال كلمات العرب وغضون عباراتهم من المناقب والمفاخر التي لم تذل تتناقلهم
+                        الأمم، جيلاً فجيلاً، وكابراً عن كابر ولولا هذه اللغة المجيدة لما ظفرنا بشيء
+                        من آثار تلك الأمة النجيبة التي أصبح تاريخها آية كبرى، وأكبر موعظة وذكرى،
+                        ولأن كان في كتب المؤرخين مجال لدعوى الارتياب في الحقائق التاريخية فلسان
+                        العرب المشتمل على كلامهم الجذل البليغ، أصدق شاهد ينبئ عما انطوت عليه تلك
+                        الأيام من الوقائع المأثورة التي (لها غرر مشهورة وحجول).</p>
+                    <p>وأما فصاحة هذه اللغة واتساعها، فمما لا يتمارى فيه اثنان، ولا يمتطح فيه عنزان،
+                        ولذلك قيل أن الحكمة تنزلت على ثلاثة أعضاء من أهل الأرض، ألسنت العرب، وأدمغة
+                        اليونان وأيدي أهل الصين، فالعربي الصحيح هو الذي إذا نطق أراك السحر الحلال،
+                        وأجرى <pb ed="shamela"
+                   n="n2-p7"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P31.xhtml"/> بسلاسة قوله الماء
+                        الزلال، على أنه هو الذي بين فكيه سيف صارم كما قال الشاعر:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>تقلقل بين فكيكَ ابنُ غمدٍ </seg>
+                            <seg> صليل غراره الكلم الفصاح</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>تقطُّ به مفاصل كل قول </seg>
+                            <seg> ونت عنه المهندة الصحاح</seg>
+                        </l>
+                    </lg>
+                    <p>فقل لي يا ناشدتك الله أي ناطق بالضاد تتمثل له فضائل قومه هذه وضاحة جلية
+                        بالسان المبين ثم لا يدفعه ضميره إلى التحلي بآدابها. والتمسك بأهدابها.
+                        والاقتباس من محاسنها. جهد المستطيع اللهم إلا إذا كان ميت النفس. فاقد الحس.
+                        وهذا لا كلام لنا فيه لأنه ملحق بالجمادات أو العجماوات وإنما كلامنا في هذا
+                        المخلوق المكرم الذي يقال له المرء. والرجل. والإنسان. أي ذو المروءة والرجولية
+                        والإنسانية وهذا لابدان تدعوه نفسه الناطقة. الحساسة الدراكة. أن يعمل بمقتدية
+                        قول جد النبي صلى الله عليه وسلم:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>لسنا وإن أحسابنا كرمت </seg>
+                            <seg> يوماً على الأحساب نتكل</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>نبنى كما كانت أوائلنا </seg>
+                            <seg> تبنى ونفعل مثل ما فعلوا</seg>
+                        </l>
+                    </lg>
+                    <p>وحسبك دليلاً على أن اللغة تزيد في العقل، وتثبت المروءة. كونها تدعوا ابنها إلى
+                        التأسي بكرام. قومه ورجالات أمته. ليكون عصامياً عظامياً كما قال عامر بن
+                        الطفيل:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>فما سودتني عامر بن كلالة </seg>
+                            <seg> أبي الله أن أسموا بأم ولا أب</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ولكنني أحمي حماها وأتقى </seg>
+                            <seg> أذاها وأرمى من رماها بمنكب</seg>
+                        </l>
+                    </lg>
+                    <p>ومن ذا الذي يحيط علما بجزء صالح من هذه اللغة الكريمة ويشرف على بحور قواميسها
+                        الذاخرة. ثم يدعى أنها قليلة المادة لا تفي بالتعبير عن حاجيات هذا الزمن، ولا
+                        تكفي لأداء معاني العلوم العصرية ولا يمكن أن يوجد ألفاظها ما يليق اطلاقه على
+                        ما لم يذل يتجدد من هذه المخترعات والمكتشفات هكذا أصبح اليوم بعض الناس
+                        يتقولون فينسبون إلى هذه اللغة العظيمة تتزهها عنه (الحقائق).</p>
+                    <p>فاللهم غفراً غفراً. يئدون بناتها. ثم يدعون عقمها. ويعمون عن مخدراتها
+                        وغانياتها. ثم يصومونها بالقبح. ويصومون عن لحنها الرقيق ونغمتها الرخيمة. ثم
+                        يرمونها بالعي والحصر، ويتهمونها بالبكم والخرس، فساء ما تقول وبئس ما يدعون
+                        مما لا يمالئهم عليه إلا كل من يهرف بما لا يعرف.</p>
+                    <p>يشدو أحدنا من العلوم العربية شيئاً نزراً يسيراً لا يتجاوز قصائد معدودة
+                        وأمثالاً قليلة مع <pb ed="shamela"
+                   n="n2-p8"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P32.xhtml"/> بعض النوادر
+                        الإعرابية ثم يستظهر نتقة من الكلمات العويصة ويحفظ نبذة من القواعد اللغوية ثم
+                        يريد أن يظهر بين الملاء بمظهر ثعلب أو ابن السكيت أو غيرهما من أئمة اللغة غير
+                        أنه يرى نفسه تتضائل في ميدان أولئك الفرسان ويخشى أن يقال له أخطأت أستك
+                        الحفرة أو أطرق كرا أو ليس بعشك فادرجي فتأخذه العزة بالإثم لعجزه عن لحاق فحول
+                        رجال العربية ويتميز غيظاً فلا يجد ما يتشفى به لنفسه الكسلى أسهل عليه من
+                        الإفتراء على هذه اللغة الكريمة فيتحامل عليها تحاملاً يجعله مضغة في الأفواه،
+                        وضحكة بين العقلاء على انه لا يجد ما يلفقه غير زعمه أن لسان الناطقين بالضاد
+                        لا يليق بأنباء هذا العصر الممتلئ بالمخترعات الجديدة، والمكتشفات الحديثة، ثم
+                        يؤيد هذه الدعوة الواهية بأن لغة العرب تحتاج إلى علوم كثيرة يصعب تحصيلها فيا
+                        له من تأييد عاد صاحبه بنقض دعواه وكأنه لم يدر في غلده أن تلك العلوم الكثيرة
+                        أوضح برهان على رقي اللغة التي دونت هي لبيان محاسنها، والدلالة على بديع
+                        أساليبها الحكيمة، وإرشاد المتكلمين بها على وجوه الصواب ووضع كل قول في موضعه
+                        حيث أن لكل مقام مقالاً واللغة الغزيرة المادة التي تشتمل على دقائق المعاني
+                        الجمة هي التي تخدم بالعلوم الكثيرة من نحو وصرف ومعاني وبيان وبديع وغير ذلك
+                        وها نحن كل يوم نرى أن من تبحر في لغة الضاد وكل طويل الباع في تناول جواهرها
+                        ومحرزاً قصب السبق في مضمارها، يشهد لها بعظم الفضل والتميز بين سائر اللغات،
+                        ويعترف بالعجز عن بلوغ نهاياتها، هذا الإمام الشافعي وهو الثقة الثبت والحجة في
+                        المسائل اللغوية والذي لا ينعقد إجماع بدونه بل كان رجال العلم يتوقفون على
+                        رأيه في اللغة بلهو ثائر العلوم التي كان مجلياً في حلبتها وقد صرح رضي الله
+                        عنه أن الإحاطة بهذه اللغة العربية مما لا يمكن إلا للأنبياء يريد أن ذلك لا
+                        يكون الأمن طريق العناية الإلهية الخاصة بالأنبياء من وحي وإلهام وغيرهما ومن
+                        البراهين المحسوسة على هذا أن الكاتب العربي مهما سبق له التوفر على دراسة لغته
+                        وصرف الهمة إلى تحصيلها أو مهما بلغ من الحذق والمهارة والإتقان في فن الإنشاء
+                        قلماً تسلم كتابتهم من الهفوات والأغلاط اللغوية.</p>
+                    <p>وبهذا يزول العجب مما قد تزل به ألسنة بعض أكابر الكتاب البارعين في الإنشاء
+                        ويصدر من فحول أرباب اليراع النابغين في الكتابة نظماً ونثراً وإنما الفاضل
+                        المجيد منهم جداً هو <pb ed="shamela"
+                   n="n2-p9"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P33.xhtml"/> الذي تعد سقطاته
+                        وتحصى غلطاته والكمال من جميع الجهات في كل أمر إنما هو لله وحده.</p>
+                    <p>ولعمر الحق أننا أولي الأمم بالاعتناء والاحتفاظ بشأن لغتنا الفصحى التي هي
+                        عندنا لغة الدين والعلوم ونحن إذا أخلصنا الخدمة لهذا اللسان المبين وأحسنا
+                        القيام بواجباته فلسنا نخدم بذلك العرب فقد بل نخدم المسلمين قاطبة من أي عنصر
+                        كانوا وحيثما أقاموا.</p>
+                    <p>فموضوع اللغة هو الذي يجب علينا القيام بلم شعثه، وضم نشره، وإظهار معالمه
+                        وتصحيح الخطأ الذي ينتابه، ورد الشبه التي تتوارد عليه، فتمسخ الألفاظ وتنسخ
+                        المعاني.</p>
+                    <p>فحسبنا ما فرطناه في جنب اللغة حتى كادت تكون أثراً بعد عين، وتصبح عسلطة كرطانة
+                        البرابرة، وزمازم العلوج، وأصبحنا ونحن المنتمون إلى ملوك الكلام نرتضخ اللكنة
+                        الأعجمية ونوشك أن نندمج في بقية العناصر أو نستحيل انقلاب إلى عنصر جديد
+                        مستعجم. فيصدق علينا قول أبي العلاء:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>أين أمرء القيس والعزاري </seg>
+                            <seg> إذ مال من تحته الغبيط</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>استنبط العرب في الموامي </seg>
+                            <seg> بعدك واستعرب النبيط</seg>
+                        </l>
+                    </lg>
+                    <p>وكأننا لا نبالي بأن ننسلخ من هذا العنصر الصميم الكريم الذي يشهد له بالمجد
+                        والسؤدد والعظمة حتى المستشرقون والمستشرقات من الإفرنجة والفضل ما شهدت
+                        به.</p>
+                    <p>وهلا نهب الآن من سباتنا ونزاول إزالة ما حال بيننا وبين لساننا المجيد من
+                        العقبات العنودة بأن نعمل معاً معاشر الكتاب على إزاحتها مهما كثرت وصعب خطبها
+                        فإن همم الرجال تزيح الجبال ولله در القائل:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>لاستسهلن الصعب وأدرك المنى </seg>
+                            <seg> فما قادت الآمال إلا لصابر</seg>
+                        </l>
+                    </lg>
+                    <p>وهلا نستمع لصوت هذه اللغة التي قامت اليوم تستصرخ بأبنائها مما ابتليت به ممن
+                        يتجرأ على القول بوجوب إهمالها وإلغائها ونبذها ظهرياً وأن يستعاض عنها
+                        بالمتداول على ألسنة السوقة وعامة الناس مما يتخاطب به الأوباش والهمج ويتحاور
+                        به الرعاع والطغام من تلك اللغة الملفقة والمبتذلة المشحونة بالرطانة واللكنة
+                        والمشينة بالكلمات الأعجمية التي عنها الحافظ إبراهيم ذلك الشاعر الخنذيذ
+                        المفلق بقوله:</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>فجاءت كثوب ضم سبعين رقعة </seg>
+                            <seg> منوعة الألوان مختلفات</seg>
+                        </l>
+                    </lg>
+                    <p>وإننا مع كوننا من عشاق حرية الفكر لنستهجن رفع العقيرة بمثل هذا الرأي الفطير
+                        البديهي <pb ed="shamela"
+                   n="n2-p10"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P34.xhtml"/> البظلان وهل هو يا
+                        رعاك الله إلا بمثابة من يطلب مسخ الغادة الحسناء الرائعة الوسية القسيمة ويحرص
+                        على جعلها قردة مشوهة قبيحة المنظر دميمة الخلقة شنيعة الهيئة سبحانك اللهم هذا
+                        بهتان عظيم ولولا خوف الإطالة لأوردت من اللغة المحكية العامية ما تمجه الإسماع
+                        وتنفر منه الطباع من ركاكة الألفاظ وتنافر التراكيب وقصور المعاني وغير ذلك مما
+                        يبرهن على أن اللغة المحكية اليوم بين العرب هي اللغة الفوضوية بين اللغات فلا
+                        يمكن أن تنحصر تحت قواعد أو تنضبط بأصول وقوانين على أن القائل بجعلها لغة
+                        الكتابة بدل اللغة الفصحى لابد أن تظهر له الأيام خطأه ويسقط رأيه بنفسه:</p>
+                    <p>وما كل قول قيل علم وحكمة <gap resp="#org_MS"/> ولا كل آراءِ الرجال صواب <pb ed="shamela"
+                   n="n2-p11"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P35.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>الأخلاق</head>
+                    <p>السعي والتوكل</p>
+                    <p>لامرية أن الإنسان مهما بلغ من الكمال، وعلا كعبه في الرقي، وتفلسف في الاختراع
+                        والاكتشاف وتمكن في الحضارة والتمدن ووصل في المعارف إلى رتبة لا تنال، وغاية
+                        ولا تدرك مفتقر إلى ما يقوت جسمه، ويمسك روحه وبدنه، من لدن نشؤه إلى يوم
+                        وفاته، (يا أيها الناس أنتم الفقراء إلى الله والله هو الغني الحميد).</p>
+                    <p>لم يفرق سبحانه في هذا الافتقار بين صغير وكبير، وغني وفقير، وعامل وجاهل، بل
+                        جعل الكل مفتقرين إليه محتاجين إلى منه وكرمه، ولم يدعهم وشأنهم بل هيأ لهم
+                        سبحانه أسباباً يتعاطونها، وأدر لهم الضرع، وأنبت لهم الزرع، وخلق ليلاً يسكنون
+                        فيه، ونهاراً يتعيشون في أوقاته، وجعل ما في هذا الكون لهم، (وسخر لكم ما في
+                        السموات وما في الأرض جميعاً منه أن في ذلك لآيات لقوم يتفكرون) ترى أيها
+                        القارئ إذا أنعمت النظر في هذه الآية الكريمة أن يد الإنسان مبسوطة على هذا
+                        الكون بما فيه، وأن الكل مسخرون لأمره، منقادون لعمله وفكره، ولكن لم يشأ تعالى
+                        أمره أن يكون له ذلك هنيئاً مريئاً، سيغ الشرب لذيذ الطعم بل يسر له ذلك وذلله
+                        يسر وجعله بعيداً منه بحيث يراه ثم أمره بالسعي إليه، والمشي والإقبال عليه،
+                        (هو الذي جعل لكم الأرض ذلولاً فامشوا في مناكبها وكلوا من رزقه) فلابد من الجد
+                        والاجتهاد والتجول، ولا غنية عن السعي والكد والعمل، ولولا ذلك لهلك الناس،
+                        وفسد نظام وجودهم، وبطلت حكمة تميزا الخبيث والطيب منه، هذا (رسول الله) صلى
+                        الله عليه وسلم مع انه خيرة الخلق لم يكن ليدع التكسب والعمل فقد سافر مع عمه
+                        المرة الأولى في تجارة إلى الشام وسافر إليها المرة الثانية أيضاً لتجارة
+                        لخديجة بنت خويلد مع غلام لها يدعى ميسرة فباعا بيعاً عظيماً وربحا ربحاً
+                        جسيماً، وقال (أحل ما أكل الرجل من كسبه وكل بيع مبرور).</p>
+                    <p>وقال عليه الصلاة والسلام وكان جالساً مع أصحابه فنظروا إلى شاب ذي جلد وقوة
+                        يسعى فقالوا ويح هذا لو كان شبابه وجلده في سبيل الله فقال صلى الله عليه وسلم
+                        لا تقولوا هذا فإنه إن كان يسعى على نفسه ليكفها عن المسئلة ويغنيها عن الناس
+                        فهو في سبيل الله، وإن كان يسعى على أبوين ضعيفين أو ذرية ضعاف ليغنيهم ويكفهم
+                        فهو في سبيل الله، وإن كان <pb ed="shamela"
+                   n="n2-p12"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P36.xhtml"/> يسعى تفاخراً
+                        وتكاثراً فهو في سبيل الشيطان وهؤلاء الأنبياء عليهم الصلاة والسلام من قبله قد
+                        اشتهر عن أكثرهم لاحتراف بحرف مخصوصة كالزراعة والتجارة والخياطة وغير ذلك
+                        وهؤلاء السلف الصالح رضي الله عنهم كانوا يكرهون البطالة أشد الكراهية، ويعدون
+                        صاحبها العضو الأشل في هذا المجتمع ومن عباراتهم تقعد عن الرزق وتقول اللهم
+                        أرزقني وقد علمت أن السماء لا تمطر ذهباً ولا فضة فدع الحمول والكسل واسع
+                        لتستغني عن الناس، وقال عمر رضي الله عنه ما من موضع يأتيني فيه الموت أحب إلي
+                        من موطن أتسوق فيه لأهلي أبيع واشتري، وقيل لأحمد ما تقول فيمن جلس في بيته أو
+                        مسجده وقال لا أعمل شيئاً حتى يأتيني رزقي فقال هذا رجل جهل العمل أما سمع قول
+                        النبي صلى الله عليه وسلم حين ذكر الطير فقال تغدوا خماصاً وتروح بطاناً، فذكر
+                        أنها تغدوا في طلب الرزق فاستبان بهذا أن لا مندوحة لا حد عن السعي والعمل ولا
+                        غنى له عن التكسب والكدح، وأن على المسلمين أن يحترفوا ولا يتجروا، ويضربوا في
+                        الأرض، عملاً بمقتضى دينهم، وإرشاد نبيهم، وأن من يزعم أن دينهم يأمرهم بالجمود
+                        والحمل والكسل، هو الجاهل الدنيء المتعصب، أو العدو الأحمق المتفرنج، هل يعقل
+                        أن ديناً بين الناس سبل الحضارة والتقدم، والعمل والتمدن، وجاءهم بالبينات
+                        والهدى، والتربية والآداب يأمر بالجمود، هل يتصور أن ديناً جاء بتنمية العقول،
+                        وتهذيب النفوس، يأمر بالحمول هل يتوهم أن ديناً جاء بعلو الهمة وكرائم الأخلاق،
+                        ومحاسن الصفات والآباء عن الدنايا يأمر الكسل كلا؟ فإن قلت ما قررته ودعوت إليه
+                        ينافي التوكل ويباين الانقطاع إلى الله تعالى وأين هو من قوله عز أسمه (ومن
+                        يتوكل على الله فهو حسبه) وقوله عليه الصلاة والسلام من انقطع إلى الله عز وجل
+                        كفاه الله كل مؤنة ورزقه من حيث لا يحتسب قلنا الجواب عن هذا يحتاج إلي شرح
+                        معنى التوكل وبيان حقيقته إذ يتوهم كثير أن التوكل ترك الرجل هذه الأسباب
+                        بتاتاً وإهمال نفسه بحيث يجعلهم كالثوب الخلق الملقى عن الأرض ثم يكون في
+                        حاجاته كلا على الناس وهذا كما لا يخفى لا يرتاب عاقل بمنعه وتحريمه لأنه مع
+                        مخالفته ما تقدم من صريح الأدلة آية الذل، وعلامة الهون والمسكنة والمؤمنون
+                        مبرؤن عن ذلك قال الله تعالى ولله العزة ولرسوله وللمؤمنين إذا تمهد هذا فاعلم
+                        أن التوكل هو الركون إلى الله وحده واعتقاد أنه هو الفاعل المختار والكافر
+                        لأرزاق عباده والمسلم من حيث هو مسلم يعتقدان لا إله إلا <pb ed="shamela"
+                   n="n2-p13"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P37.xhtml"/> الله وإن
+                        ما في هذا الكون من منع وإعطاء وموت وحياة وغنى وفقر بإيجاده تعالى وحده لا
+                        شريك له فيه وإن الكسر والسعي والعمل من سنن الله تعالى في خلقه ولن تجد لسنة
+                        الله تبديلا وإن المسلم مأمور أن يتعاطاها ظاهراً مع الإيقان أن المأثر هو الله
+                        تعالى فلا يكفيه الاعتقاد بدون العمل، ولا العمل بدون الاعتقاد بل لابد منهما
+                        كليهما لا يكون هذا مفسداً للتوكل ولا منافياً له أرأيت لو أن أرضاً مسبعة
+                        علمها إنسان وتحقق هلكه فيها هل يجوز له الشرع بحيلة التوكل حلولها. أو النوم
+                        فيها كلا وكذلك لا يجوز الشرع للمرء أن يعرض عن العمل، ويدع السعي حتى يهلك
+                        وصبيته، أو يموت وأهله، وصف رسول الله صلى الله عليه وسلم المتوكلين ولم يصفهم
+                        بأنهم لا يكتسبون ولا يتعيشون بل وصفهم بأنهم يتعاطون هذه الأسباب معتقدين أن
+                        الفاعل هو الله سبحانه أخذك بالأسباب واعتمادك على رب الأرباب هو عين التوكل
+                        وثمرة التفويض، ولب الانقطاع، فالتوكل إذاً هو التوحيد الصرف الباعث على
+                        الشجاعة والإقدام وثبات القلب وعلو الهمة والاطمئنان لا كما يفتريه كثير من
+                        المتفرنجين فيزعمون أنه مخرب للبلاد مضر بالعباد وأن لا حياة للإنسان إلا
+                        بالاعتماد على نفسه. والركون إلى عمله. والثقة بحوله وقوته سبحانك ربنا وبحمدك.
+                        علمنا ما ينفعنا. ولا تزغ قلوبنا بعد إذ هديتنا آله دبر هذا الكون بما فيه.
+                        وأمد أهله بالعون والقوة ندعه ونعتمد على أنفسنا آله له الملك والملوك. والعظمة
+                        والجبروت. أوجدنا من العدم ووهبنا هذه الحياة وكل شيء فيها نغفله ونتوكل على
+                        أنفسنا سبحانك ما عرفك الناس حق معرفتك فلا تهلكنا بما فعل السفهاء منا.</p>
+                    <p>أيها المتفرنج بعداً لك وسحقاً إن لم تتكل على مولاك. وتترك الثقة بنفسك وهواك.
+                        أين قوتك لو أمرضك. أين هولك لو أهملك. أين تدبيرك وحزمك لو سلب منك جوهرة
+                        عقلك. أين أنت من قوله تعالى لنبيه صلى الله عليه وسلم (قل لا أملك بنفسي ضر
+                        ولا نفعاً إلا ما شاء الله) اللهم اجعلنا ممن يرجع فيه أموره إليك. ويعمل هو
+                        متكل عليك. ولا تكلنا إلى أنفسنا ترفة عين.</p>
+                    <p>الاستعداد الإنساني</p>
+                    <p>كل مولود يولد على الفطرة حتى يعرب عنه لسانه فأبواه يهودانه أو ينصرانه أو
+                        يحسانه.</p>
+                    <p>من نظر في القرآن المجيد والأحاديث النبوية الشريفة ثم رجع إلى هذا العالم رأى
+                        أن النوع <pb ed="shamela"
+                   n="n2-p14"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P38.xhtml"/> الإنساني هو الملحوظ
+                        بالعناية المقصود بالكرامة. خلق لأمر عظيم ألا وهو عبادة الله وحده والإقرار
+                        بربوبيتهوالإذعان لأوامره ونواهيه ثم أنه تعالى من كمال العناية به قد خلق فيه
+                        القابلية لذلك وأشهده على نفسه فشهد بالربوبية لله قبل هذا الظهور. يعرف هذا
+                        ويؤمن به من يقر بأن القرآن كلام الله (ولا كلام لنا مع من يجحد القرآن أو بعض
+                        آياته) قال تعالى (وإذ أخذ ربك من بني آدم من ظهورهم ذريتهم وأشهدهم على أنفسهم
+                        ألست بربكم قالوا بلا شهدنا) ولم تذل هذه الشهادة أي هذه الفطرة والقابلية
+                        مركوزة فيه حتى يبرز من عالم الخفاء وتلده أمه بهذا العالم عالم الظهور. فكل
+                        مولود يولد على الفطرة وهي الجبلة السليمة المتهيئة لقبول كل فضيلة فأل للعهد
+                        والمعهود تلك الفطرة (فطرة الله التي الفطر الناس عليها) إن الله تعالى خلق في
+                        قلوب بني آدم هذه القابلية كما خلق في أسماعهم وأبصارهم قابلية للمسموعات
+                        والمرئيات فلو تركوا على تلك القابلية وهذه الفطرة ولم يعرض لهم ما يصدمهم عن
+                        النظر الصحيح ونصب الأدلة الجلية على التوحيد وصدق الرسول لأدر كوادين الفطرة،
+                        دين الإسلام، دين الحق، ولم يختاروا إلا الملا الحنفية السمحاء، يدلك على هذا
+                        ما وقع في رواية البخاري في تتميم الحديث (كمثل البهيمة تنتج البهيمة هل ترى
+                        فيها من جدعاء) يعني أن البهيمة تلد ولدها كامل الخلقة سليماً من الآفات فلو
+                        ترك على الأصل لبقي كامل الخلقة بريئاً من العيوب لكن تعرض له بعض الآفات
+                        والنقائص فتجدع أذنه، ويوسم وجهه، فيخرج عن الأصل وكذلك الإنسان يولد ظاهراً
+                        نظيفاً كاملاً شريفاً. مفطوراً على التوحيد والإذعان. مجبولاً على قبول الإسلام
+                        والإيمان. تناديه الفضائل من كل ناد. وتدعوه المعارف والعلوم بكل لسان. ولا
+                        يزال هدى شانه (حتى يعرب عنه لسانه) أي إلى زمان تمييزه وإدراكه (فأبواه
+                        يهودانه أو ينصرانه أو يمحسانه).</p>
+                    <p>الإنسان من أول نشأته معرض للآفات البشرية، وقد تأتيه البلايا وتصيبه الرزايا
+                        فمن يزعم أنه متفان في إيصال النفع إليه مجتهد في دفع الضير عنه لا بوان لهما
+                        أعظم المنة حتى يسعيا في نقض هذا البناء وتخريب هذا العمران.</p>
+                    <p>يولد الطفل فتذوق أمه من ألم الولادة ما الله أعلم به، ويتحمل أبوه من ثقل الكدح
+                        في استحصال القوت والكسوة له سيما أن كان فقيراً ما يعدل ألم أمه زد على هذا ما
+                        ينالهما بعد ذلك بسبب معاناة التربية من أنواع العذاب. سهر ليالٍ. وقلق بال.
+                        أمراض مبرحة عوارض <pb ed="shamela"
+                   n="n2-p15"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P39.xhtml"/> مترحة ولن يبرحا على
+                        ذلك حتى ينمو ذلك الطفل فيصير صبياً فغلاماً فشاباً وعند ذلك يبتدأن في تعليمه
+                        ما تلقفاه من آبائهما من أنواع الكفر روى عن النبي عليه الصلاة والسلام حكاية
+                        عن رب العزة (كل عبادي خلقت حنفاء فاغتالتهم الشياطين عن دينهم وأمروهم أن
+                        يشركوا بي غيري) ذكر الأبوين في الحديث الشريف باعتبار الغالب وقد يكون الموصل
+                        لهذا الشقاء غيرهما من شياطين الأنس. الأستاذ. والمعلم. والمربي. وإن لم يكونوا
+                        آباء يكون لهم التأثير على عقل الصبي أو الشاب وكذلك الصاحب المخالط سيما أن
+                        كان هناك ميل قلبي وشغف زائد.</p>
+                    <p>يغدوا هذا الصبي الفطري لمدرسة علمية ليتعلم العلوم النافعة أو لمكان صناعي أو
+                        تجاري ليستفيد صنعة أو تجارة أو إلى مرب ليأخذ عنه الأدب والتربية الصحيحة فلا
+                        يلبث حتى يخرج تمثال أستاذه أو معلمه أو مربيه وهناك الطامة الكبرى مذلة
+                        الأقدام إن كان هذا الأستاذ أو المربي أو المعلم أجنبي أو خريج المدارس الأجانب
+                        ولا يأخذ منك الاستغراب أن تقول من أين سرى لنا هذا التفرنج وكيف أتتنا هذه
+                        اللوثة الغربية لأن حبك الشيء يعمي ويصم.</p>
+                    <p>هذا الوباء الساري قد عظم في هذه الأزمنة حتى كان لا يخلو منه العالم والصالح
+                        فضلاً عن العوام السذج وأنا نرى أن دام هذا الداء وتغضينا عن السعي وراء الدواء
+                        كان الأمر أخطر، والخرق أكبر، أولى الناس سعياً بتطهير هذه الجراثيم الفاسدة
+                        علماء الدين والأغنياء فالعلماء تبين المفاسد وتجاهر بها في المحافل والمساجد
+                        والأغنياء تقبل تلك الأقوال بالامتثال وتمتنع من ادخار أولادها يمثل هذه المد \
+                        ارس خشية أن تتخلق بمثل هذه الأخلاق وتسعى بإنشاء مدارس إسلامية تعلم العلوم
+                        النافعة الخلية من شوائب الريب وتخلق بأخلاق أسلافنا العظام وحين إذ نرى التقدم
+                        الباهر الذي كان لأبنائنا الأول أعاد الله إلينا هذا المجد وباعد عنا الأغيار
+                        آمين. <pb ed="shamela"
+                   n="n2-p16"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P40.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>الأسئلة والأجوبة</head>
+                    <p>جائتنا هذه الرسالة من العالم الفاضل صاحب الإمضاء:</p>
+                    <p>سئلت عن معنى القاضي وعن المراد من تقسيم القضاة في الحديث الصحيح الذي رواه
+                        الحاكم في مستدركه عن بريدة رضي الله عنه وهو قوله عليه الصلاة والسلام (قاضيان
+                        في النار وقاض في الجنة قاض عرف الحق فقضى به فهو في الجنة وقاض عرف الحق فجار
+                        متمعداً أو قضى بغير علم فهما في النار) فأجبت بقولى القاضي هو من يعهد إليه
+                        بأن يحكم بين خصمين بحق من الحقوق ولو بتحكيمهما ولا فرق بين أن يكون المعهود
+                        إليه بالحكم واحداً أو جماعة كما هو المصطلح عليه في هذا العصر في ثائر المحاكم
+                        فكل واحد من علماء الجماعة المعهود إليهم في الحكم قاض ولا فرق بين كونه نائباً
+                        لمحكمة شرعية أو رئيساً لحقوقية أو حزائية أو عضواً في بعضها فلكل على السواء
+                        داخلون في أقسام قضاة الحديث الشريف.</p>
+                    <p>والمراد من التقسيم بقوله على الصلاة والسلام قاضيان في النار وقاضٍ في الجنة،
+                        التقسيم من جهة اتصافهم بالعلم ومعرفة الأحكام الشرعية والجهل لذلك وحكمهم
+                        بأوجه الشرعي على علم به أو جهل وجورهم بالحكم عمداً أو خطأ كما هو صريح تتمة
+                        الحديث.</p>
+                    <p>أما التقسيم باعتبار العدد فليس بمراد ومن توهم ذلك فجعل ثلثي قضاة في النار
+                        وثلثهم في الجنة من خير تفقه منه لتتمة الحديث فقد عرى من العلم وارتدى ردأ
+                        الجهل.</p>
+                    <p>الحديث يتضمن ستة أقسام يحسب الاعتبار الذي ذكرناه قسمان من قضاة الخير وأربعة
+                        من قضاة السوء فقوله عليه الصلاة والسلام قاض عرف الحق فقضى به فهو في الجنة،
+                        شروع في بيان هذه الأقسام وهذا أحد أقسام قضاة الخير وقوله قاض عرف الحق فجار
+                        متعمداً هو أحد أقسام قضاة السوء ومن قوله متعمداً يخرج غير المتعمد وهو من
+                        يعرف الحق ويحكم به ولكن أخطأ في الحكم لا عن قصد وهذا ثاني قضاة الخير لأن
+                        المؤاخذة بالخطأ مرفوعة عن هذه الأمة، قال عليه الصلاة والسلام رفع عن أمتي
+                        الخطأ والنسيان وما استكر هو عليه وقوله عليه الصلاة والسلام أوقد بغير علم
+                        شامل لثلاثة أقسام من قضاة السوء لأنه صادق بما إذا جال في الحكم عمداً وهذا
+                        قسم أو جار خطأ وهذا قسم ثان أو صادف في حكمه الحق على غير علم وهذا قسم ثالث
+                        والله أعلم نعوذ بالله من النار ومن كل عمل يقرب إليها ونسئله الجنة والتوفيق
+                        لكل عمل يقرب إليها. <pb ed="shamela"
+                   n="n2-p17"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P41.xhtml"/> حضرات أصحاب مجلة
+                        الحقائق الغراء:</p>
+                    <p>نرجو الجواب عن السؤال الأتي. وهو هل نرتقي؟ وبماذا نرتقي ع د (الحقائق) أرجأنا
+                        الجواب عن هذا السؤال بتأخر وروده وليحيط أهل الفضل به علماً فيتكرموا بما
+                        يوحيه العلم وتبعث عليه حقيقة والاختبار. <pb ed="shamela"
+                   n="n2-p18"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P42.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>التاريخ</head>
+                    <p>تابع ما قبله أبو بكر رضي الله عنه</p>
+                    <p>ومن يتدبر التاريخ الإسلامي ويلاحظ الحوادث بعد رسول اله صلى الله عليه وسلم
+                        يعلم ما لأبي بكر رضي الله من الأعمال الخطيرة في سبيل التأيد مركز
+                        الإسلام.</p>
+                    <p>فهو مسكن ما حدث بالصحابة يوم وفاة النبي صلى الله عليه وسلم. توفي رسول الله
+                        فأخذة الدهشة من الصحابة مأحذها حتى أن عمر رضى الله عنه جعل يهدد من يقول ان
+                        رسول الله قد مات إلى أن أتى أبو بكر رضي الله عنه وكان في أهله بالسنح بإذن من
+                        رسول الله صلى الله عليه فأقبل لايلوي على أحد حتى دخل على رسول الله صلى الله
+                        عليه وسلم في بيت عائشة وهو مسجى في ناحية البيت عليه برد حبره فأقبل حتى كشف
+                        عن وجهه فقبله ثم قال بأبي أنت وأمي أما الموتة التي كتب الله عليك فقد ذاقتها
+                        ثم لن يصيبك بعدها موتة أبداً ثم رد الثوب على وجهه وخرج وعمر يكلم الناس فقال
+                        على رسولك يا عمر فأنصت بأبي ألا أن يتكلم فلما رأه أبو بكر لا ينصت أقبل على
+                        الناس فلما سمع الناس كلامه أقبلوا عليه وتركوا عمر فهمد الله وأثني عليه ثم
+                        قال أيها الناس من كان يعبد محمداً فإن محمداً قد مات ومن كان يعبد الله فإن
+                        الله حي لا يموت. ثم تلا هذه الآية (وما محمد إلا رسول قد خلد من قبله الرسل
+                        أفإن مات أو قتل انقبلتم على أعقابكم ومن ينقلب على عقبيه فلن يضر الله شيئاً
+                        وسيجزى الله الشاكرين) قال أبو هريرة فوالله لكأن الناس لم يعلموا أن هذه الآية
+                        نزلت على رسول الله حتى تلاها أبو بكر يومئذ قال وأخذها الناس عن أبي بكر فإنما
+                        هي في أفواههم قال عمر والله ما هو إلا أن سمعت أبا بكر يتلوها فعقلت حتى وقعت
+                        إلى الأرض ما تحملني رجلاي وعرفت أن رسول الله قد مات فلله هذه القلوب ما أسرع
+                        أوبتها وأعترفها بالحق ولله در أبي بكر وأشد ثباته وأقوى جأشه رضي الله عنهم
+                        أجمعين.</p>
+                    <p>كان أبو بكر من أكبر العاملين على جمع كلمة الصحابة على الخلافة بعدما كادوا
+                        يتفرقون. اجتمع الأنصار في سقيفة بني ساعدة يتفاوضون بشئون الخلافة فنما الخبر
+                        إلى أبي بكر وعمر رضي الله عنهما فانطلاقا مسرعين خشية تغرق الكلمة فتكلم أبو
+                        بكر رضي الله عنه فأدلى بالحجة ثم قال إني أختار لكم أحد هذين الرجلين. عمر بن
+                        الخطاب وأبا عبيدة الجراح فقالا لا نتقدم عليك أنت أفضل المهاجرين وثاني اثنين
+                        إذ هما في النار وخليفة <pb ed="shamela"
+                   n="n2-p19"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P43.xhtml"/> رسول الله على
+                        الصلاة والصلاة أفضل دين المسلمين.</p>
+                    <p>ثم مد أبو بكر وعمر أيدهما كل منهم يريد أن يبايع صاحبه وكان عمر أقوى رجلين
+                        ففتح يد أبي بكر فبايعه وتتابع الناس على البيعة وكفى الله المؤمنين ما كان
+                        يخشى حدوثه من الفتنة وافتراق الكلمة.</p>
+                    <p>وهو الذي انفذ جيش أسامة في ذلك الوقت الحرج ولم تفزعه المصائب ولن تقف في سبيل
+                        مضاء عزمته الخطوب. عن الحسن ابن أبي الحسن البصرة قال ضرب رسول الله صلى الله
+                        عليه وسلم قبل وفاته بعثاً على أهل المدينة ومن حولهم وفيهم عمر بن الخطاب وأمر
+                        عليهم أسامة بن زيد فلم يجاوز أخرهم الخندق حتى قبض رسول الله صلى الله عليه
+                        وسلم فوقف أسامة بالناس ثم قال لعمر أرجع إلى خليفة رسول الله فاستأذنه يأذن لي
+                        أن أرجع بالناس فإن معي وجوه الناس ولا أمن على خليفة رسول الله وثقل رسول الله
+                        وأثقال المسلمين أن يتخطفهم المشركون. وقالت الأنصار فإن أبي الآن نمضي فبلغه
+                        عنا واطلب إليه أن يولي أمرنا رجلاً قدم سناً من أسامة. فخرج عمر بأمر أسامة
+                        فأتي أبا بكر فأخبره بما قال أسامة فقال أبو بكر لو خطفتني الكلاب والذئاب لم
+                        أرد قضاءً قضي به رسول الله صلى الله عليه وسلم قال فإن الأنصار أمروني أن
+                        أبلغك وأنهم يطلبون إليك أن تولي أمرهم رجلاً أقدم سناً من أسامة فوثب أبو بكر
+                        وكان جالساً فأخذ بلحية عمر فقال له ثكلتك أمة وعدمتك يا ابن الخطاب استعمله
+                        رسول الله صلى الله عليه وسلم وتأمرني أن أنزعه فخرج عمر إلى الناس فقالوا له
+                        ما صنعت فقال أمضوا ثكلتكم أمهاتكم ما لقيت في سببكم من خليفة رسول الله، ثم
+                        خرج أبو بكر حتى أتاهم فأشخصهم وشيعهم وهو ماش وأسامة راكب وعبد الرحمن بن عوف
+                        يقود دابة أبي بكر فقال أسامة يا خليفة رسول الله والله لتركبن أولأ نزلن فقال
+                        والله لا تنزل ووالله لا أركب وما على أن أغبر قدمي في سبيل الله ساعة فإن
+                        للغازي لكل خطوة يخطوها سبعمائة حسنة تكتب له وسبعمائة درجة ترفع له وترفع عنه
+                        سبعمائة خطيئة حتى إذا انتهى قال أن رأيت أن تعينني بعمر ففعل فإذن له ثم قال
+                        يا أيها الناس قفوا أوصيكم بعشر فاحفظوها عني لا تخونوا ولا تغلوا ولا تقدروا
+                        ولا تمثلوا ولا تقتلوا طفلاً صغيراً ولا شيخاً كبيراً ولا أمرأ ولاة تعقروا
+                        نخلا ولا تحرقوه ولا تقطعوا شجرة مثمرة ولا تذبحوا شاة ولا بقرة ولا بعيراً إلا
+                        لمأكلة وسوف تمرون بأقوام قد فرغوا <pb ed="shamela"
+                   n="n2-p20"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P44.xhtml"/> أنفسهم في السوامع
+                        فدعوهم وما فرغوا أنفسهم له وسوف تقدمون على قوم يأتونكم بآنية فيها ألوان
+                        الطعام فإذا أكلم منها شيئاً بعد شيء فاذكروا الله عليها اسم وتلقون أقواماً قد
+                        فحصوا أوصات رؤوسهم وتركوا حولها مثل العصائب فاخفقوهم بالسيف خفقاً اندفعوا
+                        باسم الله أقناكم الله بالطعن والطاعون وعظهم رضي الله عنه بحاله وقاله، مشى
+                        بين يدي أسامة وهو راكب ليعلمهم كيف يكون احترامهم لأميرهم وطاعتهم له وتعظيمهم
+                        لشأنه لأن الاستقامة لا توجد في جيش ما لم يكن أميرهم مطاعاً. وألقي عليهم تلك
+                        الخطبة الحكمية التي تمثل رفق الشريعة الغراء وعد لهم تمثيلاً تتضائل أمامه
+                        نفوس كبار الغربيين الذين يتشدقون بمحبة الإنسانية ويدعون إلى تخفيف ويلات
+                        الحروب. إلا فليعلموا أن الدين الإسلامي سبقهم لهذا وإنه هو الدين الوقيم.</p>
+                    <p>وهو الذي استعمل الثبات والحزم يوم ارتدت العرب ومنعوا الزكاة واشرأب النفاق،
+                        وتأججت جذوة الشقاق، وأشار عليه عمر رضي الله عنه بالرفق بهم فقال لو منعوني
+                        عقالاً لقتلتهم عليه كما قدمنا صحيفة 31ج وكان رأيه الصائب وفكره الموفق فجرد
+                        الجيوش لقتالهم فما هو إلا أن نصر الله أو لياءه وأيد هذا اليد على يد أبي بكر
+                        وعادت العرب إلى أداء الزكاة طائعين عن أبي هريرة رضي الله عنه فقال والله الذي
+                        لا إله غيره ولا إن أبا بكر استخلف ما عبد الله ثم قالها ثانية وثالثة فقيل مه
+                        يا أبا هريرة فذكر اليوم الذي ارتدت فيه العرب.</p>
+                    <p>هذه بعض حسنات أبي بكر رضي الله عنه تجاه الإسلام سجلها التاريخ ليذكر المسلمون
+                        ذلك الرجل العظيم والخليفة العادل الذي كان أيامه عقداً في جيد العالم الإسلامي
+                        ولا ينكر هذه الحقيقة التاريخية إلا من أعمى الله بصيرته فمال عن الحق واتبع
+                        سبيل الهوى (ومن يضلل الله فلا هادي له) ولم استقرت له الخلافة صعد المنبر فحمد
+                        الله وأثنى عليه ثم قال أيها الناس قد وليت عليكم ولست بخيركم فإن أحسنت
+                        فاعيوني. وإن أسأت فقوموني.</p>
+                    <p>الصدق أمانة. والكذب خيانة. والقوي فيكم ضعيف عندي حتى أخذ منه الحق والضعيف
+                        فيكم قوي عندي حتى أخذ له الحق إنشاء الله تعالى. لا يدع أحد منكم الجهاد فإنه
+                        لا يدعه قوم إلا ضربهم الله فالبذل ولا تشيع الفاحشة في قوم إلا عمهم الله
+                        بالبلاء.</p>
+                    <p>أطيعوني ما اطعت الله ورسوله فإن عصيته فلا طاعة لي عليكم فقوموا إلي صلاتكم <pb ed="shamela"
+                   n="n2-p21"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P45.xhtml"/> رحمكم الله.</p>
+                    <p>علم أبو بكر رضي الله عنه أن الأمة هي التي تنصب الحكام وتختارهم لمصلحها
+                        وانهالها الحق في انتقاد أعمالهم. ومراقبة أحوالهم. فإن عملوا بما ينطبق على
+                        مصالها. وسعوا وراء رقيها أعانتهم. وإن أساؤا أقومتهم. فصدح بما خالج ضميره من
+                        معرفة تلك السلطة وإنها حق طبيعي للأمة مهما حاول إبطاله المستبدون.</p>
+                    <p>كلمات قالها أول خليفة للمسلمين ليعلم الشعوب الإسلامية دروس الحرية والمساواة
+                        الحقيقة التي يتطلبها فلاسفة الغربيين اليوم وما هم لها بواجدين سار رضي الله
+                        عنه بالمسلمين أيام خلافته سيرة العدل والاستقامة والرأفة والحنان. يرحم
+                        صغيرهم، ويوقر كبيرهم، ويحمل كلهم، ويعينهم على نوائب الدهر، ولم يأل جهداً في
+                        تعزيز الدين وأعلاء كلمة المسلمين جيش الجيوش وبعث البعوث في سبيل الدعوة
+                        الإسلامية وتابعه عمر رضي الله عنه على ذلك فدكوا عروش القياصرة. وثلوا صروح
+                        إلا كاسرة. ونشروا لواء العدل بين تلك الأمم التي كانت ترسف في قيود العبودية
+                        لملوكهم. والله يتولى الصالحين. <pb ed="shamela"
+                   n="n2-p22"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P46.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>الأدبيات</head>
+                    <p>قال ابن عباس رضي الله عنه ملاك أمركم الدين. وزينتكم العلم وحصون أعراضكم الأدب
+                        وعزكم الحلم. وحليتكم الوفاء.</p>
+                    <p>من كلام الجاحظ</p>
+                    <p>جنبك الله الشبه. وعصمك من الحيرة. وجعل بينك وبين المعرفة نسبا. ومن الصدق
+                        سببا. وحبب إليك تثبت وزين في عينك الأنصاف. وأذاقك حلاوة التقوى، واشعر قلبك
+                        عز الحق. وأودع صدرك برد اليقين. وطرد عنك ذل اليأس. وعرفك ما في الباطل من
+                        الذلة. وما في الجهل من القلة.</p>
+                    <p>كتب البديع الهمداني إلى ابن أخته يحثه على تعلم العلم أنت ولدي ما دمت والعلم
+                        شأنك. والمدرسة مكانك، والمحبرة حليفك. والدفتر إليفك. فإن قصرت ولا أخالك.
+                        فغيري خالك والسلام.</p>
+                    <p>كتب أبو الطيب المتبني إلى أحد إخوانه بعد أن أبل من مرضه وصلتني أعزك الله
+                        معتلا. وقطعتني مبلا. فإن رأيت أن لا تكدر الصحة على. وتحبب العلة إلى فعلت 1هـ
+                        قال أبو العتاهيه وهو من أحسن ما قيل في الصديق.</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>صديقي من يقاسمني همومي </seg>
+                            <seg> ويرمي بالعداوة من رماني</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>ويحفظني إذا ما غبت عنه </seg>
+                            <seg> وأرجوه لنائبة الزمان</seg>
+                        </l>
+                    </lg>
+                    <p>من أمثال أكثم بن الصيفي أحد حكام العرب</p>
+                    <p>1 كفوا ألسنتكم فإن مقتل الرجل بين فكيه</p>
+                    <p>2 الأمور تتشابه مقبلة فلا يعرفها إلا ذووا الرأي فإذا أدبرت عرفها الجاهل كما
+                        يعرفها العاقل</p>
+                    <p>3 إن قول الحق لم يدع لي صديقاً</p>
+                    <p>4 في طل بالمعالي يكون العناء</p>
+                    <p>5 لم يهلك من مالك ما وعظك</p>
+                    <p>6 ويل لعالم أمراً من جاهله</p>
+                    <p>7 البطل عند الرخاء حمق</p>
+                    <p>8 العجز عند البلاء أفن <pb ed="shamela"
+                   n="n2-p23"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P47.xhtml"/> 9 نعم لهو الحرة
+                        المغزل</p>
+                    <p>10 حيلة من لا حيلة له الصبر</p>
+                    <p>11 المكثار كحاطب ليلاً</p>
+                    <p>قال أبو الفتح البستي في حفظ اللسان</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>تكلم وسدد ما استطعت فإنما </seg>
+                            <seg> كلامك حي والسكوت جماد</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فإن لم تجد قولاً سديداً تقوله </seg>
+                            <seg> فصمتك عن غير السديد سداد</seg>
+                        </l>
+                    </lg>
+                    <p>أوصى زهير بن خباب بنيه وخطابهم فقال يا بني أني قد كبرت سني وحكمتني التجارب،
+                        فاحفظوا عن ما أقول وعوه</p>
+                    <p>إياكم والخور عند المصائب، والتواكل عن النوائب، فإن ذلك داعية للغم وشماتة
+                        للعدو وسوء ظن بالرب. وإياكم أن تكونوا بالأحداث مغترين ولها آمنين ومنها
+                        ساخرين. فإنه ما سخر قوم قط إلا ابتلوا ولكن توقعوها فإن الإنسان في الدنيا غرض
+                        تعاوره الرماة فمقصر دونه ومجاوز لموضعة. <pb ed="shamela"
+                   n="n2-p24"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P48.xhtml"/>
+                    </p>
+                </div>
+                <div type="article">
+                    <head>المتفرقات</head>
+                    <p>قيل للحسن البصري من شر الناس قال الذي يرى أنه خيرهم قال الرجل لابن سيرين أني
+                        وقعت فيك فاجعلني في حل قال ما أحب أن أحلك ما حرم الله عليك.</p>
+                    <p>قيل لعبد الله ابن المقفع أصديقك إليك أم نسيبك قال إنما أحب النسيب إذا كان
+                        صديقاً.</p>
+                    <p>أول من سمى التجار تجاراً سيدنا محمد (رسول الله) صلى الله عليه وسلم وكانوا
+                        يسمون السماسرة. . أول من أمر الناس بالصوم من الملوك (طهمورث) وكان قد ظهر
+                        الغلاء والقحط في زمنه.</p>
+                    <p>امرأة لقيط بن زرارة قال لها زوجها الثاني يوماً ماذا استحسنت من لقيط فقالت كل
+                        أموره حسن ولكن أحدثك أنه خرج يوماً يتصيد فلما رجع إلي وبقميصه نضح من دماء
+                        صيده والمسك يتضوع من أعطافه ضمني ضمة، وشمني شمة، فليتني مت ثمة، ففعل زوجها
+                        الثاني مثل ذلك وضمها إليه وقال أين أنا من لقيط فقالت ماء ولا كصداء ومرعي ولا
+                        كسعدان وأرسلتها مثلاً يضرب لمن تحسر على شيء فاته وحصل على أدنى منه.</p>
+                    <p>تكرم بهذا التقريظ حضرة الأديب الفاضل صاحب الإمضاء</p>
+                    <lg>
+                        <l type="bayt">
+                            <seg>متى كنا نرى بدمشق يوماً </seg>
+                            <seg> به تروي الحقيقة كل شائق</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>لقد أوضحت يا زمن الترقي </seg>
+                            <seg> لنا سبلاً أبادت كل عائق</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>فشكراً للعدالة ثم شكراص </seg>
+                            <seg> لأهل العلم أذ مهدوا الطرائق</seg>
+                        </l>
+                        <l type="bayt">
+                            <seg>عسى ولعل داء الجهل يشفي </seg>
+                            <seg> وتمحوه المعارف و (الحقائق)</seg>
+                        </l>
+                    </lg>
+                    <p>عبد اللطيف البغدادي</p>
+                    <p>بيان واعتذار وشكر ورجاء</p>
+                    <p>إن للمران على العمل يداً في إتقانه، جرياً على ناموس بدء كل عمل ناقصاً ثم
+                        تكميله تدريجاً. لذلك صدر الجزء الأول في صحيفة 32 وهذا الثاني في صحيفة
+                        40.</p>
+                    <p>ولم يخل الجزء الأول من أغلاط مطبعية قلت في هذا الجزء وخليق بمن رضي بسنة الله.
+                        ولم يدع الكمال في أعماله. أن يمده الله بعنايته وأن يقبل القراء عذره.</p>
+                    <p>وفي هذا المقام نرفع شكرنا لمن أحسنوا الظن بنا فكاتبونا وشافهونا بما يشف عن
+                        استحسان خطة مجلتنا ومواضيعها المفيدة كما نشكر من نوَّه بها من أرباب الصحف
+                        ومن تفضل <pb ed="shamela"
+                   n="n2-p25"
+                   corresp="file:../epub/29676/OEBPS/xhtml/P49.xhtml"/> بمبادلتنا. وربما
+                        نعود فننشر بعض ما جادت به علينا أقلام أفاضل العلماء. في استحسان هذا العمل
+                        قياماً بواجب شكرهم وكنا ننتظر أن يرد علينا انتقادات قد لا يسلم منها كل مبتدأ
+                        في عمل وقد كنا طلبنا ذلك في الجزء الأول واليوم نكرر رجاءنا لأهل العلم، وحملة
+                        الأقلام أن ينتقدوا ما يجدونه محلاً للنقد خدمة للعلم والأدب. ونتعهد بنشره
+                        والعمل بإشارته أو الجواب عنه. كما نرجو منهم أن يضنوا علينا بمؤازرتهم وآرائهم
+                        الصائبة لنحلي بها جيد هذه المجلة. ونكون لهم من الشاكرين. <pb ed="shamela"
+                   n=""
+                   corresp="file:../epub/29676/OEBPS/xhtml/P50.xhtml"/>
+                    </p>
+                </div>
+            </body>
+         </text>
+</TEI>
