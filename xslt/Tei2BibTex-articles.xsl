@@ -14,8 +14,11 @@
     <xsl:param name="pLang" select="'ar-Latn-x-ijmes'"/>
 
     <xsl:variable name="vFileId" select="tei:TEI/@xml:id"/>
+    <!-- all files carry their URL in the teiHeader -->
     <xsl:variable name="vgFileUrl"
-        select="concat('https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/', tokenize(base-uri(), '/')[last()])"/>
+        select="/tei:TEI/tei:teiHeader/descendant::tei:publicationStmt/descendant::tei:idno[@type='url']"/>
+    <!--<xsl:variable name="vgFileUrl"
+        select="concat('https://rawgit.com/tillgrallert/digital-muqtabas/master/xml/', tokenize(base-uri(), '/')[last()])"/>-->
     <xsl:variable name="vN" select="'&#x0A;'"/>
 
     <xsl:template match="/">
