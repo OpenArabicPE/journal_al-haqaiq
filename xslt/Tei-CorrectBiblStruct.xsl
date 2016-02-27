@@ -12,7 +12,7 @@
     
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p>This stylesheet moves any <tei:gi>biblScope</tei:gi> from inside <tei:gi>imprint</tei:gi> to its paren <tei:gi>monograph</tei:gi> in order to comply with TEI encoding practices.</xd:p>
+            <xd:p>This stylesheet moves any <tei:gi>biblScope</tei:gi> from inside <tei:gi>imprint</tei:gi> to its parent <tei:gi>monograph</tei:gi> in order to comply with TEI encoding practices.</xd:p>
         </xd:desc>
     </xd:doc>
     
