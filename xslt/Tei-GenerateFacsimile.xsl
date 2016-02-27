@@ -27,7 +27,7 @@
     <xsl:param name="vHathiTrustId" select="'njp.32101036074001'"/>
     <!-- volume in EAP collection: needs to be set  -->
 <!--    <xsl:variable name="vEapVolumeId" select="'4'"/>-->
-    <xsl:variable name="vFileName" select="concat(translate($vHathiTrustId,'.','-'),'_img-')"/>
+    <xsl:variable name="vFileName" select="concat(translate($vHathiTrustId,'.','-'),'-img_')"/>
     <!-- local path to folder containing the images of this issue -->
     <xsl:variable name="vFilePath" select="'../images/oclc_644997575-v_1/'"/>
     <!-- URL to Hathi, this is always the same -->
