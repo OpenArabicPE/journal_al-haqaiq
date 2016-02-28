@@ -20,6 +20,30 @@ The purpose and scope of the project is to provide an open, collaborative, refer
 
 # The journal *al-Ḥaqāʾiq*
 
+## issues
+
+- vol. 1
+    1. 1-32
+        + the structure of the transcription is pretty bad. Some pages were not transcribed, sometimes the head of pages was transcribed as an article head etc.
+    2. 33-72
+    3. 73-112
+    4. 113-152
+    5. 153-194
+    6. 195-236
+    7. 235-274, missing from the transcription
+    8. 275-316
+    9. 317-356
+    10. 357-396
+    11. 397-438
+    12. 439-480
+
+## sections
+
+- al-ʿulamāʾ
+- al-akhlāq
+- al-lugha al-ʿarabiyya
+- al-intiqād
+
 # Digital imagery
 
 Digital files are available from [HathiTrust (vol. 1)](http://hdl.handle.net/2027/njp.32101036074001) and it seems that the Bayerische Staatsbibliothek in Munich sells [PDFs of vols. 1-3](https://opacplus.bsb-muenchen.de/metaopac/hitList.do?methodToCall=backToCompleteList&identifier=100_SOLR_SERVER_959229700)
