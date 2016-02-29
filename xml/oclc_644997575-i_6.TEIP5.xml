@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/tillgrallert/TeachingTei/master/schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp.xsl"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:xd="http://www.pnp-software.com/XSLTdoc" xmlns:opf="http://www.idpf.org/2007/opf"
-    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_6" xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/tillgrallert/TeachingTei/master/schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp.xsl"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xd="http://www.pnp-software.com/XSLTdoc" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_6" xml:lang="">
     <teiHeader xml:lang="en">
         <fileDesc xml:lang="en">
             <titleStmt xml:lang="en">
@@ -29,13 +25,11 @@
                 <pubPlace xml:lang="en">Beirut</pubPlace>
                 <date when="2016" xml:lang="en">2016</date>
                 <availability status="restricted" xml:lang="en">
-                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en"
-                        >Distributed under a Creative Commons Attribution-ShareAlike 4.0
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0
                         International (CC BY-SA 4.0) license</licence>
                 </availability>
 
-                <idno type="url" xml:lang="en"
-                    >https://github.com/tillgrallert/digital-haqaiq/blob/master/xml/oclc_644997575-i_6.TEIP5.xml</idno>
+                <idno type="url" xml:lang="en">https://github.com/tillgrallert/digital-haqaiq/blob/master/xml/oclc_644997575-i_6.TEIP5.xml</idno>
             </publicationStmt>
             <sourceDesc xml:lang="en">
                 <biblStruct xml:lang="en">
@@ -83,14 +77,12 @@
         <encodingDesc xml:lang="en">
             <samplingDecl xml:lang="en">
                 <p xml:lang="en">The edition is based on the digital transcripts (HTML files wrapped
-                    in ePub) available from <ref target="http://shamela.ws/index.php/book/26523"
-                        xml:lang="en">
+                    in ePub) available from <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
                         <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
                     </ref>.</p>
             </samplingDecl>
             <editorialDecl xml:lang="en">
-                <p xml:lang="en">The original editorial practices followed by <ref
-                        target="http://shamela.ws/index.php/book/26523" xml:lang="en">
+                <p xml:lang="en">The original editorial practices followed by <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
                         <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
                     </ref> can only be deduced from the limited mark-up found in the digital text
                     provided online and as ePub. It appears from that that paragraphs and head lines
@@ -98,24 +90,20 @@
                     the earlier issues these do not correspond to the page breaks in the print
                     edition and should thus be marked with <att xml:lang="en">ed</att>="shamela"</p>
                 <p xml:lang="en">It remains unclear to which extent publication dates for individual
-                    issues are correct. The transcribers seemingly normalised <foreign
-                        xml:lang="ar-Latn-x-ijmes">hijrī</foreign> dates for the first two years
+                    issues are correct. The transcribers seemingly normalised <foreign xml:lang="ar-Latn-x-ijmes">hijrī</foreign> dates for the first two years
                     (1906-1907) and then recorded all issue as having been published on the first of
                     each Gregorian month. This needs to be checked against the image files and other
                     sources.</p>
-                <p xml:lang="en">Some phenomena have been marked in red spans by <ref
-                        target="http://shamela.ws/index.php/book/26523" xml:lang="en">
+                <p xml:lang="en">Some phenomena have been marked in red spans by <ref target="http://shamela.ws/index.php/book/26523" xml:lang="en">
                         <foreign xml:lang="ar-Latn-x-ijmes">al-maktabat al-shāmila</foreign>
                     </ref>. Red spans that contained three points only were considered indicators of
-                    ellipses and transformed into <gi xml:lang="en">gap</gi> with <att xml:lang="en"
-                        >resp</att>="#org_MS". Upon further scrutiny, it turned out that most, if
+                    ellipses and transformed into <gi xml:lang="en">gap</gi> with <att xml:lang="en">resp</att>="#org_MS". Upon further scrutiny, it turned out that most, if
                     not all, of these <gi xml:lang="en">gap</gi>s indicated the division between two
                     halfs of the line of a <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>. I
                     have converted all <gi xml:lang="en">p</gi>s that contained two short lines of
                     text divided by <gi xml:lang="en">gap</gi> into <gi xml:lang="en">lg</gi> of
                         <att xml:lang="en">type</att>="bayt" with <gi xml:lang="en">l</gi> child
-                    elements. All other red spans have been retained as <gi xml:lang="en"
-                    >hi</gi>.</p>
+                    elements. All other red spans have been retained as <gi xml:lang="en">hi</gi>.</p>
             </editorialDecl>
         </encodingDesc>
         <profileDesc xml:lang="en">
@@ -136,54 +124,37 @@
                     <p xml:lang="en">Islamic <hi xml:lang="en">hijrī</hi> calendar: lunar calendar
                         beginning the Year with 1 Muḥarram. Dates differ between locations as the
                         beginning of the month is based on sightings of the new moon.</p>
-                    <p xml:lang="en">E.g. <date calendar="#cal_islamic" datingMethod="#cal_islamic"
-                            when="1841-05-23" when-custom="1257-04-01" xml:lang="en">1 Rab II 1257,
-                            Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic"
-                            when="1908-03-05" when-custom="1326-02-01" xml:lang="en">1 Ṣaf 1326,
+                    <p xml:lang="en">E.g. <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1841-05-23" when-custom="1257-04-01" xml:lang="en">1 Rab II 1257,
+                            Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1908-03-05" when-custom="1326-02-01" xml:lang="en">1 Ṣaf 1326,
                             Thursday</date>.</p>
                 </calendar>
                 <calendar xml:id="cal_julian" xml:lang="en">
                     <p xml:lang="en">Reformed Julian calendar beginning the Year with 1 January. In
                         the Ottoman context usually referred to as <hi xml:lang="en">rūmī</hi>.
-                        Arabic newspapers usually labelled this calendar as <hi xml:lang="en"
-                            >sharqī</hi>.</p>
+                        Arabic newspapers usually labelled this calendar as <hi xml:lang="en">sharqī</hi>.</p>
                     <p xml:lang="en">All solar calendars add an intercalated 366th day every fourth
                         (and, in the case of Gregorian and rūmī calendars, even-numbered) year at
                         the end of February (the last day of the old Julian calendar). The Gregorian
                         calendar suppresses this rule in centesimal years that cannot be divided by
                         400. This difference creates a growing offset between Gregorian and Julian
                         calendars: while 1900 R was a leap year, 1900 was not, which in turn caused
-                        the difference between the Gregorian calendar, on the one hand, and the <hi
-                            xml:lang="en">mālī</hi> and <hi xml:lang="en">rūmī</hi> calendars, on
+                        the difference between the Gregorian calendar, on the one hand, and the <hi xml:lang="en">mālī</hi> and <hi xml:lang="en">rūmī</hi> calendars, on
                         the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R /
                         1315 M (13 March 1900) onwards.</p>
-                    <p xml:lang="en">E.g. <date calendar="#cal_julian" datingMethod="#cal_julian"
-                            when="1841-05-23" when-custom="1841-05-11" xml:lang="en">11 Ayyār 1841,
-                            Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian"
-                            when="1908-03-05" when-custom="1908-02-21" xml:lang="en">21 Shub 1908,
+                    <p xml:lang="en">E.g. <date calendar="#cal_julian" datingMethod="#cal_julian" when="1841-05-23" when-custom="1841-05-11" xml:lang="en">11 Ayyār 1841,
+                            Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian" when="1908-03-05" when-custom="1908-02-21" xml:lang="en">21 Shub 1908,
                             Thursday</date>.</p>
                 </calendar>
                 <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
                     <p xml:lang="en">Ottoman fiscal calendar: a lunosolar calendar. It is based on
                         the Old Julian calendar beginning the Year with 1 March. Introduced as
                         fiscal calendar in 1676 and in the Ottoman context usually referred to as
-                            <hi xml:lang="en">mālī</hi> and sometimes, confusingly, also as <hi
-                            xml:lang="en">rūmī</hi>. Every 33 lunar years, a <hi xml:lang="en"
-                            >hijrī</hi> year would complete within a single solar <hi xml:lang="en"
-                            >mālī</hi> year. In this case the counting of the <hi xml:lang="en"
-                            >mālī</hi> years skipped a year to catch up with the faster <hi
-                            xml:lang="en">hijrī</hi> calendar. Due to a printing error in the coupon
+                            <hi xml:lang="en">mālī</hi> and sometimes, confusingly, also as <hi xml:lang="en">rūmī</hi>. Every 33 lunar years, a <hi xml:lang="en">hijrī</hi> year would complete within a single solar <hi xml:lang="en">mālī</hi> year. In this case the counting of the <hi xml:lang="en">mālī</hi> years skipped a year to catch up with the faster <hi xml:lang="en">hijrī</hi> calendar. Due to a printing error in the coupon
                         booklets for the consolidated debt repayment program for 1872 (1288 M
-                        instead of 1289 M), synchronisation of <hi xml:lang="en">mālī</hi> and <hi
-                            xml:lang="en">hijrī</hi> years was henceforth abolished. As <hi
-                            xml:lang="en">mālī</hi> years began with 1 March, <hi xml:lang="en"
-                            >mālī</hi> leap years preceded their <hi xml:lang="en">rūmī</hi> and
+                        instead of 1289 M), synchronisation of <hi xml:lang="en">mālī</hi> and <hi xml:lang="en">hijrī</hi> years was henceforth abolished. As <hi xml:lang="en">mālī</hi> years began with 1 March, <hi xml:lang="en">mālī</hi> leap years preceded their <hi xml:lang="en">rūmī</hi> and
                         Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
-                    <p xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal"
-                            datingMethod="#cal_ottomanfiscal" when="1841-05-23"
-                            when-custom="1257-03-11" xml:lang="en">11 Māyis 1257, Sunday</date>,
-                            <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal"
-                            when="1908-03-05" when-custom="1323-12-21" xml:lang="en">21 Shub 1323,
+                    <p xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:lang="en">11 Māyis 1257, Sunday</date>,
+                            <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:lang="en">21 Shub 1323,
                             Thursday</date>.</p>
                 </calendar>
             </calendarDesc>
@@ -212,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 42 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every
@@ -222,17 +193,13 @@
                 nodes that lacked this attribute. The value is based on the closest
                 ancestor.</tei:change>
             <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting
-                    <ref
-                    target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml"
-                    xml:lang="en">the master file</ref> into individual files for each issue that
+                    <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that
                 are linked to the master file by means of xPointer.</change>
             <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a
                     <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of
                 this periodical.</change>
-            <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign
-                    xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s
-                divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of <att
-                    xml:lang="en">type</att>="bayt" comprising two <gi xml:lang="en">seg</gi>
+            <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s
+                divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of <att xml:lang="en">type</att>="bayt" comprising two <gi xml:lang="en">seg</gi>
                 nodes.</change>
             <change when="2016-02-26" who="#pers_TG" xml:lang="en">Created this TEI P5 file by
                 automatic conversion from ePub.</change>
@@ -240,466 +207,214 @@
     </teiHeader>
     <tei:facsimile xml:id="facs">
         <tei:surface xml:id="facs_205">
-            <tei:graphic xml:id="facs_205-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_205.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_205-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_205.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_205-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=205"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_205-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_205.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_205-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_205.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_205-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=213"/>
         </tei:surface>
         <tei:surface xml:id="facs_206">
-            <tei:graphic xml:id="facs_206-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_206.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_206-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_206.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_206-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=206"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_206-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_206.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_206-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_206.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_206-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=214"/>
         </tei:surface>
         <tei:surface xml:id="facs_207">
-            <tei:graphic xml:id="facs_207-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_207.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_207-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_207.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_207-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=207"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_207-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_207.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_207-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_207.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_207-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=215"/>
         </tei:surface>
         <tei:surface xml:id="facs_208">
-            <tei:graphic xml:id="facs_208-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_208.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_208-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_208.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_208-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=208"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_208-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_208.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_208-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_208.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_208-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=216"/>
         </tei:surface>
         <tei:surface xml:id="facs_209">
-            <tei:graphic xml:id="facs_209-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_209.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_209-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_209.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_209-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=209"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_209-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_209.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_209-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_209.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_209-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=217"/>
         </tei:surface>
         <tei:surface xml:id="facs_210">
-            <tei:graphic xml:id="facs_210-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_210.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_210-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_210.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_210-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=210"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_210-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_210.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_210-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_210.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_210-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=218"/>
         </tei:surface>
         <tei:surface xml:id="facs_211">
-            <tei:graphic xml:id="facs_211-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_211.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_211-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_211.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_211-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=211"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_211-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_211.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_211-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_211.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_211-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=219"/>
         </tei:surface>
         <tei:surface xml:id="facs_212">
-            <tei:graphic xml:id="facs_212-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_212.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_212-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_212.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_212-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=212"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_212-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_212.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_212-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_212.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_212-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=220"/>
         </tei:surface>
         <tei:surface xml:id="facs_213">
-            <tei:graphic xml:id="facs_213-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_213.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_213-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_213.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_213-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=213"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_213-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_213.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_213-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_213.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_213-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=221"/>
         </tei:surface>
         <tei:surface xml:id="facs_214">
-            <tei:graphic xml:id="facs_214-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_214.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_214-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_214.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_214-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=214"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_214-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_214.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_214-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_214.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_214-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=222"/>
         </tei:surface>
         <tei:surface xml:id="facs_215">
-            <tei:graphic xml:id="facs_215-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_215.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_215-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_215.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_215-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=215"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_215-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_215.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_215-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_215.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_215-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=223"/>
         </tei:surface>
         <tei:surface xml:id="facs_216">
-            <tei:graphic xml:id="facs_216-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_216.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_216-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_216.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_216-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=216"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_216-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_216.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_216-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_216.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_216-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=224"/>
         </tei:surface>
         <tei:surface xml:id="facs_217">
-            <tei:graphic xml:id="facs_217-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_217.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_217-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_217.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_217-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=217"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_217-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_217.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_217-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_217.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_217-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=225"/>
         </tei:surface>
         <tei:surface xml:id="facs_218">
-            <tei:graphic xml:id="facs_218-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_218.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_218-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_218.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_218-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=218"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_218-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_218.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_218-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_218.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_218-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=226"/>
         </tei:surface>
         <tei:surface xml:id="facs_219">
-            <tei:graphic xml:id="facs_219-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_219.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_219-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_219.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_219-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=219"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_219-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_219.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_219-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_219.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_219-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=227"/>
         </tei:surface>
         <tei:surface xml:id="facs_220">
-            <tei:graphic xml:id="facs_220-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_220.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_220-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_220.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_220-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=220"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_220-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_220.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_220-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_220.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_220-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=228"/>
         </tei:surface>
         <tei:surface xml:id="facs_221">
-            <tei:graphic xml:id="facs_221-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_221.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_221-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_221.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_221-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=221"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_221-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_221.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_221-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_221.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_221-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=229"/>
         </tei:surface>
         <tei:surface xml:id="facs_222">
-            <tei:graphic xml:id="facs_222-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_222.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_222-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_222.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_222-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=222"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_222-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_222.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_222-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_222.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_222-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=230"/>
         </tei:surface>
         <tei:surface xml:id="facs_223">
-            <tei:graphic xml:id="facs_223-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_223.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_223-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_223.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_223-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=223"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_223-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_223.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_223-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_223.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_223-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=231"/>
         </tei:surface>
         <tei:surface xml:id="facs_224">
-            <tei:graphic xml:id="facs_224-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_224.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_224-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_224.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_224-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=224"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_224-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_224.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_224-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_224.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_224-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=232"/>
         </tei:surface>
         <tei:surface xml:id="facs_225">
-            <tei:graphic xml:id="facs_225-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_225.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_225-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_225.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_225-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=225"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_225-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_225.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_225-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_225.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_225-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=233"/>
         </tei:surface>
         <tei:surface xml:id="facs_226">
-            <tei:graphic xml:id="facs_226-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_226.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_226-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_226.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_226-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=226"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_226-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_226.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_226-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_226.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_226-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=234"/>
         </tei:surface>
         <tei:surface xml:id="facs_227">
-            <tei:graphic xml:id="facs_227-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_227.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_227-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_227.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_227-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=227"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_227-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_227.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_227-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_227.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_227-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=235"/>
         </tei:surface>
         <tei:surface xml:id="facs_228">
-            <tei:graphic xml:id="facs_228-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_228.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_228-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_228.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_228-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=228"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_228-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_228.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_228-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_228.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_228-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=236"/>
         </tei:surface>
         <tei:surface xml:id="facs_229">
-            <tei:graphic xml:id="facs_229-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_229.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_229-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_229.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_229-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=229"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_229-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_229.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_229-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_229.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_229-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=237"/>
         </tei:surface>
         <tei:surface xml:id="facs_230">
-            <tei:graphic xml:id="facs_230-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_230.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_230-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_230.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_230-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=230"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_230-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_230.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_230-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_230.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_230-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=238"/>
         </tei:surface>
         <tei:surface xml:id="facs_231">
-            <tei:graphic xml:id="facs_231-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_231.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_231-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_231.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_231-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=231"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_231-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_231.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_231-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_231.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_231-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=239"/>
         </tei:surface>
         <tei:surface xml:id="facs_232">
-            <tei:graphic xml:id="facs_232-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_232.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_232-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_232.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_232-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=232"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_232-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_232.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_232-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_232.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_232-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=240"/>
         </tei:surface>
         <tei:surface xml:id="facs_233">
-            <tei:graphic xml:id="facs_233-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_233.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_233-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_233.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_233-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=233"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_233-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_233.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_233-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_233.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_233-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=241"/>
         </tei:surface>
         <tei:surface xml:id="facs_234">
-            <tei:graphic xml:id="facs_234-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_234.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_234-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_234.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_234-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=234"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_234-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_234.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_234-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_234.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_234-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=242"/>
         </tei:surface>
         <tei:surface xml:id="facs_235">
-            <tei:graphic xml:id="facs_235-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_235.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_235-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_235.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_235-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=235"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_235-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_235.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_235-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_235.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_235-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=243"/>
         </tei:surface>
         <tei:surface xml:id="facs_236">
-            <tei:graphic xml:id="facs_236-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_236.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_236-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_236.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_236-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=236"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_236-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_236.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_236-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_236.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_236-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=244"/>
         </tei:surface>
         <tei:surface xml:id="facs_237">
-            <tei:graphic xml:id="facs_237-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_237.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_237-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_237.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_237-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=237"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_237-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_237.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_237-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_237.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_237-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=245"/>
         </tei:surface>
         <tei:surface xml:id="facs_238">
-            <tei:graphic xml:id="facs_238-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_238.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_238-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_238.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_238-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=238"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_238-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_238.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_238-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_238.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_238-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=246"/>
         </tei:surface>
         <tei:surface xml:id="facs_239">
-            <tei:graphic xml:id="facs_239-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_239.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_239-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_239.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_239-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=239"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_239-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_239.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_239-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_239.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_239-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=247"/>
         </tei:surface>
         <tei:surface xml:id="facs_240">
-            <tei:graphic xml:id="facs_240-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_240.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_240-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_240.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_240-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=240"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_240-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_240.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_240-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_240.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_240-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=248"/>
         </tei:surface>
         <tei:surface xml:id="facs_241">
-            <tei:graphic xml:id="facs_241-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_241.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_241-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_241.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_241-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=241"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_241-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_241.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_241-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_241.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_241-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=249"/>
         </tei:surface>
         <tei:surface xml:id="facs_242">
-            <tei:graphic xml:id="facs_242-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_242.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_242-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_242.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_242-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=242"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_242-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_242.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_242-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_242.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_242-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=250"/>
         </tei:surface>
         <tei:surface xml:id="facs_243">
-            <tei:graphic xml:id="facs_243-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_243.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_243-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_243.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_243-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=243"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_243-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_243.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_243-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_243.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_243-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=251"/>
         </tei:surface>
         <tei:surface xml:id="facs_244">
-            <tei:graphic xml:id="facs_244-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_244.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_244-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_244.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_244-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=244"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_244-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_244.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_244-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_244.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_244-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=252"/>
         </tei:surface>
         <tei:surface xml:id="facs_245">
-            <tei:graphic xml:id="facs_245-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_245.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_245-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_245.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_245-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=245"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_245-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_245.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_245-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_245.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_245-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=253"/>
         </tei:surface>
         <tei:surface xml:id="facs_246">
-            <tei:graphic xml:id="facs_246-g_1"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_246.tif"
-                mimeType="image/tiff"/>
-            <tei:graphic xml:id="facs_246-g_2"
-                url="../images/oclc_644997575-v_1/njp-32101036074001-img_246.jpg"
-                mimeType="image/jpeg"/>
-            <tei:graphic xml:id="facs_246-g_3"
-                url="http://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=246"
-                mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_246-g_1" url="../images/oclc_644997575-v_1/njp-32101036074001-img_246.tif" mimeType="image/tiff"/>
+            <tei:graphic xml:id="facs_246-g_2" url="../images/oclc_644997575-v_1/njp-32101036074001-img_246.jpg" mimeType="image/jpeg"/>
+            <tei:graphic xml:id="facs_246-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=254"/>
         </tei:surface>
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_6">
@@ -709,28 +424,23 @@
                 <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
                     <monogr xml:lang="ar" xml:id="monogr_2.d1e471">
                         <title level="j" xml:lang="ar" xml:id="title_8.d1e473">الحقائق</title>
-                        <editor ref="http://viaf.org/viaf/4795364" xml:lang="ar"
-                            xml:id="editor_2.d1e476">
+                        <editor ref="http://viaf.org/viaf/4795364" xml:lang="ar" xml:id="editor_2.d1e476">
                             <persName xml:lang="ar" xml:id="persName_7.d1e478">عبد القادر
                                 الإسكندراني</persName>
                             <persName xml:lang="ar-Latn-x-ijmes" xml:id="persName_8.d1e481">
                                 <forename xml:lang="ar-Latn-x-ijmes" xml:id="forename_2.d1e483">ʿAbd
                                     al-Qādir</forename>
-                                <surname xml:lang="ar-Latn-x-ijmes" xml:id="surname_2.d1e486"
-                                    >al-Iskandarānī</surname>
+                                <surname xml:lang="ar-Latn-x-ijmes" xml:id="surname_2.d1e486">al-Iskandarānī</surname>
                             </persName>
                         </editor>
                         <imprint xml:lang="ar" xml:id="imprint_2.d1e491">
                             <pubPlace xml:lang="en" xml:id="pubPlace_3.d1e493">
-                                <placeName xml:lang="ar" xml:id="placeName_3.d1e495"
-                                    >دمشق</placeName>
-                                <placeName xml:lang="en" xml:id="placeName_4.d1e498"
-                                    >Damascus</placeName>
+                                <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
+                                <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
                             <date when="1911-01-03" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 3
                                 - 1 - 1911</date>
-                            <biblScope n="6" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505"
-                                >العدد 6</biblScope>
+                            <biblScope n="6" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 6</biblScope>
                             <biblScope unit="page" from="195" to="236" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                     </monogr>
@@ -746,8 +456,7 @@
                         1911</date>
                 </bibl>
             </head>
-            <pb ed="shamela" n="n6-p1" corresp="file:../epub/29676/OEBPS/xhtml/P124.xhtml"
-                xml:id="pb_1.d1e529"/>
+            <pb ed="shamela" n="n6-p1" corresp="file:../epub/29676/OEBPS/xhtml/P124.xhtml" xml:id="pb_1.d1e529"/>
 
 
             <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
@@ -776,8 +485,7 @@
                     ظلمات البر والبحر ومن يرسل الرياح بشراً بين يدي رحمته ألإله مع الله تعالى الله
                     عما يشركون. أمن يبدأ الخلق ثم يعيده ومن يرزقكم من السماء والأرض ألإله مع الله قل
                     هاتوا برهانكم إن كنتم صادقين) وقال جل ذكره (وآلهكم إله واحد لا إله إلا هو الرحمن
-                    الرحيم) وقال سبحانه (إن <pb ed="shamela" n="n6-p2"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P125.xhtml" xml:id="pb_2.d1e547"/>
+                    الرحيم) وقال سبحانه (إن <pb ed="shamela" n="n6-p2" corresp="file:../epub/29676/OEBPS/xhtml/P125.xhtml" xml:id="pb_2.d1e547"/>
                     آلهكم لواحد رب السموات والأرض وما بينهما ورب المشارق) إلى غير ذلك من الآيات
                     القاطعة والأدلة الساطعة ولعظيم العناية بالتوحيد كررت آية في القرآن العظيم بضعاً
                     وثلاثين مرة فأي فؤاد لا يمتلئ إيماناً. وأي إحساس لا يتشبع يقيناً وتثبيتاً حينما
@@ -804,8 +512,7 @@
                     والتعدد المنفصل بأن تكون ذات تماثل ذاته تعالى ووحدانية في الصفات تنفي كذلك
                     التعدد المتصل بأن تكون له قدرتان أو إرادتان أو علمان فأكثر وهكذا والتعدد المنفصل
                     بأن تكون صفة في ذات تماثل صفاته الأزلية ووحدانية الأفعال تنفي أن يكون فعل أو
-                    اختراع أو إيجاد لغيره تعالى من الممكنات فليس <pb ed="shamela" n="n6-p3"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P126.xhtml" xml:id="pb_3.d1e553"/>
+                    اختراع أو إيجاد لغيره تعالى من الممكنات فليس <pb ed="shamela" n="n6-p3" corresp="file:../epub/29676/OEBPS/xhtml/P126.xhtml" xml:id="pb_3.d1e553"/>
                     للعبد تأثير في فعل من الأفعال وغنما تسند إليه على سبيل الكسب والاختيار (الله
                     خالق كل شيء) ولنا في هذا المقام زيادة تفصيل تأتي في محله إن شاء الله تعالى.</p>
                 <p xml:lang="ar" xml:id="p_20.d1e556">والدليل على اتصافه بالوحدانية أنه لو أمكن وجود
@@ -831,9 +538,7 @@
                     سبحان الله عما يصفون) أي من كل ما لا يليق بجناب قدسه من الأضداد والانداد فإن
                     مقام الألوهية يقتضي الغلبة وقد روى أن عبد الملك بن مروان قال حين قتل عمر بن سعيد
                     الأشدق كان والله أعز علي من دم ناظري ولكن لا يجتمع فحلان في شول لما يعلم أن
-                    الرغبة تفسد بتدبير الملكين لما يحدث بينهما من التغالب والتناكر <pb ed="shamela"
-                        n="n6-p4" corresp="file:../epub/29676/OEBPS/xhtml/P127.xhtml"
-                        xml:id="pb_4.d1e561"/> والاختلاف.</p>
+                    الرغبة تفسد بتدبير الملكين لما يحدث بينهما من التغالب والتناكر <pb ed="shamela" n="n6-p4" corresp="file:../epub/29676/OEBPS/xhtml/P127.xhtml" xml:id="pb_4.d1e561"/> والاختلاف.</p>
                 <p xml:lang="ar" xml:id="p_22.d1e564">ولا مرية أن من سلمت فطرته. وزكت طويته. ومن
                     الله عليه بروح خاصة إقامته على الصراط السوي. وأبعدت فؤاده عن شياطين التأويلات
                     وأبالسة التحريفات.</p>
@@ -860,10 +565,7 @@
                     خلقه. وأبدعت في كل كائن صنعه. وجدت على كل حي بما إليه حاجته. ولم تحرم من رحمتك
                     حقيراً ولا جليلاً من خلقك. أيكون في الوجود من ينازعك في ملكك. ويعارضك في تصرفك
                     وتدبيرك، أيكون لك شريك في الملك. وولي من الذل تعاليت عما يقول الظالمون علواً
-                    كبيراً (قل لو كان معه آلهة يقولون إذا لابتغوا إلى ذي العرش سبيلاً). <pb
-                        ed="shamela" n="n6-p5" corresp="file:../epub/29676/OEBPS/xhtml/P128.xhtml"
-                        xml:id="pb_5.d1e572"/> يتبع <pb ed="shamela" n="n6-p6"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P129.xhtml" xml:id="pb_6.d1e574"/>
+                    كبيراً (قل لو كان معه آلهة يقولون إذا لابتغوا إلى ذي العرش سبيلاً). <pb ed="shamela" n="n6-p5" corresp="file:../epub/29676/OEBPS/xhtml/P128.xhtml" xml:id="pb_5.d1e572"/> يتبع <pb ed="shamela" n="n6-p6" corresp="file:../epub/29676/OEBPS/xhtml/P129.xhtml" xml:id="pb_6.d1e574"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_3.d1e578">
@@ -894,9 +596,7 @@
                     أثم به بل قيل فسق ثم قال ما مؤداه ومن عمل في مسئلة على رأي إمام فلا يجوز له أن
                     يقلد غيره في المسئلة نفسها اتفاقاً إذا بقي من آثار العمل الأول ما يلزم عليه مع
                     الثاني تركب حقيقة لا يقول بها كل من الإمامين كتقليد الشافعي في مسح بعض الرأس
-                    ومالك في طهارة الكلب في صلاة واحدة وقال الجلال المحلي في شرح جمع <pb
-                        ed="shamela" n="n6-p7" corresp="file:../epub/29676/OEBPS/xhtml/P130.xhtml"
-                        xml:id="pb_7.d1e591"/> الجوامع الأصح أنه يمتنع الرخص في المذاهب أي بأن يأخذ
+                    ومالك في طهارة الكلب في صلاة واحدة وقال الجلال المحلي في شرح جمع <pb ed="shamela" n="n6-p7" corresp="file:../epub/29676/OEBPS/xhtml/P130.xhtml" xml:id="pb_7.d1e591"/> الجوامع الأصح أنه يمتنع الرخص في المذاهب أي بأن يأخذ
                     من كل منها ما هو إلا هون فيما يقع من المسائل ونقل العلامة الشطي عن حاشية الخلوتي
                     على المنتهى وعن الشيخ عثمان النجدي الحنبلي وعن العلامة السفاريني الحنبلي أنهم
                     نصوا على المنع من التلفيق وذكراي العلامة الشطي رحمه الله أن كتب الحنابلة تفيد
@@ -921,9 +621,7 @@
                     على قواعد الشرع الشريف ونظام الاجتماع وأحقاق الحق الذي جاء به الدين الإسلامي
                     وخطره على الدين والملة لا ينكر ولو فتح هذا الباب لأفسد شأن الأمة والقول بأنه
                     يلزم من عدم جواز التلفيق إلزام العامي بمذهب معين وتكليفه بما فيه حرج عليه لا
-                    يظهر له وجه إذا لزام العامي بمذهب هو أن يلتزمه في جميع <pb ed="shamela"
-                        n="n6-p8" corresp="file:../epub/29676/OEBPS/xhtml/P131.xhtml"
-                        xml:id="pb_8.d1e600"/> المسائل ولسنا نكلفه به واشتراطنا عليه أن لا يأتي
+                    يظهر له وجه إذا لزام العامي بمذهب هو أن يلتزمه في جميع <pb ed="shamela" n="n6-p8" corresp="file:../epub/29676/OEBPS/xhtml/P131.xhtml" xml:id="pb_8.d1e600"/> المسائل ولسنا نكلفه به واشتراطنا عليه أن لا يأتي
                     بمناف عند من يقلده لا حرج فيه ولا يلزم منه اشتراط معرفة الشروط والأركان
                     والمفسدات ونحوها إذا الشرط أن لا يترك ما لا بد منه عند من يقلده كما تقدم وهذا
                     سهل موجود في كثير من الأمة وإذا فرضنا وجود أفراد بخلون بذلك فإنجاب التعلم عليهم
@@ -948,8 +646,7 @@
                 <p xml:lang="ar" xml:id="p_31.d1e606">(أقوال علماء الأصول في إبطال التلفيق وتتبع
                     الرخص زيادة على ما تقدم) الأسنوي في منهاجه</p>
                 <p xml:lang="ar" xml:id="p_32.d1e609">(فرعان) حكاهما ابن الحاجب (الثاني) إذا قلد
-                    مجتهداص في مسئلة فليس له تقليد غيره فيها إتفاقاً. <pb ed="shamela" n="n6-p9"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P132.xhtml" xml:id="pb_9.d1e611"/>
+                    مجتهداص في مسئلة فليس له تقليد غيره فيها إتفاقاً. <pb ed="shamela" n="n6-p9" corresp="file:../epub/29676/OEBPS/xhtml/P132.xhtml" xml:id="pb_9.d1e611"/>
                     وقال أيضاً ص (350) (فائدتان) إحداهما ذكر القرافي في شرح المحصول أن تقليد مذهب
                     الغير حيث جوزناه شرطه أن لا يكون واقعاً في أمر يجتمع على إبطاله الإمام الذي كان
                     على مذهبه والإمام الذي انتقل إليه فمن قلد مالكاً مثلاً في عدم النقض باللمس
@@ -970,9 +667,7 @@
                     سراً في رد أباد إلى ظنونهم حتى لا يكونوا مهملين متبعين للهوى مسترسلين استرسال
                     البهائم من غير أن يزمهم لجام التكليف فيردهم من جانب إلى جانب فيتذكرون العبودية
                     ونفاذ حكم الله تعالى فيهم في كل حركة وسكون يمنعهم من جانب إلى جانب فما دمنا نقدر
-                    على ضبطهم بضابط فذلك أولى من تخيرهم وإهمالهم كالبهائم أو الصبيان. <pb
-                        ed="shamela" n="n6-p10" corresp="file:../epub/29676/OEBPS/xhtml/P133.xhtml"
-                        xml:id="pb_10.d1e623"/>
+                    على ضبطهم بضابط فذلك أولى من تخيرهم وإهمالهم كالبهائم أو الصبيان. <pb ed="shamela" n="n6-p10" corresp="file:../epub/29676/OEBPS/xhtml/P133.xhtml" xml:id="pb_10.d1e623"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_4.d1e627">
@@ -1003,8 +698,7 @@
                     سؤالكم المؤرخ في 12 تشرين الثاني سنة 1910 حررناه ونحن نثنى على آدابكم وندعو لكم
                     بمزيد التوفيق حرر في 15 ذي القعدة سنة 1328 الموافق 7 ت2 سنة 1910.</p>
                 <p xml:lang="ar" xml:id="p_48.d1e670">(الختم)</p>
-                <p xml:lang="ar" xml:id="p_49.d1e673">الحمد لله تعالى <pb ed="shamela" n="n6-p11"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P134.xhtml" xml:id="pb_11.d1e675"/>
+                <p xml:lang="ar" xml:id="p_49.d1e673">الحمد لله تعالى <pb ed="shamela" n="n6-p11" corresp="file:../epub/29676/OEBPS/xhtml/P134.xhtml" xml:id="pb_11.d1e675"/>
                     لا يجوز وضع التماثيل والأنصاب في البلاد الإسلامية لأنها عبدت من دون الله ولذلك
                     هدمها الإسلام ولم يجوز إعادتها بعد ذلك لأحد سداً للذريعة ومنعاً للتشبه بالوثنيين
                     واتخاذها حرام بالإجماع للنهي عنه وكذلك تعظيمها لأنه يفتح باب عبادة الأصنام وينوه
@@ -1028,9 +722,7 @@
                     المشهور قائلاً له: حافظ على إحساسات الملايين من الناس الذين يعتقدون ما تريد نقضه
                     ونحن نقول أنه إذا لم يكن في إبطال التماثيل السياسية غير مراعاة عواطف الملايين من
                     العثمانيين المسلمين لكان ذلك موجباً لإبطالها والسلام.</p>
-                <p xml:lang="ar" xml:id="p_55.d1e694">(النصير البيروتي) (سعيد) <pb ed="shamela"
-                        n="n6-p12" corresp="file:../epub/29676/OEBPS/xhtml/P135.xhtml"
-                        xml:id="pb_12.d1e696"/>
+                <p xml:lang="ar" xml:id="p_55.d1e694">(النصير البيروتي) (سعيد) <pb ed="shamela" n="n6-p12" corresp="file:../epub/29676/OEBPS/xhtml/P135.xhtml" xml:id="pb_12.d1e696"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_5.d1e701">
@@ -1061,9 +753,7 @@
                     يحكم به كما تقدم وإنما كان الحكم فيها بالإطار بمجرد إشهار من محافظ مصر بضرب
                     المدافع بثبوت هلال شوال بناء على التلغراف الوارد إليه من محافظ الإسكندرية بأنه
                     ثبت عند قاضي الإسكندرية، وفتاوى الباقين سيظهر ما أنطوت عليه من التناقض في بعضها
-                    وعدم البت في البعض الآخر واستظهارها الحكم به إلى غير ذلك مما <pb ed="shamela"
-                        n="n6-p13" corresp="file:../epub/29676/OEBPS/xhtml/P136.xhtml"
-                        xml:id="pb_13.d1e711"/> سيأتي بيانه إن شاء الله تعالى الثالث قولكم، وبينا أن
+                    وعدم البت في البعض الآخر واستظهارها الحكم به إلى غير ذلك مما <pb ed="shamela" n="n6-p13" corresp="file:../epub/29676/OEBPS/xhtml/P136.xhtml" xml:id="pb_13.d1e711"/> سيأتي بيانه إن شاء الله تعالى الثالث قولكم، وبينا أن
                     هذه المسئلة جازت القنطرة فأنا أسألكم ما مرادكم بالقنطرة الذي جازتها هل قنطرة
                     الشريعة بمعنى أنها خرجت عن دائرة الشريعة التي شرعها الله ورسوله لعدم انطباقها
                     على أحكامها أو قنطرة أخرى أم ماذا؟ الرابع قولكم بمعنى أنه فرغ منها ولم يبق مجال
@@ -1089,9 +779,7 @@
                     لك طلبي بيان أسماء من ذكرت من علماء الشافعية أنهم ممن وافقوا على العمل في
                     التلغراف الصيام والإفطار ليعلم ذلك أولوا الأبصار، الثامن قولكم كلام شيخ الأزهر
                     ومقدم العلماء فيه عود على بدء للتمويه وهذا التمويه عند عرضه على محك النقد لم
-                    يثبت فتنبهوا له فغنا لا ننظر إلى شخصه ولا إلى وصفه بل ننظر إلى قوله <pb
-                        ed="shamela" n="n6-p14" corresp="file:../epub/29676/OEBPS/xhtml/P137.xhtml"
-                        xml:id="pb_14.d1e716"/> كما قدمنا فلك يكن كلامه كافياً لنا التاسع قولكم عن
+                    يثبت فتنبهوا له فغنا لا ننظر إلى شخصه ولا إلى وصفه بل ننظر إلى قوله <pb ed="shamela" n="n6-p14" corresp="file:../epub/29676/OEBPS/xhtml/P137.xhtml" xml:id="pb_14.d1e716"/> كما قدمنا فلك يكن كلامه كافياً لنا التاسع قولكم عن
                     كل من أفتى في هذه المسئلة ممن سميناهم قد برهن على فتواه واحتج لحكمه وما قضاه
                     فبالله عليك بين لنا براهينهم وحججهم التي أوردوها في فتاويهم وليست منقوضة ولا
                     باطلة من أصلها فلم نر منها غير المنقوضة الباطلة التي منها قول الشيخ عبد الباقي
@@ -1117,15 +805,11 @@
                     الحكم الشرعي ويظهر الغث من السمين وإني لا التفت لكتابة غير فضيلتكم سواء كان
                     سالكاً سبيل الأدب أو خارجاً عنه مظهر ذاته بوضع توقيعه أو متوارباً بإغفاله وسواء
                     كان بقلمكم معزواً لغيركم أو بإشاراتكم أولاً كما أني صممت على تحرير تأليف مستقل
-                    أجمع فيه ما يحصل من الأبحاث بيننا وبينكم وما ينتج عنها إن شاء <pb ed="shamela"
-                        n="n6-p15" corresp="file:../epub/29676/OEBPS/xhtml/P138.xhtml"
-                        xml:id="pb_15.d1e721"/> الله تعالى وقد اكتفينا الآن بهذه الأسطر وسنتبعها
+                    أجمع فيه ما يحصل من الأبحاث بيننا وبينكم وما ينتج عنها إن شاء <pb ed="shamela" n="n6-p15" corresp="file:../epub/29676/OEBPS/xhtml/P138.xhtml" xml:id="pb_15.d1e721"/> الله تعالى وقد اكتفينا الآن بهذه الأسطر وسنتبعها
                     بالكلام على الفتاوى التي اعتمدتم عليها بما يفتح الله به علينا ومنه نسأل السداد
                     والثبات فإنه المحبب للدعوات وهو اعلم بالنيات.</p>
                 <p xml:lang="ar" xml:id="p_60.d1e725">دمشق</p>
-                <p xml:lang="ar" xml:id="p_61.d1e728">محمد عارف المنير الحسيني <pb ed="shamela"
-                        n="n6-p16" corresp="file:../epub/29676/OEBPS/xhtml/P139.xhtml"
-                        xml:id="pb_16.d1e730"/>
+                <p xml:lang="ar" xml:id="p_61.d1e728">محمد عارف المنير الحسيني <pb ed="shamela" n="n6-p16" corresp="file:../epub/29676/OEBPS/xhtml/P139.xhtml" xml:id="pb_16.d1e730"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_6.d1e734">
@@ -1160,8 +844,7 @@
                     الأعمال وتلفح وجوههن النار.</p>
                 <p xml:lang="ar" xml:id="p_70.d1e764">غصت المعامل بالنساء الضعيفات، وشحنت بهن مخازن
                     التجارات، في مقابل أجور لا تبلغهن البلغة من العيش، وهل في ذلك من عجب بعد أن
-                    انزلهن محبوهن إلى ميدان <pb ed="shamela" n="n6-p17"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P140.xhtml" xml:id="pb_17.d1e766"/>
+                    انزلهن محبوهن إلى ميدان <pb ed="shamela" n="n6-p17" corresp="file:../epub/29676/OEBPS/xhtml/P140.xhtml" xml:id="pb_17.d1e766"/>
                     الأعمال، وقدر على مزاولة المشاق.</p>
                 <p xml:lang="ar" xml:id="p_71.d1e769">قال الفيلسوف الاقتصادي برودون في كتابه ابتكار
                     النظام في تعليل سبق الرجل للمرأة في ميدان الأعمال. قال:</p>
@@ -1191,8 +874,7 @@
                 <p xml:lang="ar" xml:id="p_79.d1e795">إلخ إلخ أهذه هي غاية محرري المرأة، يدعون أنهم
                     يحصلون لها حقوقاً مسلوبة فيوقعونها في هذه المضانك الحيوية؟</p>
                 <p xml:lang="ar" xml:id="p_80.d1e798">أبعد من النتائج الحسنة للحركة المسماة بتحرير
-                    المرأة أن يصبح في أوروبا أكثر من ثلاثين <pb ed="shamela" n="n6-p18"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P141.xhtml" xml:id="pb_18.d1e800"/>
+                    المرأة أن يصبح في أوروبا أكثر من ثلاثين <pb ed="shamela" n="n6-p18" corresp="file:../epub/29676/OEBPS/xhtml/P141.xhtml" xml:id="pb_18.d1e800"/>
                     مليون تصهر أجسادهن نيران المصانع، وتبل زهرة جمالهن المزاحمات؟</p>
                 <p xml:lang="ar" xml:id="p_81.d1e803">ليست هذه الصيحات هي التي تفتن الشرقيين فهم
                     بمعزل عنها بل هي تلك الأسراب النسائية من بنات الغرب يرونهن غاديات رائحات بين
@@ -1220,8 +902,7 @@
                 <p xml:lang="ar" xml:id="p_87.d1e822">هذه أقوال أصحاب الدار ولكن أتى لها أن تصل إلى
                     الواقفين مع الظواهر وخصوصاً هذه الظواهر الفتانة.</p>
                 <p xml:lang="ar" xml:id="p_88.d1e825">يخيل لمن يكتب في المواضيع الاجتماعية عن شعوره
-                    الذاتي بدون علم أن جميع المسائل <pb ed="shamela" n="n6-p19"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P142.xhtml" xml:id="pb_19.d1e827"/>
+                    الذاتي بدون علم أن جميع المسائل <pb ed="shamela" n="n6-p19" corresp="file:../epub/29676/OEBPS/xhtml/P142.xhtml" xml:id="pb_19.d1e827"/>
                     تابعة للقانون المنطقي والاستحسان الشخصي فمتى رأى رأيا وقدره بنظره تقديراً ما لم
                     يجد أمامه بعد ذلك أدلى صعوبة في جملة مبدأ له يصح أن يدلي به الناس كأصل من أصول
                     الحياة فما المانع بعد ذلك في رأي الكاتب من أن يأخذ به الناس وأن يعملوا به
@@ -1250,8 +931,7 @@
                     الطلاق ويقل (كما هو في أوروبا. . .) ثم يكون من أثر هذا الانتقال البديع إقبال
                     الشبان على الزواج ورواج سوق المصاهرات فلا يعود الشرق يشكو من انتشار مبدأ العزوبة
                     (كما لا يشكو منه الغرب الآن. . . .)</p>
-                <p xml:lang="ar" xml:id="p_93.d1e843">هكذا يقولون <pb ed="shamela" n="n6-p20"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P143.xhtml" xml:id="pb_20.d1e845"/>
+                <p xml:lang="ar" xml:id="p_93.d1e843">هكذا يقولون <pb ed="shamela" n="n6-p20" corresp="file:../epub/29676/OEBPS/xhtml/P143.xhtml" xml:id="pb_20.d1e845"/>
                     كل هذه المسائل الخطيرة سببها هذا الحجاب الشفاف الذي يشبه كما قالت جريدة لابورص
                     اللثام الذي يضعه الآن الأوربيات المغاليات في حب الظهور بأقصى شكل من الجمال.</p>
                 <p xml:lang="ar" xml:id="p_94.d1e848">ما الذي يمنع أن يكون الحجاب في نظر باحثنا
@@ -1282,8 +962,7 @@
                     الخاطب من رؤية خطيبته بسببه وهو قول من لم يبحث عن حقيقة الأسباب ولو كلف هؤلاء
                     الباحثون أنفسهم لوجدوا أن تسعمائة وتسعة وتسعين حالة من أحوال الطلاق سببها الشقاق
                     العائلي الذي يسببه في أكثر الأحوال الرجال بسوء سيرتهم نحو نسائهم ولتطلعهم إلى
-                    سواهن ممن قابلوهن في الأسواق ولانظن <pb ed="shamela" n="n6-p21"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P144.xhtml" xml:id="pb_21.d1e872"/>
+                    سواهن ممن قابلوهن في الأسواق ولانظن <pb ed="shamela" n="n6-p21" corresp="file:../epub/29676/OEBPS/xhtml/P144.xhtml" xml:id="pb_21.d1e872"/>
                     أن في كل ألف أكثر من حالة واحدة يطلق الرجل امرأته لعدم الاستحسان. يقولون أن
                     الحجاب هو سبب كل هذا الطلاق لأن الرجل بعد إمكان معاشرة المرأة قبل زواجها يجهل
                     أخلاقها تمام الجهل فإذا اقترن بها وجدها على ما لا يرام فيطلقها. وهذا قول بعيد عن
@@ -1309,8 +988,7 @@
                     زواج في سنة 1897 (641) طلاقاً أي في كل ثلاث عقود طلقة واحدة.</p>
                 <p xml:lang="ar" xml:id="p_107.d1e891">قال الكاتب عقب هذا الإحصاء بالحرف الواحد:</p>
                 <p xml:lang="ar" xml:id="p_108.d1e895">فالطلاق ينتشر إذن للدرجة القصوى والمدهش أن
-                    (80) في المائة من طلبات الطلاق آتية <pb ed="shamela" n="n6-p22"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P145.xhtml" xml:id="pb_22.d1e897"/>
+                    (80) في المائة من طلبات الطلاق آتية <pb ed="shamela" n="n6-p22" corresp="file:../epub/29676/OEBPS/xhtml/P145.xhtml" xml:id="pb_22.d1e897"/>
                     من جهة النساء مما يثبت أن ليس للرجل إلا دور ضعيف في حل عروة الزواج وذلك لأن
                     الطلاق يخجله جداً ولذلك تراه إذا تعب من امرأته يبحث عن سواها (تأمل) ولا يسعى في
                     انفصاله من الأولى إلا إذا طالبته الثانية بالزواج انتهى.</p>
@@ -1339,8 +1017,7 @@
                     ليتسع لهم الوقت لاصطياد فريسة واكتساب مغنم. فليس لأكثرهم من هم إلا التزوج
                     بالثريات فترى أحدهم لا يزال يتحرى مواقع الثروة غير مفكر في كمال ولا جمال حتى
                     يعثر بمطلوبه فيعمل كل ما في وسعه للتزوج بها وهي تأبى أن ترضاه لطمعها فيمن هو
-                    أغنى منها فحدث ما نراه من قلة الإقبال على الزواج. <pb ed="shamela" n="n6-p23"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P146.xhtml" xml:id="pb_23.d1e927"/>
+                    أغنى منها فحدث ما نراه من قلة الإقبال على الزواج. <pb ed="shamela" n="n6-p23" corresp="file:../epub/29676/OEBPS/xhtml/P146.xhtml" xml:id="pb_23.d1e927"/>
                     وهناك سبب آخر ساعد كثيراً على انتشار مبدأ العزوبة وهو شيوع الفحشاء في البلاد
                     وسهولة إتيانها سرا وعلانية.</p>
                 <p xml:lang="ar" xml:id="p_118.d1e930">وهذا المبدأ بجميع علله ومعلولاته إحدى هدايا
@@ -1367,8 +1044,7 @@
                     وأما المرأة فبخلاف ذلك فإن الشروط الاجتماعية الحالية تستدعى عفتها في عزوبتها
                     والعفاف يقتضي حذف وظيفة الأمومة وهي الوظيفة التي خلقت المرأة لأجلها جسداً وروحاً
                     لاشك إذن في أن هذه الحالة يجب أن تفسد شخصيتها إفساداً ذريعاً ولاشك أيضاً أن عددا
-                    كبيراً من هذه النسوة يحدثن آثارا هائلة على الهيئة <pb ed="shamela" n="n6-p24"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P147.xhtml" xml:id="pb_24.d1e942"/>
+                    كبيراً من هذه النسوة يحدثن آثارا هائلة على الهيئة <pb ed="shamela" n="n6-p24" corresp="file:../epub/29676/OEBPS/xhtml/P147.xhtml" xml:id="pb_24.d1e942"/>
                     الاجتماعية</p>
                 <p xml:lang="ar" xml:id="p_122.d1e945">ثم قال:</p>
                 <p xml:lang="ar" xml:id="p_123.d1e948">وقد ابتدأ علماء العمران يشعرون بوخامة عاقبة
@@ -1397,8 +1073,7 @@
                     الاجتماعية فنخفف من وطأة النوازل عليهن؟</p>
                 <p xml:lang="ar" xml:id="p_129.d1e967">إن الاختلاط بين النساء والرجال إذا كان له أثر
                     على حالة النساء فلا يكون إلا في تدنيس قلوبهن وإفساد فطرهن وتسهيل سبيل الفسق
-                    والفجور على الأرذال من الرجال ومنهن يقول <pb ed="shamela" n="n6-p25"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P148.xhtml" xml:id="pb_25.d1e969"/>
+                    والفجور على الأرذال من الرجال ومنهن يقول <pb ed="shamela" n="n6-p25" corresp="file:../epub/29676/OEBPS/xhtml/P148.xhtml" xml:id="pb_25.d1e969"/>
                     قسم بك أمين رحمه الله أنه يجب علينا أن نكشف نساءنا واو أدى ذلك إلى دخولهن في
                     جميع الأدوار التي دخلت فيها المرأة الأوربية يريد بذلك ولو أصبح الحال في العالم
                     الإسلامي كما هو في العالم الأوربي من شيوع الزنا ورواج سوق الفسق والغرام وانتشار
@@ -1427,8 +1102,7 @@
                     وسيلة أسهل من الانتحار فأما أن تقتل أولادها بيدها أو تدعهم لملاجئ الأيتام وترسل
                     بنفسها إلى عالم الأرواح انظر إلى ما تقوله الإحصاءات.</p>
                 <p xml:lang="ar" xml:id="p_135.d1e988">جاء في المجلد الحادي عشر من مجلة المجلات
-                    الفرنسية نقلا عن الإحصاءات الرسمية أنه <pb ed="shamela" n="n6-p26"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P149.xhtml" xml:id="pb_26.d1e990"/>
+                    الفرنسية نقلا عن الإحصاءات الرسمية أنه <pb ed="shamela" n="n6-p26" corresp="file:../epub/29676/OEBPS/xhtml/P149.xhtml" xml:id="pb_26.d1e990"/>
                     حصل في إيطاليا من سنة (1889) إلى سنة (1893) أي في مدة خمس سنين (569) انتحارا من
                     جهة النساء وحصل في فرنسا في تلك المدة عينها (5869) حادثة أي أن فرنسا ينتحر فيها
                     في كل سنة نحو (2000) امرأة وهو عدد ليس بالقليل لمن فيه ولو كانت هذه المعاشرة قبل
@@ -1459,8 +1133,7 @@
             <div type="article" xml:lang="ar" xml:id="div_7.d1e1007">
                 <head xml:lang="ar" xml:id="head_7.d1e1009">متفرقات</head>
                 <p xml:lang="ar" xml:id="p_140.d1e1012">
-                    <pb ed="shamela" n="n6-p27" corresp="file:../epub/29676/OEBPS/xhtml/P150.xhtml"
-                        xml:id="pb_27.d1e1014"/> جاءنا هذا الكتاب من العالم الفاضل صاحب الإمضاء</p>
+                    <pb ed="shamela" n="n6-p27" corresp="file:../epub/29676/OEBPS/xhtml/P150.xhtml" xml:id="pb_27.d1e1014"/> جاءنا هذا الكتاب من العالم الفاضل صاحب الإمضاء</p>
                 <p xml:lang="ar" xml:id="p_141.d1e1017">حضرة الأفاضل المحترمين أصحاب مجلة الحقائق
                     الغراء</p>
                 <p xml:lang="ar" xml:id="p_142.d1e1020">غلب تقديم واجبات التعليم والاحترام أرجو من
@@ -1497,8 +1170,7 @@
                     في هذا الجزء وعلمنا من ثقة أن قد تسامع في بعض الولايات خبر إثبات بعض الشهور
                     فاستنبأ قاضي تلك الولاية من قاضي المتصرفية الخبر فورد إليه الجواب بالتلغراف أنه
                     ثبت فطلب أن يرسل إليه على العادة الإعلام والشهود فجاءه الخبر ثانية ألم نخبرك
-                    بأنه لم يثبت فكيف تطلب منا <pb ed="shamela" n="n6-p28"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P151.xhtml" xml:id="pb_28.d1e1062"/>
+                    بأنه لم يثبت فكيف تطلب منا <pb ed="shamela" n="n6-p28" corresp="file:../epub/29676/OEBPS/xhtml/P151.xhtml" xml:id="pb_28.d1e1062"/>
                     الإعلام_التلغراف كتب بأنه لم يثبت بأنه ثبت_تأمل</p>
                 <p xml:lang="ar" xml:id="p_146.d1e1065">(تشطير بيتي أبي العتاهية في الصديق * للعالم
                     الفاضل صاحب الإمضاء)</p>
@@ -1521,8 +1193,7 @@
                     </l>
                 </lg>
                 <p xml:lang="ar" xml:id="p_147.d1e1107">دمشق</p>
-                <p xml:lang="ar" xml:id="p_148.d1e1111">محي الدين الخاني <pb ed="shamela" n="n6-p29"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P152.xhtml" xml:id="pb_29.d1e1113"/>
+                <p xml:lang="ar" xml:id="p_148.d1e1111">محي الدين الخاني <pb ed="shamela" n="n6-p29" corresp="file:../epub/29676/OEBPS/xhtml/P152.xhtml" xml:id="pb_29.d1e1113"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_8.d1e1117">
@@ -1554,8 +1225,7 @@
                     لايقبل الوجود.</p>
                 <p xml:lang="ar" xml:id="p_154.d1e1144">والدليل على اتصافه سبحانه وتعالى بها صدور
                     الأفعال المحكمة المتقنة عنه جل وعز مثل خلق السموات والأرض وغيرهما من بدائع
-                    المصنوعات وعجائب المكونات وماهديت إليه <pb ed="shamela" n="n6-p30"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P153.xhtml" xml:id="pb_30.d1e1146"/>
+                    المصنوعات وعجائب المكونات وماهديت إليه <pb ed="shamela" n="n6-p30" corresp="file:../epub/29676/OEBPS/xhtml/P153.xhtml" xml:id="pb_30.d1e1146"/>
                     الحيوانات من مصالحها وأعطيته من الآلات المناسبة لها وذلك يدل قطعاً على كون
                     صانعها قادراً فإن من رآى ثوباً من ديباج حسن النسج والتأليف متناسب التطريز
                     والتطريف ثم توهم صدوره من جاهل به وعاجز لا استطاعة له ولاقدرة كان عن حيز العقل
@@ -1581,8 +1251,7 @@
                 <p xml:lang="ar" xml:id="p_156.d1e1152">الإرادة 8</p>
                 <p xml:lang="ar" xml:id="p_157.d1e1155">مما يجب لله تعالى أيضاً الإرادة: وهي صفة
                     أزلية لتقتضي تخصيص لمكونات بما يجوز عليها من الوجوه الممكنة على وفق العلم فكل
-                    موجود لابد أن يكون على قدر مخصوص <pb ed="shamela" n="n6-p31"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P154.xhtml" xml:id="pb_31.d1e1157"/>
+                    موجود لابد أن يكون على قدر مخصوص <pb ed="shamela" n="n6-p31" corresp="file:../epub/29676/OEBPS/xhtml/P154.xhtml" xml:id="pb_31.d1e1157"/>
                     وصفة معينة وله وقت ومكان محدودان وتخصيص هذه الوجوه لكل ممكن إنما هو على وفق علمه
                     سبحانه وتعالى فتأثير القدرة فرع تأثير الإرادة إذ لا يوجد سبحانه شيئاً من
                     الممكنات أو يعدمه بقدرته إلا ما أراد وجوده أو عدمه وهذا معنى قولهم ما خصصه الله
@@ -1626,8 +1295,7 @@
             <div type="article" xml:lang="ar" xml:id="div_10.d1e1203">
                 <head xml:lang="ar" xml:id="head_10.d1e1205">الانتقاد</head>
                 <p xml:lang="ar" xml:id="p_159.d1e1208">
-                    <pb ed="shamela" n="n6-p32" corresp="file:../epub/29676/OEBPS/xhtml/P155.xhtml"
-                        xml:id="pb_32.d1e1210"/> الزهاوي يرى في المرأة غير رأي القرآن</p>
+                    <pb ed="shamela" n="n6-p32" corresp="file:../epub/29676/OEBPS/xhtml/P155.xhtml" xml:id="pb_32.d1e1210"/> الزهاوي يرى في المرأة غير رأي القرآن</p>
                 <p xml:lang="ar" xml:id="p_160.d1e1213">الحجاب المبحوث عنه مجموع أمرين ملازمة البيت
                     وستر الوجه ويظهر من كلام الكاتب أنه منكر لكلا الأمرين لأن المضار التي زعم ترتبها
                     على الحجاب بنى بعضها على الحبس في البيوت وبعضها على عدم كشف الوجه ونريد هنا أن
@@ -1652,8 +1320,7 @@
                     فنظر إلى امرأة ونظرت إليه فوسوس لهما الشيطان أنه لم ينظر أحدهما إلى الآخر إلا
                     إعجاباً به فبينما الرجل يمشي إلى جنب حائط وهو ينظر إليها إذا استقبله الحائط فشق
                     أنفه فقال والله لا أغسل الدم حتى آتي رسول الله صلى الله عليه وسلم فأخبره أمري
-                    فأتاه فقص عليه قصته فقال النبي صلى الله عليه <pb ed="shamela" n="n6-p33"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P156.xhtml" xml:id="pb_33.d1e1218"/>
+                    فأتاه فقص عليه قصته فقال النبي صلى الله عليه <pb ed="shamela" n="n6-p33" corresp="file:../epub/29676/OEBPS/xhtml/P156.xhtml" xml:id="pb_33.d1e1218"/>
                     وسلم هذا عقوبة ذنبك وأنزل الله تعالى الآية)</p>
                 <p xml:lang="ar" xml:id="p_162.d1e1221">بدأ الله سبحانه الآية بالإرشاد إلى غض البصر
                     لما في ذلك من سد باب الشر فإن النظر سهم مسموم من سهام ابليس وهو بريد الزنا ورائد
@@ -1691,8 +1358,7 @@
                     نفسها ليعلم أن النظر إذا لم يحل إليها لملابستها تلك المواقع بدليل أن النظر إليها
                     غير ملابسة لها لا مقال في حله كان النظر إلى المواقع أنفسها ممكناً في الحظر ثابت
                     القدم في الحرمة وشاهداً على أن النساء حقهن أن يحتطن في سترها ويتيقن الله في
-                    الكشف عنها. <pb ed="shamela" n="n6-p34"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P157.xhtml" xml:id="pb_34.d1e1260"/>
+                    الكشف عنها. <pb ed="shamela" n="n6-p34" corresp="file:../epub/29676/OEBPS/xhtml/P157.xhtml" xml:id="pb_34.d1e1260"/>
                     وكلام البيضاوي مبني على مذهب الإمام الشافعي رضي الله عنه من أن الوجه والكفين
                     عورة في غير الصلاة_وكلام الزمخشري مبني على مبنى الإمام أبي حنيفة رضي الله عنه_من
                     أنهما ليسا بعورة مطلقاً وفي ظاهر القولين خلاف لكن متى علمت أن مذهب الإمام أبي
@@ -1720,8 +1386,7 @@
                     العلامة الواحدي في أسباب النزول قال كانت نساء المؤمنين يخرجن بالليل إلى حاجتهن
                     وكان المنافقون يتعرضون لهن ويؤذوهن فنزلت هذه الآية وقال السدي كانت المدينة ضيقة
                     المنازل وكان النساء إذا كان الليل خرجن فقضين الحاجة وكان فساق المدينة يخرجون
-                    فإذا رأوا المرأة عليها قناع قالوا هذه حرة <pb ed="shamela" n="n6-p35"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P158.xhtml" xml:id="pb_35.d1e1272"/>
+                    فإذا رأوا المرأة عليها قناع قالوا هذه حرة <pb ed="shamela" n="n6-p35" corresp="file:../epub/29676/OEBPS/xhtml/P158.xhtml" xml:id="pb_35.d1e1272"/>
                     فتركوها وإذا رأوها بغير قناع قالوا هذه أمة فكانوا يراودونها فأنزل الله تعالى هذه
                     الآية.</p>
                 <p xml:lang="ar" xml:id="p_171.d1e1275">وجلابيب جمع جلباب وهو على ما روي عن ابن عباس
@@ -1850,8 +1515,7 @@
                     تهكم وازدراء هي من القوانين الشرعية التي يحكم بها في محاكم الدولة الدستورية وهي
                     من دين الإسلام الذي هو الدين الرسمي للدولة العثمانية بمقتضى قانونها الأساسي.</p>
                 <p xml:lang="ar" xml:id="p_178.d1e1520">_ وقانون المطبوعات الذي وضعه وأقره مجلس
-                    الأمة لا يبيح الاعتراض والتهكم بدين <pb ed="shamela" n="n6-p37"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P160.xhtml" xml:id="pb_36.d1e1522"/>
+                    الأمة لا يبيح الاعتراض والتهكم بدين <pb ed="shamela" n="n6-p37" corresp="file:../epub/29676/OEBPS/xhtml/P160.xhtml" xml:id="pb_36.d1e1522"/>
                     الحكومة التي يجب عليها حمايته بل ولا بغيره من الأديان التي أقرتها الحكومة
                     الدستورية في بلادها فالدستور العثماني لا يبيح إذاً نشر تلك المقالة التي نشرت
                     باسم الزهاوي فالذي ينتصر له بعد العلم بحقيقة ذنبه في نشرها يكون جانباً على
@@ -1868,8 +1532,7 @@
                     بمنعه من التدريس ويجب على الحكومة أن تجيبهم إلى ذلك وإذا رفع أمره إلى القاضي
                     الشرعي وثبت عنده أنه هو الذي تهكم بالشريعة ونسبها إلى الجور والظلم في أحكام
                     الإرث والطلاق وتعدد الزوجات_فعليه أن يحكم بردته ويفرق بينه وبين زوجته إن كانت
-                    مسلمة. <pb ed="shamela" n="n6-p38"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P161.xhtml" xml:id="pb_37.d1e1528"/>
+                    مسلمة. <pb ed="shamela" n="n6-p38" corresp="file:../epub/29676/OEBPS/xhtml/P161.xhtml" xml:id="pb_37.d1e1528"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_11.d1e1533">
@@ -1910,8 +1573,7 @@
                     بأجمعها قد خضعت لكلمة الحق واستسلمت لأحكام العقلاء فلم يبق لها احتياج إلى اعداد
                     ما تستطيعه من القوى لسحق بني أبيهم آدم بدليل أن حكومات الاستعمار لم تبرح تطحن
                     البشر وتحصدهم حصداً في سبيل تمديد نفوذها إلى بلادهم وإدخالهم تحت سلطتها مع الضغط
-                    عليهم ضغطاً لا يسوغ العقل <pb ed="shamela" n="n6-p39"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P162.xhtml" xml:id="pb_38.d1e1564"/>
+                    عليهم ضغطاً لا يسوغ العقل <pb ed="shamela" n="n6-p39" corresp="file:../epub/29676/OEBPS/xhtml/P162.xhtml" xml:id="pb_38.d1e1564"/>
                     الراجح وقوع مثله على العجماوات وإنما المراد أن المعارف إذا تم انتشارها بين أفراد
                     الأمة وسائر طبقاتها قضى عليها بالاتحاد والوئام وبرهن لها على وجوب السعي في سبيل
                     الاستعداد بإكفاء الرجال وخزائن الأموال وروائع العدد الحربية حيث يمكنها حينئذ أن
@@ -1949,10 +1611,7 @@
                     في مضمار هذه التصريحات ويقصر عن بلوغ المدى في ميدان تلك الإيضاحات مع أن في هذا
                     المقام متسعاً للباحثين وكأن اليراع توقع إذا هو استقصى البحث واسترسل في الكلام
                     وخاض هذا الموضوع غير هياب ولا وكل أن يقع في مضيق قانون المطبوعات الذي يصعب
-                    التقصي (3) منه كما يسهل التورط فيه على حد قول الشاعر: <pb ed="shamela"
-                        n="n6-p40" corresp="file:../epub/29676/OEBPS/xhtml/P163.xhtml"
-                        xml:id="pb_39.d1e1600"/> دخولك من باب الهوى إن أردته <gap resp="#org_MS"
-                        xml:id="gap_1.d1e1602"/> يسير ولكن الخروج عسير</p>
+                    التقصي (3) منه كما يسهل التورط فيه على حد قول الشاعر: <pb ed="shamela" n="n6-p40" corresp="file:../epub/29676/OEBPS/xhtml/P163.xhtml" xml:id="pb_39.d1e1600"/> دخولك من باب الهوى إن أردته <gap resp="#org_MS" xml:id="gap_1.d1e1602"/> يسير ولكن الخروج عسير</p>
                 <p xml:lang="ar" xml:id="p_185.d1e1605">وعلى تقدير السلامة فهل يؤثر مقالنا هذا
                     التأثير الذي تتطال إليه الأعناق وتشرئب نحوه النفوس فيعود علينا بالجدوى (4)
                     المرغوبة ونجتني من ثمراته ماينسينا مرارة الجهالة التي تجرعتها سكان المملكة
@@ -1978,8 +1637,7 @@
                     كانت زخرفة المعاذير الملفقة تفيد في دفع احتجاجات المطالبين بالإصلاح المعنوي
                     وتسكين ضجيج المتبرمين من فشو الجهل فهي ليست تفيد نقيراً ولاقطميراً أمام الخطاب
                     الشرعي القاضي بسؤال كل راع عن رعيته وبفرضية العلم على كل أحد وبأعداد ما في الوسع
-                        <pb ed="shamela" n="n6-p41"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P164.xhtml" xml:id="pb_40.d1e1607"/>
+                        <pb ed="shamela" n="n6-p41" corresp="file:../epub/29676/OEBPS/xhtml/P164.xhtml" xml:id="pb_40.d1e1607"/>
                     والطاقة من القوى وبوجوب التحرز والاحتياط من الأخطار والمهالك ونحو ذلك مما
                     لايتوصل إليه إلا من طريق العلم فالعلم هو سبيل السعادة التي هي الضالة المنشودة
                     لكل فرد من أفراد البشر ولسنا نعني علماً مخصوصاً بل نريد جميع العلوم سواء كانت
@@ -2010,9 +1668,7 @@
                     حين أرسلهم إلى مدارس الأجانب فنحن ماذا قلنا وماذا نقول لمواطنينا الذين لم يزالوا
                     حتى الآن يهاجرون من بلاد سورية وغيرها إلى أمير كاوسواها من بلاد الغربيين ألا يحق
                     لنا أن نعتبر بما نسمعه من صدى تصريحات بعض المنسلخين عنا بعد أن شبوا وترعرعوا في
-                    حجر البلاد العثمانية أليس لنا عبرة في هذه القاعدة الجديدة التي <pb ed="shamela"
-                        n="n6-p42" corresp="file:../epub/29676/OEBPS/xhtml/P165.xhtml"
-                        xml:id="pb_41.d1e1625"/> اخترعت في أوروبا وأصبحوا يبثون روحها الخبيثة في
+                    حجر البلاد العثمانية أليس لنا عبرة في هذه القاعدة الجديدة التي <pb ed="shamela" n="n6-p42" corresp="file:../epub/29676/OEBPS/xhtml/P165.xhtml" xml:id="pb_41.d1e1625"/> اخترعت في أوروبا وأصبحوا يبثون روحها الخبيثة في
                     أجسام مواطنينا الذين هم بين ظهرانيهم فيقولون لهم (وطن المرء حيث يعيش لا حيث
                     ينشأ) ويدعمونها لهم * * * * * * * * * *</p>
                 <p xml:lang="ar" xml:id="p_187.d1e1628">والأضاليل التي لا يغتر بها إلا البله
@@ -2038,9 +1694,7 @@
                     الاشهاد فعلاً لا قولاً بأن زمن الشورى هو زمن النور والعلم والعدالة وبأن رجال
                     الشورى يحرصون على تثقيف أبناء المملكة وتهذيبهم وتعليمهم ويريدون لهم الخير بكل
                     معنى الكلمة لا كالحكومات الغاشمة التي تحرص على بقاء الجهل فاشياً بين جميع طبقات
-                    شعوبهم ليصطادوا في الماء الرنق الكدر ومما لم نفهم معناه في هذا <pb ed="shamela"
-                        n="n6-p43" corresp="file:../epub/29676/OEBPS/xhtml/P166.xhtml"
-                        xml:id="pb_42.d1e1633"/> الزمان النوراني أن تصرف في العاصمة بعض الرسوم التي
+                    شعوبهم ليصطادوا في الماء الرنق الكدر ومما لم نفهم معناه في هذا <pb ed="shamela" n="n6-p43" corresp="file:../epub/29676/OEBPS/xhtml/P166.xhtml" xml:id="pb_42.d1e1633"/> الزمان النوراني أن تصرف في العاصمة بعض الرسوم التي
                     تجبى من الولايات وغيرها باسم المعارف وتنفق على ناشئة العاصمة مع غناهم وثروتهم
                     وفقرنا وإملاقنا بالنظر إلى المجموع وإذا كان ناظر المعارف مضطراً إلى سلوك هذه
                     الخطة فلماذا لم يحتج كما احتج غيره من النظار أو لماذا لم يعلن استعفاءه مصرحاً
@@ -2069,8 +1723,7 @@
                         <seg xml:lang="ar" xml:id="seg_86.d1e1643"> لم يبك ميت ولم يفرح بمولود</seg>
                     </l>
                 </lg>
-                <p xml:lang="ar" xml:id="p_189.d1e1648">دمشق. ع <pb ed="shamela" n="n6-p44"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P167.xhtml" xml:id="pb_43.d1e1650"/>
+                <p xml:lang="ar" xml:id="p_189.d1e1648">دمشق. ع <pb ed="shamela" n="n6-p44" corresp="file:../epub/29676/OEBPS/xhtml/P167.xhtml" xml:id="pb_43.d1e1650"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_12.d1e1654">
@@ -2253,8 +1906,7 @@
                     </l>
                 </lg>
                 <p xml:lang="ar" xml:id="p_195.d1e2037">دمشق</p>
-                <p xml:lang="ar" xml:id="p_196.d1e2040">م ح خ <pb ed="shamela" n="n6-p46"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P169.xhtml" xml:id="pb_44.d1e2042"/>
+                <p xml:lang="ar" xml:id="p_196.d1e2040">م ح خ <pb ed="shamela" n="n6-p46" corresp="file:../epub/29676/OEBPS/xhtml/P169.xhtml" xml:id="pb_44.d1e2042"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_13.d1e2046">
@@ -2284,9 +1936,7 @@
                     لعجمي على عربي.</p>
                 <p xml:lang="ar" xml:id="p_204.d1e2073">ويسر لغير المسلمين العيش برخاء في بلاد
                     الإسلام بقوله (الخلق كلهم عيال الله حبهم غليه أنفعهم لعياله) ونظر في أمر
-                    (العائلة) فرتب أمور الزواج والتناسل والتوارث ورفع من شأن المرأة. <pb
-                        ed="shamela" n="n6-p47" corresp="file:../epub/29676/OEBPS/xhtml/P170.xhtml"
-                        xml:id="pb_45.d1e2075"/> وعاد إلى الأمور المدنية فوضع قوانين وقضاء للنظر في
+                    (العائلة) فرتب أمور الزواج والتناسل والتوارث ورفع من شأن المرأة. <pb ed="shamela" n="n6-p47" corresp="file:../epub/29676/OEBPS/xhtml/P170.xhtml" xml:id="pb_45.d1e2075"/> وعاد إلى الأمور المدنية فوضع قوانين وقضاء للنظر في
                     شؤون الأفراد ولم يهمل مالية الدولة بل وضع سناً لبيت المال وكان للعلم من همته
                     نصيب وافر فجعل الحكمة ضالة المؤمن وأوصاهم بأن يطلبوا العلم ولو بالصين فكان لهذه
                     الوصية شأن عظيم في اقتباس المسلمين العلم من كل أبوابه وازدهاره في أيامهم أفلا
@@ -2297,8 +1947,7 @@
                     الحقائق المثبتة بالأدلة التي يشهد الموافق والمخالف وإننا حمدنا من الكاتب حرية
                     ضميره ومجاهرته بما يتقد وعدم خوفه في سبيل الصدق ملام اللائمين وتعنت المتعصبين
                     واستبشرنا بأن هذه الشهادة ستكون مقدمة لغيرنا من نوعها فيسود في العالم معرفة قدر
-                    هذا النبي الكريم والرسول العظيم. <pb ed="shamela" n="n6-p48"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P171.xhtml" xml:id="pb_46.d1e2080"/>
+                    هذا النبي الكريم والرسول العظيم. <pb ed="shamela" n="n6-p48" corresp="file:../epub/29676/OEBPS/xhtml/P171.xhtml" xml:id="pb_46.d1e2080"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_14.d1e2084">
@@ -2329,8 +1978,7 @@
                 <p xml:lang="ar" xml:id="p_207.d1e2092">فعلم منه أن الإيذان بالإفطار يوم الثلاثين من
                     رمضان المذكور لم يكن عن ثبوت شرعي ولا عن حكم حاكم شرعي بل كان بمجرد رأي محافظ
                     مصر واستحسان هوهذا الذي نخاف أن نصل إلى مثله فتصير أحكام الدين بيد الحكام
-                    الجاهلين المستبدين المفتاتين في أحكام <pb ed="shamela" n="n6-p49"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P172.xhtml" xml:id="pb_47.d1e2094"/>
+                    الجاهلين المستبدين المفتاتين في أحكام <pb ed="shamela" n="n6-p49" corresp="file:../epub/29676/OEBPS/xhtml/P172.xhtml" xml:id="pb_47.d1e2094"/>
                     الدين على الله عز وجل ورسوله صلى الله تعالى عليه وسلم فحيا الله قاضى مصر المشار
                     إليه. ولله دره من مسلم لم يخف غير الله.</p>
                 <p xml:lang="ar" xml:id="p_208.d1e2097">هذا وقد رأينا في عدد 686 من جريدة الاتحاد
@@ -2356,9 +2004,7 @@
                     الشرعي وصدق أكبر مأمور ملكي في محل ولاية ذلك الحاكم الشرعي المولى فيه مثل الوالي
                     والمتصرف والقائم مقام ولا يكون الاستفتاء إلا تحريراً حتى لوسائل الوالي مع القاضي
                     بالتلغراف الرسمي لا يجاوبونهم على سؤالهم بل يجاوبونهم أن أسئلوا تحريراً (ومع هذا
-                    فقد استفتينا شفاهاً لمسألتكم فقالوا لا نجيب على السؤال التلغرافي أبداً <pb
-                        ed="shamela" n="n6-p50" corresp="file:../epub/29676/OEBPS/xhtml/P173.xhtml"
-                        xml:id="pb_48.d1e2099"/> وهم متعصبون في هذه المسألة فلله الحمد على وجود رجال
+                    فقد استفتينا شفاهاً لمسألتكم فقالوا لا نجيب على السؤال التلغرافي أبداً <pb ed="shamela" n="n6-p50" corresp="file:../epub/29676/OEBPS/xhtml/P173.xhtml" xml:id="pb_48.d1e2099"/> وهم متعصبون في هذه المسألة فلله الحمد على وجود رجال
                     يحامون عن الدين رضي الله تعال عنهم في 4 محرم الحرام سنة 1329.</p>
                 <p xml:lang="ar" xml:id="p_209.d1e2102">بقى أني لما وجدت بعض من لهم تعلق بالشيخ جمال
                     أفندي المومى إليه يسعون فساداً بيني وبينه أحببت أن أزوره إذ لم تكن المناظرة غلا
@@ -2370,9 +2016,7 @@
                     وكنت وعدت بالرد عليها ريثما تصل إلينا هذه الرسالة وبالله التوفيق ربنا عليك
                     توكلنا وغليك أنبنا وإليك المصير.</p>
                 <p xml:lang="ar" xml:id="p_210.d1e2106">دمشق محمد</p>
-                <p xml:lang="ar" xml:id="p_211.d1e2109">عارف المنير الحسيني <pb ed="shamela"
-                        n="n6-p51" corresp="file:../epub/29676/OEBPS/xhtml/P174.xhtml"
-                        xml:id="pb_49.d1e2111"/>
+                <p xml:lang="ar" xml:id="p_211.d1e2109">عارف المنير الحسيني <pb ed="shamela" n="n6-p51" corresp="file:../epub/29676/OEBPS/xhtml/P174.xhtml" xml:id="pb_49.d1e2111"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_15.d1e2115">
@@ -2404,8 +2048,7 @@
                 <p xml:lang="ar" xml:id="p_218.d1e2139">إنفاذ جيش أسامة</p>
                 <p xml:lang="ar" xml:id="p_219.d1e2142">أول ما قام به أبو بكر رضي الله عنه بعد وفاة
                     النبي صلى الله عليه وسلم إنفاذ جيش أسامة الذي جهزه رسول الله صلى الله عليه وسلم
-                    قبل وفاته وأمره أن يوطئ الخيل تخوم البلقاء <pb ed="shamela" n="n6-p52"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P175.xhtml" xml:id="pb_50.d1e2144"/>
+                    قبل وفاته وأمره أن يوطئ الخيل تخوم البلقاء <pb ed="shamela" n="n6-p52" corresp="file:../epub/29676/OEBPS/xhtml/P175.xhtml" xml:id="pb_50.d1e2144"/>
                     الداروم من أرض فلسطين واختلف الصحابة في إنفاذه كما قدمنا صحيفة (64) فسيره في
                     اليوم الثالث من وفاة النبي صلى الله عليه وسلم فشن الغارة على ذي المروة والوادي
                     وانتهى إلى ما أمره به النبي صلى الله عليه وسلم فسلم وغنم وكان فراغه في أربعين
@@ -2432,8 +2075,7 @@
                     ترى أن كثيراً من الصحابة ارتأوا عدم محاربة من أبى دفع الزكاة من أهل الردة وما
                     ذلك الاجتهاد منهم وضن بدم المسلمين عن أن يهراق بطلب فرض مالي منعته العرب مع
                     إقرارهم بالشهاة وقد استدلوا بقوله صلى الله علي وسلم أمرت أن أقاتل الناس حتى
-                    يقولوا لا إله غلا الله فمن قالها عصم مني ماله ودمه <pb ed="shamela" n="n6-p53"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P176.xhtml" xml:id="pb_51.d1e2156"/>
+                    يقولوا لا إله غلا الله فمن قالها عصم مني ماله ودمه <pb ed="shamela" n="n6-p53" corresp="file:../epub/29676/OEBPS/xhtml/P176.xhtml" xml:id="pb_51.d1e2156"/>
                     إلا بحقها وحسابهم على الله ولكن أباب بكر رضي الله عنه كان أحسن رأياً وأبعد نظراً
                     في العواقب وأعلم بأمور الدين فرد عليهم بقوله إن الزكاة حق المال وقد قال إلا
                     بحقها ولمح من خلال تلك الفتنة الدماء التي تضطرب بالعرب أن الإسلام لا تقوم له
@@ -2460,9 +2102,7 @@
                     ليلاً فما طلع الفجر إلا وهم العدو على صعيد واحد فما شعرواو بالمسلمين حتى وضعوا
                     فيهم السيوف فما ذو قرن الشمس حتى ولوهم الأذبار وغلبوهم على عامة ظهرهم وقتل حبال
                     وكان أول الفتح وأتبعهم أبو بكر حتى نزل بذي القصة ووضع بها النعمان بن مقرن في عدد
-                    ورجع إلى المدينة فذل بها المشركون ووثب بنو ذبيان وعبس على من فيهم من <pb
-                        ed="shamela" n="n6-p54" corresp="file:../epub/29676/OEBPS/xhtml/P177.xhtml"
-                        xml:id="pb_52.d1e2167"/> المسلمين فقتلوهم كل قتلة وفعل من وراءهم فعلهم وعز
+                    ورجع إلى المدينة فذل بها المشركون ووثب بنو ذبيان وعبس على من فيهم من <pb ed="shamela" n="n6-p54" corresp="file:../epub/29676/OEBPS/xhtml/P177.xhtml" xml:id="pb_52.d1e2167"/> المسلمين فقتلوهم كل قتلة وفعل من وراءهم فعلهم وعز
                     المسلمون من يهم من المسلمين فقتلوهم كل قتلة وفعل من وراءهم فعلهم وعز المسلمون
                     وقعة أبي بكر وحلف أبو بكر ليقتلن في المشركين كل قتلة وليقتلن في كل قبيلة من
                     قتلوا بالمسلمين وزيادة وطرقت المدينة صدقات نفر كانوا على صدقة الناس وذلك لتمام
@@ -2471,8 +2111,7 @@
                     أواسينكم حتى يرق فقاتل من به من المشركين فهزمهم وغلب على بني ذبيان وبلادهم
                     وحماها لذواب المسلمين ثم عاد إلى المدينة فلما استراح أسامة وجنده وكان قد جاءهم
                     صدقات كثيرة تفضل عليهم بادر أبو بكر إلى تسيير الجيوش إلى أهل الردة.</p>
-                <p xml:lang="ar" xml:id="p_226.d1e2170">(يتبع) <pb ed="shamela" n="n6-p55"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P178.xhtml" xml:id="pb_53.d1e2172"/>
+                <p xml:lang="ar" xml:id="p_226.d1e2170">(يتبع) <pb ed="shamela" n="n6-p55" corresp="file:../epub/29676/OEBPS/xhtml/P178.xhtml" xml:id="pb_53.d1e2172"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_16.d1e2176">
@@ -2508,14 +2147,12 @@
                     والتلفيق) تكلم فيها على المقالة السابقة المدرجة في العدد السادس مع ما زدنا عليها
                     وأطال فيما ظنه نقضاً لكلام المانعين.</p>
                 <p xml:lang="ar" xml:id="p_237.d1e2219">ونحن نرى أن لا نشغل وقت القراء بتحقيق مسألة
-                    فرغ من تحقيقها وفي نظرنا أن ابن <pb ed="shamela" n="n6-p56"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P179.xhtml" xml:id="pb_54.d1e2221"/>
+                    فرغ من تحقيقها وفي نظرنا أن ابن <pb ed="shamela" n="n6-p56" corresp="file:../epub/29676/OEBPS/xhtml/P179.xhtml" xml:id="pb_54.d1e2221"/>
                     الحاجب والغزالي والقرافي وابن الهمام والاسنوي والسكي وابن عابدين وخلافهم رضي
                     الله عنهم ممن ذكرناهم يحسن أن يستدل بأقوالهم فلا حاجة إلى أن نتكلم ثانية على هذه
                     المسألة هذا ونرجو من أهل العلم النظر فيما نشر في العدد السادس وفيما نشر في
                     (العصر الجديد) ليتبين الحق وليعلم أن مجرد الكتابة في الجرائد واستصغار شأن العلم
-                    وأهله لا بغير حكماً ثابتاً، ولا يؤيد باطلاً. <pb ed="shamela" n=""
-                        corresp="file:../epub/29676/OEBPS/xhtml/P180.xhtml" xml:id="pb_55.d1e2223"/>
+                    وأهله لا بغير حكماً ثابتاً، ولا يؤيد باطلاً. <pb ed="shamela" n="" corresp="file:../epub/29676/OEBPS/xhtml/P180.xhtml" xml:id="pb_55.d1e2223"/>
                 </p>
             </div>
         </body>
