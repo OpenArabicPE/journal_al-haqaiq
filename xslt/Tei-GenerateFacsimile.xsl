@@ -22,7 +22,7 @@
     <!-- ID / date of issue in EAP: these are formatted as yyyymm and need to be set for each issue. the volumes commence with yyyy02 -->
 <!--    <xsl:param name="pEapIssueId" select="'191002'"/>-->
     <!-- set-off between the EAP, which takes the printed page number as image number and Hathi, which doesn't -->
-    <xsl:param name="pImgStartHathiDifference" select="10" as="xs:integer"/>
+    <xsl:param name="pImgStartHathiDifference" select="18" as="xs:integer"/>
     <!-- volume in HathTrust collection -->
     <xsl:param name="vHathiTrustId" select="'njp.32101036074001'"/>
     <!-- volume in EAP collection: needs to be set  -->
