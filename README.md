@@ -20,6 +20,10 @@ The purpose and scope of the project is to provide an open, collaborative, refer
 
 # The journal *al-Ḥaqāʾiq*
 
+ʿAbd al-Qādir al-Iskandarānī published three volumes of the monthly journal *al-Ḥaqāʾiq* in Damascus between [7 August 1910](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml) and [1 November 1913](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_35.TEIP5.xml). The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
+
+[^1]: Thomsen, P. "Verzeichnis der Arabischen Zeitungen und Zeitschriften Palästinas." *Zeitschrift des Deutschen Palästina-Vereins (1878-1945)* 35, no. 4 (1912):214
+
 ## issues
 
 - vol. 1
@@ -76,7 +80,9 @@ Somebody took the pains to create fully searchable text files and uploaded every
 
 # TEI edition
 
-The main challenge is to combine the full text and the images in a TEI edition. As *al-maktabat al-shāmila* did not reproduce page breaks true to the print edition, every single one of the more than 6000 page breaks must be added manually and linked to the digital image of the page.
+The main challenge is to combine the full text and the images in a TEI edition. As *al-maktabat al-shāmila* did not reproduce page breaks true to the print edition, every single one of the more than 1500 page breaks must be added manually and linked to the digital image of the page.
+
+The TEI files can be found in the folder [xml](xml/).
 
 ## General design
 
@@ -85,3 +91,7 @@ The edition should be conceived of as a corpus of tei files that are grouped by 
 # [Web display](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml): TEI Boilerplate
 
 To allow a quick review of the mark-up and read the journal's content, I decided to customise [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) for a first display of the TEI files in the browser without need for pre-processed HTML and to host this heavily customised boilerplate view as part of another [GitHub repository](https://www.github.com/tillgrallert/tei-boilerplate-arabic-editions) that can be used across various projects. For a first impression see [here](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). It is important to note that at the moment there is no front-end beyond the GitHub repository that allows for searching and browsing across files.
+
+# To do
+
+- the scan at HathiTrust contains duplicated pages etc. and thus, the links to the online facsimile must be corrected.
