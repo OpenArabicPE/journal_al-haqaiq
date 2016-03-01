@@ -6,7 +6,7 @@ date: 2016-02-26
 
 This project is inspired by and follows the principles of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas).
 
-If you just want to browse the edition in a more human-readable view, start [here](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml).
+If you just want to browse the edition in a more human-readable view, start [here](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile.
 
 # Scope and deliverables of the project
 
