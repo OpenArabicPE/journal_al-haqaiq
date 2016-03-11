@@ -180,7 +180,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change><tei:change when="2016-02-28" who="#pers_TG">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
+        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change><tei:change when="2016-02-28" who="#pers_TG">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 32 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change>Added bibliographic information (vol., issue, pages), some structural
@@ -368,29 +368,29 @@
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_1">
         <front xml:lang="ar" xml:id="front_1.d1e465">
-            <pb ed="print" n="1" facs="#facs_11"/>
+            <pb ed="print" n="1" facs="#facs_11" xml:id="pb_1.d1e799"/>
             <div xml:lang="ar" xml:id="div_1.d1e467">
-                <bibl xml:lang="ar"><biblScope unit="issue" n="1">الجزءُ الاول</biblScope>
-                    <biblScope unit="volume" n="1">المجلد الاول</biblScope><lb/><title level="j">الحقائق</title><lb/><pubPlace><placeName>دمشق</placeName></pubPlace>: <date datingMethod="#cal_islamic" calendar="#cal_islamic" when-custom="1328-08-01">غرة شعبان المعظم ١٣٢٨</date> و<date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1325-05-25">٢٥ تموز
-                        ١٣٢٥</date> و <date when="1910-08-07">٧ آب ١٩١٠</date></bibl>
+                <bibl xml:lang="ar" xml:id="bibl_1.d1e803"><biblScope unit="issue" n="1" xml:id="biblScope_4.d1e804">الجزءُ الاول</biblScope>
+                    <biblScope unit="volume" n="1" xml:id="biblScope_5.d1e807">المجلد الاول</biblScope><lb xml:id="lb_1.d1e809"/><title level="j" xml:id="title_8.d1e810">الحقائق</title><lb xml:id="lb_2.d1e812"/><pubPlace xml:id="pubPlace_3.d1e813"><placeName xml:id="placeName_3.d1e814">دمشق</placeName></pubPlace>: <date datingMethod="#cal_islamic" calendar="#cal_islamic" when-custom="1328-08-01" xml:id="date_11.d1e817">غرة شعبان المعظم ١٣٢٨</date> و<date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1325-05-25" xml:id="date_12.d1e820">٢٥ تموز
+                        ١٣٢٥</date> و <date when="1910-08-07" xml:id="date_13.d1e824">٧ آب ١٩١٠</date></bibl>
             </div>
         </front>
         <body xml:lang="ar" xml:id="body_1.d1e515">
-            <div type="article">
-                <salute>بسم الله الرحمن الرحيم</salute>
-                <head> فاتحة السنة الاولى</head>
-                <p>
-                    <gap/>
+            <div type="article" xml:id="div_2.d1e831">
+                <salute xml:id="salute_1.d1e833">بسم الله الرحمن الرحيم</salute>
+                <head xml:id="head_1.d1e836"> فاتحة السنة الاولى</head>
+                <p xml:id="p_15.d1e839">
+                    <gap xml:id="gap_1.d1e841"/>
                 </p>
-                <pb ed="print" n="2" facs="#facs_12"/>
-                <pb ed="print" n="3" facs="#facs_13"/>
+                <pb ed="print" n="2" facs="#facs_12" xml:id="pb_2.d1e844"/>
+                <pb ed="print" n="3" facs="#facs_13" xml:id="pb_3.d1e846"/>
             </div>
-            <pb ed="print" n="4" facs="#facs_14"/>
+            <pb ed="print" n="4" facs="#facs_14" xml:id="pb_4.d1e849"/>
             <pb ed="shamela" n="n1-p1" corresp="file:../epub/29676/OEBPS/xhtml/P3.xhtml" xml:id="pb_1.d1e529"/>
             <div type="section" xml:lang="ar" xml:id="div_2.d1e531">
-                <head xml:lang="ar" xml:id="head_2.d1e533">مباحث دينية<lb/></head>
-                <div type="article">
-                    <head>الدين الإسلامي والتوحيد</head>
+                <head xml:lang="ar" xml:id="head_2.d1e533">مباحث دينية<lb xml:id="lb_3.d1e857"/></head>
+                <div type="article" xml:id="div_3.d1e859">
+                    <head xml:id="head_3.d1e861">الدين الإسلامي والتوحيد</head>
                     <p xml:lang="ar" xml:id="p_17.d1e542">ليس من الصعب على من منح عقلاً سامياً
                         وفكراً نيراً ورزق براعة في الاستدلال ومهارة في الاستنباط أن يستعمل النظر
                         فيما أسس عليه الدين الإسلامي من توحيد وتصديق وعلم وبرهان وتعبد وإذعان وأمر
@@ -408,12 +408,12 @@
                         الأرواح على مكارم الصفات ومحاسن الآداب.</p>
                     <p xml:lang="ar" xml:id="p_20.d1e552">كان الناس في حيرة وتردد وتقاطع وتبدد في
                         أسر الوسائط والشفعاء وتحت سيطرة المتكهنة والعرفاء يقودهم الجهل إلى أضيق
-                        المسالك ويسوقهم <pb ed="print" n="5" facs="#facs_15"/>الغي إلى مهامة المهالك
+                        المسالك ويسوقهم <pb ed="print" n="5" facs="#facs_15" xml:id="pb_6.d1e875"/>الغي إلى مهامة المهالك
                         فجاء الإسلام بالدين القويم والذكر الحكيم </p>
-                    <p xml:lang="ar">أشرقت شموسه وسطعت أنواره وانتشرت محاسنه وهبن نسمات عدالته فطفق
+                    <p xml:lang="ar" xml:id="p_20.d1e879">أشرقت شموسه وسطعت أنواره وانتشرت محاسنه وهبن نسمات عدالته فطفق
                         الناس يدخلون فيه أفواجاً تصافحهم أيدي العناية وتعانقهم كواعب الهداية وتبشرهم
                         دواعي الرحمة بالسعادة والفوز بالحسنى وزيادة </p>
-                    <p xml:lang="ar">محا الله به عبادة الأوثان والعادات السيئة والمذاهب الباطلة التي
+                    <p xml:lang="ar" xml:id="p_21.d1e882">محا الله به عبادة الأوثان والعادات السيئة والمذاهب الباطلة التي
                         كانت عليها العرب في الجاهلية ووضع الأصر والغلال التي كانت على الأمم وأحل
                         الطيبات وحرم الخبائث، ورفع الحجر الذي كان وضعه رؤساء الأديان على عقول السذج
                         والضرائب التي كانوا يأخذونها من سفلتهم وجهالهم وأصبح المسلم عبداً لله خالصاً
@@ -428,7 +428,7 @@
                         التبليغ شي من ذلك بل كان يدعوهم إلى الدين بأنواع من الطرق المستحسنة
                         بالخطابات البارعة والعبارات الباهرة.</p>
                     <p xml:lang="ar" xml:id="p_22.d1e560">فأصحاب البصائر النافذة الذين يطلبون معرفة
-                        الأشياء على حقائقها كان <pb ed="print" n="6" facs="#facs_16"/>يدعوهم
+                        الأشياء على حقائقها كان <pb ed="print" n="6" facs="#facs_16" xml:id="pb_8.d1e892"/>يدعوهم
                         بالدلائل القطعية اليقينية وأصحاب الفطرة السليمة والخلقة الأصلية الذين لم
                         يبلغوا حد الكمال ولم ينزلوا إلى حضيض النقصان كان يدعوهم بالمواعظ الحسنة
                         والترغيب والترهيب.</p>
@@ -502,7 +502,7 @@
                         من أهل الكفر مالوا إلى الانقياد. وأما الشاكون الذين فيهم نوع الذكاء ولا تصل
                         عقولهم إلى فهم البرهان العقلي فينبغي أن يتلطف في معالجتهم بما أمكن من الكلام
                         المقنع المقبول عندهم بالأدلة البرهانية لقصور عقولهم عن إدراكها.</p>
-                    <pb ed="print" n="10" facs="#facs_20"/>
+                    <pb ed="print" n="10" facs="#facs_20" xml:id="pb_11.d1e921"/>
                     <p xml:lang="ar" xml:id="p_30.d1e589">وأما الفطن الذكي لا يقنعه الكلام الخطابي
                         فتجب المحاجة معه بالدليل القطعي البرهاني فقد تبين أن أقسام الخلق أربعة وكل
                         منهم له مرتبة في طريق الإرشاد يخاطب بحسبها فيما يناسب حالة فلا ينبغي أن
@@ -515,11 +515,11 @@
                         العامة ويدخل عليهم الريب من نشر الشبه والرد عليها إذا لا يلزمنا أن نطيل
                         المشاغبة في اللوازم إلا عند الاقتضاء وقصارى مطلوبنا تقرير الأدلة الإقناعية
                         والقطعية فالأولى للقسم الثالث والثانية للقسم الرابع: </p>
-                    <closer>يتبع</closer>
+                    <closer xml:id="closer_1.d1e932">يتبع</closer>
                 </div>
             </div>
             <pb ed="shamela" n="n1-p6" corresp="file:../epub/29676/OEBPS/xhtml/P8.xhtml" xml:id="pb_6.d1e597"/>
-            <pb ed="print" n="11" facs="#facs_21"/>
+            <pb ed="print" n="11" facs="#facs_21" xml:id="pb_14.d1e940"/>
             <div type="article" xml:lang="ar" xml:id="div_3.d1e601">
                 <head xml:lang="ar" xml:id="head_3.d1e603">كلمة في الفقه والفقهاء</head>
                 <p xml:lang="ar" xml:id="p_33.d1e609">(من يرد الله به خيراً يفقهه في الدين) منقبة
@@ -555,11 +555,11 @@
                     ومنه المعونة. <pb ed="shamela" n="n1-p8" corresp="file:../epub/29676/OEBPS/xhtml/P10.xhtml" xml:id="pb_8.d1e619"/>
                 </p>
             </div>
-            <pb ed="print" n="13" facs="#facs_23"/>
+            <pb ed="print" n="13" facs="#facs_23" xml:id="pb_17.d1e961"/>
             <div type="article" xml:lang="ar" xml:id="div_4.d1e623">
                 <head xml:lang="ar" xml:id="head_4.d1e625">اللغة العربية</head>
-                <div type="article">
-                    <head>مجلة الحقائق</head>
+                <div type="article" xml:id="div_6.d1e968">
+                    <head xml:id="head_6.d1e970">مجلة الحقائق</head>
                     <p xml:lang="ar" xml:id="p_37.d1e631">لا يخفى مسيس الحاجة إلى مزيد العناية بشأن
                         هذه اللغة الشريفة التي اختصت بمزايا ترتاح إليها النفوس الزكية والأحلام
                         الراجحة وحسبها شرفاً مخلداً أنه قد ورد الذكر الحكيم وحديث أفصح من نطق بالضاد
@@ -641,10 +641,10 @@
                         ابن الإعرابي أحد أئمة اللغة قلت لإعرابي ما المجلة وكانت في يدي كراسة فقال هي
                         التي في يدك وكان ابن عباس رضي الله عنهما إذا أنشد شعر أمية قال مجلة أبي
                         الصلت قال الراغب ويسمي المصحف محلة وقال النابغة الذبياني: <pb ed="shamela" n="n1-p10" corresp="file:../epub/29676/OEBPS/xhtml/P12.xhtml" xml:id="pb_10.d1e717"/></p>
-                    <lg>
-                        <l type="bayt">
-                            <seg>مجلتهم ذات الآلة ودينهم</seg>
-                            <seg>قويم فما يرجون غير العواقب</seg></l>
+                    <lg xml:id="lg_3.d1e1061">
+                        <l type="bayt" xml:id="l_8.d1e1063">
+                            <seg xml:id="seg_15.d1e1065">مجلتهم ذات الآلة ودينهم</seg>
+                            <seg xml:id="seg_16.d1e1068">قويم فما يرجون غير العواقب</seg></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_42.d1e722">أي كتابهم طاعة الآله والمراد أنه مشتمل على
                         طاعة الآلة</p>
@@ -688,18 +688,18 @@
                         <l type="bayt" xml:lang="ar" xml:id="l_10.d1e768">
                             <seg xml:lang="ar" xml:id="seg_19.d1e770">أبي الهضيمةِ ناءٍ بالعظيمة مت </seg>
                             <seg xml:lang="ar" xml:id="seg_20.d1e773"> لاف الكريمة جلد غيرُ
-                                ثنيان</seg><note type="footnote" n="5">
-                                <gap/>
+                                ثنيان</seg><note type="footnote" n="5" xml:id="note_1.d1e1125">
+                                <gap xml:id="gap_2.d1e1127"/>
                             </note>
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_11.d1e777">
                             <seg xml:lang="ar" xml:id="seg_21.d1e779">حامي الحقيقة نسال الوديقهِ مع </seg>
                             <seg xml:lang="ar" xml:id="seg_22.d1e782"> ناق الوسيقة لا تكس ولاواني </seg>
-                            <note type="footnote" n="6">
-                                <gap/>
+                            <note type="footnote" n="6" xml:id="note_2.d1e1139">
+                                <gap xml:id="gap_3.d1e1141"/>
                             </note></l>
                     </lg>
-                    <p> فمعني الحقائق في هذه الأبيات ما يحق على الرجل أن يحميه ويحافظ عليه وتاء
+                    <p xml:id="p_47.d1e1145"> فمعني الحقائق في هذه الأبيات ما يحق على الرجل أن يحميه ويحافظ عليه وتاء
                         الحقيقة كتاء علامة ونسابه وفهامة ونحو ذلك وهي للتأنيث اللفظي الذي يراد منه
                         المبالغة في أصل المعنى وحينئذ يكون معنى الحقيقة من الأمور ما ثبت ثبوتاً
                         قطعياً بحيث لا يشك فيه وأصل هذه المادة كلها هو الحق الذي يدحض الباطل ويدفعه
@@ -707,11 +707,11 @@
                         باطلاً ويرزقنا اجتنابه أنه ولي التوفيق والهادي إلى أقوم طريق.</p>
                 </div>
             </div>
-            <pb ed="print" n="19" facs="#facs_29"/>
+            <pb ed="print" n="19" facs="#facs_29" xml:id="pb_20.d1e1150"/>
             <div type="section" xml:lang="ar" xml:id="div_5.d1e798">
                 <head xml:lang="ar" xml:id="head_5.d1e800">العلماء</head>
-                <div type="article">
-                    <head>علماء الدين في الإسلام</head>
+                <div type="article" xml:id="div_8.d1e1157">
+                    <head xml:id="head_8.d1e1159">علماء الدين في الإسلام</head>
                     <lg xml:lang="ar" xml:id="lg_6.d1e806">
                         <l type="bayt" xml:lang="ar" xml:id="l_13.d1e808">
                             <seg xml:lang="ar" xml:id="seg_25.d1e810">ما الفخر إلا لأهل العلم أنهم </seg>
@@ -743,33 +743,33 @@
                         البصر إلى ما الزم الله به عباده. وما فرض عليهم التباعد عنه تجده غاية في
                         الرقيّ. ونهاية في المدنية. وقانوناً كافلاً لسائر أسباب النجاح.</p>
                     <p xml:lang="ar" xml:id="p_53.d1e849">لنأت بهذا الرجل الذي خصه الله بخشيته وآتاه
-                        الحكمة. وعلمه مما <pb ed="print" n="20" facs="#facs_30"/>يشاء. ثم لنجله في هذا المجتمع
+                        الحكمة. وعلمه مما <pb ed="print" n="20" facs="#facs_30" xml:id="pb_21.d1e1207"/>يشاء. ثم لنجله في هذا المجتمع
                         الإنساني مجده هو (والله) حامل تلك الصفات التي يتلمسها علماء العمران. طهارة
                         وجدان. وبراءة ذمة. وأناة وحلم. وأنصاف وعدل. ورفق وإحسان وتباعد من الظلم.
                         واستنكاف من الباطل. ونبذ للرشا. ومحافظة على الحقوق قدر الجهد ونهاية
                         الاستطاعة إلى غير ذلك مما نتصوره من الصفات العالية والأخلاق الفاضلة الكبيرة.
                         وهي كلها على التحقيق فرع لخشية الله والإئتمار بأوامره. اللهم علمنا مدارك
                         التأويل.</p>
-                    <p xml:lang="ar">كان الصدر الأول أيام كان الإسلام يشرف من أعلى قمم المجد ويخضع
+                    <p xml:lang="ar" xml:id="p_53.d1e1210">كان الصدر الأول أيام كان الإسلام يشرف من أعلى قمم المجد ويخضع
                         لسلطانه كل جبار عنيد. ظرفاً لإعزار العلماء ونفوذهم حتى أن الخلفاء كانوا
                         يغشونهم في دورهم لسماع الوعظ وافرشاد كما وقع للرشيد مع ابن عبينة. وكان حكمهم
                         فوق كل حكم. وكلمتهم تعلو كل كلمة. تدنو لهم رقاب الملوك. وتعنو لهم الخاصة
                         والعامة وشواهد هذا في التاريخ كثيرة فقد حكى المؤرخون أن بني أمية لم يكونوا
-                        ليقطعوا أمراً إلا برأي علماء المدينة وذكر <pb ed="shamela" n="n1-p13" corresp="file:../epub/29676/OEBPS/xhtml/P15.xhtml"/> الفخري أن الرشيد قد
+                        ليقطعوا أمراً إلا برأي علماء المدينة وذكر <pb ed="shamela" n="n1-p13" corresp="file:../epub/29676/OEBPS/xhtml/P15.xhtml" xml:id="pb_22.d1e1212"/> الفخري أن الرشيد قد
                         صب الماء على يدي أبي معاوية الضرير وهو يغسل وروى صاحب طبقات الأدباء أن
                         الأمين والمأمون ولدي الرشيد تنازعاً في حمل نعل أستاذهما الفراء وتقديمها له
                         حتى اصطلحا على أن يقدم كل منها واحدة.</p>
-                    <p xml:lang="ar">كذلك كانوا يكرمون العلماء الحقيقيين ويجلونهم</p>
-                    <p xml:lang="ar">استقام الأمر على ذلك مدة مديدة ثم طرأ على مركزهم التزلزل
+                    <p xml:lang="ar" xml:id="p_54.d1e1215">كذلك كانوا يكرمون العلماء الحقيقيين ويجلونهم</p>
+                    <p xml:lang="ar" xml:id="p_55.d1e1218">استقام الأمر على ذلك مدة مديدة ثم طرأ على مركزهم التزلزل
                         والانحطاط كما طرأ على المسلمين. وكان العامل الأقوى في هذا السقوط انخراط
                         شرذمة من الجهلاء وأهل الأهواء في هذا السلك الشريف. أخذوا يدجلون على العاملة
                         ثم التفوا حول المراء والملوك فجاورهم في أهوائهم وزينوا لهم سيئاتهم وقضوا لهم
                         فيما يشتهون.</p>
-                    <p xml:lang="ar">أضف إلى ذلك ما جرت عليه الأمة من ذلك الحين. وأنها كانت إذا مات
+                    <p xml:lang="ar" xml:id="p_56.d1e1221">أضف إلى ذلك ما جرت عليه الأمة من ذلك الحين. وأنها كانت إذا مات
                         العالم وخلفه جاهل أفضت بالأمر إليه وأفرغت الدروس عليه كان العلم عقار أو مال
                         أو متاع، وهكذا أخذ الجهال وظائف العلماء ولم يبق مرغب في العلم ولا داع إليه
                         ولا حامل عليه.</p>
-                    <p xml:lang="ar">فسدت الأخلاق. وراج النفاق. وانقلب العز ذلاً، والعلم جهلاً.
+                    <p xml:lang="ar" xml:id="p_57.d1e1225">فسدت الأخلاق. وراج النفاق. وانقلب العز ذلاً، والعلم جهلاً.
                         وصارت علماء الدين مرمي للسهام. ومشحذة للأقلام. بعدما كانوا في منزلة تقر بها
                         عيون الدين. وتنشرح لها صدور المسلمين عظم الأمر وعم الخطب وبلغ التحامل على
                         العلماء مبلغاً لم يعهد من قبل حتى قام بعض الكتاب ممن أولعوا بالتقليد العمى
@@ -782,23 +782,23 @@
                         الكتاب لا سلطة في الدين الإسلامي إلا للشرع، أن العالم ليقضى بين الناس ويصدر
                         الفتاوي (هذا حلال وهذا حرام) ويأمر بالمعروف. وينهى عن المكر. ويهذب العامة.
                         ويرشد الخاصة. وهو المرجع في الحيرة والمرجو لدفع الشبه عن المسلمين.</p>
-                    <p xml:lang="ar">لا سلطة ولا تسلط. ولا غفران ولا حرمان إنما هي رتبة خوله إياها
-                        العلم. وقضت له فيها الحكمة. <pb ed="shamela" n="n1-p14" corresp="file:../epub/29676/OEBPS/xhtml/P16.xhtml"/> أيها الكاتبون: أن
+                    <p xml:lang="ar" xml:id="p_58.d1e1228">لا سلطة ولا تسلط. ولا غفران ولا حرمان إنما هي رتبة خوله إياها
+                        العلم. وقضت له فيها الحكمة. <pb ed="shamela" n="n1-p14" corresp="file:../epub/29676/OEBPS/xhtml/P16.xhtml" xml:id="pb_23.d1e1230"/> أيها الكاتبون: أن
                         الدين الإسلامي هو دين الشورى دين المدنية، دين الحضارة. هو الدين وحده الذي
                         يصلح أن يكون شريعة دائمة. وهداية عامة للبشر فكونوا يداً واحدة على نشر هذا
                         الدين المبين. والصراط المستقيم. وما نشره إلا بإعزاز علمائه والسعي وراء رقيهم
                         وإيجاد الوسائل لنشر التعليم الديني بين طبقات الأمة ليذوقوا طعم الإسلام
                         وينبذوا من يريد تفريق حكمتهم باسم الدين تارة وباسم الجنس أخرى وليعلموا أن
                         الشريعة الغراء تقضي بالاتحاد والائتلاف. والتكافل والتضامن. لتعيش الناس
-                        وادعين آمنين وفق الله الأمة لما فيه صلاحها. <pb ed="shamela" n="n1-p15" corresp="file:../epub/29676/OEBPS/xhtml/P17.xhtml"/>
+                        وادعين آمنين وفق الله الأمة لما فيه صلاحها. <pb ed="shamela" n="n1-p15" corresp="file:../epub/29676/OEBPS/xhtml/P17.xhtml" xml:id="pb_24.d1e1232"/>
                     </p>
                 </div>
             </div>
             <div type="section" xml:lang="ar" xml:id="div_7.d1e887">
                 <head xml:lang="ar" xml:id="head_7.d1e889">الأخلاق1</head>
-                <div type="article">
-                    <head>إنما بثت لأتمم (مكارم الأخلاق)<note type="footnote">
-                            <gap/>
+                <div type="article" xml:id="div_10.d1e1243">
+                    <head xml:id="head_10.d1e1245">إنما بثت لأتمم (مكارم الأخلاق)<note type="footnote" xml:id="note_3.d1e1247">
+                            <gap xml:id="gap_4.d1e1249"/>
                         </note></head>
                     <p xml:lang="ar" xml:id="p_62.d1e895">أول واجب على من أراد سعادة هذه الأمة أن
                         يسعى بتهذيب أخلاقها وعبثاً يحاول المصلحون العروج إلى الرقي والنجاح من غير
@@ -853,12 +853,12 @@
                     </p>
                 </div>
             </div>
-            <pb ed="print" n="26" facs="#facs_36"/>
+            <pb ed="print" n="26" facs="#facs_36" xml:id="pb_27.d1e1274"/>
             <div type="section" xml:lang="ar" xml:id="div_8.d1e916">
                 <head xml:lang="ar" xml:id="head_8.d1e918">الانتقاد</head>
-                <div type="article">
-                    <head>الصحف والصحافيون<note type="footnote" n="1">
-                            <gap/>
+                <div type="article" xml:id="div_12.d1e1281">
+                    <head xml:id="head_12.d1e1283">الصحف والصحافيون<note type="footnote" n="1" xml:id="note_4.d1e1285">
+                            <gap xml:id="gap_5.d1e1287"/>
                         </note></head>
                     <p xml:lang="ar" xml:id="p_68.d1e924">ماذا أقول في الصحف الصادقة وما ينبغي أن
                         أقول. أن القلم ليعجز والفكر ليمل دون ان يعرف ما لها من الفضائل أو يوفيها
@@ -918,8 +918,8 @@
             </div>
             <div type="section" xml:lang="ar" xml:id="div_9.d1e934">
                 <head xml:lang="ar" xml:id="head_9.d1e936">التاريخ 1</head>
-                <div type="article">
-                    <head>أبو بكر رضي الله عنه</head>
+                <div type="article" xml:id="div_14.d1e1306">
+                    <head xml:id="head_14.d1e1308">أبو بكر رضي الله عنه</head>
                     <p xml:lang="ar" xml:id="p_70.d1e942">نأتي في هذا الباب على ترجمة أعاظم رجال
                         المسلمين ممن أنتقع بهم العلم والدين، كما تعهدنا بذلك في المقدمة لما فيه من
                         تجريك بواعث الهمم، للاقتداء بأولئك الرجال. في جلائل العمال. وكرائم الخصال.
