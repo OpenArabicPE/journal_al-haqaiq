@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -210,8 +210,8 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                           <date when="1913-09-02" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 2 - 9 - 1913</date>
-                           <biblScope n="32" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 32</biblScope>
+                           <date when="1913-09-02" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="2" xml:lang="ar">٢</tei:num>  -  <tei:num value="9" xml:lang="ar">٩</tei:num>  -  <tei:num value="1913" xml:lang="ar">١٩١٣</tei:num> </date>
+                           <biblScope n="32" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="32" xml:lang="ar">٣٢</tei:num> </biblScope>
                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                      </monogr>
@@ -221,8 +221,8 @@
             <body xml:lang="ar" xml:id="body_1.d1e515">
                 <head xml:lang="ar" xml:id="head_1.d1e517">
                     <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                        <biblScope n="32" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد 32</biblScope>
-                        <date when="1913-09-02" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: 2 - 9 - 1913</date>
+                        <biblScope n="32" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="32" xml:lang="ar">٣٢</tei:num> </biblScope>
+                        <date when="1913-09-02" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="2" xml:lang="ar">٢</tei:num>  -  <tei:num value="9" xml:lang="ar">٩</tei:num>  -  <tei:num value="1913" xml:lang="ar">١٩١٣</tei:num> </date>
                     </bibl>
                 </head>
                 <pb ed="shamela" n="n32-p1" corresp="file:../epub/29676/OEBPS/xhtml/P985.xhtml" xml:id="pb_1.d1e529"/>
@@ -230,7 +230,7 @@
 
                 <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
                     <head xml:lang="ar" xml:id="head_2.d1e533">الدين الإسلامي والتوحيد</head>
-                    <p xml:lang="ar" xml:id="p_15.d1e536">25</p>
+                    <p xml:lang="ar" xml:id="p_15.d1e536"> <tei:num value="25" xml:lang="ar">٢٥</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_16.d1e539">أحوال يوم القيامة</p>
                     <p xml:lang="ar" xml:id="p_17.d1e542">ذكرنا أن الإيمان باليوم الآخر ركن من أركان الإيمان. ولا يصح إيمان عبد حتى
                         يصدق به من صميم قلبه تصديقاً لا يشوبه شك ولا ترديد ومعنى الإيمان به التصديق
@@ -369,7 +369,7 @@
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_3.d1e613">
                     <head xml:lang="ar" xml:id="head_3.d1e615">سنن متروكة</head>
-                    <p xml:lang="ar" xml:id="p_36.d1e618">4</p>
+                    <p xml:lang="ar" xml:id="p_36.d1e618"> <tei:num value="4" xml:lang="ar">٤</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_37.d1e621">من السنن المتروكة عند كثير من الناس غسل اليدين قبل الطعام وبعده فيسن للأكل أن
                         يغسل اليدين والفم قبل الأكل وبعده ويبدأ في أوله بصاحب المنزل ثم بالصبيان ثم
                         بالشبان ثم بالشيوخ وبعد انتهاء الطعام يبدأ بالشيوخ ثم الشبان ثم الصبيان ثم
@@ -541,7 +541,7 @@
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_5.d1e730">
                     <head xml:lang="ar" xml:id="head_5.d1e732">الوظائف الدينية والجهلاء</head>
-                    <p xml:lang="ar" xml:id="p_52.d1e735">2</p>
+                    <p xml:lang="ar" xml:id="p_52.d1e735"> <tei:num value="2" xml:lang="ar">٢</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_53.d1e738">إن الشارع صلى الله عليه وسلم يعتبر في سائر مصالح الأمة سواء كانت دينية أو
                         إدارية. الكفؤ لها والأصلح لإدارة شؤونها. ليقوم بأودها حق القيام ويمثل
                         واجباتها أحسن تمثيل ومن هنا أخذ الفقهاء حكم سائر المصالح وأطبقوا على أن
@@ -710,7 +710,7 @@
                         عن السير في مناكبها ولئن لم يلتقط الناظر منها درة علمية فائقة فإنها لا تخلو
                         من أن تنبسط له بملحة أدبية رائقة وغليك التحرير.</p>
                     <p xml:lang="ar" xml:id="p_86.d1e860">بعث لي باعث على الرحلة إلى بلاد الشام وهو زيارة الأهل وفاء بحق صلة الرحم
-                        فامتطيت الباخرة يوم الخميس الرابع من شعبان سنة 1330 وعند ما أقلعت من مرساها
+                        فامتطيت الباخرة يوم الخميس الرابع من شعبان سنة  <tei:num value="1330" xml:lang="ar">١٣٣٠</tei:num>  وعند ما أقلعت من مرساها
                         وأخذت المباني التونسية تتوارى عن أبصارنا أخذ الحنو إلى الوطن يتزايد وحر
                         الأسف لمفارقة الأصحاب يتصاعد حتى أصغيت إلى نفسي وهي تخاطب رائد السفينة
                         بقولها:</p>
@@ -732,7 +732,7 @@
                         خطاباتهم كيف تنحط العربية وتندرس أطلال فصاحتها بين الأمة التي تجهل مكانتها
                         وتزهد في تعاليمها إلى أن تلتحم بأخلاط من لغة أخرى فإن لغة أهل هذه الجزيرة
                         عربية محرفة وأكثر ما يتخللها قطع من اللغة الطليانية وإنما انساقت إليها
-                        العربية حين استولى عليها أبو الغرانيق محمد ابن الأغلب سنة 255.</p>
+                        العربية حين استولى عليها أبو الغرانيق محمد ابن الأغلب سنة  <tei:num value="255" xml:lang="ar">٢٥٥</tei:num> .</p>
                     <p xml:lang="ar" xml:id="p_89.d1e891">ويشعرك بانتشار العربية وآدابها بينهم لذلك العهد ما صه المؤرخون من أن ملك
                         مالطة صنع له بعض مهندسي بلده تمثال جارية يتعرف بها أوقات الصلاة وكانت ترمي
                         ببنادق على الصنج (قصاع الأبنوس) فقال أبو القاسم بن رمضان المالطي أحد شعرائها

@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on
@@ -436,9 +436,9 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                            <date when="1911-04-30" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 30
-                                - 4 - 1911</date>
-                            <biblScope n="9" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 9</biblScope>
+                            <date when="1911-04-30" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="30" xml:lang="ar">٣٠</tei:num> 
+                                -  <tei:num value="4" xml:lang="ar">٤</tei:num>  -  <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
+                            <biblScope n="9" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="9" xml:lang="ar">٩</tei:num> </biblScope>
                             <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                     </monogr>
@@ -449,14 +449,14 @@
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
                     <biblScope n="9" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
-                        9</biblScope>
-                    <date when="1911-04-30" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: 30 - 4 -
-                        1911</date>
+                         <tei:num value="9" xml:lang="ar">٩</tei:num> </biblScope>
+                    <date when="1911-04-30" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="30" xml:lang="ar">٣٠</tei:num>  -  <tei:num value="4" xml:lang="ar">٤</tei:num>  -
+                         <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
                 </bibl>
             </head>
             <pb ed="shamela" n="n9-p1" corresp="file:../epub/29676/OEBPS/xhtml/P240.xhtml" xml:id="pb_1.d1e529"/>
-            <p xml:lang="ar" xml:id="p_15.d1e531"> دمشق غرة جمادى الأولى 1329 و 17 نيسان و 30 نيسان
-                1911</p>
+            <p xml:lang="ar" xml:id="p_15.d1e531"> دمشق غرة جمادى الأولى  <tei:num value="1329" xml:lang="ar">١٣٢٩</tei:num>  و  <tei:num value="17" xml:lang="ar">١٧</tei:num>  نيسان و  <tei:num value="30" xml:lang="ar">٣٠</tei:num>  نيسان
+                 <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </p>
             <div type="article" xml:lang="ar" xml:id="div_2.d1e534">
                 <head xml:lang="ar" xml:id="head_2.d1e536">الدين النصيحة</head>
                 <p xml:lang="ar" xml:id="p_16.d1e539">لا شيء أتم نفعاً وأكمل فائدة لانتظام الهيئة
@@ -655,7 +655,7 @@
                         الأقوال إذا لم يشترط الإرث.</p>
                     <p xml:lang="ar" xml:id="p_47.d1e649">وفراقها لا يتوقف على الطلاق بل يحصل لمجرد
                         مضي الأجل وإن لم يرض المتمتع بها كما هو واضح الولد منها يصح نفيه بمجرد
-                        إنكاره ولو من غير لعان كما نقله مؤلف السالة <pb ed="shamela" n="n9-p8" corresp="file:../epub/29676/OEBPS/xhtml/P247.xhtml" xml:id="pb_8.d1e651"/> صحيفة 72 وقال الشهاب الألوسي في تفسيره قد صرح علماء الشيعة بانتفاء لوازم
+                        إنكاره ولو من غير لعان كما نقله مؤلف السالة <pb ed="shamela" n="n9-p8" corresp="file:../epub/29676/OEBPS/xhtml/P247.xhtml" xml:id="pb_8.d1e651"/> صحيفة  <tei:num value="72" xml:lang="ar">٧٢</tei:num>  وقال الشهاب الألوسي في تفسيره قد صرح علماء الشيعة بانتفاء لوازم
                         الزوجية كالميراث والطلاق والنفقة في المتعة وروى أبو منصور منهم في صحيحه عن
                         الصادق رضي الله عنه تعالى أنه سئل عن امرأة المتعة أهي من الربع قال لا ولا من
                         السبعين وهو صريح في أنها ليست زوجة وإلا لكانت محسوبة في الأربع.</p>
@@ -1378,7 +1378,7 @@
                 <p xml:lang="ar" xml:id="p_127.d1e1801">الحقائق متبعة لا مبتدعة لذلك لا تستنكف إذا
                     قيل أن ما تكتبه في التوحيد مأخوذ عن السنوسية لكن لما كان الواقع أن السنوسية
                     جميعها لا تبلغ مقدار ما كتبنا في عدد واحد في مسألة توحيدية علم أن السائح لم يطلع
-                    على السنوسية (000نصف صفحة غير واضحة ص 390)</p>
+                    على السنوسية ( <tei:num value="000" xml:lang="ar">٠٠٠</tei:num> نصف صفحة غير واضحة ص  <tei:num value="390" xml:lang="ar">٣٩٠</tei:num> )</p>
                 <p xml:lang="ar" xml:id="p_128.d1e1804">وسنن الاجتماع أفما كان من الأولى بالسائح
                     بدلاً من أن يغار عليه كلمة حق تقال فيه أن <pb ed="shamela" n="n9-p24" corresp="file:../epub/29676/OEBPS/xhtml/P263.xhtml" xml:id="pb_22.d1e1806"/>
                     ينظر فيما كتبنا فإن رآه حقاً كتب إلى المغربي ينصحه بالرجوع عن مفترياته وإن رأى
@@ -1414,7 +1414,7 @@
             <pb ed="shamela" n="n9-p26" corresp="file:../epub/29676/OEBPS/xhtml/P265.xhtml" xml:id="pb_24.d1e1829"/>
             <div type="article" xml:lang="ar" xml:id="div_8.d1e1833">
                 <head xml:lang="ar" xml:id="head_8.d1e1835">الرسالة</head>
-                <p xml:lang="ar" xml:id="p_135.d1e1838">جاء في <bibl xml:id="bibl_4.d1e2362"><biblScope unit="issue" n="682" xml:id="biblScope_9.d1e2363">العدد 682</biblScope> من <title level="j" xml:id="title_22.d1e2366">جريدة المفيد</title> الغراء
+                <p xml:lang="ar" xml:id="p_135.d1e1838">جاء في <bibl xml:id="bibl_4.d1e2362"><biblScope unit="issue" n="682" xml:id="biblScope_9.d1e2363">العدد  <tei:num value="682" xml:lang="ar">٦٨٢</tei:num> </biblScope> من <title level="j" xml:id="title_22.d1e2366">جريدة المفيد</title> الغراء
                         مقالة لسائح في بعلبك</bibl> انتقد كاتبها <title xml:id="title_23.d1e2370">مجلة الحقائق</title> لأنها
                     ردت على <persName xml:id="persName_21.d1e2373">الشيخ جمال أفندي القاسمي</persName>
                         و<persName xml:id="persName_22.d1e2376">المغربي</persName> وأمثالهم من الباحثين ولم يكن انتقاد بطريقة
@@ -1455,7 +1455,7 @@
                     السبيل.</p>
                 <p xml:lang="ar" xml:id="p_143.d1e1871">وجاءنا أيضاً من الفاضل صاحب الإمضاء ما
                     يأتي:</p>
-                <p xml:lang="ar" xml:id="p_144.d1e1874">اطلعنا على مقالة في جريدة المفيد عدد 682
+                <p xml:lang="ar" xml:id="p_144.d1e1874">اطلعنا على مقالة في جريدة المفيد عدد  <tei:num value="682" xml:lang="ar">٦٨٢</tei:num> 
                     بإمضاء سائح يصم فيها مجلة الحقائق ويسم أصحابها بما سرده من المثالب التي لا
                     يؤيدها من الحق دليل ولا يعززها من الحس برهان بل هما يتبرآن مما استولى على مهاب
                     مشاعره ومسارب مداركه من الأوهام التي تجافي الحقيقة وتصافي الخيال فتراه قد ضل

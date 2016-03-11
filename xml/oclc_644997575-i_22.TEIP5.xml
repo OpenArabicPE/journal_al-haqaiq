@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -210,8 +210,8 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                           <date when="1912-04-17" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 17 - 4 - 1912</date>
-                           <biblScope n="21" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 21</biblScope>
+                           <date when="1912-04-17" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="17" xml:lang="ar">١٧</tei:num>  -  <tei:num value="4" xml:lang="ar">٤</tei:num>  -  <tei:num value="1912" xml:lang="ar">١٩١٢</tei:num> </date>
+                           <biblScope n="21" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="21" xml:lang="ar">٢١</tei:num> </biblScope>
                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                      </monogr>
@@ -221,8 +221,8 @@
             <body xml:lang="ar" xml:id="body_1.d1e515">
                 <head xml:lang="ar" xml:id="head_1.d1e517">
                     <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                        <biblScope n="21" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد 21</biblScope>
-                        <date when="1912-04-17" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: 17 - 4 - 1912</date>
+                        <biblScope n="21" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="21" xml:lang="ar">٢١</tei:num> </biblScope>
+                        <date when="1912-04-17" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="17" xml:lang="ar">١٧</tei:num>  -  <tei:num value="4" xml:lang="ar">٤</tei:num>  -  <tei:num value="1912" xml:lang="ar">١٩١٢</tei:num> </date>
                     </bibl>
                 </head>
                 <pb ed="shamela" n="n21-p1" corresp="file:../epub/29676/OEBPS/xhtml/P620.xhtml" xml:id="pb_1.d1e529"/>
@@ -230,7 +230,7 @@
 
                 <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
                     <head xml:lang="ar" xml:id="head_2.d1e533">الدين الإسلامي والتوحيد</head>
-                    <p xml:lang="ar" xml:id="p_15.d1e536">15</p>
+                    <p xml:lang="ar" xml:id="p_15.d1e536"> <tei:num value="15" xml:lang="ar">١٥</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_16.d1e539">معجزات سيدنا محمد صلى الله عليه وسلم</p>
                     <p xml:lang="ar" xml:id="p_17.d1e542">ومن معجزاته عليه الصلاة والسلام (انشقاق القمر) وهو من أمهات معجزاته ولم ينشق
                         لأحد غيره عليه الصلاة والسلام وقد أجمع المفسرون وأهل السنة على وقوع ذلك
@@ -971,7 +971,7 @@
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_9.d1e1495">
                     <head xml:lang="ar" xml:id="head_9.d1e1497">إجابة طلب المؤيد</head>
-                    <p xml:lang="ar" xml:id="p_80.d1e1500">2</p>
+                    <p xml:lang="ar" xml:id="p_80.d1e1500"> <tei:num value="2" xml:lang="ar">٢</tei:num> </p>
                     <lg xml:lang="ar" xml:id="lg_7.d1e1503">
                         <l type="bayt" xml:lang="ar" xml:id="l_73.d1e1505">
                             <seg xml:lang="ar" xml:id="seg_145.d1e1507">يامصطفى قبل العوالم كلها) </seg>
@@ -1153,15 +1153,15 @@
                         الذين لم يقاتلوكم في الدين ولم يخرجوكم من دياركم أن تبروهم وتقسطوا إليهم إن
                         الله يحب المقسطين) واذكروا أيضاً بأنه قد كتب في الكتاب الكريم (وإن جنحوا
                         للسلم فاجنح لها وتوكل على الله).</p>
-                    <p xml:lang="ar" xml:id="p_96.d1e1724">بنغازي في 12 فبراير سنة 1912</p>
+                    <p xml:lang="ar" xml:id="p_96.d1e1724">بنغازي في  <tei:num value="12" xml:lang="ar">١٢</tei:num>  فبراير سنة  <tei:num value="1912" xml:lang="ar">١٩١٢</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_97.d1e1727">قومندان الفرقة الثانية</p>
                     <p xml:lang="ar" xml:id="p_98.d1e1730">الجنرال بريكولا</p>
                     <p xml:lang="ar" xml:id="p_99.d1e1733">الجواب</p>
                     <p xml:lang="ar" xml:id="p_100.d1e1737">نعوذ بالله من الشيطان الرجيم</p>
                     <p xml:lang="ar" xml:id="p_101.d1e1740">لجنرال بريكولا النصراني قومندان الفرقة الطليانية. السلام على من اتبع الهدى
                         أما بعد فقد اطلعنا على كتابك المرسل لنا على أجنحة الطيارات الهوائية الملقى
-                        من الجو خوف الفضيحة والرزية المؤرخ في 24 صفر سنة 1330 هجرية الموافق 12
-                        فبراير سنة 1912 أفرنكيه فرأيناه قد اشتمل على أنواع الغش والخديعة والزور
+                        من الجو خوف الفضيحة والرزية المؤرخ في  <tei:num value="24" xml:lang="ar">٢٤</tei:num>  صفر سنة  <tei:num value="1330" xml:lang="ar">١٣٣٠</tei:num>  هجرية الموافق  <tei:num value="12" xml:lang="ar">١٢</tei:num> 
+                        فبراير سنة  <tei:num value="1912" xml:lang="ar">١٩١٢</tei:num>  أفرنكيه فرأيناه قد اشتمل على أنواع الغش والخديعة والزور
                         والمفتريات الشنيعة خصوصاً ما تضمن من الطعن في الحكومة السنية العثمانية
                         أدامها الله رب البرية والحط من شأن المجاهدين من إخواننا العثمانيين الذين
                         شهدت لهم الأعداء قبل الأصدقاء بالنجدة والشجاعة والغيرة والبراعة والصبر
@@ -1288,7 +1288,7 @@
                         المثلث الألوان الذي هو علامة الشرك <pb ed="shamela" n="n21-p33" corresp="file:../epub/29676/OEBPS/xhtml/P652.xhtml" xml:id="pb_30.d1e1780"/> والكفر والطغيان
                         ولتسقط إيطاليا دولة اللصوص والقرصان ولتحي الدولة العلية مدى الزمان دولة آل
                         عثمان.</p>
-                    <p xml:lang="ar" xml:id="p_104.d1e1784">تحريراً في يوم الجمعة 12 ربيع الأول سنة 1330 هجرية الموافق 12 مارت سنة 1912
+                    <p xml:lang="ar" xml:id="p_104.d1e1784">تحريراً في يوم الجمعة  <tei:num value="12" xml:lang="ar">١٢</tei:num>  ربيع الأول سنة  <tei:num value="1330" xml:lang="ar">١٣٣٠</tei:num>  هجرية الموافق  <tei:num value="12" xml:lang="ar">١٢</tei:num>  مارت سنة  <tei:num value="1912" xml:lang="ar">١٩١٢</tei:num> 
                         إفرنكيه.</p>
                     <p xml:lang="ar" xml:id="p_105.d1e1787">عموم عربان إفريقية الإسلامية</p>
                     <p xml:lang="ar" xml:id="p_106.d1e1790">سكان البوادي والبلدان <pb ed="shamela" n="n21-p34" corresp="file:../epub/29676/OEBPS/xhtml/P653.xhtml" xml:id="pb_31.d1e1792"/>

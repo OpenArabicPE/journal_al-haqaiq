@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -210,8 +210,8 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                           <date when="1913-10-01" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 1 - 10 - 1913</date>
-                           <biblScope n="33" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 33</biblScope>
+                           <date when="1913-10-01" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="1" xml:lang="ar">١</tei:num>  -  <tei:num value="10" xml:lang="ar">١٠</tei:num>  -  <tei:num value="1913" xml:lang="ar">١٩١٣</tei:num> </date>
+                           <biblScope n="33" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="33" xml:lang="ar">٣٣</tei:num> </biblScope>
                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                      </monogr>
@@ -221,8 +221,8 @@
             <body xml:lang="ar" xml:id="body_1.d1e515">
                 <head xml:lang="ar" xml:id="head_1.d1e517">
                     <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                        <biblScope n="33" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد 33</biblScope>
-                        <date when="1913-10-01" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: 1 - 10 - 1913</date>
+                        <biblScope n="33" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="33" xml:lang="ar">٣٣</tei:num> </biblScope>
+                        <date when="1913-10-01" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="1" xml:lang="ar">١</tei:num>  -  <tei:num value="10" xml:lang="ar">١٠</tei:num>  -  <tei:num value="1913" xml:lang="ar">١٩١٣</tei:num> </date>
                     </bibl>
                 </head>
                 <pb ed="shamela" n="n33-p1" corresp="file:../epub/29676/OEBPS/xhtml/P1015.xhtml" xml:id="pb_1.d1e529"/>
@@ -371,14 +371,14 @@
                         وليلتزم كل حده لا يتعداه.</p>
                     <p xml:lang="ar" xml:id="p_36.d1e612">للمرأة حقوق ولها حدود فلا نهضمها الحق ولا نرضى تخطيها الحد فلها مما نحن بصدده
                         الخروج لزيارة والديها مرة كل أسبوع ولزيارة محارمها (أي أقاربها المحرمة
-                        عليهم) في كل سنة مرة. (انظر المادة 215 من كتاب الأحوال الشخصية).</p>
+                        عليهم) في كل سنة مرة. (انظر المادة  <tei:num value="215" xml:lang="ar">٢١٥</tei:num>  من كتاب الأحوال الشخصية).</p>
                     <p xml:lang="ar" xml:id="p_37.d1e616">وعليها أن تكون مطيعة لزوجها فيما يأمرها به من حقوق الزوجية ويكون مباحاً شرعاً
                         (أي لا تلزمها طاعته في أمر يحرمه الشرع) وأن تتقيد بملازمة بيته ولا تخرج عنه
-                        إلا بإذنه (انظر المادة 212 من الأحوال الشخصية).</p>
-                    <p xml:lang="ar" xml:id="p_38.d1e619">وللزوج أن يمنعها من الخروج من بيته بلا إ1ذنه إلا في الأحوال التي يباح لها
+                        إلا بإذنه (انظر المادة  <tei:num value="212" xml:lang="ar">٢١٢</tei:num>  من الأحوال الشخصية).</p>
+                    <p xml:lang="ar" xml:id="p_38.d1e619">وللزوج أن يمنعها من الخروج من بيته بلا إ <tei:num value="1" xml:lang="ar">١</tei:num> ذنه إلا في الأحوال التي يباح لها
                         الخروج فيها شرعاً كزيارة والديها ومحارمها كما تقدم وله منعها من زيارة
                         الأجنبيات وعيادتهن ومن الخروج إلى الولائم ولو كانت عند المحارم (انظر المادة
-                        217 الأحوال الشخصية).</p>
+                         <tei:num value="217" xml:lang="ar">٢١٧</tei:num>  الأحوال الشخصية).</p>
                     <p xml:lang="ar" xml:id="p_39.d1e622">ولكي تظهر لكم حكمة مبالغة الشرع في كراهة خروج النساء إلى الولائم حتى أنه أعطى
                         الرجال حق منعهن من الخروج إليها ولو كانت عند المحارم أصف لكم هيئة فرح وكيف
                         كانت حالة النساء فيها وإن كان ذلك غير خاف عليكم.</p>
@@ -400,7 +400,7 @@
                     <p xml:lang="ar" xml:id="p_41.d1e630">هذه حفلة من كثير مثلها تقام في هذه المدينة الواسعة وطبعاً يجري في الكل ما جرى
                         في هذه ويحدث من اجتماع النساء وأمنهن الرقيب والزاجر تلك المنكرات الكبائر
                         فالحكمة البالغة في ذلك الحكم في منه هذا الفجور باجتناب أسبابه.</p>
-                    <p xml:lang="ar" xml:id="p_42.d1e633">وللزوج على زوجته الولاية التأديبية (انظر المادة 206 الأحوال الشخصية) وعليها
+                    <p xml:lang="ar" xml:id="p_42.d1e633">وللزوج على زوجته الولاية التأديبية (انظر المادة  <tei:num value="206" xml:lang="ar">٢٠٦</tei:num>  الأحوال الشخصية) وعليها
                         الحجاب وستر الزينة بنص الكتاب إذ قال الله تعالى: وليضربن بخمرتهن على جيوبهن
                         ولا يبدين زينتهن) وقال (يا أيها النبي قل لأزواجك وبناتك ونساء المؤمنين يدنين
                         عليهن من جلابيبهن ذلك أدنى أن يعرفن فلا يؤذين) وقد اتفق أغلب المفسرين على أن
@@ -409,7 +409,7 @@
                         ككشف المخطوبة وجهها وكفيها لمن يخطبها.</p>
                     <p xml:lang="ar" xml:id="p_43.d1e637">وقد اجتنبت الحكومة التعرض لهذه الحقوق بل لم تتعرض للرجال في حق إجراء التعزير
                         المباح لهم شرعاً إيقاعه على النساء عند تجاوزهن حداً من تلك الحدود مثل ما في
-                        المادة (209) الأحوال الشخصية هو يباح للزوج تأديب المرأة تأديباً خفيفاً على
+                        المادة ( <tei:num value="209" xml:lang="ar">٢٠٩</tei:num> ) الأحوال الشخصية هو يباح للزوج تأديب المرأة تأديباً خفيفاً على
                         كل معصية لم يرد في شأنها حد مقرر ولا يجوز له أن يضربها ضباً فاحشاً ولو بحق
                         وقد صرحت الحكومة بحيادها هذا في المادة الأولى من قانون عقوباتها وهذا نصها من
                         خصائص الحكومة أن تعاقب على الجرائم التي تقع على أفراد الناس بسبب ما يترتب
@@ -422,8 +422,8 @@
                         منعها من الخروج لغير ضرورة شرعية وفي حجاب شرعي فله رفع الأمر للقاضي فيحكم له
                         بما <pb ed="shamela" n="n33-p8" corresp="file:../epub/29676/OEBPS/xhtml/P1022.xhtml" xml:id="pb_8.d1e642"/> جاء به الكتاب
                         والسنة وتنفذ الحكومة هذا الحكم كما نطق به لا تغيير ول تبديل وتستعمل القوة
-                        وتدخل البيوت كرهاً إذا استدعى الحال ذلك (انظر المواد 16و17و 93 من دكريتو 19
-                        مايوسنة97 الشامل للائحة المحاكم الشرعية الجديدة).</p>
+                        وتدخل البيوت كرهاً إذا استدعى الحال ذلك (انظر المواد  <tei:num value="16" xml:lang="ar">١٦</tei:num> و <tei:num value="17" xml:lang="ar">١٧</tei:num> و  <tei:num value="93" xml:lang="ar">٩٣</tei:num>  من دكريتو  <tei:num value="19" xml:lang="ar">١٩</tei:num> 
+                        مايوسنة <tei:num value="97" xml:lang="ar">٩٧</tei:num>  الشامل للائحة المحاكم الشرعية الجديدة).</p>
                     <p xml:lang="ar" xml:id="p_45.d1e645">أيها الرجال قد عرفناكم ما لكم على النساء من الحقوق المقدسة فما عليكم إلا أن
                         تعضوا عليها بالنواجذ وتنهضوا نهضة الرجل الغيور لردعهن وردهن إلى الرشد
                         واعلموا أنكم مسؤولون بين يدي ربكم عن كل هذه الآثام ولا عذر لكم في تفريطكم في
@@ -470,7 +470,7 @@
                         الضلال.</p>
                     <p xml:lang="ar" xml:id="p_46.d1e650">هذه يا قوم حالة النساء اليوم وهذا دواؤها ومن لا زوج لها فأمرها بيد وليها
                         الشرعي من ذوي قرباها وهو أقرب الرجال إليها نسباً بحسب ترتيب الولاة شرعاً كما
-                        يستفاد من نص فتوى نقلناها عن صفحة 65 من الجزء الأول لتنقيح الفتاوي الحامدية
+                        يستفاد من نص فتوى نقلناها عن صفحة  <tei:num value="65" xml:lang="ar">٦٥</tei:num>  من الجزء الأول لتنقيح الفتاوي الحامدية
                         لابن عابدين وهي سئل في بكر حديثة السن بلغت مبلغ النساء وهي لا أم لها ولا أب
                         ولا جد ولها عم عصبة أمين غير مفسد يريد ضمها إليه خوف العار ويتخوف عليها فهل
                         له ذلك الجواب نعم ومتى كانت الجارية بكراً حديثة السن يضمها إلى نفسه ولو لم
@@ -983,7 +983,7 @@
                         وجوههم ليصدوهم عن مشروعهم فإن العاقبة للمتقين.</p>
                     <p xml:lang="ar" xml:id="p_98.d1e1286">أبو الضيا</p>
                     <p xml:lang="ar" xml:id="p_99.d1e1290">البقية تأتي</p>
-                    <p xml:lang="ar" xml:id="p_100.d1e1293">(الحقائق) حسن عند كثير من الناس ما نشرناه في الجزئين 9 و10 تحت عنوان (الوظائف
+                    <p xml:lang="ar" xml:id="p_100.d1e1293">(الحقائق) حسن عند كثير من الناس ما نشرناه في الجزئين  <tei:num value="9" xml:lang="ar">٩</tei:num>  و <tei:num value="10" xml:lang="ar">١٠</tei:num>  تحت عنوان (الوظائف
                         الدينية والجهلاء) وأثنوا جميل الثناء على همة كاتبها الفاضل حتى أن بعض
                         الغيورين في طرابلس الشام نشر ما كتب في الجزء العاشر بنشرة خاصة لتوزع مجاناً
                         على نفقته خدمة للعلم وحضاً للحكومة على تدارك هذه البلية العظيمة وهذا نص ما

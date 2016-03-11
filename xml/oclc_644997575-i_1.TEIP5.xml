@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change><tei:change when="2016-02-28" who="#pers_TG">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
+        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change><tei:change when="2016-02-28" who="#pers_TG">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 32 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change>Added bibliographic information (vol., issue, pages), some structural
@@ -377,8 +377,8 @@
             <pb ed="print" n="1" facs="#facs_11" xml:id="pb_1.d1e799"/>
             <div xml:lang="ar" xml:id="div_1.d1e467">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e803"><biblScope unit="issue" n="1" xml:id="biblScope_4.d1e804">الجزءُ الاول</biblScope>
-                    <biblScope unit="volume" n="1" xml:id="biblScope_5.d1e807">المجلد الاول</biblScope><lb xml:id="lb_1.d1e809"/><title level="j" xml:id="title_8.d1e810">الحقائق</title><lb xml:id="lb_2.d1e812"/><pubPlace xml:id="pubPlace_3.d1e813"><placeName xml:id="placeName_3.d1e814">دمشق</placeName></pubPlace>: <date datingMethod="#cal_islamic" calendar="#cal_islamic" when-custom="1328-08-01" xml:id="date_11.d1e817">غرة شعبان المعظم ١٣٢٨</date> و<date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1325-05-25" xml:id="date_12.d1e820">٢٥ تموز
-                        ١٣٢٥</date> و <date when="1910-08-07" xml:id="date_13.d1e824">٧ آب ١٩١٠</date></bibl>
+                    <biblScope unit="volume" n="1" xml:id="biblScope_5.d1e807">المجلد الاول</biblScope><lb xml:id="lb_1.d1e809"/><title level="j" xml:id="title_8.d1e810">الحقائق</title><lb xml:id="lb_2.d1e812"/><pubPlace xml:id="pubPlace_3.d1e813"><placeName xml:id="placeName_3.d1e814">دمشق</placeName></pubPlace>: <date datingMethod="#cal_islamic" calendar="#cal_islamic" when-custom="1328-08-01" xml:id="date_11.d1e817">غرة شعبان المعظم  <tei:num value="١٣٢٨" xml:lang="ar">١٣٢٨</tei:num> </date> و<date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1325-05-25" xml:id="date_12.d1e820"> <tei:num value="٢٥" xml:lang="ar">٢٥</tei:num>  تموز
+                         <tei:num value="١٣٢٥" xml:lang="ar">١٣٢٥</tei:num> </date> و <date when="1910-08-07" xml:id="date_13.d1e824"> <tei:num value="٧" xml:lang="ar">٧</tei:num>  آب  <tei:num value="١٩١٠" xml:lang="ar">١٩١٠</tei:num> </date></bibl>
             </div>
         </front>
         <body xml:lang="ar" xml:id="body_1.d1e515">
@@ -801,7 +801,7 @@
                 </div>
             </div>
             <div type="section" xml:lang="ar" xml:id="div_7.d1e887">
-                <head xml:lang="ar" xml:id="head_7.d1e889">الأخلاق1</head>
+                <head xml:lang="ar" xml:id="head_7.d1e889">الأخلاق <tei:num value="1" xml:lang="ar">١</tei:num> </head>
                 <div type="article" xml:id="div_10.d1e1243">
                     <head xml:id="head_10.d1e1245">إنما بثت لأتمم (مكارم الأخلاق)<note type="footnote" xml:id="note_3.d1e1247">
                             <gap xml:id="gap_4.d1e1249"/>
@@ -923,7 +923,7 @@
                 </div>
             </div>
             <div type="section" xml:lang="ar" xml:id="div_9.d1e934">
-                <head xml:lang="ar" xml:id="head_9.d1e936">التاريخ 1</head>
+                <head xml:lang="ar" xml:id="head_9.d1e936">التاريخ  <tei:num value="1" xml:lang="ar">١</tei:num> </head>
                 <div type="article" xml:id="div_14.d1e1306">
                     <head xml:id="head_14.d1e1308">أبو بكر رضي الله عنه</head>
                     <p xml:lang="ar" xml:id="p_70.d1e942">نأتي في هذا الباب على ترجمة أعاظم رجال

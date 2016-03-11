@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -210,8 +210,8 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                           <date when="1911-10-23" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 23 - 10 - 1911</date>
-                           <biblScope n="15" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 15</biblScope>
+                           <date when="1911-10-23" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="23" xml:lang="ar">٢٣</tei:num>  -  <tei:num value="10" xml:lang="ar">١٠</tei:num>  -  <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
+                           <biblScope n="15" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="15" xml:lang="ar">١٥</tei:num> </biblScope>
                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                      </monogr>
@@ -221,8 +221,8 @@
             <body xml:lang="ar" xml:id="body_1.d1e515">
                 <head xml:lang="ar" xml:id="head_1.d1e517">
                     <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                        <biblScope n="15" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد 15</biblScope>
-                        <date when="1911-10-23" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: 23 - 10 - 1911</date>
+                        <biblScope n="15" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="15" xml:lang="ar">١٥</tei:num> </biblScope>
+                        <date when="1911-10-23" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="23" xml:lang="ar">٢٣</tei:num>  -  <tei:num value="10" xml:lang="ar">١٠</tei:num>  -  <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
                     </bibl>
                 </head>
                 <pb ed="shamela" n="n15-p1" corresp="file:../epub/29676/OEBPS/xhtml/P422.xhtml" xml:id="pb_1.d1e529"/>
@@ -231,7 +231,7 @@
                 <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
                     <head xml:lang="ar" xml:id="head_2.d1e533">الدين الإسلامي والتوحيد</head>
                     <p xml:lang="ar" xml:id="p_15.d1e536">النبويات</p>
-                    <p xml:lang="ar" xml:id="p_16.d1e539">11</p>
+                    <p xml:lang="ar" xml:id="p_16.d1e539"> <tei:num value="11" xml:lang="ar">١١</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_17.d1e542">لامرية في أن بعثة الأنبياء عليهم الصلاة والسلام من متممات البشر ومن أهم
                         حاجاته، وأكمل وسيلة لنظام اجتماعه وأعظم طريق لسعادته الدنيوية والآخروية
                         التصديق ببعثة الرسل ركن من أركان الإيمان، ودعامة من دعائمه، فيتحتم على كل
@@ -472,8 +472,8 @@
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_4.d1e624">
                     <head xml:lang="ar" xml:id="head_4.d1e626">تحريم المتعة</head>
-                    <p xml:lang="ar" xml:id="p_35.d1e629">4</p>
-                    <p xml:lang="ar" xml:id="p_36.d1e632">تابع لما نشر ص 14 من المجلد الثاني</p>
+                    <p xml:lang="ar" xml:id="p_35.d1e629"> <tei:num value="4" xml:lang="ar">٤</tei:num> </p>
+                    <p xml:lang="ar" xml:id="p_36.d1e632">تابع لما نشر ص  <tei:num value="14" xml:lang="ar">١٤</tei:num>  من المجلد الثاني</p>
                     <p xml:lang="ar" xml:id="p_37.d1e635">قال مؤلف الرسالة (ومنها) أي من وجود اختلاف أخبار التحريم أن رواية ابن ماجة عن
                         ابن عمر تدل على أن عمر بين التحريم في أول ولايته وتوعد بالرجم وهو ينافي ما
                         في رواية الموطأ من قوله لو كنت تقدمت فيها لرجمت الخ.</p>
@@ -510,7 +510,7 @@
                         وقد تبين فساده وقول سبرة فمكثت معها تلك الليلة ثم غدوت إلخ لا يدل على أن
                         الأذن كان يوما وليلة كما ادعاه مؤلف الرسالة بل هو بيان لما وقع مع الراوي.
                         على أن ذكر الإباحة في حجة الوداع التي استفيدت من هذا الحديث خطأ كما اتضح مما
-                        بيناه ص (19) من المجلد الثاني.</p>
+                        بيناه ص ( <tei:num value="19" xml:lang="ar">١٩</tei:num> ) من المجلد الثاني.</p>
                     <p xml:lang="ar" xml:id="p_41.d1e650">وقال مؤلف الرسالة (ومنها) أن في بعضها عن علي من طريق الزهري إن التحريم كان
                         يوم خيبر وفي بعضها عن علي من طريق الزهري أيضاً أنه كان في غزوة تبوك والنووي
                         في شرح صحيح مسلم التجأ في رفع ذلك إلى حمل رواية تبوك على الغلط وهو غير
@@ -528,7 +528,7 @@
                         البطلان. <pb ed="shamela" n="n15-p12" corresp="file:../epub/29676/OEBPS/xhtml/P433.xhtml" xml:id="pb_12.d1e658"/> ونقول بينا فيما
                         تقدم أن هذا الحديث مرسل ضعيف فما زعمه مؤلف الرسالة من معارضته لغيره واضح
                         الفساد. إذ من المعلوم أن الضعيف لا يعارض الصحيح وقد استوفينا الكلام على
-                        مايتعلق بهذا الوجه ص 17 من المجلد الثاني.</p>
+                        مايتعلق بهذا الوجه ص  <tei:num value="17" xml:lang="ar">١٧</tei:num>  من المجلد الثاني.</p>
                     <p xml:lang="ar" xml:id="p_44.d1e661">وقال مؤلف الرسالة (ومنها) أن ما في رواية الترمذي عن ابن عباس أنها إنما كانت
                         في أول الإسلام ثم نسخت بآية إلا على أزواجهم مناف لما دل عليه غيرها مما تقدم
                         الخ. .</p>
@@ -677,7 +677,7 @@
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_5.d1e720">
                     <head xml:lang="ar" xml:id="head_5.d1e722">أقول العلماء في التمثيل</head>
-                    <p xml:lang="ar" xml:id="p_58.d1e725">2</p>
+                    <p xml:lang="ar" xml:id="p_58.d1e725"> <tei:num value="2" xml:lang="ar">٢</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_59.d1e728">تحت هذا العنوان ننشر ما يرد إلينا من أقوال علماء الإسلام وفتاويهم في سائر
                         الأقطار ليظهر حكم الله تعالى في هذه المسألة الخطيرة.</p>
                     <p xml:lang="ar" xml:id="p_60.d1e731">الجواب الثالث للأستاذ العلامة المحقق صاحب الفضيلة الشيخ مصطفى</p>
@@ -724,7 +724,7 @@
                         بعد فقد سئلت عن حكم الرواية المشتملة على الأوصاف المبينة في السؤال المدرج في
                         مجلة (الحقائق) في العدد الثاني من السنة الثانية فأقول في الجواب على مقتضى نص
                         السؤال لأني لم أحضر تلك الرواية أن تلك الرواية مشتملة على مفاسد حرمتها ظاهرة
-                        قال رسول الله صلى الله عليه وسلم (1).</p>
+                        قال رسول الله صلى الله عليه وسلم ( <tei:num value="1" xml:lang="ar">١</tei:num> ).</p>
                     <p xml:lang="ar" xml:id="p_72.d1e773">الحلال بين والحرام بين وبينهما أمور مشتبهات لايعلمها كثير من الناس فمن اتقى
                         الشبهات فقد استبرأَ لدينه وعرضه ومن وقع في الشبهات وقع في الحرام وهذا الحديث
                         الشريف كاف في الجواب كيف لا وهو أحد الأحاديث الأربعة التي عليها مدار الإسلام
@@ -853,7 +853,7 @@
                 <div type="article" xml:lang="ar" xml:id="div_6.d1e849">
                     <head xml:lang="ar" xml:id="head_6.d1e851">التاريخ</head>
                     <p xml:lang="ar" xml:id="p_92.d1e854">تابع ترجمة أبي بكر رضي الله عنه</p>
-                    <p xml:lang="ar" xml:id="p_93.d1e857">8</p>
+                    <p xml:lang="ar" xml:id="p_93.d1e857"> <tei:num value="8" xml:lang="ar">٨</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_94.d1e860">فتح ما وراء الحيرة</p>
                     <p xml:lang="ar" xml:id="p_95.d1e863">كان دهاقين ما وراء الحيرة يتربصون بخالد رضي الله عنه ما يصنع بأهل الحيرة فلما
                         صالحهم واستقاموا له جاءُوه من كل ناحية فصالحوه عما يلي الحيرة وبعث خالد
@@ -1052,7 +1052,7 @@
                 <div type="article" xml:lang="ar" xml:id="div_8.d1e1205">
                     <head xml:lang="ar" xml:id="head_8.d1e1207">بيان حقيقة</head>
                     <p xml:lang="ar" xml:id="p_110.d1e1210">جاءتنا من الأستاذ العلامة الفاضل الشيخ عارف أفندي المنير مقالة يكذب فيها ما
-                        جاء في جريدة المفيد عدد 832 بإمضاء رائد حقيقة من أنه من محرري مجلة الحقائق
+                        جاء في جريدة المفيد عدد  <tei:num value="832" xml:lang="ar">٨٣٢</tei:num>  بإمضاء رائد حقيقة من أنه من محرري مجلة الحقائق
                         منتقداً على الكاتب إخفاء اسمه وقال فيها ليس من اللائق أن يعتمد الكاتب على
                         الكذب والتحامل بل اللائق أن يقابل الأدلة بمثلها وينقض ما اشتملت عليه كتابته
                         بالأوجه المعقولة ونحن نبين لقرائنا أن ما يكتب في مجلتنا بإمضاء أصحابه

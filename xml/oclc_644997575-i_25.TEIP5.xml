@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -210,8 +210,8 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                           <date when="1913-01-09" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 9 - 1 - 1913</date>
-                           <biblScope n="24" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 24</biblScope>
+                           <date when="1913-01-09" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="9" xml:lang="ar">٩</tei:num>  -  <tei:num value="1" xml:lang="ar">١</tei:num>  -  <tei:num value="1913" xml:lang="ar">١٩١٣</tei:num> </date>
+                           <biblScope n="24" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="24" xml:lang="ar">٢٤</tei:num> </biblScope>
                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                      </monogr>
@@ -221,8 +221,8 @@
             <body xml:lang="ar" xml:id="body_1.d1e515">
                 <head xml:lang="ar" xml:id="head_1.d1e517">
                     <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                        <biblScope n="24" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد 24</biblScope>
-                        <date when="1913-01-09" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: 9 - 1 - 1913</date>
+                        <biblScope n="24" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="24" xml:lang="ar">٢٤</tei:num> </biblScope>
+                        <date when="1913-01-09" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="9" xml:lang="ar">٩</tei:num>  -  <tei:num value="1" xml:lang="ar">١</tei:num>  -  <tei:num value="1913" xml:lang="ar">١٩١٣</tei:num> </date>
                     </bibl>
                 </head>
                 <pb ed="shamela" n="n24-p1" corresp="file:../epub/29676/OEBPS/xhtml/P751.xhtml" xml:id="pb_1.d1e529"/>
@@ -240,7 +240,7 @@
                         العامة، ولئلا تضيع الأنساب، ويقل النسل، وتفقد الثقة بالأصول، فمنها من حكم
                         على الزاني والزانية بأن يوثقا ثم يطرحا في الماء ومنها من حكم عليهما
                         بالإحراق، ومنها من حكم عليهما بالقتل، ومنها من حكم عليهما بصلم الأذنين، وجدع
-                        الأنف كما تقدم بيانه ص 430 من المجلد الأول. وفرقت الشريعة الإسلامية في
+                        الأنف كما تقدم بيانه ص  <tei:num value="430" xml:lang="ar">٤٣٠</tei:num>  من المجلد الأول. وفرقت الشريعة الإسلامية في
                         العقوبة بين المحصن وغير المحصن فأوجبت أن يخرج الأولإذا ثبت لدى الإمام زناه
                         إلى أرض فضاء ثم يرجم بالحجارة حتى يموت وحظرت قتله بغير صورة الرجم تعذيباً له
                         وتأديباً لغيره، وحكمت على الثاني إن كان حراً بجلد مأة مع تغريب عام وإن كان
@@ -1049,7 +1049,7 @@
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_11.d1e1266">
                     <head xml:lang="ar" xml:id="head_11.d1e1268">حكم أخلاقية</head>
-                    <p xml:lang="ar" xml:id="p_92.d1e1271">شذرة من العالم الماجد المرحوم الشيخ محمد أفندي الطيبي المتوفي سنة 1317 هجرية
+                    <p xml:lang="ar" xml:id="p_92.d1e1271">شذرة من العالم الماجد المرحوم الشيخ محمد أفندي الطيبي المتوفي سنة  <tei:num value="1317" xml:lang="ar">١٣١٧</tei:num>  هجرية
                         أرسل بها إلينا حفيده الغيور الفاضل محمد عمر أفندي الطيبي مأمور أوراق لواء
                         حوران</p>
                     <p xml:lang="ar" xml:id="p_93.d1e1274">قال رحمه الله:</p>

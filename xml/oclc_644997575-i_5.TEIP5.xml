@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 42 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every
@@ -441,9 +441,9 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                            <date when="1910-12-03" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 3
-                                - 12 - 1910</date>
-                            <biblScope n="5" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 5</biblScope>
+                            <date when="1910-12-03" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="3" xml:lang="ar">٣</tei:num> 
+                                -  <tei:num value="12" xml:lang="ar">١٢</tei:num>  -  <tei:num value="1910" xml:lang="ar">١٩١٠</tei:num> </date>
+                            <biblScope n="5" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="5" xml:lang="ar">٥</tei:num> </biblScope>
                             <biblScope unit="page" from="153" to="194" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                     </monogr>
@@ -454,9 +454,9 @@
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
                     <biblScope n="5" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
-                        5</biblScope>
-                    <date when="1910-12-03" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: 3 - 12 -
-                        1910</date>
+                         <tei:num value="5" xml:lang="ar">٥</tei:num> </biblScope>
+                    <date when="1910-12-03" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="3" xml:lang="ar">٣</tei:num>  -  <tei:num value="12" xml:lang="ar">١٢</tei:num>  -
+                         <tei:num value="1910" xml:lang="ar">١٩١٠</tei:num> </date>
                 </bibl>
             </head>
             <pb ed="shamela" n="n5-p1" corresp="file:../epub/29676/OEBPS/xhtml/P97.xhtml" xml:id="pb_1.d1e529"/>
@@ -664,7 +664,7 @@
             <div type="article" xml:lang="ar" xml:id="div_4.d1e609">
                 <head xml:lang="ar" xml:id="head_4.d1e611">الانتقاد</head>
                 <p xml:lang="ar" xml:id="p_31.d1e614">الزهاوي يرى في المرأة غير رأي القرأن</p>
-                <p xml:lang="ar" xml:id="p_32.d1e617">(3)</p>
+                <p xml:lang="ar" xml:id="p_32.d1e617">( <tei:num value="3" xml:lang="ar">٣</tei:num> )</p>
                 <p xml:lang="ar" xml:id="p_33.d1e620">أما نقص المرأة في الميراث عن الرجل فتتضح حكمته
                     مما يأتي:</p>
                 <p xml:lang="ar" xml:id="p_34.d1e623">كان العرب قبل الإسلام يتوارثون بسببين: النسب
@@ -722,7 +722,7 @@
                 <p xml:lang="ar" xml:id="p_41.d1e656">(وخلاصة القول فيها)</p>
                 <p xml:lang="ar" xml:id="p_42.d1e659">اللهم أرنا الحق حقاً وأرزقنا اتباعه، وأرنا
                     الباطل باطلاً وأرزقنا اجتنابه منذ أيام علمنا أن العالم الفاضل الشيخ جمال أفندي
-                    القاسمي نشر في عدد (500) من المقتبس مقالة تحت عنوان (بشرى علمية) أبان فيها صحة
+                    القاسمي نشر في عدد ( <tei:num value="500" xml:lang="ar">٥٠٠</tei:num> ) من المقتبس مقالة تحت عنوان (بشرى علمية) أبان فيها صحة
                     العمل بالتلغراف وجواز الاعتماد عليه وقوى فكرة ذلك بنقله عن فئة من أهل العلم
                     أقاويل قال أنها تقتضي جواز العمل به ولما كانت هذه المسئلة من المسائل ذوات البال
                     أجبنا أن نبين اعتقادنا فيها مستندين في ذلك لما عليه الجمهور من سلف الأمة وخلفها
@@ -774,7 +774,7 @@
                     صاحبه وقعد، وبكى واستبكى ووقع في أشد الحيرة ولم يدر أوالدته مريضة أم صحيحة وورد
                     لآخر تلغراف نصه (احضروا مهرة) وصوابه حضر فلان الفلاني ولآخر (قدموا كميه) وصوابه
                     كمأة ولغيره قدموا قازمات وصوابه بقسماط وسئل بعضهم عن سعر العناب فقرأه من
-                    التلغراف القناب وظنه القنب فأخبر السائل أن سعر الرطل قرش 9 فاشتري جملة خسر بها
+                    التلغراف القناب وظنه القنب فأخبر السائل أن سعر الرطل قرش  <tei:num value="9" xml:lang="ar">٩</tei:num>  فاشتري جملة خسر بها
                     ستين ليرة ولبعضهم (قيصري أحضر كذا) وصوابه (نص أحضر كذا) إلى غير ذلك مما لو أردنا
                     استقصاء لأدى بنا إلى الخروج عن المقصود فثبت بهذا أن القول بأن التلغراف من الأمور
                     اليقينة لا يصح وأن الإدعاء بأنه بنية والبينة ما يبين الأمر ويوضحه في غير محله
@@ -886,7 +886,7 @@
                 <head xml:lang="ar" xml:id="head_6.d1e693">المتفرقات</head>
                 <p xml:lang="ar" xml:id="p_48.d1e696">تشطير بيتى أبي العتاهية في الصديق</p>
                 <p xml:lang="ar" xml:id="p_49.d1e699">المندرجين في العدد الثاني من هذه المجلة ص
-                    (68)</p>
+                    ( <tei:num value="68" xml:lang="ar">٦٨</tei:num> )</p>
                 <lg xml:lang="ar" xml:id="lg_1.d1e702">
                     <l type="bayt" xml:lang="ar" xml:id="l_1.d1e704">
                         <seg xml:lang="ar" xml:id="seg_1.d1e706">صديقي من يقاسمني همومي </seg>

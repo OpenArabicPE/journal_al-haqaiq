@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -210,8 +210,8 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                           <date when="1911-11-22" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ: 22 - 11 - 1911</date>
-                           <biblScope n="16" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد 16</biblScope>
+                           <date when="1911-11-22" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="22" xml:lang="ar">٢٢</tei:num>  -  <tei:num value="11" xml:lang="ar">١١</tei:num>  -  <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
+                           <biblScope n="16" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="16" xml:lang="ar">١٦</tei:num> </biblScope>
                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                      </monogr>
@@ -221,8 +221,8 @@
             <body xml:lang="ar" xml:id="body_1.d1e515">
                 <head xml:lang="ar" xml:id="head_1.d1e517">
                     <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                        <biblScope n="16" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد 16</biblScope>
-                        <date when="1911-11-22" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: 22 - 11 - 1911</date>
+                        <biblScope n="16" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="16" xml:lang="ar">١٦</tei:num> </biblScope>
+                        <date when="1911-11-22" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="22" xml:lang="ar">٢٢</tei:num>  -  <tei:num value="11" xml:lang="ar">١١</tei:num>  -  <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
                     </bibl>
                 </head>
                 <pb ed="shamela" n="n16-p1" corresp="file:../epub/29676/OEBPS/xhtml/P453.xhtml" xml:id="pb_1.d1e529"/>
@@ -230,7 +230,7 @@
 
                 <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
                     <head xml:lang="ar" xml:id="head_2.d1e533">الدين الإسلامي والتوحيد</head>
-                    <p xml:lang="ar" xml:id="p_15.d1e536">12</p>
+                    <p xml:lang="ar" xml:id="p_15.d1e536"> <tei:num value="12" xml:lang="ar">١٢</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_16.d1e539">النبويات</p>
                     <p xml:lang="ar" xml:id="p_17.d1e542">قدمنا أن للأنبياء عليهم الصلاة والسلام صفات كمال يجب الاعتقاد بثبوتها ويحسن
                         بنا أن نورد الدلائل عليها تتميماً للفائدة، وتوفية لحق البحث فنقول:</p>
@@ -310,7 +310,7 @@
                         الحرب القائمة الآن بين الدولة العلية وإيطاليا. قال ينسب السنوسيون إلى زعيمهم
                         الأول السيد محمد بن علي بن السنوسي الخطَّابي الحسني الإدريسي المهاجري وهو من
                         قبيلة ولد سيدي عبد الله ويتصل نسبه بالحسن ابن الإمام علي بن أبي طالب. ولد
-                        سنة 1205 للهجرة وقيل 1217 في مستفانم من أعمال الجزائر ونشأ بها وطلب العلم
+                        سنة  <tei:num value="1205" xml:lang="ar">١٢٠٥</tei:num>  للهجرة وقيل  <tei:num value="1217" xml:lang="ar">١٢١٧</tei:num>  في مستفانم من أعمال الجزائر ونشأ بها وطلب العلم
                         بمدينة فاس ولما بلغ الثلاثين من عمره ارتحل عنها وأخذ يجول في الصحراء إلى
                         الجنوب من الجزائر يعظ الناس ويحثهم على الصلاح والتقوى. ثم سار إلى تونس
                         وطرابلس وبرقة ومصر وانتقل من مصر إلى مكة فلقي بها السيد محمد بن إدريس الفاسي
@@ -319,19 +319,19 @@
                         زمناً. ولقي في مكة محمد شريف من أمراء ودّاي وكان قد قدمها حاجاً فتمكنت عرى
                         الصداقة بين الاثنين وصار محمد شريف من أشد أنصاره فيما بعد. وسافر من مكة إلى
                         نجد ولقي بها علماء الوهابيين فارتاب فيه علماء مكة بسبب ذلك وخاصموه. فلما رأى
-                        أن أعداءَه قد كثروا في مكة رحل إلى برقة سنة 1255 وأقام في الجبل الأخضر وبنى
+                        أن أعداءَه قد كثروا في مكة رحل إلى برقة سنة  <tei:num value="1255" xml:lang="ar">١٢٥٥</tei:num>  وأقام في الجبل الأخضر وبنى
                         فيه زاوية قرب درنة سماها الزاوية البيضاء وهي أو زاوية أنشأها في إفريقية وبقي
                         في الجبل الأخضر سبع سنوات مشتغلاً بإقراء الحديث والفقه فطار صيته وهرع الناس
                         إليه للأخذ عنه ثم سار إلى مكة وأقام فيها زمناً وعاد إلى الجبل الأخضر بطريق
                         القاهرة. وكان محمد شريف قد صار سلطاناً على ودّاي والمكاتبة متواصلة بين
                         الاثنين. أما الحكومة العثمانية فلم يرق لها النفوذ الذي وصل إليه السنوسي فأحس
                         السنوسي بذلك وانتقل إلى واحة جغبوب على ثلاثين ميلاً من واحة سيوه وبقيت فيها
-                        إلى أن توفي في 9 صفر سنة 1276 ودفن هناك.</p>
+                        إلى أن توفي في  <tei:num value="9" xml:lang="ar">٩</tei:num>  صفر سنة  <tei:num value="1276" xml:lang="ar">١٢٧٦</tei:num>  ودفن هناك.</p>
                     <p xml:lang="ar" xml:id="p_28.d1e589">وخلفه ابنه الأصغر السيد محمد المهدي السنوسي وكان عمره أربع عشرة سنة فقام بنشر
                         طريقته ومعه أخوه الأكبر السيد محمد شريف وعمره خمسة عشرة سنة وحولهما جماعة من
                         المريدين يتولون أمرهما. ونال السيد محمد المهدي شهرة أبيه في الصلاح والتقوى
                         فكثر مريدوه لاسيما في برقة وطرابلس وودّاي. وتوفى محمد شريف سلطان وداي سنة
-                            <pb ed="shamela" n="n16-p5" corresp="file:../epub/29676/OEBPS/xhtml/P457.xhtml" xml:id="pb_5.d1e591"/> 1858 م فخلفه
+                            <pb ed="shamela" n="n16-p5" corresp="file:../epub/29676/OEBPS/xhtml/P457.xhtml" xml:id="pb_5.d1e591"/>  <tei:num value="1858" xml:lang="ar">١٨٥٨</tei:num>  م فخلفه
                         السلطان علي ثم السلطان يوسف وكان الثلاثة أشد أنصار السنوسية.</p>
                     <p xml:lang="ar" xml:id="p_29.d1e594">وقويت السنوسية كثيراً في أيام السيد محمد المهدي فكانت زواياها منتشرة من الغرب
                         الأقصى إلى الهند ومن وداي إلى الأستانة لكنها لم تتمكن من مزاحمة الطرق الأخرى
@@ -348,14 +348,14 @@
                         منه في أحدهما أن يكون أحد خلفائه الأربعة وفي الآخر أن ينصره على الحكومة فلم
                         يرد عليه جواباً.</p>
                     <p xml:lang="ar" xml:id="p_31.d1e601">ومازال السنوسي يزداد نفوذاً حتى خاف السلطان عبد الحميد عاقبة الأمر وبث عليه
-                        العيون والأرصاد فأحسّ السنوسي بذلك وارتحل سنة 1894 م إلى واحد الكفرة في
-                        الصحراء الكبرى بعيداً عن الحكومة ثم انتقل سنة 1900 إلى قروفي دار قوراني من
+                        العيون والأرصاد فأحسّ السنوسي بذلك وارتحل سنة  <tei:num value="1894" xml:lang="ar">١٨٩٤</tei:num>  م إلى واحد الكفرة في
+                        الصحراء الكبرى بعيداً عن الحكومة ثم انتقل سنة  <tei:num value="1900" xml:lang="ar">١٩٠٠</tei:num>  إلى قروفي دار قوراني من
                         أعمال ودّاي فلقيه أهاليها بكل ترحاب وبنى زاوية هناك في مكان حصين على رأس
-                        أكمة وأقام فيها. وكان الفرنسويون قد تقدموا في البلاد ففتحوا برنو سنة 1900
+                        أكمة وأقام فيها. وكان الفرنسويون قد تقدموا في البلاد ففتحوا برنو سنة  <tei:num value="1900" xml:lang="ar">١٩٠٠</tei:num> 
                         وقتلوا سلطانها رابح الزبير ثم فتحوا باقرمى فحاول السنوسي أن يمنعهم من
                         الاستيلاء على بلاد كانم وهي في الصحراء إلى الشمال الشرقي من بحيرة تشاد وكان
-                        له فيها زاوية في مكان حصين فزحف عليها الفرنسويون سنة 1903 م وفتحوها عنوة
-                        فاغتمَّ لذلك كثيراً ومات في 30 مايو من السنة نفسها فوضعت جثته في تابوت صنع
+                        له فيها زاوية في مكان حصين فزحف عليها الفرنسويون سنة  <tei:num value="1903" xml:lang="ar">١٩٠٣</tei:num>  م وفتحوها عنوة
+                        فاغتمَّ لذلك كثيراً ومات في  <tei:num value="30" xml:lang="ar">٣٠</tei:num>  مايو من السنة نفسها فوضعت جثته في تابوت صنع
                         لها في قرو ونقلت إلى زاوية التاج وهي الآن في خيمة هناك. وخلفه ابن أخيه واسمه
                         أحمد شريف ويقيم الآن في واحة الكفرة بعيداً عن الفرنسو يين.</p>
                     <p xml:lang="ar" xml:id="p_32.d1e604">ولا يعرف عدد السنوسيين تماماً لكن أكثر أهالي طرابلس وبرقة والجانب الشرقي من
@@ -818,7 +818,7 @@
                 <div type="article" xml:lang="ar" xml:id="div_5.d1e1495">
                     <head xml:lang="ar" xml:id="head_5.d1e1497">التاريخ</head>
                     <p xml:lang="ar" xml:id="p_63.d1e1500">تابع ترجمة أبي بكر رضي الله عنه</p>
-                    <p xml:lang="ar" xml:id="p_64.d1e1503">9</p>
+                    <p xml:lang="ar" xml:id="p_64.d1e1503"> <tei:num value="9" xml:lang="ar">٩</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_65.d1e1506">فتوح الشام</p>
                     <p xml:lang="ar" xml:id="p_66.d1e1509">جهز أبو بكر رضي الله عنه أربعة جيوش لفتح الشام وذلك بعد رجوعه من الحج سنة
                         ثلاث عشرة على أحدهما عمرو بن العاص ووجهه إلى فلسطين وعلى ثانيهما شرحبيل بن
@@ -938,14 +938,14 @@
                     <p xml:lang="ar" xml:id="p_76.d1e1557">فابتديت من الشيخ محمد المبارك إلى آخرهم على الترتيب. فمن عرفت اسمه ذكرته
                         باسمه ومن أخفى اسمه قلت عنه (قال من لا أعرف اسمه) فأرجوكم تبليغ ذلك بواسطة
                         مجلتكم الحقائق. ولكم ولهم مني السلام.</p>
-                    <p xml:lang="ar" xml:id="p_77.d1e1560">المدينة المنورة السبت في 11 ذي الحجة سنة 1329 مختار المؤيد <pb ed="shamela" n="n16-p20" corresp="file:../epub/29676/OEBPS/xhtml/P472.xhtml" xml:id="pb_17.d1e1562"/>
+                    <p xml:lang="ar" xml:id="p_77.d1e1560">المدينة المنورة السبت في  <tei:num value="11" xml:lang="ar">١١</tei:num>  ذي الحجة سنة  <tei:num value="1329" xml:lang="ar">١٣٢٩</tei:num>  مختار المؤيد <pb ed="shamela" n="n16-p20" corresp="file:../epub/29676/OEBPS/xhtml/P472.xhtml" xml:id="pb_17.d1e1562"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_7.d1e1566">
                     <head xml:lang="ar" xml:id="head_7.d1e1568">التمثيل</head>
                     <p xml:lang="ar" xml:id="p_78.d1e1571">التياترو بالمعنى المعروف لنا الآن كان معروفاً عند قدماء اليونايين والرومانيين
                         ثم جاء حكم الكهان في أوربا حرمت الكنيسة فن التمثيل فلبث هذا الفن خمسة عشر
-                        قرناً في غيابة العدم ثم حيي في فرنسا في عهد لويز الثالث عشر (1610 1643) م
+                        قرناً في غيابة العدم ثم حيي في فرنسا في عهد لويز الثالث عشر ( <tei:num value="1610" xml:lang="ar">١٦١٠</tei:num>   <tei:num value="1643" xml:lang="ar">١٦٤٣</tei:num> ) م
                         وعمّ جميع أوربا في زمن قصير ولم يزل يترقى فيها حتى وصل إلى حالته العصرية
                         المعهودة.</p>
                     <p xml:lang="ar" xml:id="p_79.d1e1574">من المشهور الآن على السنة الخاصة والعامة أن التمثيل فن جميل يرقي العواطف
@@ -1009,7 +1009,7 @@
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_8.d1e1603">
                     <head xml:lang="ar" xml:id="head_8.d1e1605">أقوال العلماء في التمثيل</head>
-                    <p xml:lang="ar" xml:id="p_86.d1e1608">3</p>
+                    <p xml:lang="ar" xml:id="p_86.d1e1608"> <tei:num value="3" xml:lang="ar">٣</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_87.d1e1611">تحت هذا العنوان ننشر ما يرد إلينا من أقوال علماء الإسلام وفتاويهم في سائر</p>
                     <p xml:lang="ar" xml:id="p_88.d1e1614">الأقطار ليظهر حكم الله تعالى في هذه المسألة الخطيرة</p>
                     <p xml:lang="ar" xml:id="p_89.d1e1617">الجواب الثامن للعالم العلامة الفقيه صاحب الإمضاء</p>
@@ -1070,7 +1070,7 @@
                         الأعلام. <pb ed="shamela" n="n16-p25" corresp="file:../epub/29676/OEBPS/xhtml/P477.xhtml" xml:id="pb_22.d1e1687"/> عينتاب</p>
                     <p xml:lang="ar" xml:id="p_107.d1e1691">خوجه زاده فخر الدين العينتابي</p>
                     <p xml:lang="ar" xml:id="p_108.d1e1694">الجواب العاشر للعالم الجليل صاحب الإمضاء</p>
-                    <p xml:lang="ar" xml:id="p_109.d1e1697">سلام الله عليكم وبركاته. اطلعت في الجزء 4 من ج 2 على ما أجاب به السادة
+                    <p xml:lang="ar" xml:id="p_109.d1e1697">سلام الله عليكم وبركاته. اطلعت في الجزء  <tei:num value="4" xml:lang="ar">٤</tei:num>  من ج  <tei:num value="2" xml:lang="ar">٢</tei:num>  على ما أجاب به السادة
                         العلماء عن بدعة التمثيل. وكان بنفسي أن أتطفل على هذه المائدة لكني توقفت من
                         الشرط الذي شرطه (رائد الحقيقة) وصرح به وهو طلب الحكم من (العلماء المتنورين)
                         وما أنا منهم. لأن (الرائد) يعني بالعلماء المتنورين ليس من نقلتم عنهم بل
@@ -1138,7 +1138,7 @@
                     <p xml:lang="ar" xml:id="p_118.d1e1743">بقلم العلامة الكبير صاحب الإمضاء</p>
                     <p xml:lang="ar" xml:id="p_119.d1e1746">بسم الله الرحمن الرحيم</p>
                     <p xml:lang="ar" xml:id="p_120.d1e1749">الحمد لله والصلاة والسلام على رسول الله أما بعد فقد اطلعت على ما جاءَ في
-                        المفيد عدد (841) رداً على ما نشر في (الحقائق) عن حكم التمثيل لكاتب تدلس
+                        المفيد عدد ( <tei:num value="841" xml:lang="ar">٨٤١</tei:num> ) رداً على ما نشر في (الحقائق) عن حكم التمثيل لكاتب تدلس
                         برمزه وتستر بإخفاء اسمه تحت عنوان دحض باطل فرأيت أن أبين مالها وما عليها وما
                         ترمى إليه فاستخرت الله في ذلك وسألته الإعانة على ما هنالك أنه على ما يشاء
                         قدير.</p>
@@ -1232,7 +1232,7 @@
                 <div type="article" xml:lang="ar" xml:id="div_11.d1e1791">
                     <head xml:lang="ar" xml:id="head_11.d1e1793">بيان حقيقة</head>
                     <p xml:lang="ar" xml:id="p_130.d1e1796">بقلم العالم الفاضل صاحب الإمضاء</p>
-                    <p xml:lang="ar" xml:id="p_131.d1e1799">قرأت في المفيد عدد (841) مقالة بعنوان دحض باطل يرد صاحبها على ما ورد في
+                    <p xml:lang="ar" xml:id="p_131.d1e1799">قرأت في المفيد عدد ( <tei:num value="841" xml:lang="ar">٨٤١</tei:num> ) مقالة بعنوان دحض باطل يرد صاحبها على ما ورد في
                         الحقائق من بيان حرمة التمثيل بأدلة واهية وقياسات عقيمة ومغالطات وسفطسة نسبها
                         هو لغيره فأحببت له أن أبين خطأه وأبين أن حرمة ذلك من البديهيات التي لا تحتاج
                         إلى الكتابة والرد ولكن لما قام بعض المتهورين وقال أن التمثيل من الفروض التي
@@ -1256,7 +1256,7 @@
                         من كلام الأصوليين (فإن لم يوجد في الشريعة ما يدل على الإباحة فيستمسك بالأصل
                         وهو الحظر) إنه ليس كل مسألة منصوصاً عليها بعينها بل ما هو منصوص عليه بعينه
                         وما هو مدلول عليه وما هو مقاس على غيره كما هو معلوم عند أهل العلم. <pb ed="shamela" n="n16-p33" corresp="file:../epub/29676/OEBPS/xhtml/P485.xhtml" xml:id="pb_30.d1e1801"/> وبعد كتابة ما تقدم
-                        اطلعت على مقالة أخرى في المفيد عدد (847) ركب صاحبها متن عمياء ونظراً لتلبيسه
+                        اطلعت على مقالة أخرى في المفيد عدد ( <tei:num value="847" xml:lang="ar">٨٤٧</tei:num> ) ركب صاحبها متن عمياء ونظراً لتلبيسه
                         وجه الحقيقة أردت أن أبين لأهل الإنصاف حقيقة ما شاهدته وإن كره المفترون
                         المتفرنجون فقد وجد في الرواية تخنث الغلمان المرد كاشفي الرؤوس مسرحي الشعور
                         وقد لبس بعضهم القبعة (البرنيطة) وقد وقع الكاتب فيما فر منه أولاً لاعترافه
