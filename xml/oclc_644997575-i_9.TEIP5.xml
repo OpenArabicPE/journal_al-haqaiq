@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on
@@ -415,7 +415,7 @@
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_8">
         <front xml:lang="ar" xml:id="front_1.d1e465">
-            <pb ed="print" n="317" facs="#facs_327"/>
+            <pb ed="print" n="317" facs="#facs_327" xml:id="pb_1.d1e893"/>
             <div xml:lang="ar" xml:id="div_1.d1e467">
                 <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
                     <monogr xml:lang="ar" xml:id="monogr_2.d1e471">
@@ -434,9 +434,9 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                            <date when="1911-04-01" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="1" xml:lang="ar">١</tei:num> 
-                                -  <tei:num value="4" xml:lang="ar">٤</tei:num>  -  <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
-                            <biblScope n="9" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="8" xml:lang="ar">٨</tei:num> </biblScope>
+                            <date when="1911-04-01" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e932">١</tei:num> 
+                                -  <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e935">٤</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e938">١٩١١</tei:num> </date>
+                            <biblScope n="9" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e944">٨</tei:num> </biblScope>
                             <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                     </monogr>
@@ -447,9 +447,9 @@
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
                     <biblScope n="8" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
-                         <tei:num value="8" xml:lang="ar">٨</tei:num> </biblScope>
-                    <date when="1911-04-01" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="1" xml:lang="ar">١</tei:num>  -  <tei:num value="4" xml:lang="ar">٤</tei:num>  -
-                         <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
+                         <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e963">٨</tei:num> </biblScope>
+                    <date when="1911-04-01" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e969">١</tei:num>  -  <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e972">٤</tei:num>  -
+                         <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e975">١٩١١</tei:num> </date>
                 </bibl>
             </head>
             <pb ed="shamela" n="n8-p1" corresp="file:../epub/29676/OEBPS/xhtml/P211.xhtml" xml:id="pb_1.d1e529"/>
@@ -458,7 +458,7 @@
             <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
                 <head xml:lang="ar" xml:id="head_2.d1e533">الدين الإسلامي والتوحيد</head>
                 <p xml:lang="ar" xml:id="p_15.d1e536">تابع لما قبله</p>
-                <p xml:lang="ar" xml:id="p_16.d1e539">العلم  <tei:num value="9" xml:lang="ar">٩</tei:num> </p>
+                <p xml:lang="ar" xml:id="p_16.d1e539">العلم  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e993">٩</tei:num> </p>
                 <p xml:lang="ar" xml:id="p_17.d1e542">إن بداهة العقل جازمة، بأن الذي وجد العالم
                     وأتقنه، وأقامه على هذا النمط البديع وأحكمه، وأبرزه إلى حيز الوجود مشحوناً ببدائع
                     تأخذ بالألباب وتحار فيها المدارك ووضع الأشياء في مواضعها وهدى كل ممكن لما يحتاج
@@ -506,7 +506,7 @@
                     مطامعه، فلا تجده خطا خطوة إلى الأمام حتى أوسع الله أمامه من الباحات، ومهد له من
                     الساحات ما لا يستطيع معه أن يدعي ضيق المجال وحرج المضمار (وقل رب زدني
                     علماً).</p>
-                <p xml:lang="ar" xml:id="p_23.d1e563">الحياة  <tei:num value="10" xml:lang="ar">١٠</tei:num> </p>
+                <p xml:lang="ar" xml:id="p_23.d1e563">الحياة  <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e1020">١٠</tei:num> </p>
                 <p xml:lang="ar" xml:id="p_24.d1e566">ومما يجب له سبحانه صفة الحياة وهي صفة أزلية
                     قائمة بذاته تعالى تقتضي صحة اتصافه بالعلم وغيره من الصفات والدليل على وجوب
                     الحياة له تعالى أنه متصف بالقدرة وافرادة والعلم كما قدمنا وهي ملزومات للحياة
@@ -522,7 +522,7 @@
             </div>
             <div type="article" xml:lang="ar" xml:id="div_3.d1e574">
                 <head xml:lang="ar" xml:id="head_3.d1e576">حجاب المرأة في الإسلام</head>
-                <p xml:lang="ar" xml:id="p_25.d1e579">تحت هذا العنوان قرأنا في المقتبس عدد  <tei:num value="593" xml:lang="ar">٥٩٣</tei:num>  و <tei:num value="594" xml:lang="ar">٥٩٤</tei:num> 
+                <p xml:lang="ar" xml:id="p_25.d1e579">تحت هذا العنوان قرأنا في المقتبس عدد  <tei:num value="593" xml:lang="ar" xml:id="num_1.d1e1039">٥٩٣</tei:num>  و <tei:num value="594" xml:lang="ar" xml:id="num_1.d1e1042">٥٩٤</tei:num> 
                     مقالة للكاتب المغربي ذكر فيها ما محصله أن الحجاب على الطريقة المألوفة اليوم ليس
                     مما أشار إليه الإسلام بل هو من جملة ما طرأ على المسلمين بما أحاط بهم من المؤثرات
                     والعادات وتقاليد الأسر وتقريرات الشيوخ وآراء علماء المذاهب ونحو ذلك_وأن الغرض من
@@ -697,7 +697,7 @@
                     وضياع حقوقها وغلبة الجهل عليها دعوى باطلة كان بودنا أن لا يتمسك بها لمخالفتها
                     الواقع المشاهد.</p>
                 <p xml:lang="ar" xml:id="p_41.d1e642">قال فريد بك وجدي في مقالة نشرت في الحقائق ص
-                     <tei:num value="222" xml:lang="ar">٢٢٢</tei:num>  يقولون أن الحجاب يصد المرأة عن التعلم وهو ادعاء يكذبه العيان فإن المرأة لا
+                     <tei:num value="222" xml:lang="ar" xml:id="num_1.d1e1108">٢٢٢</tei:num>  يقولون أن الحجاب يصد المرأة عن التعلم وهو ادعاء يكذبه العيان فإن المرأة لا
                     تتنقب إلا في الطرقات وليست الطرقات بمجامع العلماء لكنها مضطرب الفساق ومزدحم
                     الغوغاء.</p>
                 <p xml:lang="ar" xml:id="p_42.d1e645">وهذه مدارس البنات يوجد بها كثير من المحجبات

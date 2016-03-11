@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 42 pages
                 with references to digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on
@@ -425,7 +425,7 @@
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_7">
         <front xml:lang="ar" xml:id="front_1.d1e465">
-            <pb ed="print" n="275" facs="#facs_285"/>
+            <pb ed="print" n="275" facs="#facs_285" xml:id="pb_1.d1e912"/>
             <div xml:lang="ar" xml:id="div_1.d1e467">
                 <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
                     <monogr xml:lang="ar" xml:id="monogr_2.d1e471">
@@ -444,9 +444,9 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                            <date when="1911-03-03" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="3" xml:lang="ar">٣</tei:num> 
-                                -  <tei:num value="3" xml:lang="ar">٣</tei:num>  -  <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
-                            <biblScope n="8" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="8" xml:lang="ar">٨</tei:num> </biblScope>
+                            <date when="1911-03-03" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e951">٣</tei:num> 
+                                -  <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e954">٣</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e957">١٩١١</tei:num> </date>
+                            <biblScope n="8" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e963">٨</tei:num> </biblScope>
                             <biblScope unit="page" from="275" to="316" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                     </monogr>
@@ -552,7 +552,7 @@
                     النبي الكريم ذي القدر العظيم.</p>
                 <p xml:lang="ar" xml:id="p_30.d1e635">وأول من قام بهذا الواجب الملك المظهر صاحب أربل
                     نقل عنه أنه كان يصرف على المولد في كل سنة ثلاثمائة ألف دينار. وذكر ابن حجر في
-                    مولده الكبير أنه في سنة  <tei:num value="785" xml:lang="ar">٧٨٥</tei:num>  احتفل الظهر برقوق سلطان مصر بالمولد بقلعة مصر وأنفق
+                    مولده الكبير أنه في سنة  <tei:num value="785" xml:lang="ar" xml:id="num_1.d1e1084">٧٨٥</tei:num>  احتفل الظهر برقوق سلطان مصر بالمولد بقلعة مصر وأنفق
                     على إطعام الطعام والإحسان لفقراء والقراء والمداح ما يبلغ عشرة آلاف مثقال من
                     الذهب. وأن ابن دحية صنف له كتابا في المولد سماه التنوير بمولد البشير النذير
                     فأجازه بألف دينار.</p>
@@ -834,9 +834,9 @@
                     هو أهله. وكيف لا يجب علينا أن نربي الناشئة على تعظيمه صلى الله عليه وسلم وقد قال
                     الله تعالى:</p>
                 <p xml:lang="ar" xml:id="p_64.d1e813">[إنا أرسلناك شاهداً ومبشراً ونذيراً لتؤمنوا
-                    بالله ورسوله وتعزروه كلمتنا دروس التاريخ الإسلامي (الحقائق ج <tei:num value="8" xml:lang="ar">٨</tei:num> م <tei:num value="1" xml:lang="ar">١</tei:num> ) وتوقروه] أي
+                    بالله ورسوله وتعزروه كلمتنا دروس التاريخ الإسلامي (الحقائق ج <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e1264">٨</tei:num> م <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e1267">١</tei:num> ) وتوقروه] أي
                     تجلوه وتبالغوا في تعظيمه.</p>
-                <p xml:lang="ar" xml:id="p_65.d1e816">ما ذكره ص <tei:num value="6" xml:lang="ar">٦</tei:num>  من أن عمر بن الخطاب أمر بقتل سعد بن
+                <p xml:lang="ar" xml:id="p_65.d1e816">ما ذكره ص <tei:num value="6" xml:lang="ar" xml:id="num_1.d1e1273">٦</tei:num>  من أن عمر بن الخطاب أمر بقتل سعد بن
                     عباده لتخلفه عن بيعة أبي بكر رضي الله عنهم قال فرحل سعد إلى الشام فأرسل عمر إليه
                     رجلاً ليقتله إذا أبى عن البيعة فأدركه الرجل بحوران فدعاه فأبى فقتله.</p>
                 <p xml:lang="ar" xml:id="p_66.d1e820">وقد تتبعنا كثيراً من المظان فلم نجد أن عمر رضي
@@ -857,7 +857,7 @@
                     أتكأ قتله الجن.</p>
                 <p xml:lang="ar" xml:id="p_69.d1e845">فعلى المؤلف إذا كان مستنداً بما نقله لشيء أن
                     بينه</p>
-                <p xml:lang="ar" xml:id="p_70.d1e848">( <tei:num value="3" xml:lang="ar">٣</tei:num> ) ذكر ص  <tei:num value="8" xml:lang="ar">٨</tei:num>  أن الأسود العنسي قتل في خلافة أبي
+                <p xml:lang="ar" xml:id="p_70.d1e848">( <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e1308">٣</tei:num> ) ذكر ص  <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e1311">٨</tei:num>  أن الأسود العنسي قتل في خلافة أبي
                     بكر رضي الله عنه والحال أنه قتل في زمن النبي صلى الله عليه وسلم وذلك أنه حينما
                     كان المسلمون في صنعاء وهي البلدة التي يقيم فيها العنسي يومئذ قدم عليهم وبر بن
                     يحنس ومعه كتاب النبي صلى الله عليه وسلم يأمرهم فيه بالنهوض في الحرب والعمل في
@@ -868,21 +868,21 @@
                     رسول الله صلى الله عليه وسلم. وأن النبي عليه الصلاة والسلام قد أتاه الخبر من
                     السماء في الليلة التي فتل فيها العنسي فبشر المسلمين بذلك وقال ومن هو قال فيروز
                     ذكر ذلك الطبري في تاريخه.</p>
-                <p xml:lang="ar" xml:id="p_71.d1e852">( <tei:num value="4" xml:lang="ar">٤</tei:num> ) ما قاله ص  <tei:num value="10" xml:lang="ar">١٠</tei:num>  من أبا بكر رضي الله عنه كان
+                <p xml:lang="ar" xml:id="p_71.d1e852">( <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e1318">٤</tei:num> ) ما قاله ص  <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e1321">١٠</tei:num>  من أبا بكر رضي الله عنه كان
                     واضع أول أساس للفتح الإسلامي وقد عجبنا من وصفه أبا بكر رضي الله عنه بذلك مع أن
                     الفاتح الأول هو رسول الله صلى الله عليه وسلم الذي أنزل الله عليه قوله [إذا جاء
                     نصر الله والفتح ورأيت الناس يدخلون في دين الله أفواجاً فسبح بحمد ربك] وخاطبه
                     بقوله [إنا فتحنا فتحاً مبيناً] ولعل المؤلف أراد أول فاتح بعده صلى الله عليه
                     وسلم.</p>
-                <p xml:lang="ar" xml:id="p_72.d1e855">( <tei:num value="5" xml:lang="ar">٥</tei:num> ) ما نقله ص  <tei:num value="3" xml:lang="ar">٣</tei:num>  من أن سعداً اتخذ إيوان كسرى
+                <p xml:lang="ar" xml:id="p_72.d1e855">( <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e1327">٥</tei:num> ) ما نقله ص  <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e1330">٣</tei:num>  من أن سعداً اتخذ إيوان كسرى
                     مسجداً والتماثيل وفيه كنا نود من المؤلف لايذكر ذلك في رسالة ألفها لينتفع بها
                     أولاد المسلمين من غير أن ينتبه على حرمة التماثيل أو أن يغفل مثل هذه القصة في مثل
                     هذا المختصر. <pb ed="shamela" n="n7-p15" corresp="file:../epub/29676/OEBPS/xhtml/P195.xhtml" xml:id="pb_15.d1e857"/>
-                    ( <tei:num value="6" xml:lang="ar">٦</tei:num> ) ما ذكره ص  <tei:num value="53" xml:lang="ar">٥٣</tei:num>  وص <tei:num value="78" xml:lang="ar">٧٨</tei:num>  من أن سيدنا عثمان وسيدنا عليا رضي الله عنهما كانا بعيدين
+                    ( <tei:num value="6" xml:lang="ar" xml:id="num_1.d1e1335">٦</tei:num> ) ما ذكره ص  <tei:num value="53" xml:lang="ar" xml:id="num_1.d1e1338">٥٣</tei:num>  وص <tei:num value="78" xml:lang="ar" xml:id="num_1.d1e1342">٧٨</tei:num>  من أن سيدنا عثمان وسيدنا عليا رضي الله عنهما كانا بعيدين
                     عن الحزم.</p>
-                <p xml:lang="ar" xml:id="p_73.d1e860">و ( <tei:num value="7" xml:lang="ar">٧</tei:num> ) ما تهور فيه ص  <tei:num value="59" xml:lang="ar">٥٩</tei:num>  من إطلاقه كلمة ح (محبو
+                <p xml:lang="ar" xml:id="p_73.d1e860">و ( <tei:num value="7" xml:lang="ar" xml:id="num_1.d1e1348">٧</tei:num> ) ما تهور فيه ص  <tei:num value="59" xml:lang="ar" xml:id="num_1.d1e1351">٥٩</tei:num>  من إطلاقه كلمة ح (محبو
                     الفتنة) على بعض من وجد في جيش وقعة الجمل.</p>
-                <p xml:lang="ar" xml:id="p_74.d1e863">و ( <tei:num value="8" xml:lang="ar">٨</tei:num> ) ما انفرد به ص  <tei:num value="84" xml:lang="ar">٨٤</tei:num>  من إطلاقه لفظ اشتراكي
+                <p xml:lang="ar" xml:id="p_74.d1e863">و ( <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e1357">٨</tei:num> ) ما انفرد به ص  <tei:num value="84" xml:lang="ar" xml:id="num_1.d1e1360">٨٤</tei:num>  من إطلاقه لفظ اشتراكي
                     على سيدنا أبي ذر الغفاري رضي الله عنه وقد عجبنا من المؤلف بعد درسه تاريخ الإسلام
                     واطلاعه على ما ورد في فضل عثمان وعلى وسائر الصحابة رضوان الله عليهم وما ورد من
                     الوعيد فيمن يقدح في أحد منهم كيف تجاسر أن يحكم على أحد منهم بأنه بعيد عن الجزم
@@ -894,7 +894,7 @@
                     ومن آذاهم فقد آذاني فقد آذى الله ومن آذى الله يوشك أن يأخذه حديث صحيح رواه
                     الترمذي عن عبد الله بن مغفل وقال صلى الله عليه وسلم إذا ذكر أصحابي فأمسكوا حديث
                     رجاله رجال الصحيح إلا واحداً اختلف فيه وقد وثقه ابن حيان وغيره كما ذكره العلامة
-                    ابن حجر الهيتمي ص  <tei:num value="6" xml:lang="ar">٦</tei:num>  من هامش الصواعق المحرقة وقال صلى الله عليه وسلم (أصحابي
+                    ابن حجر الهيتمي ص  <tei:num value="6" xml:lang="ar" xml:id="num_1.d1e1363">٦</tei:num>  من هامش الصواعق المحرقة وقال صلى الله عليه وسلم (أصحابي
                     كالنجوم بأيهم اقتديتم اهتديتم) أخرجه البيهقي وأبو الحسن رزين بن معاوية العبدي عن
                     عمر بن الخطاب رضي الله عنه.</p>
                 <p xml:lang="ar" xml:id="p_75.d1e866">هذا وقد ذكرت مجلة المقتبس في انتقاد الكتاب
@@ -996,19 +996,19 @@
                 <p xml:lang="ar" xml:id="p_95.d1e949">لخالد بن الوليد وأمره بطليحة بن خويلد فإذا فرغ
                     سار إلى مالك بن نويرة.</p>
                 <p xml:lang="ar" xml:id="p_96.d1e952">لعكرمة بن أبي جهل وأمره بمسيلمة.</p>
-                <p xml:lang="ar" xml:id="p_97.d1e956">( <tei:num value="3" xml:lang="ar">٣</tei:num> ) للمهاجر بن أبي أمية وأمره بجنود العنسي
+                <p xml:lang="ar" xml:id="p_97.d1e956">( <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e1460">٣</tei:num> ) للمهاجر بن أبي أمية وأمره بجنود العنسي
                     ومعونة الأبناء ثم يمضي إلى كندا بحضرموت</p>
-                <p xml:lang="ar" xml:id="p_98.d1e959">( <tei:num value="4" xml:lang="ar">٤</tei:num> ) لخالد بن سعيد وبعثه إلى مشارف الشام.</p>
-                <p xml:lang="ar" xml:id="p_99.d1e962">( <tei:num value="5" xml:lang="ar">٥</tei:num> ) لعمرو بن العاص وأرسله إلى قضاعة.</p>
-                <p xml:lang="ar" xml:id="p_100.d1e965">( <tei:num value="6" xml:lang="ar">٦</tei:num> ) لحذيفة بن محصن الغلفاني وأمره بأهل
+                <p xml:lang="ar" xml:id="p_98.d1e959">( <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e1466">٤</tei:num> ) لخالد بن سعيد وبعثه إلى مشارف الشام.</p>
+                <p xml:lang="ar" xml:id="p_99.d1e962">( <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e1472">٥</tei:num> ) لعمرو بن العاص وأرسله إلى قضاعة.</p>
+                <p xml:lang="ar" xml:id="p_100.d1e965">( <tei:num value="6" xml:lang="ar" xml:id="num_1.d1e1478">٦</tei:num> ) لحذيفة بن محصن الغلفاني وأمره بأهل
                     دبا</p>
-                <p xml:lang="ar" xml:id="p_101.d1e968">( <tei:num value="7" xml:lang="ar">٧</tei:num> ) لعجرفة بن هرثمة وأمره بمهرة</p>
-                <p xml:lang="ar" xml:id="p_102.d1e971">( <tei:num value="8" xml:lang="ar">٨</tei:num> ) لشرحبيل بن حسنة وبعثه في أثر عكرمة بن أبي
+                <p xml:lang="ar" xml:id="p_101.d1e968">( <tei:num value="7" xml:lang="ar" xml:id="num_1.d1e1484">٧</tei:num> ) لعجرفة بن هرثمة وأمره بمهرة</p>
+                <p xml:lang="ar" xml:id="p_102.d1e971">( <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e1490">٨</tei:num> ) لشرحبيل بن حسنة وبعثه في أثر عكرمة بن أبي
                     جهل</p>
-                <p xml:lang="ar" xml:id="p_103.d1e975">( <tei:num value="9" xml:lang="ar">٩</tei:num> ) لمعن بن حاجز وأمره ببني سليم ومن معهم م
+                <p xml:lang="ar" xml:id="p_103.d1e975">( <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e1497">٩</tei:num> ) لمعن بن حاجز وأمره ببني سليم ومن معهم م
                     هوازن.</p>
-                <p xml:lang="ar" xml:id="p_104.d1e978">( <tei:num value="10" xml:lang="ar">١٠</tei:num> ) لسويد بن مقرن وأمره بتهامة اليمن</p>
-                <p xml:lang="ar" xml:id="p_105.d1e981">( <tei:num value="11" xml:lang="ar">١١</tei:num> ) للعلاء بن الحضرمي وأمره بالبحرين.</p>
+                <p xml:lang="ar" xml:id="p_104.d1e978">( <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e1503">١٠</tei:num> ) لسويد بن مقرن وأمره بتهامة اليمن</p>
+                <p xml:lang="ar" xml:id="p_105.d1e981">( <tei:num value="11" xml:lang="ar" xml:id="num_1.d1e1509">١١</tei:num> ) للعلاء بن الحضرمي وأمره بالبحرين.</p>
                 <p xml:lang="ar" xml:id="p_106.d1e984">وكتب للأمراء عهداً هذا صورته:</p>
                 <p xml:lang="ar" xml:id="p_107.d1e987">بسم الله الرحمن الرحيم_هذا عهد من أبي بكر
                     خليفة رسول الله صلى الله عليه وسلم لفلان حين بعثه في من بعثه لقتال من رجع عن
@@ -1061,7 +1061,7 @@
             </div>
             <div type="article" xml:lang="ar" xml:id="div_8.d1e1010">
                 <head xml:lang="ar" xml:id="head_8.d1e1012">مسألة التلغراف</head>
-                <p xml:lang="ar" xml:id="p_112.d1e1015">اطلعت على مقالة في المقتبس عدد  <tei:num value="500" xml:lang="ar">٥٠٠</tei:num>  للعالم
+                <p xml:lang="ar" xml:id="p_112.d1e1015">اطلعت على مقالة في المقتبس عدد  <tei:num value="500" xml:lang="ar" xml:id="num_1.d1e1546">٥٠٠</tei:num>  للعالم
                     الفاضل جمال الدين القاسمي فيما يتعلق بالتلغراف من ثبوت الأحكام الشرعية وقد ذكر
                     أنه كان من الباحثين في هذه المسألة من سنين وأنه الآن رأى في الاتحاد العثماني
                     مقالة تحت عنوان (كيف أعلن العيد وجواز العمل بالتلغراف) مضمونها صحة العمل به في
@@ -1131,9 +1131,9 @@
                     على عادتهم الاستفهام عن كل ما يشكل عليهم حتى الكلمة الواحدة.</p>
                 <p xml:lang="ar" xml:id="p_122.d1e1057">كنت قدمت لكم أمثلة عن اختلاف المطالع في
                     الطول لكن هذا الاختلاف ليس منحصراً في الطول فقط بل هو موجود في العرض أيضاً وكما
-                    أن الفرق في الطول يعرف من تقسيم  <tei:num value="24" xml:lang="ar">٢٤</tei:num>  ساعة على درجة  <tei:num value="360" xml:lang="ar">٣٦٠</tei:num>  ففي العرض كذلك مثلاً أن
-                    الفرق في العرض بين دمشق والمدينة المنور  <tei:num value="9" xml:lang="ar">٩</tei:num>  درجات و <tei:num value="10" xml:lang="ar">١٠</tei:num>  دقائق فاضربهن بأربع دقائق
-                    الخاصة كل درجة تجد الفرق بين المطلعين تماماً فالآن في  <tei:num value="15" xml:lang="ar">١٥</tei:num>  كانون الثاني طلعت الشمس
+                    أن الفرق في الطول يعرف من تقسيم  <tei:num value="24" xml:lang="ar" xml:id="num_1.d1e1591">٢٤</tei:num>  ساعة على درجة  <tei:num value="360" xml:lang="ar" xml:id="num_1.d1e1594">٣٦٠</tei:num>  ففي العرض كذلك مثلاً أن
+                    الفرق في العرض بين دمشق والمدينة المنور  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e1597">٩</tei:num>  درجات و <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e1600">١٠</tei:num>  دقائق فاضربهن بأربع دقائق
+                    الخاصة كل درجة تجد الفرق بين المطلعين تماماً فالآن في  <tei:num value="15" xml:lang="ar" xml:id="num_1.d1e1603">١٥</tei:num>  كانون الثاني طلعت الشمس
                     في المدينة في الساعة الواحدة وبعض دقائق في حين أنها تطلع في دمشق في الساعة
                     الواحدة وبضع وثلاثين دقيقة فإذا كان هذا الدليل العلمي والحسي معاً ظاهراً كالشمس
                     في اختلاف دون عشر <pb ed="shamela" n="n7-p25" corresp="file:../epub/29676/OEBPS/xhtml/P205.xhtml" xml:id="pb_25.d1e1059"/>

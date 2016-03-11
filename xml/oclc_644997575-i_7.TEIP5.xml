@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change when="2016-02-27" who="#pers_TG">Created this file as facsimile edition. The
@@ -396,11 +396,11 @@
         </tei:surface>
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_7">
-        <front>
-            <pb ed="print" n="235" facs="#facs_245"/>
+        <front xml:id="front_1.d1e823">
+            <pb ed="print" n="235" facs="#facs_245" xml:id="pb_1.d1e825"/>
         </front>
-        <body>
-            <div/>
+        <body xml:id="body_1.d1e828">
+            <div xml:id="div_1.d1e830"/>
         </body>
     </text>
 </TEI>

@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every
@@ -412,7 +412,7 @@
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_3">
         <front xml:lang="ar" xml:id="front_1.d1e465">
-            <pb ed="print" n="73" facs="#facs_83"/>
+            <pb ed="print" n="73" facs="#facs_83" xml:id="pb_1.d1e884"/>
             <div xml:lang="ar" xml:id="div_1.d1e467">
                 <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
                     <monogr xml:lang="ar" xml:id="monogr_2.d1e471">
@@ -431,9 +431,9 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                            <date when="1910-10-04" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="4" xml:lang="ar">٤</tei:num> 
-                                -  <tei:num value="10" xml:lang="ar">١٠</tei:num>  -  <tei:num value="1910" xml:lang="ar">١٩١٠</tei:num> </date>
-                            <biblScope n="3" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="3" xml:lang="ar">٣</tei:num> </biblScope>
+                            <date when="1910-10-04" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e923">٤</tei:num> 
+                                -  <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e926">١٠</tei:num>  -  <tei:num value="1910" xml:lang="ar" xml:id="num_1.d1e929">١٩١٠</tei:num> </date>
+                            <biblScope n="3" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e935">٣</tei:num> </biblScope>
                             <biblScope unit="page" from="73" to="112" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                     </monogr>
@@ -444,9 +444,9 @@
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
                     <biblScope n="3" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
-                         <tei:num value="3" xml:lang="ar">٣</tei:num> </biblScope>
-                    <date when="1910-10-04" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="4" xml:lang="ar">٤</tei:num>  -  <tei:num value="10" xml:lang="ar">١٠</tei:num>  -
-                         <tei:num value="1910" xml:lang="ar">١٩١٠</tei:num> </date>
+                         <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e954">٣</tei:num> </biblScope>
+                    <date when="1910-10-04" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e960">٤</tei:num>  -  <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e963">١٠</tei:num>  -
+                         <tei:num value="1910" xml:lang="ar" xml:id="num_1.d1e966">١٩١٠</tei:num> </date>
                 </bibl>
             </head>
             <pb ed="shamela" n="n3-p1" corresp="file:../epub/29676/OEBPS/xhtml/P51.xhtml" xml:id="pb_1.d1e529"/>
@@ -489,7 +489,7 @@
                     ليس معلولاً وإلا كانت العلة والمعلول سيين في تعاقب قال العلامة الأمير، ومثل هذا
                     يعد عمدة النظر. وعدة المناظرة. والأنور في شرح القلب الفزع للقرآن وألسنة المؤيدة
                     بالمعجزات المتمم نورها على توالي الوقات ففيهما ما يدل على انه تعالى الأول الذي
-                    ليس قبله شيء. وانه خالق الممكنات. وكان الله ولا شيء معه.  <tei:num value="1" xml:lang="ar">١</tei:num> هـ قال الله سبحانه
+                    ليس قبله شيء. وانه خالق الممكنات. وكان الله ولا شيء معه.  <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e996">١</tei:num> هـ قال الله سبحانه
                     (ومن آياته أن خلقكم من تراب ثم إذا أنتم بشر تنتشرون. ومن آياته أن خلق لكم من
                     أنفسكم أزواجاً لتسكونوا إليها وجعل بينكم مودة ورحمة إن في ذلك لآيات لقوم
                     يتفكرون. ومن آياته خلق السموات والأرض واختلاف ألسنتكم وألوانكم أن في ذلك لآيات
@@ -741,7 +741,7 @@
                     الذي يمت به، فلا يدعى الفقيه علم الهندسة، ولا الطبيب علم الكلام. ولا الشاعر علم
                     الشرائع. ولا الكاتب علم الكتاب هذا جميل صدقي الزهاوي الشاعر المشهور. صاحب
                     القصائد الرنانة. أراد أن يزج نفسه في غمار العلماء فخانته معارفه. لأن العلم غير
-                    الشعر، وأن الحقيقة غير الخيال كتب في عدد  <tei:num value="170" xml:lang="ar">١٧٠</tei:num>  من المؤيد الأسبوعي الأغر مقالة في
+                    الشعر، وأن الحقيقة غير الخيال كتب في عدد  <tei:num value="170" xml:lang="ar" xml:id="num_1.d1e1187">١٧٠</tei:num>  من المؤيد الأسبوعي الأغر مقالة في
                     المرأة تفنن فيها ما شاء وشاءت له قريحته الشعرية الخيالية. بأسلوب يخلب الألباب.
                     وان كان لا يغير وجه الحقيقة، ولا يغني من الحق شيئاً. ظن أن العلوم كلها خيال
                     كالشعر فاستسهل هذا المنهج. واستلين هذا المركب. فمتى تيسر له اللفظ الأنيق.
@@ -970,7 +970,7 @@
             </div>
             <div type="article" xml:lang="ar" xml:id="div_6.d1e843">
                 <head xml:lang="ar" xml:id="head_6.d1e845">الأسئلة والأجوبة</head>
-                <p xml:lang="ar" xml:id="p_65.d1e848">لهلال) المندرجة في عدد  <tei:num value="480" xml:lang="ar">٤٨٠</tei:num>  من جريدة المقتبس
+                <p xml:lang="ar" xml:id="p_65.d1e848">لهلال) المندرجة في عدد  <tei:num value="480" xml:lang="ar" xml:id="num_1.d1e1299">٤٨٠</tei:num>  من جريدة المقتبس
                     فقد #أثبت فيها أن الأولي إثبات</p>
                 <p xml:lang="ar" xml:id="p_66.d1e851">حضرات أصحاب مجلة الحقائق الإسلامية الغراء
                     حفظهم الله تعالى بما أن مجلتكم الزاهية. مجلة علمية دينية. مقصدها الوحيد خدمة
@@ -1065,7 +1065,7 @@
                     تمسكاً بأدب المناظرة.</p>
                 <p xml:lang="ar" xml:id="p_71.d1e873">الجواب الأول</p>
                 <p xml:lang="ar" xml:id="p_72.d1e876">عن سؤال هل نرتقي. وبماذا نرتقي المدرج في العدد
-                    الثاني ص <tei:num value="61" xml:lang="ar">٦١</tei:num> </p>
+                    الثاني ص <tei:num value="61" xml:lang="ar" xml:id="num_1.d1e1330">٦١</tei:num> </p>
                 <p xml:lang="ar" xml:id="p_73.d1e879">كيف لا يبلغ الإنسان أعلى ذروة الرقي. وقد أوجده
                     أله عليم حكيم. منحه عقلاً يهتدى به، وأمره أن ينظر في أسرار هذا العالم الباهر،
                     (وسخر لكم ما في السموات وما في الأرض جميعاً، ثم أوجب عليه أن يسعى فيما تكون فيها

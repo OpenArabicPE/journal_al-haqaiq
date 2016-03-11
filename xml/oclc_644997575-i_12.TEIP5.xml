@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 42 pages
                 with references to digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on
@@ -425,7 +425,7 @@
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_11">
         <front xml:lang="ar" xml:id="front_1.d1e465">
-            <pb ed="print" n="439" facs="#facs_449"/>
+            <pb ed="print" n="439" facs="#facs_449" xml:id="pb_1.d1e912"/>
             <div xml:lang="ar" xml:id="div_1.d1e467">
                 <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
                     <monogr xml:lang="ar" xml:id="monogr_2.d1e471">
@@ -444,9 +444,9 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                            <date when="1911-06-28" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="28" xml:lang="ar">٢٨</tei:num> 
-                                -  <tei:num value="6" xml:lang="ar">٦</tei:num>  -  <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
-                            <biblScope n="11" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="11" xml:lang="ar">١١</tei:num> </biblScope>
+                            <date when="1911-06-28" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="28" xml:lang="ar" xml:id="num_1.d1e951">٢٨</tei:num> 
+                                -  <tei:num value="6" xml:lang="ar" xml:id="num_1.d1e954">٦</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e957">١٩١١</tei:num> </date>
+                            <biblScope n="11" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="11" xml:lang="ar" xml:id="num_1.d1e963">١١</tei:num> </biblScope>
                             <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                     </monogr>
@@ -457,9 +457,9 @@
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
                     <biblScope n="11" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
-                         <tei:num value="11" xml:lang="ar">١١</tei:num> </biblScope>
-                    <date when="1911-06-28" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="28" xml:lang="ar">٢٨</tei:num>  -  <tei:num value="6" xml:lang="ar">٦</tei:num>  -
-                         <tei:num value="1911" xml:lang="ar">١٩١١</tei:num> </date>
+                         <tei:num value="11" xml:lang="ar" xml:id="num_1.d1e982">١١</tei:num> </biblScope>
+                    <date when="1911-06-28" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="28" xml:lang="ar" xml:id="num_1.d1e988">٢٨</tei:num>  -  <tei:num value="6" xml:lang="ar" xml:id="num_1.d1e991">٦</tei:num>  -
+                         <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e994">١٩١١</tei:num> </date>
                 </bibl>
             </head>
             <pb ed="shamela" n="n11-p1" corresp="file:../epub/29676/OEBPS/xhtml/P300.xhtml" xml:id="pb_1.d1e529"/>
@@ -625,7 +625,7 @@
                     من التفرق وشفقة عليهم من الانشقاق.</p>
                 <p xml:lang="ar" xml:id="p_30.d1e599">قال المؤرخ الكبير ابن خلدون في مقدمته بعد كلام
                     على ولاية العهد ما نصه (سطرين غير <pb ed="shamela" n="n11-p7" corresp="file:../epub/29676/OEBPS/xhtml/P306.xhtml" xml:id="pb_7.d1e601"/>
-                    مفهومين نهاية الصفحة  <tei:num value="448" xml:lang="ar">٤٤٨</tei:num> )</p>
+                    مفهومين نهاية الصفحة  <tei:num value="448" xml:lang="ar" xml:id="num_1.d1e1074">٤٤٨</tei:num> )</p>
                 <p xml:lang="ar" xml:id="p_31.d1e605">حينئذ من بني أمية إذ بنو أمية لا يرضون يومئذ
                     سواهم وهم عصابة قريش وأهل الملة أجمع وأهل الغلب منهم فآثره بذلك دون غيره ممن يظن
                     أنه أولى بها وعدل عن الفاضل إلى المفضول حرصاً على الاتفاق واجتماع الأهواء الذي
@@ -975,7 +975,7 @@
                 <p xml:lang="ar" xml:id="p_56.d1e730">صدرت الحقائق فكان للمقالة وقع حسن عند جميع
                     المتدينين وقدروها حق قدرها وشكروا عناية أصحاب المجلة بهذه المسألة الخطيرة كما أن
                     صاحب المقتبس استاء منها شأنه في الأمور التي يدعو إليها لدين فكتب مقالة في
-                    المقتبس عدد  <tei:num value="722" xml:lang="ar">٧٢٢</tei:num>  حشر فيها لطعن والبذاءة ما ننزه قلمنا عن الرد عليه ظاناً أنه يؤثر
+                    المقتبس عدد  <tei:num value="722" xml:lang="ar" xml:id="num_1.d1e1206">٧٢٢</tei:num>  حشر فيها لطعن والبذاءة ما ننزه قلمنا عن الرد عليه ظاناً أنه يؤثر
                     بذلك على عزائمنا وفاته أننا قوم نرى الموت في سبيل الدين والرقي حياة وها نحن نعود
                     إلى بيان ضرر هذا المحل (المرقص) والنفع الذي حصل من إبطاله فنقول:</p>
                 <p xml:lang="ar" xml:id="p_57.d1e733">فوائد إبطال المرقص</p>
@@ -1098,7 +1098,7 @@
                     البغاء لكل امرأة نشزت عن أهلها مغاضبه لهم بسبب تأديبهم لها فتعتصم بتلك الأماكن
                     وتحترف بعرضها وتترك صبية لها يشبون في حجرات المذلة والهوان. وأهلاً ينكسون رؤوسهم
                     بما ألصقته بهم من العار مدة حياتها وحياتهم.</p>
-                <p xml:lang="ar" xml:id="p_78.d1e854">ثانياً /: يقول المقتبس بعدد  <tei:num value="722" xml:lang="ar">٧٢٢</tei:num>  (وما قط انقطعت
+                <p xml:lang="ar" xml:id="p_78.d1e854">ثانياً /: يقول المقتبس بعدد  <tei:num value="722" xml:lang="ar" xml:id="num_1.d1e1333">٧٢٢</tei:num>  (وما قط انقطعت
                     شأفة الموبقات حتى في أشرف البقاع الطاهرة أيام كان الدين غضاً والأخلاق الفطرية
                     راسخة) فكأن المقتبس يشير بذلك إلى الحرمين الشريفين في عصر الخلفاء الراشدين عصر
                     إقامة الحدود العصر الذي نفى فيه عمر رضي الله عنه الشاب من المدينة لما بلغه تغزل

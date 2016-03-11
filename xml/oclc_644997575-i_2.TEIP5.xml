@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every
@@ -412,7 +412,7 @@
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_2">
         <front xml:lang="ar" xml:id="front_1.d1e465">
-            <pb ed="print" n="33" facs="#facs_43"/>
+            <pb ed="print" n="33" facs="#facs_43" xml:id="pb_1.d1e884"/>
             <div xml:lang="ar" xml:id="div_1.d1e467">
                 <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
                     <monogr xml:lang="ar" xml:id="monogr_2.d1e471">
@@ -431,9 +431,9 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                            <date when="1910-09-05" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="5" xml:lang="ar">٥</tei:num> 
-                                -  <tei:num value="9" xml:lang="ar">٩</tei:num>  -  <tei:num value="1910" xml:lang="ar">١٩١٠</tei:num> </date>
-                            <biblScope n="2" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="2" xml:lang="ar">٢</tei:num> </biblScope>
+                            <date when="1910-09-05" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e923">٥</tei:num> 
+                                -  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e926">٩</tei:num>  -  <tei:num value="1910" xml:lang="ar" xml:id="num_1.d1e929">١٩١٠</tei:num> </date>
+                            <biblScope n="2" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="2" xml:lang="ar" xml:id="num_1.d1e935">٢</tei:num> </biblScope>
                             <biblScope unit="page" from="33" to="72" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                     </monogr>
@@ -444,9 +444,9 @@
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
                     <biblScope n="2" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
-                         <tei:num value="2" xml:lang="ar">٢</tei:num> </biblScope>
-                    <date when="1910-09-05" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="5" xml:lang="ar">٥</tei:num>  -  <tei:num value="9" xml:lang="ar">٩</tei:num>  -
-                         <tei:num value="1910" xml:lang="ar">١٩١٠</tei:num> </date>
+                         <tei:num value="2" xml:lang="ar" xml:id="num_1.d1e954">٢</tei:num> </biblScope>
+                    <date when="1910-09-05" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e960">٥</tei:num>  -  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e963">٩</tei:num>  -
+                         <tei:num value="1910" xml:lang="ar" xml:id="num_1.d1e966">١٩١٠</tei:num> </date>
                 </bibl>
             </head>
             <pb ed="shamela" n="n2-p1" corresp="file:../epub/29676/OEBPS/xhtml/P25.xhtml" xml:id="pb_1.d1e529"/>
@@ -996,7 +996,7 @@
                     الدين الوقيم.</p>
                 <p xml:lang="ar" xml:id="p_73.d1e914">وهو الذي استعمل الثبات والحزم يوم ارتدت العرب
                     ومنعوا الزكاة واشرأب النفاق، وتأججت جذوة الشقاق، وأشار عليه عمر رضي الله عنه
-                    بالرفق بهم فقال لو منعوني عقالاً لقتلتهم عليه كما قدمنا صحيفة  <tei:num value="31" xml:lang="ar">٣١</tei:num> ج وكان رأيه
+                    بالرفق بهم فقال لو منعوني عقالاً لقتلتهم عليه كما قدمنا صحيفة  <tei:num value="31" xml:lang="ar" xml:id="num_1.d1e1359">٣١</tei:num> ج وكان رأيه
                     الصائب وفكره الموفق فجرد الجيوش لقتالهم فما هو إلا أن نصر الله أو لياءه وأيد هذا
                     اليد على يد أبي بكر وعادت العرب إلى أداء الزكاة طائعين عن أبي هريرة رضي الله عنه
                     فقال والله الذي لا إله غيره ولا إن أبا بكر استخلف ما عبد الله ثم قالها ثانية
@@ -1043,7 +1043,7 @@
                     إليفك. فإن قصرت ولا أخالك. فغيري خالك والسلام.</p>
                 <p xml:lang="ar" xml:id="p_83.d1e956">كتب أبو الطيب المتبني إلى أحد إخوانه بعد أن
                     أبل من مرضه وصلتني أعزك الله معتلا. وقطعتني مبلا. فإن رأيت أن لا تكدر الصحة على.
-                    وتحبب العلة إلى فعلت  <tei:num value="1" xml:lang="ar">١</tei:num> هـ قال أبو العتاهيه وهو من أحسن ما قيل في الصديق.</p>
+                    وتحبب العلة إلى فعلت  <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e1404">١</tei:num> هـ قال أبو العتاهيه وهو من أحسن ما قيل في الصديق.</p>
                 <lg xml:lang="ar" xml:id="lg_8.d1e959">
                     <l type="bayt" xml:lang="ar" xml:id="l_13.d1e961">
                         <seg xml:lang="ar" xml:id="seg_25.d1e963">صديقي من يقاسمني همومي </seg>
@@ -1055,17 +1055,17 @@
                     </l>
                 </lg>
                 <p xml:lang="ar" xml:id="p_84.d1e980">من أمثال أكثم بن الصيفي أحد حكام العرب</p>
-                <p xml:lang="ar" xml:id="p_85.d1e983"> <tei:num value="1" xml:lang="ar">١</tei:num>  كفوا ألسنتكم فإن مقتل الرجل بين فكيه</p>
-                <p xml:lang="ar" xml:id="p_86.d1e986"> <tei:num value="2" xml:lang="ar">٢</tei:num>  الأمور تتشابه مقبلة فلا يعرفها إلا ذووا
+                <p xml:lang="ar" xml:id="p_85.d1e983"> <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e1434">١</tei:num>  كفوا ألسنتكم فإن مقتل الرجل بين فكيه</p>
+                <p xml:lang="ar" xml:id="p_86.d1e986"> <tei:num value="2" xml:lang="ar" xml:id="num_1.d1e1440">٢</tei:num>  الأمور تتشابه مقبلة فلا يعرفها إلا ذووا
                     الرأي فإذا أدبرت عرفها الجاهل كما يعرفها العاقل</p>
-                <p xml:lang="ar" xml:id="p_87.d1e989"> <tei:num value="3" xml:lang="ar">٣</tei:num>  إن قول الحق لم يدع لي صديقاً</p>
-                <p xml:lang="ar" xml:id="p_88.d1e993"> <tei:num value="4" xml:lang="ar">٤</tei:num>  في طل بالمعالي يكون العناء</p>
-                <p xml:lang="ar" xml:id="p_89.d1e996"> <tei:num value="5" xml:lang="ar">٥</tei:num>  لم يهلك من مالك ما وعظك</p>
-                <p xml:lang="ar" xml:id="p_90.d1e999"> <tei:num value="6" xml:lang="ar">٦</tei:num>  ويل لعالم أمراً من جاهله</p>
-                <p xml:lang="ar" xml:id="p_91.d1e1002"> <tei:num value="7" xml:lang="ar">٧</tei:num>  البطل عند الرخاء حمق</p>
-                <p xml:lang="ar" xml:id="p_92.d1e1005"> <tei:num value="8" xml:lang="ar">٨</tei:num>  العجز عند البلاء أفن <pb ed="shamela" n="n2-p23" corresp="file:../epub/29676/OEBPS/xhtml/P47.xhtml" xml:id="pb_23.d1e1007"/>  <tei:num value="9" xml:lang="ar">٩</tei:num>  نعم لهو الحرة المغزل</p>
-                <p xml:lang="ar" xml:id="p_93.d1e1010"> <tei:num value="10" xml:lang="ar">١٠</tei:num>  حيلة من لا حيلة له الصبر</p>
-                <p xml:lang="ar" xml:id="p_94.d1e1014"> <tei:num value="11" xml:lang="ar">١١</tei:num>  المكثار كحاطب ليلاً</p>
+                <p xml:lang="ar" xml:id="p_87.d1e989"> <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e1446">٣</tei:num>  إن قول الحق لم يدع لي صديقاً</p>
+                <p xml:lang="ar" xml:id="p_88.d1e993"> <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e1453">٤</tei:num>  في طل بالمعالي يكون العناء</p>
+                <p xml:lang="ar" xml:id="p_89.d1e996"> <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e1459">٥</tei:num>  لم يهلك من مالك ما وعظك</p>
+                <p xml:lang="ar" xml:id="p_90.d1e999"> <tei:num value="6" xml:lang="ar" xml:id="num_1.d1e1465">٦</tei:num>  ويل لعالم أمراً من جاهله</p>
+                <p xml:lang="ar" xml:id="p_91.d1e1002"> <tei:num value="7" xml:lang="ar" xml:id="num_1.d1e1471">٧</tei:num>  البطل عند الرخاء حمق</p>
+                <p xml:lang="ar" xml:id="p_92.d1e1005"> <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e1477">٨</tei:num>  العجز عند البلاء أفن <pb ed="shamela" n="n2-p23" corresp="file:../epub/29676/OEBPS/xhtml/P47.xhtml" xml:id="pb_23.d1e1007"/>  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e1482">٩</tei:num>  نعم لهو الحرة المغزل</p>
+                <p xml:lang="ar" xml:id="p_93.d1e1010"> <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e1488">١٠</tei:num>  حيلة من لا حيلة له الصبر</p>
+                <p xml:lang="ar" xml:id="p_94.d1e1014"> <tei:num value="11" xml:lang="ar" xml:id="num_1.d1e1495">١١</tei:num>  المكثار كحاطب ليلاً</p>
                 <p xml:lang="ar" xml:id="p_95.d1e1017">قال أبو الفتح البستي في حفظ اللسان</p>
                 <lg xml:lang="ar" xml:id="lg_9.d1e1020">
                     <l type="bayt" xml:lang="ar" xml:id="l_15.d1e1022">
@@ -1125,8 +1125,8 @@
                 <p xml:lang="ar" xml:id="p_103.d1e1110">عبد اللطيف البغدادي</p>
                 <p xml:lang="ar" xml:id="p_104.d1e1113">بيان واعتذار وشكر ورجاء</p>
                 <p xml:lang="ar" xml:id="p_105.d1e1116">إن للمران على العمل يداً في إتقانه، جرياً
-                    على ناموس بدء كل عمل ناقصاً ثم تكميله تدريجاً. لذلك صدر الجزء الأول في صحيفة  <tei:num value="32" xml:lang="ar">٣٢</tei:num> 
-                    وهذا الثاني في صحيفة  <tei:num value="40" xml:lang="ar">٤٠</tei:num> .</p>
+                    على ناموس بدء كل عمل ناقصاً ثم تكميله تدريجاً. لذلك صدر الجزء الأول في صحيفة  <tei:num value="32" xml:lang="ar" xml:id="num_1.d1e1600">٣٢</tei:num> 
+                    وهذا الثاني في صحيفة  <tei:num value="40" xml:lang="ar" xml:id="num_1.d1e1603">٤٠</tei:num> .</p>
                 <p xml:lang="ar" xml:id="p_106.d1e1119">ولم يخل الجزء الأول من أغلاط مطبعية قلت في
                     هذا الجزء وخليق بمن رضي بسنة الله. ولم يدع الكمال في أعماله. أن يمده الله
                     بعنايته وأن يقبل القراء عذره.</p>
