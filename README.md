@@ -71,16 +71,16 @@ Somebody took the pains to create fully searchable text files and uploaded every
 
 ## [al-Maktaba al-Shāmila](http://www.shamela.ws)
 
-- Extent: According to the main [entry](http://shamela.ws/index.php/book/26523), *shamela* has all 96 issues. 
+- Extent: According to the main [entry](http://shamela.ws/index.php/book/29676), *shamela* has all 34 issues. 
 - Transcribers, editors: Apparently, they have been typed and copy-edited by unnamed humans. 
 - Features edition: paragraphs, page breaks, headlines.
 - Features interface:
     + all issues can be browsed for headlines and searched
-    + all pages can be individually adressed in the browser: [http://shamela.ws/browse.php/book-29676#page-2290](http://shamela.ws/browse.php/book-29676#page-2290)
+    + all pages can be individually adressed in the browser: [http://shamela.ws/browse.php/book-29676#page-113](http://shamela.ws/browse.php/book-29676#page-113)
 
 # TEI edition
 
-The main challenge is to combine the full text and the images in a TEI edition. As *al-maktabat al-shāmila* did not reproduce page breaks true to the print edition, every single one of the more than 1500 page breaks must be added manually and linked to the digital image of the page.
+The main challenge is to combine the full text and the images in a TEI edition. As *al-maktaba al-shāmila* did not reproduce page breaks true to the print edition, every single one of the more than 1500 page breaks must be added manually and linked to the digital image of the page.
 
 The TEI files can be found in the folder [xml](xml/).
 
