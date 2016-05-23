@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><change when="2016-05-23" who="pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -252,8 +252,8 @@
                         ويبين لهم ما اختلفت عليه عقولهم. يجمع شتاتهم ويرأب صدعهم، يصلح خللهم
                         ويقيميهم على الصراط الأعدل والمنهج الأقوم.</p>
                     <p xml:lang="ar" xml:id="p_20.d1e552">أرسل الله خاتم أنبيائه إلى الناس كافة في الحين الذي بلغ فيه جوهر الإنساني
-                        نموه وتبينت أشخاص الفضائل والكمالات وذلك عند ما بلغ من العمر أربعين سنة يوم
-                        الاثنين لسبع عشرة خلت من رمضان ولم يكن في عصره من قاربه في فضله، ولا من
+                        نموه وتبينت أشخاص الفضائل والكمالات وذلك عند ما بلغ من العمر <num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="40">أربعين</num> سنة يوم
+                        الاثنين ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="7">سبع</num> <num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="10">عشرة</num> خلت من رمضان ولم يكن في عصره من قاربه في فضله، ولا من
                         داناه في كماله <pb ed="shamela" n="n19-p2" corresp="file:../epub/29676/OEBPS/xhtml/P555.xhtml" xml:id="pb_2.d1e554"/> خلقاً وخُلقاً
                         وقولاً وفعلاً وكرماً وشرفاً وحسباً ونسباً بل كان عليه الصلاة والسلام المثال
                         الكامل الجامع لأشتات الفضائل والسجايا، الشامل لمتفرقات المواهب والمزايا.</p>
@@ -283,13 +283,13 @@
                         تعلم وكان فضل الله عليك عظيماً).</p>
                     <p xml:lang="ar" xml:id="p_23.d1e563">كم فتح الله ببعثته أعيناً عمياً وآذاناً صماً وقلوباً غلفاً ونجى به نفوساً
                         هلكى وأرواحاً غرقى <pb ed="shamela" n="n19-p3" corresp="file:../epub/29676/OEBPS/xhtml/P556.xhtml" xml:id="pb_3.d1e565"/> وهدى به بعد
-                        الضلالة وعلم به بعد الجهالة ورفع به بعد الخمول وألف به بين قلوب مختلفة وأمم
+                        الضلالة وعلم به بعد الجهالة ورفع به بعد الخمول و<num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000">ألف</num> به بين قلوب مختلفة وأمم
                         مفترقة.</p>
                     <p xml:lang="ar" xml:id="p_24.d1e568">قام صلى الله عليه وسلم وحيداً في أمته فريداً في أسرته لا مرشد له ولا نصير ولا
                         عضد ولا ظهير حاملاً إلى الناس تعاليم ربه (قرآناً عربياً غير ذي عوج) داعياً
                         إلى دين الله الأقوم وناموسه الأعظم آمراً بما يتكفل بنجاحهم في الدارين ويأخذ
                         بهم إلى مصاعد السعادة ومعارج العز والرفعة ناهياً لهم عما يسوقهم إلى الخيبة
-                        والخسران ويقودهم إلى الذل والهوان ملزماً لهم بالاعتراف بمعبود واحد
+                        والخسران ويقودهم إلى الذل والهوان ملزماً لهم بالاعتراف بمعبود و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num>
                         والاستكانة لسلطانه والرضوخ لأحكامه.</p>
                     <p xml:lang="ar" xml:id="p_25.d1e572">عز على عبدة الأوثان وضعاف الأحلام ما يدعوهم إليه من عبادة الله تعالى ونبذ
                         المعتقدات الفاسدة والعادات السيئة وكبر عليهم تسفيه أحلامهم وتضليل آرائهم
@@ -303,7 +303,7 @@
                         ويأتي بالمعجزات الباهرة الدالة على صدق دعواه كما وصل إلينا ذلك بطريق
                         التواتر. ومن أعظم المعجزات التي استند إليها في إثبات دعواه القرآن الكريم
                         الذي لا يأتيه الباطل من بين يديه ولا من خلفه كتاب أحكمت آياته، وفصلت كلماته،
-                        وبهرت بلاغته العقول وظهرت فصاحته على كل مقول فلم يستطع أحد معارضته ولم
+                        وبهرت بلاغته العقول وظهرت فصاحته على كل مقول فلم يستطع <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> معارضته ولم
                         يهتدوا إلى مثله في جزلته ومتانة ألفاظه وحسن نظمه وإيجازه مع جهدهم واستنفاذ
                         ما عندهم في إخفاء ظهوره وإطفاء نوره (قل لئن اجتمعت الأنس والجن على أن يأتوا
                         بمثل هذا القرآن لا يأتون بمثله ولو كان بعضهم لبعض ظهيراً).</p>
@@ -893,7 +893,7 @@
                         طريق وتحارب أهله بكل سلاح , أن مقاومة الإسلام بالقوة لا يزيده إلا انتشاراً
                         فالواسطة الفعالة لهدم أركان الإسلام وتقويض بنيانه هي تربية بنيه في المدارس
                         المسيحية وإلقاء بذور الشك في نفوسهم من عهد النشأة فتفسد عقائدهم الإسلامية من
-                        حيث لا يشعرون وإن لم يتنَصَّر منهم أحد فإنهم يصيرون لا مسلمين ولا مسيحيين
+                        حيث لا يشعرون وإن لم يتنَصَّر منهم <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> فإنهم يصيرون لا مسلمين ولا مسيحيين
                         مذبذبين بين ذلك. قال وأمثال هؤلاء يكونون بلا ارتياب أضر على الإسلام وبلاده
                         مما إذا اعتنقوا الديانة المسيحية وتظاهروا <pb ed="shamela" n="n19-p18" corresp="file:../epub/29676/OEBPS/xhtml/P571.xhtml" xml:id="pb_16.d1e1465"/> بها إلى أن قال إن
                         طريقة تربية أولاد المسلمين في المدارس المسيحية وإن كان لها من التأثير ما
@@ -937,8 +937,8 @@
                         الله) ومن غريب أحوال الغربيين أنهم يرمون التعصب الديني بأشد عبارات التقبيح
                         والازدراء وهم أشد الناس تعصباً لدينهم وأحرصهم على القيام بدواعيه ولا يزالون
                         يلزمون حكوماتهم حماية دعاة الدين والقائمين بنشره وينفقون النفقات الباهظة
-                        للمبشرين وأتباعهم ولتغرير عقول بعض البله ليردوهم عن دينهم وإذا تسنى لأحد
-                        المبشرين أن فاز ببغيته وتمكن من الاستيلاء على فكر أحد المخالفين له بالعقيدة
+                        للمبشرين وأتباعهم ولتغرير عقول بعض البله ليردوهم عن دينهم وإذا تسنى ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num>
+                        المبشرين أن فاز ببغيته وتمكن من الاستيلاء على فكر <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> المخالفين له بالعقيدة
                         عدوا ذلك حسنة لذلك المبشر وأعطوه من الألقاب ما يعطونه لقائد الحروب وفاتح
                         الثغور. وقد آن أن نبين مضار دخول المسلمين مدارس الأجانب وتعليمهم فيها. لها
                         بقية <pb ed="shamela" n="n19-p20" corresp="file:../epub/29676/OEBPS/xhtml/P573.xhtml" xml:id="pb_18.d1e1485"/>
@@ -975,8 +975,8 @@
                         بالجهاد بالأموال والأنفس. الدين <pb ed="shamela" n="n19-p21" corresp="file:../epub/29676/OEBPS/xhtml/P574.xhtml" xml:id="pb_19.d1e1512"/> يأمر بالتعاون
                         والتناصر، الدين يأمر بالشفقة والرحمة.</p>
                     <p xml:lang="ar" xml:id="p_85.d1e1515">السلف الصالح قام بأمر الجهاد كما أمر الله تعالى فملك بقليل من الزمن نحواً من
-                        ثلث المعمور، السلف الصالح قام بالتعاون والتناصر كما أمر الله فصارت القياصرة
-                        العظام لا تجسر على إيذاء فرد واحد من أفراد المسلمين علماً منهم بأن أنصاره
+                        <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلث</num> المعمور، السلف الصالح قام بالتعاون والتناصر كما أمر الله فصارت القياصرة
+                        العظام لا تجسر على إيذاء فرد و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> من أفراد المسلمين علماً منهم بأن أنصاره
                         وأعوانه المسلمون أجمعون.</p>
                     <p xml:lang="ar" xml:id="p_86.d1e1518">السلف الصالح قام بالشفقة والرحمة كما أمر الله فكان الواحد منهم إذا سمع أن
                         أحداً من المسلمين أصابته مصيبة أو نزلت به نازلة فدى إخوانه المسلمين المصابين
@@ -1044,7 +1044,7 @@
                         التي هي مصلحتنا بالحقيقة وسعينا في تأليف الجمعيات لجمع الإعانات وتوسيع نطاق
                         المعارف واخترنا رجالاً صادقي اللهجة والنية أمناء نزهاء لا شغف لهم بحب الذات
                         والفخفخة الفارغة وأسندنا إليهم أمورنا العامة وعملنا على ترك الشقاق والنفاق
-                        والتخاذل والتحزب واعتقدنا أننا جسم واحد كلمتنا واحدة فإن وجدنا كلمة حق
+                        والتخاذل والتحزب واعتقدنا أننا جسم و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> كلمتنا واحدة فإن وجدنا كلمة حق
                         سمعناها من أي حزب كان وإن وجدنا كلمة باطل نبذناها وراء ظهورنا ولو كانت من
                         أكبر رجال قومنا. إن عملنا على ذلك لا يمضي زمن قليل إلا ونحن أمام الدول
                         ارتقاء وأعلى الأمم نجابة وهناءً فنسألك اللهم أن توفقنا لما فيه صلاحنا ورضاك
@@ -1076,7 +1076,7 @@
                             <seg xml:lang="ar" xml:id="seg_156.d1e1611"> أجلّ الورى قدراً وأعلاهم فخراً</seg>
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_79.d1e1615">
-                            <seg xml:lang="ar" xml:id="seg_157.d1e1617">سلام عليها بل وألف تحية </seg>
+                            <seg xml:lang="ar" xml:id="seg_157.d1e1617">سلام عليها بل و<num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000">ألف</num> تحية </seg>
                             <seg xml:lang="ar" xml:id="seg_158.d1e1620"> مدى الدهر لاتنفك تتلى لها تترى</seg>
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_80.d1e1625">
@@ -1213,7 +1213,7 @@
                         وفي مساء اليوم الذي وصل به الخبر وما بعده كنت ترى الناس على اختلاف طبقاتهم
                         ألوفاً مؤلفة يؤمون محطة القطار (البرامكة) ينتظرون مجيئه من بيروت ليستطلعوا
                         طلع الخبر. حدث مشاهد للواقعة في بيروت أن الناس أصبحوا صباح <pb ed="shamela" n="n19-p28" corresp="file:../epub/29676/OEBPS/xhtml/P581.xhtml" xml:id="pb_25.d1e1865"/> يوم
-                        السبت لسبع خلت من شهر ربيع الأول والحال مطمئن والبحر هادئ والناس سائرون في
+                        السبت ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="7">سبع</num> خلت من شهر ربيع الأول والحال مطمئن والبحر هادئ والناس سائرون في
                         أشغالهم فما شعروا إلا وتغير الحال واضطرب وجه البحر وعصفت عليه عواصف شرور
                         همجية الغرب المتمدن ونظر القوم من وراء الأفق في الساعة الثالثة من صباح هذا
                         اليوم بارجتين تقتربان إلى مرفأ بيروت وعندما وصلتا إلى ما يبعد عن الشاطئ نحو
@@ -1227,12 +1227,12 @@
                         قال مرادهم ضرب الثغر ومنهم من قال مرادهم أخذ النسافة والمدفعية ولا يمكنهم
                         ضرب البلد قطعياً ومنهم من قال غير ذلك.</p>
                     <p xml:lang="ar" xml:id="p_107.d1e1868">ثم سمعنا صوت المدافع في الفضاء الواحد تلو الآخر وشعرنا أن الأرض تهتز من عظم
-                        تلك الطلقات وكانت إحدى البارجتين راسية أمام المرفأ (البور) ترمي القنابل وكان
+                        تلك الطلقات وكانت <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">إحدى</num> البارجتين راسية أمام المرفأ (البور) ترمي القنابل وكان
                         الدخان يتصاعد وأصوات النساء والأولاد من البيوت تتصاعد معه. منظر مؤثر ومشهد
                         رهيب استولى الرعب فيه على القلوب وغلب الروع على الأفئدة. ودامت الطلقات
                         متواصلة على البارجة (عون الله) والطراد (أنقرة) حتى غرقت الأولى واضمحل أمر
                         الثانية وبقيت على وجه الماء وهدمت من تلك القذائف الجهنمية بعض الأبنية وقسماً
-                        من المصرف العثماني والجمرك ومصرف سلانيك وقتا نحو مائة رجل خلا الجرحى. قال ثم
+                        من المصرف العثماني والجمرك ومصرف سلانيك وقتا نحو <num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100">مائة</num> رجل خلا الجرحى. قال ثم
                         بعد أن تمت تلك البارجة مقاصدها السيئة رجعت تمخر عباب البحر والمياه تشب
                         أمامها كأنها تطالبها بما أتته من الضرر والفعل الذميم. ولما اقتربت من رفيقتها
                         التي كانت في انتظارها وبعبارة ثانية كانت تحمي ظهرها سارتا معاً وأوغلتا في

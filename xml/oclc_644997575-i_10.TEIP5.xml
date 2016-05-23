@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><change when="2016-05-23" who="pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on
@@ -502,7 +502,7 @@
                     نافذة وما ذلك إلا لتحملهم على الإتيان بما أمر الله والانتهاء عما نهى عنه وتعطي
                     من هذا المال الأرملة واليتيم والشيخ والكبير وابن السبيل يا أمير المؤمنين أخبرني
                     فلان عن فلان عن رسول الله صلى الله عليه وسلم أنه قال إذا كان يوم القيامة وجمع
-                    الله الأولين والآخرين في صعيد واحد أحشر الملوك وغيرهم من ولاة أمور الناس فيقول
+                    الله الأولين والآخرين في صعيد و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> أحشر الملوك وغيرهم من ولاة أمور الناس فيقول
                     ألم أمكنكم من بلادي وأطعه لكم عبادي لا لجمع الأموال وحشد الرجال بل لتجمعوهم على
                     طاعتي وتنفذوا فيهم أمري ونهي وتنصروا المظلومين من الظالمين يا هرون تفكر كيف يكون
                     جوابك عما تسل عنه من أمور العباد في ذلك الموقف فبكى هارون بكاءً شديداً فقال بعض
@@ -560,7 +560,7 @@
                         لما رأينا بعض العامة قد اغتروا بها وتوهموا أنها حجة على أهل السنة وكنا نتوقع
                         صدور ردود من العلماء الأعلام في هذه المسألة لمكانتها من الأهمية لما ينشأ
                         عنها من استباحة الفروج التي حرمها الله تعالى. وقد مضى على تأليف الرسالة نحو
-                        سنة ولم نر أحد من العلماء تعرض لها ولما كانت مجلتكم هي المجلة الوحيدة التي
+                        سنة ولم نر <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> من العلماء تعرض لها ولما كانت مجلتكم هي المجلة الوحيدة التي
                         أنشئت لخدمة الدين وتوفرت على رد الشبه الواردة عليه جئت بهذا السؤال راجياً
                         منكم تبيين الحقيقة في هذه المسألة وكشف الحجاب عنها لتطمئن قلوب أهل السنة
                         وترتاح ضمائرهم والله يكتبكم مع الهادين المصلحين. .</p>
@@ -580,8 +580,8 @@
                         مؤلف الرسالة المذكورة في المتعة وها نحن نبين ذلك بأجلى بيان إن شاء الله
                         تعالى. .</p>
                     <p xml:lang="ar" xml:id="p_37.d1e613">حاصل ما استدل به مؤلف الرسالة على مدعاه
-                        ثلاثة أمور (الأول) قوله تعالى في سورة النساء (فما استمتعتم به منهن فآتوهن
-                        أجورهن فريضة) قال أن الآية واردة في المتعة وقد اعترف بذلك غير واحد من علماء
+                        <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> أمور (الأول) قوله تعالى في سورة النساء (فما استمتعتم به منهن فآتوهن
+                        أجورهن فريضة) قال أن الآية واردة في المتعة وقد اعترف بذلك غير و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> من علماء
                         السنة.</p>
                     <p xml:lang="ar" xml:id="p_38.d1e617">ثم قال واحتمال أن يراد بالآية النكاح
                         الدائم مدفوع بأنه خلاف ظاهر لفظ الاستمتاع والأجور الخ. .</p>
@@ -658,7 +658,7 @@
                         إنكاره ولو من غير لعان كما نقله مؤلف السالة <pb ed="shamela" n="n9-p8" corresp="file:../epub/29676/OEBPS/xhtml/P247.xhtml" xml:id="pb_8.d1e651"/> صحيفة  <tei:num value="72" xml:lang="ar" xml:id="num_1.d1e1142">٧٢</tei:num>  وقال الشهاب الألوسي في تفسيره قد صرح علماء الشيعة بانتفاء لوازم
                         الزوجية كالميراث والطلاق والنفقة في المتعة وروى أبو منصور منهم في صحيحه عن
                         الصادق رضي الله عنه تعالى أنه سئل عن امرأة المتعة أهي من الربع قال لا ولا من
-                        السبعين وهو صريح في أنها ليست زوجة وإلا لكانت محسوبة في الأربع.</p>
+                        ال<num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="70">سبعين</num> وهو صريح في أنها ليست زوجة وإلا لكانت محسوبة في ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربع</num>.</p>
                     <p xml:lang="ar" xml:id="p_48.d1e654">أما زعم مؤلف الرسالة أن آية المؤمنون مكية
                         فلا دليل عليه لأن قول المفسرين أن سورة كذا مكية أو مدنية مثلاً لا يستلزم أن
                         تكون فيها من الآيات ما ليس بمكي وأوضح دليل على أن آية إلا على ازواجهم مدنية
@@ -685,7 +685,7 @@
                     أحبارهم ورهبانهم مع أن بيننا وبينهم بون كبير فإن أولئك يحسون بوطئة تلك السلطة
                     ولا سلطة في الدين إلا العلم.</p>
                 <p xml:lang="ar" xml:id="p_52.d1e675">وها هو اليوم قد قام ينتصر للزنادقة لينال من
-                    علماء المسلمين فنشر <ref target="../../digital-muqtabas/xml/oclc_4770057679-i_57.TEIP5.xml#div_2.d1e1389" xml:id="ref_5.d1e1105">في <bibl xml:id="bibl_2.d1e1107"><title level="j" xml:id="title_11.d1e1108">مقتبس</title>ه الشهري في <biblScope unit="issue" n="10" xml:id="biblScope_7.d1e1111">الجزء العاشر</biblScope> في <biblScope unit="volume" n="5" xml:id="biblScope_8.d1e1114">المجلد الخامس</biblScope></bibl></ref> مقالة بقلمه ترجم فيها <title level="m" xml:id="title_12.d1e1117">كتاب الدرر الكامنة</title> في أعيان الماية الثامنة لحافظ عصره
+                    علماء المسلمين فنشر <ref target="../../digital-muqtabas/xml/oclc_4770057679-i_57.TEIP5.xml#div_2.d1e1389" xml:id="ref_5.d1e1105">في <bibl xml:id="bibl_2.d1e1107"><title level="j" xml:id="title_11.d1e1108">مقتبس</title>ه الشهري في <biblScope unit="issue" n="10" xml:id="biblScope_7.d1e1111">الجزء العاشر</biblScope> في <biblScope unit="volume" n="5" xml:id="biblScope_8.d1e1114">المجلد الخامس</biblScope></bibl></ref> مقالة بقلمه ترجم فيها <title level="m" xml:id="title_12.d1e1117">كتاب الدرر الكامنة</title> في أعيان ال<num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100">ماية</num> الثامنة لحافظ عصره
                     ونابغة دهره العلامة <persName xml:id="persName_10.d1e1120">ابن حجر العسقلاني</persName>_ابتدء فيها بالكلام
                     على ترتيب الكتاب وتراجمه ثم قال (<quote xml:id="quote_1.d1e1123">ومن أعظم ما يلفت نظرك في هذا الكتاب روح
                         التعصب التي كانت مستحوذة في ذاك العصر أيام كان يقتل كل من يخالف رأي الجمهور
@@ -705,7 +705,7 @@
                 <p xml:lang="ar" xml:id="p_53.d1e678">ثم ذكر ترجمة <persName xml:id="persName_11.d1e1129">علي بن حسن
                         الرافضي</persName> وحاصلها أن علياً هذا حمل إلى <persName xml:id="persName_12.d1e1132">القاضي تقي الدين
                         السبكي</persName> فاعترف بسب أبي بكر وعمر رضي الله عنهما فكرروا عليه التوبة
-                    ثلاثة ايام فأصر فضربت عنقه أه. ثم قال صاحب <title level="j" xml:id="title_13.d1e1135">المقتبس</title> بعد
+                    <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> ايام فأصر فضربت عنقه أه. ثم قال صاحب <title level="j" xml:id="title_13.d1e1135">المقتبس</title> بعد
                     أن سرد هذه التراجم (<quote corresp="../../digital-muqtabas/xml/oclc_4770057679-i_57.TEIP5.xml#p_27.d1e1503" xml:id="quote_2.d1e1138">ومن أنعم النظر <pb ed="shamela" n="n9-p10" corresp="file:../epub/29676/OEBPS/xhtml/P249.xhtml" xml:id="pb_10.d1e680"/> في تراجم من قتلوا يتضح له أنهم كانوا على جانب
                         عظيم من العقل والعلم وأن أكثر ما وري عنهم منقول عليهم ليجدوا السبيل إلى
                         إقناع العامة والحكام لإزهاق أرواحهم</quote>).</p>
@@ -729,7 +729,7 @@
                 <p xml:lang="ar" xml:id="p_57.d1e693">هل يعد من التعصب قتل من ثبتت عليه الزندقة وطلب
                     منه أن يعتذر فلم يفعل بل ظل معانداً؟.</p>
                 <p xml:lang="ar" xml:id="p_58.d1e696">هل يعد من التعصب قتل من يصرح بسب أبي بكر وعمر
-                    رضي الله عنهما وتعرض عليه التوبة لثلاثة أيام فلا يقبل وهما أفضل م طلعت عليه
+                    رضي الله عنهما وتعرض عليه التوبة ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> أيام فلا يقبل وهما أفضل م طلعت عليه
                     الشمس بعد النبيين.</p>
                 <p xml:lang="ar" xml:id="p_59.d1e699">هل يعد من التعصب قتل من ثبت عليه بالبينة
                     الشرعية أنه خرج عن الدين والصراط المستقيم.</p>
@@ -763,7 +763,7 @@
                         في قلوبهم وأتوا خالداً وقالوا ندخل فيما خرجنا منه ونؤمن بالله ورسوله فبايعهم
                         على الإسلام وكانت بيعته: عليكم عهد الله وميثاقه لتؤمنن بالله ورسوله ولتقيمن
                         الصلاة ولتؤتين الزكاة وتبايعون على ذلك أبناءكم ونساءكم فيقولون نعم ولم يقبل
-                        / ن أحد منهم إلا أن يأتوه بالذين حرقوا ومثلوا وعدوا على الإسلام فأتوه بهم
+                        / ن <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> منهم إلا أن يأتوه بالذين حرقوا ومثلوا وعدوا على الإسلام فأتوه بهم
                         ففعل بهم مثل ما فعلوا وأرسل إلى أبي بكر رضي الله عنه يعلمه ما فعل.</p>
                 </div>
                 <div type="section" xml:id="div_8.d1e1213">
@@ -785,7 +785,7 @@
                 </div>
                 <div type="section" xml:id="div_10.d1e1232">
                     <head xml:id="head_10.d1e1234">خبر مالك بن نويرة</head>
-                    <p xml:lang="ar" xml:id="p_71.d1e748">كان لرسول الله صلى الله عليه وسلم ستة
+                    <p xml:lang="ar" xml:id="p_71.d1e748">كان لرسول الله صلى الله عليه وسلم <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6">ستة</num>
                         أمراء في تميم وهم الزبرقان بن بدر وقيس بن عاصم وصفوان بن صفوان وسبرة ابن
                         عمرو ووكيع بن مالك ومالك بن نويرة فلما بلغهم <pb ed="shamela" n="n9-p13" corresp="file:../epub/29676/OEBPS/xhtml/P252.xhtml" xml:id="pb_13.d1e750"/> خبر موت النبي صلى الله عليه وسلم فمنهم من ثبت
                         على الإسلام وأرسل الصدقة إلى أبي بكر ومنهم من تردد أول الأمر ثم أرسلها ولم
@@ -827,7 +827,7 @@
                         اليمامة فلما بلغ مسيلمة دنو خالد خرج فعسكر في عقرباء فلما كان خالد على ليلة
                         من معسكر بني حنيفة التقى بسرية منهم وعليهم مجاعة بن مرارة فقتلهم المسلمون
                         إلا مجاعة فاستبقاه خالد لشرفه ثم سار خالد حتى التقى بجيوش المرتدين وكانوا
-                        أربعين ألفاً فاقتتل الفريقان قتالاً شديداً ولما حمي القتال انكشف المسلمون
+                        <num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="40">أربعين</num> ألفاً فاقتتل الفريقان قتالاً شديداً ولما حمي القتال انكشف المسلمون
                         بادئ الأمر حتى وصل المرتدون إلى فسطاط خالد وأرادوا أخذ زوجته فمنعهم من ذلك
                         مجاعة وقال نعم الحرة هي ثم تداعىة المسلمون وحمل خالد في الناس حتى ردهم إلى
                         أبعد مما كانوا واشتد القتال وكانت الحرب تارة للمسلمين وتارة للمرتدين وقتل
@@ -836,7 +836,7 @@
                         قتالاً شديداً فعلم خالد أن رحى الحرب تدور على مسيلمة فطلبه للبراز فبرز إليه
                         فلما اشتد الأمر أدبر فنادى خالد في المسلمين فحملوا حتى هزموا المرتدين شر
                         هزيمة فقالوا لمسيلمة أينما كنت تعدنا قال قاتلوا عن أحسابكم ثم دخلوا الحديقة
-                        وهي بستان لمسيلمة وأغلقوها عليهم فقال البراء بن مالك أحد شجعان الأنصار
+                        وهي بستان لمسيلمة وأغلقوها عليهم فقال البراء بن مالك <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> شجعان الأنصار
                         ألقوني عليهم فألقوه فقااتل على الباب وفتحه للمسلمين فدخلوها عليهم واقتتلوا
                         أشد قتال وكثر القتلى بين الفريقين لاسيما في بني حنيفة فلم يزالوا كذلك حتى
                         قتل مسيلمة اشترك في قتله وحشي مولى جبير بن مطعم ورجل من الأنصار فصرخ رجل
@@ -848,8 +848,8 @@
                         وليس في الحصون إلا النساء والصبيان ومشيخة فانية ورجال ضعفى فألبسهم الحديد
                         وأمر النساء أن ينشرن شعورهن ويشرفن على الحصون حتى يرجع إليهم فرجع إلى خالد
                         فقال قد أبوا أن يجيزوا ما صنعت فرأى خالد الحصون مملوءة وقد نهكت المسلمين
-                        الحرب وقتل من المهاجرين والأنصار من أهل المدينة ثلثمائة وستون ومن المهاجرين
-                        من غير المدينة ثلثمائة وقد فشت الجراحات فيمن بقي فجنح للسلم وصالحه على الذهب
+                        الحرب وقتل من المهاجرين والأنصار من أهل المدينة <num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="300">ثلثمائة</num> و<num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="60">ستون</num> ومن المهاجرين
+                        من غير المدينة <num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="300">ثلثمائة</num> وقد فشت الجراحات فيمن بقي فجنح للسلم وصالحه على الذهب
                         والفضة والسلام ونصف السبي وحائط ومزرعة من كل قرية فصالحوه وفتحت الحصون فلم
                         يجد خالد إلا النساء والمستضعفين فقال لمجاعة خدعتني قال قومي ولم أستطع إلا ما
                         فعلت وبعد هذا الصلح جاءه كتاب من أبي بكر يأمره فيه بقتل كل محتلم فوفى لهم
@@ -896,7 +896,7 @@
                         <seg xml:lang="ar" xml:id="seg_10.d1e843"> فكم غمرتها من نداه بخور</seg>
                     </l>
                     <l type="bayt" xml:lang="ar" xml:id="l_6.d1e847">
-                        <seg xml:lang="ar" xml:id="seg_11.d1e849">لم توف مدحاً عشر معشار حقه </seg>
+                        <seg xml:lang="ar" xml:id="seg_11.d1e849">لم توف مدحاً <num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="10">عشر</num> معشار حقه </seg>
                         <seg xml:lang="ar" xml:id="seg_12.d1e852"> (وناهيك طول المدح فيه قصور)</seg>
                     </l>
                     <l type="bayt" xml:lang="ar" xml:id="l_7.d1e856">
@@ -1026,7 +1026,7 @@
                     <persName xml:id="persName_18.d1e1638">محمد أبو السعود مراد</persName></p>
                 <p xml:lang="ar" xml:id="p_92.d1e1143">(الحقائق)</p>
                 <p xml:lang="ar" xml:id="p_93.d1e1146">وقد انتقد حضرة المشطر أبو السعود أفندي على
-                    المقترح تخصيص الإشارة بالأفاضل الثلاثة الذين نوهنا بهم في الجزء التاسع وعجب من
+                    المقترح تخصيص الإشارة بالأفاضل ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> الذين نوهنا بهم في الجزء التاسع وعجب من
                     هذا التقييد وعدم الإطلاق حسب عوائد المقترحين وقال ما معناه ولكن. . . . . . . . .
                     وعلوها هو الذي حدا بي إلى التشطير.</p>
                 <lg xml:lang="ar" xml:id="lg_8.d1e1149">
@@ -1196,7 +1196,7 @@
                     </l>
                 </lg>
                 <p xml:lang="ar" xml:id="p_109.d1e1494">وعقد صفي الدين الحلي قول زينون الفيلسوف لشاب
-                    جاهل ومهذار (كف فقد خلق لك أذنان وفم واحد لتسمع أكثر مما تتكلم)</p>
+                    جاهل ومهذار (كف فقد خلق لك أذنان وفم و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> لتسمع أكثر مما تتكلم)</p>
                 <lg xml:lang="ar" xml:id="lg_17.d1e1497">
                     <l type="bayt" xml:lang="ar" xml:id="l_62.d1e1499">
                         <seg xml:lang="ar" xml:id="seg_123.d1e1501">اسمع مخاطبة الجليس ولا تكن </seg>
@@ -1219,7 +1219,7 @@
                         <seg xml:lang="ar" xml:id="seg_130.d1e1538"> بحاجته وأبعده القريب</seg>
                     </l>
                 </lg>
-                <p xml:lang="ar" xml:id="p_111.d1e1543">ولقد ألف الإمام أبو علي محمد بن الحسن بن
+                <p xml:lang="ar" xml:id="p_111.d1e1543">ولقد <num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000">ألف</num> الإمام أبو علي محمد بن الحسن بن
                     المظفر المعروف بالحاتمي رسالة في سرقات المتنبي من أقوال فلاسفة اليونان منها قوله
                     عاقداً حكمة أرسو (إذا كانت الشهوة فوق القدرة <pb ed="shamela" n="n9-p21" corresp="file:../epub/29676/OEBPS/xhtml/P260.xhtml" xml:id="pb_19.d1e1545"/>
                     كان هلاك النفس دون بلوغها)</p>
@@ -1248,7 +1248,7 @@
                     </l>
                 </lg>
                 <p xml:lang="ar" xml:id="p_114.d1e1591">وعقد قوله الظلم من طبع النفوس وإنما يصدها عن
-                    ذلك إحدى علتين دينية كخوف معاد أو سياسية كخوف سيف) وقيل أنه تناول في وقال
+                    ذلك <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">إحدى</num> علتين دينية كخوف معاد أو سياسية كخوف سيف) وقيل أنه تناول في وقال
                     الفلاسفة الرواقيين (الناس يخلقون أخياراً بالطبع ثم ينصرفون إلى الشر بمصاحبة أهل
                     الشر</p>
                 <lg xml:lang="ar" xml:id="lg_22.d1e1594">
@@ -1273,7 +1273,7 @@
                             جيران</seg>
                     </l>
                     <l type="bayt" xml:lang="ar" xml:id="l_72.d1e1636">
-                        <seg xml:lang="ar" xml:id="seg_143.d1e1638">قالوا له ضيق لم يأته أحد </seg>
+                        <seg xml:lang="ar" xml:id="seg_143.d1e1638">قالوا له ضيق لم يأته <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> </seg>
                         <seg xml:lang="ar" xml:id="seg_144.d1e1641"> وكله عطف سور واركان</seg>
                     </l>
                     <l type="bayt" xml:lang="ar" xml:id="l_73.d1e1645">
@@ -1377,7 +1377,7 @@
                     السنوسية وأمثالها.</p>
                 <p xml:lang="ar" xml:id="p_127.d1e1801">الحقائق متبعة لا مبتدعة لذلك لا تستنكف إذا
                     قيل أن ما تكتبه في التوحيد مأخوذ عن السنوسية لكن لما كان الواقع أن السنوسية
-                    جميعها لا تبلغ مقدار ما كتبنا في عدد واحد في مسألة توحيدية علم أن السائح لم يطلع
+                    جميعها لا تبلغ مقدار ما كتبنا في عدد و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> في مسألة توحيدية علم أن السائح لم يطلع
                     على السنوسية ( <tei:num value="000" xml:lang="ar" xml:id="num_1.d1e2387">٠٠٠</tei:num> نصف صفحة غير واضحة ص  <tei:num value="390" xml:lang="ar" xml:id="num_1.d1e2390">٣٩٠</tei:num> )</p>
                 <p xml:lang="ar" xml:id="p_128.d1e1804">وسنن الاجتماع أفما كان من الأولى بالسائح
                     بدلاً من أن يغار عليه كلمة حق تقال فيه أن <pb ed="shamela" n="n9-p24" corresp="file:../epub/29676/OEBPS/xhtml/P263.xhtml" xml:id="pb_22.d1e1806"/>
@@ -1441,7 +1441,7 @@
                     لا متعالين إن خاضوا غمار هكذا أبحاث حرصاً على الحقيقة لا بقصد التشفي والعالم
                     تارة يخطي وتارة يصيب فلا يلزم الرجل أن يكون مصيباً أو مخطئاً دائماً مهما علت
                     درجته في العلم أو نزلت وعلى هذا لا يجوز لمن له نصيب من العقل والعلم أن يقول لمن
-                    خالف أحد العلماء بحكم أنه مخطئ لمخالفته فلاناً العالم بل يحكم بخطأ الناقد إذا
+                    خالف <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> العلماء بحكم أنه مخطئ لمخالفته فلاناً العالم بل يحكم بخطأ الناقد إذا
                     هرف بما لم يعرف وقاس بدون قضايا وحكم بدون قياس كما يفعل أكثر مدعي الإصلاح في
                     زماننا. <pb ed="shamela" n="n9-p27" corresp="file:../epub/29676/OEBPS/xhtml/P266.xhtml" xml:id="pb_25.d1e1865"/>
                     زعمت أن المجلة أسست من قبل الشيخ صالح أفندي التونسي كأنك تريد بذلك تنزيل قدرها

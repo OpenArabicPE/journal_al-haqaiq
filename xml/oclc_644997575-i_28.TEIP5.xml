@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><change when="2016-05-23" who="pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -246,9 +246,9 @@
                         الحق الذي عليه جمهور المسلمين أنهم أجسام لطيفة نورانية قادرة على التشكل
                         بأشكال مختلفة شأنهم الطاعة ومسكنهم السموات ومنهم من يسكن الأرض أخرج الترمذي
                         وابن ماجة من حديث أبي ذر رضي الله عنه مرفوعاً إلى النبي صلى الله عليه وسلم
-                        أنه قال أطت السماء وحق لها أن تئط ما فيها موضع أربع أصابع إلا وعليه ملك
+                        أنه قال أطت السماء وحق لها أن تئط ما فيها موضع <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربع</num> أصابع إلا وعليه ملك
                         ساجد. وفي الطبراني من حديث جابر رضي الله عنه قال رسول الله صلى الله عليه
-                        وسلم ما في السموات السبع موضع قدم أو شبر ولا كف إلا وفيه ملك قائم أو راكع أو
+                        وسلم ما في السموات ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="7">سبع</num> موضع قدم أو شبر ولا كف إلا وفيه ملك قائم أو راكع أو
                         ساجد.</p>
                     <p xml:lang="ar" xml:id="p_18.d1e545">وقد أقامهم الله تعالى على وظائف مخصوصة منهم من شأنه الاستغراق في معرفة الله
                         والتنزه عن الشغل بغيره ومنهم رسل بين الله وأنبيائه ورسله كجبريل عليه السلام
@@ -258,7 +258,7 @@
                         (وإن عليكم لحافظين كراماً <pb ed="shamela" n="n27-p2" corresp="file:../epub/29676/OEBPS/xhtml/P847.xhtml" xml:id="pb_2.d1e547"/> كاتبين) وقال
                         تعالى: (ما يلفظ من قول إلا لديه رقيب عتيد) ومنهم موكلون بالجنة ونعيمها قال
                         تعالى: (والملائكة يدخلون عليهم من كل باب) ومنهم موكلون بالنار وعذابها قال
-                        تعالى: (عليها تسعة عشر) ومنهم حملة العرش قال تعالى: (الذين يحملون العرش)
+                        تعالى: (عليها <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="9">تسعة</num> عشر) ومنهم حملة العرش قال تعالى: (الذين يحملون العرش)
                         الآية ومنهم قائمون بمصالح العباد ومنافعهم وتصوير الأجنة في الأرحام كما وردت
                         بذلك الأخبار ودلت عليه الآثار وكله دليل على عظيم قدرة الله عز وجل وسعة ملكه
                         وأحاطة علمه فسبحان من خلق كل شيء فقدره تقديراً.</p>
@@ -310,10 +310,10 @@
                         الحقائق ودعوة الخلق لتوحيد الخالق وتنزيهه عن الوالد والأولاد ونفي الشركاء
                         عنه والأنداد ونسخ بعض أحكام التوراة الفرعية والتبشير بظهور خاتم الأنبياء صلى
                         الله عليه وسلم فيحب التصديق به وتعظيمه واحترامه أما الإنجيل الموجود الآن
-                        فليس هو الكتاب المنزل على عيسى عليه السلام بل هو كتاب ألف بعد رفعه إلى
-                        السماء وله عندهم أربع نسخ ألفها أربعة أشخاص <pb ed="shamela" n="n27-p4" corresp="file:../epub/29676/OEBPS/xhtml/P849.xhtml" xml:id="pb_4.d1e574"/> بعضهم لم ير المسيح
+                        فليس هو الكتاب المنزل على عيسى عليه السلام بل هو كتاب <num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000">ألف</num> بعد رفعه إلى
+                        السماء وله عندهم <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربع</num> نسخ ألفها <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربعة</num> أشخاص <pb ed="shamela" n="n27-p4" corresp="file:../epub/29676/OEBPS/xhtml/P849.xhtml" xml:id="pb_4.d1e574"/> بعضهم لم ير المسيح
                         أصلاً وهم متى ومرقص ولوقا ويوحنا وإنجيل كل من هؤلاء مناقض للآخر في كثير من
-                        المطالب وقد كان للنصارى أناجيل كثيرة غير هذه الأربعة تخلصاً من كثرة التناقض
+                        المطالب وقد كان للنصارى أناجيل كثيرة غير هذه ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربعة</num> تخلصاً من كثرة التناقض
                         وتخلصاُ من وفرة التضاد والتعارض وقد ثبت بالأدلة الواضحة حتى عند الكثير من
                         أهل الكتاب أن التوراة والإنجيل كانت نسختهما الأصلية مفقودة قبل بعثة النبي
                         صلى الله عليه وسلم بإعصار وأما الموجودان في عصره وفي هذا العصر فهما عبارة عن
@@ -340,8 +340,8 @@
                         التعزية لأهل الميت لعل الله يهدي بذلك أخواننا المسلمين فيرجعون عن هذه البدعة
                         ويقتفون أر الرسول عليه الصلاة والسلام.</p>
                     <p xml:lang="ar" xml:id="p_28.d1e591">الصلاة على الميت</p>
-                    <p xml:lang="ar" xml:id="p_29.d1e594">الصلاة على الميت فرض كفاية وكذلك غسله وتكفينه ودفنه إجماعاً إذا قام به واحد
-                        سقط التكليف عن الباقين وكيفية الصلاة عليه أن يكبر المصلي أربع تكبيرات يقرأ
+                    <p xml:lang="ar" xml:id="p_29.d1e594">الصلاة على الميت فرض كفاية وكذلك غسله وتكفينه ودفنه إجماعاً إذا قام به و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num>
+                        سقط التكليف عن الباقين وكيفية الصلاة عليه أن يكبر المصلي <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربع</num> تكبيرات يقرأ
                         بعد التكبيرة الأولى فاتحة الكتاب وبعد التكبيرة الثانية يصلي على النبي صلى
                         الله عليه وسلم والأفضل أن يأتي بالصلاة الإبراهيمية وهي اللهم صل علي سيدنا
                         محمد وعلى آل سيدنا محمد كما صليت على إبراهيم وعلى آل سيدنا إبراهيم الخ وبعد
@@ -359,7 +359,7 @@
                         عليه السلف رضي الله عنهم من <pb ed="shamela" n="n27-p6" corresp="file:../epub/29676/OEBPS/xhtml/P851.xhtml" xml:id="pb_6.d1e596"/> السكوت في حال
                         السير مع الجنازة فلا يرفع صوت بقراءة ولا ذكر ولا غير ذلك والحكمة فيه أن هذه
                         الحالة أسكن لخاطره وأجمع لفكره فيما يتعلق بالجنازة وهو المطلوب في هذا الحال
-                        ولا تغتر بكثرة من يخالفه قال صلى الله عليه وسلم إن الله يحب الصمت عند ثلاث
+                        ولا تغتر بكثرة من يخالفه قال صلى الله عليه وسلم إن الله يحب الصمت عند <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاث</num>
                         تلاوة القرآن وعند الزحف وعند الجنازة وإليك بعض ما قاله الأئمة رضي الله عنهم
                         في لزوم الصمت وراء الجنازة والاتعاظ والتدبر، قال في الدر المختار للسادة
                         الحنفية وكره في الجنازة رفع الصوت بذكر أو قراءة أهـ قال محشية العلامة ابن
@@ -405,8 +405,8 @@
                         قواعده ترك السنة من الكبائر كما نقله عنه القدوة ابن حجر في الزواجر.</p>
                     <p xml:lang="ar" xml:id="p_30.d1e601">وتستحب التعزية وهي تصبير صاحب الميت بذكر ما يسليه ويحفف حزنه ويهون عليه
                         مصيبته ورد عنه عليه الصلاة والسلام ما من مؤمن يعزي أخاه بمصيبة إلا كساه الله
-                        عز وجل من حلل الكرامة يوم القيامة ومدتها من موته إلى ثلاثة أيام وتكره بعد
-                        مضي ثلاثة أيام إلا إذا كان صاحب المصيبة غائباً واتفق رجوعه بعد الثلاثة وهي
+                        عز وجل من حلل الكرامة يوم القيامة ومدتها من موته إلى <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> أيام وتكره بعد
+                        مضي <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> أيام إلا إذا كان صاحب المصيبة غائباً واتفق رجوعه بعد ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> وهي
                         مستحبة قبل الدفن وبعده ولكن بعده أفضل لشغلهم قبله بتجهيزه ويستحب أن يعم
                         بالتعزية جميع أهل الميت وأقاربه الكبار والصغار والرجال والنساء إلا أن تكون
                         امرأة شابة فلا يعزيها إلا محارمها ويكره تنزيهاً الجلوس للتعزية بأن يجتمع أهل
@@ -695,7 +695,7 @@
                         عليك وموقفك عليه وسائلك عنه ومثيبك عليه بما قدمت وأخرت ففرغ لذلك فهمك وعقلك
                         وبصرك ولا يشغلك عنه شاغل وإنه رأس أمرك وملاك شأنك.</p>
                     <p xml:lang="ar" xml:id="p_67.d1e790">وأول ما يوفقك الله عليه وليكن أول ما تلزم به نفسك، وتنسب إليه فعلك، المواظبة
-                        على ما فرض الله عز وجل عليك من الصلوات الخمس والجماعة عليها بالناس قبلك
+                        على ما فرض الله عز وجل عليك من الصلوات ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="5">خمس</num> والجماعة عليها بالناس قبلك
                         وتوابعها على سننها من إسباغ الوضوء لها وافتتاح ذكر الله عز وجل فيها ورتل في
                         قراءتك وتمكن من ركوعك وسجودك وتشهدك ولتصرف فيه رأيك ونيتك واحضض عليه جماعة
                         من معك وتحت يدك وادأب عليهات فإنها كما قال الله عز وجل تنهى عن الفحشاء
@@ -752,7 +752,7 @@
                     <p xml:lang="ar" xml:id="p_78.d1e829">وإياك أن تقول أنا مسلم أفعل ما أشاء فإن ذلك سريع إلى نقص الرأي وقلة اليقين
                         لله عز وجل واخلص لله وحده النية فيه واليقين.</p>
                     <p xml:lang="ar" xml:id="p_79.d1e832">واعلم أن الملك سبحانه وتعالى يؤتيه من يشاء وينزعه ممن يشاء ولن تجد تغير
-                        النعمة وحلول النقمة إلى أحد أسرع منه إلى جهلة النعمة من أصحاب السلطان
+                        النعمة وحلول النقمة إلى <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> أسرع منه إلى جهلة النعمة من أصحاب السلطان
                         والمبسوط لهم في الدولة إذا كفروا نعم الله وإحسانه واستطالوا بما أعطاهم الله
                         عز وجل من فضله.</p>
                     <p xml:lang="ar" xml:id="p_80.d1e835">ودع عنك شره نفسك ولتكن ذخائرك وكنوزك التي تدخر وتكنز البر والتقوى واستصلح
@@ -791,7 +791,7 @@
                         ووسع عليهم في معاشهم يذهب الله عز وجل بذلك فاقتهم فيقوى لك أمرهم وتزد قلوبهم
                         في طاعتك وأمرك خلوصاً وانشراحاً. <pb ed="shamela" n="n27-p24" corresp="file:../epub/29676/OEBPS/xhtml/P869.xhtml" xml:id="pb_24.d1e852"/> وحسب ذي السلطان أن
                         السعادة أن يكون على جنده ورعيته رحمة من عدله وعطيته وإنصافه وعنايته وشفقت
-                        وبره وتوسعته فذلك مكروه أحد البابين باستشعار فضله الباب الآخر ولزوم العمل به
+                        وبره وتوسعته فذلك مكروه <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> البابين باستشعار فضله الباب الآخر ولزوم العمل به
                         تلق إن شاء الله تعالى به نجاحاً وصلاحاً وفلاحاً. واعلم أن القضاء من الله
                         تعالى بالمكان الذي ليس لديه شيء من الأمور لأنه ميزان الله الذي يعدل عليه
                         أحوال الناس في الأرض وبإقامة العدل والعمل في القضاء تصلح أحوال الرعية وتأمن
@@ -799,14 +799,14 @@
                         من الله العافية والسلام يقيم الدين وتجري السنن والشرائع في مجاريها.</p>
                     <p xml:lang="ar" xml:id="p_85.d1e855">واشتد في أمر الله عز وجل وتورع عن النطق وامض لإقامة الحدود وأقلل العجلة وأبعد
                         عن الضجر والقلق وانع بالقسم وانتفع بتجربتك وانتبه في صحتك واسدد في منطقك
-                        وأنصف الخصم وقف عند الشبهة وابلغ في الحجة ولا ولا يأخذك في أحد من رعيتك
+                        وأنصف الخصم وقف عند الشبهة وابلغ في الحجة ولا ولا يأخذك في <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> من رعيتك
                         محاباة ولا مجاملة ولا لومة لائم وتثبت وتأن وراقب وانظر وتفكر وتدبر واعتبر
                         وتواضع لربك وارفق بجميع الرعية وسلط الحق على نفسك ولا تسرعن إلى سفك الدماء
                         فإن الدماء من الله عز وجل بمكان عظيم انتهاكاً لها بغير حقها.</p>
                     <p xml:lang="ar" xml:id="p_86.d1e858">وانظر هذا الخراج الذي استقامت عليه الرعية وجعله الله للإسلام عزاً ورفعة
                         ولأهله توسعة ومنعة ولعدوه كيتاً وغيظاً ولأهل الكفر من معاديهم ذلاً وصغاراً
                         فوزعه بين أصحابه بالحق والعدل والتسوية والعموم ولا تدفعن شيئاً منه عن شريف
-                        لشرفه ولا عن غني لغناه ولا عن كاتب لك ولا لأحد من خاصتك ولا من حاشيتك ولا
+                        لشرفه ولا عن غني لغناه ولا عن كاتب لك ولا ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> من خاصتك ولا من حاشيتك ولا
                         تأخذن منه فوق الاحتمال له ولا تكلف أمراً فيه شطط واحمل الناس كلهم على أمر
                         الحق فإن ذلك أجمع لألفتهم والزم إرضاء العامة.</p>
                     <p xml:lang="ar" xml:id="p_87.d1e862">واعلم أنك جعلت بولايتك خازناً وحافظاً وراعياً وإنما سمى أهل عملك رعيتك لأنك
@@ -863,7 +863,7 @@
                         وما عنده من حوائج عمالك وأمور الدولة ورعيتك ثم فرغ لما يورد عليك من ذلك سمعك
                         وبصرك وفهمك وعقلك وكرر النظر فيه والتدبير له فما كان موافقاً للحق والحزم
                         فأمضه واستخر الله عز وجل فيه وما كان مخالفاً لذلك فاصرفه إلى المسألة عنه
-                        والتثبت ولا تمتن على رعيتم ولا غيرهم بمعروف تؤتيه إليهم ولا تقبل من أحد إلا
+                        والتثبت ولا تمتن على رعيتم ولا غيرهم بمعروف تؤتيه إليهم ولا تقبل من <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> إلا
                         الوفاء والاستقامة والعون في أمور المسلمين ولا تضعن المعروف إلا على ذلك وتفهم
                         كتابي إليك وأمعن النظر والعمل به واستعن بالله على جميع أمورك واستخره فإن
                         الله عز وجل مع الصلاح وأهله وليكن أعظم سيرتك وأفضل رغبتك ما كان لله عز وجل
@@ -902,7 +902,7 @@
                         وتمكنهم إذا أحسنوا التمسك بها من السلطة والسيادة على سكان البسيطة. <pb ed="shamela" n="n27-p29" corresp="file:../epub/29676/OEBPS/xhtml/P873.xhtml" xml:id="pb_28.d1e897"/> جاء الإسلام والناس
                         في جاهلية جهلاء وغواية عمياء متفرقين المذاهب مختلفين بالآراء فهداهم إلى
                         الطريق الأقوم وسلك بهم المنهج الأعدل جمعهم بعد التفرق وضمهم بعد الشتات حتى
-                        تكونت لهم رابطة كسلسلة أحد طرفيها في المشرق والآخر في المغرب فأصبحوا وهم
+                        تكونت لهم رابطة كسلسلة <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> طرفيها في المشرق والآخر في المغرب فأصبحوا وهم
                         سادة أهل الأرض وفي قبضتهم وتحت حكمهم أكثر من نصفها وما بلغوا هذا المنصب ولا
                         ارتقوا هذا المرتقى إلا بتمسكهم بدينهم وعلمهم بالانتفاع من رابطته ولولا أن
                         خلفهم من سلك غير مسلكهم وتنهج خلاف منهجهم لرأيتهم اليوم وفي يدهم الكرة
@@ -926,7 +926,7 @@
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_4.d1e926">
                             <seg xml:lang="ar" xml:id="seg_7.d1e928">إذا ما صنعت الزاد فالتمسي له </seg>
-                            <seg xml:lang="ar" xml:id="seg_8.d1e931"> أكيلاً فإني لست آكله وحدي</seg>
+                            <seg xml:lang="ar" xml:id="seg_8.d1e931"> أكيلاً فإني ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6">ست</num> آكله وحدي</seg>
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_5.d1e935">
                             <seg xml:lang="ar" xml:id="seg_9.d1e937">أخا طارقاً أو جار بيت فإنني </seg>
@@ -976,7 +976,7 @@
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_15.d1e1039">
                             <seg xml:lang="ar" xml:id="seg_29.d1e1041">أحتال للمال إن أودى فأجمعه </seg>
-                            <seg xml:lang="ar" xml:id="seg_30.d1e1044"> ولست للعرض إن أودى بمحتال</seg>
+                            <seg xml:lang="ar" xml:id="seg_30.d1e1044"> ول<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6">ست</num> للعرض إن أودى بمحتال</seg>
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_16.d1e1048">
                             <seg xml:lang="ar" xml:id="seg_31.d1e1050">الفقر يرزي بأقوام ذوي حسب </seg>
