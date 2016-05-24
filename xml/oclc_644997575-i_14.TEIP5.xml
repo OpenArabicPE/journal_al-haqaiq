@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-model href="https://rawgit.com/tillgrallert/TeachingTei/master/schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp.xsl"?>
-<!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp.xsl"?>-->
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:html="http://www.w3.org/1999/xhtml"
-     xmlns:xd="http://www.pnp-software.com/XSLTdoc"
-     xmlns:opf="http://www.idpf.org/2007/opf"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="oclc_644997575-i_14"
-     xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-model href="https://rawgit.com/tillgrallert/TeachingTei/master/schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xd="http://www.pnp-software.com/XSLTdoc" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_14" xml:lang="">
    <teiHeader xml:lang="en">
       <fileDesc xml:lang="en">
          <titleStmt xml:lang="en">
@@ -20,9 +7,9 @@
                 <title type="sub" xml:lang="en">TEI edition</title>
                 <author xml:lang="en">
                     <persName xml:lang="ar">
-	                 <forename xml:lang="ar">عبد القادر</forename>
-	                 <surname xml:lang="ar">الإسكندراني</surname>
-               </persName>
+	<forename xml:lang="ar">عبد القادر</forename>
+	<surname xml:lang="ar">الإسكندراني</surname>
+</persName>
                     <persName xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir al-Iskandarānī</persName>
                 </author>
                 <respStmt xml:lang="en">
@@ -45,7 +32,7 @@
                         International (CC BY-SA 4.0) license</licence>
                 </availability>
                 
-            <idno type="url">https://github.com/tillgrallert/digital-haqaiq/blob/master/xml/oclc_644997575-i_14</idno>
+            <idno>https://github.com/tillgrallert/digital-haqaiq/blob/master/xml/oclc_644997575-i_14</idno>
          </publicationStmt>
          <sourceDesc xml:lang="en">
             <biblStruct xml:lang="en">
@@ -58,9 +45,9 @@
                             dīniyya akhlāqiyya ijtimāʿiyya</title>
                   <editor ref="http://viaf.org/viaf/4795364" xml:lang="en">
                             <persName xml:lang="ar">
-	                       <forename xml:lang="ar">عبد القادر</forename>
-	                       <surname xml:lang="ar">الإسكندراني</surname>
-                     </persName>
+	<forename xml:lang="ar">عبد القادر</forename>
+	<surname xml:lang="ar">الإسكندراني</surname>
+</persName>
                             <persName xml:lang="ar-Latn-x-ijmes">
                                 <forename xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
@@ -79,19 +66,7 @@
                                 <placeName xml:lang="ar">دمشق</placeName>
                                 <placeName xml:lang="en">Damascus</placeName>
                             </pubPlace>
-                     <date when="1911-08-25"
-                           calendar="cal_gregorian"
-                           datingMethod="cal_gregorian"/>
-                     <date xmlns="http://www.loc.gov/mods/v3"
-                           when="1911-08-25"
-                           calendar="cal_islamic"
-                           datingMethod="cal_islamic"
-                           when-custom="1329-08-29"/>
-                     <date xmlns="http://www.loc.gov/mods/v3"
-                           when="1911-08-25"
-                           calendar="cal_ottomanfiscal"
-                           datingMethod="cal_ottomanfiscal"
-                           when-custom="1327-06-12"/>
+                     <date when="1911-08-25" xml:lang="en">بتاريخ: 25 - 8 - 1911</date>
                   </imprint>
                </monogr>
                <idno type="oclc" xml:lang="en">644997575</idno>
@@ -149,16 +124,8 @@
                     <p xml:lang="en">Islamic <hi xml:lang="en">hijrī</hi> calendar: lunar calendar
                         beginning the Year with 1 Muḥarram. Dates differ between locations as the
                         beginning of the month is based on sightings of the new moon.</p>
-                    <p xml:lang="en">E.g. <date calendar="#cal_islamic"
-                        datingMethod="#cal_islamic"
-                        when="1841-05-23"
-                        when-custom="1257-04-01"
-                        xml:lang="en">1 Rab II 1257,
-                            Sunday</date>, <date calendar="#cal_islamic"
-                        datingMethod="#cal_islamic"
-                        when="1908-03-05"
-                        when-custom="1326-02-01"
-                        xml:lang="en">1 Ṣaf 1326,
+                    <p xml:lang="en">E.g. <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1841-05-23" when-custom="1257-04-01" xml:lang="en">1 Rab II 1257,
+                            Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1908-03-05" when-custom="1326-02-01" xml:lang="en">1 Ṣaf 1326,
                             Thursday</date>.</p>
                 </calendar>
                 <calendar xml:id="cal_julian" xml:lang="en">
@@ -174,16 +141,8 @@
                         the difference between the Gregorian calendar, on the one hand, and the <hi xml:lang="en">mālī</hi> and <hi xml:lang="en">rūmī</hi> calendars, on
                         the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R /
                         1315 M (13 March 1900) onwards.</p>
-                    <p xml:lang="en">E.g. <date calendar="#cal_julian"
-                        datingMethod="#cal_julian"
-                        when="1841-05-23"
-                        when-custom="1841-05-11"
-                        xml:lang="en">11 Ayyār 1841,
-                            Sunday</date>, <date calendar="#cal_julian"
-                        datingMethod="#cal_julian"
-                        when="1908-03-05"
-                        when-custom="1908-02-21"
-                        xml:lang="en">21 Shub 1908,
+                    <p xml:lang="en">E.g. <date calendar="#cal_julian" datingMethod="#cal_julian" when="1841-05-23" when-custom="1841-05-11" xml:lang="en">11 Ayyār 1841,
+                            Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian" when="1908-03-05" when-custom="1908-02-21" xml:lang="en">21 Shub 1908,
                             Thursday</date>.</p>
                 </calendar>
                 <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
@@ -194,16 +153,8 @@
                         booklets for the consolidated debt repayment program for 1872 (1288 M
                         instead of 1289 M), synchronisation of <hi xml:lang="en">mālī</hi> and <hi xml:lang="en">hijrī</hi> years was henceforth abolished. As <hi xml:lang="en">mālī</hi> years began with 1 March, <hi xml:lang="en">mālī</hi> leap years preceded their <hi xml:lang="en">rūmī</hi> and
                         Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
-                    <p xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal"
-                        datingMethod="#cal_ottomanfiscal"
-                        when="1841-05-23"
-                        when-custom="1257-03-11"
-                        xml:lang="en">11 Māyis 1257, Sunday</date>,
-                            <date calendar="#cal_ottomanfiscal"
-                        datingMethod="#cal_ottomanfiscal"
-                        when="1908-03-05"
-                        when-custom="1323-12-21"
-                        xml:lang="en">21 Shub 1323,
+                    <p xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:lang="en">11 Māyis 1257, Sunday</date>,
+                            <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:lang="en">21 Shub 1323,
                             Thursday</date>.</p>
                 </calendar>
             </calendarDesc>
@@ -232,15 +183,8 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc>
-         <change when="2016-05-23" who="pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change>
-         <change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change>
-         <tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
-         <tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change>
-         <change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change>
-         <tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml"
-                 xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
+      <revisionDesc><change when="2016-05-23" who="pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+         <change when="2016-02-27" who="pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
                     <att xml:lang="en">type</att>="bayt" comprising two <gi xml:lang="en">seg</gi> nodes.</change>
@@ -254,9 +198,7 @@
                   <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
                      <monogr xml:lang="ar" xml:id="monogr_2.d1e471">
                         <title level="j" xml:lang="ar" xml:id="title_8.d1e473">الحقائق</title>
-                        <editor ref="http://viaf.org/viaf/4795364"
-                          xml:lang="ar"
-                          xml:id="editor_2.d1e476">
+                        <editor ref="http://viaf.org/viaf/4795364" xml:lang="ar" xml:id="editor_2.d1e476">
                             <persName xml:lang="ar" xml:id="persName_7.d1e478">عبد القادر الإسكندراني</persName>
                             <persName xml:lang="ar-Latn-x-ijmes" xml:id="persName_8.d1e481">
                                 <forename xml:lang="ar-Latn-x-ijmes" xml:id="forename_2.d1e483">ʿAbd al-Qādir</forename>
@@ -268,10 +210,8 @@
                                 <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
-                           <date when="1911-08-25" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="25" xml:lang="ar" xml:id="num_1.d1e544">٢٥</tei:num>  -  <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e547">٨</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e550">١٩١١</tei:num> 
-                     </date>
-                           <biblScope n="13" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="13" xml:lang="ar" xml:id="num_1.d1e556">١٣</tei:num> 
-                     </biblScope>
+                           <date when="1911-08-25" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="25" xml:lang="ar" xml:id="num_1.d1e544">٢٥</tei:num>  -  <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e547">٨</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e550">١٩١١</tei:num> </date>
+                           <biblScope n="13" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="13" xml:lang="ar" xml:id="num_1.d1e556">١٣</tei:num> </biblScope>
                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
                         </imprint>
                      </monogr>
@@ -281,34 +221,21 @@
             <body xml:lang="ar" xml:id="body_1.d1e515">
                 <head xml:lang="ar" xml:id="head_1.d1e517">
                     <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                        <biblScope n="13" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="13" xml:lang="ar" xml:id="num_1.d1e575">١٣</tei:num> 
-               </biblScope>
-                        <date when="1911-08-25" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="25" xml:lang="ar" xml:id="num_1.d1e581">٢٥</tei:num>  -  <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e584">٨</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e587">١٩١١</tei:num> 
-               </date>
+                        <biblScope n="13" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="13" xml:lang="ar" xml:id="num_1.d1e575">١٣</tei:num> </biblScope>
+                        <date when="1911-08-25" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="25" xml:lang="ar" xml:id="num_1.d1e581">٢٥</tei:num>  -  <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e584">٨</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e587">١٩١١</tei:num> </date>
                     </bibl>
                 </head>
-                <pb ed="shamela"
-             n="n13-p1"
-             corresp="file:../epub/29676/OEBPS/xhtml/P360.xhtml"
-             xml:id="pb_1.d1e529"/>
+                <pb ed="shamela" n="n13-p1" corresp="file:../epub/29676/OEBPS/xhtml/P360.xhtml" xml:id="pb_1.d1e529"/>
 
 
                 <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
                     <head xml:lang="ar" xml:id="head_2.d1e533">وظائف العلماء</head>
-                    <p xml:lang="ar" xml:id="p_15.d1e536">يجب على العلماء نحو الأمة أمور <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="3">ثلاثة</num> (أولها) العمل بما علموا ليكون ذلك أدعى
+                    <p xml:lang="ar" xml:id="p_15.d1e536">يجب على العلماء نحو الأمة أمور <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> (أولها) العمل بما علموا ليكون ذلك أدعى
                         لقبول ما يأمرون به وإلا حارت الأمة بين أن تقتدي بأعمالهم أو أقوالهم وأحر
                         بالعالم إذا أمر وائتمر ونهى وانتهى أن يقبل قوله ويعمل بإرشاده وإلا فهو (طبيب
                         يداوى الناس وهو سقيم) قال الله تعالى: [أتأمرون الناس بالبر وتنسون أنفسكم
                         وأنتم تتلون الكتاب أفلا تعقلون] وقال عليه الصلاة والسلام: أشد الناس عذاباً
-                        يوم القيامة عالم لم ينفعه علمه. واستعاذ عليه الصلاة والسلام من <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="4">أربع</num> أولاها
+                        يوم القيامة عالم لم ينفعه علمه. واستعاذ عليه الصلاة والسلام من <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربع</num> أولاها
                         من علم لا ينفع. وقال صلى الله عليه وسلم: أن أناساً من أهل الجنة ينطلقون إلى
                         أناس من أهل النار فيقولون بم دخلتم النار فوالله ما دخلنا الجنة إلا بما
                         تعلمنا منكم فيقولون أنا كنا نقول ولا نفعل. إلى غير ذلك من الأحاديث الصحيحة
@@ -344,10 +271,7 @@
                         على الأفكار كانت إجابة السائل كافية في نشر العلم أما في هذا الزمن الذي
                         انتشرت فيه البدع وزاد شيوعها وأخذ مروجوها يبعدون بالعامة عن طريق فلاحهم بما
                         يلفقونه لهم من الشبه التي تقف سداً بينهم وبين الدين وأوامره فيتعين حينئذ على
-                            <pb ed="shamela"
-                   n="n13-p2"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P361.xhtml"
-                   xml:id="pb_2.d1e580"/> العلماء أن يبثوا
+                            <pb ed="shamela" n="n13-p2" corresp="file:../epub/29676/OEBPS/xhtml/P361.xhtml" xml:id="pb_2.d1e580"/> العلماء أن يبثوا
                         علمهم بأنجح الوسائل الممكنة فيقظونهم في المساجد والمدارس، ويغشونهم في
                         منتدياتهم ومجتمعاتهم، ولا يدعون فرصة تذهب دون استمالتهم نحو الأخلاق الفاضلة،
                         وإجلاء ماطرأ على فطرهم السليمة من الصدأ الذي سببه بعدهم عن أوامر الدين
@@ -365,16 +289,9 @@
                         كله يحكم بأن العلماء وهم (ورثة الأنبياء) مقصرون بوظائفهم مطالبون من الله
                         تعالى ببث ما آتاهم من العلم محاسبون مسؤولون عن ذلك يوم القيامة. أخرج الترمذي
                         بسند حسن عنه صلى الله عليه وسلم لا تزول قدما ابن آدم يوم القيامة حتى يسأل عن
-                        <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="5">خمس</num>. عن عمره فيم أفناه وعن شبابه فيم أبلاه وعن ماله من أين اكتسبه وفيم أنفقه
+                        <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="5">خمس</num>. عن عمره فيم أفناه وعن شبابه فيم أبلاه وعن ماله من أين اكتسبه وفيم أنفقه
                         وماذا عمل فيما علم وفقنا الله جميعاً لامتثال أوامره، واجتناب نواهيه، أنه خير
-                        مسؤول كريم. <pb ed="shamela"
-                   n="n13-p3"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P362.xhtml"
-                   xml:id="pb_3.d1e585"/>
+                        مسؤول كريم. <pb ed="shamela" n="n13-p3" corresp="file:../epub/29676/OEBPS/xhtml/P362.xhtml" xml:id="pb_3.d1e585"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_3.d1e589">
@@ -404,10 +321,7 @@
                     <p xml:lang="ar" xml:id="p_22.d1e607">بقي علينا قضية الانهماك في الملاذ وفساد الأخلاق فهذه القضية لا تزال مسلمة في
                         كل عصر وفي كل أمة فالبلاد التي توفرت فيها أسباب العمران والحضارة وزادت
                         ثروتها وتنوعت موارد الارتزاق والكسب فيها كثرت فيها ترايضاً الملاهي وانهمك
-                        سكانها في <pb ed="shamela"
-                   n="n13-p4"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P363.xhtml"
-                   xml:id="pb_4.d1e609"/> الملاذ ومالوا
+                        سكانها في <pb ed="shamela" n="n13-p4" corresp="file:../epub/29676/OEBPS/xhtml/P363.xhtml" xml:id="pb_4.d1e609"/> الملاذ ومالوا
                         للسرف والبذخ كما قال العلامة في مقدمته_أما الأخلاق الفاسدة فهي عندي على
                         قسمين منها ما يكون له علاقة كبرى بالوسط الذي تعيش فيه المرأة مثل الكذب
                         والافتراء وشهادة الزور والاحتيال والغش والسرقة والخيانة ومنها ما يتعلق
@@ -434,10 +348,7 @@
                         فقدان الوسائط فقط فمتى توفرت لديهم أسبابه أقدموا عليه لا محالة لأن النفس
                         أمارة بالسوء ومطالبها كثيرة جداً في باب ملذاتها فهي لا تقنع بالقليل وليس
                         لمطامعها في اللهو حد اللهم إلا النفوس التي أنشأت على الفضيلة منذ الصغر وشبت
-                        وشابت عليها. <pb ed="shamela"
-                   n="n13-p5"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P364.xhtml"
-                   xml:id="pb_5.d1e614"/> إذا تنقلنا من بيوت
+                        وشابت عليها. <pb ed="shamela" n="n13-p5" corresp="file:../epub/29676/OEBPS/xhtml/P364.xhtml" xml:id="pb_5.d1e614"/> إذا تنقلنا من بيوت
                         الشعر في الصحراء إلى بيوت الحجر في القرى ومنها أتينا المدن الصغيرة ثم زرنا
                         المدن من الشرق إلى الغرب نرى حينئذٍ الفرق الواضح بين عادات البلاد وتأثير
                         التمدن في أخلاق الأمم وها أنا ذا واصف شيئاً من الأخلاق والعادات في الأناضول
@@ -464,10 +375,7 @@
                     <p xml:lang="ar" xml:id="p_25.d1e620">أما المرأة في الأناضول فهي إذا خرجت من بيتها تكون متحجبة والحجاب هناك حجاب
                         حقيقي يقصد به التستر الحقيقي فلا يكاد يرى من المرأة شيء تحت الحجاب حتى ولا
                         تظهر تحته رشاقة قدها وانتظام هندامها وإذا مشت إلى الرياض ترويحاً للنفس
-                        وترويضاً <pb ed="shamela"
-                   n="n13-p6"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P365.xhtml"
-                   xml:id="pb_6.d1e622"/> للبال فهي تمشي
+                        وترويضاً <pb ed="shamela" n="n13-p6" corresp="file:../epub/29676/OEBPS/xhtml/P365.xhtml" xml:id="pb_6.d1e622"/> للبال فهي تمشي
                         محفوفة بالوقار والحياء لا تبختر ولا تبرج في مشيها وهي لا تبدي زينتها
                         للناظرين ولا تسحب ذيلها (الشاحط) أو ترفعه بيدها اليسرى ولتوكأ على الشمسية
                         باليمنى وقناعها ثخين ولا فرق في ذلك بين المسلمة والمسيحية هناك حتى أنك لا
@@ -493,15 +401,8 @@
                         سامية في الهيئة الاجتماعية لا يجوز أن تشتغل بغيرها وهنا يعترض علينا منكرو
                         الحجاب قائلين أن تحت الحجاب خلاعة وتبرجاً يفوقان الوصف وان الحجاب يساعد على
                         ارتكاب المنكر أكثر من غيره فالمرأة المتحجبة تذهب لقضاء شهوتها وتعود من حيث
-                        لا يشعر بها <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> وأما إذا كانت مكشوفة الوجه فلا تجسر على الإتيان بهذا المنكر
-                            <pb ed="shamela"
-                   n="n13-p7"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P366.xhtml"
-                   xml:id="pb_7.d1e630"/> لأنها تخشى أن يفضح
+                        لا يشعر بها <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> وأما إذا كانت مكشوفة الوجه فلا تجسر على الإتيان بهذا المنكر
+                            <pb ed="shamela" n="n13-p7" corresp="file:../epub/29676/OEBPS/xhtml/P366.xhtml" xml:id="pb_7.d1e630"/> لأنها تخشى أن يفضح
                         أمرها وينكشف سترها ونحن نقول نعم قد يقع ذلك. ولكن خطأ صغيراً نادراً مثل هذا
                         لا يقلل أهمية الحجاب وسيئة مثل هذه لا تمحو حسناته الكبيرة على حين أن المرأة
                         التي يجوز لها الاختلاط بالرجال تكون معرضة كل آن لذلك الخطر الذي يتوهمه
@@ -528,15 +429,9 @@
                         شعورها؟</p>
                     <p xml:lang="ar" xml:id="p_30.d1e640">أما سمعتم ما قاله ويقوله علماء الغرب وفلاسفته في حق المرأة الغربية فما أحلى
                         ذلك الفيلسوف الإنكليزي الذي قال (ينبغي أن تبقى المرأة امرأة ولا تخرج عن
-                        حدودها <pb ed="shamela"
-                   n="n13-p8"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P367.xhtml"
-                   xml:id="pb_8.d1e642"/> الطبيعية، ولا سبيل
+                        حدودها <pb ed="shamela" n="n13-p8" corresp="file:../epub/29676/OEBPS/xhtml/P367.xhtml" xml:id="pb_8.d1e642"/> الطبيعية، ولا سبيل
                         على العمل بقول هذا الفيلسوف إلا بالحجاب.</p>
-                    <p xml:lang="ar" xml:id="p_31.d1e645">الحضارة أ. ح <pb ed="shamela"
-                   n="n13-p9"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P368.xhtml"
-                   xml:id="pb_9.d1e647"/>
+                    <p xml:lang="ar" xml:id="p_31.d1e645">الحضارة أ. ح <pb ed="shamela" n="n13-p9" corresp="file:../epub/29676/OEBPS/xhtml/P368.xhtml" xml:id="pb_9.d1e647"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_4.d1e651">
@@ -576,22 +471,11 @@
                     <p xml:lang="ar" xml:id="p_36.d1e708">فكنت من النظر إليها بين الكوثر والجنان أو محاورة الأدباء ومغازلة الغزلان ثم
                         طفقت أجيل الفكر في ميدان دواوين الشعراء وأستجيد محاسن أشعار الفصحاء فأجابني
                         لسان حال أهل العلم والمعارف وأومأت إلي لواحظ من إليهم تسب اللطائف أن
-                        الدواوين <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="3">ثلاثة</num> من غير شك مريب ديوان أبي الطيب والبحتري وحبيب فعول رأيي منها
+                        الدواوين <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاثة</num> من غير شك مريب ديوان أبي الطيب والبحتري وحبيب فعول رأيي منها
                         على ديوان أبي الطيب أحمد فكنت كما ازددت تأملاً فيه الشكر بلاغة ناظمه وأحمد
                         فلازمته لزوم عاشق أباحه الوصل لائمه وعكفت عليه عكوف شحيح ضاع في الترب خاتمه
-                        إلى أن جذب بيد التأنيب أطراف توجهي غليه <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> الأفاضل ولفت هوادى عزمي عن أن
-                        تطارد في مضمار <pb ed="shamela"
-                   n="n13-p10"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P369.xhtml"
-                   xml:id="pb_10.d1e710"/> فصاحته وتناضل وقال
+                        إلى أن جذب بيد التأنيب أطراف توجهي غليه <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> الأفاضل ولفت هوادى عزمي عن أن
+                        تطارد في مضمار <pb ed="shamela" n="n13-p10" corresp="file:../epub/29676/OEBPS/xhtml/P369.xhtml" xml:id="pb_10.d1e710"/> فصاحته وتناضل وقال
                         عليك بديوان أبلغ الفصحاء وأفصح البلغاء أشعر الهاشميين الذين هم أفصح العرب
                         العرباء إلا وهو الشريف الموسوي الحسيب النسيب الذي له لدى اقتسام البلاغة أوفر
                         نصيب فإنه البحر الذي ليس لتياره ساحل والعبقري الذي لم يكن لغيره مساجل فركبت
@@ -657,10 +541,7 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_38.d1e831">فاسرح في رياض شعره وخل عنك القيل والقال وكن ممن تفي في ظلال خمائل نظمه
                         وقال:</p>
-                    <p xml:lang="ar" xml:id="p_39.d1e835">فإن من ثبت نبت ومن راغ رغبت عنه المعارف ونبت. <pb ed="shamela"
-                   n="n13-p11"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P370.xhtml"
-                   xml:id="pb_11.d1e837"/> فلست له مثلا مدي
+                    <p xml:lang="ar" xml:id="p_39.d1e835">فإن من ثبت نبت ومن راغ رغبت عنه المعارف ونبت. <pb ed="shamela" n="n13-p11" corresp="file:../epub/29676/OEBPS/xhtml/P370.xhtml" xml:id="pb_11.d1e837"/> فلست له مثلا مدي
                         الدهر لاقيا <gap resp="#org_MS" xml:id="gap_1.d1e839"/> ومن ورد البحر استقل السواقيا</p>
                     <p xml:lang="ar" xml:id="p_40.d1e842">قال:</p>
                     <p xml:lang="ar" xml:id="p_41.d1e845">لقد جاوزت حداً يقصر عنه المجادل ويقف دون مداه كل معاند ومتحامل ماهذه الزخرفة
@@ -732,10 +613,7 @@
                             <seg xml:lang="ar" xml:id="seg_66.d1e983"> سميعاً إذا ما تكن ذا اعتيام</seg>
                         </l>
                     </lg>
-                    <p xml:lang="ar" xml:id="p_45.d1e988">فتسمع طير العلا صادحاً <gap resp="#org_MS" xml:id="gap_2.d1e990"/> كلام الشريف شريف الكلام <pb ed="shamela"
-                   n="n13-p12"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P371.xhtml"
-                   xml:id="pb_12.d1e992"/> قلت:</p>
+                    <p xml:lang="ar" xml:id="p_45.d1e988">فتسمع طير العلا صادحاً <gap resp="#org_MS" xml:id="gap_2.d1e990"/> كلام الشريف شريف الكلام <pb ed="shamela" n="n13-p12" corresp="file:../epub/29676/OEBPS/xhtml/P371.xhtml" xml:id="pb_12.d1e992"/> قلت:</p>
                     <lg xml:lang="ar" xml:id="lg_9.d1e995">
                         <l type="bayt" xml:lang="ar" xml:id="l_34.d1e997">
                             <seg xml:lang="ar" xml:id="seg_67.d1e999">أيامن تجرأ على الأقدم </seg>
@@ -797,10 +675,7 @@
                             <seg xml:lang="ar" xml:id="seg_92.d1e1122"> حمتنا ذروع طلقة ودروع</seg>
                         </l>
                     </lg>
-                    <p xml:lang="ar" xml:id="p_48.d1e1127">(لها بقية محمد أبو الخير الطباع) <pb ed="shamela"
-                   n="n13-p13"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P372.xhtml"
-                   xml:id="pb_13.d1e1129"/>
+                    <p xml:lang="ar" xml:id="p_48.d1e1127">(لها بقية محمد أبو الخير الطباع) <pb ed="shamela" n="n13-p13" corresp="file:../epub/29676/OEBPS/xhtml/P372.xhtml" xml:id="pb_13.d1e1129"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_5.d1e1134">
@@ -831,10 +706,7 @@
                     <p xml:lang="ar" xml:id="p_54.d1e1155">نعم أن الأمة انحرفت عن الأخذ بالدين وتركت التمسك بآدابه وسننه القويمة ومالت
                         مع الأهواء واسترسلت في الشهوات حل بها من الأحن والبلايل ما أضحت معه في حاجة
                         شديدة إلى العلماء العارفين بأحوال الأمم وارتقائها ليأخذ بيدها نحو تلك الذرة
-                        العليا والمنزلة <pb ed="shamela"
-                   n="n13-p14"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P373.xhtml"
-                   xml:id="pb_14.d1e1157"/> القصوى وليحيدوا
+                        العليا والمنزلة <pb ed="shamela" n="n13-p14" corresp="file:../epub/29676/OEBPS/xhtml/P373.xhtml" xml:id="pb_14.d1e1157"/> القصوى وليحيدوا
                         بها عن طريق الغواية ويسلكوا بها منهاج الرشد والسعادة أفلا يجدر بم أيها
                         الكتاب أن تيقظوا الأمة من سباتها وترشدوها إلى معالم دينها وتوقفوها على أحكام
                         شريعة خالقها التي هي مصدر قواها ومنبع سعادتها وإكليل عزها ومجدها إلا تتقون
@@ -861,18 +733,13 @@
                         </l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_55.d1e1172">يا قوم ن تنصروا لله ينصركم <gap resp="#org_MS" xml:id="gap_3.d1e1174"/> ويرحم الله من للدين قد نصرا
-                            <pb ed="shamela"
-                   n="n13-p15"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P374.xhtml"
-                   xml:id="pb_15.d1e1176"/>
+                            <pb ed="shamela" n="n13-p15" corresp="file:../epub/29676/OEBPS/xhtml/P374.xhtml" xml:id="pb_15.d1e1176"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_6.d1e1180">
                     <head xml:lang="ar" xml:id="head_6.d1e1182">التاريخ</head>
                     <p xml:lang="ar" xml:id="p_56.d1e1185">تابع ترجمة أبي بكر رضي الله عنه</p>
-                    <p xml:lang="ar" xml:id="p_57.d1e1188"> 
-               <tei:num value="7" xml:lang="ar" xml:id="num_1.d1e1254">٧</tei:num> 
-            </p>
+                    <p xml:lang="ar" xml:id="p_57.d1e1188"> <tei:num value="7" xml:lang="ar" xml:id="num_1.d1e1254">٧</tei:num> </p>
                     <p xml:lang="ar" xml:id="p_58.d1e1191">فتح العراق</p>
                     <p xml:lang="ar" xml:id="p_59.d1e1194">لم يكد ينتهي سيدنا أبو بكر رضي الله عنه من حروب الردة وجمع كلمة العرب على
                         الإسلام حتى قام بهمته العلياء بجيش الجيوش وينازل جبابرة الملوك في عقر دارهم
@@ -884,11 +751,7 @@
                         تكن الدعوة إلى الإسلام أمراً حتماً حتى تكون بمثابة الإكراه بل كان يخيرها
                         بينه وبين الجزية وهي أن تدفع في كل سنة مالاً قليلاً وتكون حرة في عباداتها
                         وتقاليدها على شروط مقررة في الشرع الشريف وهي في ذمة الله ورسوله لها ما
-                        للمسلمين وعليها ما عليهم فإن لم تقبل <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> الأمرين كان السيف هو الحكم الفصل
+                        للمسلمين وعليها ما عليهم فإن لم تقبل <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> الأمرين كان السيف هو الحكم الفصل
                         لأنها لم يبقَ لها عذر تعتذر به فانتدب أبو بكر رضي الله عنه البطل المغوار سيف
                         الله خالد بن الوليد المخزومي وأمره أن يسير إلى العراف ويبدأ بالأبله وكتب إلى
                         عياض بن غنم أن يقصد العراق أيضاً ويدخل من أعلاه ويسير حتى يلقى خالداً وكان
@@ -898,38 +761,9 @@
                         العراق حرصاً على منابع الثروة وأن يستنفرا من قاتل أهل الردة وأن لا يغزون
                         معهما مرتد حتى يرى رأيه لإناء كان يرى أن لا يستعان بمن ارتد على الغزو وكتب
                         أبو بكر على المثنى ومن معه ن يلحقا بخالد بالأبله فسار خالد حتى قارب الأبله
-                        والتقى بالمثنى ومن معه وكانوا <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d4"
-                    resp="#pers_TG"
-                    value="8000">ثمانية آلاف</num> مقاتل وكان مع خالد <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d2"
-                    resp="#pers_TG"
-                    value="10">عشرة</num> 
-               <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d4"
-                    resp="#pers_TG"
-                    value="1000">آلاف</num> مقاتل
-                        فكان الجيش <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="8">ثمانية</num> 
-               <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d2"
-                    resp="#pers_TG"
-                    value="10">عشر</num> ألفاً فقسمه على <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="3">ثلاث</num> فرق وسير الفرقتين أمامه وواعدهما
-                        الحفير وكان صاحبه عظيماً من عظماء الفرس اسمه <pb ed="shamela"
-                   n="n13-p16"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P375.xhtml"
-                   xml:id="pb_16.d1e1196"/> هرمز فلما سمع بخبر
+                        والتقى بالمثنى ومن معه وكانوا <num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="8000">ثمانية آلاف</num> مقاتل وكان مع خالد <num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="10">عشرة</num> <num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000">آلاف</num> مقاتل
+                        فكان الجيش <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="8">ثمانية</num> <num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="10">عشر</num> ألفاً فقسمه على <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاث</num> فرق وسير الفرقتين أمامه وواعدهما
+                        الحفير وكان صاحبه عظيماً من عظماء الفرس اسمه <pb ed="shamela" n="n13-p16" corresp="file:../epub/29676/OEBPS/xhtml/P375.xhtml" xml:id="pb_16.d1e1196"/> هرمز فلما سمع بخبر
                         خالد كتب إلى أزدشير ملك الفرس بالخبر وتعجل بأصحابه إلى الحفير فمال خالد
                         بلناس على كاظمة فسبقه هرمز إليها وقرن جيشه بالسلاسل كي لا يفروا وقد خالد
                         فنزل في جيشه وخرج هرمز ودعى خالداً إلى البراز واتفق مع أصحابه أن يغدروا به
@@ -941,11 +775,7 @@
                     <p xml:lang="ar" xml:id="p_61.d1e1203">ولما وصل كتاب هرمز إلى أزدشير بخبر خالد أمده بجيش عظيم يقوده قارن بن قريانس
                         فلقيه المنهزمون في الطريق فاجتمعوا ورجعوا معه ونزلوا بالثنى فسار إليه خالد
                         ولما التقى الجيشان خرج قارن يلب البراز ليدرك ثأر هرمز فبرز إليه فارس من
-                        المسلمين فقتله وحمل المسلمون عليهم فقتلوا منهم مقتلة عظيمة تبلغ <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d2"
-                    resp="#pers_TG"
-                    value="30">ثلاثين</num> ألفاً
+                        المسلمين فقتله وحمل المسلمون عليهم فقتلوا منهم مقتلة عظيمة تبلغ <num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="30">ثلاثين</num> ألفاً
                         سوى من غرق ومنعت المياه المسلمين من طلبهم ثم أخذ خالد الجزية من الفلاحين
                         وصيرهم ذمة وبعث بالفتح والأخماس إلى أبي بكر.</p>
                     <p xml:lang="ar" xml:id="p_62.d1e1206">وقعة الولجة</p>
@@ -957,10 +787,7 @@
                         وفر الأندرزعز منهزماً فمات عطشاً وأصاب خالد أبناء من بكر بن وائل فقتلهم فغضب
                         لهم قومهم من نصارى بكر وكاتبوا أزدشير ليساعدهم على قتال المسلمين فكتب إلى
                         بهمن جاذويه المنهزم أن ينضم بمن معه إليهم فلما جاءته الرسالة قدم أمامه
-                        قائداً اسمه جابان وذهب هو إلى أزدشير ليستشيره فوجده مريضاً فبقي عنده. <pb ed="shamela"
-                   n="n13-p17"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P376.xhtml"
-                   xml:id="pb_17.d1e1211"/> وقعة اللبس</p>
+                        قائداً اسمه جابان وذهب هو إلى أزدشير ليستشيره فوجده مريضاً فبقي عنده. <pb ed="shamela" n="n13-p17" corresp="file:../epub/29676/OEBPS/xhtml/P376.xhtml" xml:id="pb_17.d1e1211"/> وقعة اللبس</p>
                     <p xml:lang="ar" xml:id="p_64.d1e1214">وأما جابان فاجتمع عليه نصارى بكر بالليس فسار إليهم خالد وكانوا على طعامهم
                         فعاجلهم وهزمهم شر هزيمة.</p>
                     <p xml:lang="ar" xml:id="p_65.d1e1217">فتح الحيرة</p>
@@ -969,15 +796,7 @@
                         نحو ابن الأزادية فحاصر خالد قصورها ودعا أمراءها إلى الإسلام وأجلهم يوماً
                         وليلة فأبوا فقاتلهم المسلمون وافتتحوا الديور وأكثروا القتل فنادى القسيسون
                         والرهبان بأهل القصور ما يقتلنا غيركم فصاح أهل القصور قد قبلنا الجزية فصالحهم
-                        خالد عليها وقدرت بمائة <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d4"
-                    resp="#pers_TG"
-                    value="1000">ألف</num> و<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d2"
-                    resp="#pers_TG"
-                    value="90">تسعين</num> ألفاً واهدوا له هدايا فبعث بالفتح والهدايا
+                        خالد عليها وقدرت بمائة <num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000">ألف</num> و<num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="90">تسعين</num> ألفاً واهدوا له هدايا فبعث بالفتح والهدايا
                         إلى أبي بكر فلك يقبلها على أنها هدايا بل عدها لهم من الجزية.</p>
                     <p xml:lang="ar" xml:id="p_67.d1e1224">فلله ما اسمي هذه النفوس وما أحرصها على العدل تساق لأبي بكر رضي الله عنه التحف
                         العظيمة، والأموال الجسيمة، يهديها إليه هؤلاء الأعاجم عن طيب نفس واختيار من
@@ -991,20 +810,13 @@
                         الله عليه وسلم يتركون كون ما فيه شبهه، ويأخذون ما وضح حله وبذلك خضعت لهم
                         الملوك العظيمة ودانت لهم الأمم التي لم يكن يخطر في خلدانهم أنهم يستولون
                         عليها، فاللهم وفقنا للعمل بأوامر الدين والاقتداء بهؤلاء الأخيار الصادقين.
-                            <pb ed="shamela"
-                   n="n13-p18"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P377.xhtml"
-                   xml:id="pb_18.d1e1229"/>
+                            <pb ed="shamela" n="n13-p18" corresp="file:../epub/29676/OEBPS/xhtml/P377.xhtml" xml:id="pb_18.d1e1229"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_7.d1e1233">
                     <head xml:lang="ar" xml:id="head_7.d1e1235">الأسئلة والأجوبة</head>
                     <p xml:lang="ar" xml:id="p_69.d1e1238">أصحاب مجلة الحقائق. .</p>
-                    <p xml:lang="ar" xml:id="p_70.d1e1241">السلام عليكم ورحمة الله تعالى وبركاته وبعد فقد كنت راجعت <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> علماء السادة
+                    <p xml:lang="ar" xml:id="p_70.d1e1241">السلام عليكم ورحمة الله تعالى وبركاته وبعد فقد كنت راجعت <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> علماء السادة
                         الحنفية في حكم استعمال الماء الذي جلب لهذه الحاضرة من عين الفيجة فكان جوابه
                         الشك والتوقف لاعتقاده أن ممر الماء وما صرف عليه من الأموال مغصوب بغير وجه
                         شرعي وحيث أن أهالي دمشق نبذوا مياه الأنهر القديمة لقذارتها وأخذوا يستعملون
@@ -1018,50 +830,24 @@
                         هم مصرحون بحل استعماله متفقون عليه وإليك نصوص أئمتهم في ذلك قال شيخ الإسلام
                         برهان الدين أبو بكر المرغباني في كتابه شرح بداية المبتدئ وهو من أصحاب
                         الترجيح وكتابة هذا من أجل ما يعتمد عليه من كتب الحنفية: أعلم أن المياه أنواع
-                        الأول ماء البحار ولكل و<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">احد</num> من الناس فيه حق الشفة وسقي الأراضي والانتفاع بهذا
-                        الماء كالانتفاع بالشمس والقمر والهواء لا يمنع منه <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> على أي وجه شاء الثاني
+                        الأول ماء البحار ولكل و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> من الناس فيه حق الشفة وسقي الأراضي والانتفاع بهذا
+                        الماء كالانتفاع بالشمس والقمر والهواء لا يمنع منه <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> على أي وجه شاء الثاني
                         ماء الأودية العظام كسيحون وجيحون ودجلة والفرات وللناس فيه حق الشفة وسقي
-                        الأراضي الثالث الماء الذي دخل في المقاسم وحق الشفة ثابت فيه لكل و<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">احد</num> والأصل
-                        في ذلك قوله عليه الصلاة والسلام (الناس شركاء في <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="3">ثلاث</num> في الماء والكلام
-                        والنار) أهم ملخصاً وفي تنوير الأبصار مع شرحه الدر المختار ولكل و<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">احد</num> حقها (أي
+                        الأراضي الثالث الماء الذي دخل في المقاسم وحق الشفة ثابت فيه لكل و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> والأصل
+                        في ذلك قوله عليه الصلاة والسلام (الناس شركاء في <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3">ثلاث</num> في الماء والكلام
+                        والنار) أهم ملخصاً وفي تنوير الأبصار مع شرحه الدر المختار ولكل و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">احد</num> حقها (أي
                         الشفة) في كل ما لم يحرز بإناء أو حب (ج) أهم واقره ابن عابدين ومثله في غير
                         هذين الكتابين من الكتب المعتمدة وهو تصريح منهم بثبوت حق الشفة لكل إنسان في
                         كل نوع من أنواع المياه عدا الماء المحرز بالأماني ويدخل في هذا العموم ماء عين
                         الفيجة كما هو ظاهر ولا يؤثر في حل استعماله كونه جرى في أرض مغصوبة وعمر طريقة
-                        من مال مغصوب حيث أن حق الشفة ثابت فيه على كل حال هذا <pb ed="shamela"
-                   n="n13-p19"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P378.xhtml"
-                   xml:id="pb_19.d1e1249"/> إذا
+                        من مال مغصوب حيث أن حق الشفة ثابت فيه على كل حال هذا <pb ed="shamela" n="n13-p19" corresp="file:../epub/29676/OEBPS/xhtml/P378.xhtml" xml:id="pb_19.d1e1249"/> إذا
                         تحقق غصبه على أن هذا الماء لم يجر في مجراه إلا برضا أملاكه ملاكه وقد دفع لهم
                         من الدراهم مقابل مروره في أرضيهم مارضوا به والمال الذي صرف على عمارة هذا
                         الطريق ليس لمال المصادر بعينه بل هو من أموال الخزينة العمومية وهنا نرى من
                         اللازم تنبيه عامة مواطنينا إلى أن ينبذوا تلك المياه القديمة القذرة ويستعملوا
                         هذا الماء النقي الصافي الشرب والطبخ وما ماثلهما نرى ذلك من اللازم اللازب
                         سيما في مثل هذه الأيام التي أخذت تزداد فيها الأمراض وتنتشر دفع الله عن
-                        المسلمين المكارة وحفهم بألطافه الخفية. <pb ed="shamela"
-                   n="n13-p20"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P379.xhtml"
-                   xml:id="pb_20.d1e1251"/>
+                        المسلمين المكارة وحفهم بألطافه الخفية. <pb ed="shamela" n="n13-p20" corresp="file:../epub/29676/OEBPS/xhtml/P379.xhtml" xml:id="pb_20.d1e1251"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_8.d1e1255">
@@ -1069,11 +855,7 @@
                     <p xml:lang="ar" xml:id="p_73.d1e1260">أصحاب مجلة الحقائق. .</p>
                     <p xml:lang="ar" xml:id="p_74.d1e1263">قد شهدت رواية زهير الأندلسي التي قام بتمثيلها لفيف من غلمان المدرسة العثمانية
                         الدمشقية فدهشت لبراعة أولئك الطلبة المرد الممثلين الذين حازوا قصب السبق في
-                        مضمار التمثيل وقد افتتح الرواية <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> أساتذة المدرسة المذكورة عارف الشهابي
+                        مضمار التمثيل وقد افتتح الرواية <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> أساتذة المدرسة المذكورة عارف الشهابي
                         بخطاب أطال فيه بمدح التمثيل وبلغ به الغلو حتى قال أنه قد ورد في القرآن
                         العظيم والحديث الشريف الحث عليه واستشهد لذلك بقوله تعالى (فاعتبروا يا أولي
                         الأبصار) وقوله عليه الصلاة والسلام (إنما بعثت لأتمم مكارم الأخلاق) وفسر
@@ -1086,26 +868,15 @@
                         يأباها الدين والمرؤة لذلك استعظمت هذا التهجم من الشهابي على القرآن الكريم
                         والحديث النبوي الشريف وأنكرت ذلك في نفسي ثم توقفت عن الإنكار لأنه كان من
                         الحاضرين المستمعين طائفة من العلماء الأعلام الذي نقتدي بهم الخواص والعوام
-                        ولم ينكر <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> منهم ذلك الأمر على الشهابي فخطأت وقتئذٍ نفسي وقلت لو كان الأمر
-                        كما خطر لي لقام <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> هؤلاء العلماء الأفاضل ورد على القائل وبين الحقيقة للعوام
+                        ولم ينكر <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> منهم ذلك الأمر على الشهابي فخطأت وقتئذٍ نفسي وقلت لو كان الأمر
+                        كما خطر لي لقام <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> هؤلاء العلماء الأفاضل ورد على القائل وبين الحقيقة للعوام
                         المساكين الذين كانوا يصفقون لكل ما يسمعون ولا يعلمون.</p>
                     <p xml:lang="ar" xml:id="p_78.d1e1276">ثم أني حضرت صلاة الجمعة في الجامع الأموي فقام على منبره خطيبه المشهود له
                         بالفضل، المشهور بالتقى والصلاح الشيخ حسن أفندي الأسطواني فتلا خطبة طويلة
                         وعرض بتمثيل تلك الرواية فيها وقبحها ولام من قاموا بتمثيلها، وحذر الإسلام من
                         قبول تلك الخرافات، ونصحهم بتنزيه أولادهم عن أمثال هذه الخزعبلات، وخطأ من قال
                         أن التمثيل ورد الحث عليه في القرآن والحديث وأنه فرض الخ فلما سمعت من الخطيب
-                            <pb ed="shamela"
-                   n="n13-p21"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P380.xhtml"
-                   xml:id="pb_21.d1e1278"/> خطبته أخذتني
+                            <pb ed="shamela" n="n13-p21" corresp="file:../epub/29676/OEBPS/xhtml/P380.xhtml" xml:id="pb_21.d1e1278"/> خطبته أخذتني
                         الحيرة ووقعت في دهشة وقلت يا ترى من نصدق ومن نكذب؟ ومن نخطئ ومن نصوب؟ الخطيب
                         ومن يقول بقوله أم الشهابي ومن أقره على كلامه لذلك أتيت بعباراتي هذه أسطرها
                         على صفحات حقائقكم الموقوفة لخدمة الدين راجياً منكم ومن رجال العلم المحافظين
@@ -1122,10 +893,7 @@
                         السؤال ليطلع عليه علماء الدين ومن يرجع إليهم في مثل هذه المسائل رجين منهم أن
                         يكتبوا ما يظهر لهم في هذا الموضوع الديني وسننشر جوابنا عن ذلك مع سائر ما يرد
                         إلينا من الأجوبة في الإعداد الآتية إن شاء الله تعالى وفقنا الله جميعاً لخدمة
-                        دينه وألهمنا العمل بما يرضاه. <pb ed="shamela"
-                   n="n13-p22"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P381.xhtml"
-                   xml:id="pb_22.d1e1292"/>
+                        دينه وألهمنا العمل بما يرضاه. <pb ed="shamela" n="n13-p22" corresp="file:../epub/29676/OEBPS/xhtml/P381.xhtml" xml:id="pb_22.d1e1292"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_9.d1e1296">
@@ -1138,47 +906,24 @@
                         والعاملين عليها والمؤلفة قلوبهم وفي الرقاب والغارمين وفي سبيل الله وابن
                         السبيل) مسوقة للبيان لا للتقسيم وإن الواو بمثابة أو كأنه قيل والله أعلم إنما
                         الصدقات للفقراء أو المساكين الخ ومعنى ذلك أن الزكاة لا يجوز أن تخرج عن
-                        الأصناف ال<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="8">ثمانية</num> وممكن أن تدفع كلها الصنف و<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> سيما إذا كان أحوج من غيره فإن
+                        الأصناف ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="8">ثمانية</num> وممكن أن تدفع كلها الصنف و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> سيما إذا كان أحوج من غيره فإن
                         تخصيصه بها يصير مطلوباً كما أن المراد بقوله تعالى (وفي سبيل الله) الجهاد في
                         سبيل الله من أعداد المعدات والصرف على الغزاة ومن ذلك بناء الأساطيل على
                         التحقيق من المذهب.</p>
                     <p xml:lang="ar" xml:id="p_86.d1e1310">قال في الكبير ما نصه قال مالك رضي الله عنه اللام في قوله تعالى للفقراء لبيان
-                        المصرف لا للملك يعني ولو كانت للملك للزم عموم الأصناف ال<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="8">ثمانية</num> لأن الملك
+                        المصرف لا للملك يعني ولو كانت للملك للزم عموم الأصناف ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="8">ثمانية</num> لأن الملك
                         يكون لكل صنف منهم ثم قال وفي المجموعة آية الصدقة ليس فيها قسم بل أعلام
                         بأهلها فلذلك لو أعطيت لصنف أجزأ وقيده ابن عبد السلام بما عدا العامل وإلا فلا
                         معنى لدفع جميعها له ونص القطب الدردير في أقرب المسالك وندب إيثار المضطر
                         المحتاج على غيره بأن يخص بالإعطاء أو يزاد له فيه على غيره على حسب ما يقتضيه
                         الحال إذا المقصود سد الخلة لا تعميم الأصناف فلا يندب بل متى عطي لأي شخص
-                        موصوف بكونه من <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> الأصناف ال<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="8">ثمانية</num> كفى.</p>
+                        موصوف بكونه من <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> الأصناف ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="8">ثمانية</num> كفى.</p>
                     <p xml:lang="ar" xml:id="p_87.d1e1314">ونص الدسوقي عند قول الإمام خليل في بيان صرف الزكاة (ومجاهد وآلته ولوغنيا
                         كجاسوس لا سور ومركب) وهذا قول ابن بشير ومقابله لابن عبد الحكم فيجوز عنده عمل
                         الأسوار والمراكب منها ولم ينقل اللخمي غيره واستظهره في التوضيح قال ابن عبد
                         السلام وهو الصحيح ولذا اعترض المواق على المصنف بأنه تبع تشهير ابن بشير وقال
                         أنه لم ير المنع لغير ابن بشير فضلاً عن تشهيره وانتهى من البنانين هذه نصوص
-                        السادة المالكية <pb ed="shamela"
-                   n="n13-p23"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P382.xhtml"
-                   xml:id="pb_23.d1e1316"/> وبناء الأسطول
+                        السادة المالكية <pb ed="shamela" n="n13-p23" corresp="file:../epub/29676/OEBPS/xhtml/P382.xhtml" xml:id="pb_23.d1e1316"/> وبناء الأسطول
                         وإعداد معداته بل إذا نظرنا إلى الاضطرار وشدة الاحتياج نقول لمن وجبت عليه
                         الزكاة يستحب في حقك أن تدفع الزكاة لهذا الجانب لأن الضرورة إليه في هذا
                         الزمان أشد بأضعاف متضاعفة من غيره بل إذا نظرنا لمحيطنا نظر متبصر خالص النية
@@ -1195,31 +940,16 @@
                         أبناء السبيل ومن نفقة الاستعدادات في سبيل الله والغزاة ومن معاشات العاملين
                         عليها إلى غير ذلك وحيث كان من المقرر المعلوم عند عموم المذاهب إن كل من التزم
                         مذهباً من المذاهب لا ينبغي له أن يخرج عنه لغيره إلا عند الضرورة فيسوغ له ذلك
-                        فالعمل بمقتضى هذا الفقه يخاطب به كل أهل المذاهب ال<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="4">أربعة</num> للضرورة التامة
+                        فالعمل بمقتضى هذا الفقه يخاطب به كل أهل المذاهب ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربعة</num> للضرورة التامة
                         الظاهرة التي لا تحتاج إلى إيضاح فلا عذر للمتخلف عن ذلك ورجائي من مقام مشيخة
                         الإسلام أن توافق على هذه الفتوى بعد أن تقف على نصوصها المنقولة في محالها حتى
                         يقنع العموم ويعمل بمقتضاها.</p>
                     <p xml:lang="ar" xml:id="p_88.d1e1319">ولا يخفى ما في ذلك من الفوائد الكبرى لأسطول الإسلام ومعلوم أيضاً أن مشيخة
                         السلام ليست مشيخة السادات الحنفية بل مشيخة السادات المسلمين قاطبة فكل
-                        المذاهب ال<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="4">أربعة</num> لها حظ فيها وفتواها ترجع إليها كما أن خلافة الإسلام أيضاً لا
+                        المذاهب ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربعة</num> لها حظ فيها وفتواها ترجع إليها كما أن خلافة الإسلام أيضاً لا
                         تتقيد بقول دون قول في تدبير صوالح المسلمين بل كل قول في مذهب من المذاهب
-                        ال<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="4">أربعة</num> دعت الضرورة إليه إذا طابق الزمان والحال ولو كان ضعيفاً هو مذهبها
-                        ونسأل الله جل جلاله أن يلهمنا الرشد ويعلمنا التأويل ويفقهنا في الدين. <pb ed="shamela"
-                   n="n13-p24"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P383.xhtml"
-                   xml:id="pb_24.d1e1321"/> حرره صالح الشريف
+                        ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4">أربعة</num> دعت الضرورة إليه إذا طابق الزمان والحال ولو كان ضعيفاً هو مذهبها
+                        ونسأل الله جل جلاله أن يلهمنا الرشد ويعلمنا التأويل ويفقهنا في الدين. <pb ed="shamela" n="n13-p24" corresp="file:../epub/29676/OEBPS/xhtml/P383.xhtml" xml:id="pb_24.d1e1321"/> حرره صالح الشريف
                         التونسي</p>
                     <p xml:lang="ar" xml:id="p_89.d1e1324">(الحقائق)</p>
                     <p xml:lang="ar" xml:id="p_90.d1e1327">قرأنا هذه الرسالة وألسنتنا رطبة بالثناء على حضرة منشئها المصلح الكبير وقد
@@ -1228,10 +958,7 @@
                         فقده من قوة ومنعة، وليطلع القراء على ما لحضرة مؤلفها الفاضل من الأيادي
                         البيضاء على هذه الأمة وما حباه به مولاه من طول الباع وسعة الاطلاع فقد أفاد
                         الملة بهذا الفتوى وأجاد في تعليلها بما يطابق المنقول والمعقول أكثر الله في
-                        هذه الأمة أمثاله من المصلحين. <pb ed="shamela"
-                   n="n13-p25"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P384.xhtml"
-                   xml:id="pb_25.d1e1329"/>
+                        هذه الأمة أمثاله من المصلحين. <pb ed="shamela" n="n13-p25" corresp="file:../epub/29676/OEBPS/xhtml/P384.xhtml" xml:id="pb_25.d1e1329"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_10.d1e1333">
@@ -1263,10 +990,7 @@
                         الغايات وأرباب المآرب السافلة ومن لا يحسن أن يمسك قلماً، ومن يريد أن يتسلط
                         على الأمة في أعراضها وأموالها، ومن يود تقسيم الأمة وتخربها وإيقاع البغضاء
                         والشقاق بينها وغير ذلك من المفاسد التي تضر بالقريب وتطمع البعيد ظناً منهم أن
-                        الشعب جاهل غافل متهيء <pb ed="shamela"
-                   n="n13-p26"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P385.xhtml"
-                   xml:id="pb_26.d1e1346"/> لقبول الوساوس
+                        الشعب جاهل غافل متهيء <pb ed="shamela" n="n13-p26" corresp="file:../epub/29676/OEBPS/xhtml/P385.xhtml" xml:id="pb_26.d1e1346"/> لقبول الوساوس
                         والأباطيل وسخف القول:</p>
                     <p xml:lang="ar" xml:id="p_94.d1e1349">الصحف في غير هذه البلاد يتولى أمرها جماعة من عليه القوم وأصحاب الرأي فيهم ومن
                         المعروفين بحسن المبادئ ومكارم الخصال، وحبذا لو يكونوا في بلادنا صحف راقية
@@ -1276,23 +1000,12 @@
                         الخاصة والعامة إلا دبيب الفساد في الأخلاق وإذا فسدت الأخلاق في أمة فقد فسد
                         فيها كل شيء.</p>
                     <p xml:lang="ar" xml:id="p_95.d1e1353">اللهم الهم رجال الحكومة ملافاة هذا الخلل الطارئ حرصاً على أخلاق الأمة من
-                        شريان الفساد إليها أنك مجيب الدعاء. <pb ed="shamela"
-                   n="n13-p27"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P386.xhtml"
-                   xml:id="pb_27.d1e1355"/>
+                        شريان الفساد إليها أنك مجيب الدعاء. <pb ed="shamela" n="n13-p27" corresp="file:../epub/29676/OEBPS/xhtml/P386.xhtml" xml:id="pb_27.d1e1355"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_11.d1e1360">
                     <head xml:lang="ar" xml:id="head_11.d1e1362">الأمير عبد القادر والجمعية الماسونية</head>
-                    <p xml:lang="ar" xml:id="p_96.d1e1365">في سنة <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="6">ست</num> و<num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d2"
-                    resp="#pers_TG"
-                    value="80">ثمانين</num> دعي الأمير (عبد القادر) مع من دعي من ملوك أوربا ليحضر
+                    <p xml:lang="ar" xml:id="p_96.d1e1365">في سنة <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6">ست</num> و<num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="80">ثمانين</num> دعي الأمير (عبد القادر) مع من دعي من ملوك أوربا ليحضر
                         احتفال فتح ترعة السويس وبينما كان عائداً لسوريا عن طريق الإسكندرية اغتنمت
                         الجمعية الماسونية فرصة وجوده في ذلك القطر فأوقت إليه هيئة من أعضائها لتعرض
                         عليه المبادئ الماسونية وعندما ذكر الوفد المشار إليه فضائل الماسون وخدمتها في
@@ -1310,11 +1023,7 @@
                         الأمير في هذه الجمعية بمجرد القول وحيث أن وجود مثل هذه المواثيق المادية هي
                         أعظم دليل وأقوى برهان بيد كل من يريدان يثبت حجته فإنني أطالب كل من يدعي من
                         أفراد هذه الجمعية النظام الأمير بها بإبراز هذه الوثائق الراهنة مطبوعة نسخها
-                        على الحجر وما من <num xml:lang="ar"
-                    type="auto-markup"
-                    subtype="d1"
-                    resp="#pers_TG"
-                    value="1">أحد</num> يجهل خط الأمير وإمضائه هذا ما نطالب به من يفترون على
+                        على الحجر وما من <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> يجهل خط الأمير وإمضائه هذا ما نطالب به من يفترون على
                         الأمير والجمعية معاً الكذب والبهتان. وأما نحن فإننا نقول أن الأمير (عبد
                         القادر الذي اشتهر بالتقى وبصلابة الدين سيما وأنه كان يقيم الحدود الشرعية في
                         هذه البلاد السورية كما أقامها في وطنه لا يخالف الآيات القرآنية والأحاديث
@@ -1322,10 +1031,7 @@
                         بصرف النظر عن كون مبادئ هذه الجمعية حسنة أم سيئة فالشرع لا يسمح للمسلم أن
                         يدخل بها قبل معرفته حقائقها وقد قال الله تعالى (يا ايها الذين منوا ألا
                         تتخذوا بطانة من دونكم) الآية وقوله جل شنه (لا تجد قوماً يؤمنون بالله واليوم
-                        الآخر يوادون من حاد الله <pb ed="shamela"
-                   n="n13-p28"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P387.xhtml"
-                   xml:id="pb_28.d1e1373"/> ورسول ولو كانوا
+                        الآخر يوادون من حاد الله <pb ed="shamela" n="n13-p28" corresp="file:../epub/29676/OEBPS/xhtml/P387.xhtml" xml:id="pb_28.d1e1373"/> ورسول ولو كانوا
                         آباءهم الآية).</p>
                     <p xml:lang="ar" xml:id="p_99.d1e1376">وقال رسول عليه الصلاة والسلام: (ليس منا من عمل بسنة غيرنا رواه ابن عباس)
                         وقال: (ليس منا من تشبه بغيرنا) رواه بن عمرو رضي الله عنه وأمثال هذه الآيات
@@ -1338,10 +1044,7 @@
                         بسلك الجمعية الماسونية أن يرجعوا عن غيهم أو يأتوا لنا ببرهان من البراهين
                         الآنفة (قل هاتوا برهانكم إن كنتم صادقين).</p>
                     <p xml:lang="ar" xml:id="p_100.d1e1380">دمشق</p>
-                    <p xml:lang="ar" xml:id="p_101.d1e1383">ابن الأمير محمد سعيد <pb ed="shamela"
-                   n="n13-p29"
-                   corresp="file:../epub/29676/OEBPS/xhtml/P388.xhtml"
-                   xml:id="pb_29.d1e1385"/>
+                    <p xml:lang="ar" xml:id="p_101.d1e1383">ابن الأمير محمد سعيد <pb ed="shamela" n="n13-p29" corresp="file:../epub/29676/OEBPS/xhtml/P388.xhtml" xml:id="pb_29.d1e1385"/>
                     </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_12.d1e1389">
@@ -1453,10 +1156,7 @@
                             <seg xml:lang="ar" xml:id="seg_146.d1e1633"> سيول الشقا في القوم فليتدبروا</seg>
                         </l>
                     </lg>
-                    <p xml:lang="ar" xml:id="p_103.d1e1638">عن الرأي العام <pb ed="shamela"
-                   n=""
-                   corresp="file:../epub/29676/OEBPS/xhtml/P390.xhtml"
-                   xml:id="pb_30.d1e1640"/>
+                    <p xml:lang="ar" xml:id="p_103.d1e1638">عن الرأي العام <pb ed="shamela" n="" corresp="file:../epub/29676/OEBPS/xhtml/P390.xhtml" xml:id="pb_30.d1e1640"/>
                     </p>
                 </div>
             </body>
