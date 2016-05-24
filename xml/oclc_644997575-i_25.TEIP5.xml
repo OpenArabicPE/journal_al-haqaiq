@@ -66,7 +66,7 @@
                                 <placeName xml:lang="ar">دمشق</placeName>
                                 <placeName xml:lang="en">Damascus</placeName>
                             </pubPlace>
-                     <date when="1913-01-09" calendar="cal_gregorian" datingMethod="cal_gregorian"/><date when="1913-01-09" calendar="cal_islamic" datingMethod="cal_islamic" when-custom="1331-01-30"/><date when="1913-01-09" calendar="cal_ottomanfiscal" datingMethod="cal_ottomanfiscal" when-custom="1328-10-27"/>
+                     <date when="1913-01-09" calendar="#cal_gregorian" datingMethod="#cal_gregorian"/><date when="1913-01-09" calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1331-01-30"/><date when="1913-01-09" calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1328-10-27"/>
                   </imprint>
                </monogr>
                <idno type="oclc" xml:lang="en">644997575</idno>
@@ -109,7 +109,7 @@
       <profileDesc xml:lang="en">
             <!-- as we deal with sources from an area and period which also used non-Latin scripts and preferred a number of calenders over the Gregorian, this should be declared here -->
             <calendarDesc xml:lang="en">
-                <calendar xml:id="cal_gregorian" xml:lang="en">
+                <calendar xml:id="#cal_gregorian" xml:lang="en">
                     <p xml:lang="en">Following the hegemonial approach of standards rooted in the
                         English language, the Gregorian calendar is presumed as the norm and must
                         not be specified.</p>
@@ -120,7 +120,7 @@
                             Sunday</date>, <date when="1908-03-05" xml:lang="en">5 Mar 1908,
                             Thursday</date>.</p>
                 </calendar>
-                <calendar xml:id="cal_islamic" xml:lang="en">
+                <calendar xml:id="#cal_islamic" xml:lang="en">
                     <p xml:lang="en">Islamic <hi xml:lang="en">hijrī</hi> calendar: lunar calendar
                         beginning the Year with 1 Muḥarram. Dates differ between locations as the
                         beginning of the month is based on sightings of the new moon.</p>
@@ -128,7 +128,7 @@
                             Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1908-03-05" when-custom="1326-02-01" xml:lang="en">1 Ṣaf 1326,
                             Thursday</date>.</p>
                 </calendar>
-                <calendar xml:id="cal_julian" xml:lang="en">
+                <calendar xml:id="#cal_julian" xml:lang="en">
                     <p xml:lang="en">Reformed Julian calendar beginning the Year with 1 January. In
                         the Ottoman context usually referred to as <hi xml:lang="en">rūmī</hi>.
                         Arabic newspapers usually labelled this calendar as <hi xml:lang="en">sharqī</hi>.</p>
@@ -145,7 +145,7 @@
                             Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian" when="1908-03-05" when-custom="1908-02-21" xml:lang="en">21 Shub 1908,
                             Thursday</date>.</p>
                 </calendar>
-                <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
+                <calendar xml:id="#cal_ottomanfiscal" xml:lang="en">
                     <p xml:lang="en">Ottoman fiscal calendar: a lunosolar calendar. It is based on
                         the Old Julian calendar beginning the Year with 1 March. Introduced as
                         fiscal calendar in 1676 and in the Ottoman context usually referred to as
