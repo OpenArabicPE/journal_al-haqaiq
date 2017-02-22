@@ -68,8 +68,8 @@
                             </pubPlace>
                             <date when="1910-09-05" calendar="#cal_gregorian" datingMethod="#cal_gregorian"/><date when="1910-09-05" calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1328-08-29"/><date when="1910-09-05" calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1326-06-23"/>
                         </imprint>
-                        <biblScope unit="volume" n="1"/>
-                        <biblScope unit="issue" n="2"/>
+                        <biblScope from="1" to="1" unit="volume"/>
+                        <biblScope from="2" to="2" unit="issue"/>
                         <biblScope unit="page" from="33" to="72"/>
                     </monogr>
                     <idno type="oclc" xml:lang="en">644997575</idno>
@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><tei:change when="2017-02-23" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change>
          <change when="2016-05-23" who="#pers_TG">Added page breaks and structural mark-up. Added automated page numbers as <att>n</att>s and <att>ed</att>="print" for every<gi>pb</gi> that was not of <att>ed</att>="shamela". Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile. Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()". </change>
          <change when="2016-05-23" who="#pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change>
          <change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change>
@@ -439,18 +439,18 @@
                             <date when="1910-09-05" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e923">٥</tei:num> 
                                 -  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e926">٩</tei:num>  -  <tei:num value="1910" xml:lang="ar" xml:id="num_1.d1e929">١٩١٠</tei:num> 
                      </date>
-                            <biblScope n="2" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="2" xml:lang="ar" xml:id="num_1.d1e935">٢</tei:num> 
-                     </biblScope>
-                            <biblScope unit="page" from="33" to="72" xml:id="biblScope_2.d1e508"/>
+                            
+                            
                         </imprint>
-                    </monogr>
+                    <biblScope from="2" to="2" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="2" xml:lang="ar" xml:id="num_1.d1e935">٢</tei:num> 
+                     </biblScope><biblScope unit="page" from="33" to="72" xml:id="biblScope_2.d1e508"/></monogr>
                 </biblStruct>
             </div>
         </front>
         <body xml:lang="ar" xml:id="body_1.d1e515">
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                    <biblScope n="2" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
+                    <biblScope from="2" to="2" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
                          <tei:num value="2" xml:lang="ar" xml:id="num_1.d1e954">٢</tei:num> 
                </biblScope>
                     <date when="1910-09-05" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e960">٥</tei:num>  -  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e963">٩</tei:num>  -

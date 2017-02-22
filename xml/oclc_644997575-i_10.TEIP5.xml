@@ -68,8 +68,8 @@
                             </pubPlace>
                             <date when="1911-04-30" calendar="#cal_gregorian" datingMethod="#cal_gregorian"/><date when="1911-04-30" calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329-05-01"/><date when="1911-04-30" calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1327-02-17"/>
                         </imprint>
-                        <biblScope unit="volume" n="1"/>
-                        <biblScope unit="issue" n="10"/>
+                        <biblScope from="1" to="1" unit="volume"/>
+                        <biblScope from="10" to="10" unit="issue"/>
                         <biblScope unit="page" from="357" to="396"/>
                     </monogr>
                     <idno type="oclc" xml:lang="en">644997575</idno>
@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><change when="2016-05-23" who="#pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><tei:change when="2017-02-23" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on
@@ -438,17 +438,17 @@
                             </pubPlace>
                             <date when="1911-04-30" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="30" xml:lang="ar" xml:id="num_1.d1e946">٣٠</tei:num> 
                                 -  <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e949">٤</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e952">١٩١١</tei:num> </date>
-                            <biblScope n="9" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e958">٩</tei:num> </biblScope>
-                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
+                            
+                            
                         </imprint>
-                    </monogr>
+                    <biblScope from="9" to="9" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e958">٩</tei:num> </biblScope><biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/></monogr>
                 </biblStruct>
             </div>
         </front>
         <body xml:lang="ar" xml:id="body_1.d1e515">
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                    <biblScope n="9" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
+                    <biblScope from="9" to="9" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
                          <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e977">٩</tei:num> </biblScope>
                     <date when="1911-04-30" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="30" xml:lang="ar" xml:id="num_1.d1e983">٣٠</tei:num>  -  <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e986">٤</tei:num>  -
                          <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e989">١٩١١</tei:num> </date>
@@ -685,7 +685,7 @@
                     أحبارهم ورهبانهم مع أن بيننا وبينهم بون كبير فإن أولئك يحسون بوطئة تلك السلطة
                     ولا سلطة في الدين إلا العلم.</p>
                 <p xml:lang="ar" xml:id="p_52.d1e675">وها هو اليوم قد قام ينتصر للزنادقة لينال من
-                    علماء المسلمين فنشر <ref target="../../digital-muqtabas/xml/oclc_4770057679-i_57.TEIP5.xml#div_2.d1e1389" xml:id="ref_5.d1e1105">في <bibl xml:id="bibl_2.d1e1107"><title level="j" xml:id="title_11.d1e1108">مقتبس</title>ه الشهري في <biblScope unit="issue" n="10" xml:id="biblScope_7.d1e1111">الجزء العاشر</biblScope> في <biblScope unit="volume" n="5" xml:id="biblScope_8.d1e1114">المجلد الخامس</biblScope></bibl></ref> مقالة بقلمه ترجم فيها <title level="m" xml:id="title_12.d1e1117">كتاب الدرر الكامنة</title> في أعيان ال<num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100">ماية</num> الثامنة لحافظ عصره
+                    علماء المسلمين فنشر <ref target="../../digital-muqtabas/xml/oclc_4770057679-i_57.TEIP5.xml#div_2.d1e1389" xml:id="ref_5.d1e1105">في <bibl xml:id="bibl_2.d1e1107"><title level="j" xml:id="title_11.d1e1108">مقتبس</title>ه الشهري في <biblScope from="10" to="10" unit="issue" xml:id="biblScope_7.d1e1111">الجزء العاشر</biblScope> في <biblScope from="5" to="5" unit="volume" xml:id="biblScope_8.d1e1114">المجلد الخامس</biblScope></bibl></ref> مقالة بقلمه ترجم فيها <title level="m" xml:id="title_12.d1e1117">كتاب الدرر الكامنة</title> في أعيان ال<num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100">ماية</num> الثامنة لحافظ عصره
                     ونابغة دهره العلامة <persName xml:id="persName_10.d1e1120">ابن حجر العسقلاني</persName>_ابتدء فيها بالكلام
                     على ترتيب الكتاب وتراجمه ثم قال (<quote xml:id="quote_1.d1e1123">ومن أعظم ما يلفت نظرك في هذا الكتاب روح
                         التعصب التي كانت مستحوذة في ذاك العصر أيام كان يقتل كل من يخالف رأي الجمهور
@@ -1414,7 +1414,7 @@
             <pb ed="shamela" n="n9-p26" corresp="file:../epub/29676/OEBPS/xhtml/P265.xhtml" xml:id="pb_24.d1e1829"/>
             <div type="article" xml:lang="ar" xml:id="div_8.d1e1833">
                 <head xml:lang="ar" xml:id="head_8.d1e1835">الرسالة</head>
-                <p xml:lang="ar" xml:id="p_135.d1e1838">جاء في <bibl xml:id="bibl_4.d1e2362"><biblScope unit="issue" n="682" xml:id="biblScope_9.d1e2363">العدد  <tei:num value="682" xml:lang="ar" xml:id="num_1.d1e2441">٦٨٢</tei:num> </biblScope> من <title level="j" xml:id="title_22.d1e2366">جريدة المفيد</title> الغراء
+                <p xml:lang="ar" xml:id="p_135.d1e1838">جاء في <bibl xml:id="bibl_4.d1e2362"><biblScope from="682" to="682" unit="issue" xml:id="biblScope_9.d1e2363">العدد  <tei:num value="682" xml:lang="ar" xml:id="num_1.d1e2441">٦٨٢</tei:num> </biblScope> من <title level="j" xml:id="title_22.d1e2366">جريدة المفيد</title> الغراء
                         مقالة لسائح في بعلبك</bibl> انتقد كاتبها مجلة <title level="j" ref="oclc:644997575">الحقائق</title> لأنها
                     ردت على <persName xml:id="persName_21.d1e2373">الشيخ جمال أفندي القاسمي</persName>
                         و<persName xml:id="persName_22.d1e2376">المغربي</persName> وأمثالهم من الباحثين ولم يكن انتقاد بطريقة

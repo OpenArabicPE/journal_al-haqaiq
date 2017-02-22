@@ -68,8 +68,8 @@
                             </pubPlace>
                             <date when="1911-02-01" calendar="#cal_gregorian" datingMethod="#cal_gregorian"/><date when="1911-02-01" calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329-02-01"/><date when="1911-02-01" calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1326-11-19"/>
                         </imprint>
-                        <biblScope unit="volume" n="1"/>
-                        <biblScope unit="issue" n="7"/>
+                        <biblScope from="1" to="1" unit="volume"/>
+                        <biblScope from="7" to="7" unit="issue"/>
                         <biblScope unit="page" from="235" to="274"/>
                     </monogr>
                     <idno type="oclc" xml:lang="en">644997575</idno>
@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc><change when="2016-05-23" who="#pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc><tei:change when="2017-02-23" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change when="2016-02-27" who="#pers_TG">Created this file as facsimile edition. The

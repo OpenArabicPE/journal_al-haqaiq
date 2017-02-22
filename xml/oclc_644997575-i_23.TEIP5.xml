@@ -183,7 +183,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc><change when="2016-05-23" who="#pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2017-02-23" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28">Corrected the file's URL and <att>xml:id</att> on <gi>TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="#pers_TG" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en">Divided the <gi xml:lang="en">body</gi> into a <gi xml:lang="en">group</gi> of <gi xml:lang="en">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi xml:lang="en">p</gi>s divided by a <gi xml:lang="en">gap</gi> to <gi xml:lang="en">l</gi> of
@@ -211,17 +211,17 @@
                                 <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
                             </pubPlace>
                            <date when="1912-05-17" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="17" xml:lang="ar" xml:id="num_1.d1e544">١٧</tei:num>  -  <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e547">٥</tei:num>  -  <tei:num value="1912" xml:lang="ar" xml:id="num_1.d1e550">١٩١٢</tei:num> </date>
-                           <biblScope n="22" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="22" xml:lang="ar" xml:id="num_1.d1e556">٢٢</tei:num> </biblScope>
-                           <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
+                           
+                           
                         </imprint>
-                     </monogr>
+                     <biblScope from="22" to="22" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="22" xml:lang="ar" xml:id="num_1.d1e556">٢٢</tei:num> </biblScope><biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/></monogr>
                   </biblStruct>
                </div>
             </front>
             <body xml:lang="ar" xml:id="body_1.d1e515">
                 <head xml:lang="ar" xml:id="head_1.d1e517">
                     <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                        <biblScope n="22" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="22" xml:lang="ar" xml:id="num_1.d1e575">٢٢</tei:num> </biblScope>
+                        <biblScope from="22" to="22" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد  <tei:num value="22" xml:lang="ar" xml:id="num_1.d1e575">٢٢</tei:num> </biblScope>
                         <date when="1912-05-17" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="17" xml:lang="ar" xml:id="num_1.d1e581">١٧</tei:num>  -  <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e584">٥</tei:num>  -  <tei:num value="1912" xml:lang="ar" xml:id="num_1.d1e587">١٩١٢</tei:num> </date>
                     </bibl>
                 </head>

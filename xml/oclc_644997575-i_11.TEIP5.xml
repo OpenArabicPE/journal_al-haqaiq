@@ -68,8 +68,8 @@
                             </pubPlace>
                             <date when="1911-05-30" calendar="#cal_gregorian" datingMethod="#cal_gregorian"/><date when="1911-05-30" calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329-06-01"/><date when="1911-05-30" calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when-custom="1327-03-17"/>
                         </imprint>
-                        <biblScope unit="volume" n="1"/>
-                        <biblScope unit="issue" n="11"/>
+                        <biblScope from="1" to="1" unit="volume"/>
+                        <biblScope from="11" to="11" unit="issue"/>
                         <biblScope unit="page" from="397" to="438"/>
                     </monogr>
                     <idno type="oclc" xml:lang="en">644997575</idno>
@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc>
+        <revisionDesc><tei:change when="2017-02-23" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change>
             <change when="2016-05-23" who="#pers_TG">Added some page breaks.</change><change when="2016-05-23" who="#pers_TG">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi>tei:num</gi>and <att>xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG">Added <tei:gi>graphic</tei:gi> for 42 pages
                 with references to digital images at HathiTrust.</tei:change>
@@ -447,15 +447,15 @@
                             </pubPlace>
                             <date when="1911-05-30" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="30" xml:lang="ar" xml:id="num_1.d1e951">٣٠</tei:num> 
                                 -  <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e954">٥</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e957">١٩١١</tei:num> </date>
-                            <biblScope n="10" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e963">١٠</tei:num> </biblScope>
-                            <biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/>
+                            
+                            
                         </imprint>
-                    </monogr>
+                    <biblScope from="10" to="10" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e963">١٠</tei:num> </biblScope><biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/></monogr>
                 </biblStruct>
             </div>
         </front>
         <body xml:lang="ar" xml:id="body_1.d1e515">
-            <head xml:lang="ar" xml:id="head_1.d1e517"> <bibl xml:lang="ar" xml:id="bibl_1.d1e519"> <biblScope n="10" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e982">١٠</tei:num>
+            <head xml:lang="ar" xml:id="head_1.d1e517"> <bibl xml:lang="ar" xml:id="bibl_1.d1e519"> <biblScope from="10" to="10" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e982">١٠</tei:num>
                 </biblScope> <date when="1911-05-30" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: <tei:num value="30" xml:lang="ar" xml:id="num_1.d1e988">٣٠</tei:num> - <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e991">٥</tei:num> - <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e994">١٩١١</tei:num> </date> </bibl> </head>
             <pb ed="shamela" n="n10-p1" corresp="file:../epub/29676/OEBPS/xhtml/P269.xhtml" xml:id="pb_1.d1e529"/>
             <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
@@ -481,8 +481,8 @@
             <div type="article" xml:lang="ar" xml:id="div_3.d1e599">
                 <head xml:lang="ar" xml:id="head_3.d1e601">الدين النصيحة</head>
                 <p xml:lang="ar" xml:id="p_32.d1e604">تحريم المتعة</p>
-                <p xml:lang="ar" xml:id="p_33.d1e607">تابع <ref>لما جاء في <bibl><biblScope unit="issue" n="10">الجزء العاشر</biblScope>
-                    <biblScope unit="page" n="363">ص <tei:num value="363" xml:lang="ar" xml:id="num_1.d1e1080">٣٦٣</tei:num></biblScope></bibl></ref> </p>
+                <p xml:lang="ar" xml:id="p_33.d1e607">تابع <ref>لما جاء في <bibl><biblScope from="10" to="10" unit="issue">الجزء العاشر</biblScope>
+                    <biblScope from="363" to="363" unit="page">ص <tei:num value="363" xml:lang="ar" xml:id="num_1.d1e1080">٣٦٣</tei:num></biblScope></bibl></ref> </p>
                 <p xml:lang="ar" xml:id="p_34.d1e610">الثاني مما استدل به مؤلف الرسالة على ما زعمه من حل المتعة ما رواه البخاري عن عبد الله بن مسعود رضي الله عنه أنه قال كنا نغزو مع رسول الله صلى الله عليه وسلم وليس لنا شيء فقلنا ألا نستخصي فنهانا عن ذلك ثم رخص لنا أن ننكح المرأة بالثوب ثم قرأ علينا (يا أيها الذين آمنوا لا تحرموا طيبات ما أحل الله لكم ولا تعتدوا إن الله لا يحب المعتدين) وذكر مؤلف الرسالة غير هذا من الأحاديث التي تقاربه في المعنى وزعم أنها متواترة. . والجواب على ذلك أولاً: أن الأحاديث التي ذكرها ليست متواترة كما ادعى أن للمتوتر شروط لم تتوفر إلا في بعض أحاديث معروفة كما هو مقرر في محلة وليس ما ذكره منها. وثانياً: أن ما نقله عن البخاري من أن ابن مسعود قرأ (يا أيها الذين آمنوا لا تحرموا طيبات ما أحل اله لكم) الآية لا يفيده شيئاً إذ الحديث المذكور لم يذكروه في معرض الاستدلال على حل المتعة كما أوهمه صنيع مؤلف الرسالة بل أورده البخاري في باب ما يكره من. . . . . والآية المذكورة إنما وردت في نهي المؤمنين عن الخصاء وعن تحريم ما أحل لهم من الطيبات قال القسطلاني قال الراغب لما ذكر الله تعالى حلال الذين قالوا أنا نصارى ذكر منهم قسيسين ورهباناً فمدحهم بذلك كانت الرهبانية قد حرموا على أنفسهم طيبات ما أحل الله لهم ورأى الله قوماً تشوقوا إلى حالهم وهموا أن يقتدوا بهم فنهاهم عن ذلك.</p>
                 <p xml:lang="ar" xml:id="p_35.d1e613">ثالثاً: إن الأحاديث التي ساقها مؤلف الرسالة لا يصلح له أن يستدل بها على مدعاه لأن غاية ما يفهم منها أن المتعة كانت مباحة في أول افسلام ونحن لا ننكره بل نقول قد نسخ جميع ذلك بما صح عن سيدنا رسول الله صلى الله عليه وسلم من الأحاديث الشريفة روى مسلم في صحيحه عن رسول الله صلى الله عليه وسلم أنه قال يا أيها الناس إني قد كنت أذنت لكم في الاستمتاع من النساء وأن الله قد حرم ذلك إلى يوم القيامة فمن كان عنده منهن شيء فليخل سبيله ولا تأخذوا مما آتيتموهن شيئاً وفي صحيح البخاري في باب نهي رسول الله صلى الله عليه وسلم عن نكاح المتعة آخراً قال وبينه (أي حكم المتعة) علي عن <pb ed="shamela" n="n10-p6" corresp="file:../epub/29676/OEBPS/xhtml/P274.xhtml" xml:id="pb_6.d1e615"/> لنبي صلى الله عليه وسلم أنه منسوخ وروى مسلم أيضاً عن أبي نصرة قال كنت عند جابر بن عبد الله فأتاه آت فقال ابن عباس وابن الزبير اختلفا في المتعتين فقال جابر فعلناهما مع رسول الله صلى الله عليه وسلم ثم نهانا عنهما عمر فلم نعد لهما أه.</p>
                 <p xml:lang="ar" xml:id="p_36.d1e619">وليس لقائل أن يقول أن هذا الحديث مصرح بأن النهي إنما كان من عمر رضي الله عنه لا من رسول الله صلى الله عليه وسلم لأنا نقول أن عمر رضي الله عنه لم ينه عن ذلك من تلقاء نفسه بل إنما بين نهي رسول الله صلى الله عليه وسلم عن المتعة كما جاء في التصريح بذلك في بعض الروايات روى ابن ماجة في سننه عن ابن عمر رضي الله عنهما قال لما ولي عمر بن الخطاب خطب بالناس فقال إن رسول الله صلى الله عليه وسلم أذن لنا في المتعة ثلاثاً ثم حرمها والله لا أعلم <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1">أحد</num> يتمتع وهو محصن إلا رجمته بالحجارة إلا أن يأتيني بأربعة يشهدون أن رسول الله صلى الله عليه وسلم أحلها بعد إذا حرمها أه.</p>
