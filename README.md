@@ -52,7 +52,7 @@ The purpose and scope of the project is to provide an open, collaborative, refer
 
 # Digital imagery
 
-Digital files are available from [HathiTrust (vol. 1)](http://hdl.handle.net/2027/njp.32101036074001) and it seems that the Bayerische Staatsbibliothek in Munich sells [PDFs of vols. 1-3](https://opacplus.bsb-muenchen.de/metaopac/hitList.do?methodToCall=backToCompleteList&identifier=100_SOLR_SERVER_959229700)
+Digital files are available from [HathiTrust (vol. 1)](http://hdl.handle.net/2027/njp.32101036074001) and it seems that the Bayerische Staatsbibliothek in Munich sells [PDFs of vols. 1-3](https://opacplus.bsb-muenchen.de/metaopac/search.do?methodToCall=volumeSearch&dbIdentifier=100&forward=success&catKey=8827480&isPeriodical=N)
 
 ## [HathiTrust](https://www.hathitrust.org/)
 
