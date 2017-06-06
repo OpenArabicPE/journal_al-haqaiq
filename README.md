@@ -1,24 +1,24 @@
 ---
 title: "Readme: Digial Haqāʾiq"
 author: Till Grallert
-date: 2016-05-23 16:30:21 +0300
+date: 2017-06-07 01:00:22 +0200
 ---
 
 This project is inspired by and follows the principles of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas).
 
-If you just want to browse the edition in a more human-readable view, start [here](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile.
+If you just want to browse the edition in a more human-readable view, start [here](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ).
 
 **UPDATE 2016-05-23**: apparently HathiTrust decided to remove the images from the public domain. I have inquired with them about the reasons for this removal but have not yet received a reply.
 
 # Scope and deliverables of the project
 
-The purpose and scope of the project is to provide an open, collaborative, referencable, and scholarly digital edition of Muḥammad Kurd ʿAlī's journal *al-Muqtabas*, which includes the full text, semantic mark-up, bibliographic metadata, and digital imagery. All files but the digital facsimiles are hosted on [GitHub](https://www.github.com).
+The purpose and scope of the project is to provide an open, collaborative, referencable, and scholarly digital edition of ʿAbd al-Qādir al-Iskandarānī's journal *al-Ḥaqāʾiq*, which includes the full text, semantic mark-up, bibliographic metadata, and digital imagery. All files but the digital facsimiles are hosted on [GitHub](https://www.github.com).
 
 - Current deliverables:
-    - Full text of 34 issues with semantic mark-up as TEI P5 XML with its own schema.
+    - Full text of 34 issues with semantic mark-up as TEI P5 XML with its [own schema](https://github.com/OpenArabicPE/OpenArabicPE_ODD).
     - The text of digital edition links to open-access digital facsimiles if available (see below).
     - [A rudimentary webview](https://github.com/tillgrallert/tei-boilerplate-arabic-editions), based on [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/), shows digital text and images side by side. It provides an automatically generated table of content and links to the bibliographic metadata of every article.
-    - Bibliographic metadata for every article in *al-Ḥaqāʾiq* is provided as individual BibTeX file in the sub-folder `metadata`. The metadata includes a URL pointing to the webview of this item.
+    - Bibliographic metadata for every article in *al-Ḥaqāʾiq* is provided as individual BibTeX and MODS files in the sub-folder `metadata`. The metadata includes a URL pointing to the webview of this item.
 
 # The journal *al-Ḥaqāʾiq*
 
