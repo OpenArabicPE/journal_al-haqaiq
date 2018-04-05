@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
- <?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_11" xml:lang="" next="oclc_644997575-i_12" prev="oclc_644997575-i_10">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_11" xml:lang="" next="oclc_644997575-i_12" prev="oclc_644997575-i_10">
     <teiHeader xml:lang="en" xml:id="teiHeader_1.d1e7">
         <fileDesc xml:lang="en" xml:id="fileDesc_1.d1e9">
             <titleStmt xml:lang="en" xml:id="titleStmt_1.d1e11">
@@ -21,6 +19,10 @@
                 <respStmt xml:lang="en" xml:id="respStmt_2.d1e47">
                     <resp xml:lang="en" xml:id="resp_2.d1e49">TEI edition</resp>
                     <persName xml:id="pers_TG" xml:lang="en">Till Grallert</persName>
+                </respStmt>
+                <respStmt>
+                    <resp xml:lang="en">Added page breaks</resp>
+                    <persName xml:id="pers_XK">Xaver Kretzschmar</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt xml:lang="en" xml:id="publicationStmt_1.d1e57">
@@ -188,7 +190,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447">n</tei:att> to <tei:att xml:id="att_6.d1e451">from</tei:att> and <tei:att xml:id="att_6.d1e454">to</tei:att>with identical values.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-04-05" who="#pers_TG" xml:id="d2e598">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><change when="2018-04-05" who="#pers_TG" xml:id="d2e584">Added automated page numbers as <att>n</att>s and <att>ed</att>="print" for every<gi>pb</gi> that was not of <att>ed</att>="shamela".</change><tei:change when="2018-04-05" who="#pers_TG" xml:id="d2e579">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><change when="2018-04-05" who="#pers_TG" xml:id="d2e564">Added automated page numbers as <att>n</att>s and <att>ed</att>="print" for every<gi>pb</gi> that was not of <att>ed</att>="shamela".</change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447">n</tei:att> to <tei:att xml:id="att_6.d1e451">from</tei:att> and <tei:att xml:id="att_6.d1e454">to</tei:att>with identical values.</tei:change>
             <change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e458">Added some page breaks.</change><change when="2016-05-23" who="#pers_TG" xml:id="change_2.d1e460">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e462">tei:num</gi>and <att xml:id="att_6.d1e465">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_3.d1e468">Added automated <att xml:id="att_7.d1e470">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e473">tei:text</gi>and had no existing <att xml:id="att_8.d1e476">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_4.d1e479">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e481">num</tei:gi> with <tei:att xml:id="att_9.d1e484">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG" xml:id="change_4.d1e487">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG" xml:id="change_4.d1e490">Added <tei:gi xml:id="gi_10.d1e492">graphic</tei:gi> for 42 pages
                 with references to digital images at HathiTrust.</tei:change>
@@ -427,7 +429,7 @@
         </tei:surface>
     </tei:facsimile>
     <text xml:id="text" xml:lang="ar" type="issue" n="i_10">
-        <pb ed="print" n="397" facs="#facs_407" xml:id="pb_1.d1e912"/>
+        <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="397" facs="#facs_407" xml:id="pb_1.d1e912"/>
         <front xml:lang="ar" xml:id="front_1.d1e465">    
             <div type="masthead" xml:lang="ar" xml:id="div_1.d1e467">
                 <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
@@ -459,19 +461,13 @@
         <body xml:lang="ar" xml:id="body_1.d1e515">
             <head xml:lang="ar" xml:id="head_1.d1e517">
                 <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                    <biblScope from="10" to="10" unit="issue" xml:lang="ar"
-                        xml:id="biblScope_3.d1e521">العدد <tei:num value="10" xml:lang="ar"
-                            xml:id="num_1.d1e982">١٠</tei:num>
+                    <biblScope from="10" to="10" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e982">١٠</tei:num>
                     </biblScope>
-                    <date when="1911-05-30" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: <tei:num
-                            value="30" xml:lang="ar" xml:id="num_1.d1e988">٣٠</tei:num> - <tei:num
-                            value="5" xml:lang="ar" xml:id="num_1.d1e991">٥</tei:num> - <tei:num
-                            value="1911" xml:lang="ar" xml:id="num_1.d1e994">١٩١١</tei:num>
+                    <date when="1911-05-30" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ: <tei:num value="30" xml:lang="ar" xml:id="num_1.d1e988">٣٠</tei:num> - <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e991">٥</tei:num> - <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e994">١٩١١</tei:num>
                     </date>
                 </bibl>
             </head>
-            <pb ed="shamela" n="n10-p1" corresp="file:../epub/29676/OEBPS/xhtml/P269.xhtml"
-                xml:id="pb_1.d1e529"/>
+            <pb ed="shamela" n="n10-p1" corresp="file:../epub/29676/OEBPS/xhtml/P269.xhtml" xml:id="pb_1.d1e529"/>
             <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
                 <head xml:lang="ar" xml:id="head_2.d1e533">الدين الإسلامي والتوحيد</head>
                 <p xml:lang="ar" xml:id="p_15.d1e536">تابع ما قبله</p>
@@ -482,7 +478,7 @@
                     وإن خفي ولا يغيب عن رؤيته مرئي وإن دق، ولا يحجب سمعه بعد ولا يدفع رؤيته ظلام
                     بسمع من غير أصمخة وآذان، ويرى من غير حدقة وأجفان، كما يعلم بغير قلب ويبطش بدون
                     جارحة ويخلق بلا آلة إذ لا تشبه صفاته صفات المخلوقات ولا تشبه ذاته ذواتهم.</p>
-                <pb ed="print"/>
+                <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="398" facs="#facs_408"/>
                 <p xml:lang="ar" xml:id="p_18.d1e545">والعمدة في الاستدلال على ثبوتهما الدليل النقلي
                     فقد ورد بهما في الكتاب العزيز والسنة الشريفة قال تعالى: (وهو السميع البصير) وفي
                     البخاري عن أبي موسى الأشعري قال أبي موسى الأشعري قال صلى الله عليه وسلم أربعوا
@@ -501,9 +497,8 @@
                     السبيل الأقوم والمنهج الراجح الأعدل ليتخذ دستوراً في العقائد وزكناً شديداًُ لنيل
                     المقاصد فنقول:</p>
                 <p xml:lang="ar" xml:id="p_23.d1e561">الكلام من الصفات السمعية التي يجب الاعتقاد
-                    بثبوتها لله عز وجل <pb ed="print"/>كما جاء به الشرع وأيده العقل وهو صفة أزلية
-                    قائمة بذاته تعالى منزهة عن الحروف والأصوات ومنافية <pb ed="shamela" n="n10-p2"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P270.xhtml" xml:id="pb_2.d1e563"/>
+                    بثبوتها لله عز وجل <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="399" facs="#facs_409"/>كما جاء به الشرع وأيده العقل وهو صفة أزلية
+                    قائمة بذاته تعالى منزهة عن الحروف والأصوات ومنافية <pb ed="shamela" n="n10-p2" corresp="file:../epub/29676/OEBPS/xhtml/P270.xhtml" xml:id="pb_2.d1e563"/>
                     للسكوت والآفة فليس كلامه يشبه كلام غيره كما أن وجوده تعالى ليس مشابهاً لوجود
                     غيره إذ لا مشابهة بين صفات الباري وصفات مخلوقاته ثم إذا عبرت عن هذه الصفة
                     بالعربية فقرآن وبالعبرانية فتوراة وبالسريانية فإنجيل والاختلاف في العبارات دون
@@ -521,7 +516,7 @@
                     ذلك البرهان العقلي وهو أنه لو لم يتصف بهذه الصفة لاتصف بضدها وهو نقص والنقص عليه
                     محال.</p>
                 <p xml:lang="ar" xml:id="p_26.d1e573">ولا شبهة في أن القرآن العظيم كلام الله وهو
-                    مكتوب في المصاحف <pb ed="print"/>محفوظ في الصدور، مقروء بالألسن ومع ذلك ليس
+                    مكتوب في المصاحف <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="400" facs="#facs_410"/>محفوظ في الصدور، مقروء بالألسن ومع ذلك ليس
                     حالاً فيها بل هو معنى قديم قائم بذاته يلفظ ويسمع بالنظم الدال عليه ويحفظ بالنظم
                     المخيل في الذهن ويكتب بنقوش وصور وأشكال موضوعة للحروف الدالة عليه كما يقال النار
                     جوهر محرق يذكر باللفظ ويكتب بالقلم ولا يلزم منه كون حقيقة النار صوتاً وحرفا
@@ -533,14 +528,13 @@
                     قرأت نصف القرآن والمخيلة كما في قولك حفظت القرآن والأشكال المنقوشة كما في قولك
                     يحرم على المحدث مس القرآن.</p>
                 <p xml:lang="ar" xml:id="p_27.d1e576">فتبين أن القرآن المجيد كلام الله وأنه يطلق على
-                    معنيين أحدهما المعنى القائم بالذات <pb ed="shamela" n="n10-p3"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P271.xhtml" xml:id="pb_3.d1e578"/>
+                    معنيين أحدهما المعنى القائم بالذات <pb ed="shamela" n="n10-p3" corresp="file:../epub/29676/OEBPS/xhtml/P271.xhtml" xml:id="pb_3.d1e578"/>
                     المقدسة وهذا ليس بحرف ولا صوت الثاني على اللفظ المنزل على رسول الله صلى الله
                     عليه وسلم المكتوب في المصاحف المنقول إلينا نقلاً متواتراً بمعنى أنه تعالى أنشأه
                     برقومه في اللوح المحفوظ لقوله تعالى (بل هو قرآن مجيد في لوح محفوظ) وعلى المعنى
                     الثاني يحمل قول السيدة عائشة رضي الله عنها (ما بين دفتي المصحف كلام الله تعالى)
                     وحيث أن القرآن يطلق على المعنى (القائم بذاته تعالى وعلى الذي نقرأه ونتعبد
-                    بتلاوته يمتنع <pb ed="print"/>أن يقال القرآن مخلوق لئلا يتبادر إلى الذهن المعنى
+                    بتلاوته يمتنع <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="401" facs="#facs_411"/>أن يقال القرآن مخلوق لئلا يتبادر إلى الذهن المعنى
                     الأول.</p>
                 <p xml:lang="ar" xml:id="p_28.d1e581">ولذلك امتنعت الأئمة الكرام كالإمام أحمد بن
                     حنبل وسفيان وأصحاب الحديث عن القول بخلق القرآن مع أنهم كانوا من أكثر الناس علماً
@@ -557,14 +551,12 @@
                     وأنه الممتاز بوفرة رجال البلاغة وسلاطين الخطاب وأنفس ما كانت العرب تتنافس فيه
                     ثمار العقل ونتائج الذكاء والفطنة ومع ذلك لم يشتهر عنهم الاختلاف في معانيها فكانت
                     الصحابة والسلف الصالح يؤمنون بها مع التفويض والتنزيه ثم لما ظهرت البدع وانتشرت
-                    الفتن في الدين بعد عصر ال<num xml:lang="ar" type="auto-markup" subtype="d3"
-                        resp="#pers_TG" value="300" xml:id="num_1.d1e1107">ثلاثمائة</num> وانقرضت
-                        <pb ed="print"/>الصحابة والتابعون كثر الكلام في الأوصاف بين أهل الإسلام ولم
+                    الفتن في الدين بعد عصر ال<num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="300" xml:id="num_1.d1e1107">ثلاثمائة</num> وانقرضت
+                        <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="402" facs="#facs_412"/>الصحابة والتابعون كثر الكلام في الأوصاف بين أهل الإسلام ولم
                     يرضوا مذهب السلف في صرف اللفظ عن ظاهره والتوقف عن تعيين المعنى المراد وذهبوا في
                     رأيهم كل مذهب. . عمدت طائفة من أهل السنة إلى تأويل المتشابه وصرفه عن ظاهره
                     المتبادر إلينا لئلا يحتج المبتدعة على مذاهبهم الفاسدة فكان تأويلهم ليدفعوا حجج
-                    الخصوم فيما استدلوا <pb ed="shamela" n="n10-p4"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P272.xhtml" xml:id="pb_4.d1e589"/>
+                    الخصوم فيما استدلوا <pb ed="shamela" n="n10-p4" corresp="file:../epub/29676/OEBPS/xhtml/P272.xhtml" xml:id="pb_4.d1e589"/>
                     عليه من الزيغ لا ليعتقدوا أن ذلك التأويل هو المراد لله تعالى ومن عرف التأويل لم
                     يحتج إلى الإنكار عليهم فإن صرف اللفظ إلى معنى من المعاني مع عدم القطع بأنه مراد
                     من اللفظ على أن التأويل منقول عن بعض السلف أيضاً حتى نقل عن ابن عباس رضي الله
@@ -577,22 +569,18 @@
                     به وهو مذهب الخلف وهو الأحكم لأن فيه زيادة على مذهب السلف باعتبار فهم معنى
                     وتسليم بقية المعاني المحتملة إلى الشارع فهو تسليم وزيادة والسلف كان مذهبهم
                     التسليم فقط من غير فهم من محتملات اللفظ وهو الأسلم وحيث أجمع السلف والخلف على
-                    صحة <pb ed="print"/>الإطلاق فنؤمن ونعتقد أن له تعالى روحاً ونفساً وعيناً ويداً
+                    صحة <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="403" facs="#facs_413"/>الإطلاق فنؤمن ونعتقد أن له تعالى روحاً ونفساً وعيناً ويداً
                     ووجهاً وغضباً ورضا وكلاماً على غير ذلك مما أطلق على الله تعالى في القرآن والسنة
                     من المتشابه مع تنزيهه سبحانه عن المعاني الحقيقية لتلك الألفاظ.</p>
-                <p xml:lang="ar" xml:id="p_31.d1e593">(يتبع) <pb ed="shamela" n="n10-p5"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P273.xhtml" xml:id="pb_5.d1e595"/>
+                <p xml:lang="ar" xml:id="p_31.d1e593">(يتبع) <pb ed="shamela" n="n10-p5" corresp="file:../epub/29676/OEBPS/xhtml/P273.xhtml" xml:id="pb_5.d1e595"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_3.d1e599">
                 <head xml:lang="ar" xml:id="head_3.d1e601">الدين النصيحة</head>
                 <p xml:lang="ar" xml:id="p_32.d1e604">تحريم المتعة</p>
                 <p xml:lang="ar" xml:id="p_33.d1e607">تابع <ref xml:id="ref_5.d1e1130">لما جاء في
-                            <bibl xml:id="bibl_2.d1e1132"><biblScope from="10" to="10" unit="issue"
-                                xml:id="biblScope_7.d1e1133">الجزء العاشر</biblScope>
-                            <biblScope from="363" to="363" unit="page" xml:id="biblScope_8.d1e1136"
-                                >ص <tei:num value="363" xml:lang="ar" xml:id="num_1.d1e1080"
-                                    >٣٦٣</tei:num></biblScope></bibl></ref>
+                            <bibl xml:id="bibl_2.d1e1132"><biblScope from="10" to="10" unit="issue" xml:id="biblScope_7.d1e1133">الجزء العاشر</biblScope>
+                            <biblScope from="363" to="363" unit="page" xml:id="biblScope_8.d1e1136">ص <tei:num value="363" xml:lang="ar" xml:id="num_1.d1e1080">٣٦٣</tei:num></biblScope></bibl></ref>
                 </p>
                 <p xml:lang="ar" xml:id="p_34.d1e610">الثاني مما استدل به مؤلف الرسالة على ما زعمه
                     من حل المتعة ما رواه البخاري عن عبد الله بن مسعود رضي الله عنه أنه قال كنا نغزو
@@ -606,7 +594,7 @@
                     الآية لا يفيده شيئاً إذ الحديث المذكور لم يذكروه في معرض الاستدلال على حل المتعة
                     كما أوهمه صنيع مؤلف الرسالة بل أورده البخاري في باب ما يكره من. . . . . والآية
                     المذكورة إنما وردت في نهي المؤمنين عن الخصاء وعن تحريم ما أحل لهم من الطيبات قال
-                    القسطلاني <pb ed="print"/>قال الراغب لما ذكر الله تعالى حلال الذين قالوا أنا
+                    القسطلاني <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="404" facs="#facs_414"/>قال الراغب لما ذكر الله تعالى حلال الذين قالوا أنا
                     نصارى ذكر منهم قسيسين ورهباناً فمدحهم بذلك كانت الرهبانية قد حرموا على أنفسهم
                     طيبات ما أحل الله لهم ورأى الله قوماً تشوقوا إلى حالهم وهموا أن يقتدوا بهم
                     فنهاهم عن ذلك.</p>
@@ -617,19 +605,16 @@
                     أنه قال يا أيها الناس إني قد كنت أذنت لكم في الاستمتاع من النساء وأن الله قد حرم
                     ذلك إلى يوم القيامة فمن كان عنده منهن شيء فليخل سبيله ولا تأخذوا مما آتيتموهن
                     شيئاً وفي صحيح البخاري في باب نهي رسول الله صلى الله عليه وسلم عن نكاح المتعة
-                    آخراً قال وبينه (أي حكم المتعة) علي عن <pb ed="shamela" n="n10-p6"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P274.xhtml" xml:id="pb_6.d1e615"/>
+                    آخراً قال وبينه (أي حكم المتعة) علي عن <pb ed="shamela" n="n10-p6" corresp="file:../epub/29676/OEBPS/xhtml/P274.xhtml" xml:id="pb_6.d1e615"/>
                     لنبي صلى الله عليه وسلم أنه منسوخ وروى مسلم أيضاً عن أبي نصرة قال كنت عند جابر
                     بن عبد الله فأتاه آت فقال ابن عباس وابن الزبير اختلفا في المتعتين فقال جابر
                     فعلناهما مع رسول الله صلى الله عليه وسلم ثم نهانا عنهما عمر فلم نعد لهما أه.</p>
                 <p xml:lang="ar" xml:id="p_36.d1e619">وليس لقائل أن يقول أن هذا الحديث مصرح بأن
                     النهي إنما كان من عمر رضي الله عنه لا من رسول الله صلى الله عليه وسلم لأنا نقول
-                    أن عمر رضي الله عنه لم ينه عن ذلك من تلقاء نفسه بل إنما بين نهي رسول الله <pb
-                        ed="print"/>صلى الله عليه وسلم عن المتعة كما جاء في التصريح بذلك في بعض
+                    أن عمر رضي الله عنه لم ينه عن ذلك من تلقاء نفسه بل إنما بين نهي رسول الله <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="405" facs="#facs_415"/>صلى الله عليه وسلم عن المتعة كما جاء في التصريح بذلك في بعض
                     الروايات روى ابن ماجة في سننه عن ابن عمر رضي الله عنهما قال لما ولي عمر بن
                     الخطاب خطب بالناس فقال إن رسول الله صلى الله عليه وسلم أذن لنا في المتعة ثلاثاً
-                    ثم حرمها والله لا أعلم <num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_2.d1e1153">أحد</num> يتمتع وهو محصن
+                    ثم حرمها والله لا أعلم <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_2.d1e1153">أحد</num> يتمتع وهو محصن
                     إلا رجمته بالحجارة إلا أن يأتيني بأربعة يشهدون أن رسول الله صلى الله عليه وسلم
                     أحلها بعد إذا حرمها أه.</p>
                 <p xml:lang="ar" xml:id="p_37.d1e622">ويؤيد ذلك ما في صحيح مسلم أيضاً عن سلمة عن
@@ -643,13 +628,12 @@
                     بفراقهن وفي صحيح مسلم أيضاً عن خالد بن الوليد رضي الله عنه أنه بينا هو جالس عند
                     رجل جاءه رجل فاستفتاه في المتعة فأمره بها فقال له ابن أبي عمرة الأنصاري مهلاً
                     قال ما هي والله لفقد فعلت في عهد إمام المتقين قال ابن أبي عمرة أنها كانت رخصة في
-                    أول الإسلام لمن اضطر إليها <pb ed="print"/>كالميتة والدم ولحم الخنزير ثم أحكم
+                    أول الإسلام لمن اضطر إليها <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="406" facs="#facs_416"/>كالميتة والدم ولحم الخنزير ثم أحكم
                     الله الدين ونهى عنها أه.</p>
                 <p xml:lang="ar" xml:id="p_38.d1e625">والظاهر أن الرجل الذي أفتى بها في هذا الحديث
                     هو ابن عباس رضي الله عنهما على ما يظهر من تصريح النووي في الكلام على الحديث الذي
                     ذكره مسلم قبل هذا الحديث ويظهر من سكوت ابن عباس كما أفاده الحديث المذكور أنه رضي
-                    الله عنه رجع إلى تحريمها <pb ed="shamela" n="n10-p7"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P275.xhtml" xml:id="pb_7.d1e627"/>
+                    الله عنه رجع إلى تحريمها <pb ed="shamela" n="n10-p7" corresp="file:../epub/29676/OEBPS/xhtml/P275.xhtml" xml:id="pb_7.d1e627"/>
                     بدليل أنه لم يرد على ابن أبي عمرة كلامه بل سلمه له وفي صحيح مسلم أيضاً ان رسول
                     الله صلى الله عليه وسلم نهى عن المتعة وقال ألا أنها حرام من يومكم هذا إلى يوم
                     القيامة أه.</p>
@@ -658,20 +642,12 @@
                     وأن الباطل كان زهوقاً.</p>
                 <p xml:lang="ar" xml:id="p_40.d1e633">(الثالث) وهو آخر الأدلة لمؤلف الرسالة ادعاؤه
                     إجماع المؤمنين قال أنهم أجمعوا على مشروعيتها وإن اختلفوا في نسخها والجواب أن
-                    ادعاءه إجماع المسلمين على مشروعيتها غير مسلم إذ لم يقل به <num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_3.d1e1170">أحد</num> ولأن جميع متن نقل الرخصة فيها في أول
-                    الإسلام للضرورة قائل بتحريمها إلا ابن عباس في <num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_4.d1e1173">إحدى</num> الروايتين عنه ولا يعقل أن ينسب حلها ل<num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_5.d1e1176">أحد</num> من أصحاب رسول الله صلى الله عليه وسلم على
+                    ادعاءه إجماع المسلمين على مشروعيتها غير مسلم إذ لم يقل به <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_3.d1e1170">أحد</num> ولأن جميع متن نقل الرخصة فيها في أول
+                    الإسلام للضرورة قائل بتحريمها إلا ابن عباس في <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_4.d1e1173">إحدى</num> الروايتين عنه ولا يعقل أن ينسب حلها ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_5.d1e1176">أحد</num> من أصحاب رسول الله صلى الله عليه وسلم على
                     انفراده فضلاً عن إجماعهم بعد أن صرحوا بتحريمها وبينوا أنها منسوخة بنهي رسول الله
                     صلى الله عليه وسلم عنها آخراً وتحريمها تحريماً مؤبداً إلى يوم القيامة بل إنا
-                    نقول قد وقع الإجماع على تحريم المتعة كما نقله غير و<num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_6.d1e1179">احد</num> قال الإمام النووي في شرح صحيح مسلم نقلاً عن
-                    القاضي <pb ed="print"/>عياض وأقره قد وقع الإجماع على تحريم المتعة من جميع
+                    نقول قد وقع الإجماع على تحريم المتعة كما نقله غير و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_6.d1e1179">احد</num> قال الإمام النووي في شرح صحيح مسلم نقلاً عن
+                    القاضي <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="407" facs="#facs_417"/>عياض وأقره قد وقع الإجماع على تحريم المتعة من جميع
                     العلماء ولم يخالف ذلك إلا الروافض.</p>
                 <p xml:lang="ar" xml:id="p_41.d1e636">وقال الإمام الزرقاني في شرح الموطأ ما خلاصته
                     أن الخلاف في تحريم المتعة إنما كان في الصدر الأول وأما بعد ذلك فقد وقع الإجماع
@@ -684,18 +660,16 @@
                     عنهما أنه قال إنما كانت المتعة في أول الإسلام حتى نزلت الآية (إلا على أزواجهم أو
                     ما ملكت أيمانهم) قال ابن عباس فكل فرج سواهما فهو حرام أه.</p>
                 <p xml:lang="ar" xml:id="p_44.d1e646">فمن أين لمؤلف الرسالة أن يزعم الإجماع على حلها
-                    مع أنه لم ينقل عن <num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_7.d1e1195">أحد</num> أنه قال بذلك لا
+                    مع أنه لم ينقل عن <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_7.d1e1195">أحد</num> أنه قال بذلك لا
                     في الصدر الأول ولا بعده بل ثبت كما بيناه أن الصحابة رضوان الله عليهم كانوا في
                     الصدر الأول مختلفين في تحريم المتعة لأن النسخ حينئذ لم يكن قد بلغ جميعهم وأما
-                    بعد <pb ed="shamela" n="n10-p8"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P276.xhtml" xml:id="pb_8.d1e648"/>
+                    بعد <pb ed="shamela" n="n10-p8" corresp="file:../epub/29676/OEBPS/xhtml/P276.xhtml" xml:id="pb_8.d1e648"/>
                     ذلك فقد اشتهر النسخ فيما بينهم ولذلك وقع الإجماع على تحريمها. ومستنده ما صح عن
                     رسول الله صلى الله عليه وسلم من تحريم المتعة تحريماً مؤبداً على يوم القيامة فوجب
                     الأخذ به ولا يحل لمؤمن أن يعلو على خلافه.</p>
                 <p xml:lang="ar" xml:id="p_45.d1e651">وقال مؤلف الرسالة أن سهولة الشريعة تقضي بعدم
                     نسخ المتعة لأنها شرعت تسهيلاً على العباد وصيانة لهم عن الزنا ولولا المنع منها ما
-                    كانت ديار المومسات <pb ed="print"/>مشهورة في مدن الإسلام العظام الخ أه.</p>
+                    كانت ديار المومسات <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="408" facs="#facs_418"/>مشهورة في مدن الإسلام العظام الخ أه.</p>
                 <p xml:lang="ar" xml:id="p_46.d1e654">ونقول كيف يحل لمؤمن أن يقول هذا بعد ثبوت نهي
                     صاحب الشريعة صلى الله عليه وسلم عن المتعة مع أن النكاح فيه الصيانة عن الزنا
                     والمتعة وهو من أسهل الأمور ومن أعظم الأسباب لحفظ شرف العالم الإنساني وينبني عليه
@@ -712,13 +686,11 @@
                     يطعن في صحتها فلم يستطع فعمد إلى التدليس والافتراء وتوهم أن هذا الأمر يثبت
                     مزاعمه وهيهات أن يقوى الباطل على مصادمة الحق وها نحن نأتي على تفنيد ما أتى به من
                     الترهات والأكاذيب مؤيدين كلامنا بالبرهين لا بالسفسطات الواهية.</p>
-                <p xml:lang="ar" xml:id="p_48.d1e661"><pb ed="print"/>نقل مؤلف الرسالة بعد أن ذكر
+                <p xml:lang="ar" xml:id="p_48.d1e661"><pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="409" facs="#facs_419"/>نقل مؤلف الرسالة بعد أن ذكر
                     حديثاً من سنن النسائي أن السندي قال في الحاشية وكأن ابن عباس لم يلتفت إلى النهي
                     يوم خيبر لما ثبت عنده من الرخصة في أيام الفتح. ونقول أن السندي قد استدرك على
                     الجملة المذكورة بقول_لكن قد ثبت النسخ بعد ذلك نسخاً مؤبداً وهذا ظاهر لمن يتتبع
-                    الأحاديث أه كلام السندي رحمه الله فنقل بعض الجملة عنه وترك <pb ed="shamela"
-                        n="n10-p9" corresp="file:../epub/29676/OEBPS/xhtml/P277.xhtml"
-                        xml:id="pb_9.d1e663"/> بعضها الآخر يعد تدليساً في النقل وخيانة في العلم.</p>
+                    الأحاديث أه كلام السندي رحمه الله فنقل بعض الجملة عنه وترك <pb ed="shamela" n="n10-p9" corresp="file:../epub/29676/OEBPS/xhtml/P277.xhtml" xml:id="pb_9.d1e663"/> بعضها الآخر يعد تدليساً في النقل وخيانة في العلم.</p>
                 <p xml:lang="ar" xml:id="p_49.d1e666">ثم بعد أن ساق مؤلف الرسالة جملة من الأحاديث
                     المروية في تحريم المتعة قال ومنها ما رووه عن عمر في تحريمها مع إسناده إلى النبي
                     صلى الله عليه وسلم وبدونه ثم زعم أنه قدج اشتهر عن عمر رضي الله عنه أنه خطب الناس
@@ -732,7 +704,7 @@
                     بعض الصحابة استمتع على عهد أبي بكر وعمر رضي الله عنهما. والقول بأن هذا محمول على
                     أن الذي استمتع في عهدهما لم يبلغه النسخ تكلف غير مسموع فإن مثل ذلك لم يكن ليخفى
                     على مثل جابر وعمروا وهما من أكابر الصحابة وموجودان دائماً في خدمة النبي صلى الله
-                    عليه وسلم وقال عمر إن ابن حصين رضي الله عنه أن الله <pb ed="print"/>أنزل في
+                    عليه وسلم وقال عمر إن ابن حصين رضي الله عنه أن الله <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="410" facs="#facs_420"/>أنزل في
                     المتعة آية وما نسخها بآية أخرى وأمرنا رسول الله صلى الله عليه وسلم بها وما نهانا
                     عنها ثم قال رجل برأيه ما شاء ثم قال مؤلف الرسالة وفي الروضة عن صحيح الترمذي أن
                     رجلاً من أهل الشام سأل عمر عن متعة النساء فقال هي حلال فقال إن أباك قد نهى عنها
@@ -747,26 +719,15 @@
                     غير المشرع صلى الله عليه وسلم إنما يراد به الزجر والكف عن أمر ثبت تحريمه في
                     الدين وليس في الإسلام حكم إلا لله ورسوله كما هو مقرر ومن الغريب أن ينقل مؤلف
                     الرسالة أحاديث من غير مصادرها المعروفة ثم يستدل بها على مزاعمه فإن الفخر الرازي
-                    ليس من المحدثين ولم يسند ل<num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_8.d1e1234">أحد</num>
-                    <pb ed="shamela" n="n10-p10" corresp="file:../epub/29676/OEBPS/xhtml/P278.xhtml"
-                        xml:id="pb_10.d1e684"/> منهم. وأما قول مؤلف الرسالة أن الأحاديث التي وردت في
+                    ليس من المحدثين ولم يسند ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_8.d1e1234">أحد</num>
+                    <pb ed="shamela" n="n10-p10" corresp="file:../epub/29676/OEBPS/xhtml/P278.xhtml" xml:id="pb_10.d1e684"/> منهم. وأما قول مؤلف الرسالة أن الأحاديث التي وردت في
                     التحريم لا تصلح حجة على الشيعة لأنها عن طريق أهل السنة الخ فهو من خرافات الروافض
                     وغلوهم وعجيب من مؤلف الرسالة أن يتفوه بذلك من غير استحياء من الله عز وجل ولا
                     مبالاة بعقابه فإن هذا لكلام مبني على مذهب باطل فاسد قد نقله الألوسي رحمه الله في
-                    رسالته المعروفة بالأجوبة العراقية وبين أن <pb ed="print"/>القائلين به يلزمهم أن
+                    رسالته المعروفة بالأجوبة العراقية وبين أن <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="411" facs="#facs_421"/>القائلين به يلزمهم أن
                     لا يصح لهم دين البتة لأنهم بنو هذا المذهب على أن الصحابة وحاشاهم من ذلك قد
-                    ارتدوا كلهم إلا <num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="4" xml:id="num_9.d1e1239">أربعة</num> أو <num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6"
-                        xml:id="num_10.d1e1242">ستة</num> وهم يزعمون أن هؤلاء الأربعة وال<num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6"
-                        xml:id="num_11.d1e1245">ستة</num> هم المعصومون الذين لا يصح ل<num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_12.d1e1249">أحد</num> لأن يحتج إلا بكلامهم وفي ذلك صور صريح لأن
-                    الخبر لا يقبل إلا من المعصوم على زعمهم. والعصمة لا تثبت ل<num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_13.d1e1252">أحد</num> بعينه إلا بخبر المعصوم فقد توقف قبول الخبر
+                    ارتدوا كلهم إلا <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4" xml:id="num_9.d1e1239">أربعة</num> أو <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6" xml:id="num_10.d1e1242">ستة</num> وهم يزعمون أن هؤلاء الأربعة وال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6" xml:id="num_11.d1e1245">ستة</num> هم المعصومون الذين لا يصح ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_12.d1e1249">أحد</num> لأن يحتج إلا بكلامهم وفي ذلك صور صريح لأن
+                    الخبر لا يقبل إلا من المعصوم على زعمهم. والعصمة لا تثبت ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_13.d1e1252">أحد</num> بعينه إلا بخبر المعصوم فقد توقف قبول الخبر
                     على ثبوت العصمة وثبوت العصمة متوقف على قبول الخبر فلزم الدور وهو باطل وكل ما أدى
                     إلى باطل يكون باطلاً ويحسن بنا في هذا المقام أن ننقل شيئاً مما نقله الشهاب
                     الألوسي في رسالته قال رحمه الله ما خلاصته: أعلم أن أهل السنة إلا من شذ أجمعوا
@@ -775,41 +736,31 @@
                     الأوصاف لم يمت إلا وهو أنقى من ليلة الصدر غير مدنس بوصمة ولا مصر على سيئة.
                     فعدالة الصحابة ثابتة معلومة بتعديل الله تعالى لهم وأخباره عن طهارتهم واختياره
                     لهم ومن سبر الآيات والأخبار والسير والآثار وجد أن الله تعالى قد عدلهم وأعدلهم من
-                    الكرامة ما أعد لهم ولا يحتاج <num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_14.d1e1255">أحد</num> منهم مع تعديل
-                    الله تعالى له إلى تعديل <num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_15.d1e1258">أحد</num> من الخلق ولو لم
+                    الكرامة ما أعد لهم ولا يحتاج <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_14.d1e1255">أحد</num> منهم مع تعديل
+                    الله تعالى له إلى تعديل <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_15.d1e1258">أحد</num> من الخلق ولو لم
                     يرد من الله سبحانه ورسوله صلى الله عليه وسلم شيء من ذلك لأوجبت الحال التي كانوا
                     عليها من الهجرة والجهاد ونصرتهم الإسلام وبذل المهج والأموال وقتل الآباء والأولاد
                     والمناصحة في الدين وقوة الإيمان واليقين القطع بتعديلهم والاعتقاد بنزاهتهم وهذا
-                        <pb ed="print"/>مذهب كافة العلماء ممن يعتمد قوله فإذا رأيت الرجل ينتقص أحداً
+                        <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="412" facs="#facs_422"/>مذهب كافة العلماء ممن يعتمد قوله فإذا رأيت الرجل ينتقص أحداً
                     من أصحاب رسول الله صلى الله عليه وسلم فاعلم أنه زنديق وذلك أن الرسول عليه الصلاة
                     والسلام حق والقرآن حق وما جاء به حق وإنما أدى إلينا ذلك كله الصحابة رضي الله
                     عنهم والمنتقصون لهم يريدون أ، يجرحوا شهودنا ليبطلوا الكتاب والسنة والجرح بهم
-                    أولى وقد ذهبت الشيعة إلى أن أكثر الصحابة غير عدول بل روى سليم بن قيس الهلالي <pb
-                        ed="shamela" n="n10-p11" corresp="file:../epub/29676/OEBPS/xhtml/P279.xhtml"
-                        xml:id="pb_11.d1e686"/> منهم في كتاب وفاة النبي صلى الله عليه وسلم عن ابن
-                    عباس عن أمير المؤمنين وعن غير و<num xml:lang="ar" type="auto-markup"
-                        subtype="d1" resp="#pers_TG" value="1" xml:id="num_16.d1e1263">احد</num> عن
+                    أولى وقد ذهبت الشيعة إلى أن أكثر الصحابة غير عدول بل روى سليم بن قيس الهلالي <pb ed="shamela" n="n10-p11" corresp="file:../epub/29676/OEBPS/xhtml/P279.xhtml" xml:id="pb_11.d1e686"/> منهم في كتاب وفاة النبي صلى الله عليه وسلم عن ابن
+                    عباس عن أمير المؤمنين وعن غير و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_16.d1e1263">احد</num> عن
                     الصادق أن الصحابة ارتدوا بعد وفاة النبي صلى الله عليه وسلم وفي رواية عن الصادق
-                    إلا <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6"
-                        xml:id="num_17.d1e1267">ستة</num> وسبب ارتدادهم زعمهم تقديمهم أبا بكر رضي
+                    إلا <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6" xml:id="num_17.d1e1267">ستة</num> وسبب ارتدادهم زعمهم تقديمهم أبا بكر رضي
                     الله عنه على علي كرم الله وجهه في الخلافة وزعموا أن الخلافة أخت النبوة ولا فرق
                     بيننا في النبوة عن النبي صلى الله عليه وسلم ونا في الخلافة عن علي كرم الله وجهه
                     من أن كلا منهما كافر وكذا لا فرق بين الإخلال بشأن النبي عليه الصلاة والسلام
                     والإخلال بشأن الأمير كرم الله وجهه في أن كلا منهما كفر وقد جحد الجميع وأخلوا إلا
-                    الربعة أو ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG"
-                        value="6" xml:id="num_18.d1e1270">ستة</num> بشأنه رضي الله عنه فكفروا
+                    الربعة أو ال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6" xml:id="num_18.d1e1270">ستة</num> بشأنه رضي الله عنه فكفروا
                     والعياذ بالله تعالى ولا يخفى أن هذا المذهب في غاية البطلان ونهاية الفساد لأنه
-                    يلزم عليه عدم إمكان إثبات مطلب ما من المطالب الدينية لأن الأدلة عندهم <num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4"
-                        xml:id="num_19.d1e1273">أربعة</num> كتاب وخبر واجتماع وعقل أما الكتاب فنقلته
-                    هم الصحابة المرتدون بزعمهم وحاشاهم وأما <pb ed="print"/>الخبر فحاله عندهم أشهر
+                    يلزم عليه عدم إمكان إثبات مطلب ما من المطالب الدينية لأن الأدلة عندهم <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4" xml:id="num_19.d1e1273">أربعة</num> كتاب وخبر واجتماع وعقل أما الكتاب فنقلته
+                    هم الصحابة المرتدون بزعمهم وحاشاهم وأما <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="413" facs="#facs_423"/>الخبر فحاله عندهم أشهر
                     من نار على علم. . تأمل_وهو أيضاً لا بد له من ناقل فهو إما من الشيعة أو من غيرهم
                     ولا اعتبار لغيرهم عندهم أصلاً لأن منتهى وسائطهم في رواياتهم المرتدون على زعمهم
                     وأما الشيعة فيقال لهم كون الخبر حجة أما لأنه قول المعصوم أو وصل بواسطة المعصوم
-                    الآخر وعصمة <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG"
-                        value="1" xml:id="num_20.d1e1276">أحد</num> بعينه لا تثبت إلا بخبر لأن
+                    الآخر وعصمة <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_20.d1e1276">أحد</num> بعينه لا تثبت إلا بخبر لأن
                     الكتاب ساكت على ذلك ومع هذا لا يصح التمسك به والعقل عاجز والمعجزة على تقدير
                     الصدور أيضاً موقوفة على الخبر لأن مشاهدي التحدي ورؤية المعجزة لم تتيسر للكل
                     والإجماع إنما يكون أيضاً حجة بدخول المعصوم مع أن في نقل إجماع الغائبين لا بد من
@@ -817,14 +768,11 @@
                     بواسطته دور صريح وأيضاً كون الخبر حجة متوقف على نبوة نبي أو إمامة إمام وإذا لم
                     يثبت بعد أصله كيف يثبت هو والتواتر ساقط عن حيز الاعتبار عندهم وخبر الآحاد غير
                     معتبر في هذه المطالب بالإجماع وأما الإجماع فبطلانه أظهر لأنه ثبوته فرع ثبوت
-                    الشرع وإذا لم <pb ed="print"/>يثبت الأصل لا يثبت الفرع وأيضاً كون الإجماع حجة
+                    الشرع وإذا لم <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="414" facs="#facs_424"/>يثبت الأصل لا يثبت الفرع وأيضاً كون الإجماع حجة
                     عندهم ليس بالأصالة بل لكون قول المعصوم في ضمنه وثبوت المعصوم قد علم حاله وأيضاً
                     دخول المعصوم في الإجماع لا يثبت إلا بالخبر وقد مر آنفاً ما فيه. وأما العقل
                     فالتمسك به إما في الشرعيات أو في غيرها أما في الشرعيات فيرجع الأمر إلى القياس
-                    وهم لا يقولون حجيته وأما في غيرها فيتوقف تجريده من شوائب <pb ed="shamela"
-                        n="n10-p12" corresp="file:../epub/29676/OEBPS/xhtml/P280.xhtml"
-                        xml:id="pb_12.d1e688"/> الوهم وال<num xml:lang="ar" type="auto-markup"
-                        subtype="d4" resp="#pers_TG" value="1000" xml:id="num_21.d1e1281">ألف</num>
+                    وهم لا يقولون حجيته وأما في غيرها فيتوقف تجريده من شوائب <pb ed="shamela" n="n10-p12" corresp="file:../epub/29676/OEBPS/xhtml/P280.xhtml" xml:id="pb_12.d1e688"/> الوهم وال<num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000" xml:id="num_21.d1e1281">ألف</num>
                     والعادة والاحتراز على الخطأ في الترتيب ونحو والعلم بخلوصه مما يخل يتوقف على مرشد
                     معصوم كنبي وإمام يحكم بذلك ولا يمكن أن يكون الحاكم العقل إذ يعود لكلام في خلوص
                     حكمه عما ذكر على أن الكلام في الأمور الدينية لا غير والعقل الصرف عاجز عن معرفتها
@@ -833,15 +781,11 @@
                     المعرفة وبطل حكم العقل وقد يقال أنهم لو التزموا صحة القياس لا يجديهم نفعاً لأنه
                     يبقى الكلام في طريق ثبوت الحكم في الأصل المقيس عليه وقد انسد عليهم كل طريق كما
                     لا يخفى والحاصل أن القول بارتداد كل الصحابة رضي الله عنهم بعد وفاة الرسول صلى
-                    الله عليه وسلم إلا <num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="4" xml:id="num_22.d1e1285">أربعة</num> أو <num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6"
-                        xml:id="num_23.d1e1288">ستة</num> مع ما ورد فيهم وعنهم ولهم مما لا يقدم عليه
-                        <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_24.d1e1291">أحد</num> ممن يؤمن بالله تعالى ورسوله صلى الله عليه
+                    الله عليه وسلم إلا <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4" xml:id="num_22.d1e1285">أربعة</num> أو <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="6" xml:id="num_23.d1e1288">ستة</num> مع ما ورد فيهم وعنهم ولهم مما لا يقدم عليه
+                        <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_24.d1e1291">أحد</num> ممن يؤمن بالله تعالى ورسوله صلى الله عليه
                     وسلم واليوم الآخر ولشناعة هذا القول وبطلانه عدل عنه بعض الشيعة زاعماً ارتداد
                     كبار الصحابة وعلمائهم فقط كأبي بكر الصديق وعمر الفاروق رضي الله تعالى عنهما ولا
-                    يخفى أنه <pb ed="print"/>من البطلان بمكان أيضاً لما فيه من تكذيب الآيات الدالة
+                    يخفى أنه <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="415" facs="#facs_425"/>من البطلان بمكان أيضاً لما فيه من تكذيب الآيات الدالة
                     على أنهم أفضل المؤمنين وأنه سبحانه قد رضي عنهم وقد رضوا عنه ومنزلة الرضا غاية
                     قصد العابدين والحق الحقيق بالقبول أن القوم رضي الله عنهم كانوا على غاية من
                     الكمال والاتباع لسنة نبيهم صلى الله عليه وسلم ويشهد لذلك حسن معاملة الأمير كرم
@@ -854,12 +798,9 @@
                     قبض على لحيته فجعلت دموعه تتحدر عليها وجعل ينظر للبقاع حتى اجتمع الناس ثم خطب
                     فقال ما بال أقوام يذكرون أخوي رسول الله صلى الله عليه وسلم ووزيريه وصاحبيه وسيدي
                     قريش وأبوي المسلمين وأنا بريء مما يذكرون وعليه معاقب صحبا رسول الله صلى الله
-                    عليه وسلم للوفاء والجد في أمر الله تعالى يأمران وينهيان <pb ed="shamela"
-                        n="n10-p13" corresp="file:../epub/29676/OEBPS/xhtml/P281.xhtml"
-                        xml:id="pb_13.d1e690"/> ويعاقبان لا يرى رسول الله صلى الله عليه وسلم كرأيهما
+                    عليه وسلم للوفاء والجد في أمر الله تعالى يأمران وينهيان <pb ed="shamela" n="n10-p13" corresp="file:../epub/29676/OEBPS/xhtml/P281.xhtml" xml:id="pb_13.d1e690"/> ويعاقبان لا يرى رسول الله صلى الله عليه وسلم كرأيهما
                     رأياً ولا يحب كحبهما حباً لما يرى في عزمهما في الله عز وجل فقبض وهو عنهما راض
-                    والمسلمون راضون فما تجاوزا في أمرهما وسيرتهما رأي رسول الله صلى الله <pb
-                        ed="print"/>عليه وسلم وأمره في حياته وبعد موته فقبضا على ذلك رحمهما الله
+                    والمسلمون راضون فما تجاوزا في أمرهما وسيرتهما رأي رسول الله صلى الله <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="416" facs="#facs_426"/>عليه وسلم وأمره في حياته وبعد موته فقبضا على ذلك رحمهما الله
                     تعالى فوالله الذي خلق الحب وبرأ النسمة لا يحبهما غلا مؤمن فاضل ولا يبغضهما إلا
                     شقي مارق وحبهما قرب وبغضهما مود إلى آخر الحديث وفي رواية لعن الله من أضمر لهما
                     إلا الحسن الجميل فانظر وفقك الله تعالى هذا المدح العظيم من الأمير كرم الله وجهه
@@ -876,26 +817,22 @@
                     عنهما عمر فلم نعد لهما أه.</p>
                 <p xml:lang="ar" xml:id="p_55.d1e693">وجابر رضي الله عنه أجل من أن يسمع ذلك من عمر
                     رضي الله عنه ثم يقره عليه من غير أن يكون علم يومئذ أن نكاح المتعة ثبت نسخه عن
-                        <pb ed="print"/>رسول الله صلى الله عليه وسلم وتصريح جابر بعدم عودته للمتعة
+                        <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="417" facs="#facs_427"/>رسول الله صلى الله عليه وسلم وتصريح جابر بعدم عودته للمتعة
                     دليل واضح لما ذكرنا والصحابة والذين رووا التحريم عن رسول الله كانوا كثيري
                     الملازمة له عليه الصلاة والسلام. على أن من حفظ حجة على من لم يحفظ لتقدم المثبت
                     على النافي كما هو مقرر ونحن لا نسلم أن جابراً وعمراً كانا موجودين دائماً في خدمة
                     النبي صلى الله عليه وسلم إذ هذه الجملة قضية دائمة مطلقة وهي لا تصح إلا بعد تحقق
                     ثبوت المحمول للموضع ما دامت ذات الموضوع. ومن البديهي أن جابراً وعمراً كانا
-                    ينصرفان عنه وقت النوم والأكل ونحو ذلك بل من أين لمؤلف الرسالة <pb ed="shamela"
-                        n="n10-p14" corresp="file:../epub/29676/OEBPS/xhtml/P282.xhtml"
-                        xml:id="pb_14.d1e695"/> أن يثبت وجودهما في جميع المواطن التي كان صلى الله
+                    ينصرفان عنه وقت النوم والأكل ونحو ذلك بل من أين لمؤلف الرسالة <pb ed="shamela" n="n10-p14" corresp="file:../epub/29676/OEBPS/xhtml/P282.xhtml" xml:id="pb_14.d1e695"/> أن يثبت وجودهما في جميع المواطن التي كان صلى الله
                     عليه وسلم يقيم بها والغزوات التي سافر فيها.</p>
                 <p xml:lang="ar" xml:id="p_56.d1e698">وأما ما نقله عن الفخر الرازي أنه روى عن عمران
-                    بن حصين رضي الله عنه أنه قال أن الله أنزل <pb ed="print"/>في المتعة آية وما
+                    بن حصين رضي الله عنه أنه قال أن الله أنزل في المتعة آية وما
                     نسخها الخ فإنا لم نجده في شيء من كتب الحديث المعروفة والفخر ليس من المحدثين كما
                     قدمنا بل الذي ثبت في صحيح مسلم عن عمران بن حصين رضي الله عنه أنه قال نزلت آية
                     المتعة في كتاب الله يعني متعة الحج وأمرنا بها رسول الله صلى الله عليه وسلم ثم لم
                     ينزل آية تنسخ آية متعة الحج. الحديث. فأنت ترى أن الحديث المذكور فيه التصريح بأن
                     ذلك إنما هو متعة الحج لا في متعة النساء. وبينهما فرق ظاهر. وسيأتي الكلام على ما
-                    يتعلق بهذا الحديث من أحكام متعة الحج. <pb ed="print"/><pb ed="shamela"
-                        n="n10-p15" corresp="file:../epub/29676/OEBPS/xhtml/P283.xhtml"
-                        xml:id="pb_15.d1e700"/>
+                    يتعلق بهذا الحديث من أحكام متعة الحج. <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="418" facs="#facs_428"/><pb ed="shamela" n="n10-p15" corresp="file:../epub/29676/OEBPS/xhtml/P283.xhtml" xml:id="pb_15.d1e700"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_4.d1e704">
@@ -916,7 +853,7 @@
                     فساد ذات البين هي الحالقة) جازماً بأنه ينطبق عليكم انطباقاً قول الله تعالى (فبشر
                     عبادي الذي يستمعون القول فيتبعون أحسنه أولئك الذين هداهم الله وأولئك هم أولو
                     الألباب) أخواننا المحترمين لكم جميع تعلمون ما حل بالأمة الإسلامية في مشارق الأرض
-                        <pb ed="print"/>ومغاربها من استيلاء العدو عليها وشده على خناقها وعبثه بدينها
+                        <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="419" facs="#facs_429"/>ومغاربها من استيلاء العدو عليها وشده على خناقها وعبثه بدينها
                     ومحوه لعلومها وعمله على رفع القرآن العظيم من بين أيديها وإفساده لأخلاق صبيانها
                     ونسائها والحيلولة بينها وبين كل كمال يرقي عقلها أو يزكي نفسها أو يطهر وجدانها أو
                     يكسبها حظاً من حظوظ الدنيا والآخرة واستئثاره بأسباب الثروة من الفلاحة والصناعة
@@ -926,26 +863,22 @@
                     الأرض مثل البغال والحمير والبقر ولا ذنب لهم سوى كونهم مسلمين انخدعوا ووقعوا في
                     شرك العدو المتسلط.</p>
                 <p xml:lang="ar" xml:id="p_63.d1e728">إن هاته الحالة المدهشة للعقول المفتتة للأكباد
-                    قد ابتدأت من الأندلس وأفضت بأهلها إلى ما هو معلوم وحلت بما يقرب من <num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="9"
-                        xml:id="num_25.d1e1334">تسعة</num> أعشار المسلمين بعد ذلك وكل فرقة من العدو
+                    قد ابتدأت من الأندلس وأفضت بأهلها إلى ما هو معلوم وحلت بما يقرب من <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="9" xml:id="num_25.d1e1334">تسعة</num> أعشار المسلمين بعد ذلك وكل فرقة من العدو
                     قابضة على طائفة من المسلمين تجد بها السير ليلاً ونهاراً لتبلغها إلى أسفل مما
-                    بلغت إليه الأمة <pb ed="shamela" n="n10-p16"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P284.xhtml" xml:id="pb_16.d1e730"/>
+                    بلغت إليه الأمة <pb ed="shamela" n="n10-p16" corresp="file:../epub/29676/OEBPS/xhtml/P284.xhtml" xml:id="pb_16.d1e730"/>
                     الأندلسية بيد الإسبانيول الذي كان يدعو لمجرد الدين المسيحي فمن اعتنق الدين
                     المسيحي كانت له الحقوق المدنية أما هؤلاء المتسلطون في هذا الوقت فإن دينهم هو لهم
                     واستئثارهم ولا قيمة للأديان عندهم ويعاملون من عاداهم معاملة الوحوش ولو ترك
                     المسلم دينه وتجنس بجنسهم فلا يرونه أهلاً للحقوق المدنية وبذلك يخسر الدنيا
                     والآخرة.</p>
-                <p xml:lang="ar" xml:id="p_64.d1e733">ه<pb ed="print"/>ذه حقائق راهنة يعلمها من حلت
+                <p xml:lang="ar" xml:id="p_64.d1e733">ه<pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="420" facs="#facs_430"/>ذه حقائق راهنة يعلمها من حلت
                     به من المسلمين ومن أتيح له فدخل بلاد الإسلام المقهورة للأجنبي. أخواننا المحترمين
                     أن هذه الحالة المزعجة المذهلة للعقول الحالة بغالب الإسلام قد اتفق العدو على
                     تعميمها ومحو البقية الباقية من العالم الإسلامي بها وهناك الطامة الكبرى على الدين
                     والملة والبلاء المعمم على هذه الأمة الأسيفة التي أهملت دينها ورأيها وخربت بيتها
                     بيدها وسلمت مقاليدها عفواً لعدوها.</p>
                 <p xml:lang="ar" xml:id="p_65.d1e736">أخواننا المحترمين إن الشرك الذي نصوبه لنا ووقع
-                    غالبنا بأيديهم بسببه شيء و<num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_26.d1e1345">احد</num> وهو شقاقنا
+                    غالبنا بأيديهم بسببه شيء و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_26.d1e1345">احد</num> وهو شقاقنا
                     لبعضنا وسوء التفاهم بيننا وعدم النظر في العواقب والغفلة عن مكر العدو وحيله وما
                     يقصده منا والجهل بالحقائق حتى بأنفسنا وضعفنا أمام العدو وقوته واستعداده واغتنامه
                     الفرص فينا هذا كله وإلى الآن ما تيقظنا وأخذنا حذرنا.</p>
@@ -953,20 +886,16 @@
                     التفاهم بين أمتين مسلمتين يتطاحنان بالصواعق المحرقة والعدو من جميع الجهات متحفز
                     منتظر الفرصة للوثوب عليهما في وقت كان من أول الواجبات على كل المسلمين سيما من
                     بقي فيهم رمق من الحياة مثلنا معاشر العثمانيين ن يتركوا كل ما يشم منه رائحة
-                    الخلاف وأن يأخذ كل و<num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_27.d1e1351">احد</num> منهم جماعات
+                    الخلاف وأن يأخذ كل و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_27.d1e1351">احد</num> منهم جماعات
                     ووحدانا بعضد أخيه وأن يغضوا الطرف عن كل حق شخصي بينهم ويتسامحوا ويتساهلوا مع
                     لبعضهم وأن يتركوا كل مطمع وكل حب رياسة ويلتفوا على مقام الخلافة مقام البقية
-                    الباقية من قوة الإسلام وعزته ومنعته ومهابته ليكون سداً منيعاً أمام <pb
-                        ed="print"/>هجمات الأعداء الذين قد تم اتحادهم علينا وتراضوا في اقتسامهم
+                    الباقية من قوة الإسلام وعزته ومنعته ومهابته ليكون سداً منيعاً أمام <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="421" facs="#facs_431"/>هجمات الأعداء الذين قد تم اتحادهم علينا وتراضوا في اقتسامهم
                     لتراثنا.</p>
                 <p xml:lang="ar" xml:id="p_67.d1e743">أخواننا المحترمين إن إشهار السلاح منكم على قلب
                     الإسلام ومعقله الوحيد في هذا الزمان الحرج الذي ما رأى الإسلام أحرج منه ماذا
                     تقصدون به يا ترى إن ما يمكن أن يتصور من الأسباب الحاملة لكم على فعلكم هذا أمور
-                        <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4"
-                        xml:id="num_28.d1e1358">أربعة</num> الطمع في الرياسة وحب المال والرغبة في
-                    إقامة الشريعة المطهرة والخلاص من ظلم المأمورين. <pb ed="shamela" n="n10-p17"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P285.xhtml" xml:id="pb_17.d1e745"/>
+                        <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4" xml:id="num_28.d1e1358">أربعة</num> الطمع في الرياسة وحب المال والرغبة في
+                    إقامة الشريعة المطهرة والخلاص من ظلم المأمورين. <pb ed="shamela" n="n10-p17" corresp="file:../epub/29676/OEBPS/xhtml/P285.xhtml" xml:id="pb_17.d1e745"/>
                     فأما السبب الأول والثاني فإني مع كوني بحسب كمالكم وتيقظكم أنزه وجدانكم وعقلكم
                     وحكمتكم وغيرتكم على الإسلام عنهما أقول لكم أخواننا الأعزاء اعتبروا فيمن هم أشد
                     منكم قوة وآثاراً على الأرض وأغزر عرفاناً وأكثر عدداً وأكمل عدداً فقد اغتروا مثل
@@ -978,14 +907,13 @@
                     الدولة والعموم فإنها عند الله وعند الناس أكبر من كل رياسة لأنها توجب أن رؤساء
                     السياسة يخدمونه ويمتثلون أمره ويهتدون بهديه وتصلح به العباد والبلاد وتفاض عليه
                     النعم الدنيوية والأخروية ويكسب بذلك رضا الله والالتفاف التام من خلق الله وأما إن
-                    كان إشهاركم <pb ed="print"/>السيف وهجومكم على سفك دماء المسلمين وركوبكم هذا
+                    كان إشهاركم <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="422" facs="#facs_432"/>السيف وهجومكم على سفك دماء المسلمين وركوبكم هذا
                     المركب الوعر ديناً ودنيا تتقصدون به دفع الظلم عنكم وإقامة الشريعة المطهرة بينكم
                     وهذان هما السببان الثالث والرابع فاعملوا يا أخواننا الأعزاء أن دار الخلافة في
                     هذا الوقت أول بلاد الله في الإسلام يقام بها دين الإسلام وأن سلطنة آل عثمان هي
                     السلطنة الوحيدة المحافظة على شعائر الإسلام وهاكم البيان أن الصلاة التي هي عماد
                     الدين مقامة بدار الخلافة بأبهى معناها وأن الجماعات والجمع محافظ عليها تمام
-                    المحافظة ولن تذهب <num xml:lang="ar" type="auto-markup" subtype="d3"
-                        resp="#pers_TG" value="100" xml:id="num_29.d1e1363">مائة</num> خطوة في
+                    المحافظة ولن تذهب <num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100" xml:id="num_29.d1e1363">مائة</num> خطوة في
                     الغالب إلا وتجد جامعاً أو مسجداً مقاماً حساً ومعنى ولن تدخل إلى جامع في وقت من
                     الصلوت إلا وتجده عامراً بكل طبقات الأمة من الصبيان والشبان والكهول والشيوخ ورجال
                     السياسة ورجال الجهلاد ورجال العلم وعامة الناس من الذوات والتجار وغيرهم ترى
@@ -994,10 +922,8 @@
                     ويندمج في أخوانه المسلمين بغاية التذلل والخضوع قابضاً يديه مستقبلاً القبلة
                     معترفاً بتمام الذل والعبودية والفقر ممثلاً في عينيه قوله تعالى: (أذلة على
                     المؤمنين أعزة على الكافرين يجاهدون في سبيل الله ولا يخافون لومة لائم) (أربع أسطر
-                    غير واضحة صفحة <tei:num value="422" xml:lang="ar" xml:id="num_1.d1e1221"
-                        >٤٢٢</tei:num> ) <pb ed="shamela" n="n10-p18"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P286.xhtml" xml:id="pb_18.d1e747"/>
-                    <pb ed="print"/>وحديث سيد ولد عدنان في مقر الخلافة لا يوجد لها نظير فيما سمعنا
+                    غير واضحة صفحة <tei:num value="422" xml:lang="ar" xml:id="num_1.d1e1221">٤٢٢</tei:num> ) <pb ed="shamela" n="n10-p18" corresp="file:../epub/29676/OEBPS/xhtml/P286.xhtml" xml:id="pb_18.d1e747"/>
+                    <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="423" facs="#facs_433"/>وحديث سيد ولد عدنان في مقر الخلافة لا يوجد لها نظير فيما سمعنا
                     ورأينا إن إقامة موسم الحج لولا دار الخلافة ما كان وها هي أوروبا تحاربه حرباً
                     عواناً من جهة بمنع من قضي عليه فوقع تحت نيرها والبدو يعبثون به من جهة ثانية إن
                     كلمة التوحيد مقامة على كل المنارات والمنابر وعلى أعلام الجهاد في سبيل الله إن
@@ -1013,7 +939,7 @@
                     وعقلاً وحكمة أن نحمل وزرهم للأمة قاطبة المعدودة بالملايين والله جلت قدرته يقول
                     (لا تزر وازرة وزر أخرى) ثم نقول هل منعنا بسبب هذه الأفراد المنحرفة من صلاتنا هل
                     منعنا من جماعتنا وجمعنا هل منعنا من زكاة هل منعنا من صومنا وحجنا وإشهارنا الكلمة
-                        <pb ed="print"/>جامعتنا هل أفسدت أنكحتنا هل انتهكت مواريثنا هل ألزمنا على
+                        <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="424" facs="#facs_434"/>جامعتنا هل أفسدت أنكحتنا هل انتهكت مواريثنا هل ألزمنا على
                     الخنا والفسوق وترك الدين منا كلا ثم كلا بل الشعائر محفوظة والقائم بها والمحافظ
                     عليها معزز ومكرم من البر والفاجر ثم نقول هل يعد ما تأخذه الدولة من الضرائب منكم
                     لسد الثغور وبناء الأساطيل وإعداد المعدات وصد الهجمات وتأمين الطرقات وتنظيم
@@ -1022,15 +948,13 @@
                     وكلهم لا يحركون بذلك حراكاً بل يعطونه عن طيب نفس لعلمهم بواجب وطنهم وملتهم
                     ولمعرفتهم لقيمة محيطهن وبعد نظرهم في عواقب الأمور ثم نقول هل سدت طرق طلب الشريعة
                     ورفع الظلم ولم يبق إلا إشهار السيف والله يقول (ادع إلى سبيل ربك بالحكمة والموعظة
-                    الحسنة وجادلهم بالتي هي أحسن) ثم نقول هل أباح لنا الشرع والعقل <pb ed="shamela"
-                        n="n10-p19" corresp="file:../epub/29676/OEBPS/xhtml/P287.xhtml"
-                        xml:id="pb_19.d1e749"/> والسياسة والحمية والرأفة بالإسلام والمحافظة على دينه
+                    الحسنة وجادلهم بالتي هي أحسن) ثم نقول هل أباح لنا الشرع والعقل <pb ed="shamela" n="n10-p19" corresp="file:../epub/29676/OEBPS/xhtml/P287.xhtml" xml:id="pb_19.d1e749"/> والسياسة والحمية والرأفة بالإسلام والمحافظة على دينه
                     وناموسه وحريمه وذراريه أنا بسبب ظلم مأمور جاهل أو فسقه أو كفره نحمل المسلمين على
                     شق عصا الطاعة وتعرضها لسفك الدماء وتلف الأرواح والأموات ويتم الصبيان وترميل
                     النساء وهلاك الحرث والنسل وتعريض الدولة للمشاكال وتعريض أنفسكم لالتقام العدو هل
                     ما ارتكبتموه أخف الضررين الواجب ارتكابه شرعاً وعقلاً هل ما ارتكبتموه هو طريق
                     الأمر بالمعروف والنهي عن المنكر المشروط بإجماع الأديان والعقلاء أن لا يكون
-                    بطريقة تؤدي إلى ما هو أوخم من <pb ed="print"/>الحال الحاضرة إني أكل جواب ذلك
+                    بطريقة تؤدي إلى ما هو أوخم من <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="425" facs="#facs_435"/>الحال الحاضرة إني أكل جواب ذلك
                     لدينكم وأمانتكم وحكمتكم وإلى العالم الإسلامي المعرض للاضمحلال بأمثال هذه الحركات
                     بين أخوانه.</p>
                 <p xml:lang="ar" xml:id="p_68.d1e752">أخواننا الأعزاء في دين الله أتوسل عليكم بالله
@@ -1048,11 +972,10 @@
                     حصة أردء خلق الله وأوحش خلق الله وأخبث خلق الله وحوادث الجديدة تنبئكم عمن هو
                     متحفز للوثوب عليكم وإذا تمكن منك لا قدر اللع سيمزق أحشاءكم ويعبث بدينكم ويهتك
                     عرضكم وحريمكم ويحكم حفظكم الله والمسلمون من كل سوء نعم إن كنتم قد بلغتم عن دار
-                    الخلافة سواء من حيث الدين <pb ed="print"/>أو من حيث السياسة بأخبار مدسوسة أو غاش
+                    الخلافة سواء من حيث الدين <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="426" facs="#facs_436"/>أو من حيث السياسة بأخبار مدسوسة أو غاش
                     صاحب أغراض شخصية أو جاهل فعليكم بالتثبت والعمل بقول الله تعالى: (يا أيها الذين
                     آمنوا إذا جائكم فاسق بنبأ فتبينوا أن تصيبوا قوماً بجهالة فتصبحوا على ما فعلتم
-                        <pb ed="shamela" n="n10-p20"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P288.xhtml" xml:id="pb_20.d1e757"/>
+                        <pb ed="shamela" n="n10-p20" corresp="file:../epub/29676/OEBPS/xhtml/P288.xhtml" xml:id="pb_20.d1e757"/>
                     نادمين) واعلموا أن الغلط في مثل هذا الباب ليس بالسهل وها مبعوثوكم يخبرونكم
                     بالحقيقة ويبلغونكم ما تقصدون من الحقوق المشروعة المنطبعة على الزمان فلتكونوا
                     أخواننا الأعزاء عاملين بقول الله تعالى: (يا أيها الذين آمنوا ادخلوا في السلم
@@ -1063,8 +986,7 @@
                     بديننا طالبين حقوقنا بالأوجه المشروعة آمرين بالمعروف ناهين عن المنكر بالحكمة ذلك
                     هو طريق النجاح والفلاح لكم وللإسلام قاطبة والسلام الأتم من أخ شفوق متفتت الكبد
                     على الإسلام وما حل به مجرب في نفسه مشاهد بعينه ولله فينا وفيكم علم غيب وهو يهدي
-                    من يشاء إلى صراط مستقيم. <pb ed="print"/><pb ed="shamela" n="n10-p21"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P289.xhtml" xml:id="pb_21.d1e759"/>
+                    من يشاء إلى صراط مستقيم. <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="427" facs="#facs_437"/><pb ed="shamela" n="n10-p21" corresp="file:../epub/29676/OEBPS/xhtml/P289.xhtml" xml:id="pb_21.d1e759"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_5.d1e764">
@@ -1117,9 +1039,7 @@
                         <seg xml:lang="ar" xml:id="seg_18.d1e873"> ولا كائن وإلا إليه فقير</seg>
                     </l>
                     <l type="bayt" xml:lang="ar" xml:id="l_10.d1e878">
-                        <seg xml:lang="ar" xml:id="seg_19.d1e880">ولا <num xml:lang="ar"
-                                type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                                xml:id="num_30.d1e1505">أحد</num> يدري سوى الله فضائله </seg>
+                        <seg xml:lang="ar" xml:id="seg_19.d1e880">ولا <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_30.d1e1505">أحد</num> يدري سوى الله فضائله </seg>
                         <seg xml:lang="ar" xml:id="seg_20.d1e883"> (وناهيك طول المدح فيه قصور)</seg>
                     </l>
                     <l type="bayt" xml:lang="ar" xml:id="l_11.d1e887">
@@ -1134,7 +1054,7 @@
                 <p xml:lang="ar" xml:id="p_76.d1e906">بيروت</p>
                 <p xml:lang="ar" xml:id="p_77.d1e910">محمد سعيد إياس</p>
                 <lg xml:lang="ar" xml:id="lg_4.d1e913">
-                    <l type="bayt" xml:lang="ar" xml:id="l_13.d1e915"><pb ed="print"/>
+                    <l type="bayt" xml:lang="ar" xml:id="l_13.d1e915"><pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="428" facs="#facs_438"/>
                         <seg xml:lang="ar" xml:id="seg_25.d1e917">بمدحك يا خير الورى نتعبد </seg>
                         <seg xml:lang="ar" xml:id="seg_26.d1e920"> وننظم دراً في مديحك ينشد</seg>
                     </l>
@@ -1182,9 +1102,7 @@
                         <seg xml:lang="ar" xml:id="seg_42.d1e1017"> رسول على عبئ البلاغ صبور</seg>
                     </l>
                     <l type="bayt" xml:lang="ar" xml:id="l_22.d1e1021">
-                        <seg xml:lang="ar" xml:id="seg_43.d1e1023">نبي عليه الله <num xml:lang="ar"
-                                type="auto-markup" subtype="d1" resp="#pers_TG" value="2"
-                                xml:id="num_31.d1e1651">اثنا</num> أبعد ذا </seg>
+                        <seg xml:lang="ar" xml:id="seg_43.d1e1023">نبي عليه الله <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="2" xml:id="num_31.d1e1651">اثنا</num> أبعد ذا </seg>
                         <seg xml:lang="ar" xml:id="seg_44.d1e1026"> (وناهيك طول المدح فيه
                             قصور)</seg>
                     </l>
@@ -1197,12 +1115,10 @@
                         <seg xml:lang="ar" xml:id="seg_48.d1e1044"> (عليه جميع الكائنات تدور)</seg>
                     </l>
                 </lg>
-                <byline xml:id="byline_1.d1e1678"><placeName xml:id="placeName_5.d1e1679"
-                        >دمشق</placeName>
+                <byline xml:id="byline_1.d1e1678"><placeName xml:id="placeName_5.d1e1679">دمشق</placeName>
                     <persName xml:id="persName_9.d1e1682">أج</persName></byline>
-                <pb ed="shamela" n="n10-p23" corresp="file:../epub/29676/OEBPS/xhtml/P291.xhtml"
-                    xml:id="pb_22.d1e1054"/>
-                <pb ed="print" n="429" xml:id="pb_24.d1e1688"/>
+                <pb ed="shamela" n="n10-p23" corresp="file:../epub/29676/OEBPS/xhtml/P291.xhtml" xml:id="pb_22.d1e1054"/>
+                <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="429" xml:id="pb_24.d1e1688" facs="#facs_439"/>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_6.d1e1058">
                 <head xml:lang="ar" xml:id="head_6.d1e1060">مضار البغاء</head>
@@ -1221,7 +1137,7 @@
                     البغاء (الزنا) لما فيه من الضرر الجلي والمفاسد الكثيرة إن ما تفعله العاهرات من
                     إتيان هذا المنكر (الزنا) وجعله حرفة مخصوصة تسام كما تسام السلع هو من الأمور
                     الفظيعة بمكان بالنسبة لما يترتب عليه من الضرر والفساد وضياع النسب وفقد الثقة
-                    بالأصول والإخلال بالصحة <pb xml:id="pb_25.d1e1697"/>والآداب وتقليل النسل وإيقاع
+                    بالأصول والإخلال بالصحة <pb change="#d2e564 #d2e579 #d2e584 #d2e598" xml:id="pb_25.d1e1697" ed="print" n="430" facs="#facs_440"/>والآداب وتقليل النسل وإيقاع
                     الشقاق في البيوت وإماتة الأخلاق وفشو الدياثة والقيادة والوصول إلى حالة تبكي منها
                     الفضيلة ويموت معها الحياء.</p>
                 <p xml:lang="ar" xml:id="p_86.d1e1066">كتبت مجلة الهلال الأغر مقالة في هذا الموضوع
@@ -1232,26 +1148,17 @@
                     الشرائع المعروفة تقول إذا وجدت امرأة مع غير زوجها فالاثنان يوثقان ويطرحان في
                     الماء.</p>
                 <p xml:lang="ar" xml:id="p_87.d1e1069">وتليها شريعة موسى وهي تحكم على الزاني
-                    والزانية بالقتل وكذلك تقضي عليه شريعة ليكورغوس ( <tei:num value="884"
-                        xml:lang="ar" xml:id="num_1.d1e1548">٨٨٤</tei:num> ق م) وكان السكسونيون
+                    والزانية بالقتل وكذلك تقضي عليه شريعة ليكورغوس ( <tei:num value="884" xml:lang="ar" xml:id="num_1.d1e1548">٨٨٤</tei:num> ق م) وكان السكسونيون
                     القدماء يحرقون الزانية ويبنون فوق قبرها مشنقة يشنقون بها الزاني وكان كانوت يحكم
-                    على الزاني بصلم الأذنين وجدع الأنف سنة <pb ed="shamela" n="n10-p24"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P292.xhtml" xml:id="pb_23.d1e1071"/>
+                    على الزاني بصلم الأذنين وجدع الأنف سنة <pb ed="shamela" n="n10-p24" corresp="file:../epub/29676/OEBPS/xhtml/P292.xhtml" xml:id="pb_23.d1e1071"/>
                     <tei:num value="1034" xml:lang="ar" xml:id="num_1.d1e1553">١٠٣٤</tei:num> م وقرر
-                    برلمان إنكلترا سنة <tei:num value="1650" xml:lang="ar" xml:id="num_1.d1e1556"
-                        >١٦٥٠</tei:num> أن يعاقب الزاني بقطع الرأس وأكثر الشرائع تشدد النكير على
+                    برلمان إنكلترا سنة <tei:num value="1650" xml:lang="ar" xml:id="num_1.d1e1556">١٦٥٠</tei:num> أن يعاقب الزاني بقطع الرأس وأكثر الشرائع تشدد النكير على
                     الزاني إن لم بالقتل فبما يقرب منه وقلنا والحكم عندنا في الشريعة المحمدية واضح
                     جلي لا خفاء معه وهو أن الزاني إما محصن أو غير محصن فالمحصن سواء أكان رجلاً أو
                     امرأة إذا ثبت لدى الإمام زناه ببينة وإقرار أخرج إلى أرض فضاء ثم رجم بالحجارة حتى
-                    يموت وغير المحصن إن كان حراً فحده <num xml:lang="ar" type="auto-markup"
-                        subtype="d3" resp="#pers_TG" value="100" xml:id="num_32.d1e1716">مائة</num>
-                    جلدة وإن كان عبداً <num xml:lang="ar" type="auto-markup" subtype="d2"
-                        resp="#pers_TG" value="50" xml:id="num_33.d1e1720">خمسون</num> جلدة قال الله
-                    تعالى (الزانية والزاني <pb xml:id="pb_27.d1e1723"/>فاجلدوا كل و<num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_34.d1e1725">احد</num> منهما <num xml:lang="ar"
-                        type="auto-markup" subtype="d3" resp="#pers_TG" value="100"
-                        xml:id="num_35.d1e1728">مائة</num> جلدة ولا تأخذكم بهما رأفة في دين الله إن
+                    يموت وغير المحصن إن كان حراً فحده <num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100" xml:id="num_32.d1e1716">مائة</num>
+                    جلدة وإن كان عبداً <num xml:lang="ar" type="auto-markup" subtype="d2" resp="#pers_TG" value="50" xml:id="num_33.d1e1720">خمسون</num> جلدة قال الله
+                    تعالى (الزانية والزاني <pb change="#d2e564 #d2e579 #d2e584 #d2e598" xml:id="pb_27.d1e1723" ed="print" n="431" facs="#facs_441"/>فاجلدوا كل و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_34.d1e1725">احد</num> منهما <num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100" xml:id="num_35.d1e1728">مائة</num> جلدة ولا تأخذكم بهما رأفة في دين الله إن
                     كنتم تؤمنون بالله واليوم الآخر وليشهد عذابهما طائفة من المؤمنين) وقال سبحانة
                     (ولا تقربوا الزنا إنه كان فاحشة وساء سبيلا) وقال عز اسمه (ةوالذين لايدعون مع
                     الله إلهاً آخر ولا يقتلون النفس التي حرم الله إلا بالحق ولا يزنون ومن يفعل ذلك
@@ -1262,20 +1169,16 @@
                     وجوههم ناراً إلى غير ذلك من الآيات والأحاديث الدالة على قبح هذه الخطيئة وشدة
                     نكرها ويكفي أنها الضربة القاضية على العفاف والشرف والعنوان الصريح على التأخر
                     والانحطاط.</p>
-                <p xml:lang="ar" xml:id="p_88.d1e1074">قال صاحب <title level="j"
-                        xml:id="title_9.d1e1734">الهلال</title> ويدلنا التاريخ على أن الأمة إنما
+                <p xml:lang="ar" xml:id="p_88.d1e1074">قال صاحب <title level="j" xml:id="title_9.d1e1734">الهلال</title> ويدلنا التاريخ على أن الأمة إنما
                     يبقى عمرانها إذا أحاطته بسور من العفاف وإلا فإنه منقوض ولا خلاف في أن الأمة
                     الناهضة لا فائدة من مساعيها إن لم يكن العفاف نبراسها واعتبر ذلك بما مر على الأمم
                     من أدوار التاريخ قديماً وحديثاً فلا ترى دولة قامت وتأيدت إلا وكان العفاف سياجها
                     مع اعتبار طبائعها وسار أحوالها وما من دولة ذهبت إلا كان الانغماس في المنكرات من
                     أكبر أسباب ذهابها انظر إلى دولة الرومان التي امتد رواق سلطانها على الخافقين
-                    وحملت إليها الجزية <pb xml:id="pb_28.d1e1737"/>من <num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="4"
-                        xml:id="num_36.d1e1739">أربعة</num> أقطار المسكونة فإنها حال فسدت آداب أهلها
+                    وحملت إليها الجزية <pb change="#d2e564 #d2e579 #d2e584 #d2e598" xml:id="pb_28.d1e1737" ed="print" n="432" facs="#facs_442"/>من <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4" xml:id="num_36.d1e1739">أربعة</num> أقطار المسكونة فإنها حال فسدت آداب أهلها
                     فسد نظامها ووهنت قواها وما لبثت أن سقطت وكان سقوطها عظيماً ولو تتبعت تاريخ الأمم
                     على اختلاف الزمان والمكان لرأيتها تتشابه من هذه الحيثية وكلها ذهبت فريسة التهتك
-                    والابتذال. <pb ed="shamela" n="n10-p25"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P293.xhtml" xml:id="pb_24.d1e1076"/>
+                    والابتذال. <pb ed="shamela" n="n10-p25" corresp="file:../epub/29676/OEBPS/xhtml/P293.xhtml" xml:id="pb_24.d1e1076"/>
                     ثم قال ما معناه فما أجدر الحكومة أن تقتدي بأقرب الدول مصلحة منها نعني إنكلترا
                     فإن هذه الرذيلة غير مباحة فيها ليس في إنكلترا أماكن عمومية لهذا العرض مطلقاً
                     وربما كان ذلك عندها فيما مضى لكنها أصدرت الأوامر المشددة بمنع هذا المنكر من
@@ -1289,7 +1192,7 @@
                     الغربيين فيما يضر بالأمة ويفسد عليها أخلاقها وإلا فلم لم يقتدوا بالحكومة
                     الإنكليزية ولم يطلب بعضهم من حكومة دمشق (وهي قاعدة البلاد الإسلامية) إرجاعهم إلى
                     محالهم الأولى أو تخصيص محلة مستقلة لهم وأن تعين لهم الحكومة الأطباء والمستشفيات
-                        <pb xml:id="pb_30.d1e1748"/>سيقول بعض الناس وماذا عسى تفيد الكتابة أو ينفع
+                        <pb change="#d2e564 #d2e579 #d2e584 #d2e598" xml:id="pb_30.d1e1748" ed="print" n="433" facs="#facs_443"/>سيقول بعض الناس وماذا عسى تفيد الكتابة أو ينفع
                     الالتجاء إلى الحكومة؟ ومتى — كان الخصم الحكم؟ لولا رضا الحكومة لما قامت للمنكرات
                     والفواحش قائمة والدستور أباح كل شيء الخ نقول في الجواب لهم هذه الفكرة بعينها هي
                     فكرة أولئك المتفرنجين أعداء الخلافة الإسلامية والحكومة العثمانية فهم يجتهدون في
@@ -1302,13 +1205,11 @@
                 <p xml:lang="ar" xml:id="p_90.d1e1083">فلقد علمنا أنها منعت ما هو أدنى من الزنا وأقل
                     نكراً منه منعت من عاصمتها تبرج النساء واختلاطهن بالرجال في مثل يوم عيد الدستور
                     منعت الصبيان من الحمامات، منعت أهل البصرة من نصب تمثال لمدحت باشا، قرر مجلس
-                    وكلائها منع انتشار كتاب تحريم المرأة <pb ed="shamela" n="n10-p26"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P294.xhtml" xml:id="pb_25.d1e1085"/>
+                    وكلائها منع انتشار كتاب تحريم المرأة <pb ed="shamela" n="n10-p26" corresp="file:../epub/29676/OEBPS/xhtml/P294.xhtml" xml:id="pb_25.d1e1085"/>
                     إذ طبع مترجماً بالتركية لئلا يكون سبباً لكثرة الخوض في مسألة رفع الحجاب عن
                     النساء منعت الزهاوي من التدريس في المكتب السلطاني البغدادي لما علمت تهوره في
                     الدين الإسلامي، أذاع شيخ الإسلام حفظه الله نشرة أبان فيها حرمة المبارزة بين
-                    مسلمين لما بلغه أمر صاحب طنين وخصمه كل ذلك منعته <pb xml:id="pb_32.d1e1755"
-                    />الحكومة عناية بالآداب الإسلامية ومحافظة على العادات الدينية فيقال بعد ذلك أن
+                    مسلمين لما بلغه أمر صاحب طنين وخصمه كل ذلك منعته <pb change="#d2e564 #d2e579 #d2e584 #d2e598" xml:id="pb_32.d1e1755" ed="print" n="434" facs="#facs_444"/>الحكومة عناية بالآداب الإسلامية ومحافظة على العادات الدينية فيقال بعد ذلك أن
                     الحكومة راضية بانتشار الزنا والفواحش وأن قانونها الأساسي أباح كل شيء؟ كلا ثم
                     كلا. . نعم قد يتساهل بعض المأمورين بمنع ما يخل بالأخلاق والآداب الدينية فيظن بعض
                     البسطاء ممن يصغون لأكاذيب المتفرنجين أن هذا التساهل والتغاضي من الحكومة نفسها
@@ -1324,14 +1225,13 @@
                     فإن لم تبادر الحكومة المحلية إلى إجابة طلبكم وهذا غير ما نظنه فيها فارفعوا الأمر
                     إلى حكومة العاصمة فهي تلبي طلبكم وما عرف فيه مولانا شيخ الإسلام من الغيرة على
                     الآداب الدينية يؤكد ذلك وإذا كانت الحكومة معنية بتنقية البلدة من الأمراض
-                    وتنظيفها من الموبقات فهي مطالبة <pb xml:id="pb_33.d1e1757"/>بالأولى بدفع هذه
+                    وتنظيفها من الموبقات فهي مطالبة <pb change="#d2e564 #d2e579 #d2e584 #d2e598" xml:id="pb_33.d1e1757" ed="print" n="435" facs="#facs_445"/>بالأولى بدفع هذه
                     المحظورات وتطهير البلد من هذه الأرجاس قالت مجلة الهلال وكما تبذل الحكومة الأموال
                     في وقاية رعاياها من الأمراض وتجبرهم غي تلقيح أبنائهم بالجدري وتحملهم قهراً على
                     اتقاء الأوبئة الوافدة فهي مطالبة بوقايتهم من شر هو أشد وطأة من المرض وتنظيف
                     الوطن من تلك الأقذار أولى من تنظيف الشوارع من الغبار ووقاية الشبيبة من مهاوي
                     الفساد وحماية أبدانهم من تلك الأمراض القذرة أولى في اعتبارنا من تطهير منزل حدثت
-                    فيه إصابة بالتيفوئيد والدفتريا لأن عدوى هذه الأمراض <pb ed="shamela" n="n10-p27"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P295.xhtml" xml:id="pb_26.d1e1087"/>
+                    فيه إصابة بالتيفوئيد والدفتريا لأن عدوى هذه الأمراض <pb ed="shamela" n="n10-p27" corresp="file:../epub/29676/OEBPS/xhtml/P295.xhtml" xml:id="pb_26.d1e1087"/>
                     وأمثالها تنحصر في بعض الأقربين ولا تتعدى الجيل الواحد</p>
                 <p xml:lang="ar" xml:id="p_91.d1e1090">من الناس وأما تلك فإنها تنتقل في الأعقاب حتى
                     تؤول إلى فناء الذرية أه.</p>
@@ -1339,9 +1239,8 @@
                     الشرعية فعسى من يهمهم أمر الأخلاق وصيانة الأعراض أن يفكروا في هذه القضية من قبل
                     أن يتسع الخرق. . ولله في عباده شؤون. </p>
             </div>
-            <pb ed="shamela" n="n10-p28" corresp="file:../epub/29676/OEBPS/xhtml/P296.xhtml"
-                xml:id="pb_27.d1e1095"/>
-            <pb xml:id="pb_36.d1e1771"/>
+            <pb ed="shamela" n="n10-p28" corresp="file:../epub/29676/OEBPS/xhtml/P296.xhtml" xml:id="pb_27.d1e1095"/>
+            <pb change="#d2e564 #d2e579 #d2e584 #d2e598" xml:id="pb_36.d1e1771" ed="print" n="436" facs="#facs_446"/>
             <div type="article" xml:lang="ar" xml:id="div_7.d1e1099">
                 <head xml:lang="ar" xml:id="head_7.d1e1101">قصيدة نبوية</head>
                 <p xml:lang="ar" xml:id="p_93.d1e1104">وردتنا هذه القصيدة النبوية الغراء من حضرة
@@ -1408,7 +1307,7 @@
                         <seg xml:lang="ar" xml:id="seg_77.d1e1239">روحي الفداء لروضة القبر الذي </seg>
                         <seg xml:lang="ar" xml:id="seg_78.d1e1242"> تهوي على أعتابه العظماء</seg>
                     </l>
-                    <l type="bayt" xml:lang="ar" xml:id="l_40.d1e1246"><pb ed="print"/>
+                    <l type="bayt" xml:lang="ar" xml:id="l_40.d1e1246"><pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="437" facs="#facs_447"/>
                         <seg xml:lang="ar" xml:id="seg_79.d1e1248">قبر بساكنه تسامى رفعة </seg>
                         <seg xml:lang="ar" xml:id="seg_80.d1e1251"> ما العرش ما الكرسي ما
                             العلياء</seg>
@@ -1479,10 +1378,7 @@
                         <seg xml:lang="ar" xml:id="seg_112.d1e1398"> أزكى صلاة مالها إحصاء</seg>
                     </l>
                 </lg>
-                <p xml:lang="ar" xml:id="p_94.d1e1403">والآل والأصحاب ماهز الصبا <gap resp="#org_MS"
-                        xml:id="gap_1.d1e1405"/> بان الغصون وغردت ورقاء <pb ed="print"/><pb
-                        ed="shamela" n="n10-p30" corresp="file:../epub/29676/OEBPS/xhtml/P298.xhtml"
-                        xml:id="pb_28.d1e1407"/>
+                <p xml:lang="ar" xml:id="p_94.d1e1403">والآل والأصحاب ماهز الصبا <gap resp="#org_MS" xml:id="gap_1.d1e1405"/> بان الغصون وغردت ورقاء <pb change="#d2e564 #d2e579 #d2e584 #d2e598" ed="print" n="438" facs="#facs_448"/><pb ed="shamela" n="n10-p30" corresp="file:../epub/29676/OEBPS/xhtml/P298.xhtml" xml:id="pb_28.d1e1407"/>
                 </p>
             </div>
             <div type="article" xml:lang="ar" xml:id="div_8.d1e1411">
@@ -1503,13 +1399,10 @@
             <div type="article" xml:lang="ar" xml:id="div_9.d1e1429">
                 <head xml:lang="ar" xml:id="head_9.d1e1431">جمعية التعاون الخيري في العقيبة</head>
                 <p xml:lang="ar" xml:id="p_99.d1e1434">هي أول جمعية إسلامية تأسست لإعالة الفقراء في
-                    دمشق وكان عدد من تنفق عليهم من التلامذة <tei:num value="22" xml:lang="ar"
-                        xml:id="num_1.d1e1922">٢٢</tei:num> تلميذاً واليوم جعلتهم <tei:num
-                        value="40" xml:lang="ar" xml:id="num_1.d1e1925">٤٠</tei:num> تلميذاً كلهم من
+                    دمشق وكان عدد من تنفق عليهم من التلامذة <tei:num value="22" xml:lang="ar" xml:id="num_1.d1e1922">٢٢</tei:num> تلميذاً واليوم جعلتهم <tei:num value="40" xml:lang="ar" xml:id="num_1.d1e1925">٤٠</tei:num> تلميذاً كلهم من
                     أبناء المحاويج يدرسون في مدرسة واحدة (المدرسة التجارية) ويتأدبون بأدب واحد،
                     وينهجون نهجاً واحداً فنستدر أيدي أهل النعمة والثراء لمساعدتها ونسأل الله لها
-                    التقدم والنجاح. <pb ed="shamela" n=""
-                        corresp="file:../epub/29676/OEBPS/xhtml/P299.xhtml" xml:id="pb_29.d1e1436"/>
+                    التقدم والنجاح. <pb ed="shamela" n="" corresp="file:../epub/29676/OEBPS/xhtml/P299.xhtml" xml:id="pb_29.d1e1436"/>
                 </p>
             </div>
         </body>
