@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- <?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> --><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_9" xml:lang="" next="oclc_644997575-i_10" prev="oclc_644997575-i_8">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/master/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_9" xml:lang="" next="oclc_644997575-i_10" prev="oclc_644997575-i_8">
     <teiHeader xml:lang="en" xml:id="teiHeader_1.d1e7">
         <fileDesc xml:lang="en" xml:id="fileDesc_1.d1e9">
             <titleStmt xml:lang="en" xml:id="titleStmt_1.d1e11">
@@ -186,7 +186,7 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447">n</tei:att> to <tei:att xml:id="att_6.d1e451">from</tei:att> and <tei:att xml:id="att_6.d1e454">to</tei:att>with identical values.</tei:change><change when="2016-05-24" who="#pers_TG" xml:id="change_1.d1e457">Added page breaks and structural mark-up based on the facsimiles. Added automated <att xml:id="att_6.d1e459">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_8.d1e462">tei:text</gi>and had no existing <att xml:id="att_7.d1e465">xml:id</att>following the pattern "name()_generate-id()". Added automated page numbers as <att xml:id="att_8.d1e468">n</att>s and <att xml:id="att_9.d1e471">ed</att>="print" for every<gi xml:id="gi_9.d1e475">pb</gi> that was not of <att xml:id="att_10.d1e478">ed</att>="shamela". Linked all <tei:tag xml:id="tag_1.d1e481">pb ed="print"</tei:tag> to the corresponding facsimile.</change><change when="2016-05-23" who="#pers_TG" xml:id="change_2.d1e484">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_10.d1e486">tei:num</gi>and <att xml:id="att_11.d1e489">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_3.d1e492">Added automated <att xml:id="att_12.d1e494">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e497">tei:text</gi>and had no existing <att xml:id="att_13.d1e500">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_4.d1e503">Wrapped all numerals in <tei:gi xml:id="gi_12.d1e505">num</tei:gi> with <tei:att xml:id="att_14.d1e508">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG" xml:id="change_4.d1e511">Corrected the URL for digital images at HathiTrust.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-04-07" who="#pers_TG" xml:id="d9e588" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi> based on the <tei:gi xml:lang="en">sourceDesc</tei:gi> that matches the information found in the masthead of the actual issues.</change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447">n</tei:att> to <tei:att xml:id="att_6.d1e451">from</tei:att> and <tei:att xml:id="att_6.d1e454">to</tei:att>with identical values.</tei:change><change when="2016-05-24" who="#pers_TG" xml:id="change_1.d1e457">Added page breaks and structural mark-up based on the facsimiles. Added automated <att xml:id="att_6.d1e459">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_8.d1e462">tei:text</gi>and had no existing <att xml:id="att_7.d1e465">xml:id</att>following the pattern "name()_generate-id()". Added automated page numbers as <att xml:id="att_8.d1e468">n</att>s and <att xml:id="att_9.d1e471">ed</att>="print" for every<gi xml:id="gi_9.d1e475">pb</gi> that was not of <att xml:id="att_10.d1e478">ed</att>="shamela". Linked all <tei:tag xml:id="tag_1.d1e481">pb ed="print"</tei:tag> to the corresponding facsimile.</change><change when="2016-05-23" who="#pers_TG" xml:id="change_2.d1e484">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_10.d1e486">tei:num</gi>and <att xml:id="att_11.d1e489">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_3.d1e492">Added automated <att xml:id="att_12.d1e494">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e497">tei:text</gi>and had no existing <att xml:id="att_13.d1e500">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_4.d1e503">Wrapped all numerals in <tei:gi xml:id="gi_12.d1e505">num</tei:gi> with <tei:att xml:id="att_14.d1e508">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-29" who="#pers_TG" xml:id="change_4.d1e511">Corrected the URL for digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG" xml:id="change_4.d1e514">Added <tei:gi xml:id="gi_12.d1e516">graphic</tei:gi> for 40 pages
                 with references to digital images at HathiTrust.</tei:change>
             <tei:change when="2016-02-28" xml:id="change_4.d1e520">Corrected the file's URL and <att xml:id="att_14.d1e522">xml:id</att> on
@@ -413,94 +413,40 @@
             <tei:graphic xml:id="facs_366-g_3" mimeType="image/jpeg" url="https://babel.hathitrust.org/cgi/imgsrv/image?id=njp.32101036074001;seq=374"/>
         </tei:surface>
     </tei:facsimile>
-    <text xml:id="text" xml:lang="ar" type="issue" n="i_8">
-        <pb ed="print" n="317" facs="#facs_327" xml:id="pb_1.d1e893"/>
-        <front xml:lang="ar" xml:id="front_1.d1e465">    
-            <div type="masthead" xml:lang="ar" xml:id="div_1.d1e467">
-                <biblStruct xml:lang="ar" xml:id="biblStruct_2.d1e469">
-                    <monogr xml:lang="ar" xml:id="monogr_2.d1e471">
-                        <title level="j" xml:lang="ar" xml:id="title_8.d1e473">الحقائق</title>
-                        <editor ref="viaf:4795364" xml:lang="ar" xml:id="editor_2.d1e476">
-                            <persName xml:lang="ar" xml:id="persName_7.d1e478">عبد القادر
-                                الإسكندراني</persName>
-                            <persName xml:lang="ar-Latn-x-ijmes" xml:id="persName_8.d1e481">
-                                <forename xml:lang="ar-Latn-x-ijmes" xml:id="forename_2.d1e483">ʿAbd
-                                    al-Qādir</forename>
-                                <surname xml:lang="ar-Latn-x-ijmes" xml:id="surname_2.d1e486">al-Iskandarānī</surname>
-                            </persName>
-                        </editor>
-                        <imprint xml:lang="ar" xml:id="imprint_2.d1e491">
-                            <pubPlace xml:lang="en" xml:id="pubPlace_3.d1e493">
-                                <placeName xml:lang="ar" xml:id="placeName_3.d1e495">دمشق</placeName>
-                                <placeName xml:lang="en" xml:id="placeName_4.d1e498">Damascus</placeName>
-                            </pubPlace>
-                            <date when="1911-04-01" xml:lang="ar" xml:id="date_11.d1e502">بتاريخ:  <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e932">١</tei:num> 
-                                -  <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e935">٤</tei:num>  -  <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e938">١٩١١</tei:num> </date>
-                            
-                            
-                        </imprint>
-                    <biblScope from="9" to="9" unit="issue" xml:lang="ar" xml:id="biblScope_1.d1e505">العدد  <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e944">٨</tei:num> </biblScope><biblScope unit="page" from="x" to="y" xml:id="biblScope_2.d1e508"/></monogr>
-                </biblStruct>
-            </div>
-        </front>
+    <text xml:id="text" xml:lang="ar" type="issue" n="i_8"><pb ed="print" n="317" facs="#facs_327" xml:id="pb_1.d1e893"/>
+        
+        <front xml:lang="ar" xml:id="front_1.d1e465" change="#d9e588"><div type="masthead" change="#d9e588"><bibl><tei:biblScope from="9" to="9" unit="issue">الجزء 9</tei:biblScope><tei:biblScope from="1"
+                    to="1" unit="volume">المجلد 1</tei:biblScope><lb/><title level="j" xml:lang="ar"
+                    >الحقائق</title><lb/><placeName xml:lang="ar">دمشق</placeName> في <date
+                    calendar="#cal_islamic" datingMethod="#cal_islamic" when="1911-04-01"
+                    when-custom="1329-04-01" xml:lang="ar">غرة ربيع الثاني ١٣٢٩</date> و <date
+                    calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal"
+                    when="1911-04-01" when-custom="1327-01-19" xml:lang="ar"
+                    >١٩ مارت ١٣٢٧</date> و <date calendar="#cal_gregorian"
+                    datingMethod="#cal_gregorian" when="1911-04-01" xml:lang="ar"
+                    >١ نيسان ١٩١١</date> </bibl></div></front>
         <body xml:lang="ar" xml:id="body_1.d1e515">
-            <head xml:lang="ar" xml:id="head_1.d1e517">
-                <bibl xml:lang="ar" xml:id="bibl_1.d1e519">
-                    <biblScope from="8" to="8" unit="issue" xml:lang="ar" xml:id="biblScope_3.d1e521">العدد
-                         <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e963">٨</tei:num> </biblScope>
-                    <date when="1911-04-01" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e969">١</tei:num>  -  <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e972">٤</tei:num>  -
-                         <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e975">١٩١١</tei:num> </date>
-                </bibl>
-            </head>
             <pb ed="shamela" n="n8-p1" corresp="file:../epub/29676/OEBPS/xhtml/P211.xhtml" xml:id="pb_1.d1e529"/>
 
 
-            <div type="article" xml:lang="ar" xml:id="div_2.d1e531"
-                prev="oclc_644997575-i_7.TEIP5.xml#div_9.d1e1126"
-                next="oclc_644997575-i_11.TEIP5.xml#div_2.d1e531">
+            <div type="article" xml:lang="ar" xml:id="div_2.d1e531" prev="oclc_644997575-i_7.TEIP5.xml#div_9.d1e1126" next="oclc_644997575-i_11.TEIP5.xml#div_2.d1e531">
                 <head xml:lang="ar" xml:id="head_2.d1e533">الدين الإسلامي والتوحيد</head>
-                <opener xml:id="opener_1.d1e1009">تابع <ref xml:id="ref_5.d1e1011"
-                    target="oclc_644997575-i_7.TEIP5.xml#div_9.d1e1126">لما قبله</ref></opener>
+                <opener xml:id="opener_1.d1e1009">تابع <ref xml:id="ref_5.d1e1011" target="oclc_644997575-i_7.TEIP5.xml#div_9.d1e1126">لما قبله</ref></opener>
                 <div type="section" xml:id="div_2.d1e1014">
-                    <head xml:id="head_3.d1e1016">العلم <tei:num value="9" xml:lang="ar"
-                        xml:id="num_1.d1e993">٩</tei:num> </head>
-                    <p xml:lang="ar" xml:id="p_17.d1e542"
-                        >إن بداهة العقل جازمة، بأن الذي وجد العالم وأتقنه، وأقامه على هذا النمط البديع وأحكمه، وأبرزه إلى حيز الوجود مشحوناً ببدائع تأخذ بالألباب وتحار فيها المدارك ووضع الأشياء في مواضعها وهدى كل ممكن لما يحتاج إليه في وجوده وحياته، وركب في كل إنسان عواطف وأميالاً صالحة لتكميله وإيصاله إلى غاية عالية من الرفعة الصورية والمعنوية وهو موصوف بصفة العلم وقد تقرر أن من ثبتت له الألوهية ثبتت استناداً لحوادث <pb
-                        xml:id="pb_3.d1e1024" ed="print" n="318" facs="#facs_328"
-                        />في وجودها إليه وذلك لا ريب مستلزم علمه بما يفعله.</p>
-                    <p xml:lang="ar" xml:id="p_18.d1e545"
-                        >فهو عالم بجميع المعلومات محيط بما يجري من تخوم الأرضين إلى أعلى السموات لا يعزب عن علمه مثقال ذرة في الأرض ولا في السماء، يدرك حركة الذر في جو الهواء، يعلم السر وأخفى ويطلع على هواجس الضمائر وحركات الخواطر وخفيات الأسرار.</p>
-                    <p xml:lang="ar" xml:id="p_19.d1e549"
-                        >تأمل هذه الحيوانات كيف اختلفت في الصور والهيئات وتنوعت في القدر والأحجام وتباينت في التراكيب والأجسام وكيف نشأ فيها ذلك الإلهام العجيب الذي يهديها لبناء مساكنها وتغذية صغارها والهيمنة على أحوالها وأمورها أنى اهتدت إلى معايشها ووفقت لسبل غذائها وما يقيم حياتها وهذا النحل على صغر حجمه كيف هدي إلى اتخاذ البيوت مسدسة الشكل متساوية الأضلاع لا يزيد بعضها على بعض بمجرد طبعها والعقلاء من البشر لا يمكنهم مثل تلك البيوت إلا بآلات وأنظار دقيقة فجل العليم الحكيم الذي يعلم ذلك كله بعلم قديم أزلي لم يزل موصوفاً به أزل الآزال لا بعلم متجدد حاصل في ذاته بالحلول والانتقال.</p>
-                    <p xml:lang="ar" xml:id="p_20.d1e552"
-                        >اتفق جمهور العقلاء على أن العلم صفة أزلية قائمة بذات الله تعالى تنكشف بها المعلومات عند تعلقها بها سواء كانت المعلومات موجودة أو معدومة قديمة أو حادثة كلية أو جزئية، وهو ليس بعرض ولا ضروري ولا مكتسب لأن الضروري قد يطلق على ما قارنته الضرورة من الحوادث والكسبي من صفات العلم الحصولي وكل ذلك محال في حق الله تعالى. <pb
-                        ed="shamela" n="n8-p2" corresp="file:../epub/29676/OEBPS/xhtml/P212.xhtml"
-                        xml:id="pb_2.d1e554"/> </p>
+                    <head xml:id="head_3.d1e1016">العلم <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e993">٩</tei:num> </head>
+                    <p xml:lang="ar" xml:id="p_17.d1e542">إن بداهة العقل جازمة، بأن الذي وجد العالم وأتقنه، وأقامه على هذا النمط البديع وأحكمه، وأبرزه إلى حيز الوجود مشحوناً ببدائع تأخذ بالألباب وتحار فيها المدارك ووضع الأشياء في مواضعها وهدى كل ممكن لما يحتاج إليه في وجوده وحياته، وركب في كل إنسان عواطف وأميالاً صالحة لتكميله وإيصاله إلى غاية عالية من الرفعة الصورية والمعنوية وهو موصوف بصفة العلم وقد تقرر أن من ثبتت له الألوهية ثبتت استناداً لحوادث <pb xml:id="pb_3.d1e1024" ed="print" n="318" facs="#facs_328"/>في وجودها إليه وذلك لا ريب مستلزم علمه بما يفعله.</p>
+                    <p xml:lang="ar" xml:id="p_18.d1e545">فهو عالم بجميع المعلومات محيط بما يجري من تخوم الأرضين إلى أعلى السموات لا يعزب عن علمه مثقال ذرة في الأرض ولا في السماء، يدرك حركة الذر في جو الهواء، يعلم السر وأخفى ويطلع على هواجس الضمائر وحركات الخواطر وخفيات الأسرار.</p>
+                    <p xml:lang="ar" xml:id="p_19.d1e549">تأمل هذه الحيوانات كيف اختلفت في الصور والهيئات وتنوعت في القدر والأحجام وتباينت في التراكيب والأجسام وكيف نشأ فيها ذلك الإلهام العجيب الذي يهديها لبناء مساكنها وتغذية صغارها والهيمنة على أحوالها وأمورها أنى اهتدت إلى معايشها ووفقت لسبل غذائها وما يقيم حياتها وهذا النحل على صغر حجمه كيف هدي إلى اتخاذ البيوت مسدسة الشكل متساوية الأضلاع لا يزيد بعضها على بعض بمجرد طبعها والعقلاء من البشر لا يمكنهم مثل تلك البيوت إلا بآلات وأنظار دقيقة فجل العليم الحكيم الذي يعلم ذلك كله بعلم قديم أزلي لم يزل موصوفاً به أزل الآزال لا بعلم متجدد حاصل في ذاته بالحلول والانتقال.</p>
+                    <p xml:lang="ar" xml:id="p_20.d1e552">اتفق جمهور العقلاء على أن العلم صفة أزلية قائمة بذات الله تعالى تنكشف بها المعلومات عند تعلقها بها سواء كانت المعلومات موجودة أو معدومة قديمة أو حادثة كلية أو جزئية، وهو ليس بعرض ولا ضروري ولا مكتسب لأن الضروري قد يطلق على ما قارنته الضرورة من الحوادث والكسبي من صفات العلم الحصولي وكل ذلك محال في حق الله تعالى. <pb ed="shamela" n="n8-p2" corresp="file:../epub/29676/OEBPS/xhtml/P212.xhtml" xml:id="pb_2.d1e554"/> </p>
                     <pb xml:id="pb_5.d1e1039" ed="print" n="319" facs="#facs_329"/>
-                    <p xml:lang="ar" xml:id="p_19.d1e1041"
-                        >ومن الأدلة على وجوب صفة العلم له عز وجل كونه فاعلاً بالاختيار في جميع الأشياء لا وجوب ولا إيجاب عليه والفاعل المختار يجب أن يعلم ما يقصده إيجاده_فهل كون هذه الكائنات سبحانه وتعالى على ما هي عليه من إبداع وجمال ونظام وهو غر عالم (معاذ الله) ماذا يصنع وغير مدرك (حاشا لله) ماذا يعمل. .</p>
-                    <p xml:lang="ar" xml:id="p_21.d1e557"
-                        >ألا يدل ذلك على أن مصدره هو الله الذي لا يعزب عن علمه شيء في الأرض ولا في السماء العالم بحال الإنسان وهو جنين في بطن أمه وتقلبه من طور إلى طور حتى بلغ قمة الإبداع التكويني (ألا يعلم من خلق وهو اللطيف الخبير).</p>
-                    <p xml:lang="ar" xml:id="p_22.d1e560"
-                        >وقد أرشدنا الله تعالى إلى ما هو المنتهى في الاستدلال قال تعالى (وعنده مفاتيح الغيب لا يعلمها إلا هو ويعلم ما في البر والبحر وما تسقط من ورقة إلا ويعلمها ولا حبة في ظلمات الأرض ولا رطب ولا يابس إلا في كتاب مبين) (يعلم خائنة الأعين وما تخفي الصدور) إن الله لا يخفى عليه شيء في الأرض ولا في السماء إلى غير ذلك من الآيات فسبحان من أحاط بكل شيء علماً وأحصى كل شيء عدداً) بقي شيء ينبغي التنبيه عليه وهو أن المخلوقات وإن كان لها حظ من وصف العلم إلا أن علمه تعالى مباين لعلمها إذ علمه سبحانه وتعالى لذاته لا بسبب من السباب فلا يفتقر إلى آلة ولا إلى جولان الفكر وأفاعيل النظر بخلاف علم غيره من الممكنات فإنه لا يتأتى حصوله إلا بأحد أسباب <num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3"
-                        xml:id="num_1.d1e1049"
-                        >ثلاثة</num>: الحواس السليمة، والخبر الصادق، ونظر العقل <pb
-                        xml:id="pb_6.d1e1052" ed="print" n="320" facs="#facs_330"
-                        />فيكون علم كل إنسان حادثاً ومتجدداً وما حصله فليس إلا جزء محدود_وبعبارة أخرى ليس إلا عدماً بالنسبة لما يجهله من المعلومات لا تتناهى (وما أوتيتم من العلم إلا قليلا) ومع ذلك لم يحرمه العليم الحكيم جل شأنه مما ييل أوام مطامحه، وينقع أوار مطامعه، فلا تجده خطا خطوة إلى الأمام حتى أوسع الله أمامه من الباحات، ومهد له من الساحات ما لا يستطيع معه أن يدعي ضيق المجال وحرج المضمار (وقل رب زدني علماً).</p>
+                    <p xml:lang="ar" xml:id="p_19.d1e1041">ومن الأدلة على وجوب صفة العلم له عز وجل كونه فاعلاً بالاختيار في جميع الأشياء لا وجوب ولا إيجاب عليه والفاعل المختار يجب أن يعلم ما يقصده إيجاده_فهل كون هذه الكائنات سبحانه وتعالى على ما هي عليه من إبداع وجمال ونظام وهو غر عالم (معاذ الله) ماذا يصنع وغير مدرك (حاشا لله) ماذا يعمل. .</p>
+                    <p xml:lang="ar" xml:id="p_21.d1e557">ألا يدل ذلك على أن مصدره هو الله الذي لا يعزب عن علمه شيء في الأرض ولا في السماء العالم بحال الإنسان وهو جنين في بطن أمه وتقلبه من طور إلى طور حتى بلغ قمة الإبداع التكويني (ألا يعلم من خلق وهو اللطيف الخبير).</p>
+                    <p xml:lang="ar" xml:id="p_22.d1e560">وقد أرشدنا الله تعالى إلى ما هو المنتهى في الاستدلال قال تعالى (وعنده مفاتيح الغيب لا يعلمها إلا هو ويعلم ما في البر والبحر وما تسقط من ورقة إلا ويعلمها ولا حبة في ظلمات الأرض ولا رطب ولا يابس إلا في كتاب مبين) (يعلم خائنة الأعين وما تخفي الصدور) إن الله لا يخفى عليه شيء في الأرض ولا في السماء إلى غير ذلك من الآيات فسبحان من أحاط بكل شيء علماً وأحصى كل شيء عدداً) بقي شيء ينبغي التنبيه عليه وهو أن المخلوقات وإن كان لها حظ من وصف العلم إلا أن علمه تعالى مباين لعلمها إذ علمه سبحانه وتعالى لذاته لا بسبب من السباب فلا يفتقر إلى آلة ولا إلى جولان الفكر وأفاعيل النظر بخلاف علم غيره من الممكنات فإنه لا يتأتى حصوله إلا بأحد أسباب <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3" xml:id="num_1.d1e1049">ثلاثة</num>: الحواس السليمة، والخبر الصادق، ونظر العقل <pb xml:id="pb_6.d1e1052" ed="print" n="320" facs="#facs_330"/>فيكون علم كل إنسان حادثاً ومتجدداً وما حصله فليس إلا جزء محدود_وبعبارة أخرى ليس إلا عدماً بالنسبة لما يجهله من المعلومات لا تتناهى (وما أوتيتم من العلم إلا قليلا) ومع ذلك لم يحرمه العليم الحكيم جل شأنه مما ييل أوام مطامحه، وينقع أوار مطامعه، فلا تجده خطا خطوة إلى الأمام حتى أوسع الله أمامه من الباحات، ومهد له من الساحات ما لا يستطيع معه أن يدعي ضيق المجال وحرج المضمار (وقل رب زدني علماً).</p>
                 </div>
                 <div type="section" xml:id="div_3.d1e1056">
-                    <head xml:id="head_4.d1e1058">الحياة <tei:num value="10" xml:lang="ar"
-                        xml:id="num_1.d1e1020">١٠</tei:num></head>
-                    <p xml:lang="ar" xml:id="p_24.d1e566"
-                        >ومما يجب له سبحانه صفة الحياة وهي صفة أزلية قائمة بذاته تعالى تقتضي صحة اتصافه بالعلم وغيره من الصفات والدليل على وجوب الحياة له تعالى أنه متصف بالقدرة وافرادة والعلم كما قدمنا وهي ملزومات للحياة وتحقق الملزوم يقتضي تحقق اللازم وحياته تعالى <pb
-                        ed="shamela" n="n8-p3" corresp="file:../epub/29676/OEBPS/xhtml/P213.xhtml"
-                        xml:id="pb_3.d1e568"
-                        /> مباينة لحياة غيره من الممكنات بالضرورة إذ كل ممكن حياته حادثة ولا تكون إلا بواسطة_انظر إلى هذا الهيكل الإنساني تظهر لك ماهية حياته_حركات دائمة، مجهودات من أجزائه متواصلة، لا تهدأ مطرف عين، ولا تقف لحظة من زمان، قلب يرتجف، ومعدة تعمل، وعصارات تفرز، وسوائل تتحلل، وتتركب وتترشح وتتصاعد، وغدد تختزن السوائل لحين الحاجة، ودم دائب الجريان في أجزاء الجسد، وخلايا بسيطة تتلاشى وتتكون وتتكاثر إلى غير نهاية_وكل هذا لا يهدأ لحظة <pb
-                        xml:id="pb_8.d1e1067" ed="print" n="321" facs="#facs_331"
-                        />ولا يسكن آونة في ليل أو نهار فالإنسان أبدع الأنواع الحية وأكمل نموذج للصورة المادية فسبحان الخلاق العظيم.</p>
-                    <closer xml:id="closer_1.d1e1070"><ref xml:id="ref_6.d1e1071"
-                        target="oclc_644997575-i_11.TEIP5.xml#div_2.d1e531">يتبع</ref></closer>
+                    <head xml:id="head_4.d1e1058">الحياة <tei:num value="10" xml:lang="ar" xml:id="num_1.d1e1020">١٠</tei:num></head>
+                    <p xml:lang="ar" xml:id="p_24.d1e566">ومما يجب له سبحانه صفة الحياة وهي صفة أزلية قائمة بذاته تعالى تقتضي صحة اتصافه بالعلم وغيره من الصفات والدليل على وجوب الحياة له تعالى أنه متصف بالقدرة وافرادة والعلم كما قدمنا وهي ملزومات للحياة وتحقق الملزوم يقتضي تحقق اللازم وحياته تعالى <pb ed="shamela" n="n8-p3" corresp="file:../epub/29676/OEBPS/xhtml/P213.xhtml" xml:id="pb_3.d1e568"/> مباينة لحياة غيره من الممكنات بالضرورة إذ كل ممكن حياته حادثة ولا تكون إلا بواسطة_انظر إلى هذا الهيكل الإنساني تظهر لك ماهية حياته_حركات دائمة، مجهودات من أجزائه متواصلة، لا تهدأ مطرف عين، ولا تقف لحظة من زمان، قلب يرتجف، ومعدة تعمل، وعصارات تفرز، وسوائل تتحلل، وتتركب وتترشح وتتصاعد، وغدد تختزن السوائل لحين الحاجة، ودم دائب الجريان في أجزاء الجسد، وخلايا بسيطة تتلاشى وتتكون وتتكاثر إلى غير نهاية_وكل هذا لا يهدأ لحظة <pb xml:id="pb_8.d1e1067" ed="print" n="321" facs="#facs_331"/>ولا يسكن آونة في ليل أو نهار فالإنسان أبدع الأنواع الحية وأكمل نموذج للصورة المادية فسبحان الخلاق العظيم.</p>
+                    <closer xml:id="closer_1.d1e1070"><ref xml:id="ref_6.d1e1071" target="oclc_644997575-i_11.TEIP5.xml#div_2.d1e531">يتبع</ref></closer>
                 </div>
             </div>
             <pb ed="shamela" n="n8-p4" corresp="file:../epub/29676/OEBPS/xhtml/P214.xhtml" xml:id="pb_4.d1e570"/>
