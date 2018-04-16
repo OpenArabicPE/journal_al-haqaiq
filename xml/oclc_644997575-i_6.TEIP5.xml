@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!-- <?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> -->
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>-->
-<TEI next="oclc_644997575-i_7" prev="oclc_644997575-i_5" xml:id="oclc_644997575-i_6" xml:lang="" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- <?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> --><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_7" prev="oclc_644997575-i_5" xml:id="oclc_644997575-i_6" xml:lang="">
     <teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
         <fileDesc xml:id="fileDesc_1.d1e9" xml:lang="en">
             <titleStmt xml:id="titleStmt_1.d1e11" xml:lang="en">
@@ -100,7 +95,7 @@
                     the earlier issues these do not correspond to the page breaks in the print
                     edition and should thus be marked with 
                     <att xml:id="att_1.d1e205" xml:lang="en">ed</att>
-                    =&quot;shamela&quot;</p>
+                    ="shamela"</p>
                 <p xml:id="p_3.d1e209" xml:lang="en">It remains unclear to which extent publication dates for individual
                     issues are correct. After reviewing the image files and the official publication schedule, the dates provided by 
                     <foreign xml:id="foreign_3.d1e211" xml:lang="ar-Latn-x-ijmes">hijrī</foreign>
@@ -112,7 +107,7 @@
                     <gi xml:id="gi_1.d1e223" xml:lang="en">gap</gi>
                     with 
                     <att xml:id="att_2.d1e226" xml:lang="en">resp</att>
-                    =&quot;#org_MS&quot;. Upon further scrutiny, it turned out that most, if
+                    ="#org_MS". Upon further scrutiny, it turned out that most, if
                     not all, of these 
                     <gi xml:id="gi_2.d1e229" xml:lang="en">gap</gi>
                     s indicated the division between two
@@ -129,7 +124,7 @@
                     of
                         
                     <att xml:id="att_3.d1e245" xml:lang="en">type</att>
-                    =&quot;bayt&quot; with 
+                    ="bayt" with 
                     <gi xml:id="gi_6.d1e248" xml:lang="en">seg</gi>
                     child
                     elements. All other red spans have been rendered as 
@@ -266,19 +261,18 @@
                     following common Levantine Arabic practices</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc xml:id="revisionDesc_1.d1e432">
-            <change when="2018-04-16" who="#pers_TG" xml:lang="en"
-                >Verified page breaks, corrected mark-up. Fixed the final table of printing errors</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-04-16" who="#pers_TG">Wrapped all numerals in <tei:gi>num</tei:gi> with <tei:att>value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+            <change when="2018-04-16" who="#pers_TG" xml:lang="en">Verified page breaks, corrected mark-up. Fixed the final table of printing errors</change>
             <change when="2017-08-04" who="#pers_TG" xml:id="change_1.d1e431">Added the remaining page beginnings based on the facsimile. Moved to text of the following issue (7) to its own file. Added automated page numbers as 
                 <att xml:id="att_6.d1e433">n</att>
                 s and 
                 <att xml:id="att_7.d1e436">ed</att>
-                =&quot;print&quot; for every
+                ="print" for every
                 <gi xml:id="gi_8.d1e439">pb</gi>
                 that was not of 
                 <att xml:id="att_8.d1e442">ed</att>
-                =&quot;shamela&quot;. Linked all 
-                <tei:tag xml:id="tag_1.d1e445">pb ed=&quot;print&quot;</tei:tag>
+                ="shamela". Linked all 
+                <tei:tag xml:id="tag_1.d1e445">pb ed="print"</tei:tag>
                 to the corresponding facsimile</change>
             <change when="2017-07-28" who="#pers_TG" xml:id="change_2.d1e448">Generated a new 
                 <tei:gi xml:id="gi_9.d1e450">front</tei:gi>
@@ -314,7 +308,7 @@
                 <gi xml:id="gi_9.d1e470" xml:lang="en">tei:text</gi>
                 and had no existing 
                 <att xml:id="att_8.d1e473" xml:lang="en">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change when="2016-03-11" xml:id="change_3.d1e476" xml:lang="en">Wrapped all numerals in 
                 <tei:gi xml:id="gi_10.d1e478" xml:lang="en">num</tei:gi>
                 with 
@@ -333,7 +327,7 @@
                 and had no existing
                     
                 <att xml:id="att_10.d1e501" xml:lang="en">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change when="2016-02-27" xml:id="change_4.d1e505" xml:lang="en">Added the 
                 <tei:att xml:id="att_11.d1e507" xml:lang="en">xml:lang</tei:att>
                 attribute to all
@@ -364,7 +358,7 @@
                 <gi xml:id="gi_16.d1e541" xml:lang="en">l</gi>
                 of 
                 <att xml:id="att_11.d1e544" xml:lang="en">type</att>
-                =&quot;bayt&quot; comprising two 
+                ="bayt" comprising two 
                 <gi xml:id="gi_17.d1e548" xml:lang="en">seg</gi>
                 nodes.</change>
             <change when="2016-02-26" who="#pers_TG" xml:id="change_7.d1e552" xml:lang="en">Created this TEI P5 file by
@@ -717,7 +711,7 @@
                     <p xml:id="p_31.d1e606" xml:lang="ar">(أقوال علماء الأصول في إبطال التلفيق وتتبع الرخص زيادة على ما تقدم) 
                         <lb/>
                         الأسنوي في منهاجه 
-                        <del resp="#org_MS">ص (٤٩) جزء (٣)</del></p>
+                        <del resp="#org_MS">ص ( <tei:num type="auto-markup" resp="#pers_TG" value="49" xml:lang="ar">٤٩</tei:num> ) جزء ( <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar">٣</tei:num> )</del></p>
                     <p xml:id="p_32.d1e609" xml:lang="ar">(فرعان) حكاهما ابن الحاجب (الثاني) إذا قلد مجتهداص في مسئلة 
                         <lb/>
                         فليس له تقليد غيره فيها إتفاقاً. 
@@ -839,7 +833,7 @@
                         <persName rend="brackets" xml:id="persName_9.d1e1367">سعيد</persName></byline>
                     <dateline xml:id="dateline_1.d1e1370">
                         <placeName xml:id="placeName_5.d1e1371">بيروت</placeName>في 
-                        <date xml:id="date_17.d1e1374">١٦ تشرين ثاني ٩١٠</date></dateline>
+                        <date xml:id="date_17.d1e1374"> <tei:num type="auto-markup" resp="#pers_TG" value="16" xml:lang="ar">١٦</tei:num>  تشرين ثاني  <tei:num type="auto-markup" resp="#pers_TG" value="910" xml:lang="ar">٩١٠</tei:num> </date></dateline>
                 </div>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P135.xhtml" ed="shamela" n="n6-p12" xml:id="pb_12.d1e696"/>
@@ -1264,206 +1258,205 @@
                         <cell xml:id="cell_4.d1e2117">صواب </cell>
                     </row>
                     <row role="data" xml:id="row_2.d1e2121">
-                        <cell xml:id="cell_5.d1e2123">١٦٠ </cell>
-                        <cell xml:id="cell_6.d1e2126">١٨</cell>
+                        <cell xml:id="cell_5.d1e2123"> <tei:num type="auto-markup" resp="#pers_TG" value="160" xml:lang="ar">١٦٠</tei:num>  </cell>
+                        <cell xml:id="cell_6.d1e2126"> <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar">١٨</tei:num> </cell>
                         <cell xml:id="cell_7.d1e2129">والحروف في الحروف</cell>
                         <cell xml:id="cell_8.d1e2132">في الحروف </cell>
                     </row>
                     <pb ed="print" facs="#facs_243" n="233" xml:id="pb_68.d1e2136"/>
                     <row role="data" xml:id="row_3.d1e2138">
-                        <cell xml:id="cell_9.d1e2140">١٦٤</cell>
-                        <cell>٥</cell>
+                        <cell xml:id="cell_9.d1e2140"> <tei:num type="auto-markup" resp="#pers_TG" value="164" xml:lang="ar">١٦٤</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="5" xml:lang="ar">٥</tei:num> </cell>
                         <cell>فساد أخلاق</cell>
                         <cell>فساد الأخلاق </cell>
                     </row>
                     <row role="data">
-                        <cell>١٧١</cell>
-                        <cell>١٤</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="171" xml:lang="ar">١٧١</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="14" xml:lang="ar">١٤</tei:num> </cell>
                         <cell>غنياً أو فقير</cell>
                         <cell>اغنياً أو فقيراً </cell>
                     </row>
                     <row role="data">
-                        <cell>172</cell>
-                        <cell>12</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar">١٧٢</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar">١٢</tei:num> </cell>
                         <cell>شهدين</cell>
                         <cell>شهيدين </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            173</cell><cell>2</cell><cell>المرأتان</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="173" xml:lang="ar">١٧٣</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="2" xml:lang="ar">٢</tei:num> </cell><cell>المرأتان</cell>
                         <cell>المرأتين </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            175</cell><cell>3</cell><cell>اليقينة</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="175" xml:lang="ar">١٧٥</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar">٣</tei:num> </cell><cell>اليقينة</cell>
                         <cell>اليقينية </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            172</cell><cell>3</cell><cell>لما أمنكهم</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar">١٧٢</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar">٣</tei:num> </cell><cell>لما أمنكهم</cell>
                         <cell>لما أمكنهم </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            172</cell><cell>7</cell><cell>نعم مطية الدنيا الآخرة</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar">١٧٢</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="7" xml:lang="ar">٧</tei:num> </cell><cell>نعم مطية الدنيا الآخرة</cell>
                         <cell>نعم مطية الآخرة الدنيا </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            183</cell><cell>12</cell><cell>إنما المؤمنين</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="183" xml:lang="ar">١٨٣</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar">١٢</tei:num> </cell><cell>إنما المؤمنين</cell>
                         <cell>إنما المؤمنون </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            186</cell><cell>11</cell><cell>روحان</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="186" xml:lang="ar">١٨٦</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="11" xml:lang="ar">١١</tei:num> </cell><cell>روحان</cell>
                         <cell>الروحان </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            187</cell><cell>4</cell><cell>شهدء</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar">١٨٧</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="4" xml:lang="ar">٤</tei:num> </cell><cell>شهدء</cell>
                         <cell>شهداء </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            187</cell><cell>8</cell><cell>يالأرواح</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar">١٨٧</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="8" xml:lang="ar">٨</tei:num> </cell><cell>يالأرواح</cell>
                         <cell>بالأرواح </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            187</cell><cell>12</cell><cell>وقظو</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar">١٨٧</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar">١٢</tei:num> </cell><cell>وقظو</cell>
                         <cell>وقظوا </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            187</cell><cell>18</cell><cell>وزراريهم</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar">١٨٧</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar">١٨</tei:num> </cell><cell>وزراريهم</cell>
                         <cell>وذراريهم </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            187</cell><cell>18</cell><cell>ووضا</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar">١٨٧</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar">١٨</tei:num> </cell><cell>ووضا</cell>
                         <cell>ورضا </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            187</cell><cell>21</cell><cell>أموالكم</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar">١٨٧</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="21" xml:lang="ar">٢١</tei:num> </cell><cell>أموالكم</cell>
                         <cell>بأموالكم </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            188</cell><cell>17</cell><cell>وعظام</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="188" xml:lang="ar">١٨٨</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="17" xml:lang="ar">١٧</tei:num> </cell><cell>وعظام</cell>
                         <cell>وأعظام </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            190</cell><cell>3</cell><cell>بعضم</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="190" xml:lang="ar">١٩٠</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar">٣</tei:num> </cell><cell>بعضم</cell>
                         <cell>بعضهم </cell>
                     </row>
                     <row role="data">
                         <cell>
-                            194</cell><cell>6</cell><cell>بداعة</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="194" xml:lang="ar">١٩٤</tei:num> </cell><cell> <tei:num type="auto-markup" resp="#pers_TG" value="6" xml:lang="ar">٦</tei:num> </cell><cell>بداعة</cell>
                         <cell>براعة </cell>
                     </row>
                     <pb ed="print" facs="#facs_244" n="234" xml:id="pb_69.d1e2199"/>
                     <row role="data" xml:id="row_4.d1e2202">
-                        <cell xml:id="cell_10.d1e2204">١٩٤</cell>
-                        <cell xml:id="cell_11.d1e2207">١٠</cell>
+                        <cell xml:id="cell_10.d1e2204"> <tei:num type="auto-markup" resp="#pers_TG" value="194" xml:lang="ar">١٩٤</tei:num> </cell>
+                        <cell xml:id="cell_11.d1e2207"> <tei:num type="auto-markup" resp="#pers_TG" value="10" xml:lang="ar">١٠</tei:num> </cell>
                         <cell xml:id="cell_12.d1e2210">لاشدور</cell>
                         <cell xml:id="cell_13.d1e2213">لاشذوذ </cell>
                     </row>
                     <row role="data" xml:id="row_5.d1e2217">
-                        <cell xml:id="cell_14.d1e2219">197</cell>
-                        <cell>16</cell>
+                        <cell xml:id="cell_14.d1e2219"> <tei:num type="auto-markup" resp="#pers_TG" value="197" xml:lang="ar">١٩٧</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="16" xml:lang="ar">١٦</tei:num> </cell>
                         <cell>هذ</cell>
                         <cell>هذا </cell>
                     </row>
                     <row role="data">
-                        <cell>197</cell>
-                        <cell>1</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="197" xml:lang="ar">١٩٧</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar">١</tei:num> </cell>
                         <cell>قليلاً ماتتذكرون</cell>
                         <cell>قليلاً ماتذكرون </cell>
                     </row>
                     <row role="data">
-                        <cell>198</cell>
-                        <cell>13</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="198" xml:lang="ar">١٩٨</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="13" xml:lang="ar">١٣</tei:num> </cell>
                         <cell>ووحدانية في الصفات</cell>
                         <cell>ووحدانية الصفات </cell>
                     </row>
                     <row role="data">
-                        <cell>199</cell>
-                        <cell>19</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="199" xml:lang="ar">١٩٩</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="19" xml:lang="ar">١٩</tei:num> </cell>
                         <cell>في مدنية</cell>
                         <cell>في مدينة </cell>
                     </row>
                     <row role="data">
-                        <cell>213</cell>
-                        <cell>3</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="213" xml:lang="ar">٢١٣</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar">٣</tei:num> </cell>
                         <cell>الذي</cell>
                         <cell>التي </cell>
                     </row>
                     <row role="data">
-                        <cell>214</cell>
-                        <cell>1</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="214" xml:lang="ar">٢١٤</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar">١</tei:num> </cell>
                         <cell>فضلتكم</cell>
                         <cell>فضيلتكم </cell>
                     </row>
                     <row role="data">
-                        <cell>218</cell>
-                        <cell>1</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="218" xml:lang="ar">٢١٨</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar">١</tei:num> </cell>
                         <cell>إن نبسة</cell>
                         <cell>إن نسبة </cell>
                     </row>
                     <row role="data">
-                        <cell>222</cell>
-                        <cell>15</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar">٢٢٢</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="15" xml:lang="ar">١٥</tei:num> </cell>
                         <cell>يالنساء</cell>
                         <cell>بالنساء </cell>
                     </row>
                     <row role="data">
-                        <cell>223</cell>
-                        <cell>3</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="223" xml:lang="ar">٢٢٣</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar">٣</tei:num> </cell>
                         <cell>قيطلقها</cell>
                         <cell>فيطلقها </cell>
                     </row>
                     <row role="data">
-                        <cell>225</cell>
-                        <cell>8</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="225" xml:lang="ar">٢٢٥</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="8" xml:lang="ar">٨</tei:num> </cell>
                         <cell>منها</cell>
                         <cell>منه </cell>
                     </row>
                     <row role="data">
-                        <cell>226</cell>
-                        <cell>17</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="226" xml:lang="ar">٢٢٦</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="17" xml:lang="ar">١٧</tei:num> </cell>
                         <cell>للسننن</cell>
                         <cell>للسنن </cell>
                     </row>
                     <row role="data">
-                        <cell>218</cell>
-                        <cell>9</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="218" xml:lang="ar">٢١٨</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="9" xml:lang="ar">٩</tei:num> </cell>
                         <cell>يمكنهم</cell>
                         <cell>يمكنهن </cell>
                     </row>
                     <row role="data">
-                        <cell>219</cell>
-                        <cell>19</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="219" xml:lang="ar">٢١٩</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="19" xml:lang="ar">١٩</tei:num> </cell>
                         <cell>إلى</cell>
                         <cell>على </cell>
                     </row>
                     <row role="data">
-                        <cell>222</cell>
-                        <cell>3</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar">٢٢٢</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar">٣</tei:num> </cell>
                         <cell>من وراء</cell>
                         <cell>وراء </cell>
                     </row>
                     <row role="data">
-                        <cell>222</cell>
-                        <cell>10</cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar">٢٢٢</tei:num> </cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="10" xml:lang="ar">١٠</tei:num> </cell>
                         <cell>زاب</cell>
                         <cell>ذاب </cell>
                     </row>
                     <row role="data">
-                        <cell>229 </cell>
-                        <cell><tei:num value="11" xml:id="num_1.d1e1832" xml:lang="ar"
-                            >١١</tei:num></cell>
+                        <cell> <tei:num type="auto-markup" resp="#pers_TG" value="229" xml:lang="ar">٢٢٩</tei:num>  </cell>
+                        <cell><tei:num value="11" xml:id="num_1.d1e1832" xml:lang="ar">١١</tei:num></cell>
                         <cell>تحدس</cell>
                         <cell>تحدث </cell>
                     </row>
