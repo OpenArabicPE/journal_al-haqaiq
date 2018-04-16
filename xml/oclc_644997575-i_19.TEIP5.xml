@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
- <?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_19" xml:lang="en" next="oclc_644997575-i_20" prev="oclc_644997575-i_18">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_19" xml:lang="en" next="oclc_644997575-i_20" prev="oclc_644997575-i_18">
    <teiHeader xml:lang="en" xml:id="teiHeader_1.d1e7">
       <fileDesc xml:lang="en" xml:id="fileDesc_1.d1e9">
          <titleStmt xml:lang="en" xml:id="titleStmt_1.d1e11">
@@ -84,113 +80,9 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc xml:lang="en" xml:id="encodingDesc_1.d1e181">
-            <samplingDecl xml:lang="en" xml:id="samplingDecl_1.d1e183">
-                <p xml:lang="en" xml:id="p_1.d1e185">The edition is based on the digital transcripts (HTML files wrapped
-                    in ePub) available from <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_1.d1e187">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_1.d1e189">al-maktabat al-shāmila</foreign>
-                    </ref>.</p>
-            </samplingDecl>
-            <editorialDecl xml:lang="en" xml:id="editorialDecl_1.d1e195">
-                <p xml:lang="en" xml:id="p_2.d1e197">The original editorial practices followed by <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_2.d1e199">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_2.d1e201">al-maktabat al-shāmila</foreign>
-                    </ref> can only be deduced from the limited mark-up found in the digital text
-                    provided online and as ePub. It appears from that that paragraphs and head lines
-                    were recorded and preserved. They also recorded page breaks, but at least for
-                    the earlier issues these do not correspond to the page breaks in the print
-                    edition and should thus be marked with <att xml:lang="en" xml:id="att_1.d1e205">ed</att>="shamela"</p>
-                <p xml:lang="en" xml:id="p_3.d1e209">It remains unclear to which extent publication dates for individual
-                    issues are correct. After reviewing the image files and the official publication schedule, the dates provided by <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_3.d1e211">hijrī</foreign> seem to be correct</p>
-                <p xml:lang="en" xml:id="p_4.d1e215">Some phenomena have been marked in red spans by <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_3.d1e217">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_4.d1e219">al-maktabat al-shāmila</foreign>
-                    </ref>. Red spans that contained three points only were considered indicators of
-                    ellipses and transformed into <gi xml:lang="en" xml:id="gi_1.d1e223">gap</gi> with <att xml:lang="en" xml:id="att_2.d1e226">resp</att>="#org_MS". Upon further scrutiny, it turned out that most, if
-                    not all, of these <gi xml:lang="en" xml:id="gi_2.d1e229">gap</gi>s indicated the division between two
-                    halfs of the line of a <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_5.d1e232">qaṣīda</foreign>. I
-                    have converted all <gi xml:lang="en" xml:id="gi_3.d1e236">p</gi>s that contained two short lines of
-                    text divided by <gi xml:lang="en" xml:id="gi_4.d1e239">gap</gi> into <gi xml:lang="en" xml:id="gi_5.d1e242">l</gi> of
-                        <att xml:lang="en" xml:id="att_3.d1e245">type</att>="bayt" with <gi xml:lang="en" xml:id="gi_6.d1e248">seg</gi> child
-                    elements. All other red spans have been rendered as <gi xml:lang="en" xml:id="gi_7.d1e251">gap</gi>.</p>
-            </editorialDecl>
-        </encodingDesc>
-      <profileDesc xml:lang="en" xml:id="profileDesc_1.d1e257">
-            <!-- as we deal with sources from an area and period which also used non-Latin scripts and preferred a number of calenders over the Gregorian, this should be declared here -->
-            <calendarDesc xml:lang="en" xml:id="calendarDesc_1.d1e261">
-                <calendar xml:id="cal_gregorian" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_5.d1e265">Following the hegemonial approach of standards rooted in the
-                        English language, the Gregorian calendar is presumed as the norm and must
-                        not be specified.</p>
-                    <p xml:lang="en" xml:id="p_6.d1e268">The <att xml:lang="en" xml:id="att_4.d1e270">when</att> attribute always provides W3C
-                        dates, while the <att xml:lang="en" xml:id="att_5.d1e273">when-custom</att> attribute follows the
-                        inherent logic of the chosen calendar.</p>
-                    <p xml:lang="en" xml:id="p_7.d1e277">E.g. <date when="1841-05-23" xml:lang="en" xml:id="date_5.d1e279">23 May 1841,
-                            Sunday</date>, <date when="1908-03-05" xml:lang="en" xml:id="date_6.d1e282">5 Mar 1908,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_islamic" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_8.d1e289">Islamic <hi xml:lang="en" xml:id="hi_1.d1e291">hijrī</hi> calendar: lunar calendar
-                        beginning the Year with 1 Muḥarram. Dates differ between locations as the
-                        beginning of the month is based on sightings of the new moon.</p>
-                    <p xml:lang="en" xml:id="p_9.d1e295">E.g. <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1841-05-23" when-custom="1257-04-01" xml:lang="en" xml:id="date_7.d1e297">1 Rab II 1257,
-                            Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1908-03-05" when-custom="1326-02-01" xml:lang="en" xml:id="date_8.d1e300">1 Ṣaf 1326,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_julian" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_10.d1e307">Reformed Julian calendar beginning the Year with 1 January. In
-                        the Ottoman context usually referred to as <hi xml:lang="en" xml:id="hi_2.d1e309">rūmī</hi>.
-                        Arabic newspapers usually labelled this calendar as <hi xml:lang="en" xml:id="hi_3.d1e312">sharqī</hi>.</p>
-                    <p xml:lang="en" xml:id="p_11.d1e316">All solar calendars add an intercalated 366th day every fourth
-                        (and, in the case of Gregorian and rūmī calendars, even-numbered) year at
-                        the end of February (the last day of the old Julian calendar). The Gregorian
-                        calendar suppresses this rule in centesimal years that cannot be divided by
-                        400. This difference creates a growing offset between Gregorian and Julian
-                        calendars: while 1900 R was a leap year, 1900 was not, which in turn caused
-                        the difference between the Gregorian calendar, on the one hand, and the <hi xml:lang="en" xml:id="hi_4.d1e318">mālī</hi> and <hi xml:lang="en" xml:id="hi_5.d1e321">rūmī</hi> calendars, on
-                        the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R /
-                        1315 M (13 March 1900) onwards.</p>
-                    <p xml:lang="en" xml:id="p_12.d1e325">E.g. <date calendar="#cal_julian" datingMethod="#cal_julian" when="1841-05-23" when-custom="1841-05-11" xml:lang="en" xml:id="date_9.d1e327">11 Ayyār 1841,
-                            Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian" when="1908-03-05" when-custom="1908-02-21" xml:lang="en" xml:id="date_10.d1e330">21 Shub 1908,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_13.d1e337">Ottoman fiscal calendar: a lunosolar calendar. It is based on
-                        the Old Julian calendar beginning the Year with 1 March. Introduced as
-                        fiscal calendar in 1676 and in the Ottoman context usually referred to as
-                            <hi xml:lang="en" xml:id="hi_6.d1e339">mālī</hi> and sometimes, confusingly, also as <hi xml:lang="en" xml:id="hi_7.d1e342">rūmī</hi>. Every 33 lunar years, a <hi xml:lang="en" xml:id="hi_8.d1e345">hijrī</hi> year would complete within a single solar <hi xml:lang="en" xml:id="hi_9.d1e348">mālī</hi> year. In this case the counting of the <hi xml:lang="en" xml:id="hi_10.d1e351">mālī</hi> years skipped a year to catch up with the faster <hi xml:lang="en" xml:id="hi_11.d1e355">hijrī</hi> calendar. Due to a printing error in the coupon
-                        booklets for the consolidated debt repayment program for 1872 (1288 M
-                        instead of 1289 M), synchronisation of <hi xml:lang="en" xml:id="hi_12.d1e358">mālī</hi> and <hi xml:lang="en" xml:id="hi_13.d1e361">hijrī</hi> years was henceforth abolished. As <hi xml:lang="en" xml:id="hi_14.d1e364">mālī</hi> years began with 1 March, <hi xml:lang="en" xml:id="hi_15.d1e367">mālī</hi> leap years preceded their <hi xml:lang="en" xml:id="hi_16.d1e370">rūmī</hi> and
-                        Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
-                    <p xml:lang="en" xml:id="p_14.d1e374">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:lang="en" xml:id="date_11.d1e376">11 Māyis 1257, Sunday</date>,
-                            <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:lang="en" xml:id="date_12.d1e379">21 Shub 1323,
-                            Thursday</date>.</p>
-                </calendar>
-            </calendarDesc>
-            <!-- According to TEI P5 @xml:lang should follow BCP 47 <note target="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>, which specifies for Arabic in Latin transcription "ar-Latn". The specific type of transcription should be added as a private use subtag, i.e. "ar-Latn-x-ijmes" for the
-               IJMES transcription of Arabic in Latin script. -->
-            <langUsage xml:lang="en" xml:id="langUsage_1.d1e387">
-                <language ident="ar" xml:lang="en" xml:id="language_1.d1e389">Arabic</language>
-                <language ident="ar-Latn-x-ijmes" xml:lang="en" xml:id="language_2.d1e392">Arabic transcribed into Latin script
-                    following the IJMES conventions</language>
-                <language ident="ar-Latn-EN" xml:lang="en" xml:id="language_3.d1e395">Arabic transcribed into Latin script
-                    following common English practices</language>
-                <language ident="ar-Latn-FR" xml:lang="en" xml:id="language_4.d1e398">Arabic transcribed into Latin script
-                    following common French practices</language>
-                <language ident="en" xml:lang="en" xml:id="language_5.d1e401">English</language>
-                <language ident="fa" xml:lang="en" xml:id="language_6.d1e405">Farsi</language>
-                <language ident="fa-Latn-x-ijmes" xml:lang="en" xml:id="language_7.d1e408">Farsi transcribed into Latin script
-                    following the IJMES conventions</language>
-                <language ident="fr" xml:lang="en" xml:id="language_8.d1e411">French</language>
-                <language ident="ota" xml:lang="en" xml:id="language_9.d1e414">Ottoman</language>
-                <language ident="ota-Latn-x-ijmes" xml:lang="en" xml:id="language_10.d1e417">Ottoman transcribed into Latin
-                    script following the IJMES conventions</language>
-                <language ident="tr" xml:lang="en" xml:id="language_11.d1e420">Turkish</language>
-                <language ident="en-Arab-AR" xml:lang="en" xml:id="language_12.d1e424">English transcribed into Arabic script
-                    following common Levantine Arabic practices</language>
-                <language ident="fr-Arab-AR" xml:lang="en" xml:id="language_13.d1e427">French transcribed into Arabic script
-                    following common Levantine Arabic practices</language>
-            </langUsage>
-        </profileDesc>
-      <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447">n</tei:att> to <tei:att xml:id="att_6.d1e451">from</tei:att> and <tei:att xml:id="att_6.d1e454">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e457">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e459">tei:num</gi>and <att xml:id="att_6.d1e462">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e465">Added automated <att xml:id="att_7.d1e467">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e470">tei:text</gi>and had no existing <att xml:id="att_8.d1e473">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e476">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e478">num</tei:gi> with <tei:att xml:id="att_9.d1e481">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28" xml:id="change_3.d1e484">Corrected the file's URL and <att xml:id="att_9.d1e486">xml:id</att> on <gi xml:id="gi_10.d1e489">TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e492">Added automated <att xml:id="att_10.d1e494">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e497">tei:text</gi>and had no existing <att xml:id="att_11.d1e500">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27" xml:id="change_4.d1e503">Added the <tei:att xml:id="att_12.d1e505">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
+      <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
+      <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447">n</tei:att> to <tei:att xml:id="att_6.d1e451">from</tei:att> and <tei:att xml:id="att_6.d1e454">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e457">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e459">tei:num</gi>and <att xml:id="att_6.d1e462">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e465">Added automated <att xml:id="att_7.d1e467">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e470">tei:text</gi>and had no existing <att xml:id="att_8.d1e473">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e476">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e478">num</tei:gi> with <tei:att xml:id="att_9.d1e481">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28" xml:id="change_3.d1e484">Corrected the file's URL and <att xml:id="att_9.d1e486">xml:id</att> on <gi xml:id="gi_10.d1e489">TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e492">Added automated <att xml:id="att_10.d1e494">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e497">tei:text</gi>and had no existing <att xml:id="att_11.d1e500">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27" xml:id="change_4.d1e503">Added the <tei:att xml:id="att_12.d1e505">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="#pers_TG" xml:lang="en" xml:id="change_4.d1e509">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en" xml:id="ref_4.d1e511">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en" xml:id="change_5.d1e515">Divided the <gi xml:lang="en" xml:id="gi_12.d1e517">body</gi> into a <gi xml:lang="en" xml:id="gi_13.d1e520">group</gi> of <gi xml:lang="en" xml:id="gi_14.d1e523">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en" xml:id="change_6.d1e528">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_6.d1e530">qaṣīda</foreign>s from <gi xml:lang="en" xml:id="gi_15.d1e533">p</gi>s divided by a <gi xml:lang="en" xml:id="gi_16.d1e536">gap</gi> to <gi xml:lang="en" xml:id="gi_17.d1e539">l</gi> of
@@ -245,8 +137,7 @@
                         وقسمتهم أيدي سياسته شيعاً وأحزاباً وهم أقوم أمم الأرض ديناً، وأوثقهم روابط،
                         وأحسنهم أخلاقاً وآداباً.</p>
                     <p xml:lang="ar" xml:id="p_16.d1e539">ليس من مفكر لا يهوله أمر أمة يربو عدد
-                    نفوسها على ال<num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG"
-                        value="300" xml:id="num_1.d1e655">ثلاثماية</num> مليون ضاربين في عامة أقطار
+                    نفوسها على ال<num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="300" xml:id="num_1.d1e655">ثلاثماية</num> مليون ضاربين في عامة أقطار
                     الأرض تربطهم روابط قوية دينية وسياسية يراهم والعدو<pb ed="print"/> آخذ بخطامهم
                     يجرهم إلى حيث يشأ، ويستعملهم فيما يريد وهم مستسلمون له، ومنقادون إليه وقد سامهم
                     أنواع الخسف وأذاقهم آلام الهوان، استولى على ممالكهم، واستنزف ثروتهم وسلبهم
@@ -265,13 +156,8 @@
                     مع إخوانهم في أنحاء الكرة الأرضية ويجتهدوا في تحسين الصلات فيما بينهم فإذا تمَّ
                     لهم هذان الأمران (ضم الدول والإمارات إلى دولة الخلافة والتعارف مع عموم المسلمين)
                     فليستبشروا بأنهم خطوا خطوة كبرى في سبيل التقدم. وأثروا أثراً تهتز له أعصاب
-                    مضطديهم إذ بذلك يجتمع <pb ed="print"/>تحت لواء و<num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_2.d1e668">احد</num> ما يقرب من <num xml:lang="ar"
-                        type="auto-markup" subtype="d3" resp="#pers_TG" value="100"
-                        xml:id="num_3.d1e671">مائة</num>
-                    <pb ed="shamela" n="n18-p2" corresp="file:../epub/29676/OEBPS/xhtml/P522.xhtml"
-                        xml:id="pb_2.d1e551"/> مليون من نفوسهم، ويكونون يداً واحدة مع من تعارفوا
+                    مضطديهم إذ بذلك يجتمع <pb ed="print"/>تحت لواء و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_2.d1e668">احد</num> ما يقرب من <num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100" xml:id="num_3.d1e671">مائة</num>
+                    <pb ed="shamela" n="n18-p2" corresp="file:../epub/29676/OEBPS/xhtml/P522.xhtml" xml:id="pb_2.d1e551"/> مليون من نفوسهم، ويكونون يداً واحدة مع من تعارفوا
                     معهم من بقية إخوانهم إذا دعاهم خطب، أو ألمت بهم ملمة.</p>
                     <p xml:lang="ar" xml:id="p_20.d1e554">إن الأمر الأول من هذين ليس ببعيد الحصول على ساسة العثمانيين والمحنكين منهم
                         بعد ما علم العالم أجمع ما صار إليه أمر دولة المغرب الأقصى من الاضمحلال، وما
@@ -290,8 +176,7 @@
                     تسعى وراء تعارفهم، وتوثيق عرى الروابط فيما بينهم يراعى في تلك الجامعة كونها في
                     مكة المكرمة (بيت الله الحرام) ويعين لاجتماع أعضائها أشهر الحج من كل عام على أن
                     لا تتداخل بشؤون دول الإسلام وإماراتهم الخاصة ولا تخوض عباب السياسة الأجنبية بل
-                    تقتصر على أداء مهمتها وهي النظر في تعارف المسلمين وجمع شتاتهم، وتنظيم شؤونهم <pb
-                        ed="print"/>ومنها أن يتبادل ملوك الإسلام وأمراؤهم الزيارة فيما بينهم وليبدأ
+                    تقتصر على أداء مهمتها وهي النظر في تعارف المسلمين وجمع شتاتهم، وتنظيم شؤونهم <pb ed="print"/>ومنها أن يتبادل ملوك الإسلام وأمراؤهم الزيارة فيما بينهم وليبدأ
                     بذلك صغيرهم كبيرهم وليبدأوا جميعاً بزيارة جلالة الخليفة الأكبر وهو أدامه الله
                     يعطف عليهم ويرد إليهم زيارتهم.</p>
                     <p xml:lang="ar" xml:id="p_23.d1e563">ومنها أن ترسل كل دولة وإمارة من دول المسلمين وإماراتهم وفداً من فضلائهم
@@ -299,8 +184,7 @@
                         يكون في كل عام لما يحدث لهم من الأمور ويطرأ عليهم من الأخطار.</p>
                     <p xml:lang="ar" xml:id="p_24.d1e566">ومنها أن تنشئ كل دولة من دول الإسلام على
                     نفقتها صحفاً يقوم بتحريرها عدد من الفضلاء تصدر في عواصم تلك الدول بأمهات اللغات
-                    الإسلامية تهدى جميعها بلا مقابل <pb ed="shamela" n="n18-p3"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P523.xhtml" xml:id="pb_3.d1e568"/>
+                    الإسلامية تهدى جميعها بلا مقابل <pb ed="shamela" n="n18-p3" corresp="file:../epub/29676/OEBPS/xhtml/P523.xhtml" xml:id="pb_3.d1e568"/>
                     إلى نبلاء المسلمين وأذكيائهم في عامة الأقطار على أن يكون مبدأ تلك الصحف تنبيه
                     المسلمين إلى ما حاق بهم مما كاد أن يصطلم أمرهم ويذهب بمقوماتهم ومشخصاتهم ودعوتهم
                     إلى توثيق عرى الاتحاد والتآلف بينهم وبين عامة إخوانهم في الكرة الأرضية وحثهم على
@@ -351,10 +235,8 @@
                     <p xml:lang="ar" xml:id="p_32.d1e602">إن ما نراه متحتماً على الأمة لهذا الخلل ومنعاً لسريانه أمران:</p>
                     <p xml:lang="ar" xml:id="p_33.d1e605">الأول أن يعمل الحكام على التعرف بالعلماء
                     الحقيقيين، ويقوموا لهم بواجباتهم، يقصرون عليهم الوظائف الدينية من إفتاء وقضاء
-                    وتدريس وإمامة وخطبة وغيرها، ويسعون لنزع مناصبهم من أيدي من اغتصبها منهم، <pb
-                        ed="print"/>ويحظرون على العامة أن تتزيا بأزيائهم، ويساعدونهم المساعدة
-                    الكافية لبث روح العلم في عامة طبقات الأمة. <pb ed="shamela" n="n18-p5"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P525.xhtml" xml:id="pb_5.d1e607"/>
+                    وتدريس وإمامة وخطبة وغيرها، ويسعون لنزع مناصبهم من أيدي من اغتصبها منهم، <pb ed="print"/>ويحظرون على العامة أن تتزيا بأزيائهم، ويساعدونهم المساعدة
+                    الكافية لبث روح العلم في عامة طبقات الأمة. <pb ed="shamela" n="n18-p5" corresp="file:../epub/29676/OEBPS/xhtml/P525.xhtml" xml:id="pb_5.d1e607"/>
                     وأول شيء يلزمهم تقديمه بين يدي عملهم هذا إبعاد من التف حولهم من الجهلة عن
                     مجلسهم، وعدم الأخذ بشيء من آرائهم ووساوسهم وبذلك يكونون ممن أدى الأمانة إلى
                     أهلها وقام بما يجب عليه للدين والعلم.</p>
@@ -372,11 +254,8 @@
                         الركون إليهم في أقوالهم وأفعالهم.</p>
                     <p xml:lang="ar" xml:id="p_35.d1e613">إذا توفر هذان السببان (قيام الحكام بما يجب
                     للعلماء وقيام العلماء بواجباتهم للأمة عموماً) فلا يلبث دعاة الفساد ممن زجوا
-                    أنفسهم في غمار العلماء أن يتلاشى أمرهم، ويفقدوا سلطتهم، ولا يمضي زمن يسير <pb
-                        ed="print"/>على المسلمين حتى تنتظم شؤونهم ويعم العلم كافة أفرادهم، ويسير
-                    العدل في عامة أنحائهم، ويرد إليهم ما فقدوه من سنن الإسلام وآدابه. <pb
-                        ed="shamela" n="n18-p6" corresp="file:../epub/29676/OEBPS/xhtml/P526.xhtml"
-                        xml:id="pb_6.d1e615"/>
+                    أنفسهم في غمار العلماء أن يتلاشى أمرهم، ويفقدوا سلطتهم، ولا يمضي زمن يسير <pb ed="print"/>على المسلمين حتى تنتظم شؤونهم ويعم العلم كافة أفرادهم، ويسير
+                    العدل في عامة أنحائهم، ويرد إليهم ما فقدوه من سنن الإسلام وآدابه. <pb ed="shamela" n="n18-p6" corresp="file:../epub/29676/OEBPS/xhtml/P526.xhtml" xml:id="pb_6.d1e615"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_4.d1e619">
@@ -393,26 +272,20 @@
                         الاستدلال على حل المتعة ما هو إلا تشويش وافتراء فلا يلتفت إليه.</p>
                     <p xml:lang="ar" xml:id="p_40.d1e637">وأما ما نقله عن حاشية شرح ملتقى الأبحر
                     فالجواب عنه أن نسبة الإباحة للإمام مالك غلط كما نبه على ذلك العلامة ابن عابدين
-                    في حاشيته على الدر ومن العجيب أن مؤلف الرسالة قد بلغ به حب التشويش إلى أن صار<pb
-                        ed="print"/> يأخذ أحكام مذهب الإمام مالك من غير مصادرها المعروفة وكيف خفي
+                    في حاشيته على الدر ومن العجيب أن مؤلف الرسالة قد بلغ به حب التشويش إلى أن صار<pb ed="print"/> يأخذ أحكام مذهب الإمام مالك من غير مصادرها المعروفة وكيف خفي
                     عليه أن أحكام كل مذهب إنما تؤخذ من كتبه المختصة به كما هو مقرر مشهور.</p>
                     <p xml:lang="ar" xml:id="p_41.d1e640">ومذهب الإمام مالك تحريم المتعة كما نقله
                     العلامة الزرقاني في شرح الموطأ وإليك نص عبارته. . أجمعوا على أنه (أي نكاح
                     المتعة) متى وقع الآن فسخ قبل الدخول وبعده إلا زفر فقال بصحته لأنه من باب الشروط
                     الفاسدة إذا قارنت النكاح بطلت ومضى النكاح على التأييد أهـ وقد بين العلامة
                     الزرقاني أيضاً أن خلاف الصحابة إنما كان في الصدر الأول إلى آخر خلافة عمر رضي
-                    الله عنه وأما بعد ذلك فقد وقع الإجماع على تحريم المتعة حتى ابن عباس في <num
-                        xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_9.d1e786">إحدى</num> الروايتين عنه وبما بيناه ظهر افتراء مؤلف
+                    الله عنه وأما بعد ذلك فقد وقع الإجماع على تحريم المتعة حتى ابن عباس في <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_9.d1e786">إحدى</num> الروايتين عنه وبما بيناه ظهر افتراء مؤلف
                     الرسالة على زفر وأبي حنيفة ومالك رضي الله عنهم ثم لم يكتف مؤلف الرسالة بالتدليس
                     والتشويش الذي صنعه في بحث متعة النساء كما نُبهنا على كثير منه فيما تقدم بل
                     استطرد لبحث حج التمتع واعترض على أهل السنة بأنهم يقولون بجواز العمرة في أشهر
-                    الحج وأن الإمام <pb ed="shamela" n="n18-p7"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P527.xhtml" xml:id="pb_7.d1e642"/>
+                    الحج وأن الإمام <pb ed="shamela" n="n18-p7" corresp="file:../epub/29676/OEBPS/xhtml/P527.xhtml" xml:id="pb_7.d1e642"/>
                     أحمد يجوز فسخ الحج إلى العمرة مع أن عمر رضي الله عنه قد نهى عن ذلك. وزعم مؤلف
-                    الرسالة أن حال المتعتين في الإسلام <pb ed="print"/>و<num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_10.d1e791">احد</num> وأن عمر رضي الله عنه قد نهى عنهما بعبارة
+                    الرسالة أن حال المتعتين في الإسلام <pb ed="print"/>و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_10.d1e791">احد</num> وأن عمر رضي الله عنه قد نهى عنهما بعبارة
                     واحدة حيث قال متعتان كانتا على عهد رسول الله صلى الله عليه وسلم إنا أنهى عنهما
                     الخ قال فكيف أخذ أهل السنة ينهيه عن متعة النساء ولم يأخذوا بنهيه عن حج التمتع
                     الخ ما ذكره.</p>
@@ -435,15 +308,11 @@
                     الأدب مع كافة أصحاب رسول الله صلى الله عليه وسلم ومع جميع علماء المسلمين وأن لا
                     يشتغل بأمثال هذه التشويشات التي فرغ العلماء من تحقيقها بل الواجب عليه وعلى جميع
                     المسلمين أن يسعوا جميعاً إلى جمع الكلمة والتحابب والتآلف وترك ما يخل بذلك ولا
-                    سيما في هذه الأزمنة التي يرصدنا بها الأعداء ويسعون في إضعافنا بكل ما يمكنهم <pb
-                        ed="print"/>من الوسائل. . ولولا الخوف من التباس الأمر على العامة ووجوب
-                    البيان على العلماء إذا سئلوا عن حكم من أحكام الشريعة لما كتبنا في مثل <pb
-                        ed="shamela" n="n18-p8" corresp="file:../epub/29676/OEBPS/xhtml/P528.xhtml"
-                        xml:id="pb_8.d1e653"/> هذه الأبحاث المفروغ منها هذا ونسئل الله تعالى أن
+                    سيما في هذه الأزمنة التي يرصدنا بها الأعداء ويسعون في إضعافنا بكل ما يمكنهم <pb ed="print"/>من الوسائل. . ولولا الخوف من التباس الأمر على العامة ووجوب
+                    البيان على العلماء إذا سئلوا عن حكم من أحكام الشريعة لما كتبنا في مثل <pb ed="shamela" n="n18-p8" corresp="file:../epub/29676/OEBPS/xhtml/P528.xhtml" xml:id="pb_8.d1e653"/> هذه الأبحاث المفروغ منها هذا ونسئل الله تعالى أن
                     يوفقنا جميعاً لتأييد الحق والتمسك بالسنة وأن يصرف عنا كيد الشيطان ويحفظنا من
                     إتباع الهوى ويجعل أعمالنا خالصة لوجهه الكريم ولا حول ولا قوة إلا بالله العلي
-                    العظيم. <pb ed="shamela" n="n18-p9"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P529.xhtml" xml:id="pb_9.d1e655"/>
+                    العظيم. <pb ed="shamela" n="n18-p9" corresp="file:../epub/29676/OEBPS/xhtml/P529.xhtml" xml:id="pb_9.d1e655"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_5.d1e660">
@@ -474,8 +343,7 @@
                         صلى الله عليه وسلم وإظهار الفرح والاستبشار بمولده الشريف أهـ.</p>
                     <p xml:lang="ar" xml:id="p_49.d1e678">قال الإمام أبو شامة شيخ الإمام النووي رضي
                     الله عنهما ومن أحسن ما ابتدع في زماننا ما يفعل كل عام في اليوم الموافق ليوم
-                    مولده صلى الله عليه وسلم من الصدقات والمعروف <pb ed="shamela" n="n18-p10"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P530.xhtml" xml:id="pb_10.d1e680"/>
+                    مولده صلى الله عليه وسلم من الصدقات والمعروف <pb ed="shamela" n="n18-p10" corresp="file:../epub/29676/OEBPS/xhtml/P530.xhtml" xml:id="pb_10.d1e680"/>
                     وإظهار الزينة والسرور فإن ذلك مع مافيه من الإحسان للفقراء مشعر بمحبة للنبي صلى
                     الله عليه وسلم وتعظيم في قلب فاعل ذلك وشكر لله على ما منّ به من إيجاد رسوله صلى
                     الله عليه وسلم الذي أرسله رحمة للعالمين.<pb ed="print"/></p>
@@ -504,8 +372,7 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_53.d1e722">قال الجنيد البغدادي إمام الطائفتين رحمه الله تعالى من حضر مولد الرسول الأعظم
                         وعظم قدره فقد فاز بالإيمان أهـ.</p>
-                    <p xml:lang="ar" xml:id="p_54.d1e726">وقد نقلنا في المجلد الأول صحيفة ( <tei:num
-                        value="279" xml:lang="ar" xml:id="num_1.d1e798">٢٧٩</tei:num> ) عن ابن حجر
+                    <p xml:lang="ar" xml:id="p_54.d1e726">وقد نقلنا في المجلد الأول صحيفة ( <tei:num value="279" xml:lang="ar" xml:id="num_1.d1e798">٢٧٩</tei:num> ) عن ابن حجر
                     أنه خرَّج عمل المولد على أصل صحيح ثابت في السنة فليراجع. ويعلم مما ذكره أن قراءة
                     قصة المولد الشريف أمر مشروع لم تزل الناس تعمل به منذ بضعة قرون إلى الآن والعلماء
                     تقرهم على ذلك وتحثهم عليه هذا ما أردنا ذكره في عمل المولد الشريف ليرغب محبوه صلى
@@ -551,8 +418,7 @@
                         عن الأولى ويتحلى بالثانية.</p>
                     <p xml:lang="ar" xml:id="p_61.d1e758">إن الأخلاق الفاضلة مناط سعادة الإنسان وهي
                     أقوى عامل على تهذيب النفوس وتطهيرها من دنس الرذائل وأكبر دافع إلى التسابق لغايات
-                    المجد ومستوى الشرف، ثمراتها إعراض <pb ed="shamela" n="n18-p13"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P533.xhtml" xml:id="pb_13.d1e760"/>
+                    المجد ومستوى الشرف، ثمراتها إعراض <pb ed="shamela" n="n18-p13" corresp="file:../epub/29676/OEBPS/xhtml/P533.xhtml" xml:id="pb_13.d1e760"/>
                     عن اللغو، عفة في النفس، أداء للأمانة، رعاية للعهد، <pb ed="print"/>نطق بحكمة،
                     صمت عن فضول، اصطبار على مكروه، رفق بالضعيف، حلم عند الغضب.</p>
                     <p xml:lang="ar" xml:id="p_62.d1e763">هذه صفحات التاريخ تشهد أن ما من أمة تدرجت في مدارج المدنية وترقت في أوج
@@ -610,9 +476,7 @@
                     السعادة الأبدية واسعوا في تهذيب أخلاقها وتثقيف عقولها وارتفاع مجدها بنشر الفضائل
                     والكمالات فإن أمتكم هي الأمة التي قامت بمدنية العالم بأسره وامتدت سطوتها وسلطتها
                     إلى ما شاء الله من أنحاء المعمور فإن الله تعالى يقول (والذين جاهدوا فينا
-                    لنهدينهم سبلنا وإن الله مع المحسنين). <pb ed="print"/><pb ed="shamela"
-                        n="n18-p16" corresp="file:../epub/29676/OEBPS/xhtml/P535.xhtml"
-                        xml:id="pb_15.d1e792"/>
+                    لنهدينهم سبلنا وإن الله مع المحسنين). <pb ed="print"/><pb ed="shamela" n="n18-p16" corresp="file:../epub/29676/OEBPS/xhtml/P535.xhtml" xml:id="pb_15.d1e792"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_7.d1e796">
@@ -639,9 +503,7 @@
                     يودعوها نظراءهم ويزرعوها في قلوب أشباههم، هجم بهم العلم على حقيقة البصيرة،
                     وباشروا روح اليقين، واستلانوا ما استوعره المترفون، وأنسوا بما استوحش منه
                     الجاهلون، صحبوا الدنيا بأبدان أرواحها معلقة بالمحل الأعلى، أولئك خلفاء الله في
-                    أرضه، ولدعاة إلى دينه. آه آه شوقاً إلى رؤيتهم. انصرف إذا شئت. <pb ed="shamela"
-                        n="n18-p17" corresp="file:../epub/29676/OEBPS/xhtml/P536.xhtml"
-                        xml:id="pb_16.d1e812"/>
+                    أرضه، ولدعاة إلى دينه. آه آه شوقاً إلى رؤيتهم. انصرف إذا شئت. <pb ed="shamela" n="n18-p17" corresp="file:../epub/29676/OEBPS/xhtml/P536.xhtml" xml:id="pb_16.d1e812"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_8.d1e816">
@@ -650,8 +512,7 @@
                     عليه وسلم خير أمة أخرجت للناس يأمرون بالمعروف وينهون عن المنكر ويسارعون في
                     الخيرات، وحثهم سبحانه على إقامة الصلاة والمحافظة عليها وأودعها من الأسرار
                     والآداب ما يحير الألباب ويأخذ بالعقول وجعلها عماداً للدين وهي أول ما يسئل عنه
-                    العبد يوم يقوم الناس لرب العلمين، وليست الصلاة مما اختصت بها الأمة المحمدية <pb
-                        ed="print"/>بل هي مما دعت إليها الشرائع السماوية وجاءت الرسل عليهم الصلاة
+                    العبد يوم يقوم الناس لرب العلمين، وليست الصلاة مما اختصت بها الأمة المحمدية <pb ed="print"/>بل هي مما دعت إليها الشرائع السماوية وجاءت الرسل عليهم الصلاة
                     والسلام بالأمر بها والاعتناء بشأنها وأوصوا أممهم بالمحافظة على أدائها والاهتمام
                     بأمرها لأنها من أعظم أركان الدين، وللدين تأثير عظيم في انتظام شؤون هذه الحياة.
                     وهذا مما لا نريد إلى سوق الأدلة عليه لأنه صار في حكم البديهيات عند جمهور العقلاء
@@ -672,9 +533,7 @@
                     الدين ونور اليقين قال رسول الله صلى الله عليه وسلم الصلاة <pb ed="print"/>عماد
                     الإيمان وقال صلى الله عليه وسلم الصلاة عماد الدين وعن أبي هريرة رضي الله عنه قال
                     سمعت رسول الله صلى الله عليه وسلم يقول إن أول ما يحاسب به العبد يوم القيامة من
-                    عمله الصلاة فإن صلحت فقد أفلح وأنجح وإن فسدت فقد خاب وخسر. <pb ed="shamela"
-                        n="n18-p18" corresp="file:../epub/29676/OEBPS/xhtml/P537.xhtml"
-                        xml:id="pb_17.d1e829"/> ولسنا بحاجة إلى أنه نكثر من الأحاديث الشريفة الواردة
+                    عمله الصلاة فإن صلحت فقد أفلح وأنجح وإن فسدت فقد خاب وخسر. <pb ed="shamela" n="n18-p18" corresp="file:../epub/29676/OEBPS/xhtml/P537.xhtml" xml:id="pb_17.d1e829"/> ولسنا بحاجة إلى أنه نكثر من الأحاديث الشريفة الواردة
                     في الحث على شدة الاعتناء بشأن الصلاة والمحافظة على أدائها وإنما نرغب في تنبيه
                     بعض المؤمنين الذين يتهاونون بذلك لعلهم يعتبرون.</p>
                     <p xml:lang="ar" xml:id="p_78.d1e832">أيها المتهاونون بالصلاة، تهيئوا للعرض على الله وتزودوا لهذا السفر الطويل الذي
@@ -683,9 +542,7 @@
                         للعالمين ولم يأمر صلى الله عليه وسلم بشيء عبث (وما ينطق عن الهوى) بل إنما
                         جاء عليه الصلاة والسلام بشرع محكم تستحسنه الألباب وتقبله العقول.</p>
                     <p xml:lang="ar" xml:id="p_79.d1e836">إنَّ الصلاة من أعظم شعائر الإسلام وهي
-                    الروح لآداب هذه الحياة والينبوع الذي تنفجر منه صفات الكمال والأساس ال<num
-                        xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="200"
-                        xml:id="num_17.d1e1009">متين</num>يلانتظام شؤون العمران ويترتب عليها كثير من
+                    الروح لآداب هذه الحياة والينبوع الذي تنفجر منه صفات الكمال والأساس ال<num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="200" xml:id="num_17.d1e1009">متين</num>يلانتظام شؤون العمران ويترتب عليها كثير من
                     المنافع الدنيوية والأخروية ولا سيما إذا أديت مع الجماعة في المساجد حيث يتعرف
                     المسلم بإخوانه، ويطلع على أحوالهم فيسعف ضعيفهم ويأخذ بيد فقيرهم ويتعاون هو
                     وإياهم على البر والتقوى.<pb ed="print"/></p>
@@ -759,9 +616,7 @@
                         <tei:num value="4" xml:lang="ar" xml:id="num_1.d1e960">٤</tei:num> و
                         <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e963">٥</tei:num> و
                         <tei:num value="6" xml:lang="ar" xml:id="num_1.d1e966">٦</tei:num> بأقلام
-                    علماء الدين، وأفاضل المحققين لولا أن سبق منا في الجزء <tei:num value="2"
-                        xml:lang="ar" xml:id="num_1.d1e969">٢</tei:num> ص <tei:num value="70"
-                        xml:lang="ar" xml:id="num_1.d1e973">٧٠</tei:num> وعد اضطرنا الوفاء به إلى
+                    علماء الدين، وأفاضل المحققين لولا أن سبق منا في الجزء <tei:num value="2" xml:lang="ar" xml:id="num_1.d1e969">٢</tei:num> ص <tei:num value="70" xml:lang="ar" xml:id="num_1.d1e973">٧٠</tei:num> وعد اضطرنا الوفاء به إلى
                     كتابة ما يأتي، ونحن على علم بأن جميع ما كتب في هذا الموضوع على نضجه ومتانة
                     أدلته، وتوافق علماء الشريعة عليه قد لا يجدي بعض المتعنتين من عشاق التمثيل الذين
                     يظهر لهم الحق بأجلى مظاهره فيعرضون عنه. ويلوون رؤوسهم دون اتباعه ذلك لما نشئوا
@@ -785,12 +640,9 @@
                     مخالفيهم من أنصار التمثيل فيما إذا تجرد من جميع ذلك وهو ما يسمونه التمثيل الأدبي
                     بزعمهم وليت شعري هل يتصور عاقل خلو التمثيل عن المنكرات وهو هو الأمر البدعي الذي
                     لا يحكم بجودته إلا إذا امتلأ غيبة وكذباً ومنكرات ومفاسد وبولغ فيه بمدح أو قدح من
-                    لا يعرف من أمره غير ما يتقوله عليه مخترعوا الروايات وبعض المؤرخين. <pb
-                        ed="shamela" n="n18-p22" corresp="file:../epub/29676/OEBPS/xhtml/P541.xhtml"
-                        xml:id="pb_21.d1e887"/> إن البراهين التي تؤيد بها الباحثون أبحاثهم ويثبت بها
+                    لا يعرف من أمره غير ما يتقوله عليه مخترعوا الروايات وبعض المؤرخين. <pb ed="shamela" n="n18-p22" corresp="file:../epub/29676/OEBPS/xhtml/P541.xhtml" xml:id="pb_21.d1e887"/> إن البراهين التي تؤيد بها الباحثون أبحاثهم ويثبت بها
                     العلماء حججهم كثيرة جداً وأعلاها وأقومها بالاتفاق المشاهدة. فهل شوهد أن تمثيلاً
-                    خلال عن منكرات حظرها الشرع، وحكم بفسادها العقل السليم؟ سؤال نطلب <pb ed="print"
-                    />الجواب عليه من أنصار التمثيل وحماته، بل من كل من شاهد تمثيلاً في حياته، يكفينا
+                    خلال عن منكرات حظرها الشرع، وحكم بفسادها العقل السليم؟ سؤال نطلب <pb ed="print"/>الجواب عليه من أنصار التمثيل وحماته، بل من كل من شاهد تمثيلاً في حياته، يكفينا
                     أيها الناس ماحل بنا من التقاليد الأوروبية ألم يقنعكم أن تفرنج الناس في الألبسة
                     والأطعمة والكلام والقيام والمسكن والمنزل والتجارة والتربية والأخلاق والعادات
                     واللغات حتى جئتم اليوم تحببون إليهم هذه البدعة المنكرة التمثيل لتقضوا بذلك على
@@ -813,8 +665,7 @@
                     تدبيره وتأمله ثم الجواب عنه بما يوحيه إليه الحق وصفاء القلب الخالي عن شوائب
                     التعنت والإغراض: اللهم إنك تشهد أن زمن الجاهلية زمن المؤُودة زمن السلب والنهب
                     كان مجمع الشر والفساد وأن رسولك محمداً صلى الله عليه وسلم تمكن من هداية الناس
-                    وإخراجهم من الظلمات إلى النور وجعلهم أرقى أمم <pb ed="shamela" n="n18-p23"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P542.xhtml" xml:id="pb_22.d1e892"/>
+                    وإخراجهم من الظلمات إلى النور وجعلهم أرقى أمم <pb ed="shamela" n="n18-p23" corresp="file:../epub/29676/OEBPS/xhtml/P542.xhtml" xml:id="pb_22.d1e892"/>
                     الأرض حضارة ومدنية وأدباً وأخلاقاً وتقدماً ورقياً بغير تمثيل رواية ولا تشخيص
                     كوميدة (تياترو) وتشهد أن خليفته الأول سيدنا أبا بكر رضي الله عنه سار بالناس سيرة
                     حسنة وشيد لهذا الدين صرحاً لا تزعزعه الأيام من غير أن يشخص رضي الله عنه رواية أو
@@ -841,8 +692,7 @@
                     قومته، وفعل فعلته، و. و. و. الخ وذلك كله كما لا يخفى كذب صراح، والكذب كما يكون
                     بالقول يكون أيضاً بالفعل، وليس هذا من الكذب المباح فقد نص العلماء رضي الله عنهم
                     على أن الكذب لا يباح إلا لضرورة داعية بحيث لو صدق لتولد عنه محذور وينبغي حينئذ
-                        <pb ed="shamela" n="n18-p24"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P543.xhtml" xml:id="pb_23.d1e894"/>
+                        <pb ed="shamela" n="n18-p24" corresp="file:../epub/29676/OEBPS/xhtml/P543.xhtml" xml:id="pb_23.d1e894"/>
                     أن يقابل أحدهما بالآخر ويزن بالميزان القسط فإذا علم أن المحذور الذي يحصل بالصدق
                     أشد وقعاً في الشرع من الكذب فله الكذب. وإن كان ذلك المقصود هو مقصود الصدق فيجب
                     الصدق قالوا رضي الله عنهم. وقد يتقابل الأمران بحيث يتردد فيهما وعند ذلك الميل
@@ -861,22 +711,19 @@
                     كتب التاريخ ولم حرمتم ذلك في التمثيل دون المقامات وكتب التاريخ. والجواب عن ذلك
                     أن قياس التمثيل على مقامات الحريري قياس مع الفارق إذ أن كذب ما في المقامات على
                     خلاف فيه بين العلماء كذب قولي مجرد بخلاف كذب التمثيل فإنه اقترن فيه تشبيه وأعمال
-                    وهيئات وحركات وأيضاً كذب ما في المقامات مضى عليه أكثر من <tei:num value="700"
-                        xml:lang="ar" xml:id="num_1.d1e988">٧٠٠</tei:num> سنة ولم ينشأ عنه مفسدة أو
+                    وهيئات وحركات وأيضاً كذب ما في المقامات مضى عليه أكثر من <tei:num value="700" xml:lang="ar" xml:id="num_1.d1e988">٧٠٠</tei:num> سنة ولم ينشأ عنه مفسدة أو
                     مضرة لا في الدين ولا في الآداب بخلاف كذب التمثيل فإنه نشأ عنه مفاسد ومضار أودت
                     بخراب كثير من بيوتات الشرف والمجد. ويكفي أن الشاب والشابة في بعض البلدان إذا
                     أرادا الاقتران لا يجدان مجمعاً غير مسارح التمثيل. وأيضاً ما في المقامات أقره
                     كثير من علماء الدين وأنى لنا بأمثالهم اليوم وقد وردت فتاوي العلماء من كل صوب
                     وحدب <pb ed="print"/>في منع التمثيل. وكون الغيبة التي جاء نص الكتاب العزيز
                     بتحريمها وأجمع على ذلك المسلمون حلالاً المؤرخين مما لم يسمع نظيره ولا يصح. وما
-                    الموجب لاستثناء <pb ed="shamela" n="n18-p25"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P544.xhtml" xml:id="pb_24.d1e896"/>
+                    الموجب لاستثناء <pb ed="shamela" n="n18-p25" corresp="file:../epub/29676/OEBPS/xhtml/P544.xhtml" xml:id="pb_24.d1e896"/>
                     المؤرخين من حرمة الغيبة وأي ضرورة تدعو إلى ذلك؟ نعم أباح العلماء رضي الله عنهم
                     ذلك للمحدثين لمعرفة صحيح الأحاديث وفاسدها المتوقف عليهما أمر الدين وماذا يتوقف
                     على عدم الغيبة في كتب التاريخ؟ والذي نعتقده أن المؤرخ إذا لم تدعو لذكره بعض
                     الناس بسوء ضرورة مبيحة فكلامه داخل في الغيبة كما قال ذلك حجة الإسلام الغزالي ونص
-                    عبارته وكذلك الغيبة بالكتابة فإن القلم <num xml:lang="ar" type="auto-markup"
-                        subtype="d1" resp="#pers_TG" value="1" xml:id="num_18.d1e1094">أحد</num>
+                    عبارته وكذلك الغيبة بالكتابة فإن القلم <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_18.d1e1094">أحد</num>
                     اللسانين. وذكر المصنف شخصاً معيناً وتهجين كلامه في الكتاب غيبة إلا أن يقترن به
                     شيء من الأعذار المحوجة إلى ذكره أهـ.</p>
                     <p xml:lang="ar" xml:id="p_93.d1e899">فثبت بهذا التمثيل إذا فرض خلوه عن جميع ما
@@ -928,8 +775,7 @@
                         حسبما تقضي به الغيرة الإسلامية والحمية الدينية والسلام عليكم ورحمة الله.</p>
                     <p xml:lang="ar" xml:id="p_102.d1e938">جمعية</p>
                     <p xml:lang="ar" xml:id="p_103.d1e941">عيد المولد النبوي الأنور<pb ed="print"/>
-                    <pb ed="shamela" n="n18-p28" corresp="file:../epub/29676/OEBPS/xhtml/P547.xhtml"
-                        xml:id="pb_27.d1e943"/>
+                    <pb ed="shamela" n="n18-p28" corresp="file:../epub/29676/OEBPS/xhtml/P547.xhtml" xml:id="pb_27.d1e943"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_11.d1e948">
@@ -971,8 +817,7 @@
                     <p xml:lang="ar" xml:id="p_113.d1e991">لا تجد إنساناً تمتع بمواهب الإدراك في
                     مجال حياته، وتحلى بخصائص الشعور في ميدان وجوده إلا وقد أحس بما طرأ على المسلمين
                     من الحوادث الكبرى والكوارث المجتاحة التي انقضت عليهم من أفق المحن وعالم الرزايا
-                    فأحاطت بهم إحاطة السوار بالمعصم، والربقة بالعنق، وأخذت تطوح بهم <pb ed="print"
-                    />في متاهات التقهقر ومهامه الانحطاط وترشقهم بسهام الشدائد وقذائف الأهوال. تدك
+                    فأحاطت بهم إحاطة السوار بالمعصم، والربقة بالعنق، وأخذت تطوح بهم <pb ed="print"/>في متاهات التقهقر ومهامه الانحطاط وترشقهم بسهام الشدائد وقذائف الأهوال. تدك
                     صروح مجدهم التي شيدها أسلافهم وتهدم عروش عزهم التي أقامها آباؤهم وتقوض دعائم
                     سؤددهم التي أسسها رجال دينهم حتى أصبحوا وقد تبدلت شجاعتهم جبناً وصلابتهم خوراً
                     وقوتهم ضعفاً وشوكتهم مهانة وجرأتهم خوفاً فكأنهم خلق جديد لا قبل لهم بالذود عن
@@ -995,9 +840,7 @@
                     العلة والإشارة لجهات <pb ed="print"/>الألم ومراكز السقم وإنما الصعب البحث عن
                     تعيين العلة التي نشأ عنها هذا الألم وعن أسبابها وتحديد عواملها فإذا تعينت العلة
                     وتحددت العوامل أمكن مكافحتها بأسلحة العلاج وحصر نفوذها في دوائرها وأخذ المسارب
-                    عليها من كل جهة حتى لا تتعدى حدودها وتبلغ نهاية استشرائها. <pb ed="shamela"
-                        n="n18-p31" corresp="file:../epub/29676/OEBPS/xhtml/P550.xhtml"
-                        xml:id="pb_30.d1e1006"/> يظهر للباحث الخبير بأحوال الأمم في صعودها وهبوطها
+                    عليها من كل جهة حتى لا تتعدى حدودها وتبلغ نهاية استشرائها. <pb ed="shamela" n="n18-p31" corresp="file:../epub/29676/OEBPS/xhtml/P550.xhtml" xml:id="pb_30.d1e1006"/> يظهر للباحث الخبير بأحوال الأمم في صعودها وهبوطها
                     أن داءنا العام الشامل لجميع أفراد الأمة هو الجهل بأحكام الدين والتساهل في نشر
                     تعاليمه وسببه ما نحن فيه الآن من الافتتان بمدنية أوروبا وعلومها وإلحادها وليس
                     بهذا الافتتان معنى إلا ما حل بنا من تحلل عناصرنا وتفرق كلمتنا وتخاذلنا وتخالفنا
@@ -1032,8 +875,7 @@
                     <p xml:lang="ar" xml:id="p_124.d1e1030">من هنا يرى المفكر البصير أن جميع ما
                     اعترى المسلمين من الأدواء مثاره مداهمة الفتنة الغربية المنصبة علينا من سائر
                     الجهات وهذه الأدواء كلها ليست في الحقيقة إلا إعراضاً تترآى للناظر في صورة
-                    الأمراض والعلل وهي ناتجة من داء و<num xml:lang="ar" type="auto-markup"
-                        subtype="d1" resp="#pers_TG" value="1" xml:id="num_20.d1e1234">احد</num>
+                    الأمراض والعلل وهي ناتجة من داء و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_20.d1e1234">احد</num>
                     متأصل وهو داء جهل بإحكام دينها وأصول العقائد الحقة وعدم تمسكها بكتاب الله وسنة
                     نبيه صلى الله عليه وسلم واقتفاء <pb ed="print"/>أثر سلفها الصالح وما دامت الأمة
                     متلبسة بالجهل متساهلة عما يأمر به الدين الإسلامي فلا ينجع في معالجتها طب طبيب

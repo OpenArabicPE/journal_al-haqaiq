@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
- <?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>-->
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_20" xml:lang="en" next="oclc_644997575-i_21" prev="oclc_644997575-i_19">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_20" xml:lang="en" next="oclc_644997575-i_21" prev="oclc_644997575-i_19">
    <teiHeader xml:lang="en" xml:id="teiHeader_1.d1e7">
       <fileDesc xml:lang="en" xml:id="fileDesc_1.d1e9">
          <titleStmt xml:lang="en" xml:id="titleStmt_1.d1e11">
@@ -85,113 +80,9 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc xml:lang="en" xml:id="encodingDesc_1.d1e181">
-            <samplingDecl xml:lang="en" xml:id="samplingDecl_1.d1e183">
-                <p xml:lang="en" xml:id="p_1.d1e185">The edition is based on the digital transcripts (HTML files wrapped
-                    in ePub) available from <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_1.d1e187">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_1.d1e189">al-maktabat al-shāmila</foreign>
-                    </ref>.</p>
-            </samplingDecl>
-            <editorialDecl xml:lang="en" xml:id="editorialDecl_1.d1e195">
-                <p xml:lang="en" xml:id="p_2.d1e197">The original editorial practices followed by <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_2.d1e199">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_2.d1e201">al-maktabat al-shāmila</foreign>
-                    </ref> can only be deduced from the limited mark-up found in the digital text
-                    provided online and as ePub. It appears from that that paragraphs and head lines
-                    were recorded and preserved. They also recorded page breaks, but at least for
-                    the earlier issues these do not correspond to the page breaks in the print
-                    edition and should thus be marked with <att xml:lang="en" xml:id="att_1.d1e205">ed</att>="shamela"</p>
-                <p xml:lang="en" xml:id="p_3.d1e209">It remains unclear to which extent publication dates for individual
-                    issues are correct. After reviewing the image files and the official publication schedule, the dates provided by <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_3.d1e211">hijrī</foreign> seem to be correct</p>
-                <p xml:lang="en" xml:id="p_4.d1e215">Some phenomena have been marked in red spans by <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_3.d1e217">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_4.d1e219">al-maktabat al-shāmila</foreign>
-                    </ref>. Red spans that contained three points only were considered indicators of
-                    ellipses and transformed into <gi xml:lang="en" xml:id="gi_1.d1e223">gap</gi> with <att xml:lang="en" xml:id="att_2.d1e226">resp</att>="#org_MS". Upon further scrutiny, it turned out that most, if
-                    not all, of these <gi xml:lang="en" xml:id="gi_2.d1e229">gap</gi>s indicated the division between two
-                    halfs of the line of a <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_5.d1e232">qaṣīda</foreign>. I
-                    have converted all <gi xml:lang="en" xml:id="gi_3.d1e236">p</gi>s that contained two short lines of
-                    text divided by <gi xml:lang="en" xml:id="gi_4.d1e239">gap</gi> into <gi xml:lang="en" xml:id="gi_5.d1e242">l</gi> of
-                        <att xml:lang="en" xml:id="att_3.d1e245">type</att>="bayt" with <gi xml:lang="en" xml:id="gi_6.d1e248">seg</gi> child
-                    elements. All other red spans have been rendered as <gi xml:lang="en" xml:id="gi_7.d1e251">gap</gi>.</p>
-            </editorialDecl>
-        </encodingDesc>
-      <profileDesc xml:lang="en" xml:id="profileDesc_1.d1e257">
-            <!-- as we deal with sources from an area and period which also used non-Latin scripts and preferred a number of calenders over the Gregorian, this should be declared here -->
-            <calendarDesc xml:lang="en" xml:id="calendarDesc_1.d1e261">
-                <calendar xml:id="cal_gregorian" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_5.d1e265">Following the hegemonial approach of standards rooted in the
-                        English language, the Gregorian calendar is presumed as the norm and must
-                        not be specified.</p>
-                    <p xml:lang="en" xml:id="p_6.d1e268">The <att xml:lang="en" xml:id="att_4.d1e270">when</att> attribute always provides W3C
-                        dates, while the <att xml:lang="en" xml:id="att_5.d1e273">when-custom</att> attribute follows the
-                        inherent logic of the chosen calendar.</p>
-                    <p xml:lang="en" xml:id="p_7.d1e277">E.g. <date when="1841-05-23" xml:lang="en" xml:id="date_5.d1e279">23 May 1841,
-                            Sunday</date>, <date when="1908-03-05" xml:lang="en" xml:id="date_6.d1e282">5 Mar 1908,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_islamic" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_8.d1e289">Islamic <hi xml:lang="en" xml:id="hi_1.d1e291">hijrī</hi> calendar: lunar calendar
-                        beginning the Year with 1 Muḥarram. Dates differ between locations as the
-                        beginning of the month is based on sightings of the new moon.</p>
-                    <p xml:lang="en" xml:id="p_9.d1e295">E.g. <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1841-05-23" when-custom="1257-04-01" xml:lang="en" xml:id="date_7.d1e297">1 Rab II 1257,
-                            Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1908-03-05" when-custom="1326-02-01" xml:lang="en" xml:id="date_8.d1e300">1 Ṣaf 1326,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_julian" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_10.d1e307">Reformed Julian calendar beginning the Year with 1 January. In
-                        the Ottoman context usually referred to as <hi xml:lang="en" xml:id="hi_2.d1e309">rūmī</hi>.
-                        Arabic newspapers usually labelled this calendar as <hi xml:lang="en" xml:id="hi_3.d1e312">sharqī</hi>.</p>
-                    <p xml:lang="en" xml:id="p_11.d1e316">All solar calendars add an intercalated 366th day every fourth
-                        (and, in the case of Gregorian and rūmī calendars, even-numbered) year at
-                        the end of February (the last day of the old Julian calendar). The Gregorian
-                        calendar suppresses this rule in centesimal years that cannot be divided by
-                        400. This difference creates a growing offset between Gregorian and Julian
-                        calendars: while 1900 R was a leap year, 1900 was not, which in turn caused
-                        the difference between the Gregorian calendar, on the one hand, and the <hi xml:lang="en" xml:id="hi_4.d1e318">mālī</hi> and <hi xml:lang="en" xml:id="hi_5.d1e321">rūmī</hi> calendars, on
-                        the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R /
-                        1315 M (13 March 1900) onwards.</p>
-                    <p xml:lang="en" xml:id="p_12.d1e325">E.g. <date calendar="#cal_julian" datingMethod="#cal_julian" when="1841-05-23" when-custom="1841-05-11" xml:lang="en" xml:id="date_9.d1e327">11 Ayyār 1841,
-                            Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian" when="1908-03-05" when-custom="1908-02-21" xml:lang="en" xml:id="date_10.d1e330">21 Shub 1908,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_13.d1e337">Ottoman fiscal calendar: a lunosolar calendar. It is based on
-                        the Old Julian calendar beginning the Year with 1 March. Introduced as
-                        fiscal calendar in 1676 and in the Ottoman context usually referred to as
-                            <hi xml:lang="en" xml:id="hi_6.d1e339">mālī</hi> and sometimes, confusingly, also as <hi xml:lang="en" xml:id="hi_7.d1e342">rūmī</hi>. Every 33 lunar years, a <hi xml:lang="en" xml:id="hi_8.d1e345">hijrī</hi> year would complete within a single solar <hi xml:lang="en" xml:id="hi_9.d1e348">mālī</hi> year. In this case the counting of the <hi xml:lang="en" xml:id="hi_10.d1e351">mālī</hi> years skipped a year to catch up with the faster <hi xml:lang="en" xml:id="hi_11.d1e355">hijrī</hi> calendar. Due to a printing error in the coupon
-                        booklets for the consolidated debt repayment program for 1872 (1288 M
-                        instead of 1289 M), synchronisation of <hi xml:lang="en" xml:id="hi_12.d1e358">mālī</hi> and <hi xml:lang="en" xml:id="hi_13.d1e361">hijrī</hi> years was henceforth abolished. As <hi xml:lang="en" xml:id="hi_14.d1e364">mālī</hi> years began with 1 March, <hi xml:lang="en" xml:id="hi_15.d1e367">mālī</hi> leap years preceded their <hi xml:lang="en" xml:id="hi_16.d1e370">rūmī</hi> and
-                        Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
-                    <p xml:lang="en" xml:id="p_14.d1e374">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:lang="en" xml:id="date_11.d1e376">11 Māyis 1257, Sunday</date>,
-                            <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:lang="en" xml:id="date_12.d1e379">21 Shub 1323,
-                            Thursday</date>.</p>
-                </calendar>
-            </calendarDesc>
-            <!-- According to TEI P5 @xml:lang should follow BCP 47 <note target="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>, which specifies for Arabic in Latin transcription "ar-Latn". The specific type of transcription should be added as a private use subtag, i.e. "ar-Latn-x-ijmes" for the
-               IJMES transcription of Arabic in Latin script. -->
-            <langUsage xml:lang="en" xml:id="langUsage_1.d1e387">
-                <language ident="ar" xml:lang="en" xml:id="language_1.d1e389">Arabic</language>
-                <language ident="ar-Latn-x-ijmes" xml:lang="en" xml:id="language_2.d1e392">Arabic transcribed into Latin script
-                    following the IJMES conventions</language>
-                <language ident="ar-Latn-EN" xml:lang="en" xml:id="language_3.d1e395">Arabic transcribed into Latin script
-                    following common English practices</language>
-                <language ident="ar-Latn-FR" xml:lang="en" xml:id="language_4.d1e398">Arabic transcribed into Latin script
-                    following common French practices</language>
-                <language ident="en" xml:lang="en" xml:id="language_5.d1e401">English</language>
-                <language ident="fa" xml:lang="en" xml:id="language_6.d1e405">Farsi</language>
-                <language ident="fa-Latn-x-ijmes" xml:lang="en" xml:id="language_7.d1e408">Farsi transcribed into Latin script
-                    following the IJMES conventions</language>
-                <language ident="fr" xml:lang="en" xml:id="language_8.d1e411">French</language>
-                <language ident="ota" xml:lang="en" xml:id="language_9.d1e414">Ottoman</language>
-                <language ident="ota-Latn-x-ijmes" xml:lang="en" xml:id="language_10.d1e417">Ottoman transcribed into Latin
-                    script following the IJMES conventions</language>
-                <language ident="tr" xml:lang="en" xml:id="language_11.d1e420">Turkish</language>
-                <language ident="en-Arab-AR" xml:lang="en" xml:id="language_12.d1e424">English transcribed into Arabic script
-                    following common Levantine Arabic practices</language>
-                <language ident="fr-Arab-AR" xml:lang="en" xml:id="language_13.d1e427">French transcribed into Arabic script
-                    following common Levantine Arabic practices</language>
-            </langUsage>
-        </profileDesc>
-      <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447">n</tei:att> to <tei:att xml:id="att_6.d1e451">from</tei:att> and <tei:att xml:id="att_6.d1e454">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e457">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e459">tei:num</gi>and <att xml:id="att_6.d1e462">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e465">Added automated <att xml:id="att_7.d1e467">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e470">tei:text</gi>and had no existing <att xml:id="att_8.d1e473">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e476">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e478">num</tei:gi> with <tei:att xml:id="att_9.d1e481">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28" xml:id="change_3.d1e484">Corrected the file's URL and <att xml:id="att_9.d1e486">xml:id</att> on <gi xml:id="gi_10.d1e489">TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e492">Added automated <att xml:id="att_10.d1e494">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e497">tei:text</gi>and had no existing <att xml:id="att_11.d1e500">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27" xml:id="change_4.d1e503">Added the <tei:att xml:id="att_12.d1e505">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
+      <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
+      <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447">n</tei:att> to <tei:att xml:id="att_6.d1e451">from</tei:att> and <tei:att xml:id="att_6.d1e454">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e457">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e459">tei:num</gi>and <att xml:id="att_6.d1e462">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e465">Added automated <att xml:id="att_7.d1e467">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e470">tei:text</gi>and had no existing <att xml:id="att_8.d1e473">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e476">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e478">num</tei:gi> with <tei:att xml:id="att_9.d1e481">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28" xml:id="change_3.d1e484">Corrected the file's URL and <att xml:id="att_9.d1e486">xml:id</att> on <gi xml:id="gi_10.d1e489">TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e492">Added automated <att xml:id="att_10.d1e494">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e497">tei:text</gi>and had no existing <att xml:id="att_11.d1e500">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27" xml:id="change_4.d1e503">Added the <tei:att xml:id="att_12.d1e505">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="#pers_TG" xml:lang="en" xml:id="change_4.d1e509">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en" xml:id="ref_4.d1e511">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en" xml:id="change_5.d1e515">Divided the <gi xml:lang="en" xml:id="gi_12.d1e517">body</gi> into a <gi xml:lang="en" xml:id="gi_13.d1e520">group</gi> of <gi xml:lang="en" xml:id="gi_14.d1e523">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en" xml:id="change_6.d1e528">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_6.d1e530">qaṣīda</foreign>s from <gi xml:lang="en" xml:id="gi_15.d1e533">p</gi>s divided by a <gi xml:lang="en" xml:id="gi_16.d1e536">gap</gi> to <gi xml:lang="en" xml:id="gi_17.d1e539">l</gi> of
@@ -288,8 +179,7 @@
                     الرسول الأعظم صلى الله عليه وسلم فقد أوتي من الحكم البالغة والعلوم الباهرة
                     والسياسة العادلة ما بهر العقول وأخذ بالألباب وهو مع هذا أمي لا يقرأ كتاباً ولا
                     يخطه بيمينه وقد نشأ في قوم أميين في بلد ليس فيها عالم يعرف أخبار الماضيين وسير
-                    الأوليين. ما هذا إلا موهبة إلهية ووحي سماوي (وأنزل عليك الكتاب <pb ed="print"
-                    />والحكمة وعلمك ما لم تكن تعلم وكان فضل الله عليك عظيماً).</p>
+                    الأوليين. ما هذا إلا موهبة إلهية ووحي سماوي (وأنزل عليك الكتاب <pb ed="print"/>والحكمة وعلمك ما لم تكن تعلم وكان فضل الله عليك عظيماً).</p>
                     <p xml:lang="ar" xml:id="p_23.d1e563">كم فتح الله ببعثته أعيناً عمياً وآذاناً صماً وقلوباً غلفاً ونجى به نفوساً
                         هلكى وأرواحاً غرقى <pb ed="shamela" n="n19-p3" corresp="file:../epub/29676/OEBPS/xhtml/P556.xhtml" xml:id="pb_3.d1e565"/> وهدى به بعد
                         الضلالة وعلم به بعد الجهالة ورفع به بعد الخمول و<num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000" xml:id="num_4.d1e693">ألف</num> به بين قلوب مختلفة وأمم
@@ -310,11 +200,9 @@
                     <p xml:lang="ar" xml:id="p_26.d1e575">ثم جرهم منهج المجادلة إلى طلب الحجة
                     والبرهان على صدق دعواه فكان عليه الصلاة والسلام ينصب لهم الدلائل ويجيب في
                     المقترحات كل سائل ويقيم الحجج والبراهين ويأتي بالمعجزات الباهرة الدالة على صدق
-                    دعواه كما وصل إلينا ذلك بطريق التواتر. ومن أعظم المعجزات التي استند إليها <pb
-                        ed="print"/>في إثبات دعواه القرآن الكريم الذي لا يأتيه الباطل من بين يديه
+                    دعواه كما وصل إلينا ذلك بطريق التواتر. ومن أعظم المعجزات التي استند إليها <pb ed="print"/>في إثبات دعواه القرآن الكريم الذي لا يأتيه الباطل من بين يديه
                     ولا من خلفه كتاب أحكمت آياته، وفصلت كلماته، وبهرت بلاغته العقول وظهرت فصاحته على
-                    كل مقول فلم يستطع <num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_6.d1e709">أحد</num> معارضته ولم يهتدوا
+                    كل مقول فلم يستطع <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_6.d1e709">أحد</num> معارضته ولم يهتدوا
                     إلى مثله في جزلته ومتانة ألفاظه وحسن نظمه وإيجازه مع جهدهم واستنفاذ ما عندهم في
                     إخفاء ظهوره وإطفاء نوره (قل لئن اجتمعت الأنس والجن على أن يأتوا بمثل هذا القرآن
                     لا يأتون بمثله ولو كان بعضهم لبعض ظهيراً).</p>
@@ -374,9 +262,7 @@
                     <p xml:lang="ar" xml:id="p_39.d1e626">تحتاج دمشق إلى تنظيم معاهد العلم فيها سواء
                     الأميرية والأهلية. وتجديد مدارس تفي بما تحتاجه من العلوم سيما الشرعية منها فهي
                     أس النجاح. وعليها <pb ed="print"/>مدار التقدم وقد قلت العناية بها في المدارس
-                    الأهلية. كما أنها أضحت كأن لم تكن شيئاً في المدارس الأميرية. <pb ed="shamela"
-                        n="n19-p6" corresp="file:../epub/29676/OEBPS/xhtml/P559.xhtml"
-                        xml:id="pb_6.d1e628"/> تحتاج دمشق إلى أناس من أعاظمها ونزهائها يسعون لترشيح
+                    الأهلية. كما أنها أضحت كأن لم تكن شيئاً في المدارس الأميرية. <pb ed="shamela" n="n19-p6" corresp="file:../epub/29676/OEBPS/xhtml/P559.xhtml" xml:id="pb_6.d1e628"/> تحتاج دمشق إلى أناس من أعاظمها ونزهائها يسعون لترشيح
                     الأكفاء من رجالها للنيابة عن الدمشقيين في مجلس الأمة والمجالس الأهلية. ويعملون
                     على إنالتهم ثقة من الأهلين تمكنهم من تولي تلك المناصب حتى لاتفقد دمشق في مجلس
                     الأمة نواباً يمثلون عظمتها. ويخدمونها خدمة صالحة، وحتى تأمن في مجالسها ضياع
@@ -429,8 +315,7 @@
                     فرع من فروع الإصلاح المارة وغيرها بفئة منهم تحسن القيام به. ولا تنوء بحمله فإذا
                     تمت لدمشق هذه الأمنية فقد خطت خطوة كبرى في التقدم. وأثرت أثراً عظيماً في الإصلاح
                     يرجع به أيها سالف مجدها. وسامق عزها والله الموفق.<pb ed="print"/>
-                    <pb ed="shamela" n="n19-p8" corresp="file:../epub/29676/OEBPS/xhtml/P561.xhtml"
-                        xml:id="pb_8.d1e660"/>
+                    <pb ed="shamela" n="n19-p8" corresp="file:../epub/29676/OEBPS/xhtml/P561.xhtml" xml:id="pb_8.d1e660"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_4.d1e664">
@@ -501,9 +386,7 @@
                         الحاجات وأرباب المصالح يقضون الأيام والشهور غادين رائحين يترقبون وفاء وعد
                         المأمور الذي يمهل عمل كل يوم إلى الغد وقد يحول الحول ولا يصدق بقوله.</p>
                     <p xml:lang="ar" xml:id="p_57.d1e739">لو صدق الباعة لأمن الناس الغبن والغرور
-                    ولانتفع البائع والمشتري وآب كل منهما بصفقة رابحة وعمل مبرور. <pb ed="shamela"
-                        n="n19-p10" corresp="file:../epub/29676/OEBPS/xhtml/P563.xhtml"
-                        xml:id="pb_10.d1e741"/> لو صدق المؤرخون لما ضاع كثير من الحقائق التاريخية
+                    ولانتفع البائع والمشتري وآب كل منهما بصفقة رابحة وعمل مبرور. <pb ed="shamela" n="n19-p10" corresp="file:../epub/29676/OEBPS/xhtml/P563.xhtml" xml:id="pb_10.d1e741"/> لو صدق المؤرخون لما ضاع كثير من الحقائق التاريخية
                     وأصبحت مشوشة لا يهتدي الباحث إليها بعد جهد النفس لما يعتورها من أكاذيب بعض
                         المؤرخين.<pb ed="print"/></p>
                     <p xml:lang="ar" xml:id="p_58.d1e744">لو صدق الكتاب في أقوالهم وزفوا الحقائق إلى القراء عارية من النفاق والأغراض
@@ -525,13 +408,10 @@
                     والقائمين بأمورها وهي ملاحظة التلامذة وترغيبهم في الصدق وتنفيرهم من الكذب والدأب
                     على الفحص على من يكذب حتى يصير طبيعة ومجازاته أشد الجزاء وإكرام الصادق وترغيبه
                     في الصدق حتى يصير طبيعة من طبائع التلامذة وبذلك يكونون قد خدموا الأمة أحسن خدمة
-                    وقاموا بما يجب عليهم تجاه مركزهم في المجتمع وعملهم هذا يغلب عليه النجاح أكثر <pb
-                        ed="print"/>من تذكير من اعتاد هذا الأمر وكبر عليه. ذلك لأن الأطفال وعاء نظيف
+                    وقاموا بما يجب عليهم تجاه مركزهم في المجتمع وعملهم هذا يغلب عليه النجاح أكثر <pb ed="print"/>من تذكير من اعتاد هذا الأمر وكبر عليه. ذلك لأن الأطفال وعاء نظيف
                     قابلون لزرع الأخلاق الصالحة التي تعود عليهم وعلى أمتهم بالخير. وعلى الآباء أن
                     يساعدوا على ذلك لا أن يعمل الأستاذ عملاً ويعمل الوالد ما يخالفه فيفسد الطفل بذلك
-                    وتضيع التربية والاعتناء بأخلاقه وفق الله الأمة لما فيه فلاحها. <pb ed="shamela"
-                        n="n19-p11" corresp="file:../epub/29676/OEBPS/xhtml/P564.xhtml"
-                        xml:id="pb_11.d1e752"/>
+                    وتضيع التربية والاعتناء بأخلاقه وفق الله الأمة لما فيه فلاحها. <pb ed="shamela" n="n19-p11" corresp="file:../epub/29676/OEBPS/xhtml/P564.xhtml" xml:id="pb_11.d1e752"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_5.d1e757">
@@ -587,8 +467,7 @@
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_17.d1e874">
                         <seg xml:lang="ar" xml:id="seg_33.d1e876">في كف كل فتى صبت سواعده </seg>
-                        <seg xml:lang="ar" xml:id="seg_34.d1e879"> صب الحديد فلا وهن ولا خور<pb
-                                ed="print"/></seg>
+                        <seg xml:lang="ar" xml:id="seg_34.d1e879"> صب الحديد فلا وهن ولا خور<pb ed="print"/></seg>
                     </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_18.d1e883">
                             <seg xml:lang="ar" xml:id="seg_35.d1e885">يمده القلب والأبطال مدبرة </seg>
@@ -668,8 +547,7 @@
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_37.d1e1057">
                         <seg xml:lang="ar" xml:id="seg_73.d1e1059">ويل أمها من سيوف في ظهورهم </seg>
-                        <seg xml:lang="ar" xml:id="seg_74.d1e1062"> قد صيرتها عصياً هذه الحمر<pb
-                                ed="print"/></seg>
+                        <seg xml:lang="ar" xml:id="seg_74.d1e1062"> قد صيرتها عصياً هذه الحمر<pb ed="print"/></seg>
                     </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_38.d1e1066">
                             <seg xml:lang="ar" xml:id="seg_75.d1e1068">والليث يكرم إن يلوي على جيف </seg>
@@ -745,8 +623,7 @@
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_56.d1e1231">
                         <seg xml:lang="ar" xml:id="seg_111.d1e1233">يمشي بها الموت مجنوناً وكيف خطا </seg>
-                        <seg xml:lang="ar" xml:id="seg_112.d1e1236"> فليس إلا قبور ثم تحتفر<pb
-                                ed="print"/></seg>
+                        <seg xml:lang="ar" xml:id="seg_112.d1e1236"> فليس إلا قبور ثم تحتفر<pb ed="print"/></seg>
                     </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_57.d1e1240">
                             <seg xml:lang="ar" xml:id="seg_113.d1e1242">لابد من غضبة إن ثار ثائرها </seg>
@@ -822,9 +699,7 @@
                         </l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_61.d1e1406">الهلال:</p>
-                    <p xml:lang="ar" xml:id="p_62.d1e1409">مصطفى صادق الرفاعي <pb ed="print"/><pb
-                        ed="shamela" n="n19-p14" corresp="file:../epub/29676/OEBPS/xhtml/P567.xhtml"
-                        xml:id="pb_12.d1e1411"/>
+                    <p xml:lang="ar" xml:id="p_62.d1e1409">مصطفى صادق الرفاعي <pb ed="print"/><pb ed="shamela" n="n19-p14" corresp="file:../epub/29676/OEBPS/xhtml/P567.xhtml" xml:id="pb_12.d1e1411"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_6.d1e1415">
@@ -862,9 +737,7 @@
                         يقتضيه والحكمة في ذلك بقاء عقد الجمعية الإنسانية منظماً على أساس صروح
                         المدنية والحضارة ومصادرة وباء الفساد في الأرض (يلقي الروح من أمره على من
                         يشاء من عباده. والله يعلم وأنتم لا تعلمون).</p>
-                    <p xml:lang="ar" xml:id="p_65.d1e1428">المؤيد <pb ed="print"/><pb ed="shamela"
-                        n="n19-p16" corresp="file:../epub/29676/OEBPS/xhtml/P569.xhtml"
-                        xml:id="pb_14.d1e1430"/>
+                    <p xml:lang="ar" xml:id="p_65.d1e1428">المؤيد <pb ed="print"/><pb ed="shamela" n="n19-p16" corresp="file:../epub/29676/OEBPS/xhtml/P569.xhtml" xml:id="pb_14.d1e1430"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_7.d1e1434">
@@ -922,12 +795,9 @@
                     المسيحية أن تعاكس الإسلام في كل طريق وتحارب أهله بكل سلاح , أن مقاومة الإسلام
                     بالقوة لا يزيده إلا انتشاراً فالواسطة الفعالة لهدم أركان الإسلام وتقويض بنيانه
                     هي تربية بنيه في المدارس المسيحية وإلقاء بذور الشك في نفوسهم من عهد النشأة فتفسد
-                    عقائدهم الإسلامية من حيث لا يشعرون وإن لم يتنَصَّر منهم <num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_7.d1e1600">أحد</num> فإنهم يصيرون لا مسلمين ولا مسيحيين مذبذبين
+                    عقائدهم الإسلامية من حيث لا يشعرون وإن لم يتنَصَّر منهم <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_7.d1e1600">أحد</num> فإنهم يصيرون لا مسلمين ولا مسيحيين مذبذبين
                     بين ذلك. قال وأمثال هؤلاء يكونون بلا ارتياب أضر على الإسلام وبلاده مما إذا
-                    اعتنقوا الديانة المسيحية وتظاهروا <pb ed="shamela" n="n19-p18"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P571.xhtml" xml:id="pb_16.d1e1465"/>
+                    اعتنقوا الديانة المسيحية وتظاهروا <pb ed="shamela" n="n19-p18" corresp="file:../epub/29676/OEBPS/xhtml/P571.xhtml" xml:id="pb_16.d1e1465"/>
                     بها إلى أن قال <pb ed="print"/>إن طريقة تربية أولاد المسلمين في المدارس المسيحية
                     وإن كان لها من التأثير ما بيناه فإن تربية البنات في مدارس الراهبات أدعى لحصولنا
                     على حقيقة القصد ووصولنا إلى نفس الغاية التي وراءها نسعى بل أقول أن تربية البنات
@@ -967,18 +837,14 @@
                     إنما هي الرابطة الدينية وأن قوتهم لا تكون إلا بالعصبية الاعتقادية وأنهم ما داموا
                     مستمسكين بدينهم متعصبين لعقائدهم يصعب امتلاكهم وتعسر ملا شاتهم فرأوا بث هذا
                     الفكر الساقط بين السذج من المسلمين على لسان متفرنجيهم لينقضوا بذلك بناء الملة
-                    الإسلامية (لا سمح الله) ومن غريب أحوال الغربيين أنهم يرمون <pb ed="print"
-                    />التعصب الديني بأشد عبارات التقبيح والازدراء وهم أشد الناس تعصباً لدينهم
+                    الإسلامية (لا سمح الله) ومن غريب أحوال الغربيين أنهم يرمون <pb ed="print"/>التعصب الديني بأشد عبارات التقبيح والازدراء وهم أشد الناس تعصباً لدينهم
                     وأحرصهم على القيام بدواعيه ولا يزالون يلزمون حكوماتهم حماية دعاة الدين والقائمين
                     بنشره وينفقون النفقات الباهظة للمبشرين وأتباعهم ولتغرير عقول بعض البله ليردوهم
-                    عن دينهم وإذا تسنى ل<num xml:lang="ar" type="auto-markup" subtype="d1"
-                        resp="#pers_TG" value="1" xml:id="num_8.d1e1623">أحد</num> المبشرين أن فاز
-                    ببغيته وتمكن من الاستيلاء على فكر <num xml:lang="ar" type="auto-markup"
-                        subtype="d1" resp="#pers_TG" value="1" xml:id="num_9.d1e1626">أحد</num>
+                    عن دينهم وإذا تسنى ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_8.d1e1623">أحد</num> المبشرين أن فاز
+                    ببغيته وتمكن من الاستيلاء على فكر <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_9.d1e1626">أحد</num>
                     المخالفين له بالعقيدة عدوا ذلك حسنة لذلك المبشر وأعطوه من الألقاب ما يعطونه
                     لقائد الحروب وفاتح الثغور. وقد آن أن نبين مضار دخول المسلمين مدارس الأجانب
-                    وتعليمهم فيها. لها بقية <pb ed="shamela" n="n19-p20"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P573.xhtml" xml:id="pb_18.d1e1485"/>
+                    وتعليمهم فيها. لها بقية <pb ed="shamela" n="n19-p20" corresp="file:../epub/29676/OEBPS/xhtml/P573.xhtml" xml:id="pb_18.d1e1485"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_8.d1e1489">
@@ -992,8 +858,7 @@
                     <p xml:lang="ar" xml:id="p_81.d1e1500">فإذا أردت الجهاد وأحببته ولم تبذل النفس
                     والمال لا تكون مجاهداً. والمسلم إذا لم تكن نفسه وماله رخيصتين في جانب هذا المقصد
                     لا يكون قائماً بالواجب المأمور فيه بالقرآن العظيم بقوله سبحانه (انفروا خفافاً
-                    وثِقالاً وجاهدوا بأموالكم وأنفسكم في سبيل الله ذلكم خير لكم إن كنتم تعلمون).<pb
-                        ed="print"/></p>
+                    وثِقالاً وجاهدوا بأموالكم وأنفسكم في سبيل الله ذلكم خير لكم إن كنتم تعلمون).<pb ed="print"/></p>
                     <p xml:lang="ar" xml:id="p_82.d1e1503">الأمة الإسلامية مقصرة في هذه الأزمنة المتأخرة بهذا الواجب تمام التقصير لذلك
                         تراها عرضة لتسلط الأعداء عليها وجعلها تحت سيطرتهم وتهديدهم وتمكنهم من انتهاب
                         أملاكها حتى وصل الأمر فتجاسرت (إيطاليا) عليها تلك الدولة التي لا تعد شيئاً
@@ -1013,11 +878,9 @@
                         بالجهاد بالأموال والأنفس. الدين <pb ed="shamela" n="n19-p21" corresp="file:../epub/29676/OEBPS/xhtml/P574.xhtml" xml:id="pb_19.d1e1512"/> يأمر بالتعاون
                         والتناصر، الدين يأمر بالشفقة والرحمة.</p>
                     <p xml:lang="ar" xml:id="p_85.d1e1515">السلف الصالح قام بأمر الجهاد كما أمر الله
-                    تعالى فملك بقليل من الزمن نحواً من <num xml:lang="ar" type="auto-markup"
-                        subtype="d1" resp="#pers_TG" value="3" xml:id="num_10.d1e1661">ثلث</num>
+                    تعالى فملك بقليل من الزمن نحواً من <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3" xml:id="num_10.d1e1661">ثلث</num>
                     المعمور، السلف الصالح قام بالتعاون والتناصر كما أمر الله <pb ed="print"/>فصارت
-                    القياصرة العظام لا تجسر على إيذاء فرد و<num xml:lang="ar" type="auto-markup"
-                        subtype="d1" resp="#pers_TG" value="1" xml:id="num_11.d1e1664">احد</num> من
+                    القياصرة العظام لا تجسر على إيذاء فرد و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_11.d1e1664">احد</num> من
                     أفراد المسلمين علماً منهم بأن أنصاره وأعوانه المسلمون أجمعون.</p>
                     <p xml:lang="ar" xml:id="p_86.d1e1518">السلف الصالح قام بالشفقة والرحمة كما أمر الله فكان الواحد منهم إذا سمع أن
                         أحداً من المسلمين أصابته مصيبة أو نزلت به نازلة فدى إخوانه المسلمين المصابين
@@ -1066,26 +929,15 @@
                         سيصير عند هاتين الدولتين من الدوارع الكبرى المعروفة باسم دريدنوط إلى سنة
                          <tei:num value="1914" xml:lang="ar" xml:id="num_1.d1e1621">١٩١٤</tei:num>  وأضاف إليها قوات الدول الأخرى للمقابلة فكانت النتيجة على هذه
                         الصورة:</p>
-                    <p xml:lang="ar" xml:id="p_96.d1e1552">سنة <tei:num value="1911" xml:lang="ar"
-                        xml:id="num_1.d1e1627">١٩١١</tei:num> سنة <tei:num value="1912"
-                        xml:lang="ar" xml:id="num_1.d1e1630">١٩١٢</tei:num> سنة <tei:num
-                        value="1913" xml:lang="ar" xml:id="num_1.d1e1633">١٩١٣</tei:num> سنة
+                    <p xml:lang="ar" xml:id="p_96.d1e1552">سنة <tei:num value="1911" xml:lang="ar" xml:id="num_1.d1e1627">١٩١١</tei:num> سنة <tei:num value="1912" xml:lang="ar" xml:id="num_1.d1e1630">١٩١٢</tei:num> سنة <tei:num value="1913" xml:lang="ar" xml:id="num_1.d1e1633">١٩١٣</tei:num> سنة
                         <tei:num value="1914" xml:lang="ar" xml:id="num_1.d1e1636">١٩١٤</tei:num>
-                    عند إنكلترا <tei:num value="12202732" xml:lang="ar" xml:id="num_1.d1e1639"
-                        >١٢٢٠٢٧٣٢</tei:num> ألمانيا <tei:num value="591519" xml:lang="ar"
-                        xml:id="num_1.d1e1643">٥٩١٥١٩</tei:num> أميركا <tei:num value="46810"
-                        xml:lang="ar" xml:id="num_1.d1e1646">٤٦٨١٠</tei:num> فرنسا <tei:num
-                        value="0668" xml:lang="ar" xml:id="num_1.d1e1649">٠٦٦٨</tei:num> اليابان
+                    عند إنكلترا <tei:num value="12202732" xml:lang="ar" xml:id="num_1.d1e1639">١٢٢٠٢٧٣٢</tei:num> ألمانيا <tei:num value="591519" xml:lang="ar" xml:id="num_1.d1e1643">٥٩١٥١٩</tei:num> أميركا <tei:num value="46810" xml:lang="ar" xml:id="num_1.d1e1646">٤٦٨١٠</tei:num> فرنسا <tei:num value="0668" xml:lang="ar" xml:id="num_1.d1e1649">٠٦٦٨</tei:num> اليابان
                         <tei:num value="1346" xml:lang="ar" xml:id="num_1.d1e1652">١٣٤٦</tei:num>
                     روسيا <tei:num value="0004" xml:lang="ar" xml:id="num_1.d1e1655">٠٠٠٤</tei:num>
-                    إيطاليا <tei:num value="0024" xml:lang="ar" xml:id="num_1.d1e1658"
-                        >٠٠٢٤</tei:num> النمسا <tei:num value="0013" xml:lang="ar"
-                        xml:id="num_1.d1e1662">٠٠١٣</tei:num> هذا استعدادهم وتسابقهم في القوة
+                    إيطاليا <tei:num value="0024" xml:lang="ar" xml:id="num_1.d1e1658">٠٠٢٤</tei:num> النمسا <tei:num value="0013" xml:lang="ar" xml:id="num_1.d1e1662">٠٠١٣</tei:num> هذا استعدادهم وتسابقهم في القوة
                     البحرية وترى نحوه في القوة البرية فالله عليك هل سمعت لدولتنا ذكراً في هذه
                     المسابقة أو غيرها؟ هنا يقف العثماني المسلم وغيره حزناً آسفاً ينحي باللائمة على
-                    الحكومة وقصورها ولا يفكر أن اللوم على الشعب أيضاً إذ الحكومة بالشعب <pb
-                        ed="shamela" n="n19-p23" corresp="file:../epub/29676/OEBPS/xhtml/P576.xhtml"
-                        xml:id="pb_21.d1e1554"/> وتقصيرها من تقصيره (كما تكونوا يولى عليكم) إذا لم
+                    الحكومة وقصورها ولا يفكر أن اللوم على الشعب أيضاً إذ الحكومة بالشعب <pb ed="shamela" n="n19-p23" corresp="file:../epub/29676/OEBPS/xhtml/P576.xhtml" xml:id="pb_21.d1e1554"/> وتقصيرها من تقصيره (كما تكونوا يولى عليكم) إذا لم
                     ترزق الحكومة شعباً ذا صدق في القول والعمل <pb ed="print"/>ذا أخلاق عالية ونفوس
                     تأبى الضيم وأيد سمحى في جانب تعزيز قوته واسترجاع شرفه التالد فلا لوم عليها إذا
                     قصرت في كل شيء.</p>
@@ -1100,15 +952,12 @@
                     على مصلحته التي هي مصلحتنا بالحقيقة وسعينا في تأليف الجمعيات لجمع الإعانات
                     وتوسيع نطاق المعارف واخترنا رجالاً صادقي اللهجة والنية أمناء نزهاء لا شغف لهم
                     بحب الذات والفخفخة الفارغة وأسندنا إليهم أمورنا العامة وعملنا على ترك الشقاق
-                    والنفاق والتخاذل والتحزب واعتقدنا أننا جسم و<num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_12.d1e1753">احد</num> كلمتنا واحدة فإن وجدنا كلمة حق سمعناها من
+                    والنفاق والتخاذل والتحزب واعتقدنا أننا جسم و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_12.d1e1753">احد</num> كلمتنا واحدة فإن وجدنا كلمة حق سمعناها من
                     أي حزب كان وإن وجدنا كلمة باطل نبذناها وراء ظهورنا ولو كانت من أكبر رجال قومنا.
                     إن عملنا على ذلك لا يمضي زمن قليل إلا ونحن أمام الدول ارتقاء وأعلى الأمم نجابة
                     وهناءً فنسألك اللهم أن توفقنا لما فيه صلاحنا ورضاك وأنت بالإجابة جدير وعلى كل
                     شيء قدير (يا قومنا أجيبوا داعي الله وآمنوا به يغفر لكم من ذنوبكم ويجرحكم من عذاب
-                    أليم). <pb ed="print"/><pb ed="shamela" n="n19-p24"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P577.xhtml" xml:id="pb_22.d1e1559"/>
+                    أليم). <pb ed="print"/><pb ed="shamela" n="n19-p24" corresp="file:../epub/29676/OEBPS/xhtml/P577.xhtml" xml:id="pb_22.d1e1559"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_9.d1e1563">
@@ -1164,8 +1013,7 @@
                         </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_86.d1e1680">
                         <seg xml:lang="ar" xml:id="seg_171.d1e1682">فطاشوا وقاموا يخبطون وما دروا </seg>
-                        <seg xml:lang="ar" xml:id="seg_172.d1e1685"> بأن عليهم من جنايتهم وزرا<pb
-                                ed="print"/></seg>
+                        <seg xml:lang="ar" xml:id="seg_172.d1e1685"> بأن عليهم من جنايتهم وزرا<pb ed="print"/></seg>
                     </l>
                         <l type="bayt" xml:lang="ar" xml:id="l_87.d1e1689">
                             <seg xml:lang="ar" xml:id="seg_173.d1e1691">وإن قام يشكو مصلح من فعالهم </seg>
@@ -1222,8 +1070,7 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_101.d1e1810">حمص</p>
                     <p xml:lang="ar" xml:id="p_102.d1e1813">سعيد زهور<pb ed="print"/>
-                    <pb ed="shamela" n="n19-p26" corresp="file:../epub/29676/OEBPS/xhtml/P579.xhtml"
-                        xml:id="pb_23.d1e1815"/>
+                    <pb ed="shamela" n="n19-p26" corresp="file:../epub/29676/OEBPS/xhtml/P579.xhtml" xml:id="pb_23.d1e1815"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_10.d1e1819">
@@ -1274,10 +1121,8 @@
                     على وجه كبيرهم وصغيرهم علامة الكآبة والحزن، وفي مساء اليوم الذي وصل به الخبر وما
                     بعده كنت ترى الناس على <pb ed="print"/>اختلاف طبقاتهم ألوفاً مؤلفة يؤمون محطة
                     القطار (البرامكة) ينتظرون مجيئه من بيروت ليستطلعوا طلع الخبر. حدث مشاهد للواقعة
-                    في بيروت أن الناس أصبحوا صباح <pb ed="shamela" n="n19-p28"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P581.xhtml" xml:id="pb_25.d1e1865"/>
-                    يوم السبت ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG"
-                        value="7" xml:id="num_14.d1e2067">سبع</num> خلت من شهر ربيع الأول والحال
+                    في بيروت أن الناس أصبحوا صباح <pb ed="shamela" n="n19-p28" corresp="file:../epub/29676/OEBPS/xhtml/P581.xhtml" xml:id="pb_25.d1e1865"/>
+                    يوم السبت ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="7" xml:id="num_14.d1e2067">سبع</num> خلت من شهر ربيع الأول والحال
                     مطمئن والبحر هادئ والناس سائرون في أشغالهم فما شعروا إلا وتغير الحال واضطرب وجه
                     البحر وعصفت عليه عواصف شرور همجية الغرب المتمدن ونظر القوم من وراء الأفق في
                     الساعة الثالثة من صباح هذا اليوم بارجتين تقتربان إلى مرفأ بيروت وعندما وصلتا إلى
@@ -1286,30 +1131,24 @@
                     مجيئهما. قال ووقفنا ننظر إليهما بعين الدهشة والاستغراب وخصوصاً عندما عرفنا أنهما
                     بارجتان إيطاليتان ثم حضر زورق من طرف قائد المدفعية العثمانية إلى الأسطول
                     الإيطالي ليستعلم منه عما يريده الأسطول بقدومه فأعلمه على (ماشاع بعد) بأنه يريد
-                    المدفعية العثمانية (عون الله) والنسافة (أنقرة) وأنه في الساعة <tei:num value="9"
-                        xml:lang="ar" xml:id="num_1.d1e1978">٩</tei:num> إفرنجي إن لم يسلما أنفسهما
+                    المدفعية العثمانية (عون الله) والنسافة (أنقرة) وأنه في الساعة <tei:num value="9" xml:lang="ar" xml:id="num_1.d1e1978">٩</tei:num> إفرنجي إن لم يسلما أنفسهما
                     يضطر إلى ضربهما داخل المرفأ وآنئذ تقول الناس الأقاويل فمنهم من قال مرادهم ضرب
                     الثغر ومنهم من قال مرادهم أخذ النسافة والمدفعية ولا يمكنهم ضرب البلد قطعياً
                     ومنهم من قال غير ذلك.</p>
                     <p xml:lang="ar" xml:id="p_107.d1e1868">ثم سمعنا صوت المدافع في الفضاء الواحد
-                    تلو الآخر وشعرنا أن الأرض تهتز من عظم تلك الطلقات وكانت <num xml:lang="ar"
-                        type="auto-markup" subtype="d1" resp="#pers_TG" value="1"
-                        xml:id="num_15.d1e2076">إحدى</num> البارجتين راسية أمام المرفأ (البور) ترمي
+                    تلو الآخر وشعرنا أن الأرض تهتز من عظم تلك الطلقات وكانت <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_15.d1e2076">إحدى</num> البارجتين راسية أمام المرفأ (البور) ترمي
                     القنابل وكان الدخان يتصاعد وأصوات النساء والأولاد من البيوت تتصاعد معه. منظر
                     مؤثر ومشهد رهيب استولى الرعب فيه على القلوب وغلب الروع على الأفئدة. ودامت
                     الطلقات متواصلة على البارجة <pb ed="print"/>(عون الله) والطراد (أنقرة) حتى غرقت
                     الأولى واضمحل أمر الثانية وبقيت على وجه الماء وهدمت من تلك القذائف الجهنمية بعض
-                    الأبنية وقسماً من المصرف العثماني والجمرك ومصرف سلانيك وقتا نحو <num
-                        xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100"
-                        xml:id="num_16.d1e2079">مائة</num> رجل خلا الجرحى. قال ثم بعد أن تمت تلك
+                    الأبنية وقسماً من المصرف العثماني والجمرك ومصرف سلانيك وقتا نحو <num xml:lang="ar" type="auto-markup" subtype="d3" resp="#pers_TG" value="100" xml:id="num_16.d1e2079">مائة</num> رجل خلا الجرحى. قال ثم بعد أن تمت تلك
                     البارجة مقاصدها السيئة رجعت تمخر عباب البحر والمياه تشب أمامها كأنها تطالبها بما
                     أتته من الضرر والفعل الذميم. ولما اقتربت من رفيقتها التي كانت في انتظارها
                     وبعبارة ثانية كانت تحمي ظهرها سارتا معاً وأوغلتا في البحر إلى ما وراء الأفق وهنا
                     ظن الناس الظنون. ظن بعضهم أنهما ذهبتا إلى طرابلس شام والبعض الآخر ظن أنهما قصدتا
                     إسكندرونة لضرب المدفعية العثمانية الراسية هناك لكن مع الآسف لم يطل أمد هذا
                     التخرص إذ عادت البارجتان الطليانيتان واقتربت إحداهما من البور ببطء ودخلته غير
-                        <pb ed="shamela" n="n19-p29"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P582.xhtml" xml:id="pb_26.d1e1870"/>
+                        <pb ed="shamela" n="n19-p29" corresp="file:../epub/29676/OEBPS/xhtml/P582.xhtml" xml:id="pb_26.d1e1870"/>
                     خائفة ولا وجلة وهناك أطلقت عدة قذائف على الطراد الذي بقي بعضه ظاهراً على وجه
                     الماء فأغرقته ورجعتا لا رافقتهما السلامة. وقد وقع الناس حين رجوعهما بأشد الخوف
                     حيث اعتقدوا أنهما سيقذفان شظايا نارهما على البلدة وبالأخص الثكنة العسكرية ودار
@@ -1330,16 +1169,14 @@
                     كانت إقامتهم في غير بيروت والحاصل جميع أحكام قرار الإدارة العرفية والمواد
                     المذيلة به سيجرى تطبيقها حرفياً اعتباراً من تاريخه. وقد أذيع هذا ليحيط الجميع به
                     علماً في <tei:num value="12" xml:lang="ar" xml:id="num_1.d1e1986">١٢</tei:num>
-                    شباط سنة <tei:num value="1327" xml:lang="ar" xml:id="num_1.d1e1989"
-                        >١٣٢٧</tei:num> .</p>
+                    شباط سنة <tei:num value="1327" xml:lang="ar" xml:id="num_1.d1e1989">١٣٢٧</tei:num> .</p>
                     <p xml:lang="ar" xml:id="p_108.d1e1873">ونعم ما فعلته الحكومة فقد استتب الأمن وتوطدت أركان الراحة بهمة والي الولاية
                         ورجال الضبط والجند الشاهاني الذين لم يألوا جهداً في العناية بأمر التدقيق
                         والتطواف وقد أرسلت ولاية سوريا قطارين مشحونين بالعساكر والزاد وأرسلت طرابلس
                         شام أيضاً الأي السواري لمعاضدة حكومة بيروت في توفير أسباب الأمن. وبذلك انتهت
                         الأزمة وعاد القوم إلى أعمالهم.</p>
                     <p xml:lang="ar" xml:id="p_109.d1e1877">تبرم بعض الناس من إعلان الإدارة العرفية
-                    في بيروت ونقم على الحكومة ونحن مع حبنا <pb ed="shamela" n="n19-p30"
-                        corresp="file:../epub/29676/OEBPS/xhtml/P583.xhtml" xml:id="pb_27.d1e1879"/>
+                    في بيروت ونقم على الحكومة ونحن مع حبنا <pb ed="shamela" n="n19-p30" corresp="file:../epub/29676/OEBPS/xhtml/P583.xhtml" xml:id="pb_27.d1e1879"/>
                     الصميم لراحة أهالي بيروت ورجائنا بضراعة منه سبحانه أن لا يطيل أمد الأحكام
                     العرفية عليهم نقول أن السخط على الحكومة في غير محله وربما أدى إلى التشويش عليها
                     وهو بلا شك جهل محض. إذ باعتقادنا أن ما تعمله الحكومة الآن يتحتم عمله، ولولاه
@@ -1356,8 +1193,7 @@
                     الغرب بأعظم من مصيبتها بتفرقهم واختلافهم. فإلى الوفاق أيها الناس إلى التعاضد
                     أيها القوم. وفي الختام نجأر إلى الله تعالى أن يوفق الأمة إلى ما فيه صلاحها
                     ونجاحها، وأن يصرف عنها كيد الأعداء، إنه سميع الدعاء.<pb ed="print"/>
-                    <pb ed="shamela" n="n19-p31" corresp="file:../epub/29676/OEBPS/xhtml/P584.xhtml"
-                        xml:id="pb_28.d1e1881"/>
+                    <pb ed="shamela" n="n19-p31" corresp="file:../epub/29676/OEBPS/xhtml/P584.xhtml" xml:id="pb_28.d1e1881"/>
                 </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_12.d1e1885">

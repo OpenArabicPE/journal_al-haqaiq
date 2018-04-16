@@ -80,113 +80,9 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc xml:lang="en" xml:id="encodingDesc_1.d1e181">
-            <samplingDecl xml:lang="en" xml:id="samplingDecl_1.d1e183">
-                <p xml:lang="en" xml:id="p_1.d1e185">The edition is based on the digital transcripts (HTML files wrapped
-                    in ePub) available from <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_1.d1e187">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_1.d1e189">al-maktabat al-shāmila</foreign>
-                    </ref>.</p>
-            </samplingDecl>
-            <editorialDecl xml:lang="en" xml:id="editorialDecl_1.d1e195">
-                <p xml:lang="en" xml:id="p_2.d1e197">The original editorial practices followed by <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_2.d1e199">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_2.d1e201">al-maktabat al-shāmila</foreign>
-                    </ref> can only be deduced from the limited mark-up found in the digital text
-                    provided online and as ePub. It appears from that that paragraphs and head lines
-                    were recorded and preserved. They also recorded page breaks, but at least for
-                    the earlier issues these do not correspond to the page breaks in the print
-                    edition and should thus be marked with <att xml:lang="en" xml:id="att_1.d1e205">ed</att>="shamela"</p>
-                <p xml:lang="en" xml:id="p_3.d1e209">It remains unclear to which extent publication dates for individual
-                    issues are correct. After reviewing the image files and the official publication schedule, the dates provided by <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_3.d1e211">hijrī</foreign> seem to be correct</p>
-                <p xml:lang="en" xml:id="p_4.d1e215">Some phenomena have been marked in red spans by <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_3.d1e217">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_4.d1e219">al-maktabat al-shāmila</foreign>
-                    </ref>. Red spans that contained three points only were considered indicators of
-                    ellipses and transformed into <gi xml:lang="en" xml:id="gi_1.d1e223">gap</gi> with <att xml:lang="en" xml:id="att_2.d1e226">resp</att>="#org_MS". Upon further scrutiny, it turned out that most, if
-                    not all, of these <gi xml:lang="en" xml:id="gi_2.d1e229">gap</gi>s indicated the division between two
-                    halfs of the line of a <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_5.d1e232">qaṣīda</foreign>. I
-                    have converted all <gi xml:lang="en" xml:id="gi_3.d1e236">p</gi>s that contained two short lines of
-                    text divided by <gi xml:lang="en" xml:id="gi_4.d1e239">gap</gi> into <gi xml:lang="en" xml:id="gi_5.d1e242">l</gi> of
-                        <att xml:lang="en" xml:id="att_3.d1e245">type</att>="bayt" with <gi xml:lang="en" xml:id="gi_6.d1e248">seg</gi> child
-                    elements. All other red spans have been rendered as <gi xml:lang="en" xml:id="gi_7.d1e251">gap</gi>.</p>
-            </editorialDecl>
-        </encodingDesc>
-        <profileDesc xml:lang="en" xml:id="profileDesc_1.d1e257">
-            <!-- as we deal with sources from an area and period which also used non-Latin scripts and preferred a number of calenders over the Gregorian, this should be declared here -->
-            <calendarDesc xml:lang="en" xml:id="calendarDesc_1.d1e261">
-                <calendar xml:id="cal_gregorian" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_5.d1e265">Following the hegemonial approach of standards rooted in the
-                        English language, the Gregorian calendar is presumed as the norm and must
-                        not be specified.</p>
-                    <p xml:lang="en" xml:id="p_6.d1e268">The <att xml:lang="en" xml:id="att_4.d1e270">when</att> attribute always provides W3C
-                        dates, while the <att xml:lang="en" xml:id="att_5.d1e273">when-custom</att> attribute follows the
-                        inherent logic of the chosen calendar.</p>
-                    <p xml:lang="en" xml:id="p_7.d1e277">E.g. <date when="1841-05-23" xml:lang="en" xml:id="date_5.d1e279">23 May 1841,
-                            Sunday</date>, <date when="1908-03-05" xml:lang="en" xml:id="date_6.d1e282">5 Mar 1908,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_islamic" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_8.d1e289">Islamic <hi xml:lang="en" xml:id="hi_1.d1e291">hijrī</hi> calendar: lunar calendar
-                        beginning the Year with 1 Muḥarram. Dates differ between locations as the
-                        beginning of the month is based on sightings of the new moon.</p>
-                    <p xml:lang="en" xml:id="p_9.d1e295">E.g. <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1841-05-23" when-custom="1257-04-01" xml:lang="en" xml:id="date_7.d1e297">1 Rab II 1257,
-                            Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1908-03-05" when-custom="1326-02-01" xml:lang="en" xml:id="date_8.d1e300">1 Ṣaf 1326,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_julian" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_10.d1e307">Reformed Julian calendar beginning the Year with 1 January. In
-                        the Ottoman context usually referred to as <hi xml:lang="en" xml:id="hi_2.d1e309">rūmī</hi>.
-                        Arabic newspapers usually labelled this calendar as <hi xml:lang="en" xml:id="hi_3.d1e312">sharqī</hi>.</p>
-                    <p xml:lang="en" xml:id="p_11.d1e316">All solar calendars add an intercalated 366th day every fourth
-                        (and, in the case of Gregorian and rūmī calendars, even-numbered) year at
-                        the end of February (the last day of the old Julian calendar). The Gregorian
-                        calendar suppresses this rule in centesimal years that cannot be divided by
-                        400. This difference creates a growing offset between Gregorian and Julian
-                        calendars: while 1900 R was a leap year, 1900 was not, which in turn caused
-                        the difference between the Gregorian calendar, on the one hand, and the <hi xml:lang="en" xml:id="hi_4.d1e318">mālī</hi> and <hi xml:lang="en" xml:id="hi_5.d1e321">rūmī</hi> calendars, on
-                        the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R /
-                        1315 M (13 March 1900) onwards.</p>
-                    <p xml:lang="en" xml:id="p_12.d1e325">E.g. <date calendar="#cal_julian" datingMethod="#cal_julian" when="1841-05-23" when-custom="1841-05-11" xml:lang="en" xml:id="date_9.d1e327">11 Ayyār 1841,
-                            Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian" when="1908-03-05" when-custom="1908-02-21" xml:lang="en" xml:id="date_10.d1e330">21 Shub 1908,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_13.d1e337">Ottoman fiscal calendar: a lunosolar calendar. It is based on
-                        the Old Julian calendar beginning the Year with 1 March. Introduced as
-                        fiscal calendar in 1676 and in the Ottoman context usually referred to as
-                            <hi xml:lang="en" xml:id="hi_6.d1e339">mālī</hi> and sometimes, confusingly, also as <hi xml:lang="en" xml:id="hi_7.d1e342">rūmī</hi>. Every 33 lunar years, a <hi xml:lang="en" xml:id="hi_8.d1e345">hijrī</hi> year would complete within a single solar <hi xml:lang="en" xml:id="hi_9.d1e348">mālī</hi> year. In this case the counting of the <hi xml:lang="en" xml:id="hi_10.d1e351">mālī</hi> years skipped a year to catch up with the faster <hi xml:lang="en" xml:id="hi_11.d1e355">hijrī</hi> calendar. Due to a printing error in the coupon
-                        booklets for the consolidated debt repayment program for 1872 (1288 M
-                        instead of 1289 M), synchronisation of <hi xml:lang="en" xml:id="hi_12.d1e358">mālī</hi> and <hi xml:lang="en" xml:id="hi_13.d1e361">hijrī</hi> years was henceforth abolished. As <hi xml:lang="en" xml:id="hi_14.d1e364">mālī</hi> years began with 1 March, <hi xml:lang="en" xml:id="hi_15.d1e367">mālī</hi> leap years preceded their <hi xml:lang="en" xml:id="hi_16.d1e370">rūmī</hi> and
-                        Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
-                    <p xml:lang="en" xml:id="p_14.d1e374">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:lang="en" xml:id="date_11.d1e376">11 Māyis 1257, Sunday</date>,
-                            <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:lang="en" xml:id="date_12.d1e379">21 Shub 1323,
-                            Thursday</date>.</p>
-                </calendar>
-            </calendarDesc>
-            <!-- According to TEI P5 @xml:lang should follow BCP 47 <note target="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>, which specifies for Arabic in Latin transcription "ar-Latn". The specific type of transcription should be added as a private use subtag, i.e. "ar-Latn-x-ijmes" for the
-               IJMES transcription of Arabic in Latin script. -->
-            <langUsage xml:lang="en" xml:id="langUsage_1.d1e387">
-                <language ident="ar" xml:lang="en" xml:id="language_1.d1e389">Arabic</language>
-                <language ident="ar-Latn-x-ijmes" xml:lang="en" xml:id="language_2.d1e392">Arabic transcribed into Latin script
-                    following the IJMES conventions</language>
-                <language ident="ar-Latn-EN" xml:lang="en" xml:id="language_3.d1e395">Arabic transcribed into Latin script
-                    following common English practices</language>
-                <language ident="ar-Latn-FR" xml:lang="en" xml:id="language_4.d1e398">Arabic transcribed into Latin script
-                    following common French practices</language>
-                <language ident="en" xml:lang="en" xml:id="language_5.d1e401">English</language>
-                <language ident="fa" xml:lang="en" xml:id="language_6.d1e405">Farsi</language>
-                <language ident="fa-Latn-x-ijmes" xml:lang="en" xml:id="language_7.d1e408">Farsi transcribed into Latin script
-                    following the IJMES conventions</language>
-                <language ident="fr" xml:lang="en" xml:id="language_8.d1e411">French</language>
-                <language ident="ota" xml:lang="en" xml:id="language_9.d1e414">Ottoman</language>
-                <language ident="ota-Latn-x-ijmes" xml:lang="en" xml:id="language_10.d1e417">Ottoman transcribed into Latin
-                    script following the IJMES conventions</language>
-                <language ident="tr" xml:lang="en" xml:id="language_11.d1e420">Turkish</language>
-                <language ident="en-Arab-AR" xml:lang="en" xml:id="language_12.d1e424">English transcribed into Arabic script
-                    following common Levantine Arabic practices</language>
-                <language ident="fr-Arab-AR" xml:lang="en" xml:id="language_13.d1e427">French transcribed into Arabic script
-                    following common Levantine Arabic practices</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2017-07-24" who="#pers_TG">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433" xml:lang="en">Corrected <tei:gi xml:id="gi_8.d1e435" xml:lang="en">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438" xml:lang="en">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441" xml:lang="en">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444" xml:lang="en">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447" xml:lang="en">n</tei:att> to <tei:att xml:id="att_6.d1e451" xml:lang="en">from</tei:att> and <tei:att xml:id="att_6.d1e454" xml:lang="en">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e457" xml:lang="en">Added page breaks and structural mark-up based on facsimiles. Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e459" xml:lang="en">tei:num</gi>and <att xml:id="att_6.d1e462" xml:lang="en">xml:value</att>recording the normalised value. Added automated page numbers as <att xml:id="att_7.d1e465" xml:lang="en">n</att>s and <att xml:id="att_8.d1e468" xml:lang="en">ed</att>="print" for every<gi xml:id="gi_9.d1e471" xml:lang="en">pb</gi> that was not of <att xml:id="att_9.d1e475" xml:lang="en">ed</att>="shamela". Linked all <tei:tag xml:id="tag_1.d1e478" xml:lang="en">pb ed="print"</tei:tag> to the corresponding facsimile.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e481" xml:lang="en">Added automated <att xml:id="att_10.d1e483" xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_10.d1e486" xml:lang="en">tei:text</gi>and had no existing <att xml:id="att_11.d1e489" xml:lang="en">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e492" xml:lang="en">Wrapped all numerals in <tei:gi xml:id="gi_11.d1e494" xml:lang="en">num</tei:gi> with <tei:att xml:id="att_12.d1e497" xml:lang="en">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><change when="2016-03-11" who="#pers_TG" xml:id="change_3.d1e500" xml:lang="en">Added automated <att xml:id="att_12.d1e502" xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e505" xml:lang="en">tei:text</gi>and had no existing <att xml:id="att_13.d1e508" xml:lang="en">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG" xml:id="change_4.d1e511" xml:lang="en">Corrected the URL for digital images at HathiTrust.</tei:change><tei:change when="2016-02-28" who="#pers_TG" xml:id="change_4.d1e513" xml:lang="en">Linked all <tei:tag xml:id="tag_1.d1e515" xml:lang="en">pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
+        <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
+        <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><tei:change when="2017-07-24" who="#pers_TG">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433" xml:lang="en">Corrected <tei:gi xml:id="gi_8.d1e435" xml:lang="en">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e438" xml:lang="en">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e441" xml:lang="en">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e444" xml:lang="en">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e447" xml:lang="en">n</tei:att> to <tei:att xml:id="att_6.d1e451" xml:lang="en">from</tei:att> and <tei:att xml:id="att_6.d1e454" xml:lang="en">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e457" xml:lang="en">Added page breaks and structural mark-up based on facsimiles. Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e459" xml:lang="en">tei:num</gi>and <att xml:id="att_6.d1e462" xml:lang="en">xml:value</att>recording the normalised value. Added automated page numbers as <att xml:id="att_7.d1e465" xml:lang="en">n</att>s and <att xml:id="att_8.d1e468" xml:lang="en">ed</att>="print" for every<gi xml:id="gi_9.d1e471" xml:lang="en">pb</gi> that was not of <att xml:id="att_9.d1e475" xml:lang="en">ed</att>="shamela". Linked all <tei:tag xml:id="tag_1.d1e478" xml:lang="en">pb ed="print"</tei:tag> to the corresponding facsimile.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e481" xml:lang="en">Added automated <att xml:id="att_10.d1e483" xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_10.d1e486" xml:lang="en">tei:text</gi>and had no existing <att xml:id="att_11.d1e489" xml:lang="en">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e492" xml:lang="en">Wrapped all numerals in <tei:gi xml:id="gi_11.d1e494" xml:lang="en">num</tei:gi> with <tei:att xml:id="att_12.d1e497" xml:lang="en">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><change when="2016-03-11" who="#pers_TG" xml:id="change_3.d1e500" xml:lang="en">Added automated <att xml:id="att_12.d1e502" xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e505" xml:lang="en">tei:text</gi>and had no existing <att xml:id="att_13.d1e508" xml:lang="en">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-29" who="#pers_TG" xml:id="change_4.d1e511" xml:lang="en">Corrected the URL for digital images at HathiTrust.</tei:change><tei:change when="2016-02-28" who="#pers_TG" xml:id="change_4.d1e513" xml:lang="en">Linked all <tei:tag xml:id="tag_1.d1e515" xml:lang="en">pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
             <tei:change when="2016-02-28" who="#pers_TG" xml:id="change_4.d1e519" xml:lang="en">Added <tei:gi xml:id="gi_12.d1e521" xml:lang="en">graphic</tei:gi> for 32 pages
                 with references to digital images at HathiTrust.</tei:change>
             <change xml:id="change_4.d1e525" xml:lang="en">Added bibliographic information (vol., issue, pages), some structural
@@ -385,9 +281,7 @@
             <div type="article" xml:id="div_2.d1e831" xml:lang="ar">
                 <salute xml:id="salute_1.d1e833" xml:lang="ar">بسم الله الرحمن الرحيم</salute>
                 <head xml:id="head_1.d1e836" xml:lang="ar"> فاتحة السنة الاولى</head>
-                <p xml:id="p_15.d1e839" xml:lang="ar">
-                    <gap xml:id="gap_1.d1e841"/>
-                </p>
+                <p xml:id="p_15.d1e839" xml:lang="ar"> <gap resp="#org_MS" xml:id="gap_1.d1e841"/> </p>
                 <pb ed="print" n="2" facs="#facs_12" xml:id="pb_2.d1e844"/>
                 <pb ed="print" n="3" facs="#facs_13" xml:id="pb_3.d1e846"/>
             </div>
@@ -603,19 +497,18 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_47.d1e762">وقال أبو المثلم يرثى صخراً الهذلي:</p>
                     <lg xml:lang="ar" xml:id="lg_5.d1e766">
-                        <l type="bayt" xml:lang="ar" xml:id="l_10.d1e768">
-                            <seg xml:lang="ar" xml:id="seg_19.d1e770">أبي الهضيمةِ ناءٍ بالعظيمة مت </seg>
-                            <seg xml:lang="ar" xml:id="seg_20.d1e773"> لاف الكريمة جلد غيرُ
-                                ثنيان</seg><note type="footnote" n="5" xml:id="note_1.d1e1125" xml:lang="ar">
-                                <gap xml:id="gap_2.d1e1127"/>
-                            </note>
-                        </l>
-                        <l type="bayt" xml:lang="ar" xml:id="l_11.d1e777">
-                            <seg xml:lang="ar" xml:id="seg_21.d1e779">حامي الحقيقة نسال الوديقهِ مع </seg>
-                            <seg xml:lang="ar" xml:id="seg_22.d1e782"> ناق الوسيقة لا تكس ولاواني </seg>
-                            <note type="footnote" n="6" xml:id="note_2.d1e1139" xml:lang="ar">
-                                <gap xml:id="gap_3.d1e1141"/>
-                            </note></l>
+                        <l type="bayt" xml:id="l_10.d1e768" xml:lang="ar"> <seg
+                            xml:id="seg_19.d1e770" xml:lang="ar"
+                            >أبي الهضيمةِ ناءٍ بالعظيمة مت </seg> <seg xml:id="seg_20.d1e773"
+                            xml:lang="ar"> لاف الكريمة جلد غيرُ ثنيان</seg><note n="5"
+                            type="footnote" xml:id="note_1.d1e1125" xml:lang="ar"> <gap
+                            resp="#org_MS" xml:id="gap_2.d1e1127"/> </note> </l>
+                        <l type="bayt" xml:id="l_11.d1e777" xml:lang="ar"> <seg
+                            xml:id="seg_21.d1e779" xml:lang="ar"
+                            >حامي الحقيقة نسال الوديقهِ مع </seg> <seg xml:id="seg_22.d1e782"
+                            xml:lang="ar"> ناق الوسيقة لا تكس ولاواني </seg> <note n="6"
+                            type="footnote" xml:id="note_2.d1e1139" xml:lang="ar"> <gap
+                            resp="#org_MS" xml:id="gap_3.d1e1141"/> </note></l>
                     </lg>
                     <p xml:id="p_47.d1e1145" xml:lang="ar"> فمعني الحقائق في هذه الأبيات ما يحق على الرجل أن يحميه ويحافظ عليه وتاء
                         الحقيقة كتاء علامة ونسابه وفهامة ونحو ذلك وهي للتأنيث اللفظي الذي يراد منه
@@ -700,9 +593,9 @@
             <div type="section" xml:lang="ar" xml:id="div_7.d1e887">
                 <head xml:lang="ar" xml:id="head_7.d1e889">الأخلاق <tei:num value="1" xml:lang="ar" xml:id="num_1.d1e1288">١</tei:num> </head>
                 <div type="article" xml:id="div_10.d1e1243" xml:lang="ar">
-                    <head xml:id="head_10.d1e1245" xml:lang="ar">إنما بثت لأتمم (مكارم الأخلاق)<note type="footnote" xml:id="note_3.d1e1247" xml:lang="ar">
-                            <gap xml:id="gap_4.d1e1249"/>
-                        </note></head>
+                    <head xml:id="head_10.d1e1245" xml:lang="ar">إنما بثت لأتمم (مكارم الأخلاق)<note
+                        type="footnote" xml:id="note_3.d1e1247" xml:lang="ar"> <gap resp="#org_MS"
+                        xml:id="gap_4.d1e1249"/> </note></head>
                     <p xml:lang="ar" xml:id="p_62.d1e895">أول واجب على من أراد سعادة هذه الأمة أن يسعى بتهذيب أخلاقها وعبثاً يحاول المصلحون العروج إلى الرقي والنجاح من غير هذا الطريق، وفي هذا الحديث دلالة على الأنبياء صلوات الله وسلامه عليهم أرسلوا بمكارم الأخلاق وأن الرسول متمم ما نقص. وجامع ما تفرق، وفي هذا مع ملاحظة الحصر بإنما من تعظيم قدر الأخلاق ما لا يقدره حق قدره لسان القلم، وقد أصبحنا في زمن نسى أو تناسى فيه المسلمون أخلاقهم تلك الأخلاق التي كانت سبباً لانتشار الدين الإسلامي في أكثر بقاع الأرض بسرعة لم يعهد لها نظير في تاريخ الأديان، صدق في الأقوال وإخلاص في الأعمال وتفان في نصرة الحق (وتعاون على البر والتقوى) قامت هذه العدد المعنوية أمام المعاقل والحصون، والقلاع والأبراج، وغالبتها فغلبتها، ودكت عروش الجبابرة، وهدمت صروح القياصرة، سنة الله في من استرشد بآياته، وتمسك بما أمر به، هذا حال المسلمين في زمن قلتهم وضعفهم. وضيق ثروتهم. فكيف حالهم اليوم نبذوا أوامر الله ظهرياً. واتبعوا أهوائهم، وانكبوا على شهواتهم، وساد فيهم الجهل بالدين وأصوله فبعدوا عن الفضائل، وتحلوا بالرذائل فأخذهم الله ببعض بذنوبهم (أن الله لا يغير ما بقوم حتى يغيروا ما بأنفسهم) كان سلفنا يقول هذا حلال وهذا حرام، وهذه فضيلة، وتلك رذيلة. وميزانهم الشرع <pb ed="print" n="24" facs="#facs_34" xml:id="pb_37.d1e1441"/>ومرجعهم كتاب الله وسنة رسوله فأصبح الخلف يحكمون حكمهم. والميزان الشهوات. والمرجع الأهواء. وبعد أن كان (الحق) و (العدل) و (الأنصاف) (والانتصار للدين) وهكذا سائر الفصائل حقائق لأمور معلومة بينها الشارع ومحصها حتى لم يدع سبيلاً للاختلاف في حقيقتها. أصبحت اليوم تطلق لمعان اصطلاحية (ولا مشاحة في الاصطلاح) فالتهور شجاعة أدبية. والجبن أناة. والوقاحة حرية ضمير. والبعد عن آداب الدين تمدن والتمسك بالفضائل جمود. والقصد والاعتدال في الأمور تعصب.</p>
                     <p xml:lang="ar" xml:id="p_63.d1e898">كتبت <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_16.d1e1446">إحدى</num> المجلات العلمية صورة كتاب ورد
                         ل<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_17.d1e1449">أحد</num> العلماء من صديق له بأميركا وقدم ذلك العالم بين يدي نجواه مقدمة يبين بها
@@ -735,9 +628,9 @@
             <div type="section" xml:lang="ar" xml:id="div_8.d1e916">
                 <head xml:lang="ar" xml:id="head_8.d1e918">الانتقاد</head>
                 <div type="article" xml:id="div_12.d1e1281" xml:lang="ar">
-                    <head xml:id="head_12.d1e1283" xml:lang="ar">الصحف والصحافيون<note type="footnote" n="1" xml:id="note_4.d1e1285" xml:lang="ar">
-                            <gap xml:id="gap_5.d1e1287"/>
-                        </note></head>
+                    <head xml:id="head_12.d1e1283" xml:lang="ar">الصحف والصحافيون<note n="1"
+                        type="footnote" xml:id="note_4.d1e1285" xml:lang="ar"> <gap resp="#org_MS"
+                        xml:id="gap_5.d1e1287"/> </note></head>
                     <p xml:lang="ar" xml:id="p_68.d1e924">ماذا أقول في الصحف الصادقة وما ينبغي أن أقول. أن القلم ليعجز والفكر ليمل دون ان يعرف ما لها من الفضائل أو يوفيها حقها من الثناء إذا كانت الأمور تشرف بشرف غاياتها وتعظم بعظم ثمراتها كان للصحف المفيدة من الكرامة أعظم وأوفر نصيب ذلك من حيث أن الوطن ومستوطنيه إذا غشيتهم غاشية ظالم. أو حقت عليهم كلمة آثم. لم يكن لهم موئل يئلون إليه. ولا منهل يتواردون عليه غير تلك الصحف النافعة الآخذة على عهدتها القيام بخدمة الوطن والانتصاب للذب عنه. وضعت الصحف لتبحث فيها يعود بالمنفعة العامة على هذا النوع البشري فليست أقل فائدة من الكتب المحترمة بل لا فرق بينهما إلا أن الصحف تنشر تباعاً والكتب تنشر دفعة واحدة ويشتمل الكتاب على بحث و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_20.d1e1495">احد</num> والصحيفة على عدة أبحاث، فالمجموع من بحثها في الأخلاق أخلاقي، ومن بحثها في الدينيات كتاب ديني، ومن بحثها في الأدبيات كتاب إنشاء ومحاضرات الخ وضعت الصحف لتعرف الإنسان بماله وما عليه من الواجبات، لتعرفه أنه <pb ed="print" n="27" facs="#facs_37" xml:id="pb_42.d1e1498"/>إنسان حر في أقواله. مطلق في أفعاله. لا سلطة ترهبه. ولا سيطرة تفزعه. اللهم إلا سلطة الشرع وسيطرة الدين وضعت الصحف لتعرف الإنسان أن الله تعالى برأه ليكون صوت رحمة على بني وطنه. وخيراً محضاً لبلاده. لا راحة له إلا أن رقت. ولا هناء له إلا أن علت لتعرفه كيف يصاحب ولمن يجانب، وكيف يسوس أهله، ويربي أولاده. ويعلمهم ويزكيهم ويهذبهم ويرشدهم وضعت الصحف لتطلع الإنسان على أحوال الناس وآرائهم وعاداتهم وأخلاقهم ليطرح الخبيث ويتحلى بالجيد ويقرب من العلماء ويبتعد عن السفهاء وضعت الصحف لتربي في الإنسان ملكتين أدبية وأخلاقية يتعرف بالأولى صحيح الكتابة من فاسدها وغثها من سمينها ويعتقد بالثانية أنه مدين لدينه بدين يجب وفاؤه وحق يلزم قضاؤه، نحن نجل الصحيفة بالوصف السابق ونقدرها قدرها ونرى أنها الدالة على حضارة قومها، وترقي آلها، وأنها يد البأس وعضد المسكين، ولسان الخائف، وساعد المظلوم، وأنها تاريخ عام للمحسن والمسيء، تنتقد للإصلاح وتسير على نهج الفلاح، تصدع بالحق ولو آلمها وتجهر بالصدق ولو جرحها، تبحث فيما تعلم، وتصدف عما لا تعلم وأنها للوطن كالغيث ينتفع منه الكبير <pb ed="shamela" n="n1-p18" corresp="file:../epub/29676/OEBPS/xhtml/P20.xhtml" xml:id="pb_16.d1e926"/> والصغير، والغني والفقير ولكنا نعترف بأن أكثر صحفنا اليوم خرج عن هذا الوضع، وتباعدت عن هذا الوصف، فاستبدل أصحابها المفاسد بالفوائد والمضار بالمنافع، يهتون عرض هذا، ويأكلون <pb ed="print" n="28" facs="#facs_38" xml:id="pb_44.d1e1502"/>لحم ذاك، ثم لا يكفيهم هذا حتى يدعى أحدهم أنه رب الحرية وزعيمها، وشيخ المسائل العمومية وأميرها، وأن لا غرض له في ثلب أعراض الناس وهتكها إلا إظهار الحقيقة، وخدمة الوطن، أمثال هؤلاء المتهورين أخرجوا الصحف عن وضعها وساروا بها في غير مسيرها ففرقوا الكلمة والصحيفة وضعت لجمها، ونفروا القلوب والصحيفة أنشأت لإئتلافها وعاثو في الأخلاق والصحيفة أسست لإصلاحها، وأماتوا اللغة والصحيفة وجدت لإحيائها، ولذلك كثر عدد عذالها، ونما جمع لوامها، وانقسم الناس فيها شيعاً وأحزاباً، فمن حادث عليها موجب لقراءتها، ومن مانع منها محرم لها، لا لوم على المانع، ولا حرج على المحرم، فإن الصحف بخروجها عن وضعها الأصلي صارت محط الصفات الذميمة، والأخلاق السافلة، يفتتح الإنسان الصحيفة من صحف اليوم فيرى من أخبارها أن فلاناً قد تولى المنصب الفلاني وهو خير كفوء له، وأحق قائم يقوم به لما له من الهمة الفائقة، والفكرة الصادقة، والخبرة والمعرفة والدهاء والذكاء، وحسن الإدارة والسياسة، وصدق القول، وطهارة الوجدان، وغير ذلك مما يدهش القارئ والسامع، والعالم والجاهل، ثم لا يكاد يتم سروره حتى يتناول بعد أيام عدد آخر من تلك الصحيفة فيراها تقول أن فلاناً (الممدوح بالأمس) قد جرد من منصبه وهو رديء الحال، سيئ السمعة، طائش الفكرة، عديم المعرفة، مبغض للخير، عدة للمعارف، هناؤه في شهوته، وراحته في لذته إلى غير ذلك من الوصاف الدنيئة، والنعوت الوضعية التي <pb ed="print" n="29" facs="#facs_39" xml:id="pb_45.d1e1504"/>توجب على القارئ أن يحكم بداهة بتكذيب <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_21.d1e1507">أحد</num> الخبرين أن لم نقل بكليهما زد على ذلك ما إذا مر نظره على تلك الأخبار الواهية التي يتناقلها أكثر الصحافيين ولا يعلمون لها سنداً أو تلك الأسطر المشوشة للأفكار. الصدعة للخواطر الصغيرة حقيقتها ترجمتها، أو تلك المبالغات والزيادات التي أفسدت خلق الناشئة وهونت الغلو عليها، أمثال هذه السيئات اضطرت المانع أن يمنع والمحرم أن يحرم والقارئ أن يقيس الصحف بمقياس و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_22.d1e1510">احد</num> ويحكم بهذا الحكم على سائر الصحافيين ولا يسعنا وأكثر الصحف مصبوغ بهذه الصبغة أن نصوب نحو هذا المندد سهم الاعتراض، ونصلت عليه سيف الانتقاد بل الواجب أن نتدارك ما فرط به بعضنا وننصح <pb ed="shamela" n="n1-p19" corresp="file:../epub/29676/OEBPS/xhtml/P21.xhtml" xml:id="pb_17.d1e928"/> لله جهدنا أملاً بأن يرجع إلى الخطة القويمة والطريقة المستقيمة وإلا فنعده في زمرة المفترين، والقوم المفسدين، وبذلك نخدم الصحافة والصحافيين ونبين فضلهما للناس أجمعين. <pb ed="shamela" n="n1-p20" corresp="file:../epub/29676/OEBPS/xhtml/P22.xhtml" xml:id="pb_18.d1e930"/> </p>
                 </div>
             </div>
@@ -746,11 +639,39 @@
                 <div type="article" xml:id="div_14.d1e1306" xml:lang="ar">
                     <head xml:id="head_14.d1e1308" xml:lang="ar">أبو بكر رضي الله عنه</head>
                     <p xml:lang="ar" xml:id="p_70.d1e942">نأتي في هذا الباب على ترجمة أعاظم رجال المسلمين ممن أنتقع بهم العلم والدين، كما تعهدنا بذلك في المقدمة لما فيه من تجريك بواعث الهمم، للاقتداء بأولئك الرجال. في جلائل العمال. وكرائم الخصال. ولانا نرى كثيراً ممن يدعى التمدن يحفظون تاريخ فلاسفة الغربين. ويتلمظون <pb ed="print" n="30" facs="#facs_40" xml:id="pb_48.d1e1535"/>به في المجالس ثم إذا سألتهم عن تاريخ رجل من عظماء المسلمين. أو عالم من العلماء المبرزين. تراهم لا يحفظون نبذة من كلامه ولا مأثرة من مأثره اللهم غفراً ينسون تاريخ قومهم ويحفظون تاريخ غيرهم أن هذه النهاية التعاسة وغاية الخذلان.</p>
-                    <p xml:lang="ar" xml:id="p_71.d1e945">وها نحن أولاء نتيمن بالابتداء بترجمة خليفة رسول الله صلى الله عليه وسلم وأفضل من طلعت عليه الشمس بعد النبيين. (أبي بكر الصديق) رضى الله تعالى وعنه وكان الأحرى بنا أن نبتدئ بترجمة الرسول صلى الله عليه وسلم لولا أن <num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000" xml:id="num_23.d1e1540">ألف</num> في ترجمته مالا يحصى من المؤلفات عدا بل أن الكتب الدينية جمعاء ترجمة لحياته الشريفة صلى الله عليه وسلم. اسم أبي بكر عبد الله سماه به رسول الله صلى الله عليه وسلم حين أسلم وكان اسمه عبد الكعبة ولقبه بالعتيق لجمال وجهه ووصف بالصديق لبداره إلى تصديق الرسول صلى الله عليه وسلم في كل ما جاء به عموماً واسم أبيه عثمان ويكنى أبا قحافة ويجتمع نسبه مع النبي صلى الله عليه وسلم في مرة بن كعب. ولد رضى الله عنه لسنتين وأشهر من مولد النبي صلى الله عليه وسلم. صحب النبي صلى الله عليه وسلم صحبه لا يمكن للمؤرخ أن يحيط بها مهما بلغ من الإطلاع وأجاد في الشرح. صحبة تمثل التفاني في تأييد الحق بأجلى مظاهره وتعلم الناس كيف يتحدون. قداه بماله عند الاقتضاء. وبنفسه عند الشدائد صدقه حين كذبه الناس ونصره حين خذله الناس وآمن به حين كفر به الناس قال صلى الله عليه <pb ed="print" n="31" facs="#facs_41" xml:id="pb_49.d1e1543"/>وسلم<note type="footnote" n="1" xml:id="note_5.d1e1545" xml:lang="ar">
-                        <gap xml:id="gap_6.d1e1547"/>
-                        </note> أن آمن الناس على في صحبته وماله أبو بكر ولو كنت متخذاً خليلاً لاتخذت أبا بكر خليلاً ولكن أخوة الإسلام. وعن عمر بن الخطاب رضي الله عنه<note type="footnote" n="2" xml:id="note_6.d1e1550" xml:lang="ar">
-                        <gap xml:id="gap_7.d1e1552"/>
-                        </note> وقد ذكر عنده أبو بكر فبكي وقال وددت لو أن عملي كله من عمله يوماً واحداً من أيامه وليلة من لياليه أما الليلة فليلة سار مع النبي صلى الله عليه وسلم إلى النار فلما انمتهيا إليه قال والله لا تدخله حتى أدخل قبلك فإن كان فيه شيء أصابني دونك فدخل فكسحه فوجد في جانبه ثقباً فشق <pb ed="shamela" n="n1-p21" corresp="file:../epub/29676/OEBPS/xhtml/P23.xhtml" xml:id="pb_19.d1e947"/> أزاره وسد به تلك الثقب وبقي منها <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="2" xml:id="num_24.d1e1558">اثنان</num> فألقمهما رجله ثم قال لرسول الله صلى الله عليه وسلم أدخل فدخل فوضع رأسه في حجره ونام فلدغ أبو بكر في رجله من الحجر ولم يتحرك مخافة أن ينتبه رسول الله صلى الله عليه وسلم فانتبه فقال مالك يا أبا بكر فقال لدغت فداك أبي وأمي فتفل عليه رسول الله صلى الله عليه وسلم فذهب ما يجده ثم انتقض عليه فكان سبب موته وأما اليوم فلما قبض رسول الله صلى الله عليه وسلم ارتدت العرب وقالوا لا يؤدي زكاة فقال لو منعوني عقالاً لجاهدتهم عليه فقلت يا خليفة رسول الله تالف الناس وأرفق بهم فقال أجبار في الجاهلية وخوار في الإسلام أنه قد انقطع الوحي وتم الدين ثم ينتقض وأنا حي ما هذه المحبة وما هذه المفاداة! أن هي إلا نور قذفه الله في قلب أبي بكر حتى كان رسول الله صلى الله عليه وسلم حب إليه من نفسه (ما فضلكم أبو بكر بكثرة صلاة <pb ed="print" n="32" facs="#facs_42" xml:id="pb_51.d1e1561"/>ولا صيام ولكن بشيء وقر في صدره وكان أبو بكر رضي الله عنه أشجع الناس وقف في وجوه المشركين وقفات عديدة يعرض فيها نفسه للخطر دفاعاً عن رسول الله صلى الله عليه وسلم عن علي كرم الله وجهه ورضي عنه قال أخبروني من أشجع الناس قالوا أنت قال أما أني ما بارزت أحداً إلا انتصفت منه ولكن أخبروني من أشجع الناس قالوا لا نعلم قال أبو بكر أنه لما كان يوم بدر جعلنا لرسول الله صلى الله عليه وسلم عريشاً فقلنا من يكون مع رسول الله صلى الله عليه وسلم لئلا يهوى إليه <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_25.d1e1563">أحد</num> من المشركين فو الله ما دنا منا <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_26.d1e1566">أحد</num> إلا أبو بكر شاهراً بالسيف على رأس رسول الله صلى الله عليه وسلم لا يهوى إليه <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_27.d1e1569">أحد</num> إلا هوي إليه فهو أشجع الناس قال ولقد رأيت رسول الله صلى الله عليه وسلم وآخذته قريش فهذا يجبأه وهذا يتلتله وهم يقولون أنت الذي جعلت الآلهة إلهاً واحداً فو الله مادنا منا <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_28.d1e1572">أحد</num> إلا أبو بكر يضرب هذا ويجبأ هذا ويتلتل هذا وهو يقول ويلكم أتقتلون رجلاً ان يقول ربي الله ثم رفع علي رضي الله عنه بردة كانت عليه فبكي حتى أخضلت لحيته ثم قال أنشدكم بالله أمؤمن آل فرعون خير أم أبو بكر فسكت القوم فقال إلا تجيبوني فو الله لساعة من أبي بكر خير من <num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000" xml:id="num_29.d1e1576">ألف</num> ساعة من مؤمن آل فرعون ذاك رجل يكتم إيمانه وهذا رجل أعلن إيمانه. </p>
+                    <p xml:id="p_71.d1e945" xml:lang="ar"
+                        >وها نحن أولاء نتيمن بالابتداء بترجمة خليفة رسول الله صلى الله عليه وسلم وأفضل من طلعت عليه الشمس بعد النبيين. (أبي بكر الصديق) رضى الله تعالى وعنه وكان الأحرى بنا أن نبتدئ بترجمة الرسول صلى الله عليه وسلم لولا أن <num
+                        resp="#pers_TG" subtype="d4" type="auto-markup" value="1000"
+                        xml:id="num_23.d1e1540" xml:lang="ar"
+                        >ألف</num> في ترجمته مالا يحصى من المؤلفات عدا بل أن الكتب الدينية جمعاء ترجمة لحياته الشريفة صلى الله عليه وسلم. اسم أبي بكر عبد الله سماه به رسول الله صلى الله عليه وسلم حين أسلم وكان اسمه عبد الكعبة ولقبه بالعتيق لجمال وجهه ووصف بالصديق لبداره إلى تصديق الرسول صلى الله عليه وسلم في كل ما جاء به عموماً واسم أبيه عثمان ويكنى أبا قحافة ويجتمع نسبه مع النبي صلى الله عليه وسلم في مرة بن كعب. ولد رضى الله عنه لسنتين وأشهر من مولد النبي صلى الله عليه وسلم. صحب النبي صلى الله عليه وسلم صحبه لا يمكن للمؤرخ أن يحيط بها مهما بلغ من الإطلاع وأجاد في الشرح. صحبة تمثل التفاني في تأييد الحق بأجلى مظاهره وتعلم الناس كيف يتحدون. قداه بماله عند الاقتضاء. وبنفسه عند الشدائد صدقه حين كذبه الناس ونصره حين خذله الناس وآمن به حين كفر به الناس قال صلى الله عليه <pb
+                        ed="print" facs="#facs_41" n="31" xml:id="pb_49.d1e1543"/>وسلم<note n="1"
+                        type="footnote" xml:id="note_5.d1e1545" xml:lang="ar"> <gap resp="#org_MS"
+                        xml:id="gap_6.d1e1547"/>
+                        </note> أن آمن الناس على في صحبته وماله أبو بكر ولو كنت متخذاً خليلاً لاتخذت أبا بكر خليلاً ولكن أخوة الإسلام. وعن عمر بن الخطاب رضي الله عنه<note
+                        n="2" type="footnote" xml:id="note_6.d1e1550" xml:lang="ar"> <gap
+                        resp="#org_MS" xml:id="gap_7.d1e1552"/>
+                        </note> وقد ذكر عنده أبو بكر فبكي وقال وددت لو أن عملي كله من عمله يوماً واحداً من أيامه وليلة من لياليه أما الليلة فليلة سار مع النبي صلى الله عليه وسلم إلى النار فلما انمتهيا إليه قال والله لا تدخله حتى أدخل قبلك فإن كان فيه شيء أصابني دونك فدخل فكسحه فوجد في جانبه ثقباً فشق <pb
+                        corresp="file:../epub/29676/OEBPS/xhtml/P23.xhtml" ed="shamela" n="n1-p21"
+                        xml:id="pb_19.d1e947"/> أزاره وسد به تلك الثقب وبقي منها <num
+                        resp="#pers_TG" subtype="d1" type="auto-markup" value="2"
+                        xml:id="num_24.d1e1558" xml:lang="ar"
+                        >اثنان</num> فألقمهما رجله ثم قال لرسول الله صلى الله عليه وسلم أدخل فدخل فوضع رأسه في حجره ونام فلدغ أبو بكر في رجله من الحجر ولم يتحرك مخافة أن ينتبه رسول الله صلى الله عليه وسلم فانتبه فقال مالك يا أبا بكر فقال لدغت فداك أبي وأمي فتفل عليه رسول الله صلى الله عليه وسلم فذهب ما يجده ثم انتقض عليه فكان سبب موته وأما اليوم فلما قبض رسول الله صلى الله عليه وسلم ارتدت العرب وقالوا لا يؤدي زكاة فقال لو منعوني عقالاً لجاهدتهم عليه فقلت يا خليفة رسول الله تالف الناس وأرفق بهم فقال أجبار في الجاهلية وخوار في الإسلام أنه قد انقطع الوحي وتم الدين ثم ينتقض وأنا حي ما هذه المحبة وما هذه المفاداة! أن هي إلا نور قذفه الله في قلب أبي بكر حتى كان رسول الله صلى الله عليه وسلم حب إليه من نفسه (ما فضلكم أبو بكر بكثرة صلاة <pb
+                        ed="print" facs="#facs_42" n="32" xml:id="pb_51.d1e1561"
+                        />ولا صيام ولكن بشيء وقر في صدره وكان أبو بكر رضي الله عنه أشجع الناس وقف في وجوه المشركين وقفات عديدة يعرض فيها نفسه للخطر دفاعاً عن رسول الله صلى الله عليه وسلم عن علي كرم الله وجهه ورضي عنه قال أخبروني من أشجع الناس قالوا أنت قال أما أني ما بارزت أحداً إلا انتصفت منه ولكن أخبروني من أشجع الناس قالوا لا نعلم قال أبو بكر أنه لما كان يوم بدر جعلنا لرسول الله صلى الله عليه وسلم عريشاً فقلنا من يكون مع رسول الله صلى الله عليه وسلم لئلا يهوى إليه <num
+                        resp="#pers_TG" subtype="d1" type="auto-markup" value="1"
+                        xml:id="num_25.d1e1563" xml:lang="ar"
+                        >أحد</num> من المشركين فو الله ما دنا منا <num resp="#pers_TG" subtype="d1"
+                        type="auto-markup" value="1" xml:id="num_26.d1e1566" xml:lang="ar"
+                        >أحد</num> إلا أبو بكر شاهراً بالسيف على رأس رسول الله صلى الله عليه وسلم لا يهوى إليه <num
+                        resp="#pers_TG" subtype="d1" type="auto-markup" value="1"
+                        xml:id="num_27.d1e1569" xml:lang="ar"
+                        >أحد</num> إلا هوي إليه فهو أشجع الناس قال ولقد رأيت رسول الله صلى الله عليه وسلم وآخذته قريش فهذا يجبأه وهذا يتلتله وهم يقولون أنت الذي جعلت الآلهة إلهاً واحداً فو الله مادنا منا <num
+                        resp="#pers_TG" subtype="d1" type="auto-markup" value="1"
+                        xml:id="num_28.d1e1572" xml:lang="ar"
+                        >أحد</num> إلا أبو بكر يضرب هذا ويجبأ هذا ويتلتل هذا وهو يقول ويلكم أتقتلون رجلاً ان يقول ربي الله ثم رفع علي رضي الله عنه بردة كانت عليه فبكي حتى أخضلت لحيته ثم قال أنشدكم بالله أمؤمن آل فرعون خير أم أبو بكر فسكت القوم فقال إلا تجيبوني فو الله لساعة من أبي بكر خير من <num
+                        resp="#pers_TG" subtype="d4" type="auto-markup" value="1000"
+                        xml:id="num_29.d1e1576" xml:lang="ar"
+                        >ألف</num> ساعة من مؤمن آل فرعون ذاك رجل يكتم إيمانه وهذا رجل أعلن إيمانه. </p>
                     <closer xml:id="closer_2.d1e1580" xml:lang="ar">يتلي</closer>
                     <pb ed="shamela" n="" corresp="file:../epub/29676/OEBPS/xhtml/P24.xhtml" xml:id="pb_20.d1e949"/>
                 </div>
