@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
- <?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_29" xml:lang="" next="oclc_644997575-i_30" prev="oclc_644997575-i_28">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_29" xml:lang="" next="oclc_644997575-i_30" prev="oclc_644997575-i_28">
    <teiHeader xml:lang="en" xml:id="teiHeader_1.d1e7">
       <fileDesc xml:lang="en" xml:id="fileDesc_1.d1e9">
          <titleStmt xml:lang="en" xml:id="titleStmt_1.d1e11">
@@ -85,113 +81,9 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc xml:lang="en" xml:id="encodingDesc_1.d1e175">
-            <samplingDecl xml:lang="en" xml:id="samplingDecl_1.d1e177">
-                <p xml:lang="en" xml:id="p_1.d1e179">The edition is based on the digital transcripts (HTML files wrapped
-                    in ePub) available from <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_1.d1e181">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_1.d1e183">al-maktabat al-shāmila</foreign>
-                    </ref>.</p>
-            </samplingDecl>
-            <editorialDecl xml:lang="en" xml:id="editorialDecl_1.d1e189">
-                <p xml:lang="en" xml:id="p_2.d1e191">The original editorial practices followed by <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_2.d1e193">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_2.d1e195">al-maktabat al-shāmila</foreign>
-                    </ref> can only be deduced from the limited mark-up found in the digital text
-                    provided online and as ePub. It appears from that that paragraphs and head lines
-                    were recorded and preserved. They also recorded page breaks, but at least for
-                    the earlier issues these do not correspond to the page breaks in the print
-                    edition and should thus be marked with <att xml:lang="en" xml:id="att_1.d1e199">ed</att>="shamela"</p>
-                <p xml:lang="en" xml:id="p_3.d1e203">It remains unclear to which extent publication dates for individual
-                    issues are correct. After reviewing the image files and the official publication schedule, the dates provided by <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_3.d1e205">hijrī</foreign> seem to be correct</p>
-                <p xml:lang="en" xml:id="p_4.d1e209">Some phenomena have been marked in red spans by <ref target="http://shamela.ws/index.php/book/29676" xml:lang="en" xml:id="ref_3.d1e211">
-                        <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_4.d1e213">al-maktabat al-shāmila</foreign>
-                    </ref>. Red spans that contained three points only were considered indicators of
-                    ellipses and transformed into <gi xml:lang="en" xml:id="gi_1.d1e217">gap</gi> with <att xml:lang="en" xml:id="att_2.d1e220">resp</att>="#org_MS". Upon further scrutiny, it turned out that most, if
-                    not all, of these <gi xml:lang="en" xml:id="gi_2.d1e223">gap</gi>s indicated the division between two
-                    halfs of the line of a <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_5.d1e226">qaṣīda</foreign>. I
-                    have converted all <gi xml:lang="en" xml:id="gi_3.d1e230">p</gi>s that contained two short lines of
-                    text divided by <gi xml:lang="en" xml:id="gi_4.d1e233">gap</gi> into <gi xml:lang="en" xml:id="gi_5.d1e236">l</gi> of
-                        <att xml:lang="en" xml:id="att_3.d1e239">type</att>="bayt" with <gi xml:lang="en" xml:id="gi_6.d1e242">seg</gi> child
-                    elements. All other red spans have been rendered as <gi xml:lang="en" xml:id="gi_7.d1e245">gap</gi>.</p>
-            </editorialDecl>
-        </encodingDesc>
-      <profileDesc xml:lang="en" xml:id="profileDesc_1.d1e251">
-            <!-- as we deal with sources from an area and period which also used non-Latin scripts and preferred a number of calenders over the Gregorian, this should be declared here -->
-            <calendarDesc xml:lang="en" xml:id="calendarDesc_1.d1e255">
-                <calendar xml:id="cal_gregorian" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_5.d1e259">Following the hegemonial approach of standards rooted in the
-                        English language, the Gregorian calendar is presumed as the norm and must
-                        not be specified.</p>
-                    <p xml:lang="en" xml:id="p_6.d1e262">The <att xml:lang="en" xml:id="att_4.d1e264">when</att> attribute always provides W3C
-                        dates, while the <att xml:lang="en" xml:id="att_5.d1e267">when-custom</att> attribute follows the
-                        inherent logic of the chosen calendar.</p>
-                    <p xml:lang="en" xml:id="p_7.d1e271">E.g. <date when="1841-05-23" xml:lang="en" xml:id="date_5.d1e273">23 May 1841,
-                            Sunday</date>, <date when="1908-03-05" xml:lang="en" xml:id="date_6.d1e276">5 Mar 1908,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_islamic" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_8.d1e283">Islamic <hi xml:lang="en" xml:id="hi_1.d1e285">hijrī</hi> calendar: lunar calendar
-                        beginning the Year with 1 Muḥarram. Dates differ between locations as the
-                        beginning of the month is based on sightings of the new moon.</p>
-                    <p xml:lang="en" xml:id="p_9.d1e289">E.g. <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1841-05-23" when-custom="1257-04-01" xml:lang="en" xml:id="date_7.d1e291">1 Rab II 1257,
-                            Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1908-03-05" when-custom="1326-02-01" xml:lang="en" xml:id="date_8.d1e294">1 Ṣaf 1326,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_julian" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_10.d1e301">Reformed Julian calendar beginning the Year with 1 January. In
-                        the Ottoman context usually referred to as <hi xml:lang="en" xml:id="hi_2.d1e303">rūmī</hi>.
-                        Arabic newspapers usually labelled this calendar as <hi xml:lang="en" xml:id="hi_3.d1e306">sharqī</hi>.</p>
-                    <p xml:lang="en" xml:id="p_11.d1e310">All solar calendars add an intercalated 366th day every fourth
-                        (and, in the case of Gregorian and rūmī calendars, even-numbered) year at
-                        the end of February (the last day of the old Julian calendar). The Gregorian
-                        calendar suppresses this rule in centesimal years that cannot be divided by
-                        400. This difference creates a growing offset between Gregorian and Julian
-                        calendars: while 1900 R was a leap year, 1900 was not, which in turn caused
-                        the difference between the Gregorian calendar, on the one hand, and the <hi xml:lang="en" xml:id="hi_4.d1e312">mālī</hi> and <hi xml:lang="en" xml:id="hi_5.d1e315">rūmī</hi> calendars, on
-                        the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R /
-                        1315 M (13 March 1900) onwards.</p>
-                    <p xml:lang="en" xml:id="p_12.d1e319">E.g. <date calendar="#cal_julian" datingMethod="#cal_julian" when="1841-05-23" when-custom="1841-05-11" xml:lang="en" xml:id="date_9.d1e321">11 Ayyār 1841,
-                            Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian" when="1908-03-05" when-custom="1908-02-21" xml:lang="en" xml:id="date_10.d1e324">21 Shub 1908,
-                            Thursday</date>.</p>
-                </calendar>
-                <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
-                    <p xml:lang="en" xml:id="p_13.d1e331">Ottoman fiscal calendar: a lunosolar calendar. It is based on
-                        the Old Julian calendar beginning the Year with 1 March. Introduced as
-                        fiscal calendar in 1676 and in the Ottoman context usually referred to as
-                            <hi xml:lang="en" xml:id="hi_6.d1e333">mālī</hi> and sometimes, confusingly, also as <hi xml:lang="en" xml:id="hi_7.d1e336">rūmī</hi>. Every 33 lunar years, a <hi xml:lang="en" xml:id="hi_8.d1e339">hijrī</hi> year would complete within a single solar <hi xml:lang="en" xml:id="hi_9.d1e342">mālī</hi> year. In this case the counting of the <hi xml:lang="en" xml:id="hi_10.d1e345">mālī</hi> years skipped a year to catch up with the faster <hi xml:lang="en" xml:id="hi_11.d1e349">hijrī</hi> calendar. Due to a printing error in the coupon
-                        booklets for the consolidated debt repayment program for 1872 (1288 M
-                        instead of 1289 M), synchronisation of <hi xml:lang="en" xml:id="hi_12.d1e352">mālī</hi> and <hi xml:lang="en" xml:id="hi_13.d1e355">hijrī</hi> years was henceforth abolished. As <hi xml:lang="en" xml:id="hi_14.d1e358">mālī</hi> years began with 1 March, <hi xml:lang="en" xml:id="hi_15.d1e361">mālī</hi> leap years preceded their <hi xml:lang="en" xml:id="hi_16.d1e364">rūmī</hi> and
-                        Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
-                    <p xml:lang="en" xml:id="p_14.d1e368">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:lang="en" xml:id="date_11.d1e370">11 Māyis 1257, Sunday</date>,
-                            <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:lang="en" xml:id="date_12.d1e373">21 Shub 1323,
-                            Thursday</date>.</p>
-                </calendar>
-            </calendarDesc>
-            <!-- According to TEI P5 @xml:lang should follow BCP 47 <note target="http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"/>, which specifies for Arabic in Latin transcription "ar-Latn". The specific type of transcription should be added as a private use subtag, i.e. "ar-Latn-x-ijmes" for the
-               IJMES transcription of Arabic in Latin script. -->
-            <langUsage xml:lang="en" xml:id="langUsage_1.d1e381">
-                <language ident="ar" xml:lang="en" xml:id="language_1.d1e383">Arabic</language>
-                <language ident="ar-Latn-x-ijmes" xml:lang="en" xml:id="language_2.d1e386">Arabic transcribed into Latin script
-                    following the IJMES conventions</language>
-                <language ident="ar-Latn-EN" xml:lang="en" xml:id="language_3.d1e389">Arabic transcribed into Latin script
-                    following common English practices</language>
-                <language ident="ar-Latn-FR" xml:lang="en" xml:id="language_4.d1e392">Arabic transcribed into Latin script
-                    following common French practices</language>
-                <language ident="en" xml:lang="en" xml:id="language_5.d1e395">English</language>
-                <language ident="fa" xml:lang="en" xml:id="language_6.d1e399">Farsi</language>
-                <language ident="fa-Latn-x-ijmes" xml:lang="en" xml:id="language_7.d1e402">Farsi transcribed into Latin script
-                    following the IJMES conventions</language>
-                <language ident="fr" xml:lang="en" xml:id="language_8.d1e405">French</language>
-                <language ident="ota" xml:lang="en" xml:id="language_9.d1e408">Ottoman</language>
-                <language ident="ota-Latn-x-ijmes" xml:lang="en" xml:id="language_10.d1e411">Ottoman transcribed into Latin
-                    script following the IJMES conventions</language>
-                <language ident="tr" xml:lang="en" xml:id="language_11.d1e414">Turkish</language>
-                <language ident="en-Arab-AR" xml:lang="en" xml:id="language_12.d1e418">English transcribed into Arabic script
-                    following common Levantine Arabic practices</language>
-                <language ident="fr-Arab-AR" xml:lang="en" xml:id="language_13.d1e421">French transcribed into Arabic script
-                    following common Levantine Arabic practices</language>
-            </langUsage>
-        </profileDesc>
-      <revisionDesc xml:id="revisionDesc_1.d1e426"><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e427">Corrected <tei:gi xml:id="gi_8.d1e429">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e432">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e435">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e438">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e441">n</tei:att> to <tei:att xml:id="att_6.d1e445">from</tei:att> and <tei:att xml:id="att_6.d1e448">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e451">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e453">tei:num</gi>and <att xml:id="att_6.d1e456">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e459">Added automated <att xml:id="att_7.d1e461">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e464">tei:text</gi>and had no existing <att xml:id="att_8.d1e467">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e470">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e472">num</tei:gi> with <tei:att xml:id="att_9.d1e475">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28" xml:id="change_3.d1e478">Corrected the file's URL and <att xml:id="att_9.d1e480">xml:id</att> on <gi xml:id="gi_10.d1e483">TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e486">Added automated <att xml:id="att_10.d1e488">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e491">tei:text</gi>and had no existing <att xml:id="att_11.d1e494">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27" xml:id="change_4.d1e497">Added the <tei:att xml:id="att_12.d1e499">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
+      <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
+      <revisionDesc xml:id="revisionDesc_1.d1e426"><change when="2018-04-27" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e427">Corrected <tei:gi xml:id="gi_8.d1e429">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e432">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e435">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e438">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e441">n</tei:att> to <tei:att xml:id="att_6.d1e445">from</tei:att> and <tei:att xml:id="att_6.d1e448">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e451">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e453">tei:num</gi>and <att xml:id="att_6.d1e456">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e459">Added automated <att xml:id="att_7.d1e461">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e464">tei:text</gi>and had no existing <att xml:id="att_8.d1e467">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e470">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e472">num</tei:gi> with <tei:att xml:id="att_9.d1e475">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28" xml:id="change_3.d1e478">Corrected the file's URL and <att xml:id="att_9.d1e480">xml:id</att> on <gi xml:id="gi_10.d1e483">TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e486">Added automated <att xml:id="att_10.d1e488">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e491">tei:text</gi>and had no existing <att xml:id="att_11.d1e494">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27" xml:id="change_4.d1e497">Added the <tei:att xml:id="att_12.d1e499">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="#pers_TG" xml:lang="en" xml:id="change_4.d1e503">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en" xml:id="ref_4.d1e505">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en" xml:id="change_5.d1e509">Divided the <gi xml:lang="en" xml:id="gi_12.d1e511">body</gi> into a <gi xml:lang="en" xml:id="gi_13.d1e514">group</gi> of <gi xml:lang="en" xml:id="gi_14.d1e517">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en" xml:id="change_6.d1e522">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_6.d1e524">qaṣīda</foreign>s from <gi xml:lang="en" xml:id="gi_15.d1e527">p</gi>s divided by a <gi xml:lang="en" xml:id="gi_16.d1e530">gap</gi> to <gi xml:lang="en" xml:id="gi_17.d1e533">l</gi> of
@@ -239,16 +131,7 @@
 
                 <div type="article" xml:lang="ar" xml:id="div_2.d1e531">
                     <head xml:lang="ar" xml:id="head_2.d1e533">أغلاط لسان العرب</head>
-                    <p xml:id="p_15.d1e536" xml:lang="ar"
-                    >قرأنا في الجزء الثامن من السنة الثانية لمجلة الآثار تحت هذا العنوان مقالة بإمضاء الكاتب المحقق المجيد <persName
-                    ref="viaf:19737865" xml:id="persName_9.d1e646" xml:lang="ar"><forename
-                    xml:id="forename_5.d1e647" xml:lang="ar">أحمد</forename> بك <surname
-                    xml:id="surname_5.d1e650" xml:lang="ar"
-                    >تيمور</surname></persName> بين فيها بعض ما عثر عليه من الأغلاط في كتاب لسان العرب الطائر الصيت المعروف عند أهل العلم الذي تم طبعه في مصر بمطبعة بولاق الأميرية سنة <tei:num
-                    value="1308" xml:id="num_1.d1e602" xml:lang="ar"
-                    >١٣٠٨</tei:num> هجرية مما سها فيه مصححو الكتاب الأفاضل مع ما بذلوه من العناية وأفرغوه من الجهد في ضبطه وتصحيحه وقد قدم بين يدي المقالة مقدمة مدح فيها الكتاب وذكر أن أول من أقدم على طبعه رجل مقدام اسمه حسين أفندي الديك ولكنه لم يأت على بعض أجزائه حتى أتت على <pb
-                    ed="print"
-                    />ثروته فتولت إتمامه الحكومة الخديوية بعد أن جمعت له مختلف النسخ والمواد ما رأته وافياً بإبرازه في أتم ما يكون من وجوه الصحة والضبط.</p>
+                    <p xml:id="p_15.d1e536" xml:lang="ar">قرأنا في الجزء الثامن من السنة الثانية لمجلة الآثار تحت هذا العنوان مقالة بإمضاء الكاتب المحقق المجيد <persName ref="viaf:19737865" xml:id="persName_9.d1e646" xml:lang="ar"><forename xml:id="forename_5.d1e647" xml:lang="ar">أحمد</forename> بك <surname xml:id="surname_5.d1e650" xml:lang="ar">تيمور</surname></persName> بين فيها بعض ما عثر عليه من الأغلاط في كتاب لسان العرب الطائر الصيت المعروف عند أهل العلم الذي تم طبعه في مصر بمطبعة بولاق الأميرية سنة <tei:num value="1308" xml:id="num_1.d1e602" xml:lang="ar">١٣٠٨</tei:num> هجرية مما سها فيه مصححو الكتاب الأفاضل مع ما بذلوه من العناية وأفرغوه من الجهد في ضبطه وتصحيحه وقد قدم بين يدي المقالة مقدمة مدح فيها الكتاب وذكر أن أول من أقدم على طبعه رجل مقدام اسمه حسين أفندي الديك ولكنه لم يأت على بعض أجزائه حتى أتت على <pb ed="print"/>ثروته فتولت إتمامه الحكومة الخديوية بعد أن جمعت له مختلف النسخ والمواد ما رأته وافياً بإبرازه في أتم ما يكون من وجوه الصحة والضبط.</p>
                     <p xml:lang="ar" xml:id="p_16.d1e539">وأنه نشر عن هذه الأغلاط فصلاً في مجلة الضياء ثم اتبعه بآخر في المؤيد ثم رأى
                         أن يعززهما بثالث في الآثار وخدمة للكتاب وحباً بالفائدة أحببنا أن ننقل هذه
                         المقالة في مجلتنا (الحقائق) معلقين عليها بعض تعليقات قد لا تخلو من الفائدة.
@@ -258,17 +141,7 @@
                     <p xml:lang="ar" xml:id="p_19.d1e549">وجاء بعده أراد اجا فخفف تخفيفاً قياسياً الخ) وروى (أجا) الثاني بالألف آخره
                         مخففاً غير مهموز والصواب همزة على أصله لأن المراد أنه كان كذلك فخففه الشاعر
                         بحذف همزته وإلا فأي معنى لتخفيف المخفف.</p>
-                    <p xml:id="p_20.d1e552" xml:lang="ar">(وفي مادة ب ر أصفحة <tei:num value="24"
-                    xml:id="num_1.d1e627" xml:lang="ar">٢٤</tei:num> سطر <tei:num value="15"
-                    xml:id="num_1.d1e630" xml:lang="ar"
-                    >١٥</tei:num> ) عند الكلام على جمع بريء وبرئ وبراء مثل ما جاء من الجموع على فعال نحو تؤام ورباء في جمع توأم ورُبَّى ورسم (رباء) بالهمز في آخره أي في موضع اللام من فعال لا يكون هذا جمعاً لرُبَّى لأن لامها باء فالصواب أن يقال في جمعها <pb
-                    ed="print"
-                    />رُباب بالباء في آخره وهو الذي ذكره المصنف وصاحب القاموس وغيرهما في مادة (ر ب ب) وقال سيبويه في كتابه باب تكسير ما عدة حروفه <num
-                    resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_1.d1e684"
-                    xml:lang="ar">أربعة</num> أحرف للجمع وقالوا ربى ورباب حذفوا ال<num
-                    resp="#pers_TG" subtype="d4" type="auto-markup" value="1000"
-                    xml:id="num_2.d1e687" xml:lang="ar"
-                    >ألف</num> وبنوه على هذا البناء كما ألقوا الهاء في جفرة فقالوا جفار إلا أنهم قد ضموا أول ذاكما قالوا ظئر وظوار ورخل ورخال انتهى</p>
+                    <p xml:id="p_20.d1e552" xml:lang="ar">(وفي مادة ب ر أصفحة <tei:num value="24" xml:id="num_1.d1e627" xml:lang="ar">٢٤</tei:num> سطر <tei:num value="15" xml:id="num_1.d1e630" xml:lang="ar">١٥</tei:num> ) عند الكلام على جمع بريء وبرئ وبراء مثل ما جاء من الجموع على فعال نحو تؤام ورباء في جمع توأم ورُبَّى ورسم (رباء) بالهمز في آخره أي في موضع اللام من فعال لا يكون هذا جمعاً لرُبَّى لأن لامها باء فالصواب أن يقال في جمعها <pb ed="print"/>رُباب بالباء في آخره وهو الذي ذكره المصنف وصاحب القاموس وغيرهما في مادة (ر ب ب) وقال سيبويه في كتابه باب تكسير ما عدة حروفه <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_1.d1e684" xml:lang="ar">أربعة</num> أحرف للجمع وقالوا ربى ورباب حذفوا ال<num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_2.d1e687" xml:lang="ar">ألف</num> وبنوه على هذا البناء كما ألقوا الهاء في جفرة فقالوا جفار إلا أنهم قد ضموا أول ذاكما قالوا ظئر وظوار ورخل ورخال انتهى</p>
                     <p xml:lang="ar" xml:id="p_21.d1e555">(تتمة) هذا الجمع من الجموع العزيزة النادرة لأن فعالاً بضم الأول وتخفيف العين
                         ليس من أبنية جموع التكسير المعروفة وإنما سمع في ألفاظ قليلة كثني وثناء وعرق
                         وعراق وفرير <pb ed="shamela" n="n28-p2" corresp="file:../epub/29676/OEBPS/xhtml/P878.xhtml" xml:id="pb_2.d1e557"/> وفرار ورذل ورذال
@@ -277,17 +150,7 @@
                         العلامة شهاب الدين الخفاجي زاد عليها كثيراً في شرحه لدرة الغواص فمن شاء
                         الوقوف عليها وعلى اختلاف أقوالهم فيها فليراجع (صفحة  <tei:num value="141" xml:lang="ar" xml:id="num_1.d1e638">١٤١</tei:num>  من الشرح المذكور
                         المطبوع في الجوائب).</p>
-                    <p xml:id="p_22.d1e560" xml:lang="ar">وفي مادة (ح س ب صفحة <tei:num value="306"
-                    xml:id="num_1.d1e644" xml:lang="ar">٣٠٦</tei:num> س <tei:num value="20"
-                    xml:id="num_1.d1e647" xml:lang="ar"
-                    >٢٠</tei:num> ) والمحسبة الوسادة من الأدم وحسبه أجلسه على الحسبانة أو المحسبة وضبطت (المحسبة) في الموضعين بفتح الميم وكذلك جاءت مضبوطة بالقلم بالفتح في هذه المادة مت القاموس ولم ينص الشارح على ضبط فيها. ولكنها ضبطت بكسر الميم في مادة (زن ن_من اللسان صفحة <tei:num
-                    value="61" xml:id="num_1.d1e650" xml:lang="ar">٦١</tei:num> سطر <tei:num
-                    value="24" xml:id="num_1.d1e653" xml:lang="ar">٢٤</tei:num> ) وفي (ج <tei:num
-                    value="4" xml:id="num_1.d1e656" xml:lang="ar">٤</tei:num> صفحة <tei:num
-                    value="74" xml:id="num_1.d1e660" xml:lang="ar"
-                    >٧٤</tei:num> ) من المخصص وهو الصواب على ما يظهر لي لأني رأيتهم نصوا على كسر الأول فيما جاء في معناها من وزنها كمرفقة ومصدغة ومخدة كأنهم عدوها من <pb
-                    ed="print"
-                    />أسماء الآلات. حيث أننا لم نقف على نص صريح في هذه الكلمة ورأينا المصححين تراوحوا في ضبطها بين الكسر والفتح بغير دليل كان حملها على ما جاء من نوعها أولى.</p>
+                    <p xml:id="p_22.d1e560" xml:lang="ar">وفي مادة (ح س ب صفحة <tei:num value="306" xml:id="num_1.d1e644" xml:lang="ar">٣٠٦</tei:num> س <tei:num value="20" xml:id="num_1.d1e647" xml:lang="ar">٢٠</tei:num> ) والمحسبة الوسادة من الأدم وحسبه أجلسه على الحسبانة أو المحسبة وضبطت (المحسبة) في الموضعين بفتح الميم وكذلك جاءت مضبوطة بالقلم بالفتح في هذه المادة مت القاموس ولم ينص الشارح على ضبط فيها. ولكنها ضبطت بكسر الميم في مادة (زن ن_من اللسان صفحة <tei:num value="61" xml:id="num_1.d1e650" xml:lang="ar">٦١</tei:num> سطر <tei:num value="24" xml:id="num_1.d1e653" xml:lang="ar">٢٤</tei:num> ) وفي (ج <tei:num value="4" xml:id="num_1.d1e656" xml:lang="ar">٤</tei:num> صفحة <tei:num value="74" xml:id="num_1.d1e660" xml:lang="ar">٧٤</tei:num> ) من المخصص وهو الصواب على ما يظهر لي لأني رأيتهم نصوا على كسر الأول فيما جاء في معناها من وزنها كمرفقة ومصدغة ومخدة كأنهم عدوها من <pb ed="print"/>أسماء الآلات. حيث أننا لم نقف على نص صريح في هذه الكلمة ورأينا المصححين تراوحوا في ضبطها بين الكسر والفتح بغير دليل كان حملها على ما جاء من نوعها أولى.</p>
                     <p xml:lang="ar" xml:id="p_23.d1e563">(وفي هذه الصفحة س  <tei:num value="22" xml:lang="ar" xml:id="num_1.d1e666">٢٢</tei:num> ) هذا ما اشترى طلحة من فلان فتاة بخمسمائة درهم بالحسب
                         والطيب) وضبط درهم بفتح أوله والصواب كسره ولم يحك <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_5.d1e732">أحد</num> من اللغويين في الدال
                         ضبطاً آخر وإنما نصوا على جواز الفتح والكسر على الهاء وعلى كونه أيضاً زنة
@@ -304,9 +167,7 @@
                             <seg xml:lang="ar" xml:id="seg_4.d1e586"> من الصوف نكثاً أو لئيماً دبادبا</seg>
                         </l>
                     </lg>
-                    <p xml:id="p_25.d1e591" xml:lang="ar"
-                    >وكتب المصحح بالحاشية ما نصه: قوله والجباجب هكذا في الأصل <pb ed="print"
-                    />والتهذيب بالجيمين وحرر. قلنا لم يظهر لنا وجه توقف المصحح في هذه الكلمة مع ورودها في مادة (ج ب ب) واستشهاد المصنف عليها بهذين البيتين منسوبين هناك لعبد الله بن حجاج التغلبي.</p>
+                    <p xml:id="p_25.d1e591" xml:lang="ar">وكتب المصحح بالحاشية ما نصه: قوله والجباجب هكذا في الأصل <pb ed="print"/>والتهذيب بالجيمين وحرر. قلنا لم يظهر لنا وجه توقف المصحح في هذه الكلمة مع ورودها في مادة (ج ب ب) واستشهاد المصنف عليها بهذين البيتين منسوبين هناك لعبد الله بن حجاج التغلبي.</p>
                     <p xml:lang="ar" xml:id="p_26.d1e594">وفي مادة (ط ي ب ص <tei:num value="51" xml:lang="ar" xml:id="num_1.d1e706">٥١</tei:num>  س  <tei:num value="17" xml:lang="ar" xml:id="num_1.d1e709">١٧</tei:num> ) قوله عز وجل طبتم فادخلوها خالدين معناه كنتم <pb ed="shamela" n="n28-p3" corresp="file:../epub/29676/OEBPS/xhtml/P879.xhtml" xml:id="pb_3.d1e596"/> طيبين في الدنيا
                         فادخلوها وجاء (كتتم) هكذا بتاءين وصوابه بنون فتاء وهو ظاهر.</p>
                     <p xml:lang="ar" xml:id="p_27.d1e599">(وفي مادة ع ت ب ص  <tei:num value="56" xml:lang="ar" xml:id="num_1.d1e717">٥٦</tei:num>  س <tei:num value="23" xml:lang="ar" xml:id="num_1.d1e720">٢٣</tei:num> ) والتعتب التجني تعتب عليه وتجني عليه بمعنى و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_6.d1e789">احد</num> وروي
@@ -324,11 +185,7 @@
                     <p xml:lang="ar" xml:id="p_30.d1e621">ولا معنى هنا للقنى بالقاف وإنما هو الفنا بالفاء وهو عنب الثعلب أو شجر ذو حب
                         أحمر وبه روي البيت في مادة (ف ن ي ص  <tei:num value="25" xml:lang="ar" xml:id="num_1.d1e754">٢٥</tei:num> ) ولم يذكر شراح المعلقات غير هذه
                         الرواية فيه.</p>
-                    <p xml:id="p_31.d1e624" xml:lang="ar">(وفي مادة ح ي ث ص <tei:num value="545"
-                    xml:id="num_1.d1e760" xml:lang="ar">٥٤٥</tei:num> س <tei:num value="11"
-                    xml:id="num_1.d1e763" xml:lang="ar"
-                    >١١</tei:num> ) حيث ظرف مبهم من الأمكنة الخ بتنوين (حيث) والصواب بناؤها لأن كلام المصنف عنها صريح أنه يريد المبنية لا ملعربة في لغة بني فقعس التي تكلم عليها بعد ذلك.<pb
-                    ed="print"/></p>
+                    <p xml:id="p_31.d1e624" xml:lang="ar">(وفي مادة ح ي ث ص <tei:num value="545" xml:id="num_1.d1e760" xml:lang="ar">٥٤٥</tei:num> س <tei:num value="11" xml:id="num_1.d1e763" xml:lang="ar">١١</tei:num> ) حيث ظرف مبهم من الأمكنة الخ بتنوين (حيث) والصواب بناؤها لأن كلام المصنف عنها صريح أنه يريد المبنية لا ملعربة في لغة بني فقعس التي تكلم عليها بعد ذلك.<pb ed="print"/></p>
                     <p xml:lang="ar" xml:id="p_32.d1e627">(وفي مادة ح ر ج ص  <tei:num value="59" xml:lang="ar" xml:id="num_1.d1e769">٥٩</tei:num> ) روي لعنترة يصف ظليماً وقلصه:</p>
                     <lg xml:lang="ar" xml:id="lg_3.d1e630">
                         <l type="bayt" xml:lang="ar" xml:id="l_4.d1e632">
@@ -348,13 +205,7 @@
                             <seg xml:lang="ar" xml:id="seg_10.d1e656"> أبناء عرج عليك عند وجار</seg>
                         </l>
                     </lg>
-                    <p xml:id="p_35.d1e661" xml:lang="ar"
-                    >وجاء بعده يعني أبناء الضباع وترك صرف عرج لأنه جعل اسماً للقبيلة أما ابن الأعرابي فقال لم يجر عرج وهو جمع لأنه أراد التوحيد والعرجة الخ وضبط (لم يجر) بفتح فضم <pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P880.xhtml" ed="shamela" n="n28-p4"
-                    xml:id="pb_4.d1e663"
-                    /> مع تشديد الراء أي يجعله مضارعاً لجر والكلام هنا في منع الصرف فكان الصواب أن يضبط بضم فسكون <pb
-                    ed="print"
-                    />مع تخفيف الراء من أجراه يجريه بمعنى صرفه وهو اصطلاح قديم لهم يعبر به سيبويه في الكتاب وصاحب القاموس في بعض المواضع والمعنى عليه ظاهر في سياق العبارة إذا لا خلاف في أن لفظ (عرج) في البيت مجرور للإضافة وإن كان جره بالفتحة. اللهم إلا إذا حملناه على تساهل بعض القدماء في التعبير عن ألقاب الأعراب فيكون المراد بالجر هنا الكسر غير أننا نرى ضبطه على ما ذكرناه أولى منعاً للالتباس.</p>
+                    <p xml:id="p_35.d1e661" xml:lang="ar">وجاء بعده يعني أبناء الضباع وترك صرف عرج لأنه جعل اسماً للقبيلة أما ابن الأعرابي فقال لم يجر عرج وهو جمع لأنه أراد التوحيد والعرجة الخ وضبط (لم يجر) بفتح فضم <pb corresp="file:../epub/29676/OEBPS/xhtml/P880.xhtml" ed="shamela" n="n28-p4" xml:id="pb_4.d1e663"/> مع تشديد الراء أي يجعله مضارعاً لجر والكلام هنا في منع الصرف فكان الصواب أن يضبط بضم فسكون <pb ed="print"/>مع تخفيف الراء من أجراه يجريه بمعنى صرفه وهو اصطلاح قديم لهم يعبر به سيبويه في الكتاب وصاحب القاموس في بعض المواضع والمعنى عليه ظاهر في سياق العبارة إذا لا خلاف في أن لفظ (عرج) في البيت مجرور للإضافة وإن كان جره بالفتحة. اللهم إلا إذا حملناه على تساهل بعض القدماء في التعبير عن ألقاب الأعراب فيكون المراد بالجر هنا الكسر غير أننا نرى ضبطه على ما ذكرناه أولى منعاً للالتباس.</p>
                     <p xml:lang="ar" xml:id="p_36.d1e666">(وفي مادة ع ن ج ص  <tei:num value="154" xml:lang="ar" xml:id="num_1.d1e817">١٥٤</tei:num>  س <tei:num value="3" xml:lang="ar" xml:id="num_1.d1e820">٣</tei:num> ) والعنج أن يجذب راكب البعير خطامه قبل رأسه حتى ربما
                         لزم دفراه بقادمة الرحل وروي دفراه بالدال المهملة والصواب بالمعجمة وهي العظم
                         الشاخص خلف أذن البعير والمراد حتى تحاذي أذن البعير قادمة الرحل من شدة
@@ -366,9 +217,7 @@
                             <seg xml:lang="ar" xml:id="seg_12.d1e679"> وتاره يغرقها غملجه</seg>
                         </l>
                     </lg>
-                    <p xml:id="p_38.d1e685" xml:lang="ar"
-                    >هكذا بضبط (غملجه) بفتح الجيم وضم الهاء والصواب ضم الجيم لرفعه على الفاعلية ليغرق وإشكان هاء الوصل.<pb
-                    ed="print"/></p>
+                    <p xml:id="p_38.d1e685" xml:lang="ar">هكذا بضبط (غملجه) بفتح الجيم وضم الهاء والصواب ضم الجيم لرفعه على الفاعلية ليغرق وإشكان هاء الوصل.<pb ed="print"/></p>
                     <p xml:lang="ar" xml:id="p_39.d1e688">(وفي مادة ف ر ج صفحة  <tei:num value="166" xml:lang="ar" xml:id="num_1.d1e848">١٦٦</tei:num> ) روي للبيد:</p>
                     <lg xml:lang="ar" xml:id="lg_6.d1e691">
                         <l type="bayt" xml:lang="ar" xml:id="l_7.d1e693">
@@ -382,9 +231,7 @@
                         بنصب خلفها وأمامها مع أن القصيدة مرفوعة الروي فالصواب رفعمها على أن الأول
                         بدل من مولى والثاني معطوف عليه أو يكون مولى مرفوعاً بالابتداء وخلفها خبره
                         والجملة خبران كما ذكر الإمام التبريزي في شرحه.</p>
-                    <p xml:id="p_41.d1e706" xml:lang="ar">(لها بقية) <pb ed="print"/><pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P881.xhtml" ed="shamela" n="n28-p5"
-                    xml:id="pb_5.d1e708"/> </p>
+                    <p xml:id="p_41.d1e706" xml:lang="ar">(لها بقية) <pb ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P881.xhtml" ed="shamela" n="n28-p5" xml:id="pb_5.d1e708"/> </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_3.d1e712">
                     <head xml:lang="ar" xml:id="head_3.d1e714">رؤيا الشيخ أحمد خادم الحرم الشريف</head>
@@ -392,82 +239,12 @@
                         أفظعه الكذب على سيدنا رسول الله صلى الله عليه وسلم بل نقل الإمام العمدة ابن
                         حجر الهيتمي عن الشيخ أبي محمد الجويني أن الكذب عليه صلى الله عليه وسلم كفر
                         وقال ما نصه:</p>
-                    <p xml:id="p_43.d1e720" xml:lang="ar"
-                    >(وقد ذهبت طائفة من العلماء إلى أن الكذب على الله ورسوله كفر يخرج عن الملة قال ولا ريب أن تعمد الكذب على الله ورسوله في تحليل حرام أو تحريم حلال كفر محض وإنما الكلام في الكذب عليهما فيما سوى ذلك وقال الجلال البلقيني جاء الوعيد في أحاديث كثيرة بأن من كذب عليه صلى الله عليه وسلم متعمداً فليتبوأ مقعده من النار وقال العلماء أنها بلغت حد التواتر وقال البزار رواه مرفوعاً نحو من <num
-                    resp="#pers_TG" subtype="d2" type="auto-markup" value="40" xml:id="num_9.d1e961"
-                    xml:lang="ar"
-                    >أربعين</num> صحابياً وقال ابن الصلاح أنه حديث بلغ حد التواتر رواه الجم الكثير من الصحابة قيل أنهم يبلغون <num
-                    resp="#pers_TG" subtype="d2" type="auto-markup" value="80"
-                    xml:id="num_10.d1e964" xml:lang="ar"
-                    >ثمانون</num> نفساً وجمع الحافظ طرقه في جزء ضخم إلى أن قال: وبلغ بهم الطبراني وابن مندة <num
-                    resp="#pers_TG" subtype="d1" type="auto-markup" value="7" xml:id="num_11.d1e967"
-                    xml:lang="ar">سبعة</num> و<num resp="#pers_TG" subtype="d2" type="auto-markup"
-                    value="80" xml:id="num_12.d1e970" xml:lang="ar"
-                    >ثمانين</num> منهم العشرة) أ. هـ كلام الإمام ابن حجر والحديث الذي أشار إليه نقلاً عن الجلال والبزار وابن الصلاح هو ما أخرجه الشيخان وغيرهما عن أبي هريرة رضي الله تعالى عنه أن رسول الله قال من كذب عليَّ متعمداً فليتبوأ مقعده من النار أي: فليتخذ منزله منها: وأخرج مسلم عنه صلى الله عليه وسلم أن كذباً عليَّ ليس ككذب<pb
-                    ed="print"/> على <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1"
-                    xml:id="num_13.d1e973" xml:lang="ar"
-                    >أحد</num> فمن كذب علي متعمداً فليتبوأ مقعده من النار. وأخرج أيضاً مسلم عنه صلى الله عليه وسلم من حدث عني بحديث يرى أنه كذب فهو <num
-                    resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_14.d1e977"
-                    xml:lang="ar"
-                    >أحد</num> الكاذبين وعند ابن ماجة من حديث علي رضي الله عنه قال قال رسول الله صلى الله عليه وسلم لا تكذبوا علي فإن الكذب علي يولج في النار وعنده أيضاً من حديث أبي هريرة رضي الله عنه من تقول عليَّ ما لم أقل فليتبوأ مقعده في النار وعنده من حديث أبي قتادة رضي الله عنه سمعت رسول الله صلى الله عليه وسلم يقول على هذا المنبر إياكم وكثرة الحديث عني فمن قال علي فليقل حقاً أو صدقاً ومن تقول علي ما لم أقل فليتبوأ مقعده من النار هذا وإن من أعظم الكذب وأقبحه على سيدنا رسول الله صلى الله عليه وسلم النشرة المنسوبة إلى (الشيخ أحمد خادم الحرم الشريف) تلك النشرة التي لم نزل نراها في كل عام بأيدي بعض الجهلة الأغرار يهتم بعضهم بطبعها وبعضهم بنشرها بين الناس وبعضهم بوضعها على الجدران في الأسواق والمجتمعات العامة رغبة بما وعدهم به <pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P882.xhtml" ed="shamela" n="n28-p6"
-                    xml:id="pb_6.d1e722"
-                    /> صاحب الرؤيا من الوعود التي لا تنطبق على الدين ولا يرضاها مسلم ولو أن هؤلاء العامة أصغوا لأوامر الدين الصحيحة واهتموا بها هذا الاهتمام لخرجوا من ظلمة الجهل إلى نور الهدى والعلم وقد اشتملت هذه النشرة على <num
-                    resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_15.d1e982"
-                    xml:lang="ar"
-                    >ثلاث</num> مراء إليك نص الأولى منها مع ما مست الحاجة إلى رده من الأخريين مبيناً في أسفل الصحائف مواضع النقد في ذلك بالأدلة الناصعة قياماً بواجب الأمر بالمعروف والنهي عن المنكر وحرصاً على عقائد العامة من أن تعبث بها أيدي الدجالين والمخرفين.<pb
-                    ed="print"/></p>
+                    <p xml:id="p_43.d1e720" xml:lang="ar">(وقد ذهبت طائفة من العلماء إلى أن الكذب على الله ورسوله كفر يخرج عن الملة قال ولا ريب أن تعمد الكذب على الله ورسوله في تحليل حرام أو تحريم حلال كفر محض وإنما الكلام في الكذب عليهما فيما سوى ذلك وقال الجلال البلقيني جاء الوعيد في أحاديث كثيرة بأن من كذب عليه صلى الله عليه وسلم متعمداً فليتبوأ مقعده من النار وقال العلماء أنها بلغت حد التواتر وقال البزار رواه مرفوعاً نحو من <num resp="#pers_TG" subtype="d2" type="auto-markup" value="40" xml:id="num_9.d1e961" xml:lang="ar">أربعين</num> صحابياً وقال ابن الصلاح أنه حديث بلغ حد التواتر رواه الجم الكثير من الصحابة قيل أنهم يبلغون <num resp="#pers_TG" subtype="d2" type="auto-markup" value="80" xml:id="num_10.d1e964" xml:lang="ar">ثمانون</num> نفساً وجمع الحافظ طرقه في جزء ضخم إلى أن قال: وبلغ بهم الطبراني وابن مندة <num resp="#pers_TG" subtype="d1" type="auto-markup" value="7" xml:id="num_11.d1e967" xml:lang="ar">سبعة</num> و<num resp="#pers_TG" subtype="d2" type="auto-markup" value="80" xml:id="num_12.d1e970" xml:lang="ar">ثمانين</num> منهم العشرة) أ. هـ كلام الإمام ابن حجر والحديث الذي أشار إليه نقلاً عن الجلال والبزار وابن الصلاح هو ما أخرجه الشيخان وغيرهما عن أبي هريرة رضي الله تعالى عنه أن رسول الله قال من كذب عليَّ متعمداً فليتبوأ مقعده من النار أي: فليتخذ منزله منها: وأخرج مسلم عنه صلى الله عليه وسلم أن كذباً عليَّ ليس ككذب<pb ed="print"/> على <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_13.d1e973" xml:lang="ar">أحد</num> فمن كذب علي متعمداً فليتبوأ مقعده من النار. وأخرج أيضاً مسلم عنه صلى الله عليه وسلم من حدث عني بحديث يرى أنه كذب فهو <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_14.d1e977" xml:lang="ar">أحد</num> الكاذبين وعند ابن ماجة من حديث علي رضي الله عنه قال قال رسول الله صلى الله عليه وسلم لا تكذبوا علي فإن الكذب علي يولج في النار وعنده أيضاً من حديث أبي هريرة رضي الله عنه من تقول عليَّ ما لم أقل فليتبوأ مقعده في النار وعنده من حديث أبي قتادة رضي الله عنه سمعت رسول الله صلى الله عليه وسلم يقول على هذا المنبر إياكم وكثرة الحديث عني فمن قال علي فليقل حقاً أو صدقاً ومن تقول علي ما لم أقل فليتبوأ مقعده من النار هذا وإن من أعظم الكذب وأقبحه على سيدنا رسول الله صلى الله عليه وسلم النشرة المنسوبة إلى (الشيخ أحمد خادم الحرم الشريف) تلك النشرة التي لم نزل نراها في كل عام بأيدي بعض الجهلة الأغرار يهتم بعضهم بطبعها وبعضهم بنشرها بين الناس وبعضهم بوضعها على الجدران في الأسواق والمجتمعات العامة رغبة بما وعدهم به <pb corresp="file:../epub/29676/OEBPS/xhtml/P882.xhtml" ed="shamela" n="n28-p6" xml:id="pb_6.d1e722"/> صاحب الرؤيا من الوعود التي لا تنطبق على الدين ولا يرضاها مسلم ولو أن هؤلاء العامة أصغوا لأوامر الدين الصحيحة واهتموا بها هذا الاهتمام لخرجوا من ظلمة الجهل إلى نور الهدى والعلم وقد اشتملت هذه النشرة على <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_15.d1e982" xml:lang="ar">ثلاث</num> مراء إليك نص الأولى منها مع ما مست الحاجة إلى رده من الأخريين مبيناً في أسفل الصحائف مواضع النقد في ذلك بالأدلة الناصعة قياماً بواجب الأمر بالمعروف والنهي عن المنكر وحرصاً على عقائد العامة من أن تعبث بها أيدي الدجالين والمخرفين.<pb ed="print"/></p>
                     <p xml:lang="ar" xml:id="p_44.d1e725">رؤيا الشيخ أحمد خادم الحرم الشريف التي رأى بها النبي</p>
                     <p xml:lang="ar" xml:id="p_45.d1e728">صلى الله عليه وسلم في المنام</p>
-                    <p xml:id="p_46.d1e732" xml:lang="ar"
-                    >روي عنه قال أنني كنت ليلة الجمعة في اليوم الثاني وال<num resp="#pers_TG"
-                    subtype="d2" type="auto-markup" value="20" xml:id="num_16.d1e995" xml:lang="ar"
-                    >عشرين</num> من شهر صفر الخير سنة <tei:num value="1327" xml:id="num_1.d1e898"
-                    xml:lang="ar"
-                    >١٣٢٧</tei:num> هجرية بينما كنت مضطجعاً على وضوء كامل وبعد قراءة القرآن الكريم تفكرت في أحوال هذه الدنيا الدنية وما احتوت عليه من المهالك الفظيعة المخالفة للشريعة إذ غفلت قليلاً فأتاني سيد البشر خير كل أنثى وذكر خاتم المرسلين وأفضل النبيين سيدنا (محمد صلى الله عليه وعلى آله وأصحابه أجمعين) فقال لي يا أحمد أخبر أمتي فقد أخذتني عليهم الرأفة والشفقة وقد أودعت عندك هذه الوصية المباركة فاحفظها وبلغها ا<pb
-                    ed="print"
-                    />متي تنل بها الثواب الجزيل عند ربك الجليل (وقد قال صلى الله عليه وسلم) من حفظ على أمتي حديثاً من أمر دينها بعثه الله يوم القيامة ووجهه كالبدر ليلة تمامه كيف لا وقد أوصاني بهذه الوصية مشافهة وهي من أهم شيء فقمت من النوم مستبشراً بهذه الرؤيا الحسنة لعلمي بقوله (صلى الله عليه وسلم) من رآني فقد رآني حقاً فإن الشيطان لا يتمثل بي فحفظت ما ألقاه علي (صلى الله عليه وسلم) وهو هذا يا أحمد أفهم أمتي أنهم قد أكثروا المعاصي والذنوب فأخاف عليهم أن يموتوا على غير الإيمان وقد استحييت من الله عز وجل وهو يقول لي يا محمد لأبدلن وجوههم وأعذبهم عذاباً شديداً فقلت يا رب أمهمهم حتى أنذرهم وأبلغهم <pb
-                    ed="print"
-                    />وأحذرهم من عذابك وعقابك (نعوذ بالله من عذابه وعقابه فإن لم يتوبوا فافعل ما شئت يا رب إنك على ما تشاء قدير يا أحمد إنهم قد سلب إيمانهم من كثرة الزنا وشرب الخمر وأكل الربا والرشوة ولعب القمار واتباع الشهوات وعدم وفاء الكيل والميزان والغيبة والنميمة ومنع الزكاة وشهادة الزور وبغض الفقراء والمساكين وترك الصلاة والتسبيح <pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P883.xhtml" ed="shamela" n="n28-p7"
-                    xml:id="pb_7.d1e734"
-                    /> والعبادات وقد اشتغلوا بحب الدنيا وجمع الذهب والفضة وتبديل الآخرة بالدنيا يا أحمد إن تارك الصلاة ملعون لا تسلموا عليه وإن مات لا تزوروه ولا تمشوا بجنازته يا أحمد قيام الساعة قريب وهذا محقق لا ريب <pb
-                    ed="print"
-                    />فيه ولا تكذيب فتغلق أبواب التوبة وتطلع الشمس من مغربها وقد تزايدت الناس في الطغيان والعصيان والكذب والزور والعدوان فأوصل وصيتي إليهم وبلغهم رسالتي قبل أن تأتيهم الساعة بغتة وهم لا يشعرون ومن أوصل وصيتي هذه من بلد إلى بلد كان رفيقي في الجنة وكنت له شفيعاً في المحشر ومن اطلع عليها ولم يخبر بها الناس كان وجهه مسوداً يوم <pb
-                    ed="print"
-                    />القيامة وكنت له خصيماً في يوم لا ينفع مال ولا بنون إلا من أتى الله بقلب سليم)</p>
+                    <p xml:id="p_46.d1e732" xml:lang="ar">روي عنه قال أنني كنت ليلة الجمعة في اليوم الثاني وال<num resp="#pers_TG" subtype="d2" type="auto-markup" value="20" xml:id="num_16.d1e995" xml:lang="ar">عشرين</num> من شهر صفر الخير سنة <tei:num value="1327" xml:id="num_1.d1e898" xml:lang="ar">١٣٢٧</tei:num> هجرية بينما كنت مضطجعاً على وضوء كامل وبعد قراءة القرآن الكريم تفكرت في أحوال هذه الدنيا الدنية وما احتوت عليه من المهالك الفظيعة المخالفة للشريعة إذ غفلت قليلاً فأتاني سيد البشر خير كل أنثى وذكر خاتم المرسلين وأفضل النبيين سيدنا (محمد صلى الله عليه وعلى آله وأصحابه أجمعين) فقال لي يا أحمد أخبر أمتي فقد أخذتني عليهم الرأفة والشفقة وقد أودعت عندك هذه الوصية المباركة فاحفظها وبلغها ا<pb ed="print"/>متي تنل بها الثواب الجزيل عند ربك الجليل (وقد قال صلى الله عليه وسلم) من حفظ على أمتي حديثاً من أمر دينها بعثه الله يوم القيامة ووجهه كالبدر ليلة تمامه كيف لا وقد أوصاني بهذه الوصية مشافهة وهي من أهم شيء فقمت من النوم مستبشراً بهذه الرؤيا الحسنة لعلمي بقوله (صلى الله عليه وسلم) من رآني فقد رآني حقاً فإن الشيطان لا يتمثل بي فحفظت ما ألقاه علي (صلى الله عليه وسلم) وهو هذا يا أحمد أفهم أمتي أنهم قد أكثروا المعاصي والذنوب فأخاف عليهم أن يموتوا على غير الإيمان وقد استحييت من الله عز وجل وهو يقول لي يا محمد لأبدلن وجوههم وأعذبهم عذاباً شديداً فقلت يا رب أمهمهم حتى أنذرهم وأبلغهم <pb ed="print"/>وأحذرهم من عذابك وعقابك (نعوذ بالله من عذابه وعقابه فإن لم يتوبوا فافعل ما شئت يا رب إنك على ما تشاء قدير يا أحمد إنهم قد سلب إيمانهم من كثرة الزنا وشرب الخمر وأكل الربا والرشوة ولعب القمار واتباع الشهوات وعدم وفاء الكيل والميزان والغيبة والنميمة ومنع الزكاة وشهادة الزور وبغض الفقراء والمساكين وترك الصلاة والتسبيح <pb corresp="file:../epub/29676/OEBPS/xhtml/P883.xhtml" ed="shamela" n="n28-p7" xml:id="pb_7.d1e734"/> والعبادات وقد اشتغلوا بحب الدنيا وجمع الذهب والفضة وتبديل الآخرة بالدنيا يا أحمد إن تارك الصلاة ملعون لا تسلموا عليه وإن مات لا تزوروه ولا تمشوا بجنازته يا أحمد قيام الساعة قريب وهذا محقق لا ريب <pb ed="print"/>فيه ولا تكذيب فتغلق أبواب التوبة وتطلع الشمس من مغربها وقد تزايدت الناس في الطغيان والعصيان والكذب والزور والعدوان فأوصل وصيتي إليهم وبلغهم رسالتي قبل أن تأتيهم الساعة بغتة وهم لا يشعرون ومن أوصل وصيتي هذه من بلد إلى بلد كان رفيقي في الجنة وكنت له شفيعاً في المحشر ومن اطلع عليها ولم يخبر بها الناس كان وجهه مسوداً يوم <pb ed="print"/>القيامة وكنت له خصيماً في يوم لا ينفع مال ولا بنون إلا من أتى الله بقلب سليم)</p>
                     <p xml:lang="ar" xml:id="p_47.d1e737">ما مست الحاجة إلي رده من بقية كلامه</p>
-                    <p xml:id="p_48.d1e740" xml:lang="ar"
-                    >(قال: ومن كذب ولم يصدق بها يعني الوصية فهو ملعون ثم ملعون ثم معلون وقال: من بعد <num
-                    resp="#pers_TG" subtype="d4" type="auto-markup" value="1000"
-                    xml:id="num_17.d1e1009" xml:lang="ar">ألف</num> و<num resp="#pers_TG"
-                    subtype="d3" type="auto-markup" value="300" xml:id="num_18.d1e1012"
-                    xml:lang="ar">ثلاثمائة</num> و<num resp="#pers_TG" subtype="d2"
-                    type="auto-markup" value="40" xml:id="num_19.d1e1015" xml:lang="ar"
-                    >أربعين</num> سنة يخرجن النساء من بيوتهن إلى الأسواق من غير إذن أزواجهن) وقال وبعد <num
-                    resp="#pers_TG" subtype="d4" type="auto-markup" value="1000"
-                    xml:id="num_20.d1e1018" xml:lang="ar">ألف</num> و<num resp="#pers_TG"
-                    subtype="d3" type="auto-markup" value="300" xml:id="num_21.d1e1021"
-                    xml:lang="ar">ثلاثمائة</num> و<num resp="#pers_TG" subtype="d2"
-                    type="auto-markup" value="50" xml:id="num_22.d1e1025" xml:lang="ar"
-                    >خمسين</num> ينزل من السماء مطر كبيض الدجاج. <pb ed="print"/>وقال: وبعد <num
-                    resp="#pers_TG" subtype="d4" type="auto-markup" value="1000"
-                    xml:id="num_23.d1e1028" xml:lang="ar">ألف</num> و<num resp="#pers_TG"
-                    subtype="d3" type="auto-markup" value="300" xml:id="num_24.d1e1031"
-                    xml:lang="ar">ثلاثمائة</num> و<num resp="#pers_TG" subtype="d2"
-                    type="auto-markup" value="70" xml:id="num_25.d1e1034" xml:lang="ar"
-                    >سبعين</num> تغيب الشمس <num resp="#pers_TG" subtype="d1" type="auto-markup"
-                    value="3" xml:id="num_26.d1e1037" xml:lang="ar"
-                    >ثلاثة</num> أيام. وقال: وبعد <num resp="#pers_TG" subtype="d4"
-                    type="auto-markup" value="1000" xml:id="num_27.d1e1040" xml:lang="ar"
-                    >ألف</num> و<num resp="#pers_TG" subtype="d3" type="auto-markup" value="400"
-                    xml:id="num_28.d1e1044" xml:lang="ar"
-                    >أربعمائة</num> يظهر المسيح والدجال. وقال: فما كان والله والله والله وآيات الله وأمانة أنها مكتوبة بقلم القدرة. وقال: ومن كان عنده <num
-                    resp="#pers_TG" subtype="d1" type="auto-markup" value="3"
-                    xml:id="num_29.d1e1047" xml:lang="ar"
-                    >ثلاثة</num> دراهم واستأجر بهم وكتب هذه الوصية وكان مذنباً وعليه فرض صيام غفرت ذنوبه ببركة هذه الوصية. <pb
-                    ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P884.xhtml" ed="shamela"
-                    n="n28-p8" xml:id="pb_8.d1e742"/> </p>
+                    <p xml:id="p_48.d1e740" xml:lang="ar">(قال: ومن كذب ولم يصدق بها يعني الوصية فهو ملعون ثم ملعون ثم معلون وقال: من بعد <num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_17.d1e1009" xml:lang="ar">ألف</num> و<num resp="#pers_TG" subtype="d3" type="auto-markup" value="300" xml:id="num_18.d1e1012" xml:lang="ar">ثلاثمائة</num> و<num resp="#pers_TG" subtype="d2" type="auto-markup" value="40" xml:id="num_19.d1e1015" xml:lang="ar">أربعين</num> سنة يخرجن النساء من بيوتهن إلى الأسواق من غير إذن أزواجهن) وقال وبعد <num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_20.d1e1018" xml:lang="ar">ألف</num> و<num resp="#pers_TG" subtype="d3" type="auto-markup" value="300" xml:id="num_21.d1e1021" xml:lang="ar">ثلاثمائة</num> و<num resp="#pers_TG" subtype="d2" type="auto-markup" value="50" xml:id="num_22.d1e1025" xml:lang="ar">خمسين</num> ينزل من السماء مطر كبيض الدجاج. <pb ed="print"/>وقال: وبعد <num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_23.d1e1028" xml:lang="ar">ألف</num> و<num resp="#pers_TG" subtype="d3" type="auto-markup" value="300" xml:id="num_24.d1e1031" xml:lang="ar">ثلاثمائة</num> و<num resp="#pers_TG" subtype="d2" type="auto-markup" value="70" xml:id="num_25.d1e1034" xml:lang="ar">سبعين</num> تغيب الشمس <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_26.d1e1037" xml:lang="ar">ثلاثة</num> أيام. وقال: وبعد <num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_27.d1e1040" xml:lang="ar">ألف</num> و<num resp="#pers_TG" subtype="d3" type="auto-markup" value="400" xml:id="num_28.d1e1044" xml:lang="ar">أربعمائة</num> يظهر المسيح والدجال. وقال: فما كان والله والله والله وآيات الله وأمانة أنها مكتوبة بقلم القدرة. وقال: ومن كان عنده <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_29.d1e1047" xml:lang="ar">ثلاثة</num> دراهم واستأجر بهم وكتب هذه الوصية وكان مذنباً وعليه فرض صيام غفرت ذنوبه ببركة هذه الوصية. <pb ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P884.xhtml" ed="shamela" n="n28-p8" xml:id="pb_8.d1e742"/> </p>
                 </div>
             <pb ed="print"/>
                 <div type="article" xml:lang="ar" xml:id="div_4.d1e746">
@@ -478,14 +255,7 @@
                         المسلمين ويفتخرون بحفظ تاريخ فلاسفة الغربيين.</p>
                     <p xml:lang="ar" xml:id="p_50.d1e754">سيدنا عمر بن الخطاب رضي الله عنه</p>
                     <p xml:lang="ar" xml:id="p_51.d1e757">مسير سعد بن مالك رضي الله عنه إلى القادسية</p>
-                    <p xml:id="p_52.d1e760" xml:lang="ar">اجتمع بسيراف بضعة و<num resp="#pers_TG"
-                    subtype="d2" type="auto-markup" value="30" xml:id="num_30.d1e1070" xml:lang="ar"
-                    >ثلاثون</num> ألفاً من المؤمنين وقائدهم العام سعد ابن مالك فأمر الأمراء وجعل على كل <num
-                    resp="#pers_TG" subtype="d2" type="auto-markup" value="10"
-                    xml:id="num_31.d1e1073" xml:lang="ar"
-                    >عشرة</num> عريفاًً وعلى الرايات رجالاً من أهل السابقة وولى الحروب رجالاً على ساقتها ومقدمتها وطلائعها ومجنباتها وكل ذلك بأمر سيدنا عمر ورأيه وعبى سعد جيشه تعبئة تشهد بالخبرة والانتظام وتستلفت أنظار دهاقين السياسة والقواد المنظمة في هذا العصر. وتعلم الناس أن المسلمين كانوا على غاية الاستعداد ونهاية الانتظام. وهو ما يتحتم على المسلمين القيام به والسعي وراء تحصيله إذا أرادوا الخلاص مما يتهددهم من المطامع الأوروبية والقيام بنهضة إسلامية تمزق تلك الوحوش الضارية وتعمم انتشار العجل على وجه البسيطة مرة أخرى. فيتسابق <pb
-                    ed="print"
-                    />الناس إلى الدخول في دين الله أفواجاً كما جرى من قبل ويخلص بنو الإنسان من همجية أمم تزعم أنها متمدنة راقية همجية لو دامت لقضت على العالم البشري بالهلاك والتلاشي ومهما يكن من المؤمنين من ضعف وفي أعدائهم من قوة فلا بد أن يرجع الإسلام إلى عزه ويحفظ كيان أمته بحول الله تعالى وقوته.</p>
+                    <p xml:id="p_52.d1e760" xml:lang="ar">اجتمع بسيراف بضعة و<num resp="#pers_TG" subtype="d2" type="auto-markup" value="30" xml:id="num_30.d1e1070" xml:lang="ar">ثلاثون</num> ألفاً من المؤمنين وقائدهم العام سعد ابن مالك فأمر الأمراء وجعل على كل <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_31.d1e1073" xml:lang="ar">عشرة</num> عريفاًً وعلى الرايات رجالاً من أهل السابقة وولى الحروب رجالاً على ساقتها ومقدمتها وطلائعها ومجنباتها وكل ذلك بأمر سيدنا عمر ورأيه وعبى سعد جيشه تعبئة تشهد بالخبرة والانتظام وتستلفت أنظار دهاقين السياسة والقواد المنظمة في هذا العصر. وتعلم الناس أن المسلمين كانوا على غاية الاستعداد ونهاية الانتظام. وهو ما يتحتم على المسلمين القيام به والسعي وراء تحصيله إذا أرادوا الخلاص مما يتهددهم من المطامع الأوروبية والقيام بنهضة إسلامية تمزق تلك الوحوش الضارية وتعمم انتشار العجل على وجه البسيطة مرة أخرى. فيتسابق <pb ed="print"/>الناس إلى الدخول في دين الله أفواجاً كما جرى من قبل ويخلص بنو الإنسان من همجية أمم تزعم أنها متمدنة راقية همجية لو دامت لقضت على العالم البشري بالهلاك والتلاشي ومهما يكن من المؤمنين من ضعف وفي أعدائهم من قوة فلا بد أن يرجع الإسلام إلى عزه ويحفظ كيان أمته بحول الله تعالى وقوته.</p>
                     <p xml:lang="ar" xml:id="p_53.d1e764">ثم أن سعداً بعد أن عبى جيشه بعث في المقدمة زهرة بن عبد الله التميمي فانتهى
                         إلى العذيب وجعل على الميمنة عبد الله بن المعتمر وعلى الميسرة شرحبيل بن السمط
                         وخالد بن عرفطة خليفة له وسواد بن مالك التميمي على الطلائع وسلمان بن ربيعة
@@ -495,40 +265,14 @@
                         المهنى إلى ذي قار وجاء إلى سعد بالخبر فوافاه بسياف فأعلمه بوصية أخيه المثنى
                         إليه أن لا يدخلوا بلاد فارس بل يقابلونهم <pb ed="shamela" n="n28-p9" corresp="file:../epub/29676/OEBPS/xhtml/P885.xhtml" xml:id="pb_9.d1e766"/> على حدود أرضهم
                         وقدم على سعد كتاب من سيدنا عمر بمثل رأي المثنى.</p>
-                    <p xml:id="p_54.d1e769" xml:lang="ar"
-                    >فأقام سعد بالقادسية شهراً يشن الغارات على تلك البلاد فأرسل يزدجرد ملك الفرس إلى رستم وأمره أن يسير إلى قتال المسلمين فخرج رستم بجيشه وكتب سعد بذلك إلى سيدنا عمر فكتب عمر إليه لا يكربنك ما يأتيك عنهم واستعن بالله وتوكل عليه وابعث رجالاً من أهل الرأي والمناظرة يدعونه فإن الله جاعل ذلك وهناً لهم فأرسل سعد إليه نفراً من المؤمنين فتركوا رستم وقدموا على يزدجرد فاجتمعوا عنده والناس <pb
-                    ed="print"
-                    />ينظرون إليهم وإلى خيولهم فقال يزدجرد لترجمانه سلهم ما جاء بكم وما دعاكم إلى غزونا والولع ببلادنا أمن أجل أنا تشاغلنا عنكم اجترأتم علينا. فقال النعمان بن مقرن لأصحابه إن شئتم تكلمت عنكم ومن شاء آثرته. فقالوا بل تكلم فالتف إلى يزدجرد وقال له إن الله رحمنا فأرسل إلينا رسولاً يأمرنا بالخير وينهانا عن الشر ووعدنا على إجابته خير الدنيا والآخرة فأجابه منا قوم وتباعد قوم ثم أمرنا أن نجاهد من خالفه من العرب فدخلوا معه حتى اجتمعنا وعرفنا جميعاً فضل ما جاء به ثم أمرنا بجهاد من يلينا من الأمم ودعائهم إلى الإنصاف والإسلام فإن أبيتم فادفعوا لنا الجزية فإن أبيتم فالمناجزة فقال يزدجر لا أعلم في الأرض أمة كانت أشقى وأقل عدداً وأسوء ذات بين منكم وقد كان أهل الضواحي يكفوننا أمركم فلا تطمعوا أن تقوموا للفرس وإن كان بكم جهد أعطيناكم قوتاً وكسوناكم وجعلنا عليكم ملكاً يرفق بكم فقام ابن زرارة فقال أيها الملك أما ما ذكرت من سوء الحال فقد كانت على ما وصفت وأشد ثم ذكر ما كان عليه العرب من سوء العيش حتى رحمهم الله بإرسال النبي صلى الله عليه وسلم ففازوا باتباعه وسعدوا به. وأما أنت أيها الملك فاختر إن شئت الجزية عن يد وأنت صاغر أو اسلم لتنجو من ذلك وإلا فالسيف بأيدينا فغضب يزدجرد من كلامه وقال ارجعوا إلى صاحبكم وأخبروه إني مرسل إليه رستم حتى يدفنه ويدفنكم معه في خندق القادسية فلم يعبئوا لكلامه ورجعوا إلى سعد فقال يزدجرد لرستم ما كنت أرى أن في العرب مثل هؤلاء.</p>
-                    <p xml:id="p_55.d1e772" xml:lang="ar"
-                    >وخرج رستم من عند الملك كئيباً حزيناً وبعث بجلاً في أثرهم ليرجعوا إليه وقال إن أدركتهم تلافينا أرضنا وإلا فقد سلبكم الله أرضكم فسار <pb
-                    ed="print"
-                    />ذلك الرجل في أثرهم حتى وصل إلى الحيرة فلم يدركهم ورجع إلى رستم فقال له لقد ذهب القوم بأرضكم. <pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P886.xhtml" ed="shamela" n="n28-p10"
-                    xml:id="pb_10.d1e774"
-                    /> وبعد مسيرالوفد على يزدجرد كما تقدم أغار سواد بن مالك التميمي على تلك الناحية فاستاق <num
-                    resp="#pers_TG" subtype="d3" type="auto-markup" value="300"
-                    xml:id="num_32.d1e1090" xml:lang="ar"
-                    >ثلاثمائة</num> دابة وحمل عليها السمك فصبح بها العسكر فقسم سعد بينهم وسموا ذلك اليوم يوم الحيتان وواصلوا السرايا والبعوث وسار رستم إلى ساباط في <num
-                    resp="#pers_TG" subtype="d2" type="auto-markup" value="60"
-                    xml:id="num_33.d1e1093" xml:lang="ar"
-                    >ستين</num> ألفاً وأرسل أمامه الجالينوس في <num resp="#pers_TG" subtype="d2"
-                    type="auto-markup" value="40" xml:id="num_34.d1e1096" xml:lang="ar"
-                    >أربعين</num> ألفاً أخرى وجعله مقدمة له وساقته <num resp="#pers_TG" subtype="d2"
-                    type="auto-markup" value="20" xml:id="num_35.d1e1099" xml:lang="ar"
-                    >عشرون</num> ألفاً وجعل في ميمنة الجيش الهرمزان وفي الميسرة مهران بن بهران وحمل <num
-                    resp="#pers_TG" subtype="d1" type="auto-markup" value="3"
-                    xml:id="num_36.d1e1103" xml:lang="ar">ثلاثة</num> و<num resp="#pers_TG"
-                    subtype="d2" type="auto-markup" value="30" xml:id="num_37.d1e1106" xml:lang="ar"
-                    >ثلاثون</num> ألفاً. ولما فصل رسام عن ساباط كتب إى أخيه البنذوان أما بعد فأصلحوا حصونكم وأعدوا ما استطعتم فكأنك بالعرب قد قارعوكم عن أرضكم وأبنائكم وقد كان من رأي مدافعتهم ومطاولتهم لأني لا أراهم إلا سيظهرون علينا ويستولون على ما بأيدينا.</p>
+                    <p xml:id="p_54.d1e769" xml:lang="ar">فأقام سعد بالقادسية شهراً يشن الغارات على تلك البلاد فأرسل يزدجرد ملك الفرس إلى رستم وأمره أن يسير إلى قتال المسلمين فخرج رستم بجيشه وكتب سعد بذلك إلى سيدنا عمر فكتب عمر إليه لا يكربنك ما يأتيك عنهم واستعن بالله وتوكل عليه وابعث رجالاً من أهل الرأي والمناظرة يدعونه فإن الله جاعل ذلك وهناً لهم فأرسل سعد إليه نفراً من المؤمنين فتركوا رستم وقدموا على يزدجرد فاجتمعوا عنده والناس <pb ed="print"/>ينظرون إليهم وإلى خيولهم فقال يزدجرد لترجمانه سلهم ما جاء بكم وما دعاكم إلى غزونا والولع ببلادنا أمن أجل أنا تشاغلنا عنكم اجترأتم علينا. فقال النعمان بن مقرن لأصحابه إن شئتم تكلمت عنكم ومن شاء آثرته. فقالوا بل تكلم فالتف إلى يزدجرد وقال له إن الله رحمنا فأرسل إلينا رسولاً يأمرنا بالخير وينهانا عن الشر ووعدنا على إجابته خير الدنيا والآخرة فأجابه منا قوم وتباعد قوم ثم أمرنا أن نجاهد من خالفه من العرب فدخلوا معه حتى اجتمعنا وعرفنا جميعاً فضل ما جاء به ثم أمرنا بجهاد من يلينا من الأمم ودعائهم إلى الإنصاف والإسلام فإن أبيتم فادفعوا لنا الجزية فإن أبيتم فالمناجزة فقال يزدجر لا أعلم في الأرض أمة كانت أشقى وأقل عدداً وأسوء ذات بين منكم وقد كان أهل الضواحي يكفوننا أمركم فلا تطمعوا أن تقوموا للفرس وإن كان بكم جهد أعطيناكم قوتاً وكسوناكم وجعلنا عليكم ملكاً يرفق بكم فقام ابن زرارة فقال أيها الملك أما ما ذكرت من سوء الحال فقد كانت على ما وصفت وأشد ثم ذكر ما كان عليه العرب من سوء العيش حتى رحمهم الله بإرسال النبي صلى الله عليه وسلم ففازوا باتباعه وسعدوا به. وأما أنت أيها الملك فاختر إن شئت الجزية عن يد وأنت صاغر أو اسلم لتنجو من ذلك وإلا فالسيف بأيدينا فغضب يزدجرد من كلامه وقال ارجعوا إلى صاحبكم وأخبروه إني مرسل إليه رستم حتى يدفنه ويدفنكم معه في خندق القادسية فلم يعبئوا لكلامه ورجعوا إلى سعد فقال يزدجرد لرستم ما كنت أرى أن في العرب مثل هؤلاء.</p>
+                    <p xml:id="p_55.d1e772" xml:lang="ar">وخرج رستم من عند الملك كئيباً حزيناً وبعث بجلاً في أثرهم ليرجعوا إليه وقال إن أدركتهم تلافينا أرضنا وإلا فقد سلبكم الله أرضكم فسار <pb ed="print"/>ذلك الرجل في أثرهم حتى وصل إلى الحيرة فلم يدركهم ورجع إلى رستم فقال له لقد ذهب القوم بأرضكم. <pb corresp="file:../epub/29676/OEBPS/xhtml/P886.xhtml" ed="shamela" n="n28-p10" xml:id="pb_10.d1e774"/> وبعد مسيرالوفد على يزدجرد كما تقدم أغار سواد بن مالك التميمي على تلك الناحية فاستاق <num resp="#pers_TG" subtype="d3" type="auto-markup" value="300" xml:id="num_32.d1e1090" xml:lang="ar">ثلاثمائة</num> دابة وحمل عليها السمك فصبح بها العسكر فقسم سعد بينهم وسموا ذلك اليوم يوم الحيتان وواصلوا السرايا والبعوث وسار رستم إلى ساباط في <num resp="#pers_TG" subtype="d2" type="auto-markup" value="60" xml:id="num_33.d1e1093" xml:lang="ar">ستين</num> ألفاً وأرسل أمامه الجالينوس في <num resp="#pers_TG" subtype="d2" type="auto-markup" value="40" xml:id="num_34.d1e1096" xml:lang="ar">أربعين</num> ألفاً أخرى وجعله مقدمة له وساقته <num resp="#pers_TG" subtype="d2" type="auto-markup" value="20" xml:id="num_35.d1e1099" xml:lang="ar">عشرون</num> ألفاً وجعل في ميمنة الجيش الهرمزان وفي الميسرة مهران بن بهران وحمل <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_36.d1e1103" xml:lang="ar">ثلاثة</num> و<num resp="#pers_TG" subtype="d2" type="auto-markup" value="30" xml:id="num_37.d1e1106" xml:lang="ar">ثلاثون</num> ألفاً. ولما فصل رسام عن ساباط كتب إى أخيه البنذوان أما بعد فأصلحوا حصونكم وأعدوا ما استطعتم فكأنك بالعرب قد قارعوكم عن أرضكم وأبنائكم وقد كان من رأي مدافعتهم ومطاولتهم لأني لا أراهم إلا سيظهرون علينا ويستولون على ما بأيدينا.</p>
                     <p xml:lang="ar" xml:id="p_56.d1e777">ثم سار رستم حتى نزل كوثى فأتى برجل من العرب فقال له رستم ما جاء بكم وما
                         تطلبون فقال نطلب وعد الله بأرضكم وأبنائكم إن لم يسلموا قال رستم فإن قتلتم
                         دون ذلك قال من قتل دخل الجنة ومن بقي أنجزه الله وعده قال رستم فنحن إذاً
                         وضعنا في أيديكم فقال أعمالكم وضعتكم واسلمكم الله بها فلا يغرنك من ترى حولك
                         فلست تحاول الناس إنما تحاول القضاء والقدر فغضب رستم وأمر به فضربت عنقه.</p>
-                    <p xml:id="p_57.d1e780" xml:lang="ar"
-                    >إن قول هذا العربي لرستم (أعمالكم وضعتكم وأسلمكم الله بها الخ) جدير بأن يعتبر به المؤمنون في هذا العصر حيث فشت بينهم المنكرات <pb
-                    ed="print"
-                    />وعمت الموبقات وشرب الخمر وظهر الربا وانتشرت أنواع المحرمات انتشاراً أودى بالمؤمنين إلى هذه الرزايا والبلايا وألقى بهم في هذه الأخطار التي أحاطت بهم كإحاطة السوار بالمعصم قال تعالى: (أو لما أصابتكم مصيبة قد أصابتكم مثليها قلتم أنى هذا قل هو من عند أنفسكم).</p>
+                    <p xml:id="p_57.d1e780" xml:lang="ar">إن قول هذا العربي لرستم (أعمالكم وضعتكم وأسلمكم الله بها الخ) جدير بأن يعتبر به المؤمنون في هذا العصر حيث فشت بينهم المنكرات <pb ed="print"/>وعمت الموبقات وشرب الخمر وظهر الربا وانتشرت أنواع المحرمات انتشاراً أودى بالمؤمنين إلى هذه الرزايا والبلايا وألقى بهم في هذه الأخطار التي أحاطت بهم كإحاطة السوار بالمعصم قال تعالى: (أو لما أصابتكم مصيبة قد أصابتكم مثليها قلتم أنى هذا قل هو من عند أنفسكم).</p>
                     <p xml:lang="ar" xml:id="p_58.d1e783">ثم بعد أن قتل رستم ذلك الرجل العربي سار فنزل البرس وفشا في عسكره المنكر
                         وغصبوا الرعايا أموالهم وأبناءهم حتى نادى رستم منهم بالويل وقال صدق والله
                         العربي.</p>
@@ -544,9 +288,7 @@
                         وشارف عسكر المسلمين فخاف الفرس ورجعوا عنه ثم سار رستم فنزل القادسية وذلك بعد
                         خروجه من المدائن بستة اشهر وكان يطاول ويحاول خوفاً منهم ويزدجرد يستحثه في
                         الخروج عليهم.</p>
-                    <p xml:id="p_61.d1e795" xml:lang="ar">يتبع <pb ed="print"/><pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P888.xhtml" ed="shamela" n="n28-p12"
-                    xml:id="pb_12.d1e797"/> </p>
+                    <p xml:id="p_61.d1e795" xml:lang="ar">يتبع <pb ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P888.xhtml" ed="shamela" n="n28-p12" xml:id="pb_12.d1e797"/> </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_5.d1e802">
                     <head xml:lang="ar" xml:id="head_5.d1e804">قصيدة أخلاقية</head>
@@ -590,10 +332,7 @@
                             <seg xml:lang="ar" xml:id="seg_27.d1e884">فتزود إن التقى خير زادٍ </seg>
                             <seg xml:lang="ar" xml:id="seg_28.d1e887"> ونصيب اللبيب منه لبابه</seg>
                         </l>
-                        <l type="bayt" xml:id="l_15.d1e891" xml:lang="ar"> <seg
-                        xml:id="seg_29.d1e893" xml:lang="ar">وأخو العقل من تقضي بصدق </seg> <seg
-                        xml:id="seg_30.d1e896" xml:lang="ar"> شيبه في صلاحه وشبابه</seg> <pb
-                        ed="print"/></l>
+                        <l type="bayt" xml:id="l_15.d1e891" xml:lang="ar"> <seg xml:id="seg_29.d1e893" xml:lang="ar">وأخو العقل من تقضي بصدق </seg> <seg xml:id="seg_30.d1e896" xml:lang="ar"> شيبه في صلاحه وشبابه</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_16.d1e900">
                             <seg xml:lang="ar" xml:id="seg_31.d1e902">وأخو الجهل يستلذ هو النف </seg>
                             <seg xml:lang="ar" xml:id="seg_32.d1e905"> س فيغدو لديه كالشهد صابه</seg>
@@ -635,10 +374,7 @@
                             <seg xml:lang="ar" xml:id="seg_43.d1e985">لا تكن حاكماً بأول رأي </seg>
                             <seg xml:lang="ar" xml:id="seg_44.d1e988"> فكثير بين الأمور التشابه</seg>
                         </l>
-                        <l type="bayt" xml:id="l_23.d1e992" xml:lang="ar"> <seg
-                        xml:id="seg_45.d1e994" xml:lang="ar">رب كأس من الجمال كا يؤ </seg> <seg
-                        xml:id="seg_46.d1e997" xml:lang="ar"> ثر عار من الجميل أهابه</seg> <pb
-                        ed="print"/></l>
+                        <l type="bayt" xml:id="l_23.d1e992" xml:lang="ar"> <seg xml:id="seg_45.d1e994" xml:lang="ar">رب كأس من الجمال كا يؤ </seg> <seg xml:id="seg_46.d1e997" xml:lang="ar"> ثر عار من الجميل أهابه</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_24.d1e1001">
                             <seg xml:lang="ar" xml:id="seg_47.d1e1003">وعزيز ممنع ضيم حتى </seg>
                             <seg xml:lang="ar" xml:id="seg_48.d1e1006"> أصبحت كالوهاد ذلاً هضابه</seg>
@@ -671,10 +407,7 @@
                             <seg xml:lang="ar" xml:id="seg_59.d1e1067">وعدو يفيدك القرب منه </seg>
                             <seg xml:lang="ar" xml:id="seg_60.d1e1070"> وصديق عين الصواب اجتنابه</seg>
                         </l>
-                        <l type="bayt" xml:id="l_31.d1e1075" xml:lang="ar"> <seg
-                        xml:id="seg_61.d1e1077" xml:lang="ar">وملول لحاضر متمنٍ </seg> <seg
-                        xml:id="seg_62.d1e1080" xml:lang="ar"> لخيال من غائب ينتابه</seg> <pb
-                        ed="print"/></l>
+                        <l type="bayt" xml:id="l_31.d1e1075" xml:lang="ar"> <seg xml:id="seg_61.d1e1077" xml:lang="ar">وملول لحاضر متمنٍ </seg> <seg xml:id="seg_62.d1e1080" xml:lang="ar"> لخيال من غائب ينتابه</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_32.d1e1084">
                             <seg xml:lang="ar" xml:id="seg_63.d1e1086">لا يغرنك قرب خل ولا يؤ </seg>
                             <seg xml:lang="ar" xml:id="seg_64.d1e1089"> نسك من خلة العدو جنابه</seg>
@@ -699,10 +432,8 @@
                             <seg xml:lang="ar" xml:id="seg_73.d1e1132">وعريق في الجهل مستحسن الح </seg>
                             <seg xml:lang="ar" xml:id="seg_74.d1e1135"> ن وحبر مستهجن إعرابه</seg>
                         </l>
-                        <l type="bayt" xml:id="l_38.d1e1139" xml:lang="ar"> <seg
-                        xml:id="seg_75.d1e1141" xml:lang="ar">موجز القول من أخي الفقر مملو </seg>
-                        <seg xml:id="seg_76.d1e1144" xml:lang="ar"> ل وذو الجد موثر إسهابه</seg> <pb
-                        ed="print"/></l>
+                        <l type="bayt" xml:id="l_38.d1e1139" xml:lang="ar"> <seg xml:id="seg_75.d1e1141" xml:lang="ar">موجز القول من أخي الفقر مملو </seg>
+                        <seg xml:id="seg_76.d1e1144" xml:lang="ar"> ل وذو الجد موثر إسهابه</seg> <pb ed="print"/></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_72.d1e1149">لا تحجب بالثوب عن لابسه</p>
                     <lg xml:lang="ar" xml:id="lg_15.d1e1152">
@@ -743,10 +474,7 @@
                             <seg xml:lang="ar" xml:id="seg_91.d1e1233">وغنياً مهما غدوت فقيراً </seg>
                             <seg xml:lang="ar" xml:id="seg_92.d1e1236"> بإله طاعاته أبوابه</seg>
                         </l>
-                        <l type="bayt" xml:id="l_47.d1e1241" xml:lang="ar"> <seg
-                        xml:id="seg_93.d1e1243" xml:lang="ar">وإذا كان خوفه لك دأبا </seg> <seg
-                        xml:id="seg_94.d1e1246" xml:lang="ar"> لم تجد في الوجود شيئاتها به</seg> <pb
-                        ed="print"/></l>
+                        <l type="bayt" xml:id="l_47.d1e1241" xml:lang="ar"> <seg xml:id="seg_93.d1e1243" xml:lang="ar">وإذا كان خوفه لك دأبا </seg> <seg xml:id="seg_94.d1e1246" xml:lang="ar"> لم تجد في الوجود شيئاتها به</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_48.d1e1250">
                             <seg xml:lang="ar" xml:id="seg_95.d1e1252">إن رزقاً جميعه لك مكتو </seg>
                             <seg xml:lang="ar" xml:id="seg_96.d1e1255"> ب من الحمق بالسفاه طلابه</seg>
@@ -786,10 +514,7 @@
                             <seg xml:lang="ar" xml:id="seg_111.d1e1330">وإذا كان آخر الأمر هذا </seg>
                             <seg xml:lang="ar" xml:id="seg_112.d1e1333"> فلماذا على الحياة اكتئابه</seg>
                         </l>
-                        <l type="bayt" xml:id="l_57.d1e1338" xml:lang="ar"> <seg
-                        xml:id="seg_113.d1e1340" xml:lang="ar">أيها السائر المقيم على حر </seg> <seg
-                        xml:id="seg_114.d1e1343" xml:lang="ar"> ص مقيم لا تستقل ركابه</seg> <pb
-                        ed="print"/></l>
+                        <l type="bayt" xml:id="l_57.d1e1338" xml:lang="ar"> <seg xml:id="seg_113.d1e1340" xml:lang="ar">أيها السائر المقيم على حر </seg> <seg xml:id="seg_114.d1e1343" xml:lang="ar"> ص مقيم لا تستقل ركابه</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_58.d1e1347">
                             <seg xml:lang="ar" xml:id="seg_115.d1e1349">إن حبل الآمال والحرص كالأع </seg>
                             <seg xml:lang="ar" xml:id="seg_116.d1e1352"> مار طولاً فبالفناء انقضابه</seg>
@@ -833,16 +558,8 @@
                     <p xml:lang="ar" xml:id="p_81.d1e1410">إذا تعممت اللغة العربية بين المسلمين تجلت لهم تلك المدنية الزاهرة التي بلغت
                         بالمسلمين في أبان مجدهم منزلة تحسدهم عليها الأفلاك وتطأطأ لها جباه
                         الجبابرة.</p>
-                    <p xml:id="p_82.d1e1413" xml:lang="ar"
-                    >لا يتسنى للمسلمين أن يجعلوا وجهتهم الجامعة الدينية العظيمة إلا باتباعهم أوامر الدين الذي يحض على الاتحاد والوفاق وعدم الالتفات إلى الاختلاف بالجنس واللغة ولا تمكن معرفة هذه الأوامر إلا بشيوع اللغة العربية بين جميع المسلمين ولا شك أن ملوك الإسلام مطالبون بالاعتناء بهذه اللغة الكريمة <pb
-                    ed="print"
-                    />وحث رعاياهم على تعلمها وتعليمها للأسباب المار ذكرها. والدولة العلية العثمانية مكلفة بهذا الواجب أكثر من غيرها لأنها دولة الخلافة الإسلامية التي يتعلق بأهدابها مسلمو العالم في جميع الأقطار وهم يدينون بالقرآن الكريم <pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P892.xhtml" ed="shamela" n="n28-p16"
-                    xml:id="pb_16.d1e1415"/> المنزل بلسان عربي مبين.</p>
-                    <p xml:id="p_83.d1e1418" xml:lang="ar"
-                    >وهذا الوجه وحده كاف لأن يكون لهذه اللغة عند الحكومة العثمانية المنزلة السامية على أنه لو لم تكن هذه الدولة دولة الخلافة الإسلامية لكانت السياسة تقضي عليها بالاعتناء بالعربية لأنها لغة أكثر رعاياها المخلصين في عثمانيتهم وقد مضى على الدولة العلية العثمانية أمد ليس بقليل كانت فيه تغضي عن إنالة هذه اللغة قسطها من الحظوة لديها وتلهوا عن إجابة نداء أبناء الأمة العربية الذين يودون أن يكون للغتهم شأن عند الحكومة يليق بما انطوت عليه من اشتات الفضائل وقد دأب أبناء العرب على مطالبة الحكومة بجعل اللغة العربي رسمية للحكومة وشاءت السياسة عدم إجابة هذا الطلب بما يستحقه من السرعة ومن حجج المانعين أن القانون الأساسي يقضي بأن تكون اللغة الرسمية للحكومة هي التركية مع أنه حور كثير من مواد القانون لمسيس الحاجة لتحويره وهو ليس بذي أهمية بالنظر لمسألتنا الحاضرة وماذا يمنع من أن يكون للحكومة لغتان رسميتان ترجح حكومات الولايات استعمال إحداهما بحسب حالة الأهالي واستعدادهم وكم جر عدم إجابة هذا الطلب على الحكومة والشعب من المصائب والرزايا واتسعت بينهما مسافة الخلف وسوء التفاهم فترى الشعب العربي وعقلاء الأتراك ومفكريهم ناقمين على الحكومة عدم إصغائها لهذا الأمر الديني الاجتماعي الذي يتوقف عليه نجاح هذه <pb
-                    ed="print"
-                    />الدولة والتآلف بين شعبيها الكريمين اللذين يمثلان أكثريتها المطلقة الترك والعرب.</p>
+                    <p xml:id="p_82.d1e1413" xml:lang="ar">لا يتسنى للمسلمين أن يجعلوا وجهتهم الجامعة الدينية العظيمة إلا باتباعهم أوامر الدين الذي يحض على الاتحاد والوفاق وعدم الالتفات إلى الاختلاف بالجنس واللغة ولا تمكن معرفة هذه الأوامر إلا بشيوع اللغة العربية بين جميع المسلمين ولا شك أن ملوك الإسلام مطالبون بالاعتناء بهذه اللغة الكريمة <pb ed="print"/>وحث رعاياهم على تعلمها وتعليمها للأسباب المار ذكرها. والدولة العلية العثمانية مكلفة بهذا الواجب أكثر من غيرها لأنها دولة الخلافة الإسلامية التي يتعلق بأهدابها مسلمو العالم في جميع الأقطار وهم يدينون بالقرآن الكريم <pb corresp="file:../epub/29676/OEBPS/xhtml/P892.xhtml" ed="shamela" n="n28-p16" xml:id="pb_16.d1e1415"/> المنزل بلسان عربي مبين.</p>
+                    <p xml:id="p_83.d1e1418" xml:lang="ar">وهذا الوجه وحده كاف لأن يكون لهذه اللغة عند الحكومة العثمانية المنزلة السامية على أنه لو لم تكن هذه الدولة دولة الخلافة الإسلامية لكانت السياسة تقضي عليها بالاعتناء بالعربية لأنها لغة أكثر رعاياها المخلصين في عثمانيتهم وقد مضى على الدولة العلية العثمانية أمد ليس بقليل كانت فيه تغضي عن إنالة هذه اللغة قسطها من الحظوة لديها وتلهوا عن إجابة نداء أبناء الأمة العربية الذين يودون أن يكون للغتهم شأن عند الحكومة يليق بما انطوت عليه من اشتات الفضائل وقد دأب أبناء العرب على مطالبة الحكومة بجعل اللغة العربي رسمية للحكومة وشاءت السياسة عدم إجابة هذا الطلب بما يستحقه من السرعة ومن حجج المانعين أن القانون الأساسي يقضي بأن تكون اللغة الرسمية للحكومة هي التركية مع أنه حور كثير من مواد القانون لمسيس الحاجة لتحويره وهو ليس بذي أهمية بالنظر لمسألتنا الحاضرة وماذا يمنع من أن يكون للحكومة لغتان رسميتان ترجح حكومات الولايات استعمال إحداهما بحسب حالة الأهالي واستعدادهم وكم جر عدم إجابة هذا الطلب على الحكومة والشعب من المصائب والرزايا واتسعت بينهما مسافة الخلف وسوء التفاهم فترى الشعب العربي وعقلاء الأتراك ومفكريهم ناقمين على الحكومة عدم إصغائها لهذا الأمر الديني الاجتماعي الذي يتوقف عليه نجاح هذه <pb ed="print"/>الدولة والتآلف بين شعبيها الكريمين اللذين يمثلان أكثريتها المطلقة الترك والعرب.</p>
                     <p xml:lang="ar" xml:id="p_84.d1e1421">ومن جهة أخرى كان بعض رجال الحكومة وذوي الشأن فيها يرمون الشعب العربي بقوارص
                         الكلام كالمروق من الوطنية وعدم محبة العثمانية وإرادة الخروج عليها (معاذ
                         الله) إلى غير ذلك وحجتهم في ذلك ما يشاهد من بعض متطرفي الكتاب من استعمال
@@ -859,10 +576,7 @@
                         بلغة المحكومين وما تسبب عن الثاني من فقد الأنفس وضياع الأموال وهذه من
                         الخطوات السريعة الخطيرة في تقدم هذه المملكة وتدرجها في مدارج الحضارة
                         والعمران إن شاء الله.</p>
-                    <p xml:id="p_87.d1e1433" xml:lang="ar"
-                    >لم يمض على صدور هذه الإرادة بضعة أيام حتى شوهد استعمال العربية في دوائر العدلية وبات الناس يتوقعون خيراً كثيراً وأمن المتخاصمون من <pb
-                    ed="print"
-                    />التلاعب بإفاداتهم وتقاريرهم وكثيراً ما ضاعت حقوق بسبب جهل الحكام بلغة المحكومين وجهل المترجمين أو تعمدهم التحريف.</p>
+                    <p xml:id="p_87.d1e1433" xml:lang="ar">لم يمض على صدور هذه الإرادة بضعة أيام حتى شوهد استعمال العربية في دوائر العدلية وبات الناس يتوقعون خيراً كثيراً وأمن المتخاصمون من <pb ed="print"/>التلاعب بإفاداتهم وتقاريرهم وكثيراً ما ضاعت حقوق بسبب جهل الحكام بلغة المحكومين وجهل المترجمين أو تعمدهم التحريف.</p>
                     <p xml:lang="ar" xml:id="p_88.d1e1436">فنشكر للحكومة تلبية نداء العرب المخلصين لعرش الخلافة ونرجو أن تكون هذه البشرى
                         مقدمة لأعمال كثيرة من نوعها يحصل بها الائتلاف التام بين الشعب والحكومة حتى
                         يكف المشاغبون عن غلوائهم وسوء ظنهم بالحكومة ورغبتها بالإصلاح فإن اطمئنان
@@ -872,10 +586,7 @@
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_7.d1e1442">
                     <head xml:lang="ar" xml:id="head_7.d1e1444">الزنا وأنصاره</head>
-                    <p xml:id="p_89.d1e1447" xml:lang="ar"
-                    >سبق لنا أن قدمنا للحكومة النصائح المتعددة وبينا الفوئد التي نجمت عن إبطاخل محل المومسات (المرقص) وطلبنا إليها أن تحسم هذا الأمر حسماً باتاً باستابتهن أو نفيهن ولكن كل هذه النصائح لم تؤثر التأثير المطلوبة فإنا لا وزال نسمع أن الحكومة تفكر في إيجاد محل لهن وذلك بإيعاز بعض المفسدين المتفرنجين الذي يصدق عليهم قول الله سبحانه (إن الذين يحبون أن تشيع الفاحشة في الذين آمنوا لهم عذاب أليم في الدنيا والآخرة) وشبهتهم في ذلك أن إبطال المرقص قد أضر بالحرائر من وجهين الأول اختلاط المومسات بينهن وما ينشأ عنهن من إفساد أخلاقهن والثاني تحرش الزناة بالحرائر فإنهم لما لم يجدوا محلاً يذهبون إليه يأتوا إلى الحرائر فيراودوهن <pb
-                    ed="print"
-                    />عن أنفسهن وقلنا أن كلا الوجهين خطأ ظاهر وليس إلا من الوهم ووساوس الشيطان.</p>
+                    <p xml:id="p_89.d1e1447" xml:lang="ar">سبق لنا أن قدمنا للحكومة النصائح المتعددة وبينا الفوئد التي نجمت عن إبطاخل محل المومسات (المرقص) وطلبنا إليها أن تحسم هذا الأمر حسماً باتاً باستابتهن أو نفيهن ولكن كل هذه النصائح لم تؤثر التأثير المطلوبة فإنا لا وزال نسمع أن الحكومة تفكر في إيجاد محل لهن وذلك بإيعاز بعض المفسدين المتفرنجين الذي يصدق عليهم قول الله سبحانه (إن الذين يحبون أن تشيع الفاحشة في الذين آمنوا لهم عذاب أليم في الدنيا والآخرة) وشبهتهم في ذلك أن إبطال المرقص قد أضر بالحرائر من وجهين الأول اختلاط المومسات بينهن وما ينشأ عنهن من إفساد أخلاقهن والثاني تحرش الزناة بالحرائر فإنهم لما لم يجدوا محلاً يذهبون إليه يأتوا إلى الحرائر فيراودوهن <pb ed="print"/>عن أنفسهن وقلنا أن كلا الوجهين خطأ ظاهر وليس إلا من الوهم ووساوس الشيطان.</p>
                     <p xml:lang="ar" xml:id="p_90.d1e1450">أما اختلاطهن بالحرائر فليس له محل إلا الأسواق ومن كان يمنع المومسات عن النزول
                         إلى الأسواق والاختلاط بالحرائر من قبل؟ بل كان الاختلاط أكثر لأن المومسات كن
                         أضعاف ما عليه الآن لأن أكثرهن قد سافرن لعدم رواج فحشهن بسبب عدم وجود المحل
@@ -891,20 +602,11 @@
                         وجيرانه يقيمون النكير عليه وليس لها بيت تأخذه إليه للسبب نفسه فلا يلبثان أن
                         يتفارقا وقد كاد أن ينقطع أملهما من العودة إلى مثل هذا العمل فظهر مما تقدم أن
                         هذه الشبه لا يصح التمسك بها بل هي حجة عليهم لا لهم.</p>
-                    <p xml:id="p_91.d1e1453" xml:lang="ar"
-                    >بقي الذين تربوا على الزنا وفشت فيهم هذه الفاحشة وقد منعوا منها بسبب إبطال المرقص فيظهر أن هؤلاء هم الذين يعجزون الحكومة ويطالبونها بإرجاعه ويصورون لها ضرر <pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P895.xhtml" ed="shamela" n="n28-p19"
-                    xml:id="pb_19.d1e1455"/> إبطاله بما توحيه إليهم شياطينهم <pb ed="print"
-                    />فالواجب على الحكومة أن تبعدهم وتقصيهم وأن تسمع لأهل الدين والعرض وتعمل بآرائهم في مثل هذه المسائل. الم يكفنا ما حل بنا من البلايا وما انتابنا من الرزايا؟ ألم يردعنا ما نشاهده من انكسارنا واستيلاء العدو على بلادنا؟ أم يأن لنا أن تخشع قلوبنا ونرجع إلى ديننا؟ أما حان للحكومة أن تنبذ هؤلاء المتفرنجين فإنهم سبب الضعف وجرثومة الفساد وهم يقومون بمثل هذه المسائل لينفروا الرعية من الحكومة ويجعلونها حانقة عليه أما آن لها أن تعلم نواياهم وأميالهم فإنهم والله ينصبون لها المكائد ويتربصون بها الدوائر ألم تعلم أنه لا نصير لها إلا أهل الدين وأنه لا اعتماد لها في المستقبل إلا عليهم. فإنهم هم الذين يقدرون الخلافة الإسلامية حق قدرها وهم الذين ينصرونها ويشدون إزرها. أليست الخلافة إسلامية؟ أليس الدين الإسلامي هو دين الحكومة الرسمي؟ فبأي حجة يطلب هؤلاء المتفرنجون فتح محلات للزنا في هذه البلاد الإسلامية أما يجب على الحكومة أن تلاحظ عواطف أهل الدين والعرض وأميالهم وهم القوم الأكثر في دمشق؟ إذا كان لم يبق (لا قدر الله) للدين سلطة على القلوب فلينظروا إلى الإنكليز فإنهم ليس عندهم محال عمومية للمومسات كما ذكرنا ذلك في المجلد الأول ص <tei:num
-                    value="432" xml:id="num_1.d1e1624" xml:lang="ar"
-                    >٤٣٢</tei:num> من هذه المجلة فليراجع.</p>
+                    <p xml:id="p_91.d1e1453" xml:lang="ar">بقي الذين تربوا على الزنا وفشت فيهم هذه الفاحشة وقد منعوا منها بسبب إبطال المرقص فيظهر أن هؤلاء هم الذين يعجزون الحكومة ويطالبونها بإرجاعه ويصورون لها ضرر <pb corresp="file:../epub/29676/OEBPS/xhtml/P895.xhtml" ed="shamela" n="n28-p19" xml:id="pb_19.d1e1455"/> إبطاله بما توحيه إليهم شياطينهم <pb ed="print"/>فالواجب على الحكومة أن تبعدهم وتقصيهم وأن تسمع لأهل الدين والعرض وتعمل بآرائهم في مثل هذه المسائل. الم يكفنا ما حل بنا من البلايا وما انتابنا من الرزايا؟ ألم يردعنا ما نشاهده من انكسارنا واستيلاء العدو على بلادنا؟ أم يأن لنا أن تخشع قلوبنا ونرجع إلى ديننا؟ أما حان للحكومة أن تنبذ هؤلاء المتفرنجين فإنهم سبب الضعف وجرثومة الفساد وهم يقومون بمثل هذه المسائل لينفروا الرعية من الحكومة ويجعلونها حانقة عليه أما آن لها أن تعلم نواياهم وأميالهم فإنهم والله ينصبون لها المكائد ويتربصون بها الدوائر ألم تعلم أنه لا نصير لها إلا أهل الدين وأنه لا اعتماد لها في المستقبل إلا عليهم. فإنهم هم الذين يقدرون الخلافة الإسلامية حق قدرها وهم الذين ينصرونها ويشدون إزرها. أليست الخلافة إسلامية؟ أليس الدين الإسلامي هو دين الحكومة الرسمي؟ فبأي حجة يطلب هؤلاء المتفرنجون فتح محلات للزنا في هذه البلاد الإسلامية أما يجب على الحكومة أن تلاحظ عواطف أهل الدين والعرض وأميالهم وهم القوم الأكثر في دمشق؟ إذا كان لم يبق (لا قدر الله) للدين سلطة على القلوب فلينظروا إلى الإنكليز فإنهم ليس عندهم محال عمومية للمومسات كما ذكرنا ذلك في المجلد الأول ص <tei:num value="432" xml:id="num_1.d1e1624" xml:lang="ar">٤٣٢</tei:num> من هذه المجلة فليراجع.</p>
                     <p xml:lang="ar" xml:id="p_92.d1e1458">هذا وقد بلغنا أن أطباء العسكرية قدموا تقريراً لمجلس الإدارة بلزوم إرجاع
                         المرقص قائلين أن الجند (العسكر) يتضررون من عدم قضاء شهواتهم إلى غير ذلك من
                         الأوهام التي يتمسك بها الأطباء ويعدونها حججاً.</p>
-                    <p xml:id="p_93.d1e1462" xml:lang="ar"
-                    >فنقول لهؤلاء إذا كان الجند يتضررون على زعمكم من عدم قضاء شهواتهم فلم لا تحملون معكم إلى ساحة الحرب الزانيات وكيف يعيش الجيش الإنكليزي الذي<pb
-                    ed="print"
-                    /> لا محل للمومسات عنده من غير أن يلحقه هذا الضرر الذي تتخرصون به. نعم سمعنا من بعض أطباء الخستخانة في دمشق أن الداء الإفرنجي الذي كان فاشياً بين الجنود قد قل قلة تذكر بسبب إبطال المرقص.</p>
+                    <p xml:id="p_93.d1e1462" xml:lang="ar">فنقول لهؤلاء إذا كان الجند يتضررون على زعمكم من عدم قضاء شهواتهم فلم لا تحملون معكم إلى ساحة الحرب الزانيات وكيف يعيش الجيش الإنكليزي الذي<pb ed="print"/> لا محل للمومسات عنده من غير أن يلحقه هذا الضرر الذي تتخرصون به. نعم سمعنا من بعض أطباء الخستخانة في دمشق أن الداء الإفرنجي الذي كان فاشياً بين الجنود قد قل قلة تذكر بسبب إبطال المرقص.</p>
                     <p xml:lang="ar" xml:id="p_94.d1e1465">فنلفت أنظار مجلس الإدارة إلى هذا الأمر فإن رجاله هم وحدهم المسؤولون عنه فهل
                         تقبل ذمتهم ودينهم أن يتحملوا تبعة هذا الأمر فإن الله معاقبهم على كل زنية
                         تفعل في هذا المحل الذي يراد إنشاؤه كأنهم هم الفاعلون قال صلى الله عليه وسلم
@@ -918,30 +620,14 @@
                 <div type="article" xml:lang="ar" xml:id="div_8.d1e1476">
                     <head xml:lang="ar" xml:id="head_8.d1e1478">سلسلة حكم الخلفاء</head>
                     <p xml:lang="ar" xml:id="p_96.d1e1481">الخلفاء الراشدون رضي الله تعالى عنه</p>
-                    <p xml:id="p_97.d1e1484" xml:lang="ar"
-                    >(أبو بكر رضي الله عنه) إنكم في مهل رائه أجل فبادروا في مهل آجالكم قبل أن تقطع آمالكم فتردكم إلى سوء أعمالكم صنائع المعروف تقي مصارع السوء الموت أهون مما بعده وأشد مما قبله ليست مع العزاء <pb
-                    ed="print"/>مصيبة ولا مع الجزع فائدة <num resp="#pers_TG" subtype="d1"
-                    type="auto-markup" value="3" xml:id="num_39.d1e1825" xml:lang="ar"
-                    >ثلاث</num> من كن فيه كن عليه البغي والنكث والمكر. إن الله قرن وعده بوعيده ليكون العبد راغباً وراهباً إن أكيس الكيس التقى وأحمق الحمق الفجور. وخطب رضي الله فقال إن أشقى الناس في الدنيا والآخرة الملوك فرفع الناس رؤوسهم فقال ما لكم يا معشر الناس إنكم لطائعون عجلون إن الملك إذا زهده الله تعالى فيما بين يديه ورغبه فيما في يد غيره وانتقصه شطر أجله وأشرب قلبه الإشفاق فهو يحسد على القليل ويتسخط الكثير ويسأم الرجاء وتنقطع عنه لذة البهاء ولا يستعمل العبرة ولا يسكن إلى الثقة وهو كالدرهم القسي والسراب الخادع جذل الظاهر حزين الباطن فإذا وجبت نفسه ونضب عمره وضحى ظله حاسبه الله فأشد حسابه وأقل عفوه.</p>
+                    <p xml:id="p_97.d1e1484" xml:lang="ar">(أبو بكر رضي الله عنه) إنكم في مهل رائه أجل فبادروا في مهل آجالكم قبل أن تقطع آمالكم فتردكم إلى سوء أعمالكم صنائع المعروف تقي مصارع السوء الموت أهون مما بعده وأشد مما قبله ليست مع العزاء <pb ed="print"/>مصيبة ولا مع الجزع فائدة <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_39.d1e1825" xml:lang="ar">ثلاث</num> من كن فيه كن عليه البغي والنكث والمكر. إن الله قرن وعده بوعيده ليكون العبد راغباً وراهباً إن أكيس الكيس التقى وأحمق الحمق الفجور. وخطب رضي الله فقال إن أشقى الناس في الدنيا والآخرة الملوك فرفع الناس رؤوسهم فقال ما لكم يا معشر الناس إنكم لطائعون عجلون إن الملك إذا زهده الله تعالى فيما بين يديه ورغبه فيما في يد غيره وانتقصه شطر أجله وأشرب قلبه الإشفاق فهو يحسد على القليل ويتسخط الكثير ويسأم الرجاء وتنقطع عنه لذة البهاء ولا يستعمل العبرة ولا يسكن إلى الثقة وهو كالدرهم القسي والسراب الخادع جذل الظاهر حزين الباطن فإذا وجبت نفسه ونضب عمره وضحى ظله حاسبه الله فأشد حسابه وأقل عفوه.</p>
                     <p xml:lang="ar" xml:id="p_98.d1e1487">(عمر رضي الله عنه) كتب لمعاوية إياك والاحتجاب دون الناس واذن للضعيف حتى ينبسط
                         لسانه ويجرئ قلبه وتعهد الغريب فإنه إذا طال حبسه وضاق أدنه ترك حقه وضعف قلبه
                         إذا فاتك خير فأدركه وإذا فاتك شر فاسبقه: إن عليك من الله عيوناً تراك احرص
                         على الموت توهب لك الحياة أطوع الناس لله اشدهم بغضاً لمعصيته كثير القول ينسى
                         بعضه بعضاً وإنما لك ما وعي عنك. حق لميزان يوضع الحق فيه أن يكون ثقيلاً وحق
                         لميزان يوضع فيه الباطل أن يكون خفيفاً. أصلح نفسك يلصح لك الناس.</p>
-                    <p xml:id="p_99.d1e1490" xml:lang="ar"
-                    >وكان يقول ليت شعري متى أشفى من غيظي أحين أقدر فيقال لو عفوت أحين أعجل فيقال لو صبرت. اقرأوا القرآن تعرفوا به واعملوا به تكونوا من أهله. ضع أمر أخيك على أحسنه حتى يجيئك ما يغلبك منه. لا تظن <pb
-                    ed="print"
-                    />بكلمة تخرج من مسلم شراً إذا أنت تجد لها في الخير محلا. من كتم سره كانت الخيرة بيده. من عرض نفسه للتهم فلا يلومن من أساء به الظن. لا تتهاونوا بالحلف فيلهككم الله. استشر في أمرك الذين يخشون الله واحذر صديقك الأمين ولا أمين إلا من خشي الله. تفقهوا قبل أن تسودوا. كل عمل كرهت من أجله الموت <pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P898.xhtml" ed="shamela" n="n28-p22"
-                    xml:id="pb_22.d1e1492"
-                    /> فاتركه ثم لا يضرك متى مت. وكتب لابنه عبد الله أما بعد فإنه من اتقى الله وقاه ومن توكل عليه كفاه ومن أقرضه جزاء فاجعل التقوى عماد قلبك وجلاء بصرك فإنه لا عمل لمن لا نية له ولا أجر لمن لاحسنة له ولا جديد لمن لا خلق له، من أظهر للناس خشوعاً فوق ما في ققلبه فإنه أظهر نفاقاً. لو كان الصبر والشكر بعيرين ما باليت على أيهما ركبت. وخطب بعد أن استفتح فقال أيها الناس إنه والله ما فيكم أقوى عندي من الضعيف حتى آخذ الحق له ولا أضعف عندي من القوي حتى آخذ الحق منه. وخطب فقال أيها الناس ما الجزع مما لا بد منه وما الطمع فيما لا يرجى وما الحيلة فيما سيزول وإنما الشيء من أصله وقد مضت قبل الأصول ونحن فروعها فما بقاء الفرع بعد أصله إنما الناس في هذه الدنيا تنتقل المنايا فيهم وهم نصب المصائب في كل جرعة شرق وفي كل أكلة غصة لا تنالون نعمة إلا بفراق أخرى ولا يستقبل معمر من عمره يوماً غلا بهدم آخر من أجله فإنهم أعوان الحتوف على أنفسهم فأين المهرب مما هو كائن وإنما يتقلب الهارب من قدرة الطالب فما أصغر المصيبة اليوم مع عظم الفائدة غداً وأكثر خيبة الخائب جعلنا وإياكم من المتقين تعلموا النسب ولا تكونوا كنبط السواد إذا س ل أحدكم عن أصله قال من قرية كذا. <num
-                    resp="#pers_TG" subtype="d1" type="auto-markup" value="3"
-                    xml:id="num_40.d1e1836" xml:lang="ar"
-                    >ثلاث</num> يثني لك الود في صدر أخيك أن تبدأه بالسلام وتوسع له في المجلس وتدعوه بأحب <pb
-                    ed="print"/>الأسماء إليه. كفى بالمرء غياً ن تكون فيه خلة من <num resp="#pers_TG"
-                    subtype="d1" type="auto-markup" value="3" xml:id="num_41.d1e1839" xml:lang="ar"
-                    >ثلاث</num> أن يعيب شيئاً ثم يأتي مثله أو يبدو له من أخيه ما يخفى عليه من نفسه أو يؤذي جليسه فيما لا يعنيه. وخطب الناس فقال: والذي بعث محمداً بالحق لو أن جملاً هلك ضياعاً بشط الفرات خشيت أن يسأل عنه آل الخطاب. وكتب إلى أبي موسى أنه لم يزل للناس وجوه يرفعون حوائجهم فأكرم من قبلك من وجوه الناس وبحسب المسلم الضعيف من العدل أن ينصف في الحكم وفي القسم.</p>
+                    <p xml:id="p_99.d1e1490" xml:lang="ar">وكان يقول ليت شعري متى أشفى من غيظي أحين أقدر فيقال لو عفوت أحين أعجل فيقال لو صبرت. اقرأوا القرآن تعرفوا به واعملوا به تكونوا من أهله. ضع أمر أخيك على أحسنه حتى يجيئك ما يغلبك منه. لا تظن <pb ed="print"/>بكلمة تخرج من مسلم شراً إذا أنت تجد لها في الخير محلا. من كتم سره كانت الخيرة بيده. من عرض نفسه للتهم فلا يلومن من أساء به الظن. لا تتهاونوا بالحلف فيلهككم الله. استشر في أمرك الذين يخشون الله واحذر صديقك الأمين ولا أمين إلا من خشي الله. تفقهوا قبل أن تسودوا. كل عمل كرهت من أجله الموت <pb corresp="file:../epub/29676/OEBPS/xhtml/P898.xhtml" ed="shamela" n="n28-p22" xml:id="pb_22.d1e1492"/> فاتركه ثم لا يضرك متى مت. وكتب لابنه عبد الله أما بعد فإنه من اتقى الله وقاه ومن توكل عليه كفاه ومن أقرضه جزاء فاجعل التقوى عماد قلبك وجلاء بصرك فإنه لا عمل لمن لا نية له ولا أجر لمن لاحسنة له ولا جديد لمن لا خلق له، من أظهر للناس خشوعاً فوق ما في ققلبه فإنه أظهر نفاقاً. لو كان الصبر والشكر بعيرين ما باليت على أيهما ركبت. وخطب بعد أن استفتح فقال أيها الناس إنه والله ما فيكم أقوى عندي من الضعيف حتى آخذ الحق له ولا أضعف عندي من القوي حتى آخذ الحق منه. وخطب فقال أيها الناس ما الجزع مما لا بد منه وما الطمع فيما لا يرجى وما الحيلة فيما سيزول وإنما الشيء من أصله وقد مضت قبل الأصول ونحن فروعها فما بقاء الفرع بعد أصله إنما الناس في هذه الدنيا تنتقل المنايا فيهم وهم نصب المصائب في كل جرعة شرق وفي كل أكلة غصة لا تنالون نعمة إلا بفراق أخرى ولا يستقبل معمر من عمره يوماً غلا بهدم آخر من أجله فإنهم أعوان الحتوف على أنفسهم فأين المهرب مما هو كائن وإنما يتقلب الهارب من قدرة الطالب فما أصغر المصيبة اليوم مع عظم الفائدة غداً وأكثر خيبة الخائب جعلنا وإياكم من المتقين تعلموا النسب ولا تكونوا كنبط السواد إذا س ل أحدكم عن أصله قال من قرية كذا. <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_40.d1e1836" xml:lang="ar">ثلاث</num> يثني لك الود في صدر أخيك أن تبدأه بالسلام وتوسع له في المجلس وتدعوه بأحب <pb ed="print"/>الأسماء إليه. كفى بالمرء غياً ن تكون فيه خلة من <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_41.d1e1839" xml:lang="ar">ثلاث</num> أن يعيب شيئاً ثم يأتي مثله أو يبدو له من أخيه ما يخفى عليه من نفسه أو يؤذي جليسه فيما لا يعنيه. وخطب الناس فقال: والذي بعث محمداً بالحق لو أن جملاً هلك ضياعاً بشط الفرات خشيت أن يسأل عنه آل الخطاب. وكتب إلى أبي موسى أنه لم يزل للناس وجوه يرفعون حوائجهم فأكرم من قبلك من وجوه الناس وبحسب المسلم الضعيف من العدل أن ينصف في الحكم وفي القسم.</p>
                     <p xml:lang="ar" xml:id="p_100.d1e1496">وكان إذا استعمل العمال خرج معهم يشيعهم فيقول إني لم أستعملكم على أمة محمد صلى
                         الله عليه وسلم على أشعارهم ولا على أبشارهم وإنما استعملتكم عليهم لتقيموا بهم
                         الصلاة وتقضوا بينهم بالحق وتقسموا بينهم بالعدل.</p>
@@ -952,18 +638,13 @@
                         عذر في تعمد ضلالة حسبها هدى ولا ترك حق حسبه ضلالة: الدنيا أجل محتوم وأمل
                         منتقص وبلاغ إلى دار غيرها وسير إلى الموت فرحم الله امرء فكر في أمره ونصح
                         نفسه وراقب ربه واستقال ذنبه من يأس في شيء استغنى عنه.</p>
-                    <p xml:id="p_102.d1e1504" xml:lang="ar"
-                    >(عثمان رضي الله عنه) خطب يوم بويع له بالخلافة فقال: أيها الناس اتقوا الله فإن الدنيا كما أخبر الله عنها لهو ولعب وزينة وتفاخر الآية فخير العباد فيها نمن عصم واعتصم بكتاب الله وقد وكلت من أموركم عظيماً لا أرجو العون عليه إلا من الله ولا يوفق للخير إلا هو وما توفيقي إلا بالله عليه توكلت وإليه <pb
-                    ed="print"
-                    />أنيب وقال في خطبة: ألا وإن الدنيا خضرة قد شهيت إلى الناس ومال إليها كثير منهم فلا تركنوا إلى الدنيا ولا تثقوا بها فإنها ليست بثقة واعلموا أنها غير تاركة غلا من تركها. وخطب وهي آخر خطبة فقال: إن الله عز وجل إنما أعطاكم الدنيا لتطلبوا بها الآخرة ولم يعططموها لتركنوا إليها إن الدنيا تفنى والآخرة تبقى فلا تبطرنكم الفانية ولا تشغلنكم عن الباقية فآثروا ما يبقى على ما يفنى فإن الدنيا منقطعة وإن المصير إلى الله اتقوا الله جل وعز فإن تقواه جنة من بأسه ووسيلة عنده واحذروا من الله الغير والزموا جماعتكم ولا تصيروا أحزاباً (واذكروا نعمة الله عليكم إذ كنتم أعداء فألف بين قلوبكم فأصبحتم بنعمته أخوانا).</p>
+                    <p xml:id="p_102.d1e1504" xml:lang="ar">(عثمان رضي الله عنه) خطب يوم بويع له بالخلافة فقال: أيها الناس اتقوا الله فإن الدنيا كما أخبر الله عنها لهو ولعب وزينة وتفاخر الآية فخير العباد فيها نمن عصم واعتصم بكتاب الله وقد وكلت من أموركم عظيماً لا أرجو العون عليه إلا من الله ولا يوفق للخير إلا هو وما توفيقي إلا بالله عليه توكلت وإليه <pb ed="print"/>أنيب وقال في خطبة: ألا وإن الدنيا خضرة قد شهيت إلى الناس ومال إليها كثير منهم فلا تركنوا إلى الدنيا ولا تثقوا بها فإنها ليست بثقة واعلموا أنها غير تاركة غلا من تركها. وخطب وهي آخر خطبة فقال: إن الله عز وجل إنما أعطاكم الدنيا لتطلبوا بها الآخرة ولم يعططموها لتركنوا إليها إن الدنيا تفنى والآخرة تبقى فلا تبطرنكم الفانية ولا تشغلنكم عن الباقية فآثروا ما يبقى على ما يفنى فإن الدنيا منقطعة وإن المصير إلى الله اتقوا الله جل وعز فإن تقواه جنة من بأسه ووسيلة عنده واحذروا من الله الغير والزموا جماعتكم ولا تصيروا أحزاباً (واذكروا نعمة الله عليكم إذ كنتم أعداء فألف بين قلوبكم فأصبحتم بنعمته أخوانا).</p>
                     <p xml:lang="ar" xml:id="p_103.d1e1507">إن لكل شيء آفة ولكل نعمة عاهة وإن آفة هذا الدين وعاهة هذه النعمة عيابون
                         طعانون يرونكم ما تحبون ويسرون ما تكرهون طعام مثل النعام يتبعون أول ناعق:
                         يكفيك من الحاسد أن يغتم وقت سرورك ونظر إلى قبر فبكى وقال هو أول منازل الآخرة
                         وآخر نازل الدنيا فمن شدد عليه فما بعد أشد ومن هون عليه فما بعده أهون.</p>
                     <p xml:lang="ar" xml:id="p_104.d1e1510">لها بقية</p>
-                    <p xml:id="p_105.d1e1513" xml:lang="ar">إبراهيم خليل مردم بك <pb ed="print"/><pb
-                    corresp="file:../epub/29676/OEBPS/xhtml/P900.xhtml" ed="shamela" n=""
-                    xml:id="pb_24.d1e1515"/> </p>
+                    <p xml:id="p_105.d1e1513" xml:lang="ar">إبراهيم خليل مردم بك <pb ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P900.xhtml" ed="shamela" n="" xml:id="pb_24.d1e1515"/> </p>
                 </div>
             </body>
          </text>
