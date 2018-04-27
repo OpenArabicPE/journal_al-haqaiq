@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- <?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> --><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_31" xml:lang="en" next="oclc_644997575-i_32" prev="oclc_644997575-i_30">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="../../OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="oclc_644997575-i_31" xml:lang="" next="oclc_644997575-i_32" prev="oclc_644997575-i_30">
    <teiHeader xml:lang="en" xml:id="teiHeader_1.d1e7">
       <fileDesc xml:lang="en" xml:id="fileDesc_1.d1e9">
          <titleStmt xml:lang="en" xml:id="titleStmt_1.d1e11">
@@ -20,6 +20,10 @@
                     <resp xml:lang="en" xml:id="resp_2.d1e49">TEI edition</resp>
                     <persName xml:id="pers_TG" xml:lang="en">Till Grallert</persName>
                 </respStmt>
+               <respStmt>
+                 <resp xml:lang="en">Added page breaks</resp>
+                 <persName xml:id="pers_XK">Xaver Kretzschmar</persName>
+             </respStmt>
             </titleStmt>
          <publicationStmt xml:lang="en" xml:id="publicationStmt_1.d1e57">
                 <authority xml:lang="en" xml:id="authority_1.d1e59">
@@ -32,7 +36,7 @@
                         International (CC BY-SA 4.0) license</licence>
                 </availability>
                 
-            <idno type="url" xml:id="idno_1.d1e77">https://github.com/OpenArabicPE/digital-haqaiq/blob/master/xml/oclc_644997575-i_31.TEIP5.xml</idno>
+            <idno type="url" xml:id="idno_1.d1e77">https://github.com/tillgrallert/digital-haqaiq/blob/master/xml/oclc_644997575-i_31.TEIP5.xml</idno>
          </publicationStmt>
          <sourceDesc xml:lang="en" xml:id="sourceDesc_1.d1e81">
             <biblStruct xml:lang="en" xml:id="biblStruct_1.d1e83">
@@ -79,7 +83,7 @@
       </fileDesc>
       <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
       <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
-      <revisionDesc xml:id="revisionDesc_1.d1e426"><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e427">Corrected <tei:gi xml:id="gi_8.d1e429">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e432">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e435">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e438">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e441">n</tei:att> to <tei:att xml:id="att_6.d1e445">from</tei:att> and <tei:att xml:id="att_6.d1e448">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e451">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e453">tei:num</gi>and <att xml:id="att_6.d1e456">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e459">Added automated <att xml:id="att_7.d1e461">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e464">tei:text</gi>and had no existing <att xml:id="att_8.d1e467">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e470">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e472">num</tei:gi> with <tei:att xml:id="att_9.d1e475">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28" xml:id="change_3.d1e478">Corrected the file's URL and <att xml:id="att_9.d1e480">xml:id</att> on <gi xml:id="gi_10.d1e483">TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e486">Added automated <att xml:id="att_10.d1e488">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e491">tei:text</gi>and had no existing <att xml:id="att_11.d1e494">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27" xml:id="change_4.d1e497">Added the <tei:att xml:id="att_12.d1e499">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc xml:id="revisionDesc_1.d1e426"><change when="2018-04-27" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e427">Corrected <tei:gi xml:id="gi_8.d1e429">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_8.d1e432">biblScope</tei:gi> from <tei:gi xml:id="gi_8.d1e435">imprint</tei:gi> to <tei:gi xml:id="gi_8.d1e438">monogr</tei:gi> and by converting all <tei:att xml:id="att_6.d1e441">n</tei:att> to <tei:att xml:id="att_6.d1e445">from</tei:att> and <tei:att xml:id="att_6.d1e448">to</tei:att>with identical values.</tei:change><change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e451">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as <gi xml:id="gi_8.d1e453">tei:num</gi>and <att xml:id="att_6.d1e456">xml:value</att>recording the normalised value.</change><change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e459">Added automated <att xml:id="att_7.d1e461">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_9.d1e464">tei:text</gi>and had no existing <att xml:id="att_8.d1e467">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-03-11" xml:id="change_3.d1e470">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e472">num</tei:gi> with <tei:att xml:id="att_9.d1e475">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change><tei:change when="2016-02-28" xml:id="change_3.d1e478">Corrected the file's URL and <att xml:id="att_9.d1e480">xml:id</att> on <gi xml:id="gi_10.d1e483">TEI</gi> to account for issues missing from the Shamela transcription.</tei:change><change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e486">Added automated <att xml:id="att_10.d1e488">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_11.d1e491">tei:text</gi>and had no existing <att xml:id="att_11.d1e494">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-02-27" xml:id="change_4.d1e497">Added the <tei:att xml:id="att_12.d1e499">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-02-27" who="#pers_TG" xml:lang="en" xml:id="change_4.d1e503">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:lang="en" xml:id="ref_4.d1e505">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
          <change when="2016-02-26" xml:lang="en" xml:id="change_5.d1e509">Divided the <gi xml:lang="en" xml:id="gi_12.d1e511">body</gi> into a <gi xml:lang="en" xml:id="gi_13.d1e514">group</gi> of <gi xml:lang="en" xml:id="gi_14.d1e517">text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26" xml:lang="en" xml:id="change_6.d1e522">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes" xml:id="foreign_6.d1e524">qaṣīda</foreign>s from <gi xml:lang="en" xml:id="gi_15.d1e527">p</gi>s divided by a <gi xml:lang="en" xml:id="gi_16.d1e530">gap</gi> to <gi xml:lang="en" xml:id="gi_17.d1e533">l</gi> of
@@ -121,6 +125,7 @@
                         <date when="1913-07-05" xml:lang="ar" xml:id="date_12.d1e524">بتاريخ:  <tei:num value="5" xml:lang="ar" xml:id="num_1.d1e581">٥</tei:num>  -  <tei:num value="7" xml:lang="ar" xml:id="num_1.d1e584">٧</tei:num>  -  <tei:num value="1913" xml:lang="ar" xml:id="num_1.d1e587">١٩١٣</tei:num> </date>
                     </bibl>
                 </head>
+            <pb ed="print"/>
                 <pb ed="shamela" n="n30-p1" corresp="file:../epub/29676/OEBPS/xhtml/P929.xhtml" xml:id="pb_1.d1e529"/>
 
 
@@ -133,14 +138,7 @@
                         ألست بربكم قالوا بلى) والحشر هو عبارة عن سوق المخلوقات جميعاً إلى الموقف وهو
                         الموضع الذي يقفون فيه لفصل القضاء بينهم ولا فرق في ذلك بين من يحاسب كالمكلف
                         وبين غيره.</p>
-                    <p xml:lang="ar" xml:id="p_17.d1e542">البعث والحشر من الأمور التي يجب اعتقادها لثبوتهما بالبراهين النقلية والعقلية
-                        التي تذعن لها العقول الصحيحة وتطمئن لذكراها البصائر النافذة فمن الأدلة
-                        النقلية قوله تعالى: (قال من يحيي العظام وهي رميم قل يحييها الذي أنشأها أول
-                        مرة) وقوله تعالى: (وهو الذي يبدأ الخلق ثم يعيده وقوله عز شأنه: (أيحسب
-                        الإنسان أن لن نجمع عظامه بلى قادرين على أن نسوي بنانه) وقد أخرج البخاري
-                        ومسلم عن حديث ابن عباس رضي الله عنهما قال إنكم محشورون إلى الله إلى غير ذلك
-                        مما ورد في الشرع الأنور وأما الأدلة العقلية فسيأتي ذكرها إن شاء الله
-                        تعالى.</p>
+                    <p xml:id="p_17.d1e542" xml:lang="ar">البعث والحشر من الأمور التي يجب اعتقادها لثبوتهما بالبراهين النقلية والعقلية التي تذعن لها العقول الصحيحة وتطمئن لذكراها البصائر النافذة فمن الأدلة النقلية قوله تعالى: (قال من يحيي العظام وهي رميم قل يحييها <pb ed="print"/>الذي أنشأها أول مرة) وقوله تعالى: (وهو الذي يبدأ الخلق ثم يعيده وقوله عز شأنه: (أيحسب الإنسان أن لن نجمع عظامه بلى قادرين على أن نسوي بنانه) وقد أخرج البخاري ومسلم عن حديث ابن عباس رضي الله عنهما قال إنكم محشورون إلى الله إلى غير ذلك مما ورد في الشرع الأنور وأما الأدلة العقلية فسيأتي ذكرها إن شاء الله تعالى.</p>
                     <p xml:lang="ar" xml:id="p_18.d1e545">البعث والحشر أصلبان من أصول الديانة افسلامية بل التصديق بهما أساس كل دين
                         وأقوم وسيلة لإحقاق الحق والوقوف عن الحد. مسألة المصير بعد الموت طالما كانت
                         الشغل الشاغل لأساطين العلماء وكبار الفلاسفة والظاهر أن حب الحياة جعلهم
@@ -149,57 +147,9 @@
                         من هذا العالم الدنيوي والانتقال من دار ضيقة الساحات كثيرة الآفات خليقة بأن
                         تسمى بيت الأكدار وقرارة الأحزان والآلام إلى دار وسيعة الساحات فسيحة الباحات
                         لا فيها غول ولا تأثيم.</p>
-                    <p xml:lang="ar" xml:id="p_19.d1e549">لذلك ترى أهل الملل كافة وجمهور المحققين من الفلاسفة متفقين على حقيقة المعاد
-                        وإن اختلفوا في كيفيته على ما سيتضح للقارئ إلا شرذمة من الطبيعيين الذين
-                        أعماهم الضلال وأرهقتهم الغواية واستزلهم شيطان الوهم فهوى بهم إلى أخس منزلة
-                        من منازل السخافة وزعموا أن لا حياة للإنسان بعد هذه الحياة وأنه لا يختلف عن
-                        النباتات الأرضية التي <pb ed="shamela" n="n30-p2" corresp="file:../epub/29676/OEBPS/xhtml/P930.xhtml" xml:id="pb_2.d1e551"/> تتفرق أجزاؤها
-                        فتدخل في تركيب آخر وهكذا يبقى بين التحليل والتركيب فتارة يكون جزءاً من إنسان
-                        وتارة ناباً من ثعبان وآونة ورقة من أغصان وغيرها ذنباً في حيوان وهلم جرا
-                        وذهبوا إلى أن العبد يستوفي في هذه الحياة حظوظه من الشهوات البهيمية وبهذا
-                        الزعم الفاسد والمذهب الباطل أطلقوا النفوس من قيد التأثم ودفعوها إلى أنواع
-                        العدوان وسهلوا لها الغدر والخيانة وحملوها على فعل كل خبيثة واقتراف كل رذيلة
-                        وأعرضوا بالعقول عن كسب الكمال البشري وأعدموها الرغبة في كشف الحقائق وتعرف
-                        أسرار الكائنات.</p>
-                    <p xml:lang="ar" xml:id="p_20.d1e554">هذه الشرذمة الطاغية أنكرت الروح والملأ الأعلى والخلود والبعث والحشر والعقاب
-                        والثواب جهلاً وعناداً زاعمين أن ذلك كله من خيالات الأفكار القديمة وبقية من
-                        توهمات السالفين وليس في الوجود شيء غير المادة وقوتها الذاتية وأخذت تتبجح
-                        بطلب الأدلة الحسية لا العقلية حتى أنك لو أتيتهم بأعظم البراهين العقلية
-                        والدلائل القطعية والإقناعية لقالوا أن هو إلا تصوير خيالي أو فكر وهمي فبينما
-                        يموجون في دياجير الحيرة ويضطربون في غياهب الغواشي الوهمية إذا هم بآية عظمى
-                        ظلت أعناقهم لهم خاضعة وقارعة كبرى أضحت عقولهم أمامها حائرة وهي التنويم
-                        المغناطيسي ثم تلاه فن استحضار الأرواح وتجسدها المشهور (بالأسبيرنيزم) فكانت
-                        النتيجة انهزام تلك الشرذمة العائثة في الأرض فساداً انهزاماً لا يقوم لها بعده
-                        علم ولا يرفع لها صوت. قال فريد بك وجدي في كتابه كنز العلوم عند الكلام على
-                        مادة (آخرة) هي الحياة الآخرة التي وعد الله عباده بها والناس بإزاء العقيدة
-                        بها في <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="4" xml:id="num_1.d1e667">أربع</num> مراتب (أولها) رتبة أهل الله وخاصته وهؤلاء قد انكشف لهم الحال
-                        فرأوا بأعينهم ما لا يدركه غيرهم بعقولهم فاعتقدوا بالآخرة عقيدة عيانية حسية
-                        وهؤلاء هم الأنبياء والصديقون (ثانيها) رتبة أهل البصائر النافذة وأولئك يكفيهم
-                        مجرد النظر في ملك الله وملكوته وما أودع فيهما من أعلام بينة وأدلة ناطقة
-                        (ثالثها) رتبة الحسيين الذين لا يرضيهم من العقائد إلا ما يؤثر على حسهم ويدهش
-                        مشاعرهم.</p>
-                    <p xml:lang="ar" xml:id="p_21.d1e557">أما الرتبتان الأوليان فقد هداهما الله بنوره ودلهم على الطريق بتوفيقه وهل بعد
-                        قوله تعالى: (من يحيي العظام وهي رميم قل يحييها من أنشأها أول مرة) مطمع
-                        لمستزيد. أما الرتبة الثالثة فنحيلها إلى ما كتبناه تحت عنوان (أنبوتزم
-                        ومانيتيزم وإسبرتزم) فإن هذه المباحث من الأدلة المحسوسة على وجود الروح ما جدع
-                        أنف الإلحاد الأوروبي وبلغ مقتله وهناك <pb ed="shamela" n="n30-p3" corresp="file:../epub/29676/OEBPS/xhtml/P931.xhtml" xml:id="pb_3.d1e559"/> رتبة رابعة وهي
-                        التي لا يقنعها بل ولا تريد أن تقنع فهي الرتبة السفلى التي ظهرت في كل جيل وكل
-                        قرن وكانت جائحة على الفضيلة والإنسانية إلا أنها ما نجمت حتى اجتثت وما طارت
-                        حتى قصت. ولقد كانت في أوائل هذا القرن والذي قبله أشسد مما كانت عليه في أي
-                        جيل من الأجيال أدرعت بالعلوم الطبيعية واستلامت بالتجارب الفنية وقامة قومة
-                        أطاشت بها الأحلام وزعزعت بها أطواد الأفئدة تصيح على وجوه الناس الحس الحس
-                        التجربة التجربة إياكم والوهم احذروا الخيال. فلم يلبثوا على غلوائهم ردحاً من
-                        الزمن حتى قرعهم الله بقارعة (الإسبرتزم) مذهب استحضار الأرواح فإذا هم حيارى
-                        لا يدرون ما يفعلون فقاوموه وشنعوا عليه وعلى أشياعه ثم جالوا فيه جولة حسية
-                        وإذا بأماثلهم يقولون كما يقول الأستاذ الطائر الصيت <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_2.d1e675">أحد</num> أركان العلوم
-                        الفزيولوجية العصرية (روسل ولاس) الإنجليزي مكتشف ناموس (الانتخاب الطبيعي) قال
-                        في كتابه (معجزات العصر الحاضر) لقد كنت دهرياً صرفاً مقتنعاً بمذهبي تمام
-                        الاقتناع ولم يكن في ذهني أدنى محل للتصديق بحياة روحية ولا بوجود عامل في هذا
-                        الكون كله غير المادة وقوتها ولكني رأيت أن المشاهدات الحسية لن تغالب فإنها
-                        قهرتني وأجبرتني على اعتبارها أشياء مثبتة قبل أن أعتقد نسبتها إلى الأرواح
-                        بمدة طويلة ثم أخذت هذه المشاهدات مكاناً في عقلي شيئاً فشيئاً ولم يكن ذلك
-                        بطريقة نظرية تصورية ولكن بتأثير المشاهدات التي كان يتلو بعضها لبعضاً بطريقة
-                        لا يمكن التخلص منها بوسيلة أخرى (أي بغير نسبتها إلى الأرواح) أ. هـ.</p>
+                    <p xml:id="p_19.d1e549" xml:lang="ar">لذلك ترى أهل الملل كافة وجمهور المحققين من الفلاسفة متفقين على حقيقة المعاد وإن اختلفوا في كيفيته على ما سيتضح للقارئ إلا شرذمة من الطبيعيين الذين أعماهم الضلال وأرهقتهم الغواية واستزلهم شيطان الوهم فهوى بهم إلى أخس منزلة من منازل السخافة وزعموا أن لا حياة للإنسان بعد هذه الحياة وأنه لا يختلف عن النباتات الأرضية التي <pb corresp="file:../epub/29676/OEBPS/xhtml/P930.xhtml" ed="shamela" n="n30-p2" xml:id="pb_2.d1e551"/> تتفرق أجزاؤها فتدخل في تركيب آخر وهكذا يبقى بين التحليل والتركيب فتارة يكون جزءاً من إنسان وتارة ناباً من ثعبان وآونة ورقة من أغصان وغيرها ذنباً في <pb ed="print"/>حيوان وهلم جرا وذهبوا إلى أن العبد يستوفي في هذه الحياة حظوظه من الشهوات البهيمية وبهذا الزعم الفاسد والمذهب الباطل أطلقوا النفوس من قيد التأثم ودفعوها إلى أنواع العدوان وسهلوا لها الغدر والخيانة وحملوها على فعل كل خبيثة واقتراف كل رذيلة وأعرضوا بالعقول عن كسب الكمال البشري وأعدموها الرغبة في كشف الحقائق وتعرف أسرار الكائنات.</p>
+                    <p xml:id="p_20.d1e554" xml:lang="ar">هذه الشرذمة الطاغية أنكرت الروح والملأ الأعلى والخلود والبعث والحشر والعقاب والثواب جهلاً وعناداً زاعمين أن ذلك كله من خيالات الأفكار القديمة وبقية من توهمات السالفين وليس في الوجود شيء غير المادة وقوتها الذاتية وأخذت تتبجح بطلب الأدلة الحسية لا العقلية حتى أنك لو أتيتهم بأعظم البراهين العقلية والدلائل القطعية والإقناعية لقالوا أن هو إلا تصوير خيالي أو فكر وهمي فبينما يموجون في دياجير الحيرة ويضطربون في غياهب الغواشي الوهمية إذا هم بآية عظمى ظلت أعناقهم لهم خاضعة وقارعة كبرى أضحت عقولهم أمامها حائرة وهي التنويم المغناطيسي ثم تلاه فن استحضار الأرواح وتجسدها المشهور (بالأسبيرنيزم) فكانت النتيجة انهزام تلك الشرذمة العائثة في الأرض فساداً انهزاماً لا يقوم لها بعده علم ولا يرفع لها صوت. قال فريد بك وجدي في كتابه كنز العلوم عند الكلام على مادة (آخرة) هي الحياة الآخرة التي وعد الله عباده بها والناس بإزاء العقيدة بها في <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_1.d1e667" xml:lang="ar">أربع</num> مراتب (أولها) رتبة أهل الله وخاصته وهؤلاء قد انكشف لهم الحال فرأوا بأعينهم ما لا يدركه غيرهم بعقولهم فاعتقدوا بالآخرة عقيدة عيانية حسية وهؤلاء هم الأنبياء والصديقون (ثانيها) رتبة أهل البصائر النافذة وأولئك يكفيهم مجرد النظر في ملك الله وملكوته وما أودع فيهما <pb ed="print"/>من أعلام بينة وأدلة ناطقة (ثالثها) رتبة الحسيين الذين لا يرضيهم من العقائد إلا ما يؤثر على حسهم ويدهش مشاعرهم.</p>
+                    <p xml:id="p_21.d1e557" xml:lang="ar">أما الرتبتان الأوليان فقد هداهما الله بنوره ودلهم على الطريق بتوفيقه وهل بعد قوله تعالى: (من يحيي العظام وهي رميم قل يحييها من أنشأها أول مرة) مطمع لمستزيد. أما الرتبة الثالثة فنحيلها إلى ما كتبناه تحت عنوان (أنبوتزم ومانيتيزم وإسبرتزم) فإن هذه المباحث من الأدلة المحسوسة على وجود الروح ما جدع أنف الإلحاد الأوروبي وبلغ مقتله وهناك <pb corresp="file:../epub/29676/OEBPS/xhtml/P931.xhtml" ed="shamela" n="n30-p3" xml:id="pb_3.d1e559"/> رتبة رابعة وهي التي لا يقنعها بل ولا تريد أن تقنع فهي الرتبة السفلى التي ظهرت في كل جيل وكل قرن وكانت جائحة على الفضيلة والإنسانية إلا أنها ما نجمت حتى اجتثت وما طارت حتى قصت. ولقد كانت في أوائل هذا القرن والذي قبله أشسد مما كانت عليه في أي جيل من الأجيال أدرعت بالعلوم الطبيعية واستلامت بالتجارب الفنية وقامة قومة أطاشت بها الأحلام وزعزعت بها أطواد الأفئدة تصيح على وجوه الناس الحس الحس التجربة التجربة إياكم والوهم احذروا الخيال. فلم يلبثوا على غلوائهم ردحاً من الزمن حتى قرعهم الله بقارعة (الإسبرتزم) مذهب استحضار الأرواح فإذا هم حيارى لا يدرون ما يفعلون فقاوموه وشنعوا عليه وعلى أشياعه ثم جالوا فيه جولة حسية وإذا بأماثلهم يقولون كما يقول الأستاذ الطائر الصيت <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_2.d1e675" xml:lang="ar">أحد</num> أركان العلوم الفزيولوجية العصرية (روسل ولاس) الإنجليزي مكتشف ناموس (الانتخاب الطبيعي) قال في كتابه (معجزات العصر الحاضر) لقد كنت دهرياً صرفاً مقتنعاً بمذهبي تمام الاقتناع ولم يكن في ذهني أدنى محل للتصديق بحياة روحية ولا بوجود عامل في هذا الكون كله غير المادة وقوتها ولكني <pb ed="print"/>رأيت أن المشاهدات الحسية لن تغالب فإنها قهرتني وأجبرتني على اعتبارها أشياء مثبتة قبل أن أعتقد نسبتها إلى الأرواح بمدة طويلة ثم أخذت هذه المشاهدات مكاناً في عقلي شيئاً فشيئاً ولم يكن ذلك بطريقة نظرية تصورية ولكن بتأثير المشاهدات التي كان يتلو بعضها لبعضاً بطريقة لا يمكن التخلص منها بوسيلة أخرى (أي بغير نسبتها إلى الأرواح) أ. هـ.</p>
                     <p xml:lang="ar" xml:id="p_22.d1e562">يقول روسل ولاس هذا ومن هو روسل ولاس ويردد قوله أخوانه اللوف من علماء الأرض
                         كما تراه في كلمة (إسبرتزم) ولكن يوجد من الناس هنا من يدعي أن هؤلاء هاذون.
                         وإذا كان هؤلاء هاذين فمن هم المدققون الحسيون بخ بخ ولماذا هم هاذون؟ ألأنهم
@@ -213,21 +163,8 @@
                         المصابين في <pb ed="shamela" n="n30-p4" corresp="file:../epub/29676/OEBPS/xhtml/P932.xhtml" xml:id="pb_4.d1e570"/> كروبها وشدائدها
                         وفي المستقبل العجب العجاب فواها لمن تاب وأناب وآها لمن أصر واستكبر واستأسد
                         وتنمرد (كتب الله لأغلبن أنا ورسلي إن الله قوي عزيز).</p>
-                    <p xml:lang="ar" xml:id="p_25.d1e574">وقال أيضاً في كتابه (الإسلام في عصر العلم) سيرى النوع الإنساني وراء هذه
-                        المسألة (استحضار الرواح) إن شاء الله العجب العجاب في قصم ظهور الملحدين وفصم
-                        عرى خزعبلات الماديين والله غالب على أمره ولا معقب لحكمه.</p>
-                    <p xml:lang="ar" xml:id="p_26.d1e577">أما لدينا معشر المسلمين فمسألة ظهور الأرواح للأحياء من الأمور الشائعة
-                        للصالحين والمقربين ونظن أنه لا يوجد و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_3.d1e696">احد</num> من المسلمين ولم يقرأ في كتاب أو لم
-                        يسمع من قارئ أن روح فلان الصالح ظهرت لفلان التقي وحصل بينهما كيت وكيت من
-                        المحادثات والمحاضرات بل كثيراً ما تروي العامة أموراً تدل على معرفتها بمسألة
-                        ظهور الأرواح للناس مثل روايتهم عن بعضهم أن فلاناً تاه في الصحراء وألمت به
-                        الحيرة من كل جانب ولما أوشك أن يقع في اليأس إذا برجل مرتد بثياب بيضاء وعليه
-                        جمال وبهاء جاء إليه فدله على الطريق وأزال عنه بوائق التعويق ثم يعقب قوله بأن
-                        ذلك الشخص لا شك في أنه روح التقي فلان الخ من أمثال هذه الأخبار التي لا يليق
-                        بنا إنكارها على عجل وإن كانت تعوز النظر وللعلماء المحققين أدلة عقلية على
-                        بطلان ما جنح إليه الطبيعيون ودحض مذهبهم الذي ليس له ظل في الحقيقة ولا وجه من
-                        الصحة. <pb ed="shamela" n="n30-p5" corresp="file:../epub/29676/OEBPS/xhtml/P933.xhtml" xml:id="pb_5.d1e579"/>
-                    </p>
+                    <p xml:id="p_25.d1e574" xml:lang="ar">وقال أيضاً في كتابه (الإسلام في عصر العلم) سيرى النوع الإنساني وراء هذه المسألة (استحضار الرواح) إن شاء الله العجب العجاب في قصم ظهور الملحدين وفصم عرى خزعبلات الماديين والله غالب على أمره ولا معقب لحكمه.<pb ed="print"/></p>
+                    <p xml:id="p_26.d1e577" xml:lang="ar">أما لدينا معشر المسلمين فمسألة ظهور الأرواح للأحياء من الأمور الشائعة للصالحين والمقربين ونظن أنه لا يوجد و<num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_3.d1e696" xml:lang="ar">احد</num> من المسلمين ولم يقرأ في كتاب أو لم يسمع من قارئ أن روح فلان الصالح ظهرت لفلان التقي وحصل بينهما كيت وكيت من المحادثات والمحاضرات بل كثيراً ما تروي العامة أموراً تدل على معرفتها بمسألة ظهور الأرواح للناس مثل روايتهم عن بعضهم أن فلاناً تاه في الصحراء وألمت به الحيرة من كل جانب ولما أوشك أن يقع في اليأس إذا برجل مرتد بثياب بيضاء وعليه جمال وبهاء جاء إليه فدله على الطريق وأزال عنه بوائق التعويق ثم يعقب قوله بأن ذلك الشخص لا شك في أنه روح التقي فلان الخ من أمثال هذه الأخبار التي لا يليق بنا إنكارها على عجل وإن كانت تعوز النظر وللعلماء المحققين أدلة عقلية على بطلان ما جنح إليه الطبيعيون ودحض مذهبهم الذي ليس له ظل في الحقيقة ولا وجه من الصحة. <pb ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P933.xhtml" ed="shamela" n="n30-p5" xml:id="pb_5.d1e579"/> </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_3.d1e583">
                     <head xml:lang="ar" xml:id="head_3.d1e585">أغلاط لسان العرب</head>
@@ -243,8 +180,7 @@
                             <seg xml:lang="ar" xml:id="seg_2.d1e601"> د الوعل والأرخ</seg>
                         </l>
                     </lg>
-                    <p xml:lang="ar" xml:id="p_29.d1e606">ولد البقرة ويخرمس أي يسكت أو لا طوم الضمام بين شفتيه والصواب (والأطوم) بتقديم
-                        واو العطف على ال<num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000" xml:id="num_4.d1e746">ألف</num> وهو ظاهر.</p>
+                    <p xml:id="p_29.d1e606" xml:lang="ar">ولد البقرة ويخرمس أي يسكت أو لا طوم الضمام <pb ed="print"/>بين شفتيه والصواب (والأطوم) بتقديم واو العطف على ال<num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_4.d1e746" xml:lang="ar">ألف</num> وهو ظاهر.</p>
                     <p xml:lang="ar" xml:id="p_30.d1e610">(وفي مادة ج ع د سطر  <tei:num value="95" xml:lang="ar" xml:id="num_1.d1e697">٩٥</tei:num> ) روي قول الراجز</p>
                     <lg xml:lang="ar" xml:id="lg_2.d1e613">
                         <l type="bayt" xml:lang="ar" xml:id="l_2.d1e615">
@@ -263,29 +199,14 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_33.d1e643">وضبط (لجدات) بفتح التاء كأنهم توهموه ممنوع من الصرف والصواب كسرها مع
                         التنوين.</p>
-                    <p xml:lang="ar" xml:id="p_34.d1e647">(وفي مادة س ن د ص  <tei:num value="205" xml:lang="ar" xml:id="num_1.d1e740">٢٠٥</tei:num>  سطر  <tei:num value="18" xml:lang="ar" xml:id="num_1.d1e743">١٨</tei:num> ) والسند مثقل سنود القوم في الجبل. وفي حديث <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_5.d1e802">أحد</num>
-                        رأيت التساء يسندن في الجبل أي يصعدون ويروي بالشين المعجمة وسنذكره والمراد
-                        بالمثقل المشدد كما لا يخفى وليس في لفظ (السند) حرف مشددة إلا السين وهي لا
-                        تكون إلا مشددة متى سبقتها أداة التعريف لأنها من الحروف الشمسية وحكمها معلوم
-                        ولا نرى أحداً يعنى بالنص على مصلها بل أحر بأن تكون النص هنا مدعاة للاضطراب
-                        في ضبط الكلمة إذ قد يتبادر أن التشديد في غير هذا الحرف فيقع الإشكال. ومثل
-                        هذا وإن كان خارجاً عما نتعرض له وليس مقصوداً بالذات من ذكره هنا إلا أنه شيء
-                        عرض فقلنا فيه بما ظهر لنا. ولا ندري عمن نقل المصنف هذه الجملة.</p>
+                    <p xml:id="p_34.d1e647" xml:lang="ar">(وفي مادة س ن د ص <tei:num value="205" xml:id="num_1.d1e740" xml:lang="ar">٢٠٥</tei:num> سطر <tei:num value="18" xml:id="num_1.d1e743" xml:lang="ar">١٨</tei:num> ) والسند مثقل سنود القوم في الجبل. وفي حديث <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_5.d1e802" xml:lang="ar">أحد</num> رأيت التساء يسندن في الجبل أي يصعدون ويروي بالشين المعجمة وسنذكره والمراد بالمثقل المشدد كما لا يخفى وليس في لفظ (السند) حرف مشددة إلا السين وهي لا تكون إلا مشددة متى سبقتها أداة التعريف لأنها من الحروف الشمسية وحكمها معلوم ولا نرى أحداً يعنى بالنص على مصلها بل أحر بأن تكون النص هنا مدعاة للاضطراب في ضبط الكلمة إذ قد يتبادر أن التشديد في غير هذا الحرف فيقع الإشكال. ومثل هذا وإن كان خارجاً عما نتعرض له وليس مقصوداً بالذات من ذكره هنا إلا أنه <pb ed="print"/>شيء عرض فقلنا فيه بما ظهر لنا. ولا ندري عمن نقل المصنف هذه الجملة.</p>
                     <p xml:lang="ar" xml:id="p_35.d1e650">أما الحديث وما بعده فمنقول من نهاية ابن الأثير. والمتبادر من قوله ويروى
                         بالشين <pb ed="shamela" n="n30-p6" corresp="file:../epub/29676/OEBPS/xhtml/P934.xhtml" xml:id="pb_6.d1e652"/> المعجمة وسنذكره
                         أنه مذكور في (ش ن د) مع أن هذه المادة لا وجود لها في الكتابين ولا في كتب
                         اللغة التي بأيدينا ولكن الذي ذكره الإمام السيوطي في مختصر النهاية عن الكلام
                         على (سند) أن الرواية الأخرى في الحديث (يشتددن) أي من الشد بمعنى افسراع في
                         المشي. وبمراجعة باب الشين من النهاية وجدنا فيه ما نصه.</p>
-                    <p xml:lang="ar" xml:id="p_36.d1e655">وفي حديث <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_6.d1e813">أحد</num> حتى رأيت النساء يشتددن في الجبل أي يعدون هكذا جاءت اللفظة في
-                        كتاب الحميدي. والذي جاء في كتاب البخاري يشتدن هكذا جاء بدال واحدة والذي جاء
-                        بغيرهما يسندن بالسين المهملة والنون أي يصعدن فيه فإن صحت الكلمة على ما في
-                        البخاري وكثيراً ما يجيء أمثالها في كتب الحديث وهو قبيح في العربية لأن
-                        الإدغام إنما جاز في الحرف المضعف لما سكن الأول وتحرك الثاني فأما مع جماعة
-                        النساء فإن التضعيف يظهر أن ما قبل نون النسوة لا يبكون إلا ساكناً فيلتقي
-                        ساكنان فيحرك الأول وينفك الإدغام فتقول يشتددن فيمكن تخريجه على لغة بعض العرب
-                        من بكر بن وائل يقولون ردتُ وردتَ وردن يريدون رددت ورددت ورددن قال الخليل
-                        كأنهم قدروا الإدغام قبل دخول التاء والنون فيكون لفظ الحديث يشتدن أ. هـ</p>
+                    <p xml:id="p_36.d1e655" xml:lang="ar">وفي حديث <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_6.d1e813" xml:lang="ar">أحد</num> حتى رأيت النساء يشتددن في الجبل أي يعدون هكذا جاءت اللفظة في كتاب الحميدي. والذي جاء في كتاب البخاري يشتدن هكذا جاء بدال واحدة والذي جاء بغيرهما يسندن بالسين المهملة والنون أي يصعدن فيه فإن صحت الكلمة على ما في البخاري وكثيراً ما يجيء أمثالها في كتب الحديث وهو قبيح في العربية لأن الإدغام إنما جاز في الحرف المضعف لما سكن الأول وتحرك الثاني فأما مع جماعة النساء فإن التضعيف يظهر أن ما قبل نون النسوة لا يبكون إلا ساكناً فيلتقي ساكنان فيحرك الأول وينفك الإدغام فتقول يشتددن فيمكن تخريجه على لغة بعض العرب من بكر بن وائل يقولون ردتُ وردتَ وردن يريدون رددت ورددت ورددن قال الخليل كأنهم قدروا الإدغام قبل دخول التاء والنون فيكون لفظ الحديث يشتدن أ. هـ<pb ed="print"/></p>
                     <p xml:lang="ar" xml:id="p_37.d1e658">وقد نقل صاحب اللسان هذه العبارة بنصها في مادة (ش د د صفحة  <tei:num value="220" xml:lang="ar" xml:id="num_1.d1e757">٢٢٠</tei:num> ) إلا أن ضبط بعض
                         الكلمات وقع مخالفاً لما فيها فضبطوا (يشتدن) في الموضعين هكذاب بإسكان الدال
                         المخففة كما ضبطوا (ردت) وما بعده بالإسكان والتخفيف أيضاً والكلام في ذلك هو
@@ -295,20 +216,8 @@
                         كانت الدال ساكنة مخففة كما ضبطت في اللسان لكان الفعل على بابه مع الضمير ولم
                         هناك وجه للاستقباح. وكأن المصحح اغتر بقوله (يشتدن هكذا بدال واحدة) فظنه نصاً
                         على حذف <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_7.d1e825">إحدى</num> الدالين ولم يفطن لما جاء بعده في العبارة فوقع في هذا الضبط.</p>
-                    <p xml:lang="ar" xml:id="p_39.d1e664">ويعضد ما ذكرنا قول الإمام ابن مالك في التسهل: والإدغام قبل الضمير لغة وقول
-                        أبي حيان في شرحه قوله لغة هي لغة ناس من بكر بن وائل يقولون ردن ومرن وردت
-                        وهذه لغة ضعيفة كأنهم قدروا الإدغام قبل دخول النون والتاء فأبقوا اللفظ على
-                        حاله عندما دخلتا <pb ed="shamela" n="n30-p7" corresp="file:../epub/29676/OEBPS/xhtml/P935.xhtml" xml:id="pb_7.d1e666"/> وحكى بعض الكوفيين
-                        في هذا ردن يزيد نوناً ساكنة قبل نون الإناث ويدغمها فيها أن نون الإناث لا
-                        يكون ما قبلها إلا ساكناً وكأنه حافظ على بقاء الإدغام فزاد هذه النون أ. هـ
-                        وقال الدماميني: (وبعضهم يزيد ألفاً فيقول ردات وهو في غاية الشذوذ) أ. هـ أي
-                        بزيادة ال<num xml:lang="ar" type="auto-markup" subtype="d4" resp="#pers_TG" value="1000" xml:id="num_8.d1e833">ألف</num> قبل تاء الضمير كما في شرح التسهيل لعلي باشا. وقد تكلم سيبويه عن
-                        هذه اللغة في باب اختلاف العرب في تحريك الآخر الخ من الكتبا (ج <tei:num value="2" xml:lang="ar" xml:id="num_1.d1e768">٢</tei:num>  ص  <tei:num value="160" xml:lang="ar" xml:id="num_1.d1e771">١٦٠</tei:num> ) من
-                        النسخة المطبوعة ببولاق.</p>
-                    <p xml:lang="ar" xml:id="p_40.d1e670">(وفي مادة ص ي د صفحة  <tei:num value="249" xml:lang="ar" xml:id="num_1.d1e778">٢٤٩</tei:num>  سطر <tei:num value="8" xml:lang="ar" xml:id="num_1.d1e781">٨</tei:num> ) (وقد يقع الصيد على المصيد نفسه تسمية بالمصدر
-                        كقوله تعالى لا تقتلوا الصيد وأنتم حرم) وضبط (الصيد) بكسر الصاد والثواب فتحها
-                        لأن مصدر صاد مفتوح الأول قياساً وحسبك استشهاده بالآية الكريمة وهو فيها مفتوح
-                        كما لا يخفى.</p>
+                    <p xml:id="p_39.d1e664" xml:lang="ar">ويعضد ما ذكرنا قول الإمام ابن مالك في التسهل: والإدغام قبل الضمير لغة وقول أبي حيان في شرحه قوله لغة هي لغة ناس من بكر بن وائل يقولون ردن ومرن وردت وهذه لغة ضعيفة كأنهم قدروا الإدغام قبل دخول النون والتاء فأبقوا اللفظ على حاله عندما دخلتا <pb corresp="file:../epub/29676/OEBPS/xhtml/P935.xhtml" ed="shamela" n="n30-p7" xml:id="pb_7.d1e666"/> وحكى بعض الكوفيين في هذا ردن يزيد نوناً ساكنة قبل نون الإناث ويدغمها فيها أن نون الإناث لا يكون ما قبلها إلا ساكناً وكأنه حافظ على بقاء الإدغام فزاد هذه النون أ. هـ وقال الدماميني: (وبعضهم يزيد ألفاً فيقول ردات وهو في غاية الشذوذ) أ. هـ أي بزيادة ال<num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_8.d1e833" xml:lang="ar">ألف</num> قبل تاء الضمير كما في شرح التسهيل لعلي باشا. وقد تكلم سيبويه عن هذه اللغة في باب اختلاف <pb ed="print"/>العرب في تحريك الآخر الخ من الكتبا (ج <tei:num value="2" xml:id="num_1.d1e768" xml:lang="ar">٢</tei:num> ص <tei:num value="160" xml:id="num_1.d1e771" xml:lang="ar">١٦٠</tei:num> ) من النسخة المطبوعة ببولاق.</p>
+                    <p xml:id="p_40.d1e670" xml:lang="ar">(وفي مادة ص ي د صفحة <tei:num value="249" xml:id="num_1.d1e778" xml:lang="ar">٢٤٩</tei:num> سطر <tei:num value="8" xml:id="num_1.d1e781" xml:lang="ar">٨</tei:num> ) (وقد يقع الصيد على المصيد نفسه تسمية بالمصدر كقوله تعالى لا تقتلوا الصيد وأنتم حرم) وضبط (الصيد) بكسر الصاد والثواب فتحها لأن مصدر صاد مفتوح الأول قياساً وحسبك استشهاده بالآية الكريمة وهو فيها مفتوح كما لا يخفى.<pb ed="print"/></p>
                     <p xml:lang="ar" xml:id="p_41.d1e673">(وفي مادة ع ق د أول صفحة  <tei:num value="290" xml:lang="ar" xml:id="num_1.d1e787">٢٩٠</tei:num> ) روي لجرير:</p>
                     <lg xml:lang="ar" xml:id="lg_4.d1e676">
                         <l type="bayt" xml:lang="ar" xml:id="l_4.d1e678">
@@ -360,9 +269,7 @@
                         إذا اتبعنا النعت الأخير بعد قطع ما تقدمه ولا يخفى عدم جوازه على الصحيح على
                         أن مثل هذا الاختلاف لو كان مروياً في البيت ما سكت عنه رواة المعلقات وشراحها
                         وهم يتناولون بالنص ما هو أقرب منه.</p>
-                    <p xml:lang="ar" xml:id="p_52.d1e770">وأوضح ألا تراهم كيف قالوا برفع يوم ونصبه وجره في قول امرئ القيس (ولا سيما يوم
-                        بدارة جلجل) على أنها روايات فيه ولم يقتصروا على ما تجوزه أحكام (سيما) أن
-                        أحكام العربية إنما بنيت في الأصل على ما نطق به العرب.</p>
+                    <p xml:id="p_52.d1e770" xml:lang="ar">وأوضح ألا تراهم كيف قالوا برفع يوم ونصبه وجره في قول امرئ القيس <pb ed="print"/>(ولا سيما يوم بدارة جلجل) على أنها روايات فيه ولم يقتصروا على ما تجوزه أحكام (سيما) أن أحكام العربية إنما بنيت في الأصل على ما نطق به العرب.</p>
                     <p xml:lang="ar" xml:id="p_53.d1e774">فإن قيل لو جرينا على ما ذكرتم في كل بيت يروى فذا لاحتجنا فيه إلى معرفة
                         الرواية أو الوقوف على ما قبله أو بعده وهو ما يكاد مستحيلاً علينا في أغلب
                         شواهد اللسان وغيرها قلنا نما نقول بذلك فيما عرف وجهه أما ما لم يعرف فلا حرج
@@ -370,10 +277,7 @@
                         مثل ما مر ما يقضي بالعجب ويحكم لك بصحة ما ذهبنا إليه فمنه ما روي لأبي ذئيب
                         في مادة (ك ور ص  <tei:num value="471" xml:lang="ar" xml:id="num_1.d1e909">٤٧١</tei:num> ).</p>
                     <lg xml:lang="ar" xml:id="lg_9.d1e777">
-                        <l type="bayt" xml:lang="ar" xml:id="l_9.d1e779">
-                            <seg xml:lang="ar" xml:id="seg_17.d1e781">ولا مشبًّ من الثيران أفرده </seg>
-                            <seg xml:lang="ar" xml:id="seg_18.d1e784"> عن كوره كثرة الإغراء والطرد</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_9.d1e779" xml:lang="ar"> <seg xml:id="seg_17.d1e781" xml:lang="ar">ولا مشبًّ من الثيران أفرده </seg> <seg xml:id="seg_18.d1e784" xml:lang="ar"> عن كوره كثرة الإغراء والطرد</seg> <pb ed="print"/></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_54.d1e789">فإنه يصح فيه جر الطرد عطفاً على الإغراء ورفعه عطفاً على كثرة ولكن المصنف نقل
                         عن ابن بري أنه خطأ من رواه بالجر لأن أول القصيدة:</p>
@@ -404,8 +308,7 @@
                             <seg xml:lang="ar" xml:id="seg_24.d1e844"> كواردةٍ يوماً إلى ظمء منهل.</seg>
                         </l>
                     </lg>
-                    <p xml:lang="ar" xml:id="p_61.d1e850">يتبع <pb ed="shamela" n="n30-p10" corresp="file:../epub/29676/OEBPS/xhtml/P938.xhtml" xml:id="pb_10.d1e852"/>
-                    </p>
+                    <p xml:id="p_61.d1e850" xml:lang="ar">يتبع <pb ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P938.xhtml" ed="shamela" n="n30-p10" xml:id="pb_10.d1e852"/> </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_4.d1e856">
                     <head xml:lang="ar" xml:id="head_4.d1e858">تعطيل الأشغال في يوم الجمعة</head>
@@ -421,11 +324,7 @@
                         المنكر. فنقول:</p>
                     <p xml:lang="ar" xml:id="p_65.d1e870">أما التشاغل بالبيع أو غيره يوم المجمعة بعد النداء للصلاة أي الآذان فهو حرام.
                         وقد ورد الوعيد الشديد في ذلك.</p>
-                    <p xml:lang="ar" xml:id="p_66.d1e874">وأما الإجبار من آحاد الناس على تعطيل الأشغال فنه لا يجوز باتفاق المسلمين لا
-                        في يوم الجمعة ولا غيره. سواء حصل الإجبار بالإكراه أو الحياء أو الإلزام بصرف
-                        مال في إعانة خيرية أو نحوه. وسواء صار تحصيل المال الذي ألزم المغرم به خوفاً
-                        من الإهانة أو بطريق الحياء أو بغير ذلك من الوجوه المحرمة. لأن هذا تسلط على
-                        الناس بغير وجه شرعي وهو حرام قطعاً.</p>
+                    <p xml:id="p_66.d1e874" xml:lang="ar">وأما الإجبار من آحاد الناس على تعطيل الأشغال فنه لا يجوز باتفاق المسلمين لا في يوم الجمعة ولا غيره. سواء حصل الإجبار بالإكراه أو الحياء أو الإلزام بصرف مال في إعانة خيرية أو نحوه. وسواء صار تحصيل المال <pb ed="print"/>الذي ألزم المغرم به خوفاً من الإهانة أو بطريق الحياء أو بغير ذلك من الوجوه المحرمة. لأن هذا تسلط على الناس بغير وجه شرعي وهو حرام قطعاً.</p>
                     <p xml:lang="ar" xml:id="p_67.d1e877">وأما التفرغ يوم الجمعة للطاعة والمبادرة إلى المساجد من أول النهار فهو أمر حسن
                         مندوب إليه كما نص على ذلك العلامة ابن حجر في الفتاوى الكبرى وكتب الفقه طافحة
                         فيه وقد جاء كثير من الأحاديث المرغبة في ذلك.</p>
@@ -441,7 +340,7 @@
                     <p xml:lang="ar" xml:id="p_70.d1e888">قلنا ربما يتوهم بعض الناس ذلك ولكن في مرة أو مرتين فقط ثم يعلمون أن من عادتك
                         ترك الأشغال في يوم الجمعة مثلاً أو غيره من الأيام فترتفع الشبهة ويزول هذا
                         التوهم.</p>
-                    <p xml:lang="ar" xml:id="p_71.d1e891">فإن قال إن نفسي لا تسنح أن أترك تجارتي إلا أذ ترك أمثالي تجارتهم أيضاً.</p>
+                    <p xml:id="p_71.d1e891" xml:lang="ar">فإن قال إن نفسي لا تسنح أن أترك تجارتي إلا أذ ترك أمثالي تجارتهم أيضاً.<pb ed="print"/></p>
                     <p xml:lang="ar" xml:id="p_72.d1e895">قلنا إن كنت أنت لا ترضى بذلك فإنه يوجد أناس لا يرضون بترك أشغالعم إما لضرورة
                         أو غيرها. فكيف يسوغ منعهم من شيء أحله الله لهم.</p>
                     <p xml:lang="ar" xml:id="p_73.d1e898">وأيضاً الاتفاق على التعطيل في يوم الأسبوع يكو سبباً لزيادة انتشار الفساد وفيه
@@ -451,20 +350,7 @@
                     <p xml:lang="ar" xml:id="p_74.d1e901">قلنا أن التعطيل يكون سبباً لسهولة الفساد لمن أراده ولمزيد انتشاره بين الناس
                         والاتفاق على تعطيل يوم في الأسبوع فيه تشبه بأهل الكتاب ولو كان غير
                         مقصود.</p>
-                    <p xml:lang="ar" xml:id="p_75.d1e904">وأما قوله تعالى: (يا آيها الذين آمنوا إذا نودي للصلاة من يوم الجمعة فاسعوا
-                        إلى ذكر الله وذروا البيع) فإنه يقتضي تحريم التشاغل والتأخر بعد النداء للصلاة
-                        أي الآذان لها. ولا يتعدى هذا إلى ما قبل النداء. بل الاشتغال بالتجارة ونحوها
-                        قبل النداء باقٍ على أصله وهو الإباحة وكذلك بعد أداء الصلاة كما قال تعالى:
-                        (فإذا قضيت الصلاة فانتشروا في الأرض وابتغوا من فضل الله) أي إذا أديتم الصلاة
-                        فإنها يباح لكم أن تشتغلوا بالتجارة كما قاله كثير من المفسرين كالشهاب الخفاجي
-                        والعلامة الفخر الرازي والمحققين النسفي والخازن وغيرهم. ونقله أيضاً العيني في
-                        شرحه على البخاري بل استقرب العلامة المحقق الشهاب الخفاجي في حاشيته على
-                        البيضاوي أن الاشتغال يوم الجمعة مندوب إليه لما فيه من عدم التشبه بأهل الكتاب
-                        في تعطيل يومي السبت وال<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_9.d1e1116">أحد</num> وهذا اليوم لنا بمنزلتهما. بل قال أن العلامة
-                        السرخسي نقل أنه واجب وذهب جمع من المفسرين إلى أن الابتغاء من فضل الله يكون
-                        بالتجارة أو صلة الرحام أو طلب العلم أو نحوه. وذهب قوم إلى غير ذلك وعلى كل
-                        حال فالأصح أن الاشتغال بالتجارة في يوم الجمعة قبل الآذان وبعد أداء الصلاة إن
-                        لم يكن مندوباً فهو مباح.</p>
+                    <p xml:id="p_75.d1e904" xml:lang="ar">وأما قوله تعالى: (يا آيها الذين آمنوا إذا نودي للصلاة من يوم الجمعة فاسعوا إلى ذكر الله وذروا البيع) فإنه يقتضي تحريم التشاغل والتأخر بعد النداء للصلاة أي الآذان لها. ولا يتعدى هذا إلى ما قبل النداء. بل الاشتغال بالتجارة ونحوها قبل النداء باقٍ على أصله وهو الإباحة وكذلك بعد أداء الصلاة كما قال تعالى: (فإذا قضيت الصلاة فانتشروا في الأرض وابتغوا من فضل الله) أي إذا أديتم الصلاة فإنها يباح لكم أن تشتغلوا بالتجارة كما قاله كثير من المفسرين كالشهاب الخفاجي والعلامة الفخر الرازي والمحققين النسفي والخازن وغيرهم. ونقله أيضاً العيني في شرحه على البخاري بل استقرب العلامة المحقق الشهاب الخفاجي في حاشيته على البيضاوي أن الاشتغال يوم الجمعة مندوب إليه لما فيه من عدم التشبه بأهل الكتاب في تعطيل يومي السبت وال<num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_9.d1e1116" xml:lang="ar">أحد</num> وهذا اليوم لنا بمنزلتهما. بل قال أن العلامة السرخسي نقل أنه واجب وذهب جمع من المفسرين إلى أن الابتغاء من فضل الله يكون بالتجارة أو صلة <pb ed="print"/>الرحام أو طلب العلم أو نحوه. وذهب قوم إلى غير ذلك وعلى كل حال فالأصح أن الاشتغال بالتجارة في يوم الجمعة قبل الآذان وبعد أداء الصلاة إن لم يكن مندوباً فهو مباح.</p>
                     <p xml:lang="ar" xml:id="p_76.d1e907">وأما اتفاق بعض المسلمين على تعطيل يوم في الأسبوع فهو بدعة منكرة لما يترتب
                         عليه <pb ed="shamela" n="n30-p12" corresp="file:../epub/29676/OEBPS/xhtml/P940.xhtml" xml:id="pb_12.d1e909"/> من المفاسد.</p>
                     <p xml:lang="ar" xml:id="p_77.d1e912">أولاً: زيادة انتشار الفساد وتسهيله لمن أراده ويكفينا دليلاً على هذا ما يشاهده
@@ -481,9 +367,7 @@
                         عليه.</p>
                     <p xml:lang="ar" xml:id="p_78.d1e916">ثانياً: إن تعطيل يوم في الأسبوع فيه تشبه بأهل الكتاب ولو كان غير مقصود كما
                         تقدم وقد أمرنا بمخالفتهم.</p>
-                    <p xml:lang="ar" xml:id="p_79.d1e919">ثالثاً: إن التعطيل يكون سبباً للإسراف بصرف الأموال لأن البطالة من أكبر
-                        الدواعي إليه مع أن أهل الحرف وهم أكثر الناس تشتهي عيالهم الأدم وأكثرهم بحالة
-                        من الضيق والفقر تبكي لها القلوب القاسية شفقة وحناناً.</p>
+                    <p xml:id="p_79.d1e919" xml:lang="ar">ثالثاً: إن التعطيل يكون سبباً للإسراف بصرف الأموال لأن البطالة <pb ed="print"/>من أكبر الدواعي إليه مع أن أهل الحرف وهم أكثر الناس تشتهي عيالهم الأدم وأكثرهم بحالة من الضيق والفقر تبكي لها القلوب القاسية شفقة وحناناً.</p>
                     <p xml:lang="ar" xml:id="p_80.d1e922">رابعاً: إذا تم هذا الأمر لا سمح الله فأطفالنا إذا نشؤا عليه يعتقدون أنه من
                         الشعائر الدينية.</p>
                     <p xml:lang="ar" xml:id="p_81.d1e925">خامساً: إذا تم هذا الأمر لا قدر الله تتألف شركات لفتح مقامر ومحال للتياترو
@@ -499,9 +383,7 @@
                         لنا إلا المحافظة على الآداب الإسلامية وتنبيه المسلمين إلى ما يخالف دينهم
                         ويعود عليهم بالانحطاط والضرر كما تشهد بذلك أبحاث مجلتنا فنحن على ثقة بأنهم
                         متى اطلعوا على ما كتبناه وتبين لهم أنه الحق رجعوا إليه.</p>
-                    <p xml:lang="ar" xml:id="p_85.d1e940">وفي الختام نسأل الله تعالى أن يجمع قولبنا على التقوى. وكلمتنا على ما فيه
-                        مصلحتنا وأن يجعلنا من الذين يستمعون الحق فيتبعون أحسنه. <pb ed="shamela" n="n30-p14" corresp="file:../epub/29676/OEBPS/xhtml/P942.xhtml" xml:id="pb_14.d1e942"/>
-                    </p>
+                    <p xml:id="p_85.d1e940" xml:lang="ar">وفي الختام نسأل الله تعالى أن يجمع قولبنا على التقوى. وكلمتنا على ما فيه مصلحتنا وأن يجعلنا من الذين يستمعون الحق فيتبعون أحسنه. <pb ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P942.xhtml" ed="shamela" n="n30-p14" xml:id="pb_14.d1e942"/> </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_5.d1e947">
                     <head xml:lang="ar" xml:id="head_5.d1e949">يا عالم الإسلام</head>
@@ -560,10 +442,7 @@
                             <seg xml:lang="ar" xml:id="seg_49.d1e1069">إذا أنا لم أحفظ عهود حقيقتي </seg>
                             <seg xml:lang="ar" xml:id="seg_50.d1e1072"> فلا بسمت لي يوم حادثة فم</seg>
                         </l>
-                        <l type="bayt" xml:lang="ar" xml:id="l_26.d1e1076">
-                            <seg xml:lang="ar" xml:id="seg_51.d1e1078">إلى العز نفسي تشرئب ومالها </seg>
-                            <seg xml:lang="ar" xml:id="seg_52.d1e1081"> إليه سوى الموت المفجع سلم</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_26.d1e1076" xml:lang="ar"> <seg xml:id="seg_51.d1e1078" xml:lang="ar">إلى العز نفسي تشرئب ومالها </seg> <seg xml:id="seg_52.d1e1081" xml:lang="ar"> إليه سوى الموت المفجع سلم</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_27.d1e1085">
                             <seg xml:lang="ar" xml:id="seg_53.d1e1087">وإني لأوطاني وديني وسؤددي </seg>
                             <seg xml:lang="ar" xml:id="seg_54.d1e1090"> فداء إذا ما حادث بات يحدم</seg>
@@ -632,10 +511,7 @@
                             <seg xml:lang="ar" xml:id="seg_85.d1e1234">فكونوا بناء في المصائب واحداً </seg>
                             <seg xml:lang="ar" xml:id="seg_86.d1e1237"> إذا الدهر يبغي وإذا الشر يهجم</seg>
                         </l>
-                        <l type="bayt" xml:lang="ar" xml:id="l_44.d1e1241">
-                            <seg xml:lang="ar" xml:id="seg_87.d1e1243">أليس من الخسران أن بلادنا </seg>
-                            <seg xml:lang="ar" xml:id="seg_88.d1e1246"> تصاب وأنا في التباغض نوم</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_44.d1e1241" xml:lang="ar"> <seg xml:id="seg_87.d1e1243" xml:lang="ar">أليس من الخسران أن بلادنا </seg> <seg xml:id="seg_88.d1e1246" xml:lang="ar"> تصاب وأنا في التباغض نوم</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_45.d1e1250">
                             <seg xml:lang="ar" xml:id="seg_89.d1e1252">أترضون أن نمسي عبيداً جميعنا </seg>
                             <seg xml:lang="ar" xml:id="seg_90.d1e1255"> لمن ليس يهدينا ومن ليس يرحم</seg>
@@ -712,10 +588,8 @@
                             <seg xml:lang="ar" xml:id="seg_125.d1e1417">وفي (الروملي) قد أنزل الخطب رحله </seg>
                             <seg xml:lang="ar" xml:id="seg_126.d1e1420"> وأصبح فيها الظلم وهو مخيم</seg>
                         </l>
-                        <l type="bayt" xml:lang="ar" xml:id="l_64.d1e1424">
-                            <seg xml:lang="ar" xml:id="seg_127.d1e1426">تضايق رحب (الروملي) وهو واسع </seg>
-                            <seg xml:lang="ar" xml:id="seg_128.d1e1429"> بأشلاء جيش (الترك) فالرحب مفعم</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_64.d1e1424" xml:lang="ar"> <seg xml:id="seg_127.d1e1426" xml:lang="ar">تضايق رحب (الروملي) وهو واسع </seg>
+                        <seg xml:id="seg_128.d1e1429" xml:lang="ar"> بأشلاء جيش (الترك) فالرحب مفعم</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_65.d1e1433">
                             <seg xml:lang="ar" xml:id="seg_129.d1e1435">وهناك ذل المسلمون ودمرت </seg>
                             <seg xml:lang="ar" xml:id="seg_130.d1e1438"> بلادهم يا من من الذل يعصم</seg>
@@ -788,10 +662,8 @@
                             <seg xml:lang="ar" xml:id="seg_163.d1e1591">ويا غيرة الإسلام إن بلادنا </seg>
                             <seg xml:lang="ar" xml:id="seg_164.d1e1594"> تصاب ووجه العدل أربد أقتم</seg>
                         </l>
-                        <l type="bayt" xml:lang="ar" xml:id="l_83.d1e1598">
-                            <seg xml:lang="ar" xml:id="seg_165.d1e1600">ويا غيرة الإسلام إن بلادنا </seg>
-                            <seg xml:lang="ar" xml:id="seg_166.d1e1603"> تجور بها الأعداء جوراً وتظلم</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_83.d1e1598" xml:lang="ar"> <seg xml:id="seg_165.d1e1600" xml:lang="ar">ويا غيرة الإسلام إن بلادنا </seg>
+                        <seg xml:id="seg_166.d1e1603" xml:lang="ar"> تجور بها الأعداء جوراً وتظلم</seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_84.d1e1608">
                             <seg xml:lang="ar" xml:id="seg_167.d1e1610">ويا غيرة الإسلام إن بلادنا </seg>
                             <seg xml:lang="ar" xml:id="seg_168.d1e1613"> بها الحق يخبو والمساجد تهدم</seg>
@@ -824,126 +696,22 @@
                         فيها وعدم الشروع في صف قبل إتمام ما قبله.</p>
                     <p xml:lang="ar" xml:id="p_90.d1e1671">قال في الهندية وينبغي للقوم إذا قاموا إلى الصلاة أن يتراصوا ويسدوا الخلل
                         ويسووا بين مناكبهم في الصفوف.</p>
-                    <p xml:lang="ar" xml:id="p_91.d1e1674">ولا بأس أن يأمرهم الإمام بذلك كذا في البحر الرائق شرح كنز الدقائق والقيام في
-                        الصف الأول أفضل من الثاني وفي الثاني أفضل من الثالث وإن وجد في الصف الأول
-                        فرجة دون الصف الثاني يخرق الصف الثاني كذا في القنية.</p>
-                    <p xml:lang="ar" xml:id="p_92.d1e1677">وأفضل مكان المأموم حيث يكون أقرب إلى الإمام. أ. هـ وفي الدر المختار (ولو صلى
-                        على رفوف المسجد إن وجد في صحنه مكاناً كره كقيامه في صف خلف صف فيه فرجة) قال
-                        محشية العلامة الظحطاوي (قوله كقيامه من صف خلف صف) فإنه مكروه وهل الكراهة
-                        تنزيهية أو تحريمية يحرر والذي يرشد إليه قوله عليه الصلاة والسلام ومن قطعه
-                        قطعه الله الثاني أه. وقد نقل عبارته العلامة ابن عابدين وأقرها ثم قال بقي ما
-                        إذا رأى الفرجة بعدما أحرم هل يمشي إليها لم أره صريحاً وظاهر الإطلاق نعم ثم
-                        رأيت من مفسدات الصلاة من الحلية عن الذخيرة إن كان في الصف الثاني فرأى فرجة
-                        في الأول فمشى إليها لم تفسد صلاته لأنه مأمور بالمراصة قال عليه الصلاة
-                        والسلام تراصوا في الصفوف ولو كان في الصف الثالث تفسد أه أي لأنه عمل كثير
-                        وظاهر التعليل بالأمر أنه يطلب منه المشي إليها تأمل وكتب على قول الدر (ولو
-                        وجد فرجة في الأول لا الثاني له خرق الثاني لتقصيرهم) يفيد أن الكلام فيما إذا
-                        شرعوا وفي القنية قام في آخر صف وبينه وبين الصفوف مواضع خالية فللداخل أن يمر
-                        بين يديه ليصل الصفوف لأنه أسقط حرمته بنفسه فلا يأثم المار بين يديه دل عليه
-                        ما في الفردوس عن ابن عباس عنه صلى الله عليه وسلم من نظر إلى فرجة في صف
-                        فليسدها بنفسه فإن لم يفعل فمر مار فليتخط على رقبته فإنه لا حرمة له أي فليتخط
-                        المار على رقبة من لم يسد الفرج أه هذا الحكم عند السادة الحنفية وأما عند
-                        السادة المالكية فقد قال في المدونة وقال مالك رضي الله عنه إذا فرغ المؤذن من
-                        الإقامة ينتظر الإمام قليلاً قدر ما تستوي الصفوف ثم يكبر ثم قال وقد كان عمر
-                        وعثمان يوكلان رجالاًَ <pb ed="shamela" n="n30-p19" corresp="file:../epub/29676/OEBPS/xhtml/P947.xhtml" xml:id="pb_16.d1e1679"/> بتسوية الصفوف فإذا
-                        أخبروهما أن قد استوت كبرا.</p>
-                    <p xml:lang="ar" xml:id="p_93.d1e1683">وأما الحكم عند السادة الشافعية فقد قال في فتح المعين وندب وقوف في صف أول وهو
-                        ما يلي الإمام وإن تخلله منبر أو عمود ثم ما يلي وهكذا أفضل كل صف يمينه ولو
-                        ترادف يمين الإمام والصف الأول قدم فيما يظهر ويمينه أولى من القرب إليه في
-                        يساره وإدراك الصف الأول أولى من إدراك الركوع غير الركعة الأخيرة أما هي فإن
-                        فوتها قصد الصف الأول فإدراكها أولى من الصف الأول وكره لمأموم انفراد عن الصف
-                        وشروع في الصف قبل إتمام ما قبله وكل هذه تفوت فضيلة الجماعة كما صرحوا به ويسن
-                        أن لا يزيد ما بين كل صفين وما بين الأول والإمام على <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3" xml:id="num_11.d1e1901">ثلاثة</num> أزرع قال محشية
-                        العلامة السيد علوي السقاف عند قوله يمينه ويستحب لكل و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_12.d1e1904">احد</num> تسوية الصفوف والأمر
-                        بذلك والمراد تعديلها والتراص فيها ووصلها وسد فرجها وتقاربها وتحاذي القائمين
-                        بحيث لا يتقدم صدر و<num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_13.d1e1907">احد</num> ولا شيء منه على من بجنبه ولا يشرع في الصف الثاني حتى
-                        يتم الصف الذي قبله فإن خالف في شيء من ذلك كره ولا يضر طول الفصل بين الإقامة
-                        والصلاة لتعديلها الصفوف كما في التحفة في باب الآذان وعد في الزواجر قطع الصف
-                        وعدم تسويته من الكبائر وهو ظاهر خبر من قطع صفاً قطعه الله أه. إذ هو بمعنى
-                        لعنه الله واللعن من علامة الكبائر لكن لم أر من عده كبيرة بل هو عندنا مكروه
-                        أه وأما الحكم عند السادة الحنابلة فقد قال شيخ الإسلام الشيخ منصور بن يونس
-                        البهوتي في شرح المنتهى عند قول المصنف (ثم يسوي إمام الصفوف بمنكب وكعب)
-                        استحباباً فيلتفت عن يمينه فيقول استووا رحمكم الله وعن يساره كذلك لحديث محمد
-                        بن مسلم قال صليت إلى جنب أنس بن مالك يوماً فقال هل تدري لم صنع هذا العود
-                        فقلت لا والله فقال إن رسول الله صلى الله عليه وسلم كان إذا قام إلى الصلاة
-                        أخذه بيمينه فقال اعتدلوا وسووا صفوفكم ثم أخده بيساره وقال اعتدلوا وسووا
-                        صفوفكم رواه أبو داود ثم كتب عند قول الصنف (وسن تكميل) صفوف (أول فأول) حتى
-                        ينتهي إلى الآخر فلو ترك الأول فالأول كره لحديث لو يعلم الناس ما في النداء
-                        والصف الأول ثم لم يجدوا إلا أن يستهموا على ذلك لاستهموا عليه وظاهره حتى
-                        بمسجد النبي صلى الله عليه وسلم وإن كانت الصلاة في محراب زيادة عثمان قال في
-                        (الفروع) وظاهر كلامهم يحافظ على الصف الأول وإن فاتته ركعة ويتوجه من نصه يسرع
-                        إلى الأولى <pb ed="shamela" n="n30-p20" corresp="file:../epub/29676/OEBPS/xhtml/P948.xhtml" xml:id="pb_17.d1e1685"/> للمحافظة عليها
-                        والمراد من كلامهم إذا لم تفته الجماعة بالكلية مطلقاً وإلا حافظ عليها فيسرع
-                        إليها وقد ورد في السنة الوعيد الشديد لمن ترك تسوية الصفوف وإتمامها وسد فرجها
-                        قال صلى الله عليه وسلم لتسوون صفوفكم أو ليخالفن الله بين وجوهكم وعن أنس قال
-                        أقيمت الصلاة فأقبل علينا رسول الله صلى الله عليه وسلم بوجهه فقال أقيموا
-                        صفوفكم وتراصوا فإني أراكم من وراء ظهري وعن أبي هريرة رضي الله عنه قال قال
-                        رسول الله صلى الله عليه وسلم الغرق والمبطون والمطعون والهدم وقال لو يعلمون
-                        ما في التهجير لاستبقوا ولو يعلمون ما في العتمة والصبح لأتوهما ولو حبواً ولو
-                        يعلمون ما في الصف المقدم لاستهموا وعن أنس رضي الله عنه عن النبي صلى الله
-                        عليه وسلم سووا صفوفكم فإن تسوية الصفوف من إقامة الصلاة وفي البخاري. .</p>
+                    <p xml:id="p_91.d1e1674" xml:lang="ar">ولا بأس أن يأمرهم الإمام بذلك كذا في البحر الرائق شرح كنز الدقائق والقيام في الصف الأول أفضل من الثاني وفي الثاني أفضل من الثالث وإن وجد في الصف الأول فرجة دون الصف الثاني يخرق الصف الثاني كذا في القنية.<pb ed="print"/></p>
+                    <p xml:id="p_92.d1e1677" xml:lang="ar">وأفضل مكان المأموم حيث يكون أقرب إلى الإمام. أ. هـ وفي الدر المختار (ولو صلى على رفوف المسجد إن وجد في صحنه مكاناً كره كقيامه في صف خلف صف فيه فرجة) قال محشية العلامة الظحطاوي (قوله كقيامه من صف خلف صف) فإنه مكروه وهل الكراهة تنزيهية أو تحريمية يحرر والذي يرشد إليه قوله عليه الصلاة والسلام ومن قطعه قطعه الله الثاني أه. وقد نقل عبارته العلامة ابن عابدين وأقرها ثم قال بقي ما إذا رأى الفرجة بعدما أحرم هل يمشي إليها لم أره صريحاً وظاهر الإطلاق نعم ثم رأيت من مفسدات الصلاة من الحلية عن الذخيرة إن كان في الصف الثاني فرأى فرجة في الأول فمشى إليها لم تفسد صلاته لأنه مأمور بالمراصة قال عليه الصلاة والسلام تراصوا في الصفوف ولو كان في الصف الثالث تفسد أه أي لأنه عمل كثير وظاهر التعليل بالأمر أنه يطلب منه المشي إليها تأمل وكتب على قول الدر (ولو وجد فرجة في الأول لا الثاني له خرق الثاني لتقصيرهم) يفيد أن الكلام فيما إذا شرعوا وفي القنية قام في آخر صف وبينه وبين الصفوف مواضع خالية فللداخل أن يمر بين يديه ليصل الصفوف لأنه أسقط حرمته بنفسه فلا يأثم المار بين يديه دل عليه ما في الفردوس عن ابن عباس عنه صلى الله عليه وسلم من نظر إلى فرجة في صف فليسدها بنفسه فإن لم يفعل فمر مار فليتخط على رقبته فإنه لا حرمة له أي فليتخط المار على رقبة من لم يسد الفرج أه هذا الحكم عند السادة الحنفية وأما عند السادة المالكية فقد قال في المدونة وقال مالك رضي الله عنه إذا فرغ المؤذن من الإقامة ينتظر الإمام قليلاً قدر ما تستوي الصفوف ثم يكبر ثم قال وقد كان عمر وعثمان يوكلان رجالاًَ <pb corresp="file:../epub/29676/OEBPS/xhtml/P947.xhtml" ed="shamela" n="n30-p19" xml:id="pb_16.d1e1679"/> بتسوية الصفوف فإذا أخبروهما أن قد استوت <pb ed="print"/>كبرا. وأما الحكم عند السادة الشافعية فقد قال في فتح المعين وندب وقوف في صف أول وهو ما يلي الإمام وإن تخلله منبر أو عمود ثم ما يلي وهكذا أفضل كل صف يمينه ولو ترادف يمين الإمام والصف الأول قدم فيما يظهر ويمينه أولى من القرب إليه في يساره وإدراك الصف الأول أولى من إدراك الركوع غير الركعة الأخيرة أما هي فإن فوتها قصد الصف الأول فإدراكها أولى من الصف الأول وكره لمأموم انفراد عن الصف وشروع في الصف قبل إتمام ما قبله وكل هذه تفوت فضيلة الجماعة كما صرحوا به ويسن أن لا يزيد ما بين كل صفين وما بين الأول والإمام على <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_11.d1e1901" xml:lang="ar">ثلاثة</num> أزرع قال محشية العلامة السيد علوي السقاف عند قوله يمينه ويستحب لكل و<num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_12.d1e1904" xml:lang="ar">احد</num> تسوية الصفوف والأمر بذلك والمراد تعديلها والتراص فيها ووصلها وسد فرجها وتقاربها وتحاذي القائمين بحيث لا يتقدم صدر و<num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_13.d1e1907" xml:lang="ar">احد</num> ولا شيء منه على من بجنبه ولا يشرع في الصف الثاني حتى يتم الصف الذي قبله فإن خالف في شيء من ذلك كره ولا يضر طول الفصل بين الإقامة والصلاة لتعديلها الصفوف كما في التحفة في باب الآذان وعد في الزواجر قطع الصف وعدم تسويته من الكبائر وهو ظاهر خبر من قطع صفاً قطعه الله أه. إذ هو بمعنى لعنه الله واللعن من علامة الكبائر لكن لم أر من عده كبيرة بل هو عندنا مكروه أه وأما الحكم عند السادة الحنابلة فقد قال شيخ الإسلام الشيخ منصور بن يونس البهوتي في شرح المنتهى عند قول المصنف (ثم يسوي إمام الصفوف بمنكب وكعب) استحباباً فيلتفت عن يمينه فيقول استووا رحمكم الله وعن يساره كذلك لحديث محمد بن مسلم قال صليت إلى جنب أنس بن مالك يوماً فقال هل تدري لم صنع هذا العود فقلت لا والله <pb ed="print"/>فقال إن رسول الله صلى الله عليه وسلم كان إذا قام إلى الصلاة أخذه بيمينه فقال اعتدلوا وسووا صفوفكم ثم أخده بيساره وقال اعتدلوا وسووا صفوفكم رواه أبو داود ثم كتب عند قول الصنف (وسن تكميل) صفوف (أول فأول) حتى ينتهي إلى الآخر فلو ترك الأول فالأول كره لحديث لو يعلم الناس ما في النداء والصف الأول ثم لم يجدوا إلا أن يستهموا على ذلك لاستهموا عليه وظاهره حتى بمسجد النبي صلى الله عليه وسلم وإن كانت الصلاة في محراب زيادة عثمان قال في (الفروع) وظاهر كلامهم يحافظ على الصف الأول وإن فاتته ركعة ويتوجه من نصه يسرع إلى الأولى <pb corresp="file:../epub/29676/OEBPS/xhtml/P948.xhtml" ed="shamela" n="n30-p20" xml:id="pb_17.d1e1685"/> للمحافظة عليها والمراد من كلامهم إذا لم تفته الجماعة بالكلية مطلقاً وإلا حافظ عليها فيسرع إليها وقد ورد في السنة الوعيد الشديد لمن ترك تسوية الصفوف وإتمامها وسد فرجها قال صلى الله عليه وسلم لتسوون صفوفكم أو ليخالفن الله بين وجوهكم وعن أنس قال أقيمت الصلاة فأقبل علينا رسول الله صلى الله عليه وسلم بوجهه فقال أقيموا صفوفكم وتراصوا فإني أراكم من وراء ظهري وعن أبي هريرة رضي الله عنه قال قال رسول الله صلى الله عليه وسلم الغرق والمبطون والمطعون والهدم وقال لو يعلمون ما في التهجير لاستبقوا ولو يعلمون ما في العتمة والصبح لأتوهما ولو حبواً ولو يعلمون ما في الصف <pb ed="print"/>المقدم لاستهموا وعن أنس رضي الله عنه عن النبي صلى الله عليه وسلم سووا صفوفكم فإن تسوية الصفوف من إقامة الصلاة وفي البخاري. .</p>
                     <p xml:lang="ar" xml:id="p_94.d1e1688">باب أثم من لم يتم الصفوف</p>
-                    <p xml:lang="ar" xml:id="p_95.d1e1691">عن أنس رضي الله عنه أنه قدم المدينة فقيل له ما أنكرت منا منذ يوم عهدت رسول
-                        الله صلى الله عليه وسلم قال أنس ما أنكرت شيئاً إلا أنكم لا تقيمون الصفوف وعن
-                        أنس رضي الله عنه عن النبي صلى الله عليه وسلم قال أقيموا صفوفكم فإني أراكم من
-                        وراء ظهري وكان أحدنا يلزق منكبه بمنكب صاحبه وقدمه بقدمه كناية عن المبالغة في
-                        تعديل الصف وسد خلله وروى أبو داود من حديث ابن عمر أن رسول الله صلى الله عليه
-                        وسلم قال أقيموا الصفوف وحاذوا بين المناكب وسدوا الخلل ولا تذروا فرجات
-                        للشيطان ومن وصل صفاً وصله الله ومن قطع صفاً قطعه الله عز وجل وقد صححه ابن
-                        خزيمة والحاكم وهنا نلفت أنظار حملة العلم إلى إحياء هذه السنن التي اعتاد كثير
-                        من الناس تركها ولا زاتجر لاسيما وكثير من الخاصة وأهل العلم يصلون تحت الدكة
-                        (السدة) مع وجود صفوف كثيرة غير تامة ووجود مسافة طويلة بينهم وبين آخر صف
-                        ووجود فرج في بعض الصفوف والعامة يقتدون بأهل العلم في أعمالهم وخصوصاً ما كان
-                        منها عبادة وفي المساجد وعليه ينبغي لأهل العلم إرشاد الناس بأقوالهم وأفعالهم
-                        إلى إحياء هذه السنن المتروكة ليكون لهم أجرها وأجر من عمل بها إلى يوم القيامة
-                        والله الموفق والهادي. <pb ed="shamela" n="n30-p21" corresp="file:../epub/29676/OEBPS/xhtml/P949.xhtml" xml:id="pb_18.d1e1693"/>
-                    </p>
+                    <p xml:id="p_95.d1e1691" xml:lang="ar">عن أنس رضي الله عنه أنه قدم المدينة فقيل له ما أنكرت منا منذ يوم عهدت رسول الله صلى الله عليه وسلم قال أنس ما أنكرت شيئاً إلا أنكم لا تقيمون الصفوف وعن أنس رضي الله عنه عن النبي صلى الله عليه وسلم قال أقيموا صفوفكم فإني أراكم من وراء ظهري وكان أحدنا يلزق منكبه بمنكب صاحبه وقدمه بقدمه كناية عن المبالغة في تعديل الصف وسد خلله وروى أبو داود من حديث ابن عمر أن رسول الله صلى الله عليه وسلم قال أقيموا الصفوف وحاذوا بين المناكب وسدوا الخلل ولا تذروا فرجات للشيطان ومن وصل صفاً وصله الله ومن قطع صفاً قطعه الله عز وجل وقد صححه ابن خزيمة والحاكم وهنا نلفت أنظار حملة العلم إلى إحياء هذه السنن التي اعتاد كثير من الناس تركها ولا زاتجر لاسيما وكثير من الخاصة وأهل <pb ed="print"/>العلم يصلون تحت الدكة (السدة) مع وجود صفوف كثيرة غير تامة ووجود مسافة طويلة بينهم وبين آخر صف ووجود فرج في بعض الصفوف والعامة يقتدون بأهل العلم في أعمالهم وخصوصاً ما كان منها عبادة وفي المساجد وعليه ينبغي لأهل العلم إرشاد الناس بأقوالهم وأفعالهم إلى إحياء هذه السنن المتروكة ليكون لهم أجرها وأجر من عمل بها إلى يوم القيامة والله الموفق والهادي. <pb corresp="file:../epub/29676/OEBPS/xhtml/P949.xhtml" ed="shamela" n="n30-p21" xml:id="pb_18.d1e1693"/> </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_7.d1e1697">
                     <head xml:lang="ar" xml:id="head_7.d1e1699">الأسئلة والأجوبة</head>
                     <p xml:lang="ar" xml:id="p_96.d1e1702">أصحاب مجلة الحقائق الغراء. . .</p>
-                    <p xml:lang="ar" xml:id="p_97.d1e1705">بينما كنت أطالع حاشية العلامة الشيخ إبراهيم الباجوري على الجوهرة في التوحيد
-                        عند قول المصنف (ومعجزاته كثيرة غرر) إذ وجدته ذكر حديث الغزالة وقال أنه موضوع
-                        لا أصل له ونص عبارته_وأما حديث الظبية فألحق أنه موضوع لا أصل له ولفظه كان
-                        النبي صلى الله عليه وسلم في صحراء فنادته ظبية يا رسول الله فقال ما حاجتك؟
-                        قالت: صادني هذا الأعرابي ولي خشفان (بكسرالخاء وتسكين الشين) أي ولدان في ذلك
-                        الجبل فأطلقني حتى أذهب أرضعهما وأرجع فقال وتفعلين قالت نعم عذبني الله عذاب
-                        العشار إن لم أفعل فأطلقها فخرجت تعدو في الصحراء وتقول أشهد أن لا إله إلا
-                        الله وأنك رسول الله لكن الحديث موضوع كما علمت أه فأشكل الأمر علي نظراً لأن
-                        كثير من أهل العلم ضمن هذا الحديث في مدائحه النبوية وحصل عندي ريب من هذه
-                        القضية فألتمس من فضلكم أن تكشفوا لي النقاب عن وجه الحقيقة لا زلتم منبع
-                        العرفان والله الهادي وعليه التكلان وصلى الله على سيدنا محمد وآله وحزبه
-                        وسلم.</p>
+                    <p xml:id="p_97.d1e1705" xml:lang="ar">بينما كنت أطالع حاشية العلامة الشيخ إبراهيم الباجوري على الجوهرة في التوحيد عند قول المصنف (ومعجزاته كثيرة غرر) إذ وجدته ذكر حديث الغزالة وقال أنه موضوع لا أصل له ونص عبارته_وأما حديث الظبية فألحق أنه موضوع لا أصل له ولفظه كان النبي صلى الله عليه وسلم في صحراء فنادته ظبية يا رسول الله فقال ما حاجتك؟ قالت: صادني هذا الأعرابي ولي خشفان (بكسرالخاء وتسكين الشين) أي ولدان في ذلك الجبل فأطلقني حتى أذهب أرضعهما وأرجع فقال وتفعلين قالت نعم عذبني الله عذاب العشار إن لم أفعل فأطلقها فخرجت تعدو في الصحراء وتقول أشهد أن لا إله إلا الله وأنك رسول الله لكن الحديث موضوع كما علمت أه فأشكل الأمر علي نظراً لأن كثير من أهل العلم ضمن هذا الحديث في مدائحه النبوية وحصل عندي <pb ed="print"/>ريب من هذه القضية فألتمس من فضلكم أن تكشفوا لي النقاب عن وجه الحقيقة لا زلتم منبع العرفان والله الهادي وعليه التكلان وصلى الله على سيدنا محمد وآله وحزبه وسلم.</p>
                     <p xml:lang="ar" xml:id="p_98.d1e1708">الجواب:</p>
                     <p xml:lang="ar" xml:id="p_99.d1e1711">إن حديث الظبية قد اختلفت فيه أقاويل العلماء فمنهم من قال أنه موضوع ومنهم من
                         قال أنه ضعيف ومنهم من فصل وقال هما حديثان أحدهما تسليم الغزالة وهو موضوع
                         والثاني مناداتها النبي صلى الله عليه وسلم وطلبها الذهاب إلى أولادها وهذا
                         ضعيف وله طرق متعددة يقوي بعضها بعضاً ففي المواهب اللدنية وشرحها في بيان
                         معجزاته صلى الله عليه وسلم ما نصه:</p>
-                    <p xml:lang="ar" xml:id="p_100.d1e1715">(روى حديثها أي الغزالة البيهقي من طرق) من حديث أبي سعيد (وضعفه جماعة من
-                        الأئمة لكن له طرق يقوي بعضها بعضاً) لأن الطرق إذا تعددت وتباينت مخارجها دل
-                        ذلك على أن للحديث أصلاً فيكون حسناً لغيره لا لذاته (وذكره القاضي عياض في
-                        الشفاء) بلا سند عن أم سلمة بدون تمريض فيدل على قوته (ورواه أبو نعيم في
-                        الدلائل بإسناد فيه مجاهيل عن حبيب بن محصن عن أم سلمة رضي الله عنها قالت
-                        بينما رسول الله صلى الله عليه وسلم في صحراء من الأرض إذا هاتف يهتف يا رسول
-                        الله <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="3" xml:id="num_14.d1e1942">ثلاث</num> مرات فالتفت فإذا ظبية مشدودة في وثاق وأعربي منجدل في شملته نائم في
-                        الشمس فقال ما حاجتك <pb ed="shamela" n="n30-p22" corresp="file:../epub/29676/OEBPS/xhtml/P950.xhtml" xml:id="pb_19.d1e1717"/> فقالت صادني هذا
-                        الإعرابي ولي خشفان في ذلك الجبل فأطلقني حتى أذهب فأرضعهما وأرجع قال وتفعلين
-                        قالت عذبني الله عذاب العشار إن لم أعد فأطلقها فذهبت ورجعت فأوثقها النبي صلى
-                        الله عليه وسلم فانتبه الإعرابي وقال يا رسول الله ألك حاجة قال تطلق هذه
-                        الظبية فأطلقها فخرجت تعدو في الصحراء فرحاً وهي تضرب برجليها الأرض وتقول أشهد
-                        أن لا إله إلا الله وأن رسول الله وكذا رواه الطبراني بنحوه وساق الحافظ
-                        المنذري حديثه في الترغيب والترهيب من باب الزكاة وأخرجه أبو نعيم من حديث أنس
-                        والبيهقي من حديث أبي سعيد وفي شرح مختصر ابن الحاجب للعلامة ابن الفسبكي
-                        وتسبيح الحصي رواه الطبراني وابن أبي عاصم من حديث أبي ذر وتسليم الغزالة رواه
-                        الحافظ أبو نعيم الأصبهاني وكذا الطبراني عن أم سلمة (والبيهقي) قال الحافظ
-                        والذي أقوله أنها كلها مشتهرة عند الناس وأما من حيث الرواية فليست على حد سواء
-                        انتهت عبارة المواهب وشرحها فمن تملها علم أن حديث السلام لم يثبت من حيث
-                        الرواية وأما حديث مناداتها للنبي صلى الله عليه وسلم فقد ثبتت روايته إلا أنه
-                        ضعيف لكن طرقه متعددة أكسبته قوه كما تقدم ذلك واعتقاد ذلك ليس منفياً للعقل
-                        لأن العقل يجوز ما هو أبلغ من ذلك كتسبيح الحصى وانشقاق القمر وقد تقدم بيانهما
-                        وفي هذا كفاية والحمد لله وحده. <pb ed="shamela" n="n30-p23" corresp="file:../epub/29676/OEBPS/xhtml/P951.xhtml" xml:id="pb_20.d1e1719"/>
-                    </p>
+                    <p xml:id="p_100.d1e1715" xml:lang="ar">(روى حديثها أي الغزالة البيهقي من طرق) من حديث أبي سعيد (وضعفه جماعة من الأئمة لكن له طرق يقوي بعضها بعضاً) لأن الطرق إذا تعددت وتباينت مخارجها دل ذلك على أن للحديث أصلاً فيكون حسناً لغيره لا لذاته (وذكره القاضي عياض في الشفاء) بلا سند عن أم سلمة بدون تمريض فيدل على قوته (ورواه أبو نعيم في الدلائل بإسناد فيه مجاهيل عن حبيب بن محصن عن أم سلمة رضي الله عنها قالت بينما رسول الله صلى الله عليه وسلم في صحراء من الأرض إذا هاتف يهتف يا رسول الله <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_14.d1e1942" xml:lang="ar">ثلاث</num> مرات فالتفت فإذا ظبية مشدودة في وثاق وأعربي منجدل في شملته نائم في الشمس فقال ما حاجتك <pb corresp="file:../epub/29676/OEBPS/xhtml/P950.xhtml" ed="shamela" n="n30-p22" xml:id="pb_19.d1e1717"/> فقالت صادني هذا الإعرابي ولي خشفان في ذلك الجبل فأطلقني حتى أذهب فأرضعهما وأرجع قال وتفعلين قالت عذبني الله عذاب العشار إن لم أعد فأطلقها فذهبت ورجعت فأوثقها النبي صلى الله عليه وسلم فانتبه الإعرابي وقال يا رسول الله ألك حاجة قال تطلق هذه الظبية <pb ed="print"/>فأطلقها فخرجت تعدو في الصحراء فرحاً وهي تضرب برجليها الأرض وتقول أشهد أن لا إله إلا الله وأن رسول الله وكذا رواه الطبراني بنحوه وساق الحافظ المنذري حديثه في الترغيب والترهيب من باب الزكاة وأخرجه أبو نعيم من حديث أنس والبيهقي من حديث أبي سعيد وفي شرح مختصر ابن الحاجب للعلامة ابن الفسبكي وتسبيح الحصي رواه الطبراني وابن أبي عاصم من حديث أبي ذر وتسليم الغزالة رواه الحافظ أبو نعيم الأصبهاني وكذا الطبراني عن أم سلمة (والبيهقي) قال الحافظ والذي أقوله أنها كلها مشتهرة عند الناس وأما من حيث الرواية فليست على حد سواء انتهت عبارة المواهب وشرحها فمن تملها علم أن حديث السلام لم يثبت من حيث الرواية وأما حديث مناداتها للنبي صلى الله عليه وسلم فقد ثبتت روايته إلا أنه ضعيف لكن طرقه متعددة أكسبته قوه كما تقدم ذلك واعتقاد ذلك ليس منفياً للعقل لأن العقل يجوز ما هو أبلغ من ذلك كتسبيح الحصى وانشقاق القمر وقد تقدم بيانهما وفي هذا كفاية والحمد لله وحده. <pb ed="print"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P951.xhtml" ed="shamela" n="n30-p23" xml:id="pb_20.d1e1719"/> </p>
                 </div>
                 <div type="article" xml:lang="ar" xml:id="div_8.d1e1723">
                     <head xml:lang="ar" xml:id="head_8.d1e1725">قصيدة أخلاقية</head>
@@ -960,10 +728,8 @@
                             <seg xml:lang="ar" xml:id="seg_179.d1e1750">فاستعذ بالإله من شر غاوٍ </seg>
                             <seg xml:lang="ar" xml:id="seg_180.d1e1753"> في حبال الشيطان طال احتطابه</seg>
                         </l>
-                        <l type="bayt" xml:lang="ar" xml:id="l_91.d1e1757">
-                            <seg xml:lang="ar" xml:id="seg_181.d1e1759">لم يزعه الإرهاب شرعاً ولا أل </seg>
-                            <seg xml:lang="ar" xml:id="seg_182.d1e1762"> بسه ثوب طاعة إرغابه</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_91.d1e1757" xml:lang="ar"> <seg xml:id="seg_181.d1e1759" xml:lang="ar">لم يزعه الإرهاب شرعاً ولا أل </seg>
+                        <seg xml:id="seg_182.d1e1762" xml:lang="ar"> بسه ثوب طاعة إرغابه</seg> <pb ed="print"/></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_103.d1e1768">الجهل غربة والعلم وطن</p>
                     <lg xml:lang="ar" xml:id="lg_16.d1e1771">
@@ -981,10 +747,7 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_105.d1e1798">الحظ يجعل العدو صديقاً</p>
                     <lg xml:lang="ar" xml:id="lg_18.d1e1801">
-                        <l type="bayt" xml:lang="ar" xml:id="l_94.d1e1803">
-                            <seg xml:lang="ar" xml:id="seg_187.d1e1805">وبجد الفتى تعود ولاءً </seg>
-                            <seg xml:lang="ar" xml:id="seg_188.d1e1808"> ووداداً من العدو ضبابه</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_94.d1e1803" xml:lang="ar"> <seg xml:id="seg_187.d1e1805" xml:lang="ar">وبجد الفتى تعود ولاءً </seg> <seg xml:id="seg_188.d1e1808" xml:lang="ar"> ووداداً من العدو ضبابه</seg> <pb ed="print"/></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_106.d1e1814">ليس للمشؤوم صديق</p>
                     <lg xml:lang="ar" xml:id="lg_19.d1e1817">
@@ -1006,10 +769,7 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_108.d1e1853">من خاف من شيء سلط عليه</p>
                     <lg xml:lang="ar" xml:id="lg_21.d1e1856">
-                        <l type="bayt" xml:lang="ar" xml:id="l_98.d1e1858">
-                            <seg xml:lang="ar" xml:id="seg_195.d1e1860">يجعل المتقي ويبقى ملياً </seg>
-                            <seg xml:lang="ar" xml:id="seg_196.d1e1863"> من توالي طعانه وضرابه</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_98.d1e1858" xml:lang="ar"> <seg xml:id="seg_195.d1e1860" xml:lang="ar">يجعل المتقي ويبقى ملياً </seg> <seg xml:id="seg_196.d1e1863" xml:lang="ar"> من توالي طعانه وضرابه</seg> <pb ed="print"/></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_109.d1e1869">رب حسن لا يتجاوز الظاهر</p>
                     <lg xml:lang="ar" xml:id="lg_22.d1e1872">
@@ -1035,10 +795,8 @@
                     <p xml:lang="ar" xml:id="p_112.d1e1915">وإذا قابل النصيحة بالغ <gap resp="#org_MS" xml:id="gap_1.d1e1917"/> ش فدعه فما عليك حسابه <pb ed="shamela" n="n30-p24" corresp="file:../epub/29676/OEBPS/xhtml/P952.xhtml" xml:id="pb_21.d1e1919"/> اللسان سلاح
                         العاجز</p>
                     <lg xml:lang="ar" xml:id="lg_25.d1e1922">
-                        <l type="bayt" xml:lang="ar" xml:id="l_102.d1e1924">
-                            <seg xml:lang="ar" xml:id="seg_203.d1e1926">وإذا اغتابك اللئيم فشكراً </seg>
-                            <seg xml:lang="ar" xml:id="seg_204.d1e1929"> حيث أضحى جهد اللئيم اغتيابه</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_102.d1e1924" xml:lang="ar"> <seg xml:id="seg_203.d1e1926" xml:lang="ar">وإذا اغتابك اللئيم فشكراً </seg> <seg xml:id="seg_204.d1e1929" xml:lang="ar"> حيث أضحى جهد اللئيم اغتيابه</seg>
+                        <pb ed="print"/></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_113.d1e1934">وما أجيب السفيه بمثل الإعراض</p>
                     <lg xml:lang="ar" xml:id="lg_26.d1e1937">
@@ -1077,10 +835,7 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_118.d1e2011">اليأس <num xml:lang="ar" type="auto-markup" subtype="d1" resp="#pers_TG" value="1" xml:id="num_15.d1e2241">إحدى</num> الراحتين</p>
                     <lg xml:lang="ar" xml:id="lg_31.d1e2014">
-                        <l type="bayt" xml:lang="ar" xml:id="l_108.d1e2016">
-                            <seg xml:lang="ar" xml:id="seg_215.d1e2018">واجعل اليأس للمطامع شرباً </seg>
-                            <seg xml:lang="ar" xml:id="seg_216.d1e2021"> فكفيل بريهن سرابه</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_108.d1e2016" xml:lang="ar"> <seg xml:id="seg_215.d1e2018" xml:lang="ar">واجعل اليأس للمطامع شرباً </seg> <seg xml:id="seg_216.d1e2021" xml:lang="ar"> فكفيل بريهن سرابه</seg> <pb ed="print"/></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_119.d1e2026">السلامة في العزلة</p>
                     <lg xml:lang="ar" xml:id="lg_32.d1e2029">
@@ -1117,10 +872,7 @@
                             <seg xml:lang="ar" xml:id="seg_227.d1e2097">كم قرت نائباته الهم قلباً </seg>
                             <seg xml:lang="ar" xml:id="seg_228.d1e2100"> وفرت هام أهله أنيابه</seg>
                         </l>
-                        <l type="bayt" xml:lang="ar" xml:id="l_115.d1e2104">
-                            <seg xml:lang="ar" xml:id="seg_229.d1e2106">وأباحت ملكاً منيعاً حماه </seg>
-                            <seg xml:lang="ar" xml:id="seg_230.d1e2109"> وأذلت ملكاً عزيزاً جنابه </seg>
-                        </l>
+                        <l type="bayt" xml:id="l_115.d1e2104" xml:lang="ar"> <seg xml:id="seg_229.d1e2106" xml:lang="ar">وأباحت ملكاً منيعاً حماه </seg> <seg xml:id="seg_230.d1e2109" xml:lang="ar"> وأذلت ملكاً عزيزاً جنابه </seg> <pb ed="print"/></l>
                         <l type="bayt" xml:lang="ar" xml:id="l_116.d1e2113">
                             <seg xml:lang="ar" xml:id="seg_231.d1e2115"> وأعارت حسن الثناء أخا قب </seg>
                             <seg xml:lang="ar" xml:id="seg_232.d1e2118"> ح ملاءً من العيوب عيابه</seg>
@@ -1143,10 +895,7 @@
                             <seg xml:lang="ar" xml:id="seg_237.d1e2155">يا أسير الذنوب تب عائداً من </seg>
                             <seg xml:lang="ar" xml:id="seg_238.d1e2158"> ها بغفارها المخوف عقابه</seg>
                         </l>
-                        <l type="bayt" xml:lang="ar" xml:id="l_120.d1e2162">
-                            <seg xml:lang="ar" xml:id="seg_239.d1e2164">فقرين التوفيق من دأبه في </seg>
-                            <seg xml:lang="ar" xml:id="seg_240.d1e2167"> كل ما ساء صبره واحتسابه</seg>
-                        </l>
+                        <l type="bayt" xml:id="l_120.d1e2162" xml:lang="ar"> <seg xml:id="seg_239.d1e2164" xml:lang="ar">فقرين التوفيق من دأبه في </seg> <seg xml:id="seg_240.d1e2167" xml:lang="ar"> كل ما ساء صبره واحتسابه</seg> <pb ed="print"/></l>
                     </lg>
                     <p xml:lang="ar" xml:id="p_125.d1e2172">وخليق بعاجل الفوز من كا <gap resp="#org_MS" xml:id="gap_2.d1e2174"/> ن إلى الخالق الكريم متابه <pb ed="shamela" n="n30-p26" corresp="file:../epub/29676/OEBPS/xhtml/P954.xhtml" xml:id="pb_22.d1e2176"/>
                     </p>
@@ -1158,11 +907,7 @@
                         أن يعاقبه الله تعالى إما في الدنيا وإما في الآخرة وقد فرض الله سبحانه وتعالى
                         على عباده أن يخافوه فقال تعالى: (وخافون إن كنتم مؤمنين) وقال تعالى (وإياي
                         فارهبون) ومدح المؤمنين بالخوف فقال تعالى: (يخافون ربهم من فوقهم).</p>
-                    <p xml:lang="ar" xml:id="p_128.d1e2191">نقول نحن تشدق بعض علماء العصر في أوروبا على مسألة الخوف وزعموا أن الإنسان لا
-                        يجب أن يساس به وإنما يساس بما يناسب مكانته في العلم والعواطف ولو تأمل هؤلاء
-                        الفلاسفة في حقيقة العوامل التي تقود الإنسان نحو الترقي بجميع أشكاله لرأوها
-                        كلها باعثها الخوف وإلا ما الذي يقيم الحكومات ويقعدها وفي مقدمتها الفلاسفة
-                        والعلماء عند</p>
+                    <p xml:id="p_128.d1e2191" xml:lang="ar">نقول نحن تشدق بعض علماء العصر في أوروبا على مسألة الخوف وزعموا أن الإنسان لا يجب أن يساس به وإنما يساس بما يناسب مكانته في العلم والعواطف ولو تأمل هؤلاء الفلاسفة في حقيقة العوامل التي تقود الإنسان نحو الترقي بجميع أشكاله لرأوها كلها باعثها الخوف وإلا ما الذي يقيم الحكومات ويقعدها <pb ed="print"/>وفي مقدمتها الفلاسفة والعلماء عند</p>
                     <p xml:lang="ar" xml:id="p_129.d1e2194">هموم الأمراض المعدية ويبعثهم جميعاً لتفتيش بيوت العامة وإخراج أقذارها أليس
                         الخوف من الموت؟ ما الذي يجعل العلماء يصلون الليل بالنهار في اختراع العلاجات
                         واكتشاف أسباب الأمراض أليس الخوف من الموت؟ ما الذي يجعل الناس أجمعين يتكلبون
