@@ -1,28 +1,30 @@
 ---
 title: "Readme: Digial Haqāʾiq"
 author: Till Grallert
-date: 2017-06-07 01:00:22 +0200
+date: 2018-04-27 09:54:43 +0300
 ---
 
 This project is inspired by and follows the principles of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas).
 
-If you just want to browse the edition in a more human-readable view, start [here](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ).
+If you just want to browse the edition in a more human-readable view, start [here](https://rawgit.com/OpenArabicPE/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ).
 
 **UPDATE 2016-05-23**: apparently HathiTrust decided to remove the images from the public domain. I have inquired with them about the reasons for this removal but have not yet received a reply.
+
+**UPDATE 2018-04-27**: we scanned all three volumes of al-Ḥaqāʾiq available at the library of the Orient-Institut Beirut and we are currently negotiating agreements with other institutions to host and archive the digital imagery. We plan for facsimiles to be online by the end of the year.
 
 # Scope and deliverables of the project
 
 The purpose and scope of the project is to provide an open, collaborative, referencable, and scholarly digital edition of ʿAbd al-Qādir al-Iskandarānī's journal *al-Ḥaqāʾiq*, which includes the full text, semantic mark-up, bibliographic metadata, and digital imagery. All files but the digital facsimiles are hosted on [GitHub](https://www.github.com).
 
 - Current deliverables:
-    - Full text of 34 issues with semantic mark-up as TEI P5 XML with its [own schema](https://github.com/OpenArabicPE/OpenArabicPE_ODD).
+    - Full text of 34 issues with semantic mark-up as TEI P5 XML with its [own schema](https://github.com/OpenArabicPE/OpenArabicPE_ODD). TEI files can be found in the folder `xml/` 
     - The text of digital edition links to open-access digital facsimiles if available (see below).
-    - [A rudimentary webview](https://github.com/tillgrallert/tei-boilerplate-arabic-editions), based on [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/), shows digital text and images side by side. It provides an automatically generated table of content and links to the bibliographic metadata of every article.
-    - Bibliographic metadata for every article in *al-Ḥaqāʾiq* is provided as individual BibTeX and MODS files in the sub-folder `metadata`. The metadata includes a URL pointing to the webview of this item.
+    - [A rudimentary webview](https://github.com/tillgrallert/tei-boilerplate-arabic-editions), based on [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/), shows digital text and images side by side. It provides an automatically generated table of content and links to the bibliographic metadata of every article. Click [here](https://rawgit.com/OpenArabicPE/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml) to start reading *al-Ḥaqāʾiq*.
+    - Bibliographic metadata for every article in *al-Ḥaqāʾiq* is provided as individual BibTeX and MODS files in the folder `metadata/`. The metadata includes a URL pointing to the webview of this item.
 
 # The journal *al-Ḥaqāʾiq*
 
-ʿAbd al-Qādir al-Iskandarānī published three volumes of the monthly journal *al-Ḥaqāʾiq* in Damascus between [7 August 1910](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml) and [1 November 1913](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_35.TEIP5.xml). The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
+ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. According to some library catalogues---stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
 
 [^1]: Thomsen, P. "Verzeichnis der Arabischen Zeitungen und Zeitschriften Palästinas." *Zeitschrift des Deutschen Palästina-Vereins (1878-1945)* 35, no. 4 (1912):214
 
@@ -84,7 +86,7 @@ Somebody took the pains to create fully searchable text files and uploaded every
 
 The main challenge is to combine the full text and the images in a TEI edition. As *al-maktaba al-shāmila* did not reproduce page breaks true to the print edition, every single one of the more than 1500 page breaks must be added manually and linked to the digital image of the page.
 
-The TEI files can be found in the folder [xml](xml/).
+The TEI files can be found in the folder [`xml/``](xml/).
 
 ## General design
 
@@ -93,7 +95,3 @@ The edition should be conceived of as a corpus of tei files that are grouped by 
 # [Web display](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml): TEI Boilerplate
 
 To allow a quick review of the mark-up and read the journal's content, I decided to customise [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) for a first display of the TEI files in the browser without need for pre-processed HTML and to host this heavily customised boilerplate view as part of another [GitHub repository](https://www.github.com/tillgrallert/tei-boilerplate-arabic-editions) that can be used across various projects. For a first impression see [here](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). It is important to note that at the moment there is no front-end beyond the GitHub repository that allows for searching and browsing across files.
-
-# To do
-
-- the scan at HathiTrust contains duplicated pages etc. and thus, the links to the online facsimile must be corrected.
