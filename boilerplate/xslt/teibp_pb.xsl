@@ -37,7 +37,8 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:variable name="v_mimetype" select="'image/jpeg'"/>
+        <!-- select the mimetype of the local images. In some cases tiff might be more efficient than jpeg -->
+        <xsl:variable name="v_mimetype" select="'image/tiff'"/>
         <xsl:variable name="v_id-facs" select="substring-after($v_facs, '#')"/>
         <xsl:variable name="v_graphic" select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id = $v_id-facs]/tei:graphic"/>
         <!-- select which online facsimile to display based on the order of preference: EAP, sakhrit, HathiTrust, other; and https over http -->
