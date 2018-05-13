@@ -36,12 +36,13 @@ All deliverables and milestones will be covered in more detail in the following 
 
 ## 1.2 Timeline / scheduled releases
 
-There is no proper release schedule yet but I conceive of version 1.0 as the first complete edition. 
+There is no proper release schedule yet but I conceive of version 1.0 as the first complete edition. Progress is tracked using a public [Trello board](https://trello.com/b/8LjguBCl/digital-ḥaqāʾiq).
 
 - version 0.1 shall be the first "official" release. It is scheduled for April 2018 and will include
     1. TEI files of all at least one volume of *al-Ḥaqāʾiq* (i.e. 12 issues / files) with structural mark-up of mastheads, sections, articles, and with page breaks linked to the facsimiles;
     2. MODS / BibTeX files for all issues, sections, and articles;
     3. XSLT, JS, and CSS for a webview.
+- versions 0.1.1 - 0.1.x: each completed issue will warant a minor release.
 - versions 0.1 - 0.x: each completed volume of 11 to 12 issues / TEI files will warant an incremental release.
 - version 1.0 shall include
     1. TEI files of all 35 issues of *al-Ḥaqāʾiq* with structural mark-up of mastheads, sections, articles, and with page breaks linked to the facsimiles;
@@ -49,7 +50,7 @@ There is no proper release schedule yet but I conceive of version 1.0 as the fir
 
 # 2. The journal *al-Ḥaqāʾiq*
 
-ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. According to some library catalogues---stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
+ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. According to some library catalogues---stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
 
 [^1]: Thomsen, P. "Verzeichnis der Arabischen Zeitungen und Zeitschriften Palästinas." *Zeitschrift des Deutschen Palästina-Vereins (1878-1945)* 35, no. 4 (1912):214
 
@@ -120,7 +121,7 @@ The edition should be conceived of as a corpus of tei files that are grouped by 
 
 Detailled description and notes on the mark-up can be found in a separate repository for the TEI schema: [OpenArabicPE_ODD](https://github.com/OpenArabicPE/OpenArabicPE_ODD).
 
-# 5. Deliverable: A [Web display](https://rawgit.com/tillgrallert/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml)adapting TEI Boilerplate
+# 5. Deliverable: A [Web display](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml)adapting TEI Boilerplate
 
 To allow a quick review of the mark-up and read the journal's content, I decided to customise [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) for a first display of the TEI files in the browser without need for pre-processed HTML and to host this heavily customised boilerplate view as part of another [GitHub repository](https://www.github.com/tillgrallert/tei-boilerplate-arabic-editions) that can be used across various projects. For a first impression see [here](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). It is important to note that at the moment there is no front-end beyond the GitHub repository that allows for searching and browsing across files.
 
@@ -157,8 +158,8 @@ OpenArabicPE maintains a number of [XSLT stylesheets to automatically generate M
 
 MODS also serves as the intermediary format for the free [bibutils suite](https://sourceforge.net/projects/bibutils/) of conversions between bibliographic metadata formats (including BibTeX) which is under constant development and released under a GNU/GPL (General Public License). `Tei2Mods-issues.xsl` and `bibutils` provide a means to automatically generate a large number of bibliographic formats to suit the reference manager one is working with; e.g.: 
 
-- to generate EndNote (refer-format) one only needs the following terminal command: `$xml2end MODS.xml > output_file.end`
-- to generate BibTex: `$xml2bib MODS.xml > output_file.bib`
+- to generate EndNote (refer-format) one only needs the following terminal command: `$ xml2end MODS.xml > output_file.end`
+- to generate BibTex: `$ xml2bib MODS.xml > output_file.bib`
 
 
 ## 6.3 Index by means of a Zotero group
