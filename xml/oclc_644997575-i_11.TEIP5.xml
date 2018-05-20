@@ -67,8 +67,8 @@
                                 <orgName xml:lang="ar-Latn-x-ijmes" xml:id="orgName_5.d1e137">Maṭbaʿa al-Maqāṣid</orgName>
                             </publisher>
                             <pubPlace xml:lang="en" xml:id="pubPlace_2.d1e141">
-                                <placeName xml:lang="ar" xml:id="placeName_1.d1e143">دمشق</placeName>
-                                <placeName xml:lang="en" xml:id="placeName_2.d1e146">Damascus</placeName>
+                                <placeName xml:lang="ar" xml:id="placeName_1.d1e143" ref="geon:170654" change="#d5e396">دمشق</placeName>
+                                <placeName xml:lang="en" xml:id="placeName_2.d1e146" ref="geon:170654" change="#d5e396">Damascus</placeName>
                             </pubPlace>
                             <date when="1911-05-30" calendar="#cal_gregorian" datingMethod="#cal_gregorian" xml:id="date_2.d1e150"/>
                      <date when="1911-05-30" calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1329-06-01" xml:id="date_3.d1e151"/>
@@ -89,7 +89,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-04-06" who="#pers_TG" xml:id="d2e621">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2018-04-06" who="#pers_TG" change="d2e616 #d2e621" xml:lang="en" xml:id="change_1.d2e445">Added the <tei:att xml:lang="en" change="#d2e621" xml:id="att_6.d2e447">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e396" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-04-06" who="#pers_TG" xml:id="d2e621">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2018-04-06" who="#pers_TG" change="d2e616 #d2e621" xml:lang="en" xml:id="change_1.d2e445">Added the <tei:att xml:lang="en" change="#d2e621" xml:id="att_6.d2e447">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change change="#d2e616" when="2018-04-06" who="#pers_TG" xml:id="d9e599" xml:lang="en">Generated a new <tei:gi change="#d2e616 #d2e621" xml:lang="en" xml:id="gi_8.d2e453">front</tei:gi> based on the <tei:gi change="#d2e616 #d2e621" xml:lang="en" xml:id="gi_8.d2e456">sourceDesc</tei:gi> that matches the information found in the masthead of the actual issues.</change>
             <change xml:lang="en" when="2018-04-06" who="#pers_TG" change="#d2e621" xml:id="change_2.d2e460">Validated page breaks and
                 corrected structural mark-up against the facsimiles.</change>
@@ -757,7 +757,7 @@
             <div type="article" xml:lang="ar" xml:id="div_4.d1e704">
             <head xml:lang="ar" xml:id="head_4.d1e706">نصيحة لليمانيين</head>
             <byline change="#d2e616 #d2e621" xml:lang="ar" xml:id="byline_1.d2e1390">عن
-                        <placeName change="#d2e616 #d2e621" xml:lang="ar" xml:id="placeName_3.d2e1392">الأستانة</placeName>: بقلك العلم العلامة المصلح الكبير السيد
+                        <placeName change="#d2e616 #d2e621 #d5e396" xml:lang="ar" xml:id="placeName_3.d2e1392" ref="geon:745044">الأستانة</placeName>: بقلك العلم العلامة المصلح الكبير السيد
                             <persName change="#d2e616 #d2e621" xml:lang="ar" xml:id="persName_8.d2e1395">
                   <forename change="#d2e616 #d2e621" xml:lang="ar" xml:id="forename_4.d2e1397">صالح</forename> أفندي
                         <surname change="#d2e616 #d2e621" xml:lang="ar" xml:id="surname_4.d2e1400">الشريف</surname>
@@ -953,7 +953,7 @@
                     </lg>
                     <p xml:lang="ar" xml:id="p_72.d1e818">(عليه جميع الكائنات تدور) </p>
                     <byline change="#d2e616 #d2e621" xml:lang="ar" xml:id="byline_2.d2e1569">
-                  <placeName change="#d2e616 #d2e621" xml:lang="ar" xml:id="placeName_4.d2e1571">دمشق</placeName>
+                  <placeName change="#d2e616 #d2e621 #d5e396" xml:lang="ar" xml:id="placeName_4.d2e1571" ref="geon:170654">دمشق</placeName>
                         <persName change="#d2e616 #d2e621" xml:lang="ar" xml:id="persName_9.d2e1574">محمد سليم الحنفي</persName>
                </byline>
                 </div>
@@ -1001,7 +1001,7 @@
                         </l>
                     </lg>
                     <byline change="#d2e616 #d2e621" xml:lang="ar" xml:id="byline_3.d2e1665">
-                  <placeName change="#d2e616 #d2e621" xml:lang="ar" xml:id="placeName_5.d2e1667">بيروت</placeName>
+                  <placeName change="#d2e616 #d2e621 #d5e396" xml:lang="ar" xml:id="placeName_5.d2e1667" ref="geon:276781">بيروت</placeName>
                         <persName change="#d2e616 #d2e621" xml:lang="ar" xml:id="persName_10.d2e1670">محمد سعيد إياس</persName>
                </byline>
                 </div>
@@ -1060,7 +1060,7 @@
                         </l>
                     </lg>
                     <byline change="#d2e616 #d2e621" xml:lang="ar" xml:id="byline_5.d2e1776">
-                  <placeName change="#d2e616 #d2e621" xml:lang="ar" xml:id="placeName_6.d2e1778">دمشق</placeName>
+                  <placeName change="#d2e616 #d2e621 #d5e396" xml:lang="ar" xml:id="placeName_6.d2e1778" ref="geon:170654">دمشق</placeName>
                         <persName change="#d2e616 #d2e621" xml:lang="ar" xml:id="persName_12.d2e1781">سليم قصاب حسن</persName>
                </byline>
                 </div>
@@ -1088,7 +1088,7 @@
                         </l>
                     </lg>
                     <byline change="#d2e616" xml:id="byline_1.d1e1678" xml:lang="ar">
-                  <placeName change="#d2e616" xml:id="placeName_5.d1e1679" xml:lang="ar">دمشق</placeName>
+                  <placeName change="#d2e616 #d5e396" xml:id="placeName_5.d1e1679" xml:lang="ar" ref="geon:170654">دمشق</placeName>
                         <persName change="#d2e616" xml:id="persName_9.d1e1682" xml:lang="ar">أج</persName>
                </byline>
                 </div>
@@ -1393,7 +1393,7 @@
                     <head xml:lang="ar" xml:id="head_9.d1e1431">جمعية التعاون الخيري في
                         العقيبة</head>
                     <p xml:lang="ar" xml:id="p_99.d1e1434">هي أول جمعية إسلامية تأسست لإعالة الفقراء
-                        في <placeName change="#d2e616 #d2e621" xml:lang="ar" xml:id="placeName_8.d2e2294">دمشق</placeName> وكان عدد من تنفق عليهم من التلامذة <tei:num value="22" xml:lang="ar" xml:id="num_1.d1e1922">٢٢</tei:num> تلميذاً
+                        في <placeName change="#d2e616 #d2e621 #d5e396" xml:lang="ar" xml:id="placeName_8.d2e2294" ref="geon:170654">دمشق</placeName> وكان عدد من تنفق عليهم من التلامذة <tei:num value="22" xml:lang="ar" xml:id="num_1.d1e1922">٢٢</tei:num> تلميذاً
                         واليوم جعلتهم <tei:num value="40" xml:lang="ar" xml:id="num_1.d1e1925">٤٠</tei:num> تلميذاً كلهم من أبناء المحاويج يدرسون في مدرسة واحدة
                         (المدرسة التجارية) ويتأدبون بأدب واحد، وينهجون نهجاً واحداً فنستدر أيدي أهل
                         النعمة والثراء لمساعدتها ونسأل الله لها التقدم والنجاح. <pb ed="shamela" n="" corresp="file:../epub/29676/OEBPS/xhtml/P299.xhtml" xml:id="pb_29.d1e1436"/>

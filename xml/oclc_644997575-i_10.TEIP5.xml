@@ -45,8 +45,8 @@
                                 <orgName xml:id="orgName_3.d1e128" xml:lang="ar-Latn-x-ijmes">Sharikat al-Ḥaqāiq</orgName> </publisher>
                             <publisher xml:id="publisher_2.d1e132" xml:lang="en"> <orgName xml:id="orgName_4.d1e134" xml:lang="ar">مطبعة المقاصد</orgName>
                                 <orgName xml:id="orgName_5.d1e137" xml:lang="ar-Latn-x-ijmes">Maṭbaʿa al-Maqāṣid</orgName> </publisher>
-                            <pubPlace xml:id="pubPlace_2.d1e141" xml:lang="en"> <placeName xml:id="placeName_1.d1e143" xml:lang="ar">دمشق</placeName>
-                                <placeName xml:id="placeName_2.d1e146" xml:lang="en">Damascus</placeName> </pubPlace>
+                            <pubPlace xml:id="pubPlace_2.d1e141" xml:lang="en"> <placeName xml:id="placeName_1.d1e143" xml:lang="ar" ref="geon:170654" change="#d5e433">دمشق</placeName>
+                                <placeName xml:id="placeName_2.d1e146" xml:lang="en" ref="geon:170654" change="#d5e433">Damascus</placeName> </pubPlace>
                             <date calendar="#cal_gregorian" datingMethod="#cal_gregorian" when="1911-04-30" xml:id="date_2.d1e150"/>
                             <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1911-04-30" when-custom="1329-05-01" xml:id="date_3.d1e151"/>
                             <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1911-04-30" when-custom="1327-02-17" xml:id="date_4.d1e152"/>
@@ -65,7 +65,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-01-21" who="#pers_TG" xml:id="d2e661">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e433" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-01-21" who="#pers_TG" xml:id="d2e661">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change>
             <change when="2018-01-17" who="#pers_TG" xml:id="d9e637">Generated a new <tei:gi change="#d2e661" xml:id="gi_8.d2e448">front</tei:gi> based on the <tei:gi change="#d2e661" xml:id="gi_8.d2e451">sourceDesc</tei:gi> that matches the information found in the masthead of the actual issues.</change>
             <change change="d2e626 #d2e661" when="2018-01-17" who="#pers_TG" xml:id="change_2.d2e455">Added automated <att change="#d2e661" xml:id="att_6.d2e457">xml:id</att>s for every element that is a descendant of <gi change="#d2e661" xml:id="gi_8.d2e460">tei:text</gi>and had no existing <att change="#d2e661" xml:id="att_7.d2e463">xml:id</att>following the pattern "name()_generate-id()"</change>
             <tei:change when="2018-01-17" who="#pers_TG" xml:id="d2e621">Linked all <tei:tag change="#d2e626" xml:id="tag_1.d2e444">pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
@@ -314,7 +314,7 @@
                 <bibl change="#d2e661" xml:id="bibl_1.d2e1043"> <tei:biblScope from="10" to="10" unit="issue" change="#d2e661" xml:id="biblScope_4.d2e1045">الجزء 10</tei:biblScope>
                     <tei:biblScope from="1" to="1" unit="volume" change="#d2e661" xml:id="biblScope_4.d2e1048">المجلد 1</tei:biblScope> <lb change="#d2e661" xml:id="lb_1.d2e1051"/>
                     <title level="j" xml:id="title_4.d1e88" xml:lang="ar">الحقائق</title> <lb change="#d2e661" xml:id="lb_2.d2e1056"/>
-                    <pubPlace change="#d2e661" xml:id="pubPlace_3.d2e1059"><placeName change="#d2e661" xml:id="placeName_3.d2e1060">دمشق</placeName></pubPlace> <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1911-04-30" when-custom="1329-05-01" change="#d2e661" xml:id="date_13.d2e1063">غرة جمادى الأولى <tei:num value="1329" xml:id="num_1.d1e999" xml:lang="ar">١٣٢٩</tei:num></date> و<date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1911-04-30" when-custom="1327-02-17" change="#d2e661" xml:id="date_14.d2e1068"><tei:num value="17" xml:id="num_1.d1e1002" xml:lang="ar">١٧</tei:num> نيسان ١٣٢٧</date> و<date calendar="#cal_gregorian" datingMethod="#cal_gregorian" when="1911-04-30" change="#d2e661" xml:id="date_15.d2e1073"><tei:num value="30" xml:id="num_1.d1e1005" xml:lang="ar">٣٠</tei:num> نيسان <tei:num value="1911" xml:id="num_1.d1e1008" xml:lang="ar">١٩١١</tei:num></date> </bibl>
+                    <pubPlace change="#d2e661" xml:id="pubPlace_3.d2e1059"><placeName change="#d2e661 #d5e433" xml:id="placeName_3.d2e1060" ref="geon:170654">دمشق</placeName></pubPlace> <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1911-04-30" when-custom="1329-05-01" change="#d2e661" xml:id="date_13.d2e1063">غرة جمادى الأولى <tei:num value="1329" xml:id="num_1.d1e999" xml:lang="ar">١٣٢٩</tei:num></date> و<date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1911-04-30" when-custom="1327-02-17" change="#d2e661" xml:id="date_14.d2e1068"><tei:num value="17" xml:id="num_1.d1e1002" xml:lang="ar">١٧</tei:num> نيسان ١٣٢٧</date> و<date calendar="#cal_gregorian" datingMethod="#cal_gregorian" when="1911-04-30" change="#d2e661" xml:id="date_15.d2e1073"><tei:num value="30" xml:id="num_1.d1e1005" xml:lang="ar">٣٠</tei:num> نيسان <tei:num value="1911" xml:id="num_1.d1e1008" xml:lang="ar">١٩١١</tei:num></date> </bibl>
             </div>
         </front>
         <body xml:id="body_1.d1e515" xml:lang="ar">
@@ -341,7 +341,7 @@
                 <div type="article" xml:id="div_3.d1e1003">
                     <salute xml:id="salute_1.d1e1005">حضرة الفاضل أصحاب <title level="j" xml:id="title_9.d1e1007">مجلة <title level="j" ref="oclc:644997575" xml:id="title_9.d1e1124">الحقائق</title> </title> الغراء</salute>
                     <p xml:id="p_31.d1e592" xml:lang="ar">انتشرت منذ مدة رسالة للشيخ محسن العاملي اعتمد فيها حل المتعة وحط من قدر بعض أجلاء الصحابة الكرام وأورد شبهات على أهل السنة القائلين بتحريم المتعة فكان للرسالة وقع سيء في نفسو المسلمين خصوصاً لما رأينا بعض العامة قد اغتروا بها وتوهموا أنها حجة على أهل السنة وكنا نتوقع صدور <pb change="#d2e442x #d2e621 #d2e626" ed="print" facs="#facs_373" n="363" xml:id="pb_11.d2e1190"/>ردود من العلماء الأعلام في هذه المسألة لمكانتها من الأهمية لما ينشأ عنها من استباحة الفروج التي حرمها الله تعالى. وقد مضى على تأليف الرسالة نحو سنة ولم نر <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_2.d1e1130" xml:lang="ar">أحد</num> من العلماء تعرض لها ولما كانت مجلتكم هي المجلة الوحيدة التي أنشئت لخدمة الدين وتوفرت على رد الشبه الواردة عليه جئت بهذا السؤال راجياً منكم تبيين الحقيقة في هذه المسألة وكشف الحجاب عنها لتطمئن قلوب أهل السنة وترتاح ضمائرهم والله يكتبكم مع الهادين المصلحين. .</p>
-                    <byline xml:id="byline_1.d1e1014"> <placeName xml:id="placeName_5.d1e1015">دمشق</placeName> <persName xml:id="persName_9.d1e1018">ط ي</persName>
+                    <byline xml:id="byline_1.d1e1014"> <placeName xml:id="placeName_5.d1e1015" ref="geon:170654" change="#d5e433">دمشق</placeName> <persName xml:id="persName_9.d1e1018">ط ي</persName>
                     </byline>
                 </div>
                 <div type="article" xml:id="div_4.d1e1022" xml:lang="ar">
@@ -431,7 +431,7 @@
                         <l type="bayt" xml:id="l_4.d1e816" xml:lang="ar"> <seg xml:id="seg_7.d1e818" xml:lang="ar">سباهم بمغناطيس حسن جلاله </seg> <seg xml:id="seg_8.d1e821" xml:lang="ar"> (بدائرة التكوين نور جماله)</seg> </l>
                     </lg>
                     <p xml:id="p_78.d1e827" xml:lang="ar">(عليه جميع الكائنات تدور)</p>
-                    <byline change="#d2e626" xml:id="byline_2.d2e1609"> <placeName change="#d2e626" xml:id="placeName_6.d2e1610">دمشق</placeName> <persName change="#d2e626" xml:id="persName_16.d2e1613">محمد بن محمد المبارك</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_2.d2e1609"> <placeName change="#d2e626 #d5e433" xml:id="placeName_6.d2e1610" ref="geon:170654">دمشق</placeName> <persName change="#d2e626" xml:id="persName_16.d2e1613">محمد بن محمد المبارك</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_15.d2e1617">
                     <lg xml:id="lg_3.d1e836" xml:lang="ar">
@@ -442,7 +442,7 @@
                         <l type="bayt" xml:id="l_8.d1e865" xml:lang="ar"> <seg xml:id="seg_15.d1e867" xml:lang="ar">بسر تجلي الذات أصبح محوراً </seg>
                             <seg xml:id="seg_16.d1e870" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg> </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_3.d2e1661"> <placeName change="#d2e626" xml:id="placeName_7.d2e1662">دمشق</placeName> <persName xml:id="persName_14.d1e1371">عبد القادر المبارك</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_3.d2e1661"> <placeName change="#d2e626 #d5e433" xml:id="placeName_7.d2e1662" ref="geon:170654">دمشق</placeName> <persName xml:id="persName_14.d1e1371">عبد القادر المبارك</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_16.d2e1669">
                     <head change="#d2e626" xml:id="head_14.d2e1671">الأول</head>
@@ -456,7 +456,7 @@
                         <l type="bayt" xml:id="l_12.d1e914" xml:lang="ar"> <seg xml:id="seg_23.d1e916" xml:lang="ar">بباب حماه ألجأ ولذ فهو ملجأ </seg>
                             <seg xml:id="seg_24.d1e919" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg> </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_4.d2e1715"> <placeName change="#d2e626" xml:id="placeName_8.d2e1716">دمشق</placeName> <persName xml:id="persName_15.d1e1421">عبد الرحمن القصار</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_4.d2e1715"> <placeName change="#d2e626 #d5e433" xml:id="placeName_8.d2e1716" ref="geon:170654">دمشق</placeName> <persName xml:id="persName_15.d1e1421">عبد الرحمن القصار</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_17.d2e1724">
                     <p change="#d2e626" xml:id="p_65.d2e1726">وقال أيضاً حفظه الله</p>
@@ -481,7 +481,7 @@
                         <l type="bayt" xml:id="l_20.d1e996" xml:lang="ar"> <seg xml:id="seg_39.d1e998" xml:lang="ar">ومبلغ علم الخلق فيه بأنه </seg>
                             <seg xml:id="seg_40.d1e1001" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg> </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_5.d2e1810"> <placeName change="#d2e626" xml:id="placeName_9.d2e1811">دمشق</placeName> <persName xml:id="persName_16.d1e1505">عارف محملجي</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_5.d2e1810"> <placeName change="#d2e626 #d5e433" xml:id="placeName_9.d2e1811" ref="geon:170654">دمشق</placeName> <persName xml:id="persName_16.d1e1505">عارف محملجي</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_19.d2e1818">
                     <lg xml:id="lg_6.d1e1013" xml:lang="ar">
@@ -493,7 +493,7 @@
                             <seg xml:id="seg_46.d1e1038" xml:lang="ar"> تبدي وما شيء سواه منير</seg> </l>
                         <l type="bayt" xml:id="l_24.d1e1042" xml:lang="ar"> <seg xml:id="seg_47.d1e1044" xml:lang="ar">هو الأصل في الإيجاد والكل فرعه </seg> <seg xml:id="seg_48.d1e1047" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg> </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_6.d2e1861"> <placeName change="#d2e626" xml:id="placeName_10.d2e1862">دمشق</placeName> <persName xml:id="persName_17.d1e1551">عبد القادر كيوان</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_6.d2e1861"> <placeName change="#d2e626 #d5e433" xml:id="placeName_10.d2e1862" ref="geon:170654">دمشق</placeName> <persName xml:id="persName_17.d1e1551">عبد القادر كيوان</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_20.d2e1869">
                     <p xml:id="p_90.d1e1058" xml:lang="ar">وله أيضاً حفظه الله</p>
@@ -519,7 +519,7 @@
                         <l type="bayt" xml:id="l_32.d1e1127" xml:lang="ar"> <seg xml:id="seg_63.d1e1129" xml:lang="ar">وكوكبه الدري أقدس مركز </seg> <seg xml:id="seg_64.d1e1132" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg>
                         </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_7.d2e1955"> <placeName change="#d2e626" xml:id="placeName_11.d2e1956">دمشق</placeName> <pb corresp="file:../epub/29676/OEBPS/xhtml/P257.xhtml" ed="shamela" n="n9-p18" xml:id="pb_17.d1e1140"/> <persName xml:id="persName_18.d1e1638">محمد أبو السعود مراد</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_7.d2e1955"> <placeName change="#d2e626 #d5e433" xml:id="placeName_11.d2e1956" ref="geon:170654">دمشق</placeName> <pb corresp="file:../epub/29676/OEBPS/xhtml/P257.xhtml" ed="shamela" n="n9-p18" xml:id="pb_17.d1e1140"/> <persName xml:id="persName_18.d1e1638">محمد أبو السعود مراد</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_22.d2e1965">
                     <p xml:id="p_92.d1e1143" xml:lang="ar">(الحقائق)</p>
@@ -551,7 +551,7 @@
                         <l type="bayt" xml:id="l_40.d1e1224" xml:lang="ar"> <seg xml:id="seg_79.d1e1226" xml:lang="ar">حسبك أن الفضل منه كمحور </seg>
                             <seg xml:id="seg_80.d1e1229" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg> </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_9.d2e2083"> <placeName change="#d2e626" xml:id="placeName_13.d2e2084">دمشق</placeName> <persName change="#d2e626" xml:id="persName_24.d2e2087">ع</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_9.d2e2083"> <placeName change="#d2e626 #d5e433" xml:id="placeName_13.d2e2084" ref="geon:170654">دمشق</placeName> <persName change="#d2e626" xml:id="persName_24.d2e2087">ع</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_25.d2e2091">
                     <lg xml:id="lg_10.d1e1240" xml:lang="ar">
@@ -577,7 +577,7 @@
                         <l type="bayt" xml:id="l_48.d1e1311" xml:lang="ar"> <seg xml:id="seg_95.d1e1313" xml:lang="ar">هو القطب تبغي مكانة قدره </seg>
                             <seg xml:id="seg_96.d1e1316" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg> </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_11.d2e2180"> <placeName change="#d2e626" xml:id="placeName_14.d2e2181">حماه</placeName> <persName change="#d2e626" xml:id="persName_26.d2e2184">ع. ب</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_11.d2e2180"> <placeName change="#d2e626 #d5e433" xml:id="placeName_14.d2e2181" ref="geon:170017">حماه</placeName> <persName change="#d2e626" xml:id="persName_26.d2e2184">ع. ب</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_27.d2e2188">
                     <lg xml:id="lg_12.d1e1328" xml:lang="ar">
@@ -589,7 +589,7 @@
                         <l type="bayt" xml:id="l_52.d1e1357" xml:lang="ar"> <seg xml:id="seg_103.d1e1359" xml:lang="ar">وذاك رسول الله وخاتم رسله </seg>
                             <seg xml:id="seg_104.d1e1362" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg> </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_12.d2e2229"> <placeName change="#d2e626" xml:id="placeName_15.d2e2230">دمشق</placeName> <persName xml:id="persName_19.d1e1869">محمد سليم حنفي</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_12.d2e2229"> <placeName change="#d2e626 #d5e433" xml:id="placeName_15.d2e2230" ref="geon:170654">دمشق</placeName> <persName xml:id="persName_19.d1e1869">محمد سليم حنفي</persName> </byline>
                 </div>
                 <div change="#d2e626" type="article" xml:id="div_28.d2e2238">
                     <lg xml:id="lg_13.d1e1373" xml:lang="ar">
@@ -600,7 +600,7 @@
                             <seg xml:id="seg_110.d1e1398" xml:lang="ar"> هو السر في المخلوق فيه يسير</seg> </l>
                         <l type="bayt" xml:id="l_56.d1e1402" xml:lang="ar"> <seg xml:id="seg_111.d1e1404" xml:lang="ar">هو النعمة العليا هو المقصد الذي </seg> <seg xml:id="seg_112.d1e1407" xml:lang="ar"> (عليه جميع الكائنات تدور)</seg> </l>
                     </lg>
-                    <byline change="#d2e626" xml:id="byline_13.d2e2279"> <placeName change="#d2e626" xml:id="placeName_16.d2e2280">دمشق</placeName> <persName change="#d2e626" xml:id="persName_28.d2e2283">م</persName> </byline>
+                    <byline change="#d2e626" xml:id="byline_13.d2e2279"> <placeName change="#d2e626 #d5e433" xml:id="placeName_16.d2e2280" ref="geon:170654">دمشق</placeName> <persName change="#d2e626" xml:id="persName_28.d2e2283">م</persName> </byline>
                 </div>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P259.xhtml" ed="shamela" n="n9-p20" xml:id="pb_18.d1e1418"/>
@@ -705,7 +705,7 @@
             <pb change="#d2e442x #d2e621 #d2e626" ed="print" facs="#facs_399" n="389" xml:id="pb_54.d2e2676"/>
             <div type="article" xml:id="div_7.d1e1783" xml:lang="ar">
                 <head xml:id="head_7.d1e1785" xml:lang="ar">الحقائق والسائح</head>
-                <p xml:id="p_123.d1e1788" xml:lang="ar"> <bibl xml:id="bibl_3.d1e2289">كتب (سائح) في <placeName xml:id="placeName_6.d1e2291">بعلبك</placeName> في <title level="j" xml:id="title_19.d1e2294">جريدة المفيد</title> الغراء مقالة عنوانها <title level="a" rend="brackets" xml:id="title_20.d1e2297">مجلة <lb change="#d2e626" ed="print" xml:id="lb_5.d2e2694"/>الحقائق</title>
+                <p xml:id="p_123.d1e1788" xml:lang="ar"> <bibl xml:id="bibl_3.d1e2289">كتب (سائح) في <placeName xml:id="placeName_6.d1e2291" ref="geon:277130" change="#d5e433">بعلبك</placeName> في <title level="j" xml:id="title_19.d1e2294">جريدة المفيد</title> الغراء مقالة عنوانها <title level="a" rend="brackets" xml:id="title_20.d1e2297">مجلة <lb change="#d2e626" ed="print" xml:id="lb_5.d2e2694"/>الحقائق</title>
                     </bibl> وصم فيها المجلة وأصحابها بما أوحى إليه الجهل والغرور وحب مقاومة المشاريع العلمية فأتينا بهذه الكلمات تفنيداً لمزاعمه الباطلة وبياناً لحقيقة المجلة وما أنشئت له وكان الأولى بنا السكوت أمام هذا التمويه لأن (<title level="j" xml:id="title_21.d1e2301">الحقائق</title>) ارفع من أن تفسح مجالاً للمجادلات التي لا تعود بالفائدة على القراء ولأنها لا تجيب إلا عما كان مبيناً فيه وجه الخطأ بالدليل ولكن رأى كثير من أفاضل القراء وجوب الكتابة وألحوا علينا بذلك فأجبنا طلبهم والله المسؤول أن يسدد اقوالنا ويهدينا أقوم الطريق.</p>
                 <p xml:id="p_124.d1e1791" xml:lang="ar">قال (السائح في وصف المجلة ما ملخصه) أنشأها جماعة من طلبة العلم - لنشر <lb change="#d2e626" ed="print" xml:id="lb_6.d2e2703"/>أفكار أستاذهم الشيخ صالح التونسي المحجوز عليه في الأستانة لذلك لا تكاد ترى <lb change="#d2e626" ed="print" xml:id="lb_7.d2e2705"/>عدداً منها خلواً من الطعن في العلماء المخلصين ك<persName change="#d2e626" xml:id="persName_29.d2e2707">القاسمي</persName> و<persName change="#d2e626" xml:id="persName_30.d2e2710">المغربي</persName> و<rs change="#d2e626" ref="oclc:32272677" xml:id="rs_1.d2e2713">صاحب <title level="j" xml:id="title_23.d1e2491">المقتبس</title> </rs> الخ. .</p>
                 <p xml:id="p_125.d1e1794" xml:lang="ar">(أصحاب <title level="j" xml:id="title_24.d1e2497">المقتبس</title> يفتخرون بأن نفراً منهم من مريدي الأستاذ العلامة السيد صالح الشريف التونسي وقد أنشاءوا هذه المجلة لخدمة الدين والذب عن حياضه ودحض شبه الضالين وإخفاق مساعي المتفرنجين وهذا ليس فكراً للأساذ فقط بل لكل مسلم يحب دينه. ويغار عليه وهم مسوقون إليه بسائق الحمية الدينيةوالغيرة افسلامية ولا ينشرون في ذلك فكر شخص معين ولا يقاومون فئة معينة وليس الكبير عندهم بألقابه بل بعلمه ولا المصلح عندهم مصلحاً بدعواه بل بآثاره (قل هاتوا <pb change="#d2e442x #d2e621 #d2e626" ed="print" facs="#facs_400" n="390" xml:id="pb_55.d2e2724"/>برهانكم إن كنتم صادقين) أما كون الأستاذ محجوزاً عليه في الأستانة فهو من الكذب الصراح الذي ليس له ظل من الحقيقة إلا في مجلة السائح المخترعة لهذا الخبر.</p>
@@ -720,7 +720,7 @@
                     <salute change="#d2e626" xml:id="salute_2.d2e2765">حضرة <rs change="#d2e626" ref="oclc:4795364" xml:id="rs_2.d2e2767">أصحاب مجلة <title level="j" ref="oclc:644997575" xml:id="title_25.d1e2533">الحقائق</title>
                         </rs> الغراء وفقهم الله آمين</salute>
                     <p xml:id="p_133.d1e1822" xml:lang="ar">ما نشره السائح في المفيد من الهذيان ثقل على كل مسلم يقدس مبادئ دينه الجليلة ولذا أتيت بهذه الرسالة رداً على مزاعمه الباطلة فالمرجو درجها في المجلة ولكم مني وافر الشكر. </p>
-                    <byline xml:id="byline_3.d1e2339">أحد تلمذة <orgName xml:id="orgName_6.d1e2341">المكتب الطبي</orgName> ب<placeName xml:id="placeName_7.d1e2344">دمشق</placeName> <pb corresp="file:../epub/29676/OEBPS/xhtml/P264.xhtml" ed="shamela" n="n9-p25" xml:id="pb_23.d1e1827"/> <persName xml:id="persName_20.d1e2349">ع</persName> </byline>
+                    <byline xml:id="byline_3.d1e2339">أحد تلمذة <orgName xml:id="orgName_6.d1e2341">المكتب الطبي</orgName> ب<placeName xml:id="placeName_7.d1e2344" ref="geon:170654" change="#d5e433">دمشق</placeName> <pb corresp="file:../epub/29676/OEBPS/xhtml/P264.xhtml" ed="shamela" n="n9-p25" xml:id="pb_23.d1e1827"/> <persName xml:id="persName_20.d1e2349">ع</persName> </byline>
                 </div>
                 <div type="article" xml:id="div_8.d1e1833" xml:lang="ar">
                     <head xml:id="head_8.d1e1835" xml:lang="ar">الرسالة</head>
@@ -742,7 +742,7 @@
                     <lg xml:id="lg_29.d1e1895" xml:lang="ar">
                         <l type="bayt" xml:id="l_84.d1e1897" xml:lang="ar"> <seg xml:id="seg_167.d1e1899" xml:lang="ar">ومن أين للخفاش أن يبصر الضيا </seg> <seg xml:id="seg_168.d1e1902" xml:lang="ar"> وهل يألف الجعلان ورد الخمائل</seg> </l>
                     </lg>
-                    <byline xml:id="byline_4.d1e2437"> <placeName xml:id="placeName_8.d1e2438">حماه</placeName> غيور</byline>
+                    <byline xml:id="byline_4.d1e2437"> <placeName xml:id="placeName_8.d1e2438" ref="geon:170017" change="#d5e433">حماه</placeName> غيور</byline>
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P268.xhtml" ed="shamela" n="" xml:id="pb_27.d1e1913"/>
                 </div>
             </div>

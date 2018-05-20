@@ -62,8 +62,8 @@
                                 <orgName xml:id="orgName_5.d1e137" xml:lang="ar-Latn-x-ijmes">Maṭbaʿa al-Maqāṣid</orgName>
                             </publisher>
                             <pubPlace xml:id="pubPlace_2.d1e141" xml:lang="en">
-                                <placeName xml:id="placeName_1.d1e143" xml:lang="ar">دمشق</placeName>
-                                <placeName xml:id="placeName_2.d1e146" xml:lang="en">Damascus</placeName>
+                                <placeName xml:id="placeName_1.d1e143" xml:lang="ar" ref="geon:170654" change="#d5e372">دمشق</placeName>
+                                <placeName xml:id="placeName_2.d1e146" xml:lang="en" ref="geon:170654" change="#d5e372">Damascus</placeName>
                             </pubPlace>
                             <date calendar="#cal_islamic" datingMethod="#cal_islamic" type="official" when="1911-01-02" when-custom="1329-01-01" xml:id="date_3.d1e151"/>
                         </imprint>
@@ -81,7 +81,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-04-16" who="#pers_TG" xml:id="d2e597" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2018-04-16" who="#pers_TG" change="#d2e597" xml:id="change_1.d2e428">Wrapped all numerals in <tei:gi change="#d2e597" xml:id="gi_8.d2e430">num</tei:gi> with <tei:att change="#d2e597" xml:id="att_6.d2e433">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e372" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-04-16" who="#pers_TG" xml:id="d2e597" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2018-04-16" who="#pers_TG" change="#d2e597" xml:id="change_1.d2e428">Wrapped all numerals in <tei:gi change="#d2e597" xml:id="gi_8.d2e430">num</tei:gi> with <tei:att change="#d2e597" xml:id="att_6.d2e433">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
             <change when="2018-04-16" who="#pers_TG" xml:lang="en" change="#d2e597" xml:id="change_1.d2e437">Verified page breaks, corrected mark-up. Fixed the final table of printing errors</change>
             <change when="2017-08-04" who="#pers_TG" xml:id="change_1.d1e431">Added the remaining page beginnings based on the facsimile. Moved to text of the following issue (7) to its own file. Added automated page numbers as 
                 <att xml:id="att_6.d1e433">n</att>
@@ -408,7 +408,7 @@
                     <title level="j" xml:id="title_8.d1e984" xml:lang="ar">الحقائق</title>
                     <lb xml:id="lb_2.d1e986"/>
                     <pubPlace xml:id="pubPlace_3.d1e987">
-                        <placeName xml:id="placeName_3.d1e988">دمشق</placeName>
+                        <placeName xml:id="placeName_3.d1e988" ref="geon:170654" change="#d5e372">دمشق</placeName>
                     </pubPlace>
                     <date xml:id="date_11.d1e991">
                         <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1911-01-02" when-custom="1329-01-01" xml:id="date_11.d1e992">غرة محرم الحرام سنة 
@@ -519,7 +519,7 @@
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_11.d1e1138" xml:lang="ar">أحد</num>
                     من الصحابة والتابعين أنه قال لمن استفتاه يجب عليك أن تراعي أحكام مذهب من قلدته لا يفيد ذلك أما أو لا فلأنه لا يلزم من عدم نقل ذلك عنهم انهم لم يبينوه لمن يسئلهم وثانياً لو سلمنا عدم بيانهم لذلك لا يلزم منه وقوع التلفيق من السائل بالفعل ومن زعمه فعليه إثبات صدور ذلك منهم وإذا جزم المحققون بحرمة التلفيق بعد إطلاعهم على ذلك فالوقوف عنده أولى إلى أن يثبت نقل صحيح يخالفه وأنى بذلك فيؤخذ مما ذكرناه حرمة التلفيق وهو الحق الأحق بأن يتبع فنسئله تعالى أن يلهم الجميع صواباً، ونعوذ من جهل بدا بسببه سوء الفهم والله أعلم.</p>
                 <byline xml:id="byline_1.d1e1174">
-                    <placeName xml:id="placeName_4.d1e1175">دمشق</placeName>
+                    <placeName xml:id="placeName_4.d1e1175" ref="geon:170654" change="#d5e372">دمشق</placeName>
                     <persName xml:id="persName_7.d1e1178">
                         <abbr xml:id="abbr_1.d1e1179">ت</abbr>
                         <abbr xml:id="abbr_2.d1e1182">ف</abbr>
@@ -586,7 +586,7 @@
                     تمثال 
                     <persName ref="viaf:10758777" change="#d2e597" xml:id="persName_8.d2e1327">مدحت باشا</persName>
                     في 
-                    <placeName change="#d2e597" xml:id="placeName_5.d2e1330">البصرة</placeName></head>
+                    <placeName change="#d2e597 #d5e372" xml:id="placeName_5.d2e1330" ref="geon:99532">البصرة</placeName></head>
                 <div type="section" xml:id="div_6.d1e1247">
                     <p xml:id="p_39.d1e641" xml:lang="ar">في مصر جرائد إفرنجية راقية تكتب فصولاً لا أجدها في غيرها من صحف مصر، ومن هذه الجرائد 
                         <title level="j" xml:id="title_9.d1e1251">الجورنال دي كير</title>
@@ -652,7 +652,7 @@
                     <byline xml:id="byline_3.d1e1365">(النصير البيروتي) 
                         <persName rend="brackets" xml:id="persName_9.d1e1367">سعيد</persName></byline>
                     <dateline xml:id="dateline_1.d1e1370">
-                        <placeName xml:id="placeName_5.d1e1371">بيروت</placeName>في 
+                        <placeName xml:id="placeName_5.d1e1371" ref="geon:276781" change="#d5e372">بيروت</placeName>في 
                         <date xml:id="date_17.d1e1374"> <tei:num type="auto-markup" resp="#pers_TG" value="16" xml:lang="ar" change="#d2e597" xml:id="num_15.d2e1468">١٦</tei:num>  تشرين ثاني  <tei:num type="auto-markup" resp="#pers_TG" value="910" xml:lang="ar" change="#d2e597" xml:id="num_15.d2e1471">٩١٠</tei:num> </date></dateline>
                 </div>
             </div>
@@ -714,7 +714,7 @@
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P138.xhtml" ed="shamela" n="n6-p15" xml:id="pb_15.d1e721"/>
                     الله تعالى وقد اكتفينا الآن بهذه الأسطر وسنتبعها بالكلام على الفتاوى التي اعتمدتم عليها بما يفتح الله به علينا ومنه نسأل السداد والثبات فإنه المحبب للدعوات وهو اعلم بالنيات.</p>
                 <byline xml:id="byline_4.d1e1470">
-                    <placeName xml:id="placeName_6.d1e1471">دمشق</placeName>
+                    <placeName xml:id="placeName_6.d1e1471" ref="geon:170654" change="#d5e372">دمشق</placeName>
                     <persName xml:id="persName_11.d1e1474">محمد عارف المنير الحسيني</persName>
                 </byline>
             </div>
@@ -1047,7 +1047,7 @@
                         </l>
                     </lg>
                     <byline xml:id="byline_8.d1e2087">
-                        <placeName xml:id="placeName_7.d1e2088">دمشق</placeName>
+                        <placeName xml:id="placeName_7.d1e2088" ref="geon:170654" change="#d5e372">دمشق</placeName>
                         <persName xml:id="persName_16.d1e2091">محي الدين الخاني</persName>
                     </byline>
                 </div>
