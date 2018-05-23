@@ -81,7 +81,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e372" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-04-16" who="#pers_TG" xml:id="d2e597" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2018-04-16" who="#pers_TG" change="#d2e597" xml:id="change_1.d2e428">Wrapped all numerals in <tei:gi change="#d2e597" xml:id="gi_8.d2e430">num</tei:gi> with <tei:att change="#d2e597" xml:id="att_6.d2e433">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-05-23" who="#pers_TG" xml:id="d2e384" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en">num</tei:gi> node in <tei:gi xml:lang="en">date</tei:gi>.</change><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e372" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-04-16" who="#pers_TG" xml:id="d2e597" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2018-04-16" who="#pers_TG" change="#d2e597" xml:id="change_1.d2e428">Wrapped all numerals in <tei:gi change="#d2e597" xml:id="gi_8.d2e430">num</tei:gi> with <tei:att change="#d2e597" xml:id="att_6.d2e433">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
             <change when="2018-04-16" who="#pers_TG" xml:lang="en" change="#d2e597" xml:id="change_1.d2e437">Verified page breaks, corrected mark-up. Fixed the final table of printing errors</change>
             <change when="2017-08-04" who="#pers_TG" xml:id="change_1.d1e431">Added the remaining page beginnings based on the facsimile. Moved to text of the following issue (7) to its own file. Added automated page numbers as 
                 <att xml:id="att_6.d1e433">n</att>
@@ -630,8 +630,7 @@
                         سداً للذريعة ومنعاً للتشبه بالوثنيين واتخاذها حرام بالإجماع للنهي عنه وكذلك تعظيمها لأنه يفتح باب عبادة الأصنام وينوه أمر الوثنية وهذا التحريم بإطلاقه شامل للسياسة وغيرها ولذا منع ناظر الداخلية من وضع تمثال مدحت باشا في مدينة البصرة وأجاب بأنه مخالف للشرع الشريف كما نقلته الجرائد من عهد قريب.</p>
                     <p xml:id="p_50.d1e678" xml:lang="ar">والحكومة التي تجيب بهذا الجواب لا تجيز إقامة التماثيل للموتى في المقابر وهي لا توجد في مقابر المسلمين وأما نصب تلك التماثيل لمحمد علي باشا وغيره فلم يكن عن فتوى صادرة عن مقام الإفتاء في مصر لما علم من أن الشرع الشريف يمنع ذلك وقد أفتى العلامة العباسي مفتي الديار رحمه الله بوجوب إزالة الصنم الموضوع بالأزبكية وكسر رؤوس الصور الموجود في فتحتي كبرى قصر النيل حين سئل عنها كما في فتاويه والله تعالى أعلم حرر في 
                         <tei:num value="15" xml:id="num_1.d1e1179" xml:lang="ar">١٥</tei:num>
-                        ذي القعدة سنة 
-                        <tei:num value="1328" xml:id="num_1.d1e1182" xml:lang="ar">١٣٢٨</tei:num>
+                        ذي القعدة <tei:date when="1328" type="auto-markup" change="#d2e384">سنة <tei:num value="1328" xml:id="num_1.d1e1182" xml:lang="ar">١٣٢٨</tei:num></tei:date>
                         .</p>
                     <p xml:id="p_53.d1e688" xml:lang="ar">(مكان الختم)</p>
                     <byline xml:id="byline_2.d1e1342">الفقير إليه سبحانه 
@@ -833,13 +832,11 @@
                         الفرنسية إحصاء</bibl>عن الطلاق في أميركا بلد حر المطلقة بناءً على طلب المجلة نقتطف منه مايأتي قال:</p>
                 <p xml:id="p_103.d1e879" xml:lang="ar">سجلت المحاكم في مملكة (مساشوزيت) من ولايات الممالك المتحدة ( 
                     <tei:num value="1622" xml:id="num_1.d1e1389" xml:lang="ar">١٦٢٢</tei:num>
-                    ) ورقة طلاق سنة 
-                    <tei:num value="1894" xml:id="num_1.d1e1392" xml:lang="ar">١٨٩٤</tei:num>
+                    ) ورقة طلاق <tei:date when="1894" type="auto-markup" change="#d2e384">سنة <tei:num value="1894" xml:id="num_1.d1e1392" xml:lang="ar">١٨٩٤</tei:num></tei:date>
                     بعد إن كانت في سنة قبلها ( 
                     <tei:num value="770" xml:id="num_1.d1e1395" xml:lang="ar">٧٧٠</tei:num>
                     ) فقط أي أنه آخذ في الازدياد بسرعة مدهشة.</p>
-                <p xml:id="p_104.d1e882" xml:lang="ar">أما في مملكة (أهيو) من الممالك المتحدة فقد سجلت المحاكم سنة 
-                    <tei:num value="1865" xml:id="num_1.d1e1401" xml:lang="ar">١٨٦٥</tei:num>
+                <p xml:id="p_104.d1e882" xml:lang="ar">أما في مملكة (أهيو) من الممالك المتحدة فقد سجلت المحاكم <tei:date when="1865" type="auto-markup" change="#d2e384">سنة <tei:num value="1865" xml:id="num_1.d1e1401" xml:lang="ar">١٨٦٥</tei:num></tei:date>
                     <tei:num value="98" xml:id="num_1.d1e1404" xml:lang="ar">٩٨</tei:num>
                     / 
                     <tei:num value="22" xml:id="num_1.d1e1407" xml:lang="ar">٢٢</tei:num>
@@ -865,8 +862,7 @@
                     ) ونقص الزواج عن معدله بمقدار ( 
                     <tei:num value="84889" xml:id="num_1.d1e1438" xml:lang="ar">٨٤٨٨٩</tei:num>
                     ).</p>
-                <p xml:id="p_106.d1e888" xml:lang="ar">وفي كاليفورنيا من الممالك المتحدة حصل في ألفي زواج في سنة 
-                    <tei:num value="1897" xml:id="num_1.d1e1444" xml:lang="ar">١٨٩٧</tei:num>
+                <p xml:id="p_106.d1e888" xml:lang="ar">وفي كاليفورنيا من الممالك المتحدة حصل في ألفي زواج في <tei:date when="1897" type="auto-markup" change="#d2e384">سنة <tei:num value="1897" xml:id="num_1.d1e1444" xml:lang="ar">١٨٩٧</tei:num></tei:date>
                     ( 
                     <tei:num value="641" xml:id="num_1.d1e1447" xml:lang="ar">٦٤١</tei:num>
                     ) طلاقاً أي في كل 
@@ -910,8 +906,7 @@
                     <bibl change="#d2e597" xml:id="bibl_8.d2e1982">
                         العمراني الخطير 
                         <author rend="brackets" change="#d2e597" xml:id="author_5.d2e1984">
-                            <persName change="#d2e597" xml:id="persName_19.d2e1986">جيوم فريرو</persName></author>في مجلة سنة 
-                        <tei:num value="1895" xml:id="num_1.d1e1504" xml:lang="ar">١٨٩٥</tei:num>
+                            <persName change="#d2e597" xml:id="persName_19.d2e1986">جيوم فريرو</persName></author>في مجلة <tei:date when="1895" type="auto-markup" change="#d2e384">سنة <tei:num value="1895" xml:id="num_1.d1e1504" xml:lang="ar">١٨٩٥</tei:num></tei:date>
                         من مجلات الفرنسية</bibl>ما يأتي:</p>
                 <quote rend="quotation-marks" change="#d2e597" xml:id="quote_7.d2e1994">
                     <p xml:id="p_120.d1e937" xml:lang="ar">إن العلامات المنذرة بقرب حلول الأزمة النهائية لهذا الشكل من المدنية التي تعيس فيه كثيرة جداً (تأمل) بحيث لا يمر يوم حتى يقف الباحث على إنذارات جديدة فيه. فلنعط نحن أيضاً أنفسنا وظيفة الطبيب ولنساعد في مساعدة ما شخصه الأطباء من هذا المرض الاجتماعي في زماننا هذا بدرس هذا الشكل الجديد من الرهينة التي هي مع عدم استنادها على دين تهددنا بأنها ستصل إلى الحد الذي وصلت إليه الرهينة الدينية في زمن من أزمنة القرون الوسطى.</p>
