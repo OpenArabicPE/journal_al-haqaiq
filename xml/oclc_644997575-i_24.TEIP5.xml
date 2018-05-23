@@ -80,7 +80,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e335" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-30" who="#pers_TG" xml:id="d2e323">Added automated page numbers as <att>n</att>s and <att>ed</att>="print" for every<gi>pb</gi> that was not of <att>ed</att>="shamela".</change><change when="2018-04-27" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-05-23" who="#pers_TG" xml:id="d2e346" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en">num</tei:gi> node in <tei:gi xml:lang="en">date</tei:gi>.</change><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e335" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-30" who="#pers_TG" xml:id="d2e323">Added automated page numbers as <att>n</att>s and <att>ed</att>="print" for every<gi>pb</gi> that was not of <att>ed</att>="shamela".</change><change when="2018-04-27" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change>
             <tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected 
                 <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi>
                 by moving all 
@@ -394,8 +394,7 @@
                 <p xml:id="p_45.d1e690" xml:lang="ar">قال كارلايل الفيلسوف الإنكليزي الشهير الذي يعد أكبر الإنكليز بعد 
                     <persName ref="viaf:96994048" xml:id="persName_9.d1e858" xml:lang="en-Arab-AR">
                         <surname xml:id="surname_5.d1e859">شكسبير</surname></persName>(توفي
-                        سنة  
-                    <tei:num value="1881" xml:id="num_1.d1e759" xml:lang="ar">١٨٨١</tei:num>
+                        <tei:date when="1881" type="auto-markup" change="#d2e346">سنة <tei:num value="1881" xml:id="num_1.d1e759" xml:lang="ar">١٨٨١</tei:num></tei:date>
                     ) م قال في إقامة الدليل على نبوة محمد صلى الله عليه وسلم في كتابه
                         الأبطال وديانة الأبطال ما معناه:</p>
                 <p xml:id="p_46.d1e693" xml:lang="ar">(لو جاءك رجل فادعى لك أنه بناءً فماذا تطلب من الأدلة على زعمه ذلك أكثر من أن بيني ذلك بيتاً مشيد الدعائم ثابت الأركان. ثم ماذا كنت قائلاً لو بني ذلك البيت من السعة بحيث يسع نحو 
@@ -960,8 +959,7 @@
                     <pb change="#d2e323" ed="print" n="34"/>
                     أبناءها وتحفظ رجالها ومسيحيو الكريديين يذبحون المسلمين في عقر دورهم وفي وسط بيوتهم وفي رواجهم وغدوهم وهم ينظرون إليهم ويتغاضون عن أعمالهم أتصدقون بأن رجال أوروبا أهل وفاء وصدق إذاً لماذا نقضوا أكثر المعاهدات التي جرت بينهم وبين حكومتنا العلية. هذه معاهدة باريز التي عقدت في 
                     <tei:num value="30" xml:id="num_1.d1e1635" xml:lang="ar">٣٠</tei:num>
-                    مارس سنة 
-                    <tei:num value="1856" xml:id="num_1.d1e1638" xml:lang="ar">١٨٥٦</tei:num>
+                    مارس <tei:date when="1856" type="auto-markup" change="#d2e346">سنة <tei:num value="1856" xml:id="num_1.d1e1638" xml:lang="ar">١٨٥٦</tei:num></tei:date>
                     بعد أن وقع عليها 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P745.xhtml" ed="shamela" n="n23-p27" xml:id="pb_25.d1e1565"/>
                     من طرف فرنسا وانكلترا وسردينيا وألمانيا والروسيا وأصبحت حبراً على ورق. فقد جاء في المادة الأولى منها ما نصه:</p>
