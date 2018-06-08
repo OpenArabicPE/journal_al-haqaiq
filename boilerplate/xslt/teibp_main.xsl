@@ -827,6 +827,7 @@
                 <xsl:when test="tei:orig and tei:corr[not(@resp = '#org_MS')]">
                     <xsl:choose>
                         <xsl:when test="$p_display-editorial-changes = true()">
+                            <xsl:apply-templates select="tei:orig"/>
                             <xsl:apply-templates select="tei:corr"/>
                         </xsl:when>
                         <xsl:otherwise>
@@ -990,68 +991,153 @@
     </xsl:template> -->
 
     <!-- provide links to linked data -->
-    <xsl:template match="tei:*[@ref][ancestor::tei:text]">
+    <xsl:template name="t_link-to-authority-file">
+        <xsl:param name="p_content" select="."/>
+        <!-- provide a span to dynamically load further content -->
         <span class="c_toggle-popup">
-        <xsl:copy>
-            <xsl:call-template name="templHtmlAttrLang">
-                <xsl:with-param name="pInput" select="."/>
-            </xsl:call-template>
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:copy>
-        <!-- do something with private urls -->
-        <a class="c_linked-data" target="_blank" lang="en">
-            <xsl:choose>
-                <xsl:when test="starts-with(@ref, 'geon')">
-                    <xsl:attribute name="href">
-                        <xsl:value-of
-                            select="concat('http://www.geonames.org/', substring-after(@ref, 'geon:'))"
-                        />
-                    </xsl:attribute>
-                    <xsl:attribute name="title">
-                        <xsl:text>Link to this toponym on GeoNames</xsl:text>
-                    </xsl:attribute>
-                    <!-- <xsl:text>geonames</xsl:text> -->
-                </xsl:when>
-                <xsl:when test="starts-with(@ref, 'oclc')">
-                    <xsl:attribute name="href">
-                        <xsl:value-of
-                            select="concat('https://www.worldcat.org/oclc/', substring-after(@ref, 'oclc:'))"
-                        />
-                    </xsl:attribute>
-                    <xsl:attribute name="title">
-                        <xsl:text>Link to this bibliographic item on WorldCat</xsl:text>
-                    </xsl:attribute>
-                    <!-- <xsl:text>oclc</xsl:text> -->
-                </xsl:when>
-                <xsl:when test="starts-with(@ref, 'viaf')">
-                    <xsl:attribute name="href">
-                        <xsl:value-of
-                            select="concat('https://viaf.org/viaf/', substring-after(@ref, 'viaf:'))"
-                        />
-                    </xsl:attribute>
-                    <xsl:attribute name="title">
-                        <xsl:text>Link to this entity at VIAF</xsl:text>
-                    </xsl:attribute>
-                    <!-- <xsl:text>viaf</xsl:text> -->
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:attribute name="href">
-                        <xsl:value-of select="@ref"/>
-                    </xsl:attribute>
-                    <!-- <xsl:text>link</xsl:text> -->
-                </xsl:otherwise>
-            </xsl:choose>
-            <!-- add the arrow symbol -->
-            <xsl:copy-of select="document('../assets/icons/external-link.svg')"/>
-        </a>
+            <!-- wrap everything in a link to external sources -->
+            <a class="c_linked-data" lang="en" target="_blank">
+                <xsl:choose>
+                    <xsl:when test="starts-with(@ref, 'geon')">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('http://www.geonames.org/', substring-after(@ref, 'geon:'))"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="title">
+                            <xsl:text>Link to this toponym on GeoNames</xsl:text>
+                        </xsl:attribute>
+                        <!-- <xsl:text>geonames</xsl:text>-->
+                        <!-- add a mapping symbol -->
+                        <!-- <xsl:copy-of select="document('../assets/icons/map-pin.svg')"/> -->
+                    </xsl:when>
+                    <xsl:when test="starts-with(@ref, 'oclc')">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('https://www.worldcat.org/oclc/', substring-after(@ref, 'oclc:'))"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="title">
+                            <xsl:text>Link to this bibliographic item on WorldCat</xsl:text>
+                        </xsl:attribute>
+                        <!-- <xsl:text>oclc</xsl:text>-->
+                        <!-- add the arrow symbol -->
+                        <!-- <xsl:copy-of select="document('../assets/icons/book-open.svg')"/> -->
+                    </xsl:when>
+                    <xsl:when test="starts-with(@ref, 'viaf')">
+                        <xsl:attribute name="href">
+                            <xsl:value-of select="concat('https://viaf.org/viaf/', substring-after(@ref, 'viaf:'))"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="title">
+                            <xsl:text>Link to this entity at VIAF</xsl:text>
+                        </xsl:attribute>
+                        <!-- <xsl:text>viaf</xsl:text>-->
+                        <!-- add a symbol for a person -->
+                        <!-- <xsl:copy-of select="document('../assets/icons/user.svg')"/> -->
+                    </xsl:when>
+                </xsl:choose>
+                <xsl:copy-of select="$p_content"/>
+            </a>
         <!--<xsl:call-template name="t_pop-up-note">
             <xsl:with-param name="p_lang" select="'en'"/>
             <xsl:with-param name="p_content">
                 <xsl:text>Test text</xsl:text>
             </xsl:with-param>
         </xsl:call-template>-->
-    </span>
+        </span>
     </xsl:template>
+
+    <xsl:template match="tei:persName[ancestor::tei:body]">
+        <xsl:variable name="v_icon" select="document('../assets/icons/user.svg')"/>
+        <xsl:copy>
+            <xsl:call-template name="templHtmlAttrLang">
+                <xsl:with-param name="pInput" select="."/>
+            </xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <xsl:call-template name="t_link-to-authority-file">
+                    <xsl:with-param name="p_content">
+                        <!-- add icon -->
+                        <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+               <!-- add icon -->
+                <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:orgName[ancestor::tei:body]">
+        <xsl:variable name="v_icon" select="document('../assets/icons/users.svg')"/>
+        <xsl:copy>
+            <xsl:call-template name="templHtmlAttrLang">
+                <xsl:with-param name="pInput" select="."/>
+            </xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <xsl:call-template name="t_link-to-authority-file">
+                    <xsl:with-param name="p_content">
+                        <!-- add icon -->
+                        <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+               <!-- add icon -->
+                <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:placeName[ancestor::tei:body]">
+        <xsl:variable name="v_icon" select="document('../assets/icons/map-pin.svg')"/>
+        <xsl:copy>
+            <xsl:call-template name="templHtmlAttrLang">
+                <xsl:with-param name="pInput" select="."/>
+            </xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <xsl:call-template name="t_link-to-authority-file">
+                    <xsl:with-param name="p_content">
+                        <!-- add icon -->
+                        <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+               <!-- add icon -->
+                <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="tei:title[ancestor::tei:body][@level=('m' or 'j')]">
+        <xsl:variable name="v_icon" select="document('../assets/icons/book-open.svg')"/>
+        <xsl:copy>
+            <xsl:call-template name="templHtmlAttrLang">
+                <xsl:with-param name="pInput" select="."/>
+            </xsl:call-template>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <xsl:call-template name="t_link-to-authority-file">
+                    <xsl:with-param name="p_content">
+                        <!-- add icon -->
+                        <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+               <!-- add icon -->
+                <span class="c_icon-entity"><xsl:copy-of select="$v_icon"/></span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
+
+
 
     <!-- template to provide permalinks to elements -->
     <xsl:template name="t_link-self">
