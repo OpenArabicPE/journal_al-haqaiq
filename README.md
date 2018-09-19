@@ -50,7 +50,7 @@ There is no proper release schedule yet but I conceive of version 1.0 as the fir
 
 # 2. The journal *al-Ḥaqāʾiq*
 
-ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. According to some library catalogues---stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
+ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. The final issue of volume 3 contains the reference "will be continued ..." under several articles (e.g. [here](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_35.TEIP5.xml#div_9.d1e1511) and [here](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_35.TEIP5.xml#div_10.d1e1618)). According to some library catalogues---while stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
 
 [^1]: Thomsen, P. "Verzeichnis der Arabischen Zeitungen und Zeitschriften Palästinas." *Zeitschrift des Deutschen Palästina-Vereins (1878-1945)* 35, no. 4 (1912):214
 
