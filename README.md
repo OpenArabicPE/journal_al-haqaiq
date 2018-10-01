@@ -36,6 +36,8 @@ All deliverables and milestones will be covered in more detail in the following 
 
 ## 1.2 Timeline / scheduled releases
 
+[![GitHub release](https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg?maxAge=2592000)](https://github.com/openarabicpe/digital-haqaiq/releases)
+
 There is no proper release schedule yet but I conceive of version 1.0 as the first complete edition. Progress is tracked using a public [Trello board](https://trello.com/b/8LjguBCl/digital-ḥaqāʾiq).
 
 - version 0.1 shall be the first "official" release. It is scheduled for April 2018 and will include
@@ -53,6 +55,14 @@ There is no proper release schedule yet but I conceive of version 1.0 as the fir
 ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. The final issue of volume 3 contains the reference "will be continued ..." under several articles (e.g. [here](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_35.TEIP5.xml#div_9.d1e1511) and [here](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_35.TEIP5.xml#div_10.d1e1618)). According to some library catalogues---while stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
 
 [^1]: Thomsen, P. "Verzeichnis der Arabischen Zeitungen und Zeitschriften Palästinas." *Zeitschrift des Deutschen Palästina-Vereins (1878-1945)* 35, no. 4 (1912):214
+
+## frequency of publication
+
+*al-Ḥaqāʾiq* was a monthly journal and followed the Islamic calendar. Each issue carried information on month and year in its masthead but no specific publication date. Few articles mention datable events but occasionally one is able to track referenced newspaper issues. 
+
+[Issue 2/10 of *Jumādā al-Ūlā 1330*](https://rawgit.com/openarabicpe/digital-haqaiq/master/xml/oclc_644997575-i_22.TEIP5.xml) contains two articles reacting to the conflagration of *Sūq al-Ḥamīdiyya* in Damascus on 27 April 1912 (10 Jum I 1330 aH).
+
+There is an, as of yet, unexplained six-month gap in publication between June and December 1912.
 
 ## issues
 
