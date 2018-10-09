@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>-->
-<TEI next="oclc_644997575-i_17" prev="oclc_644997575-i_15" xml:id="oclc_644997575-i_16" xml:lang="" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_17" prev="oclc_644997575-i_15" xml:id="oclc_644997575-i_16" xml:lang="">
     <teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
         <fileDesc xml:id="fileDesc_1.d1e9" xml:lang="en">
             <titleStmt xml:id="titleStmt_1.d1e11" xml:lang="en">
@@ -55,7 +48,7 @@
                         <idno change="#d2e358" type="oclc" xml:id="idno_4.d2e114" xml:lang="en">145289742</idno>
                         <idno change="#d2e358" type="epub" xml:id="idno_5.d2e117" xml:lang="en">urn:uuid:381100bcebe62d09ade63dd41b7ddd38</idno>
                         <idno change="#d2e358" type="shamela" xml:id="idno_6.d2e120" xml:lang="en">29676</idno>
-                        <idno type="zenodo" xml:lang="en">52619834</idno>
+                        <idno type="zenodo" xml:lang="en" change="#d2e400" xml:id="idno_7.d2e126">52619834</idno>
                         <editor change="#d2e358" ref="viaf:4795364" xml:id="editor_1.d2e123" xml:lang="en">
                             <persName change="#d2e358" ref="viaf:4795364" xml:id="persName_6.d2e125" xml:lang="ar">
                                 <forename change="#d2e358" xml:id="forename_2.d2e127" xml:lang="ar">عبد القادر</forename>
@@ -88,25 +81,25 @@
         </fileDesc>
         <xi:include change="#d2e358" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e185" xpointer="encodingDesc"/>
         <xi:include change="#d2e358" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e187" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432">
-            <change when="2018-10-09" who="#pers_TG" xml:lang="en">Validated page breaks and mark-up of articles against the facsimiles.</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-10-09" who="#pers_TG" xml:id="d2e400" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+            <change when="2018-10-09" who="#pers_TG" xml:lang="en" change="#d2e400" xml:id="change_1.d2e197">Validated page breaks and mark-up of articles against the facsimiles.</change>
             <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e377" xml:lang="en">Added references to GeoNames IDs to 
-                <tei:gi>placeName</tei:gi>
+                <tei:gi change="#d2e400" xml:id="gi_1.d2e202">placeName</tei:gi>
                 s without such references based on  
-                <tei:gi>place</tei:gi>
+                <tei:gi change="#d2e400" xml:id="gi_1.d2e205">place</tei:gi>
                 s mentioned in 
-                <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>
+                <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e400" xml:id="ref_1.d2e208">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>
                 but not previously present in this master file.</tei:change>
             <tei:change when="2018-05-15" who="#pers_TG" xml:id="d2e372">Linked all 
-                <tei:tag>pb ed=&quot;print&quot;</tei:tag>
+                <tei:tag change="#d2e400" xml:id="tag_1.d2e214">pb ed="print"</tei:tag>
                 to the corresponding facsimile</tei:change>
             <change when="2018-05-13" who="#pers_TG" xml:id="d2e358" xml:lang="en">Added automated 
-                <tei:att xml:lang="en">xml:id</tei:att>
+                <tei:att xml:lang="en" change="#d2e400" xml:id="att_1.d2e220">xml:id</tei:att>
                 s for every element that is a descendant of 
-                <tei:gi xml:lang="en">tei:text</tei:gi>
+                <tei:gi xml:lang="en" change="#d2e400" xml:id="gi_1.d2e223">tei:text</tei:gi>
                 and had no existing 
-                <tei:att xml:lang="en">xml:id</tei:att>
-                following the pattern &quot;name()_generate-id()&quot;.</change>
+                <tei:att xml:lang="en" change="#d2e400" xml:id="att_1.d2e226">xml:id</tei:att>
+                following the pattern "name()_generate-id()".</change>
             <tei:change when="2018-04-27" who="#pers_TG" xml:id="d2e361">Added 
                 <tei:gi change="#d2e358" xml:id="gi_1.d2e192">graphic</tei:gi>
                 for 40 pages with references to digital images.</tei:change>
@@ -119,20 +112,20 @@
                 <att change="#d2e358" xml:id="att_1.d2e206">n</att>
                 s and 
                 <att change="#d2e358" xml:id="att_2.d2e209">ed</att>
-                =&quot;print&quot; for every
+                ="print" for every
                 <gi change="#d2e358" xml:id="gi_3.d2e212">pb</gi>
                 that was not of 
                 <att change="#d2e358" xml:id="att_3.d2e215">ed</att>
-                =&quot;shamela&quot;.</change>
+                ="shamela".</change>
             <change when="2018-04-17" who="#pers_XK" xml:id="d2e562">Added automated page numbers as 
                 <att change="#d2e358" xml:id="att_4.d2e221">n</att>
                 s and 
                 <att change="#d2e358" xml:id="att_5.d2e224">ed</att>
-                =&quot;print&quot; for every
+                ="print" for every
                 <gi change="#d2e358" xml:id="gi_4.d2e227">pb</gi>
                 that was not of 
                 <att change="#d2e358" xml:id="att_6.d2e230">ed</att>
-                =&quot;shamela&quot;.</change>
+                ="shamela".</change>
             <tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected 
                 <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi>
                 by moving all 
@@ -159,7 +152,7 @@
                 <gi xml:id="gi_9.d1e470">tei:text</gi>
                 and had no existing 
                 <att xml:id="att_8.d1e473">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change when="2016-03-11" xml:id="change_3.d1e476">Wrapped all numerals in 
                 <tei:gi xml:id="gi_10.d1e478">num</tei:gi>
                 with 
@@ -176,7 +169,7 @@
                 <gi xml:id="gi_11.d1e497">tei:text</gi>
                 and had no existing 
                 <att xml:id="att_11.d1e500">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change when="2016-02-27" xml:id="change_4.d1e503">Added the 
                 <tei:att xml:id="att_12.d1e505">xml:lang</tei:att>
                 attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
@@ -200,7 +193,7 @@
                 <gi xml:id="gi_17.d1e539" xml:lang="en">l</gi>
                 of
                 <att xml:id="att_12.d1e542" xml:lang="en">type</att>
-                =&quot;bayt&quot; comprising two 
+                ="bayt" comprising two 
                 <gi xml:id="gi_18.d1e546" xml:lang="en">seg</gi>
                 nodes.</change>
             <change when="2016-02-26" who="#pers_TG" xml:id="change_7.d1e550" xml:lang="en">Created this TEI P5 file by automatic
@@ -495,8 +488,8 @@
                     يتوهمها فضلاً عن أن يطلع على شيء منها (الله يصطفي من الملائكة رسلاً ومن
                     الناس).</p>
                 <p xml:id="p_27.d1e578" xml:lang="ar">وللأنبياء عليهم الصلاة والسلام صفات كمال يجب الاعتقاد بثبوتها وهي الصدق والأمانة والعصمة والتبليغ والفطانة ويستحيل عليهم أضدادها وهي الكذب والخيانة والكتمان والغباوة ومقارفة ذنب من الصغائر والكبائر كما يجب سلامة أبدانهم من كل منفر طبعا فلا يعتريهم جنون ولا جذام ولا برص ولا عمى ولا غير ذلك مما يؤدي إلى نقص في مراتبهم العلية وما نقل في الإسرائيليات من ابتلاء أيوب بأنواع البلاء المنفرة فهو باطل لا يعبأ به.  </p>
-                <closer>
-                    <ref rend="brackets">يتبع</ref>
+                <closer change="#d2e400" xml:id="closer_1.d2e824">
+                    <ref rend="brackets" change="#d2e400" xml:id="ref_2.d2e826">يتبع</ref>
                 </closer>
             </div>
             <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_126" n="126" xml:id="pb_9.d2e615"/>
@@ -686,11 +679,11 @@
             </div>
             <div prev="oclc_644997575-i_13.TEIP5.xml#div_6.d1e798" type="article" xml:id="div_4.d1e624" xml:lang="ar">
                 <head xml:id="head_4.d1e626" xml:lang="ar">تحريم المتعة</head>
-                <div type="section">
-                    <head>
+                <div type="section" change="#d2e400" xml:id="div_4.d2e908">
+                    <head change="#d2e400" xml:id="head_4.d2e910">
                         <tei:num value="4" xml:id="num_1.d1e698" xml:lang="ar">٤</tei:num>
                     </head>
-                    <opener>تابع 
+                    <opener change="#d2e400" xml:id="opener_1.d2e916">تابع 
                         <ref change="#d2e358" target="oclc_644997575-i_13.TEIP5.xml#div_6.d1e798" xml:id="ref_2.d2e700">
                             لما نشر 
                             <bibl change="#d2e358" xml:id="bibl_1.d2e702">
@@ -736,7 +729,7 @@
                     <p xml:id="p_43.d1e656" xml:lang="ar">وقال مؤلف الرسالة (ومنها) أن رواية أباحتها وتحريمها في عمرة القضاء لا غير تنافي جميع ما ورد في إباحتها وتحريمها في غيرها الخ ما ذكره مما هو واضح البطلان. 
                         <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_138" n="138" xml:id="pb_29.d2e771"/>
                         <pb corresp="file:../epub/29676/OEBPS/xhtml/P433.xhtml" ed="shamela" n="n15-p12" xml:id="pb_12.d1e658"/></p>
-                    <p xml:lang="ar">ونقول بينا فيما تقدم أن هذا الحديث مرسل ضعيف فما زعمه مؤلف الرسالة من معارضته لغيره واضح الفساد. إذ من المعلوم أن الضعيف لا يعارض الصحيح وقد استوفينا الكلام على مايتعلق بهذا الوجه ص 
+                    <p xml:lang="ar" change="#d2e400" xml:id="p_28.d2e996">ونقول بينا فيما تقدم أن هذا الحديث مرسل ضعيف فما زعمه مؤلف الرسالة من معارضته لغيره واضح الفساد. إذ من المعلوم أن الضعيف لا يعارض الصحيح وقد استوفينا الكلام على مايتعلق بهذا الوجه ص 
                         <tei:num value="17" xml:id="num_1.d1e736" xml:lang="ar">١٧</tei:num>
                         من المجلد الثاني.</p>
                     <p xml:id="p_44.d1e661" xml:lang="ar">وقال مؤلف الرسالة (ومنها) أن ما في رواية الترمذي عن ابن عباس أنها إنما كانت في أول الإسلام ثم نسخت بآية إلا على أزواجهم مناف لما دل عليه غيرها مما تقدم الخ. .</p>
@@ -761,20 +754,20 @@
                         إلا شفى إلى أن قال الأزهري وهذا حديث صحيح وهو الذي يبين أن ابن عباس صح له نهي النبي صلى الله عليه وسلم عن المتعة الشرطية وأنه رجع عن إحلالها إلى تحريمها أهـ ما ذكره في اللسان وهو نص صريح على رجوع الضمير في قوله (فلولا نهيه) إلى النبي صلى الله عليه وسلم كما هو واضح من كلام الأزهري لا إلى عمر كما استظهره مؤلف الرسالة وعلله بأن الكلام في معرض التأسف والتألم من النهي عنها. وما كنا نظن أن مؤلف الرسالة يتهور في مثل ذلك. وكيف يصح لعاقل أن يدعي تأَلم ابن عباس من شيء أتى به رسول الله صلى الله عليه وسلم. فتعوذ بالله من زلة القدم ونسئل الله أن يجعلنا ممن يستمعون القول فيتبعون أحسنه. 
                         <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_141" n="141" xml:id="pb_34.d2e813"/>
                         <pb corresp="file:../epub/29676/OEBPS/xhtml/P435.xhtml" ed="shamela" n="n15-p14" xml:id="pb_14.d1e675"/></p>
-                    <p xml:lang="ar">(الوجه الثاني) أن ابن عباس رضي الله عنهما عَلَى تقدير بقائه عَلَى القول بالإباحة عند الضرورة كما تحل الميتة للمضطر صيانة لنفسه عن للتلف لا يصح للشيعة الاستدلال بمذهبه لأنهم يقولون بجوازها مطلقاً. وتمسكهم بظاهر ما ورد من الأحاديث لا يصح لأن أحاديث الإباحة منسوخة بما صح عن رسول الله صلى الله عليه وسلم من التحريم إلى يوم القيامة.
-                        <note n="1" type="footnote">
+                    <p xml:lang="ar" change="#d2e400" xml:id="p_33.d2e1040">(الوجه الثاني) أن ابن عباس رضي الله عنهما عَلَى تقدير بقائه عَلَى القول بالإباحة عند الضرورة كما تحل الميتة للمضطر صيانة لنفسه عن للتلف لا يصح للشيعة الاستدلال بمذهبه لأنهم يقولون بجوازها مطلقاً. وتمسكهم بظاهر ما ورد من الأحاديث لا يصح لأن أحاديث الإباحة منسوخة بما صح عن رسول الله صلى الله عليه وسلم من التحريم إلى يوم القيامة.
+                        <note n="1" type="footnote" change="#d2e400" xml:id="note_1.d2e1042">
                             راجع 
-                            <ref target="oclc_644997575-i_2.TEIP5.xml#pb_63.d1e1833">
-                                <bibl>
-                                    <biblScope from="71" unit="page">ص ٧١</biblScope>
+                            <ref target="oclc_644997575-i_2.TEIP5.xml#pb_63.d1e1833" change="#d2e400" xml:id="ref_4.d2e1044">
+                                <bibl change="#d2e400" xml:id="bibl_2.d2e1046">
+                                    <biblScope from="71" unit="page" change="#d2e400" xml:id="biblScope_5.d2e1048">ص ٧١</biblScope>
                                     من 
-                                    <biblScope from="1" to="1" unit="volume">المجلد الأول</biblScope></bibl>
+                                    <biblScope from="1" to="1" unit="volume" change="#d2e400" xml:id="biblScope_6.d2e1051">المجلد الأول</biblScope></bibl>
                             </ref>و
-                            <ref target="oclc_644997575-i_13.TEIP5.xml#pb_29.d2e950">
-                                <bibl>
-                                    <biblScope from="16" unit="page">ص ١٦</biblScope>
+                            <ref target="oclc_644997575-i_13.TEIP5.xml#pb_29.d2e950" change="#d2e400" xml:id="ref_5.d2e1055">
+                                <bibl change="#d2e400" xml:id="bibl_3.d2e1057">
+                                    <biblScope from="16" unit="page" change="#d2e400" xml:id="biblScope_7.d2e1059">ص ١٦</biblScope>
                                     من 
-                                    <biblScope from="2" to="2" unit="volume">المجلد الثاني</biblScope></bibl>
+                                    <biblScope from="2" to="2" unit="volume" change="#d2e400" xml:id="biblScope_8.d2e1062">المجلد الثاني</biblScope></bibl>
                             </ref>
                         </note>
                     </p>
@@ -807,7 +800,7 @@
                         زمنه كما هو المتعارف في مثل ذلك عند علماء العربية. . وتقديم المسند إليه كما يكون للحصر يكون لغيره كتقوية الحكم ونحو ذلك كما هو مقرر في صغار المتون من فن المعاني والبيان. فمراد سيدنا عمر بإسناد النهي إلى نفسه بيان أن ذلك هو الذي ثبتت في دين الله عزّ وجلّ عن رسوله صلى الله عليه وسلم كما وقع التصريح بذلك من عمر رضي الله عنه في حديث ابن ماجه الذي أشرنا إليه قبل ذلك فظهر بطلان ما أشار إليه مؤلف الرسالة من أن في عدم إسناد النهي إلى رسول الله صلى الله عليه وسلم ما يدل عَلَى أن النهي إنما كان من عمر. . .</p>
                     <p xml:id="p_56.d1e709" xml:lang="ar">وقول مؤلف الرسالة ولا حجية في قول غير المعصوم اتفاقاً غير صحيح لأن الحنفية يعتبرون كلام الصحابي حجة كما تقرر في الأصول.</p>
                     <p xml:id="p_57.d1e713" xml:lang="ar">فاتضح مما حررناه وحققناه أن نكاح المتعة منسوخ وأن تحريمها أمر ثابت وأن ما زعمه مؤلف الرسالة من عدم ثبوت الناسخ لا يعول عليه.  </p>
-                    <closer rend="brackets">للكلام صلة</closer>
+                    <closer rend="brackets" change="#d2e400" xml:id="closer_2.d2e1122">للكلام صلة</closer>
                 </div>
             </div>
             <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_146" n="146" xml:id="pb_43.d2e871"/>
@@ -824,7 +817,7 @@
                         <persName change="#d2e358" xml:id="persName_10.d2e898">الشيخ مصطفى أفندي نجا</persName>
                         مفتي بيروت حالاً</byline>
                     <p xml:id="p_62.d1e738" xml:lang="ar">وصلني 
-                        <ref target="oclc_644997575-i_14.TEIP5.xml#div_8.d1e1255">
+                        <ref target="oclc_644997575-i_14.TEIP5.xml#div_8.d1e1255" change="#d2e400" xml:id="ref_6.d2e1158">
                             <bibl change="#d2e358" xml:id="bibl_2.d2e904">
                                 <biblScope change="#d2e358" from="2" to="2" unit="issue" xml:id="biblScope_5.d2e905">الجزء الثاني</biblScope>
                                 من 
@@ -834,7 +827,7 @@
                                 الغراء ولما تلوته واطلعت على السؤَال الذي أدرج فيه بخصوص تمثيل 
                                 <title change="#d2e358" level="a" xml:id="title_10.d2e914">رواية زهير الأندلسي</title></bibl>
                         </ref>وما فاه به ذلك الخطيب ندبت السلف، وأسفت على الخلف، وأثنيت على فضيلة الأستاذ الكامل 
-                        <persName>الشيخ حسن أفندي الأسطواني</persName>
+                        <persName change="#d2e400" xml:id="persName_11.d2e1175">الشيخ حسن أفندي الأسطواني</persName>
                         الذي أدى النصيحة الواجبة وبين الحق للناس في خطبته الجليلة كما شكرت حمية العلماء الأكارم أصحاب مجلة الحقائق الذين لا تأْخذهم في الله لومة لائم وهذا جوابي على السؤال المذكور.</p>
                     <p xml:id="p_63.d1e741" xml:lang="ar">الحمد لله تعالى</p>
                     <p xml:id="p_64.d1e744" xml:lang="ar">الحق أن التمثيل لايخلو عن المنكرات وحيث كان مشتملاً على شيء منها فلا يجوز النظر إليه خصوصاً عند عدم أمن الفتنة بالنظر إلى المرد الممثلين فيحجب اجتنابه والامتناع من حضوره كما يجب النهي عنه على كل ذي قدرة والظاهر أن تمثيل الروايات الأدبية إذا روعي فيه عدم المحظور ولم يترتب عليه مفسدة لابأس به وإلا فهو ممنوع ولو فرضنا أن فيه مصلحة لأن 
@@ -903,7 +896,7 @@
                     <byline change="#d2e358" xml:id="byline_5.d2e1032">ألقاها العلامة الفاضل 
                         <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_27.d1e1025" xml:lang="ar">أحد</num>
                         خطباء الجامع الأموي 
-                        <persName>الشيخ حسن أفندي الأسطواني</persName>
+                        <persName change="#d2e400" xml:id="persName_15.d2e1306">الشيخ حسن أفندي الأسطواني</persName>
                         في تحريم التمثيل</byline>
                     <p xml:id="p_83.d1e814" xml:lang="ar">قال بعد فاتحة الخطبة</p>
                     <p xml:id="p_84.d1e817" xml:lang="ar">أيها الناس قد التبست البدعة بالسنة واختلط الأمر وصار القابض على دينه كالقابض على الجمر ومظهر الحق ماله من ظهير ولا ناصر ولم يخش ذو منكر من منكر ولا زاجر والتبس الحرام بالحلال وأصبحت مدارس الدين والعلم مراسح لبث الفساد والضلال مدارس أذن الله أن ترفع ويذكر فيها اسمه يسبح له فيها بالغدو والآصال لا لاستعمال التخنث واجتماع العناصر المختلفة الأشكال أما كفاهم هتكوا حرمة المدارس فأخرجوها عن صورة المعاهد والمعابد وأجروا فيها التشخيص والتمثيل والروايات زاعمين أن ذلك أمر جاء في الحديث ووارد في محكم الآيات فيا أيها الموحدون ما هذه البدع الفظيعة ما هذه الفتن الشنيعة نهيء المرد والغلمان والأطفال لتتكسر وتتلوى أمام الشباب والرجال ونعد ذلك من مكارم الأخلاق التي جاء لإتمامها رسول الملك الخلاق فيا أرباب الدين مالكم سكوت لا تتكلمون ويا أمناء الشرع أما عندكم نص يكذب مابه يفترون فالمنكرات في هذا الزمان غير منكره والمحرمات فيه شائعة ظاهرة غير مستنكرة فإنّا لله وإنا إليه راجعون فالحذر الحذر عباد الله من هذه المنكرات الذميمة والابتعاد الابتعاد عن هذه المدارس التي تفسد الأخلاق أولي الفطر السليمة فصونوا أولادكم قبل أن يحاسبكم الله إن فرطتم في أبناؤكم فكلكم راعٍ وكلكم مسؤول عن رعيته وكل مولود يولد على الفطرة فأبواه يهودانه وينصرانه ويمجسانه فيجب 
@@ -992,7 +985,7 @@
             </div>
             <div type="article" xml:id="div_7.d1e920" xml:lang="ar">
                 <head xml:id="head_7.d1e922" xml:lang="ar">الإقدام والثبات 
-                    <lb/>
+                    <lb change="#d2e400" xml:id="lb_1.d2e1484"/>
                     ثمرتهما النصر والظفر</head>
                 <lg xml:id="lg_2.d1e928" xml:lang="ar">
                     <l type="bayt" xml:id="l_2.d1e930" xml:lang="ar">
