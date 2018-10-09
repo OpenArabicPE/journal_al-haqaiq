@@ -3,7 +3,10 @@
 <?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_16" prev="oclc_644997575-i_14" xml:id="oclc_644997575-i_15" xml:lang=""><teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
+<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
+<!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>-->
+<TEI next="oclc_644997575-i_16" prev="oclc_644997575-i_14" xml:id="oclc_644997575-i_15" xml:lang="" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
         <fileDesc xml:id="fileDesc_1.d1e9" xml:lang="en">
             <titleStmt xml:id="titleStmt_1.d1e11" xml:lang="en">
                 <title xml:id="title_1.d1e13" xml:lang="ar">مجلة الحقائق</title>
@@ -25,7 +28,7 @@
                     <persName xml:id="pers_TG" xml:lang="en">Till Grallert</persName>
                 </respStmt>
                 <respStmt change="#d2e361" xml:id="respStmt_3.d2e55">
-                    <resp xml:lang="en" change="#d2e361" xml:id="resp_3.d2e57">Mark-up of page breaks</resp>
+                    <resp change="#d2e361" xml:id="resp_3.d2e57" xml:lang="en">Mark-up of page breaks</resp>
                     <persName xml:id="pers_XK">Xaver Kretzschmar</persName>
                 </respStmt>
             </titleStmt>
@@ -41,70 +44,100 @@
                 <idno type="url" xml:id="idno_1.d1e77">https://github.com/tillgrallert/digital-haqaiq/blob/master/xml/oclc_644997575-i_15.TEIP5.xml</idno>
             </publicationStmt>
             <sourceDesc xml:id="sourceDesc_1.d1e81" xml:lang="en">
-                <tei:biblStruct xml:lang="en" change="#d2e361" xml:id="biblStruct_1.d2e91">
-               <tei:monogr xml:lang="en" change="#d2e361" xml:id="monogr_1.d2e93">
-                  <title level="j" xml:lang="ar" change="#d2e361" xml:id="title_4.d2e95">الحقائق</title>
-                  <title level="j" type="sub" xml:lang="ar" change="#d2e361" xml:id="title_5.d2e98">مجلة علمية دينية اخلاقية اجتماعية</title>
-                  <title level="j" xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="title_6.d2e101">al-Ḥaqāʾiq</title>
-                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="title_7.d2e104">Majalla ʿilmiyya dīniyya akhlāqiyya ijtimāʿiyya</title>
-                  <idno type="oclc" xml:lang="en" change="#d2e361" xml:id="idno_2.d2e107">644997575</idno>
-                  <idno type="oclc" xml:lang="en" change="#d2e361" xml:id="idno_3.d2e111">145393412</idno>
-                  <idno type="oclc" xml:lang="en" change="#d2e361" xml:id="idno_4.d2e114">145289742</idno>
-                  <idno type="epub" xml:lang="en" change="#d2e361" xml:id="idno_5.d2e117">urn:uuid:381100bcebe62d09ade63dd41b7ddd38</idno>
-                  <idno type="shamela" xml:lang="en" change="#d2e361" xml:id="idno_6.d2e120">29676</idno>
-<idno type="zenodo" xml:lang="en">52619834</idno>
-                  <editor ref="viaf:4795364" xml:lang="en" change="#d2e361" xml:id="editor_1.d2e123">
-                            <persName ref="viaf:4795364" xml:lang="ar" change="#d2e361" xml:id="persName_6.d2e125">
-                                <forename xml:lang="ar" change="#d2e361" xml:id="forename_2.d2e127">عبد القادر</forename>
-                                <surname xml:lang="ar" change="#d2e361" xml:id="surname_2.d2e130">الإسكندراني</surname>
+                <tei:biblStruct change="#d2e361" xml:id="biblStruct_1.d2e91" xml:lang="en">
+                    <tei:monogr change="#d2e361" xml:id="monogr_1.d2e93" xml:lang="en">
+                        <title change="#d2e361" level="j" xml:id="title_4.d2e95" xml:lang="ar">الحقائق</title>
+                        <title change="#d2e361" level="j" type="sub" xml:id="title_5.d2e98" xml:lang="ar">مجلة علمية دينية اخلاقية اجتماعية</title>
+                        <title change="#d2e361" level="j" xml:id="title_6.d2e101" xml:lang="ar-Latn-x-ijmes">al-Ḥaqāʾiq</title>
+                        <title change="#d2e361" level="j" type="sub" xml:id="title_7.d2e104" xml:lang="ar-Latn-x-ijmes">Majalla ʿilmiyya dīniyya akhlāqiyya ijtimāʿiyya</title>
+                        <idno change="#d2e361" type="oclc" xml:id="idno_2.d2e107" xml:lang="en">644997575</idno>
+                        <idno change="#d2e361" type="oclc" xml:id="idno_3.d2e111" xml:lang="en">145393412</idno>
+                        <idno change="#d2e361" type="oclc" xml:id="idno_4.d2e114" xml:lang="en">145289742</idno>
+                        <idno change="#d2e361" type="epub" xml:id="idno_5.d2e117" xml:lang="en">urn:uuid:381100bcebe62d09ade63dd41b7ddd38</idno>
+                        <idno change="#d2e361" type="shamela" xml:id="idno_6.d2e120" xml:lang="en">29676</idno>
+                        <idno type="zenodo" xml:lang="en">52619834</idno>
+                        <editor change="#d2e361" ref="viaf:4795364" xml:id="editor_1.d2e123" xml:lang="en">
+                            <persName change="#d2e361" ref="viaf:4795364" xml:id="persName_6.d2e125" xml:lang="ar">
+                                <forename change="#d2e361" xml:id="forename_2.d2e127" xml:lang="ar">عبد القادر</forename>
+                                <surname change="#d2e361" xml:id="surname_2.d2e130" xml:lang="ar">الإسكندراني</surname>
                             </persName>
-                            <persName ref="viaf:4795364" xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="persName_7.d2e134">
-                                <forename xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="forename_3.d2e136">ʿAbd al-Qādir</forename>
-                                <surname xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="surname_3.d2e139">al-Iskandarānī</surname>
+                            <persName change="#d2e361" ref="viaf:4795364" xml:id="persName_7.d2e134" xml:lang="ar-Latn-x-ijmes">
+                                <forename change="#d2e361" xml:id="forename_3.d2e136" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
+                                <surname change="#d2e361" xml:id="surname_3.d2e139" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
                         </editor>
-                  <tei:imprint xml:lang="en" change="#d2e361" xml:id="imprint_1.d2e144">
-                     <publisher xml:lang="en" change="#d2e361" xml:id="publisher_1.d2e146">
-                                <orgName xml:lang="ar" change="#d2e361" xml:id="orgName_2.d2e148">شركة الحقائق</orgName>
-                                <orgName xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="orgName_3.d2e151">Sharikat al-Ḥaqāiq</orgName>
+                        <tei:imprint change="#d2e361" xml:id="imprint_1.d2e144" xml:lang="en">
+                            <publisher change="#d2e361" xml:id="publisher_1.d2e146" xml:lang="en">
+                                <orgName change="#d2e361" xml:id="orgName_2.d2e148" xml:lang="ar">شركة الحقائق</orgName>
+                                <orgName change="#d2e361" xml:id="orgName_3.d2e151" xml:lang="ar-Latn-x-ijmes">Sharikat al-Ḥaqāiq</orgName>
                             </publisher>
-                     <pubPlace xml:lang="en" change="#d2e361" xml:id="pubPlace_2.d2e155">
-                                <placeName xml:lang="ar" change="#d2e361 #d5e380" xml:id="placeName_1.d2e157" ref="geon:170654">دمشق</placeName>
-                                <placeName xml:lang="en" change="#d2e361 #d5e380" xml:id="placeName_2.d2e160" ref="geon:170654">Damascus</placeName>
+                            <pubPlace change="#d2e361" xml:id="pubPlace_2.d2e155" xml:lang="en">
+                                <placeName change="#d2e361 #d5e380" ref="geon:170654" xml:id="placeName_1.d2e157" xml:lang="ar">دمشق</placeName>
+                                <placeName change="#d2e361 #d5e380" ref="geon:170654" xml:id="placeName_2.d2e160" xml:lang="en">Damascus</placeName>
                             </pubPlace>
-                     <tei:date type="official" when="1911-09-25" datingMethod="#cal_gregorian" calendar="#cal_gregorian" xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="date_2.d2e164">25 September 1911</tei:date>
-                     <tei:date type="computed" when="1911-09-25" datingMethod="#cal_islamic" calendar="#cal_islamic" when-custom="1329-10-01" xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="date_2.d2e167">1 Shawwāl 1329</tei:date>
-                     <tei:date type="official" when="1911-09-25" datingMethod="#cal_ottomanfiscal" calendar="#cal_ottomanfiscal" when-custom="1327-07-12" xml:lang="ar-Latn-x-ijmes" change="#d2e361" xml:id="date_2.d2e170">12 Aylūl 1327</tei:date>
-                  </tei:imprint>
-                  <tei:biblScope from="2" to="2" unit="volume" change="#d2e361" xml:id="biblScope_1.d2e175"/>
-                  <tei:biblScope from="3" to="3" unit="issue" change="#d2e361" xml:id="biblScope_1.d2e177"/>
-                  <tei:biblScope from="81" to="120" unit="page" change="#d2e361" xml:id="biblScope_1.d2e179"/>
-               </tei:monogr>
-               
-            </tei:biblStruct>
+                            <tei:date calendar="#cal_gregorian" change="#d2e361" datingMethod="#cal_gregorian" type="official" when="1911-09-25" xml:id="date_2.d2e164" xml:lang="ar-Latn-x-ijmes">25 September 1911</tei:date>
+                            <tei:date calendar="#cal_islamic" change="#d2e361" datingMethod="#cal_islamic" type="computed" when="1911-09-25" when-custom="1329-10-01" xml:id="date_2.d2e167" xml:lang="ar-Latn-x-ijmes">1 Shawwāl 1329</tei:date>
+                            <tei:date calendar="#cal_ottomanfiscal" change="#d2e361" datingMethod="#cal_ottomanfiscal" type="official" when="1911-09-25" when-custom="1327-07-12" xml:id="date_2.d2e170" xml:lang="ar-Latn-x-ijmes">12 Aylūl 1327</tei:date>
+                        </tei:imprint>
+                        <tei:biblScope change="#d2e361" from="2" to="2" unit="volume" xml:id="biblScope_1.d2e175"/>
+                        <tei:biblScope change="#d2e361" from="3" to="3" unit="issue" xml:id="biblScope_1.d2e177"/>
+                        <tei:biblScope change="#d2e361" from="81" to="120" unit="page" xml:id="biblScope_1.d2e179"/>
+                    </tei:monogr>
+                </tei:biblStruct>
             </sourceDesc>
         </fileDesc>
-        <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e361" xml:id="xi:include_1.d2e185"/>
-        <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e361" xml:id="xi:include_2.d2e187"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-05-23" who="#pers_TG" xml:id="d2e391" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en">num</tei:gi> node in <tei:gi xml:lang="en">date</tei:gi>.</change><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e380" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><tei:change when="2018-05-15" who="#pers_TG" xml:id="d2e375">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><change when="2018-05-13" who="#pers_TG" xml:id="d2e361" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2018-04-27" who="#pers_TG" xml:id="d2e364">Added <tei:gi change="#d2e361" xml:id="gi_1.d2e192">graphic</tei:gi> for 40 pages with references to digital images.</tei:change><change when="2018-04-27" who="#pers_TG" change="#d2e361" xml:id="change_1.d2e195">Replaced <gi change="#d2e361" xml:id="gi_1.d2e197">encodingDesc</gi> and <gi change="#d2e361" xml:id="gi_2.d2e200">profileDesc</gi>with XPointers pointing to a master file.</change>
+        <xi:include change="#d2e361" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e185" xpointer="encodingDesc"/>
+        <xi:include change="#d2e361" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e187" xpointer="profileDesc"/>
+        <revisionDesc xml:id="revisionDesc_1.d1e432">
+            <change when="2018-10-09" who="#pers_TG" xml:lang="en">Validated page breaks and mark-up of articles against the facsimiles.</change>
+            <change when="2018-05-23" who="#pers_TG" xml:id="d2e391" xml:lang="en">Automatically wrapped all occurrences of &quot;sana&quot; and &quot;ʿām&quot; followed by a 
+                <tei:gi xml:lang="en">num</tei:gi>
+                node in 
+                <tei:gi xml:lang="en">date</tei:gi>
+                .</change>
+            <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e380" xml:lang="en">Added references to GeoNames IDs to 
+                <tei:gi>placeName</tei:gi>
+                s without such references based on  
+                <tei:gi>place</tei:gi>
+                s mentioned in 
+                <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>
+                but not previously present in this master file.</tei:change>
+            <tei:change when="2018-05-15" who="#pers_TG" xml:id="d2e375">Linked all 
+                <tei:tag>pb ed=&quot;print&quot;</tei:tag>
+                to the corresponding facsimile</tei:change>
+            <change when="2018-05-13" who="#pers_TG" xml:id="d2e361" xml:lang="en">Added automated 
+                <tei:att xml:lang="en">xml:id</tei:att>
+                s for every element that is a descendant of 
+                <tei:gi xml:lang="en">tei:text</tei:gi>
+                and had no existing 
+                <tei:att xml:lang="en">xml:id</tei:att>
+                following the pattern &quot;name()_generate-id()&quot;.</change>
+            <tei:change when="2018-04-27" who="#pers_TG" xml:id="d2e364">Added 
+                <tei:gi change="#d2e361" xml:id="gi_1.d2e192">graphic</tei:gi>
+                for 40 pages with references to digital images.</tei:change>
+            <change change="#d2e361" when="2018-04-27" who="#pers_TG" xml:id="change_1.d2e195">Replaced 
+                <gi change="#d2e361" xml:id="gi_1.d2e197">encodingDesc</gi>
+                and 
+                <gi change="#d2e361" xml:id="gi_2.d2e200">profileDesc</gi>
+                with XPointers pointing to a master file.</change>
             <change when="2018-04-19" who="#pers_XK" xml:id="d2e579">Added automated page numbers as 
                 <att change="#d2e361" xml:id="att_1.d2e206">n</att>
                 s and 
                 <att change="#d2e361" xml:id="att_2.d2e209">ed</att>
-                ="print" for every
+                =&quot;print&quot; for every
                 <gi change="#d2e361" xml:id="gi_3.d2e212">pb</gi>
                 that was not of 
                 <att change="#d2e361" xml:id="att_3.d2e215">ed</att>
-                ="shamela".</change>
+                =&quot;shamela&quot;.</change>
             <change when="2018-04-17" who="#pers_XK" xml:id="d2e565">Added automated page numbers as 
                 <att change="#d2e361" xml:id="att_4.d2e221">n</att>
                 s and 
                 <att change="#d2e361" xml:id="att_5.d2e224">ed</att>
-                ="print" for every
+                =&quot;print&quot; for every
                 <gi change="#d2e361" xml:id="gi_4.d2e227">pb</gi>
                 that was not of 
                 <att change="#d2e361" xml:id="att_6.d2e230">ed</att>
-                ="shamela".</change>
+                =&quot;shamela&quot;.</change>
             <tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected 
                 <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi>
                 by moving all 
@@ -133,7 +166,7 @@
                 <gi xml:id="gi_9.d1e473">tei:text</gi>
                 and had no existing 
                 <att xml:id="att_8.d1e476">xml:id</att>
-                following the pattern "name()_generate-id()"</change>
+                following the pattern &quot;name()_generate-id()&quot;</change>
             <tei:change when="2016-03-11" xml:id="change_4.d1e479">Wrapped all numerals in 
                 <tei:gi xml:id="gi_10.d1e481">num</tei:gi>
                 with 
@@ -150,7 +183,7 @@
                 <gi xml:id="gi_11.d1e500">tei:text</gi>
                 and had no existing 
                 <att xml:id="att_11.d1e503">xml:id</att>
-                following the pattern "name()_generate-id()"</change>
+                following the pattern &quot;name()_generate-id()&quot;</change>
             <tei:change when="2016-02-27" xml:id="change_5.d1e506">Added the 
                 <tei:att xml:id="att_12.d1e508">xml:lang</tei:att>
                 attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
@@ -173,15 +206,177 @@
                 to 
                 <gi xml:id="gi_17.d1e542" xml:lang="en">l</gi>
                 of
-                    
                 <att xml:id="att_12.d1e545" xml:lang="en">type</att>
-                ="bayt" comprising two 
+                =&quot;bayt&quot; comprising two 
                 <gi xml:id="gi_18.d1e549" xml:lang="en">seg</gi>
                 nodes.</change>
             <change when="2016-02-26" who="#pers_TG" xml:id="change_8.d1e553" xml:lang="en">Created this TEI P5 file by automatic
                 conversion from ePub.</change>
         </revisionDesc>
-    </teiHeader><tei:facsimile xml:id="facs"><tei:surface xml:id="facs_81"><tei:graphic xml:id="facs_81-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_092.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_81-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_092.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_82"><tei:graphic xml:id="facs_82-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_093.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_82-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_093.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_83"><tei:graphic xml:id="facs_83-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_094.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_83-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_094.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_84"><tei:graphic xml:id="facs_84-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_095.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_84-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_095.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_85"><tei:graphic xml:id="facs_85-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_096.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_85-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_096.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_86"><tei:graphic xml:id="facs_86-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_097.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_86-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_097.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_87"><tei:graphic xml:id="facs_87-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_098.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_87-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_098.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_88"><tei:graphic xml:id="facs_88-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_099.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_88-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_099.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_89"><tei:graphic xml:id="facs_89-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_100.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_89-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_100.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_90"><tei:graphic xml:id="facs_90-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_101.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_90-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_101.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_91"><tei:graphic xml:id="facs_91-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_102.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_91-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_102.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_92"><tei:graphic xml:id="facs_92-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_103.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_92-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_103.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_93"><tei:graphic xml:id="facs_93-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_104.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_93-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_104.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_94"><tei:graphic xml:id="facs_94-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_105.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_94-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_105.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_95"><tei:graphic xml:id="facs_95-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_106.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_95-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_106.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_96"><tei:graphic xml:id="facs_96-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_107.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_96-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_107.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_97"><tei:graphic xml:id="facs_97-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_108.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_97-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_108.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_98"><tei:graphic xml:id="facs_98-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_109.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_98-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_109.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_99"><tei:graphic xml:id="facs_99-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_110.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_99-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_110.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_100"><tei:graphic xml:id="facs_100-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_111.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_100-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_111.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_101"><tei:graphic xml:id="facs_101-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_112.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_101-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_112.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_102"><tei:graphic xml:id="facs_102-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_113.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_102-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_113.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_103"><tei:graphic xml:id="facs_103-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_114.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_103-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_114.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_104"><tei:graphic xml:id="facs_104-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_115.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_104-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_115.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_105"><tei:graphic xml:id="facs_105-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_116.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_105-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_116.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_106"><tei:graphic xml:id="facs_106-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_117.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_106-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_117.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_107"><tei:graphic xml:id="facs_107-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_118.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_107-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_118.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_108"><tei:graphic xml:id="facs_108-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_119.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_108-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_119.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_109"><tei:graphic xml:id="facs_109-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_120.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_109-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_120.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_110"><tei:graphic xml:id="facs_110-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_121.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_110-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_121.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_111"><tei:graphic xml:id="facs_111-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_122.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_111-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_122.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_112"><tei:graphic xml:id="facs_112-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_123.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_112-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_123.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_113"><tei:graphic xml:id="facs_113-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_124.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_113-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_124.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_114"><tei:graphic xml:id="facs_114-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_125.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_114-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_125.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_115"><tei:graphic xml:id="facs_115-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_126.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_115-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_126.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_116"><tei:graphic xml:id="facs_116-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_127.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_116-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_127.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_117"><tei:graphic xml:id="facs_117-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_128.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_117-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_128.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_118"><tei:graphic xml:id="facs_118-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_129.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_118-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_129.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_119"><tei:graphic xml:id="facs_119-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_130.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_119-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_130.jpg" mimeType="image/jpeg"/></tei:surface><tei:surface xml:id="facs_120"><tei:graphic xml:id="facs_120-g_1" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_131.tif" mimeType="image/tiff"/><tei:graphic xml:id="facs_120-g_2" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_131.jpg" mimeType="image/jpeg"/></tei:surface></tei:facsimile><text n="i_14" type="issue" xml:id="text" xml:lang="ar">
+    </teiHeader>
+    <tei:facsimile xml:id="facs">
+        <tei:surface xml:id="facs_81">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_092.tif" xml:id="facs_81-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_092.jpg" xml:id="facs_81-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_82">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_093.tif" xml:id="facs_82-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_093.jpg" xml:id="facs_82-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_83">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_094.tif" xml:id="facs_83-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_094.jpg" xml:id="facs_83-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_84">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_095.tif" xml:id="facs_84-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_095.jpg" xml:id="facs_84-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_85">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_096.tif" xml:id="facs_85-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_096.jpg" xml:id="facs_85-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_86">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_097.tif" xml:id="facs_86-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_097.jpg" xml:id="facs_86-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_87">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_098.tif" xml:id="facs_87-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_098.jpg" xml:id="facs_87-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_88">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_099.tif" xml:id="facs_88-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_099.jpg" xml:id="facs_88-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_89">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_100.tif" xml:id="facs_89-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_100.jpg" xml:id="facs_89-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_90">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_101.tif" xml:id="facs_90-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_101.jpg" xml:id="facs_90-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_91">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_102.tif" xml:id="facs_91-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_102.jpg" xml:id="facs_91-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_92">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_103.tif" xml:id="facs_92-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_103.jpg" xml:id="facs_92-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_93">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_104.tif" xml:id="facs_93-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_104.jpg" xml:id="facs_93-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_94">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_105.tif" xml:id="facs_94-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_105.jpg" xml:id="facs_94-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_95">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_106.tif" xml:id="facs_95-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_106.jpg" xml:id="facs_95-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_96">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_107.tif" xml:id="facs_96-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_107.jpg" xml:id="facs_96-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_97">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_108.tif" xml:id="facs_97-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_108.jpg" xml:id="facs_97-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_98">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_109.tif" xml:id="facs_98-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_109.jpg" xml:id="facs_98-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_99">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_110.tif" xml:id="facs_99-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_110.jpg" xml:id="facs_99-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_100">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_111.tif" xml:id="facs_100-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_111.jpg" xml:id="facs_100-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_101">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_112.tif" xml:id="facs_101-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_112.jpg" xml:id="facs_101-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_102">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_113.tif" xml:id="facs_102-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_113.jpg" xml:id="facs_102-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_103">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_114.tif" xml:id="facs_103-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_114.jpg" xml:id="facs_103-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_104">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_115.tif" xml:id="facs_104-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_115.jpg" xml:id="facs_104-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_105">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_116.tif" xml:id="facs_105-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_116.jpg" xml:id="facs_105-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_106">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_117.tif" xml:id="facs_106-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_117.jpg" xml:id="facs_106-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_107">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_118.tif" xml:id="facs_107-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_118.jpg" xml:id="facs_107-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_108">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_119.tif" xml:id="facs_108-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_119.jpg" xml:id="facs_108-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_109">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_120.tif" xml:id="facs_109-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_120.jpg" xml:id="facs_109-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_110">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_121.tif" xml:id="facs_110-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_121.jpg" xml:id="facs_110-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_111">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_122.tif" xml:id="facs_111-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_122.jpg" xml:id="facs_111-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_112">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_123.tif" xml:id="facs_112-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_123.jpg" xml:id="facs_112-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_113">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_124.tif" xml:id="facs_113-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_124.jpg" xml:id="facs_113-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_114">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_125.tif" xml:id="facs_114-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_125.jpg" xml:id="facs_114-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_115">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_126.tif" xml:id="facs_115-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_126.jpg" xml:id="facs_115-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_116">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_127.tif" xml:id="facs_116-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_127.jpg" xml:id="facs_116-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_117">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_128.tif" xml:id="facs_117-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_128.jpg" xml:id="facs_117-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_118">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_129.tif" xml:id="facs_118-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_129.jpg" xml:id="facs_118-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_119">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_130.tif" xml:id="facs_119-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_130.jpg" xml:id="facs_119-g_2"/>
+        </tei:surface>
+        <tei:surface xml:id="facs_120">
+            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_131.tif" xml:id="facs_120-g_1"/>
+            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_131.jpg" xml:id="facs_120-g_2"/>
+        </tei:surface>
+    </tei:facsimile>
+    <text n="i_14" type="issue" xml:id="text" xml:lang="ar">
         <front xml:id="front_1.d1e465" xml:lang="ar">
             <div xml:id="div_1.d1e467" xml:lang="ar">
                 <biblStruct xml:id="biblStruct_2.d1e469" xml:lang="ar">
@@ -196,8 +391,8 @@
                         </editor>
                         <imprint xml:id="imprint_2.d1e491" xml:lang="ar">
                             <pubPlace xml:id="pubPlace_3.d1e493" xml:lang="en">
-                                <placeName xml:id="placeName_3.d1e495" xml:lang="ar" ref="geon:170654" change="#d5e380">دمشق</placeName>
-                                <placeName xml:id="placeName_4.d1e498" xml:lang="en" ref="geon:170654" change="#d5e380">Damascus</placeName>
+                                <placeName change="#d5e380" ref="geon:170654" xml:id="placeName_3.d1e495" xml:lang="ar">دمشق</placeName>
+                                <placeName change="#d5e380" ref="geon:170654" xml:id="placeName_4.d1e498" xml:lang="en">Damascus</placeName>
                             </pubPlace>
                             <date when="1911-09-24" xml:id="date_11.d1e502" xml:lang="ar">بتاريخ:  
                                 <tei:num value="24" xml:id="num_1.d1e544" xml:lang="ar">٢٤</tei:num>
@@ -217,7 +412,6 @@
             <head xml:id="head_1.d1e517" xml:lang="ar">
                 <bibl xml:id="bibl_1.d1e519" xml:lang="ar">
                     <biblScope from="14" to="14" unit="issue" xml:id="biblScope_3.d1e521" xml:lang="ar">العدد
-                            
                         <tei:num value="14" xml:id="num_1.d1e575" xml:lang="ar">١٤</tei:num></biblScope>
                     <date when="1911-09-24" xml:id="date_12.d1e524" xml:lang="ar">بتاريخ: 
                         <tei:num value="24" xml:id="num_1.d1e581" xml:lang="ar">٢٤</tei:num>
@@ -227,7 +421,7 @@
                         <tei:num value="1911" xml:id="num_1.d1e587" xml:lang="ar">١٩١١</tei:num></date>
                 </bibl>
             </head>
-            <pb change="#d2e579 #d2e361 #d2e375" ed="print" n="81" xml:id="pb_1.d2e575" facs="#facs_81"/>
+            <pb change="#d2e579 #d2e361 #d2e375" ed="print" facs="#facs_81" n="81" xml:id="pb_1.d2e575"/>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P391.xhtml" ed="shamela" n="n14-p1" xml:id="pb_1.d1e529"/>
             <div type="article" xml:id="div_2.d1e531" xml:lang="ar">
                 <head xml:id="head_2.d1e533" xml:lang="ar">الدين الإسلامي والتوحيد</head>
@@ -242,7 +436,7 @@
                     الشرعي وقد جعلها الله تعالى شرطاً عادياً لخلقه أفعال العباد بمنزلة الأسباب
                     العادية كالسكين للقطع والنار للإحراق وكون أفعال العباد بعلم الله تعالى وإرادته
                     لا ستلزم كون صدورها منهم بالجبر كما زعمت 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="82" xml:id="pb_3.d2e595" facs="#facs_82"/>
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_82" n="82" xml:id="pb_3.d2e595"/>
                     (الجبرية) القائلون بأنه
                     لا فعل للهبد أصلاً وأن حركاته بمنزلة حركات الجمادات لا قدرة للعبد عليها ولا قصد
                     ولا اختيار وهو مذهب باطل لانا نفرق بالضرورة بين حركة البطش وحركة الارتعاش ونعلم
@@ -263,7 +457,7 @@
                     مقامكم وأنتم مقيمون ولم تكونوا في شيء من حالاتكم 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P392.xhtml" ed="shamela" n="n14-p2" xml:id="pb_2.d1e547"/>
                     مكرهين ولا إليها مضطرين ولا عليها مجبورين فقال الشامي وكيف ذلك 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="83" xml:id="pb_5.d2e602" facs="#facs_83"/>
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_83" n="83" xml:id="pb_5.d2e602"/>
                     والقضاء والقدر ساقانا وعنهما كان مسيرنا وانصرافنا فقال على ويحك يا أخا الشام
                     لعلك ظننت قضاء حتماً لازماً وقدرا حاتماً جازماً لو كان كذلك لبطل الثواب والعقاب
                     وسقط الوعد والوعيد والأمر من الله والنهي وما كان المحسن أولى بثواب الإحسان من
@@ -286,7 +480,7 @@
                     القياصرة وكانت عقيدة القضاء والقدر من أكبر الأسباب الباعثة على أقدامهم واقتحامهم
                     تلك المشاق العظيمة عقيدة القضاء والقدر أصل من أصول العقائد الإسلامية وركن من
                     أركان 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="84" xml:id="pb_6.d2e614" facs="#facs_84"/>
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_84" n="84" xml:id="pb_6.d2e614"/>
                     الإيمان وهي من المسائل العظمى التي تستدعي إقامة الإنسان
                     على منهاج الفطرة بالاستسلام إلى خالقه والرضوخ لأحكامه والرضا بتدبيره ولا يستقيم
                     إيمان المرء حتى يعتقد من صميم قلبه اعتقاداً جازماً لا يعتريه شك ولا يشوبه تردد
@@ -306,46 +500,115 @@
                     بقضاء وقدر وهذا أمر يعترف به طلاب الحقائق فضلاً عن الواصلين وأن بعض حلماء
                     الإفرنج وعلماء سياستها التجأوا إلى الخضوع لسلطة القضاء والقدر وأطالوا البيان في
                     إثباتهما ولسنا في حاجة إلى الاستشهاد بآرائهم. أهـ 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="85" xml:id="pb_8.d2e618" facs="#facs_85"/>
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_85" n="85" xml:id="pb_8.d2e618"/>
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P394.xhtml" ed="shamela" n="n14-p4" xml:id="pb_4.d1e558"/></p>
             </div>
             <div type="section" xml:id="div_3.d1e562" xml:lang="ar">
                 <head xml:id="head_3.d1e564" xml:lang="ar">أجوبة العلماء عن التمثيل</head>
                 <p xml:id="p_21.d1e567" xml:lang="ar">ننشرها على حسب ورودها</p>
-                <div type="article" change="#d2e361" xml:id="div_3.d2e631">
+                <div change="#d2e361" type="article" xml:id="div_3.d2e631">
                     <head change="#d2e361" xml:id="head_4.d2e633">الجواب الأول للعلامة الكبير الأستاذ الفاضل صاحب الإمضاء</head>
                     <salute change="#d2e361" xml:id="salute_1.d2e636">بسم الله الرحمن الرحيم</salute>
                     <p xml:id="p_24.d1e576" xml:lang="ar">الحمد لله تعالى ملهم الصواب، والصلاة والسلام على سيدنا رسول الله وعلى جميع الآل والأصحاب. ومن به آمن وله وإليه في كل أموره آب.</p>
-                    <p xml:id="p_25.d1e580" xml:lang="ar">أما بعد فقد رأيت في الجزء الثاني من مجلد السنة الثانية من مجلتكم الغراء سؤالاً بإمضاء ي. ص يسأل فيه صاحبه عن حكم التمثيل المسمى (بالرواية) هل هو محظور أو جائز شرعاً ويطلب الجواب عنه من أهل العلم بالدين وفي الحديث الشريف من كتم علماً عن أهله ألجمه لله تعالى يوم القيامة بلجام من نار وأني وإن كنت ل <num resp="#pers_TG" subtype="d1" type="auto-markup" value="6" xml:id="num_2.d1e705" xml:lang="ar">ست</num> من رجال هذا الميدان ولم يتعين علي الجواب لو كنت منهم وفيهم ولله الحمد كثرة أحببت أن أذكر ما رأيته في هذا الباب تاركاً الحكم فيه لأولي البصائر والألباب فأقول:</p>
-                    <p xml:id="p_26.d1e583" xml:lang="ar">إنَّ السؤال ورد في تمثيل مخصوص وقع في جمعية مخصوصة وبما أن الحكم على الشيء فرع من تصوره ولم أكن حاضراً فأتصوره أذكر حكم الفقهاء على أصل التمثيل وأترك الجواب عن سائره لمن كان من العلماء حاضراً قال العلامة ابن حجر المكي في كتابه الزواجر عن اقتراف الكبائر في قسم الكلام على الغيبة بعد الاستدلال على تحريمها وبيان أقسامها وحدها بأنها <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="86" xml:id="pb_10.d2e650" facs="#facs_86"/> ذكرك أخاك بما يكره قد يتوهم من حدهم السابق للغيبة أنها تختص باللسان وليس كذلك لأن علة تحريمها الإيذاء بتفهيم الغير نقصان المغتاب وهذا موجود حيث أفهمت الغير ما يكرهه المغتاب ولو بالتعريض أو الفعل أو الإشارة أو الإيماء أو الغمز أو الرمز أو الكتابة قال النووي بلا خلاف وكذا سائر ما يتوصل به فهم المقصود كأن يمشي مشيته فهو غيبة بل هو أعظم من الغيبة كما قال الغزالي لأنه أبلغ في التصوير أو التفهيم وأنكى للقلب وقال ومنها أي من التنبيهات التي ذكرها البواعث على الغيبة كثيرة أما تشفي الغيظ بذكر مساوي من أغضبك ثم قال وأما اللعب والهزل فيذكر عن غيره ما يضحك الناس به وأما السخرية والاستهزاء به في غيبته كهو في حضرته تحقيراً له. وروى أبو داود والترمذي وقال حديث حسن صحيح والبيهقي عن عائشة رضي الله عنها <pb corresp="file:../epub/29676/OEBPS/xhtml/P395.xhtml" ed="shamela" n="n14-p5" xml:id="pb_5.d1e585"/> قالت قلت للنبي صلى الله عليه وسلم حسبك من صفية كذا وكذا قال بعض الرواة تعني قصيرة فقال لقد قلتِ كلمة لو مزجت بماء البحر لمزجته أي لا تنته وغيرت رائحته قالت وحكيت له إنساناً فقال ما أحب إني حكيت إنساناً وأن لي كذا وكذا انتهى.</p>
-                    <p xml:id="p_27.d1e588" xml:lang="ar">وهذا بالنسبة لتمثيل المسلم أما تمثيل الكافر فإن ذمياً فقال ابن حجر في الزواجر أيضاً الوجه بل الصواب تحريم غيبة الذمي كما تقرر أو لا وروى ابن حيان في صحيحه أن النبي صلى الله عليه وسلم قال من سمع يهودياً أو نصرانياً فله النار وقال ومعنى سمعه اسمعه بما يؤذيه ولا كلام بعد هذا أي لظهور دلالته على الحرمة وقال الغزالي وأما المبتدع فإن كفر أي ببدعته فكا الحربي وإلا فكا لمسلم وأما ذكره ببدعته فليس مكروهاً انتهى ومن هذا يعلم أن التمثيل وهو حكاية حال الغير سواء كان مسلماً أو ذمياً أو مبتدعاً لا <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="87" xml:id="pb_12.d2e658" facs="#facs_87"/> يكفر ببدعته حرام غلا ذكر بدعته فليس حراماً ولا مكروهاً. وأما الجواب عن سائر ما وقع في الجمعية التمثيلية بما أشار له السائل وطلب الجواب عنه فإنه منوط كما قدمنا بمن شاهده من علماء الدين مثل أصحاب الفضيلة الشيخ عبد الرزاق أفندي البيطار والشيخ جمال أفندي القاسمي الحلاق والشيخ رشيد أفندي سنان وعبد الرزاق أفندي الدردري ومحمد أفندي الحكيم وأبي السعود أفندي مراد الذين حضروها وشاهدوا الأعمال التي حوتها (فماء راء كمن سمعا) والله تعالى أعلم.</p>
-                    <byline change="#d2e361" xml:id="byline_1.d2e661"><placeName change="#d2e361 #d5e380" xml:id="placeName_5.d2e662" ref="geon:170654">دمشق</placeName>
-                        <persName change="#d2e361" xml:id="persName_10.d2e665">محمد عارف المنير الحسيني</persName></byline>
+                    <p xml:id="p_25.d1e580" xml:lang="ar">أما بعد فقد رأيت في الجزء الثاني من مجلد السنة الثانية من مجلتكم الغراء سؤالاً بإمضاء ي. ص يسأل فيه صاحبه عن حكم التمثيل المسمى (بالرواية) هل هو محظور أو جائز شرعاً ويطلب الجواب عنه من أهل العلم بالدين وفي الحديث الشريف من كتم علماً عن أهله ألجمه لله تعالى يوم القيامة بلجام من نار وأني وإن كنت ل 
+                        <num resp="#pers_TG" subtype="d1" type="auto-markup" value="6" xml:id="num_2.d1e705" xml:lang="ar">ست</num>
+                        من رجال هذا الميدان ولم يتعين علي الجواب لو كنت منهم وفيهم ولله الحمد كثرة أحببت أن أذكر ما رأيته في هذا الباب تاركاً الحكم فيه لأولي البصائر والألباب فأقول:</p>
+                    <p xml:id="p_26.d1e583" xml:lang="ar">إنَّ السؤال ورد في تمثيل مخصوص وقع في جمعية مخصوصة وبما أن الحكم على الشيء فرع من تصوره ولم أكن حاضراً فأتصوره أذكر حكم الفقهاء على أصل التمثيل وأترك الجواب عن سائره لمن كان من العلماء حاضراً قال العلامة ابن حجر المكي في كتابه الزواجر عن اقتراف الكبائر في قسم الكلام على الغيبة بعد الاستدلال على تحريمها وبيان أقسامها وحدها بأنها 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_86" n="86" xml:id="pb_10.d2e650"/>
+                        ذكرك أخاك بما يكره قد يتوهم من حدهم السابق للغيبة أنها تختص باللسان وليس كذلك لأن علة تحريمها الإيذاء بتفهيم الغير نقصان المغتاب وهذا موجود حيث أفهمت الغير ما يكرهه المغتاب ولو بالتعريض أو الفعل أو الإشارة أو الإيماء أو الغمز أو الرمز أو الكتابة قال النووي بلا خلاف وكذا سائر ما يتوصل به فهم المقصود كأن يمشي مشيته فهو غيبة بل هو أعظم من الغيبة كما قال الغزالي لأنه أبلغ في التصوير أو التفهيم وأنكى للقلب وقال ومنها أي من التنبيهات التي ذكرها البواعث على الغيبة كثيرة أما تشفي الغيظ بذكر مساوي من أغضبك ثم قال وأما اللعب والهزل فيذكر عن غيره ما يضحك الناس به وأما السخرية والاستهزاء به في غيبته كهو في حضرته تحقيراً له. وروى أبو داود والترمذي وقال حديث حسن صحيح والبيهقي عن عائشة رضي الله عنها 
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P395.xhtml" ed="shamela" n="n14-p5" xml:id="pb_5.d1e585"/>
+                        قالت قلت للنبي صلى الله عليه وسلم حسبك من صفية كذا وكذا قال بعض الرواة تعني قصيرة فقال لقد قلتِ كلمة لو مزجت بماء البحر لمزجته أي لا تنته وغيرت رائحته قالت وحكيت له إنساناً فقال ما أحب إني حكيت إنساناً وأن لي كذا وكذا انتهى.</p>
+                    <p xml:id="p_27.d1e588" xml:lang="ar">وهذا بالنسبة لتمثيل المسلم أما تمثيل الكافر فإن ذمياً فقال ابن حجر في الزواجر أيضاً الوجه بل الصواب تحريم غيبة الذمي كما تقرر أو لا وروى ابن حيان في صحيحه أن النبي صلى الله عليه وسلم قال من سمع يهودياً أو نصرانياً فله النار وقال ومعنى سمعه اسمعه بما يؤذيه ولا كلام بعد هذا أي لظهور دلالته على الحرمة وقال الغزالي وأما المبتدع فإن كفر أي ببدعته فكا الحربي وإلا فكا لمسلم وأما ذكره ببدعته فليس مكروهاً انتهى ومن هذا يعلم أن التمثيل وهو حكاية حال الغير سواء كان مسلماً أو ذمياً أو مبتدعاً لا 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_87" n="87" xml:id="pb_12.d2e658"/>
+                        يكفر ببدعته حرام غلا ذكر بدعته فليس حراماً ولا مكروهاً. وأما الجواب عن سائر ما وقع في الجمعية التمثيلية بما أشار له السائل وطلب الجواب عنه فإنه منوط كما قدمنا بمن شاهده من علماء الدين مثل أصحاب الفضيلة الشيخ عبد الرزاق أفندي البيطار والشيخ جمال أفندي القاسمي الحلاق والشيخ رشيد أفندي سنان وعبد الرزاق أفندي الدردري ومحمد أفندي الحكيم وأبي السعود أفندي مراد الذين حضروها وشاهدوا الأعمال التي حوتها (فماء راء كمن سمعا) والله تعالى أعلم.</p>
+                    <byline change="#d2e361" xml:id="byline_1.d2e661">
+                        <placeName change="#d2e361 #d5e380" ref="geon:170654" xml:id="placeName_5.d2e662">دمشق</placeName>
+                        <persName change="#d2e361" xml:id="persName_10.d2e665">محمد عارف المنير الحسيني</persName>
+                    </byline>
                 </div>
-                <div type="article" change="#d2e361" xml:id="div_4.d2e669">
+                <div change="#d2e361" type="article" xml:id="div_4.d2e669">
                     <head change="#d2e361" xml:id="head_5.d2e671">الجواب الثاني للعلامة المحقق الأستاذ الفاضل صاحب الإمضاء</head>
-                    <p xml:id="p_31.d1e601" xml:lang="ar">بينما كنت أراجع <bibl change="#d2e361" xml:id="bibl_2.d2e676"><biblScope from="2" to="2" unit="issue" change="#d2e361" xml:id="biblScope_4.d2e677">الجزء الثاني</biblScope> من مجلة <title level="j" rend="brackets" change="#d2e361" xml:id="title_9.d2e680">الحقائق</title> الغراء من <biblScope from="3" to="3" unit="volume" change="#d2e361" xml:id="biblScope_5.d2e683">السنة الثانية</biblScope> عثرت على سؤال تحت عنوان <title level="a" change="#d2e361" xml:id="title_10.d2e686">رواية زهير الأندلسي</title> لصاحب الإمضاء <author change="#d2e361" xml:id="author_2.d2e689"><persName change="#d2e361" xml:id="persName_11.d2e690">ي. ص</persName></author></bibl> سأل فيها أصحاب المجلة المذكورة وفضلاء العلماء عن التمثيل هل هو جائز وارد في الشرع أو محظور فهي عنه وتفصيل السؤال هناك وخلاصته أن السائل المذكور شهد تمثيل غلمان المدرسة العثمانية لهذه الرواية فقام <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_3.d1e729" xml:lang="ar">أحد</num> أساتذتها ومدح التمثيل بغلو حتى جعله من الاعتبار الوارد في قوله تعالى (فاعتبروا) الآية ومن مكارم الأخلاق الواردة في السنة (إنما بعثت لأتمم مكارم الأخلاق) ثم ظهر غلمان متزينون ينشدون أدواراً منها (إنما <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="88" xml:id="pb_13.d2e696" facs="#facs_88"/> التمثيل فرض جاء في <pb corresp="file:../epub/29676/OEBPS/xhtml/P396.xhtml" ed="shamela" n="n14-p6" xml:id="pb_6.d1e603"/> القرآن) وبعده ظهر بعض الممثلين لابساً البرنيطة كل ذلك بحضور بعض أهل العلم من غير إنكار <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_4.d1e734" xml:lang="ar">أحد</num> منهم على ذلك ثم أن السائل حضر خطبة الجمعة في الأموي فسمع خطيبه العلامة المفضال يذم التمثيل المذكور ويحظره بتاتاً فوقع السائل المذكور في حيرة عظيمة فالتمس الجواب.</p>
-                    <p xml:id="p_32.d1e606" xml:lang="ar">(الجواب) إن الكلام على ذلك من وجهين (الأول) في التمثيل وهو في اللغة التصوير في الصحاح ومثل له كذا تمثيلاً إذا صور له مثاله بالكتابة أو غيرها وأما المثل فجمعه أمثال في الصحاح أيضاً والمثل ما يضرب به من الأمثال وهو قول سائر لتشبيه شيء بشيء آخر وبهذا تبين أن التمثيل الذي نحن بصدده ليس من التمثيل لا من الأمثال بل الأليق والأحرى به أن يدعى تلبيساً أو تدليساً وكذباً الخ وإذا لقب أثناء الحجاج بالتمثيل فلقصد الحكاية فقط فليتنبه له. والتمثيل المذكور عبارة عن تمويه وجوه الصبيان المرد بما للرجال من شارب ولحية وكلاهما عارية من شعر أو صوف أو غير ذلك وتبديل ثيابهم ولبستهم بزي تخيلوه بفكرهم يحكي زي الملوك الماضيين والأمم السالفين حتى أن كل شخص منهم يسمى باسم ملك أو وزير أو جليل أو حقير هذا هو التمثيل الذي نوهبه ذلك الجاهل فليتأمل. وهو محرم بالكتاب والسنة والإجماع لوجوه (الأول) كونه كذباً قولاً وفعلاً كما سمعت وهو أيضاً من الافتراء على أولئك الرفات قال تعالى (إنما يفتري الكذب الذين لا يؤمنون بآيات الله) الآية إذ كل قول أو فعل ما لم يعلم أخذن من كتاب أو سنة ولم يقل به أمام من أئمة الدين فهو رد لما في الصحيحين عن عائشة رضي الله عنها من أحدث في أمرنا هذا ما ليس منه فهو رد <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="89" xml:id="pb_15.d2e706" facs="#facs_89"/> وهو أيضاً من البدع السيئة المنهي عنها كما في آخر حديث طويل إياكم ومحدثات الأمور فإن كل بدعة ضلالة رواه أبو داود والترمذي وفي مسلم في شق حديث ومن سن في الإسلام سنة سيئة كان عليه وزرها ووزر من عمل بها من غير أن ينقص من أوزارهم شيء ولا عبرة في الأقوال والأفعال بمجرد عمل العوام بها وأن غلوا في مدحها لأنهم ليسوا من أهل النظر في الشرعيات ولا يفهمون الحجة ولا يعقلون البرهان وأعظم من هذا افتراء وأشد معصية تفسيره القرآن برأيه لحديث من فسر القرآن برأيه فليتبوأ مقعده من النار قال في الأحياء، هنا أثناء كلام له ما لفظه وأما النهي فإنه ينزل على <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_5.d1e740" xml:lang="ar">أحد</num> أمرين أحدهما أن يكون له في الشيء رأي وإليه ميل من طبعه وهواه <pb corresp="file:../epub/29676/OEBPS/xhtml/P397.xhtml" ed="shamela" n="n14-p7" xml:id="pb_7.d1e608"/> فيتأول القرآن على وفق رأيه وهواه ليحتج على تصحيح غرضه ولو لم يكن له ذلك الرأي والهوى لكان لا يلوح له من القرآن ذلك المعنى. أه هـ</p>
-                    <p xml:id="p_33.d1e611" xml:lang="ar">وعليه فمن قال أن التمثيل ورد في القرآن والحديث الحث عليه أو مما أمر الله به أو من الاعتبار أو فرض جاء في القرآن أو تكلم في الدين بلا علم أو أعان من تكلم فيه بلا علم أو أدخل في الدين ما ليس منه أو حرف القرآن عن موضعه أو غير ذلك مما لا مستند له سوى مجرد عقله وهواه فإن كان جاهلاً فيعرف ويستتاب فإن تاب وإلا فن قامت عليه الحجة وجب على أولياء الأمور أن يعاملوه بما يقضي عليه الشرع لأنه ممن قال على الله بغير علم وهو مضاة لقول المشركين (الذين إذا فعلوا فاحشة قالوا وجدنا عليها آباءنا والله أمرنا بها قل أن الله لا يأمر بالفحشاء القولون على الله مالا تعلمون) وفاحشة أولئك إنما كانت طوافهم بالبيت عراة وكانوا يقولون. . لا نطوف في الثياب التي عصينا الله فيها فهؤلاء إنما كانوا يطوفون عراة على وجه <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="90" xml:id="pb_17.d2e716" facs="#facs_90"/> اجتناب ثياب المعصية وقد ذكر فكيف بمن يجعل شيئاً من المحرمات التي يعلم تحريمها من دين الإسلام من الاعتبار المأمور به في الآية ولو كان التمثيل مما أمر الله به أو من المكارم لبينه عليه الصلاة والسلام ومثله لهم أو أمر أصحابه أن يمثلوه ولو بقصة واحدة مما في القرآن المنطوي على الأخبار عن حوادث الأمم التي قبلنا وما فعلوا وما فعل بهم وما صاروا إليه كقصة أهل الكهف وذي القرنين وبني إسرائيل مع أنبيائهم وقصة يوسف عليه وعلى نبينا الصلاة والسلام وما جرى له مع أخوته أو غير ذلك لقوله تعالى (لتبين للناس ما نزل إليهم) لأنه صلى الله عليه وسلم أعلم الخلق بطرق البيان لمحتاج إليه وأنصح الخلق لعباد الله تعالى ولما تيقنا أنه صلى الله عليه وسلم ما فعل التمثيل ولا مر به ولا أقر عليه أحداً ولا دعا الناس إليه ولا تكلم فيه الصحابة ولا فعله <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_6.d1e748" xml:lang="ar">أحد</num> من أئمة الدين علمنا أنه قول مفتعل ومختلق وكذب على الله وكتابه وعلى رسوله وسنته وأن هذا الفعل محض تقليد للإفرنجة قال تعالى (ويوم القيامة ترى الذين كذبوا على الله وجوههم مسودة) فهذا جزاء الكذب على الله تعالى وأما الكذب عليه صلى الله عليه وسلم فجزاؤه ما في الصحيحين وغيرهما (من كذب علي معتمداً فليتبوأ مقعده من النار) ولهذا الحديث طرق كثيرة صحيحة ويلزم على كون التمثيل من مكارم الأخلاق عدم وتتميم مكارم الأخلاق في زمنه صلى الله عليه وسلم وزمن الصحابة الكرام لأنه صلى الله <pb corresp="file:../epub/29676/OEBPS/xhtml/P398.xhtml" ed="shamela" n="n14-p8" xml:id="pb_8.d1e613"/> عليه وسلم انتقل إلى أعلى عليين ولم يفعله ولا أصحابه كما تقدم حتى انبعث من أشقاه الله وعليه ما يستحق من الله تعالى وجعل هذا التمثيل منها وتممها فمزيد المقت منه تعالى يلجئ الشخص على أن يقول مالا يعقله ولا <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="91" xml:id="pb_19.d2e723" facs="#facs_91"/> يفهمه نعوذ بالله من الجهل (الوجه الثاني) اشتماله على نشيد إنما التمثيل فرض الخ. فقد اشتمل على محرم بل على محرمات منها كونه كذباً أيضاً وافتراء محضاً على القرآن بإجماع سلف هذه الأمة وخلفها عالمها وجاهلها خاصها وعامها من غير نزاع ومنها أن فيه تضليل جميع الأئمة سلفاً وخلفاً حيث أنه فرض ولم يظهروه ولم يفعلوه كما مر وقد جمع الناس على أنه ليس ل <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_7.d1e753" xml:lang="ar">أحد</num> أن يعمل في الدين إلا ما شرعه الله ورسوله دون ما يشتهيه ويهواه قال تعالى (ولا تتبعوا هواء قوم قد ضلوا من قبل وأضلوا كثيراً وضلوا عن وساء السبيل) ومنها تغرير العوام السامعين المصفقين له بكل انشراح ونشاط حيث اعتقدوا أنه من فروض الدين لاسيما بحضور من شأنه الإنكار ولم ينكر ولم يغير هذا المنكر وقتئذٍ لا نطقاً ولا إشارة. (الوجه الثالث) اشتماله على الغيبة والسخرية والاستهزاء وكلها حرام من الكبائر أما الغيبة فلقوله تعالى (أيحب حدكم أن يأكل لحم أخيه ميتاً فكرهتموه) وفي الصحيحين في خطبته صلى الله عليه وسلم في حجة الوداع أن دماءكم وأموالكم وأعراضكم عليكم حرام كحرمة يومكم هذا في شهركم هذا وبلدكم هذا الأهل بلغت وفي مسلم كل المسلم على المسلم حرام دمه وعرضه وماله وفي هذا الباب أحاديث كثيرة لا يسعها هذا الجواب ومعلوم أن الغيبة بالقول والفعل كالمحاكاة كما هو معلوم وأما السخرية والاستهزاء فهما محرمان كما قال تعالى (يا أيها الذين آمنوا لا يسخر قوم من قوم عسى ن يكونوا خيراً منهم) الآية ومعنى السخرية الاستهانة والتحقير والتنبيه على العيوب والنقائص على وجه يضحك منه وقد يكون ذلك بالمحاكاة في الفعل والقول وقد يكون بالإشارة والإيماء (الوجه الرابع) ما فيه من مجالسة المرد والنظر إليهم مع تخنثهم وتلويهم وإنشادهم الشعر ملحناً <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="92" xml:id="pb_20.d2e729" facs="#facs_92"/> بأصواتهم المطربة وهذا مخالف لما بعث الله به رسوله صلى الله عليه وسلم من عبادته وطاعته وطاعة رسوله ومرتكبه غير متبع للدين بل متبع لهواه وكما يحرم ما ذكر تحرم الإعانة عليه وبالجملة فكل ما اشتمل على سخف أو مدح معصية أو محرم فحضوره والرضا به حرام وقد رفع على عمر ابن عبد العزيز رضي الله عنه قوم يشربون الخمر فأمر بضربهم فقيل له ن فيهم صائماً فقال ابدأوا به ثم <pb corresp="file:../epub/29676/OEBPS/xhtml/P399.xhtml" ed="shamela" n="n14-p9" xml:id="pb_9.d1e615"/> قال أما سمعت قوله تعالى (وقد نزل عليكم في الكتاب أن إذا سمعتم آيات الله يكفر بها ويستهزأ بها فلا تقعدوا معهم حتى يخوضوا في حديث غيره أنكم إذاً مثلهم) فاستدل عمر بالآية لأن الله تعالى جعل حاضر المنكر مثل فاعله بل إذا كان من دعا إلى دعوة مباحة كدعوة العرس لا تجاب دعوته إذا اشتملت على منكر حتى يدعه مع أن إجابة الدعوة حق فكيف بمشاهدة المنكر من غير حق (فصل في رياضة الصبيان) قال في الأحياء أعلم أن الطريق في رياضة الصبيان من أهم الأمور وأوكدها والصبي أمانة عند والده وقلبه الطاهر جوهرة نفيسة ساذجة خالية من كل نقش وصورة وهو قابل لكل ما نقش ومائل إلى كل ما يمال إليه فإن عود الخير وعلمه نشأ وسعد في الدنيا والآخرة وشاركه في ثوابه أبواه وكل معلم له ومؤدب وأن عود الشر وأهمل إهمال البهائم شقي وهلك وكان الوزر في رقبة القيم عليه والوالي له وقد قال الله تعالى (يا أيها الذين آمنوا قوا أنفسكم وأهليكم ناراً) ومهما كان الأب يصونه عن نار الدنيا فبأن يصونه عن نار الآخرة أولى وصيانته بأن يؤدبه ويهذبه ويعلمه محاسن الأخلاق ويحفظه من قرنا، السوء إلى أن قال ويمنع من لغو الكلام وفحشه ومن اللعن والسب ومن مخالطة من يجري على لسانه شيء من ذلك فإن ذلك <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="93" xml:id="pb_22.d2e733" facs="#facs_93"/> يسرى لا محالة من قرناء السوء وأصل تأديب الصبيان الحفظ من قرناء السوء فإذ كان الصبي يصان عما نحن بصدده وهو التمثيل أولى وأحرى لاشتماله على محرمات وفواحش أعظم مما ذكر كما تقدم فاعتقاد هؤلاء الجهلاء أن التمثيل من الاعتبار وأنه ينبه الأفكار وغير ذلك مما موهوا به خطأ وكذب وضرر على الأمة وأولادهم فهو بضد ماموهوا به إذ هو يثبط الأفكار ويبطئ الإفهام لأن الاعتبار والاتعاظ لهذه الأمة إنما هو بالمعاني كالأمثال المضروبة في القرآن لا بالمحسوسات كالتمثيل المخصص بغيرهم من الأمم وذلك أن التمثيل المذكور هو من الأعيان المحسوسة المشاهدة بحاسة البصر كما هو معلوم فإن كان الاعتبار والاتعاظ بمثل هذا على زعمهم وارتاضت الصبيان عليه صار حكمهم حكم بعض الأمم الماضية في البلادة حيث أن البليد لا يدرك ولا يعقل إلا ما شاهد بعيني رأسه وإذا كان كذلك فقد غيروا سنة الله في هذه الأمة التي هي خير أمة أخرجت للناس المشهورين بالفصاحة والبلاغة حيث أنهم يتعظون ويعتبرون بمجرد ضرب الأمثال وقصص الأحوال التي تضمنها القرآن الكريم بأوجز عبارة وألطف إشارة قال تعالى (وتبين لكم كيف فعلنا <pb corresp="file:../epub/29676/OEBPS/xhtml/P400.xhtml" ed="shamela" n="n14-p10" xml:id="pb_10.d1e617"/> بهم وضربنا لكم الأمثال) وقال عز اسمه (ويضرب الله الأمثال للناس لعلهم يتذكرون) قال بعض المفسرين يعني أن ضرب الأمثال زيادة في الإفهام وتصويراً للمعاني وتذكيراً ومواعظ لمن تذكر واتعظوا افترك هؤلاء المعطلون للسنن الإلهية ما أمر الله تعالى به من التدبر والتفكير فيما في القرآن من المواعظ ونسوا حظاً مما ذكروا به وجاؤوا بهذا التمثيل المنوط بذي البلادة كما تقدم التي تأباها أذواق هذه الأمة وذكاؤها يروضون الصبيان السذج <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="94" xml:id="pb_24.d2e737" facs="#facs_94"/> عليه ليعتادوا من أول نشوهم عليها وعلى الكذب والحيل والافتراء والسخرية والغيبة وغير ذلك مما تقدم من الأوصاف التي ينيو عنها العقل والطبع وبهذه المناسبة تنقل عن العلامة الماوردي ما نصه (والثاني) أن المعجزة في كل قوم بحسب إفهامهم وعلى قدر عقولهم وأذهانهم وكان في بني إسرائيل من قوم موسى وعيسى عليهما الصلاة والسلام بلادة وغباوة لأنه لم ينقل عنهم ما تدون من كلام مستحسن أو يستفاد من معنى مبتكر وقالوا لنبيهم حين مروا بقوم يعكفون على أصنام لهم أجعل لنا إلهاً كما لهم آلهة فخصوا من الإعجاز بما يصلون إليه ببداية حواسهم وهذه الأمة أصح الناس إفهاماً وأحدهم أذهاناً قد ابتكروا من الفصاحة أبلغها ومن المعاني أغربها ومن الآداب أحسنها فخصوا من معجز القرآن بما تجول فيه إفهامها وتصل إليه أذهانهم فيدركوه بالفطنة دون البديهة وبالروية دون المبادرة لتكون كل أمة مخصوصة بما يشاكل طبعها ويوافق فهمها بتصرف (الوجه الخامس) حدوث هذه المحرمات في محل أنشئ للطاعة لأن المدارس إنما أنشئت لتعليم العلوم الشرعية وللعبادة والطاعة فهي من البيوت التي إذن الله أن ترفع وبذكر فيها اسمه لا للملاهي والخلاعة فوجود مثل هذا المحرم في مثل هذا المحل جهل على جهل وظلمات بعضها فوق بعض هذا وإني أوجه خطابي إليك أيها المدير الكامل لأن حبي القديم محقق لديك ونصحي الخالص أقدمه إليك أن تخدم وطنك أحسن خدمة وتعنى بتربية تلامذتك تربية دينية وتخلقهم بالأخلاق الإسلامية كي تصلح الأحوال وتنجح الآمال (الفصل الثاني في وجوب الأمر بالمعروف والنهي عن المنكر) ويدل على ذلك كما قال في الأحياء بعد إجماع الأمة عليه وأشارت العقول <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="95" xml:id="pb_25.d2e739" facs="#facs_95"/> السليمة إليه الآيات والأخبار والآثار أما الآيات فقوله تعالى (ولتكن منكم أمة يدعون إلى الخير ويأمرون بالمعروف ينهون عن المنكر وأولئك هم المفلحون) ففي الآية بيان الإيجاب فإن قوله تعالى ولتكن أمر وظاهر الأمر الإيجاب وفيها <pb corresp="file:../epub/29676/OEBPS/xhtml/P401.xhtml" ed="shamela" n="n14-p11" xml:id="pb_11.d1e619"/> بيان أن الفلاح منوط به إذ حصر وقال أولئك هم المفلحون وفيها بيان أنه فرض كفاية لا فرض عين وانه إذا قامت به أمة سقط الفرض عن الآخرين إذ لم يقل كونوا كلكم آمرين بالمعروف بل قال ولتكن منكم أمة فإن ذلك مهما قام به و <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_8.d1e763" xml:lang="ar">احد</num> وجماعة سقط الحرج عن الآخرين واختص الفلاح بالقائمين به المباشرين وإن تقاعد عنه الخلق أجمعون عم الحرج كافة القادرين عليه لا محالة وقال تعالى (ليسوا سواء من أهل الكتاب أمة قائمة يتلون آيات الله إناء الليل وهم يسجدون يؤمنون بالله واليوم الآخر ويأمرون بالمعروف وينهون عن المنكر ويسارعون في الخيرات وأولئك من الصالحين) فلم يشهد لهم بالصلاح بمجرد الإيمان بالله واليوم الآخر حتى أضاف إليه الأمر بالمعروف والنهي عن المنكر وقال تعالى (والمؤمنون والمؤمنات بعضهم أولياء بعض يأمرون بالمعروف وينهون عن المنكر ويقيمون الصلاة) فقد نعت المؤمنين بأنهم يأمرون بالمعروف وينهون عن المنكر فالذي هجر الأمر بالمعروف والنهي عن المنكر خارج عن هؤلاء المؤمنين المنعوتين بهذه الآية إلى أن قال وقال عز وجل (كنتم خير أمة أخرجت للناس تأمرون بالمعروف وتنهون عن المنكر) وهذا يدل على فضيلة الأمر بالمعروف والنهي عن المنكر إذ بين أنهم كانوا خير أمة أخرجت للناس وقال تعالى (فلما نسوا ما ذكروا به أنجينا الذين ينهون عن السوء وأخذنا الذين ظلموا بعذاب بيئس بما كانوا يفسقون) فبين أنهم استفادوا والنجاة بالنهي عن السوء <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="96" xml:id="pb_27.d2e747" facs="#facs_96"/> ويدل ذلك على الوجوب أيضاً إلى أن قال وأما الأخبار فمنها ما روي عن أبي بكر الصديق رضي الله عنه في خطبة خطبها أيها الناس أنكم تقرؤون هذه الآية وتؤولونها على خلاف تأويلها يا أيها الذين آمنوا عليكم أنفسكم لايضركم من ضل إذا اهتديتم وإني سمعت رسول الله صلى الله عليه وسلم يقول ما من قوم عملوا بالمعاصي وفيهم من يقدر أن ينكر عليهم فلم يفعل إلا يوشك أن يعمهم الله بعذاب من عنده وقل صلى الله عليه وسلم إياكم والجلوس على الطرقات فقالوا مالنا بد إنما هي مجالسنا نتحدث فيها قال فإن أبيتم إلا ذلك فأعطوا الطريق حقها وما حقها قال غض البصر وكف الأذى ورد السلام والأمر بالمعروف والنهي عن المنكر. أه</p>
-                    <p xml:id="p_34.d1e622" xml:lang="ar">قلت وأخرج أبو داوود وابن ماجة وابن حيان في صحيحه ما من رجل يكون في قوم يعمل فيهم بالمعاصي يقدرون على أن يغيروا عليه ولا يغيرون إلا أصابهم الله منه بعقاب قبل أن <pb corresp="file:../epub/29676/OEBPS/xhtml/P402.xhtml" ed="shamela" n="n14-p12" xml:id="pb_12.d1e624"/> يموتوا ومسلم في صحيحه من رأى منكم منكر فليغيره بيده فإن لم يستطع فبلسانه فإن لم يستطع فبقلبه وذلك أضعف الإيمان فياللعجب من رجال حاضرة ولهم السنة ناطقة وعيون باصرة وأذان صاغية واعية ترى أفعالاً منكرات وتسمع أقوالاً محرمات وتستطيع أن تغير بالأقوى فضلاً عن الأضعف فلم تفعل كيف وقد أجمعوا على أنه يجب على أئمة الدين وعلماء المسلمين إيضاح المشكلات ورد شبه أهل الضلالات وبيان ما يجب وما يحرم وغير ذلك ليكونوا من جملة المرادين بقوله صلى الله عليه وسلم يحمل هذا العلم من كل خلف عدوُ له ينفون عنه تحريف الغالين وانتحال المبطلين وتأويل الجاهلين أو كما قال والله تعالى أعلم.</p>
-                    <byline change="#d2e361" xml:id="byline_2.d2e756"><placeName change="#d2e361 #d5e380" xml:id="placeName_6.d2e757" ref="geon:170654">دمشق</placeName>
-                        <persName change="#d2e361" xml:id="persName_12.d2e760">محمد القاسمي الحلاق</persName></byline>
+                    <p xml:id="p_31.d1e601" xml:lang="ar">بينما كنت أراجع 
+                        <ref target="oclc_644997575-i_14.TEIP5.xml#div_8.d1e1255">
+                            <bibl change="#d2e361" xml:id="bibl_2.d2e676">
+                                <biblScope change="#d2e361" from="2" to="2" unit="issue" xml:id="biblScope_4.d2e677">الجزء الثاني</biblScope>
+                                من مجلة 
+                                <title change="#d2e361" level="j" rend="brackets" xml:id="title_9.d2e680">الحقائق</title>
+                                الغراء من 
+                                <biblScope change="#d2e361" from="3" to="3" unit="volume" xml:id="biblScope_5.d2e683">السنة الثانية</biblScope>
+                                عثرت على سؤال تحت عنوان 
+                                <title change="#d2e361" level="a" xml:id="title_10.d2e686">رواية زهير الأندلسي</title>
+                                لصاحب الإمضاء 
+                                <author change="#d2e361" xml:id="author_2.d2e689">
+                                    <persName change="#d2e361" xml:id="persName_11.d2e690">ي. ص</persName></author>
+                            </bibl>
+                        </ref>سأل فيها أصحاب المجلة المذكورة وفضلاء العلماء عن التمثيل هل هو جائز وارد في الشرع أو محظور فهي عنه وتفصيل السؤال هناك وخلاصته أن السائل المذكور شهد تمثيل غلمان المدرسة العثمانية لهذه الرواية فقام 
+                        <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_3.d1e729" xml:lang="ar">أحد</num>
+                        أساتذتها ومدح التمثيل بغلو حتى جعله من الاعتبار الوارد في قوله تعالى (فاعتبروا) الآية ومن مكارم الأخلاق الواردة في السنة (إنما بعثت لأتمم مكارم الأخلاق) ثم ظهر غلمان متزينون ينشدون أدواراً منها (إنما 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_88" n="88" xml:id="pb_13.d2e696"/>
+                        التمثيل فرض جاء في 
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P396.xhtml" ed="shamela" n="n14-p6" xml:id="pb_6.d1e603"/>
+                        القرآن) وبعده ظهر بعض الممثلين لابساً البرنيطة كل ذلك بحضور بعض أهل العلم من غير إنكار 
+                        <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_4.d1e734" xml:lang="ar">أحد</num>
+                        منهم على ذلك ثم أن السائل حضر خطبة الجمعة في الأموي فسمع خطيبه العلامة المفضال يذم التمثيل المذكور ويحظره بتاتاً فوقع السائل المذكور في حيرة عظيمة فالتمس الجواب.</p>
+                    <p xml:id="p_32.d1e606" xml:lang="ar">(الجواب) إن الكلام على ذلك من وجهين (الأول) في التمثيل وهو في اللغة التصوير في الصحاح ومثل له كذا تمثيلاً إذا صور له مثاله بالكتابة أو غيرها وأما المثل فجمعه أمثال في الصحاح أيضاً والمثل ما يضرب به من الأمثال وهو قول سائر لتشبيه شيء بشيء آخر وبهذا تبين أن التمثيل الذي نحن بصدده ليس من التمثيل لا من الأمثال بل الأليق والأحرى به أن يدعى تلبيساً أو تدليساً وكذباً الخ وإذا لقب أثناء الحجاج بالتمثيل فلقصد الحكاية فقط فليتنبه له. والتمثيل المذكور عبارة عن تمويه وجوه الصبيان المرد بما للرجال من شارب ولحية وكلاهما عارية من شعر أو صوف أو غير ذلك وتبديل ثيابهم ولبستهم بزي تخيلوه بفكرهم يحكي زي الملوك الماضيين والأمم السالفين حتى أن كل شخص منهم يسمى باسم ملك أو وزير أو جليل أو حقير هذا هو التمثيل الذي نوهبه ذلك الجاهل فليتأمل. وهو محرم بالكتاب والسنة والإجماع لوجوه (الأول) كونه كذباً قولاً وفعلاً كما سمعت وهو أيضاً من الافتراء على أولئك الرفات قال تعالى (إنما يفتري الكذب الذين لا يؤمنون بآيات الله) الآية إذ كل قول أو فعل ما لم يعلم أخذن من كتاب أو سنة ولم يقل به أمام من أئمة الدين فهو رد لما في الصحيحين عن عائشة رضي الله عنها من أحدث في أمرنا هذا ما ليس منه فهو رد 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_89" n="89" xml:id="pb_15.d2e706"/>
+                        وهو أيضاً من البدع السيئة المنهي عنها كما في آخر حديث طويل إياكم ومحدثات الأمور فإن كل بدعة ضلالة رواه أبو داود والترمذي وفي مسلم في شق حديث ومن سن في الإسلام سنة سيئة كان عليه وزرها ووزر من عمل بها من غير أن ينقص من أوزارهم شيء ولا عبرة في الأقوال والأفعال بمجرد عمل العوام بها وأن غلوا في مدحها لأنهم ليسوا من أهل النظر في الشرعيات ولا يفهمون الحجة ولا يعقلون البرهان وأعظم من هذا افتراء وأشد معصية تفسيره القرآن برأيه لحديث من فسر القرآن برأيه فليتبوأ مقعده من النار قال في الأحياء، هنا أثناء كلام له ما لفظه وأما النهي فإنه ينزل على 
+                        <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_5.d1e740" xml:lang="ar">أحد</num>
+                        أمرين أحدهما أن يكون له في الشيء رأي وإليه ميل من طبعه وهواه 
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P397.xhtml" ed="shamela" n="n14-p7" xml:id="pb_7.d1e608"/>
+                        فيتأول القرآن على وفق رأيه وهواه ليحتج على تصحيح غرضه ولو لم يكن له ذلك الرأي والهوى لكان لا يلوح له من القرآن ذلك المعنى. أه هـ</p>
+                    <p xml:id="p_33.d1e611" xml:lang="ar">وعليه فمن قال أن التمثيل ورد في القرآن والحديث الحث عليه أو مما أمر الله به أو من الاعتبار أو فرض جاء في القرآن أو تكلم في الدين بلا علم أو أعان من تكلم فيه بلا علم أو أدخل في الدين ما ليس منه أو حرف القرآن عن موضعه أو غير ذلك مما لا مستند له سوى مجرد عقله وهواه فإن كان جاهلاً فيعرف ويستتاب فإن تاب وإلا فن قامت عليه الحجة وجب على أولياء الأمور أن يعاملوه بما يقضي عليه الشرع لأنه ممن قال على الله بغير علم وهو مضاة لقول المشركين (الذين إذا فعلوا فاحشة قالوا وجدنا عليها آباءنا والله أمرنا بها قل أن الله لا يأمر بالفحشاء القولون على الله مالا تعلمون) وفاحشة أولئك إنما كانت طوافهم بالبيت عراة وكانوا يقولون. . لا نطوف في الثياب التي عصينا الله فيها فهؤلاء إنما كانوا يطوفون عراة على وجه 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_90" n="90" xml:id="pb_17.d2e716"/>
+                        اجتناب ثياب المعصية وقد ذكر فكيف بمن يجعل شيئاً من المحرمات التي يعلم تحريمها من دين الإسلام من الاعتبار المأمور به في الآية ولو كان التمثيل مما أمر الله به أو من المكارم لبينه عليه الصلاة والسلام ومثله لهم أو أمر أصحابه أن يمثلوه ولو بقصة واحدة مما في القرآن المنطوي على الأخبار عن حوادث الأمم التي قبلنا وما فعلوا وما فعل بهم وما صاروا إليه كقصة أهل الكهف وذي القرنين وبني إسرائيل مع أنبيائهم وقصة يوسف عليه وعلى نبينا الصلاة والسلام وما جرى له مع أخوته أو غير ذلك لقوله تعالى (لتبين للناس ما نزل إليهم) لأنه صلى الله عليه وسلم أعلم الخلق بطرق البيان لمحتاج إليه وأنصح الخلق لعباد الله تعالى ولما تيقنا أنه صلى الله عليه وسلم ما فعل التمثيل ولا مر به ولا أقر عليه أحداً ولا دعا الناس إليه ولا تكلم فيه الصحابة ولا فعله 
+                        <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_6.d1e748" xml:lang="ar">أحد</num>
+                        من أئمة الدين علمنا أنه قول مفتعل ومختلق وكذب على الله وكتابه وعلى رسوله وسنته وأن هذا الفعل محض تقليد للإفرنجة قال تعالى (ويوم القيامة ترى الذين كذبوا على الله وجوههم مسودة) فهذا جزاء الكذب على الله تعالى وأما الكذب عليه صلى الله عليه وسلم فجزاؤه ما في الصحيحين وغيرهما (من كذب علي معتمداً فليتبوأ مقعده من النار) ولهذا الحديث طرق كثيرة صحيحة ويلزم على كون التمثيل من مكارم الأخلاق عدم وتتميم مكارم الأخلاق في زمنه صلى الله عليه وسلم وزمن الصحابة الكرام لأنه صلى الله 
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P398.xhtml" ed="shamela" n="n14-p8" xml:id="pb_8.d1e613"/>
+                        عليه وسلم انتقل إلى أعلى عليين ولم يفعله ولا أصحابه كما تقدم حتى انبعث من أشقاه الله وعليه ما يستحق من الله تعالى وجعل هذا التمثيل منها وتممها فمزيد المقت منه تعالى يلجئ الشخص على أن يقول مالا يعقله ولا 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_91" n="91" xml:id="pb_19.d2e723"/>
+                        يفهمه نعوذ بالله من الجهل (الوجه الثاني) اشتماله على نشيد إنما التمثيل فرض الخ. فقد اشتمل على محرم بل على محرمات منها كونه كذباً أيضاً وافتراء محضاً على القرآن بإجماع سلف هذه الأمة وخلفها عالمها وجاهلها خاصها وعامها من غير نزاع ومنها أن فيه تضليل جميع الأئمة سلفاً وخلفاً حيث أنه فرض ولم يظهروه ولم يفعلوه كما مر وقد جمع الناس على أنه ليس ل 
+                        <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_7.d1e753" xml:lang="ar">أحد</num>
+                        أن يعمل في الدين إلا ما شرعه الله ورسوله دون ما يشتهيه ويهواه قال تعالى (ولا تتبعوا هواء قوم قد ضلوا من قبل وأضلوا كثيراً وضلوا عن وساء السبيل) ومنها تغرير العوام السامعين المصفقين له بكل انشراح ونشاط حيث اعتقدوا أنه من فروض الدين لاسيما بحضور من شأنه الإنكار ولم ينكر ولم يغير هذا المنكر وقتئذٍ لا نطقاً ولا إشارة. (الوجه الثالث) اشتماله على الغيبة والسخرية والاستهزاء وكلها حرام من الكبائر أما الغيبة فلقوله تعالى (أيحب حدكم أن يأكل لحم أخيه ميتاً فكرهتموه) وفي الصحيحين في خطبته صلى الله عليه وسلم في حجة الوداع أن دماءكم وأموالكم وأعراضكم عليكم حرام كحرمة يومكم هذا في شهركم هذا وبلدكم هذا الأهل بلغت وفي مسلم كل المسلم على المسلم حرام دمه وعرضه وماله وفي هذا الباب أحاديث كثيرة لا يسعها هذا الجواب ومعلوم أن الغيبة بالقول والفعل كالمحاكاة كما هو معلوم وأما السخرية والاستهزاء فهما محرمان كما قال تعالى (يا أيها الذين آمنوا لا يسخر قوم من قوم عسى ن يكونوا خيراً منهم) الآية ومعنى السخرية الاستهانة والتحقير والتنبيه على العيوب والنقائص على وجه يضحك منه وقد يكون ذلك بالمحاكاة في الفعل والقول وقد يكون بالإشارة والإيماء (الوجه الرابع) ما فيه من مجالسة المرد والنظر إليهم مع تخنثهم وتلويهم وإنشادهم الشعر ملحناً 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_92" n="92" xml:id="pb_20.d2e729"/>
+                        بأصواتهم المطربة وهذا مخالف لما بعث الله به رسوله صلى الله عليه وسلم من عبادته وطاعته وطاعة رسوله ومرتكبه غير متبع للدين بل متبع لهواه وكما يحرم ما ذكر تحرم الإعانة عليه وبالجملة فكل ما اشتمل على سخف أو مدح معصية أو محرم فحضوره والرضا به حرام وقد رفع على عمر ابن عبد العزيز رضي الله عنه قوم يشربون الخمر فأمر بضربهم فقيل له ن فيهم صائماً فقال ابدأوا به ثم 
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P399.xhtml" ed="shamela" n="n14-p9" xml:id="pb_9.d1e615"/>
+                        قال أما سمعت قوله تعالى (وقد نزل عليكم في الكتاب أن إذا سمعتم آيات الله يكفر بها ويستهزأ بها فلا تقعدوا معهم حتى يخوضوا في حديث غيره أنكم إذاً مثلهم) فاستدل عمر بالآية لأن الله تعالى جعل حاضر المنكر مثل فاعله بل إذا كان من دعا إلى دعوة مباحة كدعوة العرس لا تجاب دعوته إذا اشتملت على منكر حتى يدعه مع أن إجابة الدعوة حق فكيف بمشاهدة المنكر من غير حق (فصل في رياضة الصبيان) قال في الأحياء أعلم أن الطريق في رياضة الصبيان من أهم الأمور وأوكدها والصبي أمانة عند والده وقلبه الطاهر جوهرة نفيسة ساذجة خالية من كل نقش وصورة وهو قابل لكل ما نقش ومائل إلى كل ما يمال إليه فإن عود الخير وعلمه نشأ وسعد في الدنيا والآخرة وشاركه في ثوابه أبواه وكل معلم له ومؤدب وأن عود الشر وأهمل إهمال البهائم شقي وهلك وكان الوزر في رقبة القيم عليه والوالي له وقد قال الله تعالى (يا أيها الذين آمنوا قوا أنفسكم وأهليكم ناراً) ومهما كان الأب يصونه عن نار الدنيا فبأن يصونه عن نار الآخرة أولى وصيانته بأن يؤدبه ويهذبه ويعلمه محاسن الأخلاق ويحفظه من قرنا، السوء إلى أن قال ويمنع من لغو الكلام وفحشه ومن اللعن والسب ومن مخالطة من يجري على لسانه شيء من ذلك فإن ذلك 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_93" n="93" xml:id="pb_22.d2e733"/>
+                        يسرى لا محالة من قرناء السوء وأصل تأديب الصبيان الحفظ من قرناء السوء فإذ كان الصبي يصان عما نحن بصدده وهو التمثيل أولى وأحرى لاشتماله على محرمات وفواحش أعظم مما ذكر كما تقدم فاعتقاد هؤلاء الجهلاء أن التمثيل من الاعتبار وأنه ينبه الأفكار وغير ذلك مما موهوا به خطأ وكذب وضرر على الأمة وأولادهم فهو بضد ماموهوا به إذ هو يثبط الأفكار ويبطئ الإفهام لأن الاعتبار والاتعاظ لهذه الأمة إنما هو بالمعاني كالأمثال المضروبة في القرآن لا بالمحسوسات كالتمثيل المخصص بغيرهم من الأمم وذلك أن التمثيل المذكور هو من الأعيان المحسوسة المشاهدة بحاسة البصر كما هو معلوم فإن كان الاعتبار والاتعاظ بمثل هذا على زعمهم وارتاضت الصبيان عليه صار حكمهم حكم بعض الأمم الماضية في البلادة حيث أن البليد لا يدرك ولا يعقل إلا ما شاهد بعيني رأسه وإذا كان كذلك فقد غيروا سنة الله في هذه الأمة التي هي خير أمة أخرجت للناس المشهورين بالفصاحة والبلاغة حيث أنهم يتعظون ويعتبرون بمجرد ضرب الأمثال وقصص الأحوال التي تضمنها القرآن الكريم بأوجز عبارة وألطف إشارة قال تعالى (وتبين لكم كيف فعلنا 
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P400.xhtml" ed="shamela" n="n14-p10" xml:id="pb_10.d1e617"/>
+                        بهم وضربنا لكم الأمثال) وقال عز اسمه (ويضرب الله الأمثال للناس لعلهم يتذكرون) قال بعض المفسرين يعني أن ضرب الأمثال زيادة في الإفهام وتصويراً للمعاني وتذكيراً ومواعظ لمن تذكر واتعظوا افترك هؤلاء المعطلون للسنن الإلهية ما أمر الله تعالى به من التدبر والتفكير فيما في القرآن من المواعظ ونسوا حظاً مما ذكروا به وجاؤوا بهذا التمثيل المنوط بذي البلادة كما تقدم التي تأباها أذواق هذه الأمة وذكاؤها يروضون الصبيان السذج 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_94" n="94" xml:id="pb_24.d2e737"/>
+                        عليه ليعتادوا من أول نشوهم عليها وعلى الكذب والحيل والافتراء والسخرية والغيبة وغير ذلك مما تقدم من الأوصاف التي ينيو عنها العقل والطبع وبهذه المناسبة تنقل عن العلامة الماوردي ما نصه (والثاني) أن المعجزة في كل قوم بحسب إفهامهم وعلى قدر عقولهم وأذهانهم وكان في بني إسرائيل من قوم موسى وعيسى عليهما الصلاة والسلام بلادة وغباوة لأنه لم ينقل عنهم ما تدون من كلام مستحسن أو يستفاد من معنى مبتكر وقالوا لنبيهم حين مروا بقوم يعكفون على أصنام لهم أجعل لنا إلهاً كما لهم آلهة فخصوا من الإعجاز بما يصلون إليه ببداية حواسهم وهذه الأمة أصح الناس إفهاماً وأحدهم أذهاناً قد ابتكروا من الفصاحة أبلغها ومن المعاني أغربها ومن الآداب أحسنها فخصوا من معجز القرآن بما تجول فيه إفهامها وتصل إليه أذهانهم فيدركوه بالفطنة دون البديهة وبالروية دون المبادرة لتكون كل أمة مخصوصة بما يشاكل طبعها ويوافق فهمها بتصرف (الوجه الخامس) حدوث هذه المحرمات في محل أنشئ للطاعة لأن المدارس إنما أنشئت لتعليم العلوم الشرعية وللعبادة والطاعة فهي من البيوت التي إذن الله أن ترفع وبذكر فيها اسمه لا للملاهي والخلاعة فوجود مثل هذا المحرم في مثل هذا المحل جهل على جهل وظلمات بعضها فوق بعض هذا وإني أوجه خطابي إليك أيها المدير الكامل لأن حبي القديم محقق لديك ونصحي الخالص أقدمه إليك أن تخدم وطنك أحسن خدمة وتعنى بتربية تلامذتك تربية دينية وتخلقهم بالأخلاق الإسلامية كي تصلح الأحوال وتنجح الآمال (الفصل الثاني في وجوب الأمر بالمعروف والنهي عن المنكر) ويدل على ذلك كما قال في الأحياء بعد إجماع الأمة عليه وأشارت العقول 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_95" n="95" xml:id="pb_25.d2e739"/>
+                        السليمة إليه الآيات والأخبار والآثار أما الآيات فقوله تعالى (ولتكن منكم أمة يدعون إلى الخير ويأمرون بالمعروف ينهون عن المنكر وأولئك هم المفلحون) ففي الآية بيان الإيجاب فإن قوله تعالى ولتكن أمر وظاهر الأمر الإيجاب وفيها 
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P401.xhtml" ed="shamela" n="n14-p11" xml:id="pb_11.d1e619"/>
+                        بيان أن الفلاح منوط به إذ حصر وقال أولئك هم المفلحون وفيها بيان أنه فرض كفاية لا فرض عين وانه إذا قامت به أمة سقط الفرض عن الآخرين إذ لم يقل كونوا كلكم آمرين بالمعروف بل قال ولتكن منكم أمة فإن ذلك مهما قام به و 
+                        <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_8.d1e763" xml:lang="ar">احد</num>
+                        وجماعة سقط الحرج عن الآخرين واختص الفلاح بالقائمين به المباشرين وإن تقاعد عنه الخلق أجمعون عم الحرج كافة القادرين عليه لا محالة وقال تعالى (ليسوا سواء من أهل الكتاب أمة قائمة يتلون آيات الله إناء الليل وهم يسجدون يؤمنون بالله واليوم الآخر ويأمرون بالمعروف وينهون عن المنكر ويسارعون في الخيرات وأولئك من الصالحين) فلم يشهد لهم بالصلاح بمجرد الإيمان بالله واليوم الآخر حتى أضاف إليه الأمر بالمعروف والنهي عن المنكر وقال تعالى (والمؤمنون والمؤمنات بعضهم أولياء بعض يأمرون بالمعروف وينهون عن المنكر ويقيمون الصلاة) فقد نعت المؤمنين بأنهم يأمرون بالمعروف وينهون عن المنكر فالذي هجر الأمر بالمعروف والنهي عن المنكر خارج عن هؤلاء المؤمنين المنعوتين بهذه الآية إلى أن قال وقال عز وجل (كنتم خير أمة أخرجت للناس تأمرون بالمعروف وتنهون عن المنكر) وهذا يدل على فضيلة الأمر بالمعروف والنهي عن المنكر إذ بين أنهم كانوا خير أمة أخرجت للناس وقال تعالى (فلما نسوا ما ذكروا به أنجينا الذين ينهون عن السوء وأخذنا الذين ظلموا بعذاب بيئس بما كانوا يفسقون) فبين أنهم استفادوا والنجاة بالنهي عن السوء 
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_96" n="96" xml:id="pb_27.d2e747"/>
+                        ويدل ذلك على الوجوب أيضاً إلى أن قال وأما الأخبار فمنها ما روي عن أبي بكر الصديق رضي الله عنه في خطبة خطبها أيها الناس أنكم تقرؤون هذه الآية وتؤولونها على خلاف تأويلها يا أيها الذين آمنوا عليكم أنفسكم لايضركم من ضل إذا اهتديتم وإني سمعت رسول الله صلى الله عليه وسلم يقول ما من قوم عملوا بالمعاصي وفيهم من يقدر أن ينكر عليهم فلم يفعل إلا يوشك أن يعمهم الله بعذاب من عنده وقل صلى الله عليه وسلم إياكم والجلوس على الطرقات فقالوا مالنا بد إنما هي مجالسنا نتحدث فيها قال فإن أبيتم إلا ذلك فأعطوا الطريق حقها وما حقها قال غض البصر وكف الأذى ورد السلام والأمر بالمعروف والنهي عن المنكر. أه</p>
+                    <p xml:id="p_34.d1e622" xml:lang="ar">قلت وأخرج أبو داوود وابن ماجة وابن حيان في صحيحه ما من رجل يكون في قوم يعمل فيهم بالمعاصي يقدرون على أن يغيروا عليه ولا يغيرون إلا أصابهم الله منه بعقاب قبل أن 
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P402.xhtml" ed="shamela" n="n14-p12" xml:id="pb_12.d1e624"/>
+                        يموتوا ومسلم في صحيحه من رأى منكم منكر فليغيره بيده فإن لم يستطع فبلسانه فإن لم يستطع فبقلبه وذلك أضعف الإيمان فياللعجب من رجال حاضرة ولهم السنة ناطقة وعيون باصرة وأذان صاغية واعية ترى أفعالاً منكرات وتسمع أقوالاً محرمات وتستطيع أن تغير بالأقوى فضلاً عن الأضعف فلم تفعل كيف وقد أجمعوا على أنه يجب على أئمة الدين وعلماء المسلمين إيضاح المشكلات ورد شبه أهل الضلالات وبيان ما يجب وما يحرم وغير ذلك ليكونوا من جملة المرادين بقوله صلى الله عليه وسلم يحمل هذا العلم من كل خلف عدوُ له ينفون عنه تحريف الغالين وانتحال المبطلين وتأويل الجاهلين أو كما قال والله تعالى أعلم.</p>
+                    <byline change="#d2e361" xml:id="byline_2.d2e756">
+                        <placeName change="#d2e361 #d5e380" ref="geon:170654" xml:id="placeName_6.d2e757">دمشق</placeName>
+                        <persName change="#d2e361" xml:id="persName_12.d2e760">محمد القاسمي الحلاق</persName>
+                    </byline>
                 </div>
             </div>
-            <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="97" xml:id="pb_29.d2e766" facs="#facs_97"/>
+            <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_97" n="97" xml:id="pb_29.d2e766"/>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P403.xhtml" ed="shamela" n="n14-p13" xml:id="pb_13.d1e632"/>
             <div type="article" xml:id="div_4.d1e636" xml:lang="ar">
-                <head xml:id="head_4.d1e638" xml:lang="ar">طرابلس الغرب</head>
+                <head xml:id="head_4.d1e638" xml:lang="ar">
+                    <placeName>طرابلس الغرب</placeName>
+                </head>
                 <p xml:id="p_37.d1e641" xml:lang="ar">جغرافيتها وتاريخها</p>
-                <p xml:id="p_38.d1e644" xml:lang="ar">هي عبارة عن قطعة واسعة من شمالي أفريقيا واقعة
-                    بين مصر وتونس يمتد طولها من مصر حتى إيالة تونس وشمل هذه البلاد مطل على البحر
-                    المتوسط ومن الجنوب تتصل بالصحراء الإفريقية الكبرى مساحتها نحو 
+                <p xml:id="p_38.d1e644" xml:lang="ar">هي عبارة عن قطعة واسعة من شمالي أفريقيا واقعة بين مصر وتونس يمتد طولها من مصر حتى إيالة تونس وشمل هذه البلاد مطل على البحر المتوسط ومن الجنوب تتصل بالصحراء الإفريقية الكبرى مساحتها نحو 
                     <tei:num value="400" xml:id="num_1.d1e713" xml:lang="ar">٤٠٠</tei:num>
                     <num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_9.d1e794" xml:lang="ar">ألف</num>
                     ميل مربع وبعبارة ثانية بقدر إيطاليا 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_10.d1e797" xml:lang="ar">ثلاث</num>
-                    مرات أو
-                    بقدر 
+                    مرات أو بقدر 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="8" xml:id="num_11.d1e800" xml:lang="ar">ثمانية</num>
                     أضعاف سورية. سكانها 
                     <tei:num value="1" xml:id="num_1.d1e716" xml:lang="ar">١</tei:num>
@@ -353,374 +616,162 @@
                     <tei:num value="600" xml:id="num_1.d1e719" xml:lang="ar">٦٠٠</tei:num>
                     . 
                     <tei:num value="000" xml:id="num_1.d1e722" xml:lang="ar">٠٠٠</tei:num>
-                    وهم مزيج من البرابرة والإعراب والزنوج
-                    وهم مسلمون يتكلمون بالعربية ومن هذا العدد نحو 
+                    وهم مزيج من البرابرة والإعراب والزنوج وهم مسلمون يتكلمون بالعربية ومن هذا العدد نحو 
                     <tei:num value="40" xml:id="num_1.d1e725" xml:lang="ar">٤٠</tei:num>
                     ألفاً في نفس مدينة طرابلس و 
                     <tei:num value="300" xml:id="num_1.d1e729" xml:lang="ar">٣٠٠</tei:num>
                     <num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_12.d1e819" xml:lang="ar">ألف</num>
                     في بنغازي وملحقاتها والبقية في ملحقات طرابلس.</p>
-                <p xml:id="p_39.d1e647" xml:lang="ar">وقد افتتحها المسلمون عام 
-                    <tei:num value="23" xml:id="num_1.d1e735" xml:lang="ar">٢٣</tei:num>
-                    للهجرة ابتدأ فتحها عمرو بن
-                    العاص والزبير بن العوام في خلافة عثمان بن عفان رضي الله تعالى عنهم. والبقية في
-                    ملحقات طرابلس. وقد استولت الدولة العثمانية عليها في ال
+                <p xml:id="p_39.d1e647" xml:lang="ar">وقد افتتحها المسلمون 
+                    <date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="23">
+                        عام 
+                        <tei:num value="23" xml:id="num_1.d1e735" xml:lang="ar">٢٣</tei:num>
+                        للهجرة</date>ابتدأ فتحها عمرو بن العاص والزبير بن العوام في خلافة عثمان بن عفان رضي الله تعالى عنهم. والبقية في ملحقات طرابلس. وقد استولت الدولة العثمانية عليها في ال 
                     <num resp="#pers_TG" subtype="d3" type="auto-markup" value="100" xml:id="num_13.d1e828" xml:lang="ar">مائة</num>
-                    العاشرة من الهجرة <tei:date when="958" type="auto-markup" change="#d2e391">سنة <tei:num value="958" xml:id="num_1.d1e738" xml:lang="ar">٩٥٨</tei:num></tei:date>
-                    وذلك أن الدولة الحفصية
-                    التي قاعدتها تونس لما ضعف أمرها واستبد عليها الولاة في الأطراف كان من جملة من
-                    عصى عليها وإلى طرابلس وقد كان تابعاً لها وجار على الأهالي فتهجز إليه السلطان
-                    الناصر الحفصي وغلبه وولى على طرابلس أبا محمد عبد الواحد بن حفص فقبل الولاية بعد
-                    امتناع طويل على شروط أولها إبقاؤه والياً إلى أن يعيد البلاد إلى أعز ما كانت عليه
-                    من الرفاهية والراحة. الثاني أن يستقل 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="98" xml:id="pb_31.d2e823" facs="#facs_98"/>
-                    بالإدارة مدة ولايته بحيث لا
-                    يعارض ولا يرد أمره في شيء. الثالث أن ينتخب مقداراً من العساكر حسب إرادته
-                    لإبقائهم في إعانته فأجيز له ذلك فبقي في الولاية إلى أن مات وولي بعده ولده فاستقر
-                    العدل والغني في المملكة حتى بلغ النهاية وأخلدت الأهالي إلى الراحة والاطمئنان
-                    وتركوا حمل السلاح وكان ذلك سبباً لطمع العدو فيهم وذلك أنه قدمت إلى ثغر طرابلس
-                    سفينتان مشحونتان تجارة فاشترى جميع ما فيهما رجل و
+                    العاشرة من الهجرة 
+                    <tei:date calendar="#cal_islamic" change="#d2e391" datingMethod="#cal_islamic" type="auto-markup" when-custom="958">
+                        سنة 
+                        <tei:num value="958" xml:id="num_1.d1e738" xml:lang="ar">٩٥٨</tei:num></tei:date>وذلك أن الدولة الحفصية التي قاعدتها تونس لما ضعف أمرها واستبد عليها الولاة في الأطراف كان من جملة من عصى عليها وإلى طرابلس وقد كان تابعاً لها وجار على الأهالي فتهجز إليه السلطان الناصر الحفصي وغلبه وولى على طرابلس أبا محمد عبد الواحد بن حفص فقبل الولاية بعد امتناع طويل على شروط أولها إبقاؤه والياً إلى أن يعيد البلاد إلى أعز ما كانت عليه من الرفاهية والراحة. الثاني أن يستقل 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_98" n="98" xml:id="pb_31.d2e823"/>
+                    بالإدارة مدة ولايته بحيث لا يعارض ولا يرد أمره في شيء. الثالث أن ينتخب مقداراً من العساكر حسب إرادته لإبقائهم في إعانته فأجيز له ذلك فبقي في الولاية إلى أن مات وولي بعده ولده فاستقر العدل والغني في المملكة حتى بلغ النهاية وأخلدت الأهالي إلى الراحة والاطمئنان وتركوا حمل السلاح وكان ذلك سبباً لطمع العدو فيهم وذلك أنه قدمت إلى ثغر طرابلس سفينتان مشحونتان تجارة فاشترى جميع ما فيهما رجل و 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_14.d1e834" xml:lang="ar">احد</num>
-                    ونقد الثمن حالاً واستدعى من فيهما لوليمة
-                    أعدها لهم وقد كانوا من الأسبنيول القائم أمره في ذلك الوقت فعلموا بضعف الأهلين
-                    وما هم عليه من الغفلة واللهو فأخبروا دولتهم بما رأوا فطعمت في طرابلس وكان عندها
-                    ابن السلطان الحفصي مستنجداً بها على أبيه فحملت بجيش قليل على طرابلس وامتلكتها
-                    باسم أحمد الحفصي ابن السلطان المذكور وجار في البلاد أشد الجور هو والأسبينول ولما
-                    رأى ذلك النابلطان الذي هو 
+                    ونقد الثمن حالاً واستدعى من فيهما لوليمة أعدها لهم وقد كانوا من الأسبنيول القائم أمره في ذلك الوقت فعلموا بضعف الأهلين وما هم عليه من الغفلة واللهو فأخبروا دولتهم بما رأوا فطعمت في طرابلس وكان عندها ابن السلطان الحفصي مستنجداً بها على أبيه فحملت بجيش قليل على طرابلس وامتلكتها باسم أحمد الحفصي ابن السلطان المذكور وجار في البلاد أشد الجور هو والأسبينول ولما رأى ذلك النابلطان الذي هو 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_15.d1e837" xml:lang="ar">أحد</num>
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P404.xhtml" ed="shamela" n="n14-p14" xml:id="pb_14.d1e649"/>
-                    ممالك إيطاليا تداخل بين الأهالي بالإفساد ووعدهم
-                    بالحماية من الظلم وأنهم إذا أطاعوا حماهم من المظالم ولا يتداخل في أمورهم وإنما
-                    يستولي على الحصون فقط فكان ما كان وأجرى فيهم الأمر أولاً على نحو ما وعد ثم ابتدأ
-                    بالتداخل في أمرهم فامتنع بعض أعيان الأهالي وتحصنوا في (تاجوري) وكانت الحرب بينهم
-                    قائمة غير أنهم عملوا بضعفهم عن امتداد المقاومة فأرسلوا وفداً منهم إلى الأستانة
-                    مستنجدين بالدولة العثمانية في إنقاذهم ودعوها للاستيلاء على جميع البلاد وكانت
-                    أقوى دول الإسلام وقد جمعت رايتها أغلب الممالك الإسلامية ولما وصل الوفد إلى
-                    الأستانة تعجب من شكلهم كل من رآهم فأخذوا للقصر السلطاني وكان 
+                    ممالك إيطاليا تداخل بين الأهالي بالإفساد ووعدهم بالحماية من الظلم وأنهم إذا أطاعوا حماهم من المظالم ولا يتداخل في أمورهم وإنما يستولي على الحصون فقط فكان ما كان وأجرى فيهم الأمر أولاً على نحو ما وعد ثم ابتدأ بالتداخل في أمرهم فامتنع بعض أعيان الأهالي وتحصنوا في (تاجوري) وكانت الحرب بينهم قائمة غير أنهم عملوا بضعفهم عن امتداد المقاومة فأرسلوا وفداً منهم إلى الأستانة مستنجدين بالدولة العثمانية في إنقاذهم ودعوها للاستيلاء على جميع البلاد وكانت أقوى دول الإسلام وقد جمعت رايتها أغلب الممالك الإسلامية ولما وصل الوفد إلى الأستانة تعجب من شكلهم كل من رآهم فأخذوا للقصر السلطاني وكان 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_16.d1e843" xml:lang="ar">أحد</num>
-                    رجاله عالماً باللغة العربية فكان الواسطة في
-                    إبلاغ مطالبهم للدولة 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="99" xml:id="pb_33.d2e837" facs="#facs_99"/>
-                    فأولته على تلك البلدة وأرسلته معهم مع حامية
-                    ضعيفة لأنهم سهلوا الأمر على الدولة لكن لما وصل ذلك الوالي وعلم حقيقة الأمر راسل
-                    بتفصيل الأخبار إلى الدولة وكان إذ ذاك أسطولها الموجه إلى الاستيلاء على تونس على
-                    أهبة السفر تحت رئاسة سنان باشا فأمر بالتعريج على طرابلس أولاً فافتكها من أيدي
-                    النابلطان وبقيت مستقلة بالإدارة وليس للدولة عليها إلا هدايا وإعانات في وقت الحرب
-                    إلى أن عصى يوسف باشا القره منلي وحاربته الدولة في أواسط هذا القرن أي <tei:date calendar="#cal_islamic" datingMethod="#cal_islamic" when-custom="1251" type="auto-markup" change="#d2e391">سنة <tei:num value="1251" xml:id="num_1.d1e743" xml:lang="ar">١٢٥١</tei:num></tei:date>
-                    هـ
-                    واستولت استيلاءً باتاً على المملكة وصارت إدارتها مثل إدارة سائر الولايات
-                    العثمانية ومركز الولاية طرابلس ولشهرة هذه المدينة سميت الولاية باسمها وكانت
-                    قديماً تسمى برقة وتقسيماتها الإدارية هي كما يأتي:</p>
-                <p xml:id="p_40.d1e652" xml:lang="ar">طرابلس الغرب ويدخل في هذا اللواء قضاء زاوية.
-                    غريان عجيلات، ترهوته، أورفلة.
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="100" xml:id="pb_34.d2e845" facs="#facs_100"/></p>
-                <p xml:id="p_41.d1e656" xml:lang="ar">فزان مركزه مرزوق، ويدخل فيه قضاء سوكنة. شاملي،
-                    غان.</p>
-                <p xml:id="p_42.d1e659" xml:lang="ar">جبل غربيه مركزه غدامس. ويدخل فيه قضاء فساطو
-                    نالوت، حوض، بفرين.</p>
-                <p xml:id="p_43.d1e662" xml:lang="ar">حمس ويدخل فيه قضاء مصراطة، ظلتين. مسلاطة،
-                        سرت.
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="101" xml:id="pb_35.d2e856" facs="#facs_101"/></p>
-                <p xml:id="p_44.d1e665" xml:lang="ar">بنغازي ويدخل فيه قضاء درنة، برقه، أوجله.
-                    جالوت.</p>
+                    رجاله عالماً باللغة العربية فكان الواسطة في إبلاغ مطالبهم للدولة 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_99" n="99" xml:id="pb_33.d2e837"/>
+                    فأولته على تلك البلدة وأرسلته معهم مع حامية ضعيفة لأنهم سهلوا الأمر على الدولة لكن لما وصل ذلك الوالي وعلم حقيقة الأمر راسل بتفصيل الأخبار إلى الدولة وكان إذ ذاك أسطولها الموجه إلى الاستيلاء على تونس على أهبة السفر تحت رئاسة سنان باشا فأمر بالتعريج على طرابلس أولاً فافتكها من أيدي النابلطان وبقيت مستقلة بالإدارة وليس للدولة عليها إلا هدايا وإعانات في وقت الحرب إلى أن عصى يوسف باشا القره منلي وحاربته الدولة في أواسط هذا القرن أي 
+                    <tei:date calendar="#cal_islamic" change="#d2e391" datingMethod="#cal_islamic" type="auto-markup" when-custom="1251">
+                        سنة 
+                        <tei:num value="1251" xml:id="num_1.d1e743" xml:lang="ar">١٢٥١</tei:num></tei:date>هـ واستولت استيلاءً باتاً على المملكة وصارت إدارتها مثل إدارة سائر الولايات العثمانية ومركز الولاية طرابلس ولشهرة هذه المدينة سميت الولاية باسمها وكانت قديماً تسمى برقة وتقسيماتها الإدارية هي كما يأتي:</p>
+                <p xml:id="p_40.d1e652" xml:lang="ar">طرابلس الغرب ويدخل في هذا اللواء قضاء زاوية. غريان عجيلات، ترهوته، أورفلة. 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_100" n="100" xml:id="pb_34.d2e845"/></p>
+                <p xml:id="p_41.d1e656" xml:lang="ar">فزان مركزه مرزوق، ويدخل فيه قضاء سوكنة. شاملي، غان.</p>
+                <p xml:id="p_42.d1e659" xml:lang="ar">جبل غربيه مركزه غدامس. ويدخل فيه قضاء فساطو نالوت، حوض، بفرين.</p>
+                <p xml:id="p_43.d1e662" xml:lang="ar">حمس ويدخل فيه قضاء مصراطة، ظلتين. مسلاطة، سرت. 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_101" n="101" xml:id="pb_35.d2e856"/></p>
+                <p xml:id="p_44.d1e665" xml:lang="ar">بنغازي ويدخل فيه قضاء درنة، برقه، أوجله. جالوت.</p>
                 <p xml:id="p_45.d1e668" xml:lang="ar">ويبلغ طول سواحل هذه البلاد 
                     <tei:num value="1600" xml:id="num_1.d1e765" xml:lang="ar">١٦٠٠</tei:num>
-                    كيلو متر وهي
-                    شواطئ نظيفة الداخلية ذات رمال متحركة، وتلال وجبال. وأهم جبالها جبل أطلس فهو يمتد
-                    من الشرق إلى الغرب موازياً البحر المتوسط والجبال السوداء الكائنة في صحاري فزان.
-                    وأنهار هذه البلاد قليلة ولذا صار ريها بمياه الأمطار المحزونة بمخازن واسعة نعم
-                    الأنحاء الشمالية الغربية من بلاد 
+                    كيلو متر وهي شواطئ نظيفة الداخلية ذات رمال متحركة، وتلال وجبال. وأهم جبالها جبل أطلس فهو يمتد من الشرق إلى الغرب موازياً البحر المتوسط والجبال السوداء الكائنة في صحاري فزان. وأنهار هذه البلاد قليلة ولذا صار ريها بمياه الأمطار المحزونة بمخازن واسعة نعم الأنحاء الشمالية الغربية من بلاد 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P405.xhtml" ed="shamela" n="n14-p15" xml:id="pb_15.d1e670"/>
-                    برقة وبني غازي منبتة وبها عيون ومراع يخرج منها القمح والذرة وغيرها من أنواع
-                    الحبوب وسواحلها محصنة بالقلاع المتينة وتمسك أهلها بالعصبة العربية الإسلامية
-                    والخلافة العثمانية يحول دون مطامع كل طامع 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="102" xml:id="pb_37.d2e868" facs="#facs_102"/>
-                    والتعليمات العسكرية
-                    منبثة هناك بين سائر العشائر والقبائل وهم في غاية الإقبال على تعلمها والميل إليها
-                    والخدمة العسكرية عندهم فرض على كل قادر على حمل السلاح. هذا وقد اضطررنا لكتابة ما
-                    تقدم ليعلم من لم يكن عظمة هذه البلاد وغزارتها وما كانت عليه من الجودة والرخاء
-                    وكيف أن غفلة أهلها عن مكايد الأعداء واسترسالهم في صحبتهم أدى بهم أولاً وأخراً
-                    إلى ما هم عليه الآن. وبعد فليعلم العالم أجمع أن هذه البلاد عثمانية وأن كل شبر
-                    منها جزء عظيم من الدولة لايمكن أن ينفصل عنها بقوة الله حتى لا يبقى في العثمانيين
-                    دم يجري ولا عرق ينبض.</p>
-                <p xml:id="p_46.d1e673" xml:lang="ar">إيطاليا وطرابلس الغرب</p>
-                <p xml:id="p_47.d1e677" xml:lang="ar">باغتتنا دولة إيطاليا بأمر غير منتظر ألا وهو
-                    رغبتها باحتلال طرابلس الغرب وضمها إلى أملاكها وقد قدمت مذكرة للباب العالي جعلتها
-                    مبررة لهذا العمل الفظيع بينتا فيه أن الحكومة تسعى في عرقلة مساعيها الاقتصادية في
-                    تلك الولاية وتمنعها بعض امتيازاتها المشروعة إلى غير ذلك من الأباطيل التي تستند
-                    عليها لتموه أنها مطالبة بحق. أو مضطرة إلى حماية رعاياها ومصالحها، والحقيقة التي
-                    ينبغي أن نعتقدها ونثق بصحتها تام الوثوق هو أن دول أوروبا منذ تداخلت في شؤوننا لم
-                    ننتظر منا إلا مضايق الضعف لتوسعها. ومكامن المغانم لتجرها. وكل دولة من دول أوروبا
-                    إذا بدن لنا 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="103" xml:id="pb_38.d2e877" facs="#facs_103"/>
-                    مودة وصداقة فلمطمع وغاية فليس منها من يضمر لنا الخير
-                    مجاناً. وأو يحبنا رغبة بنشر مبادئ العدالة والإنسانية الكاملة كما يدعون وسوق
-                    الأدلة على ذلك يكاد عبثاً بعد ما صار معلوماً عند أكثر العقلاء بالبداهة.</p>
-                <p xml:id="p_48.d1e680" xml:lang="ar">استعادت الأمة العثمانية دستورها بسيوف أبطال
-                    جيشها وأركان أحرارها وتأهبت للسير في طريق الإصلاح من جميع وجوهه وأملت بمستقبل
-                    زاهر يرفعها إلى مصاف أعظم الدول الراقية لما لها من الاستعداد العقلي لكل رقي
-                    ونجاح. فبدأت بإصلاح جيشها وبحريتها وتنظيم ماليتها فشعرت أوروبا بأن الدولة
-                    العثمانية إذا سلكت طريق الإصلاح لا تلبث غير قليل حتى تصبح ذات مكانة، تساعدها على
-                    حفظ أملاكها. وعلى المطالبة بحقوقها المهضومة. 
+                    برقة وبني غازي منبتة وبها عيون ومراع يخرج منها القمح والذرة وغيرها من أنواع الحبوب وسواحلها محصنة بالقلاع المتينة وتمسك أهلها بالعصبة العربية الإسلامية والخلافة العثمانية يحول دون مطامع كل طامع 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_102" n="102" xml:id="pb_37.d2e868"/>
+                    والتعليمات العسكرية منبثة هناك بين سائر العشائر والقبائل وهم في غاية الإقبال على تعلمها والميل إليها والخدمة العسكرية عندهم فرض على كل قادر على حمل السلاح. هذا وقد اضطررنا لكتابة ما تقدم ليعلم من لم يكن عظمة هذه البلاد وغزارتها وما كانت عليه من الجودة والرخاء وكيف أن غفلة أهلها عن مكايد الأعداء واسترسالهم في صحبتهم أدى بهم أولاً وأخراً إلى ما هم عليه الآن. وبعد فليعلم العالم أجمع أن هذه البلاد عثمانية وأن كل شبر منها جزء عظيم من الدولة لايمكن أن ينفصل عنها بقوة الله حتى لا يبقى في العثمانيين دم يجري ولا عرق ينبض.</p>
+            </div>
+            <div type="article" xml:lang="ar">
+                <head>
+                    <placeName>إيطاليا</placeName>و
+                    <placeName>طرابلس الغرب</placeName></head>
+                <p xml:id="p_47.d1e677" xml:lang="ar">باغتتنا دولة إيطاليا بأمر غير منتظر ألا وهو رغبتها باحتلال طرابلس الغرب وضمها إلى أملاكها وقد قدمت مذكرة للباب العالي جعلتها مبررة لهذا العمل الفظيع بينتا فيه أن الحكومة تسعى في عرقلة مساعيها الاقتصادية في تلك الولاية وتمنعها بعض امتيازاتها المشروعة إلى غير ذلك من الأباطيل التي تستند عليها لتموه أنها مطالبة بحق. أو مضطرة إلى حماية رعاياها ومصالحها، والحقيقة التي ينبغي أن نعتقدها ونثق بصحتها تام الوثوق هو أن دول أوروبا منذ تداخلت في شؤوننا لم ننتظر منا إلا مضايق الضعف لتوسعها. ومكامن المغانم لتجرها. وكل دولة من دول أوروبا إذا بدن لنا 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_103" n="103" xml:id="pb_38.d2e877"/>
+                    مودة وصداقة فلمطمع وغاية فليس منها من يضمر لنا الخير مجاناً. وأو يحبنا رغبة بنشر مبادئ العدالة والإنسانية الكاملة كما يدعون وسوق الأدلة على ذلك يكاد عبثاً بعد ما صار معلوماً عند أكثر العقلاء بالبداهة.</p>
+                <p xml:id="p_48.d1e680" xml:lang="ar">استعادت الأمة العثمانية دستورها بسيوف أبطال جيشها وأركان أحرارها وتأهبت للسير في طريق الإصلاح من جميع وجوهه وأملت بمستقبل زاهر يرفعها إلى مصاف أعظم الدول الراقية لما لها من الاستعداد العقلي لكل رقي ونجاح. فبدأت بإصلاح جيشها وبحريتها وتنظيم ماليتها فشعرت أوروبا بأن الدولة العثمانية إذا سلكت طريق الإصلاح لا تلبث غير قليل حتى تصبح ذات مكانة، تساعدها على حفظ أملاكها. وعلى المطالبة بحقوقها المهضومة. 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P406.xhtml" ed="shamela" n="n14-p16" xml:id="pb_16.d1e682"/>
-                    فعولت على عرقلة مساعيها وخلق المشاكل لها حتى لا تتمكن مما تبتغيه من الإصلاح فلم
-                    يمض 
+                    فعولت على عرقلة مساعيها وخلق المشاكل لها حتى لا تتمكن مما تبتغيه من الإصلاح فلم يمض 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_17.d1e885" xml:lang="ar">ثلاثة</num>
-                    أشهر على إعلان المشروطية حتى أعلنت دولة بلغارية استقلالها ورفع
-                    سيادة الدولة العلية عنها.</p>
-                <p xml:id="p_49.d1e685" xml:lang="ar">وما صدقت النمسا إن رأت بلغاريا تفعل هذا الفعل
-                    حتى قامت تعبث بحقوق سيادة الدولة العلية على ولايتي البوسنة والهرسك فأعلنت ضم
-                    هاتين الولايتين إلى أملاكها. فقامت الدولة العليا تحتج لدى الدول على هذه الأعمال
-                    الغير المشروعة والمخالفة لمعاهدة برلين الموقع عليها من جميع الدول العظمى (ومتى
-                    كان الخصم قاضياً منصفاً؟) ولم يكن من مصلحة الدولة العلية أن تعلن الحرب على
-                    دولتين معاً في وقت تعد فيه كأنها في مبدأ تكوينها وأول نشأتها ولم ترَ من باقي
-                    الدول مساعداً لها على الاحتفاظ بحقوقها وإيقاف المعتدين عند حدهم فاضطرت لارتكاب
-                    أخف الضررين فمنحت بلغاريا 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="104" xml:id="pb_40.d2e890" facs="#facs_104"/>
-                    استقلالها. والنمسا الولايتين
-                    المذكورتين في مقابلة تعويض مالي وظن العثمانيون إن ما جرى نهاية الحوادث. وخاتمة
-                    الكوارث وأخذوا يمهدون طرق الرقي للسير عليها. فلم يرق ذلك في أعين أوروبا لأنها
-                    اعتقدت أننا صائرون إلى الإصلاح وأننا إذا بلغنا الوطر منه وأصبحنا دولة منظمة قوية
-                    مالاً وجنداً لا يتأتى لها العبث بحقوقنا كلما لاحت بارقة أمل وساعد عليها الطمع
-                    الشعبي فما فتئت تخلق لنا المشاكل الداخلية والخارجية. ولا نكاد ننتهي من ضمد جرح
-                    حتى نجد أنفسنا أمام غيره. فمشكلة كريد واليونان لا تزال على حالها من يوم أعلن
-                    الدستور إلى اليوم ولا تزيد على طول الأيام إلا تعقيداً. ولا نزال من وقت إلى آخر
-                    يزداد صداها في الأندية السياسية على غير جدوى. والمسلمون في كريد يضطهدون ويسامون
-                    العذاب. ولم تشأ الدول ال
+                    أشهر على إعلان المشروطية حتى أعلنت دولة بلغارية استقلالها ورفع سيادة الدولة العلية عنها.</p>
+                <p xml:id="p_49.d1e685" xml:lang="ar">وما صدقت النمسا إن رأت بلغاريا تفعل هذا الفعل حتى قامت تعبث بحقوق سيادة الدولة العلية على ولايتي البوسنة والهرسك فأعلنت ضم هاتين الولايتين إلى أملاكها. فقامت الدولة العليا تحتج لدى الدول على هذه الأعمال الغير المشروعة والمخالفة لمعاهدة برلين الموقع عليها من جميع الدول العظمى (ومتى كان الخصم قاضياً منصفاً؟) ولم يكن من مصلحة الدولة العلية أن تعلن الحرب على دولتين معاً في وقت تعد فيه كأنها في مبدأ تكوينها وأول نشأتها ولم ترَ من باقي الدول مساعداً لها على الاحتفاظ بحقوقها وإيقاف المعتدين عند حدهم فاضطرت لارتكاب أخف الضررين فمنحت بلغاريا 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_104" n="104" xml:id="pb_40.d2e890"/>
+                    استقلالها. والنمسا الولايتين المذكورتين في مقابلة تعويض مالي وظن العثمانيون إن ما جرى نهاية الحوادث. وخاتمة الكوارث وأخذوا يمهدون طرق الرقي للسير عليها. فلم يرق ذلك في أعين أوروبا لأنها اعتقدت أننا صائرون إلى الإصلاح وأننا إذا بلغنا الوطر منه وأصبحنا دولة منظمة قوية مالاً وجنداً لا يتأتى لها العبث بحقوقنا كلما لاحت بارقة أمل وساعد عليها الطمع الشعبي فما فتئت تخلق لنا المشاكل الداخلية والخارجية. ولا نكاد ننتهي من ضمد جرح حتى نجد أنفسنا أمام غيره. فمشكلة كريد واليونان لا تزال على حالها من يوم أعلن الدستور إلى اليوم ولا تزيد على طول الأيام إلا تعقيداً. ولا نزال من وقت إلى آخر يزداد صداها في الأندية السياسية على غير جدوى. والمسلمون في كريد يضطهدون ويسامون العذاب. ولم تشأ الدول ال 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_18.d1e891" xml:lang="ar">أربع</num>
-                    الحامية لكريد
-                    محافظة على حقوقنا أن تحل هذه العقدة وتوعز إلى ملك اليونان بأن يتنازل عن المطالبو
-                    بشيء غير مشروع أضف إلى ذلك مشاكلنا الداخلية التي أدمت القلوب وكانت تذهب القوى
-                    وأعظمها فتنة الألبان واليمن التي لم يكن منشؤها إلا دسائس أجنبية وما أصعب أن يقتل
-                    المرء ولده في ساحة الوغى ولكن؛</p>
+                    الحامية لكريد محافظة على حقوقنا أن تحل هذه العقدة وتوعز إلى ملك اليونان بأن يتنازل عن المطالبو بشيء غير مشروع أضف إلى ذلك مشاكلنا الداخلية التي أدمت القلوب وكانت تذهب القوى وأعظمها فتنة الألبان واليمن التي لم يكن منشؤها إلا دسائس أجنبية وما أصعب أن يقتل المرء ولده في ساحة الوغى ولكن؛</p>
                 <lg xml:id="lg_1.d1e688" xml:lang="ar">
                     <l type="bayt" xml:id="l_1.d1e690" xml:lang="ar">
                         <seg xml:id="seg_1.d1e692" xml:lang="ar">إذا لم يكن إلا الأسنة مركبا </seg>
                         <seg xml:id="seg_2.d1e695" xml:lang="ar">فلا يسع المضطر إلا ركوبها</seg>
                     </l>
                 </lg>
-                <p xml:id="p_50.d1e700" xml:lang="ar">وهل يحتاج ما ذكر إلى دليل في الفتنة الأخيرة.
-                    وتؤدي الفار منهم وأخيراً تساعد العصاة الماليسور في الفتنة الأخيرة. وتؤوي الفار
-                    منهم وأخيراً لما اتفقوا مع أمهم العثمانية واخلدوا 
+                <p xml:id="p_50.d1e700" xml:lang="ar">وهل يحتاج ما ذكر إلى دليل في الفتنة الأخيرة. وتؤدي الفار منهم وأخيراً تساعد العصاة الماليسور في الفتنة الأخيرة. وتؤوي الفار منهم وأخيراً لما اتفقوا مع أمهم العثمانية واخلدوا 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P407.xhtml" ed="shamela" n="n14-p17" xml:id="pb_17.d1e702"/>
-                    إلى الطاعة ساء ذلك حكومة الجبل المذكور. وسعت بعقلة المساعي السلمية بكل مافي
-                    وسعها فلم تنجح.</p>
-                <p xml:id="p_51.d1e705" xml:lang="ar">وهاهي اليوم إيطاليا تحفزت لالتهام ولاية طرابلس
-                    الغرب تلك الولاية 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="105" xml:id="pb_42.d2e915" facs="#facs_105"/>
-                    العظيمة الواسعة المدى المترامية الأطراف فأرسلت
-                    إليها أسطولها بقصد احتلالها وإنزال جندها إليها واحتجت لتبرير عملها كما أسلفنا
-                    بحجج واهية لم ير 
+                    إلى الطاعة ساء ذلك حكومة الجبل المذكور. وسعت بعقلة المساعي السلمية بكل مافي وسعها فلم تنجح.</p>
+                <p xml:id="p_51.d1e705" xml:lang="ar">وهاهي اليوم إيطاليا تحفزت لالتهام ولاية طرابلس الغرب تلك الولاية 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_105" n="105" xml:id="pb_42.d2e915"/>
+                    العظيمة الواسعة المدى المترامية الأطراف فأرسلت إليها أسطولها بقصد احتلالها وإنزال جندها إليها واحتجت لتبرير عملها كما أسلفنا بحجج واهية لم ير 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_19.d1e914" xml:lang="ar">أحد</num>
-                    حقيقتها حتى أن
-                    الدافعين لإيطاليا على هذا العمل والمشوقين لها عليه لم يقدروا على المجاهرة
-                    باستحسان هذا العذر المشين وكثير من ساسة الأوروبيين صرحوا بفظاعته ولكن هل يفيد
-                    التصريح بالفظاعة شيئاً مع الإقرار على العمل.</p>
-                <p xml:id="p_52.d1e709" xml:lang="ar">إن دول أوروبا لا تروق بعينها نهضة العثمانيين
-                    لأنهم يعملون أن رقي العثمانيين رقي للعالم الإسلامي بأسره الخاضع للخلافة العمى
-                    والإمامة الكبرى فلا عجب إذ لم نر منها تداخلاً حقيقياً في مسألتنا الحاضرة
-                    وإيقافاً لإيطاليا عن أن تطال إلى ما ليس من حقها ولا في وسعها الحصول عليه ولكنهم
-                    سيتوسطون متى رأوا فشل إيطاليا الذي ظهرت بوادره ولله الحمد فقد بشرت البرقيات بغرق
-                    جملة من سفنها الحربية تجاه طرابلس بقنابل معاقلها وحصونها وهمة وغيرة جندها وأهلها
-                    وسترى من بأس العثمانيين وشدتهم ما تذم معه غب سراها وتنحي باللائمة على تطوحها
-                    والدافعين لها إليه (وعلى الباغي تدور الدوائر) ولن تصل إن شاء الله لامتلاك شبر من
-                    طرابلس الغرب مادام العثمانيون يبذلون آخر نقطة من دمهم في سبيل المحافظة
-                    عليها.</p>
-                <p xml:id="p_53.d1e712" xml:lang="ar">فيا أيها المسلمون حافظوا على إخوانكم وساعدوا
-                    دولة الخلافة التي هي عزكم وعليها مدار وجودكم واستقلالكم وحفظ دينكم فأنتم معروفون
-                    بالشمم وإباء الضيم وحب المجد وكراهية الذل واخلصوا النية في الأعمال (إن الله مع
-                    الذين اتقوا والذين هم محسنون).
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="106" xml:id="pb_43.d2e927" facs="#facs_106"/></p>
-                <p xml:id="p_54.d1e715" xml:lang="ar">طرابلس والإعانة</p>
-                <p xml:id="p_55.d1e718" xml:lang="ar">في دمشق</p>
-                <p xml:id="p_56.d1e721" xml:lang="ar">كان لنبأ اعتداء إيطاليا وقع سيء في نفوس عموم
-                    العثمانيين، تمزقت له الأحشاء، وانفطرت له الأكباد، وبدت علائم الحمية على وجه كل
-                    عثماني، وأخذت منهم الحماسة مأخذها. وأصبح أكثرهم يجب أن يكتب في دفتر المتطوعين،
-                    نعم أخذوا يشعرون بوجوب 
+                    حقيقتها حتى أن الدافعين لإيطاليا على هذا العمل والمشوقين لها عليه لم يقدروا على المجاهرة باستحسان هذا العذر المشين وكثير من ساسة الأوروبيين صرحوا بفظاعته ولكن هل يفيد التصريح بالفظاعة شيئاً مع الإقرار على العمل.</p>
+                <p xml:id="p_52.d1e709" xml:lang="ar">إن دول أوروبا لا تروق بعينها نهضة العثمانيين لأنهم يعملون أن رقي العثمانيين رقي للعالم الإسلامي بأسره الخاضع للخلافة العمى والإمامة الكبرى فلا عجب إذ لم نر منها تداخلاً حقيقياً في مسألتنا الحاضرة وإيقافاً لإيطاليا عن أن تطال إلى ما ليس من حقها ولا في وسعها الحصول عليه ولكنهم سيتوسطون متى رأوا فشل إيطاليا الذي ظهرت بوادره ولله الحمد فقد بشرت البرقيات بغرق جملة من سفنها الحربية تجاه طرابلس بقنابل معاقلها وحصونها وهمة وغيرة جندها وأهلها وسترى من بأس العثمانيين وشدتهم ما تذم معه غب سراها وتنحي باللائمة على تطوحها والدافعين لها إليه (وعلى الباغي تدور الدوائر) ولن تصل إن شاء الله لامتلاك شبر من طرابلس الغرب مادام العثمانيون يبذلون آخر نقطة من دمهم في سبيل المحافظة عليها.</p>
+                <p xml:id="p_53.d1e712" xml:lang="ar">فيا أيها المسلمون حافظوا على إخوانكم وساعدوا دولة الخلافة التي هي عزكم وعليها مدار وجودكم واستقلالكم وحفظ دينكم فأنتم معروفون بالشمم وإباء الضيم وحب المجد وكراهية الذل واخلصوا النية في الأعمال (إن الله مع الذين اتقوا والذين هم محسنون). 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_106" n="106" xml:id="pb_43.d2e927"/></p>
+            </div>
+            <div type="article" xml:lang="ar">
+                <head>
+                    <placeName>طرابلس</placeName>والإعانة 
+                    <lb/>
+                    في دمشق</head>
+                <p xml:id="p_56.d1e721" xml:lang="ar">كان لنبأ اعتداء إيطاليا وقع سيء في نفوس عموم العثمانيين، تمزقت له الأحشاء، وانفطرت له الأكباد، وبدت علائم الحمية على وجه كل عثماني، وأخذت منهم الحماسة مأخذها. وأصبح أكثرهم يجب أن يكتب في دفتر المتطوعين، نعم أخذوا يشعرون بوجوب 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P408.xhtml" ed="shamela" n="n14-p18" xml:id="pb_18.d1e723"/>
-                    التآخي والتعاضد والقيام يداً واحداً لمعونة جولتنا المحبوبة. وقد كان للدمشقيين من
-                    ذلك الحظ الأوفر فقد رأينا الكبير والصغير والغني والفقير والتاجر والزارع والناس
-                    جميعاً ينقدون حمية وشهامة وقد ظهرت عليهم علامات التأثر والتألم. رأينا ظهر يوم
-                    الخميس الموافق 
+                    التآخي والتعاضد والقيام يداً واحداً لمعونة جولتنا المحبوبة. وقد كان للدمشقيين من ذلك الحظ الأوفر فقد رأينا الكبير والصغير والغني والفقير والتاجر والزارع والناس جميعاً ينقدون حمية وشهامة وقد ظهرت عليهم علامات التأثر والتألم. رأينا ظهر يوم الخميس الموافق 
                     <tei:num value="13" xml:id="num_1.d1e823" xml:lang="ar">١٣</tei:num>
-                    شوال الناس يهرعون للاجتماع في جامع بني أمية ومن بينهم العلماء
-                    والصلحاء والأمراء ووالي الولاية وبعد أن أدوا صلاة الظهر تحلقوا أمام ضريح النبي
-                    الحصور عليه وعلى سائر الأنبياء الصلاة والسلام لختم صحيح الإمام البخاري الجليل
-                    المجربة قراءته لدفع البلايا ورفع النوازل فحصل خشوع عم الحاضرين ثم بعد ذلك شاع
-                    الخبر في دمشق فتسارع الناس لحضور بركة هذا الختام وكنت ترى طلبة مدارس المسلمين من
-                    سائر الأنحاء صفاً صفاً يتسابقون للانتظام في سلك هذا المجتمع وجعل القوم يذكرون
-                    الله تعالى باسمه (اللطيف) نحواً من ساعة ثم صاروا يرددون صيغة صلاة على النبي صلى
-                    الله عليه وسلم نحواً من ذلك ثم ختم هذا 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="107" xml:id="pb_45.d2e942" facs="#facs_107"/>
-                    المشهد المهيب خطيب المسجد
-                    الشريف وبلبل منبره (الشيخ حسن أفندي الأسطواني) بدعاء مؤثر للغاية رجا الله فيه أن
-                    ينصر دولتنا ويؤدها بروح من عنده وأن يخذل كلمة الباغين المعتدين. والشيوخ والأطفال
-                    والكبار والعلماء والأمراء يؤمنون على دعائه تأميناً خالصاً من قلوب تبكي حناناً
-                    ورحمة لأولئك الأقوام البائسين مع انكسار وخضوع لله ورجوع إليه سبحانه اعترافاً بأن
-                    بيده مقاليد كل شيء وأن الأمر له كله.</p>
-                <p xml:id="p_57.d1e726" xml:lang="ar">وبعد الدعاء انبرى حضرة العالم العلامة المصلح
-                    الكبير <persName ref="viaf:58892856">الأستاذ الشيخ صالح أفندي الشريف</persName> فخطب الناس بخطاب وجلت منه القلوب وذرفت
-                    منه الدموع وجعل الناس على كثرتهم كأنهم الرجل الواحد يسمع للأمر يهمه وكان مدار
-                    خطابه على أمور 
+                    شوال الناس يهرعون للاجتماع في جامع بني أمية ومن بينهم العلماء والصلحاء والأمراء ووالي الولاية وبعد أن أدوا صلاة الظهر تحلقوا أمام ضريح النبي الحصور عليه وعلى سائر الأنبياء الصلاة والسلام لختم صحيح الإمام البخاري الجليل المجربة قراءته لدفع البلايا ورفع النوازل فحصل خشوع عم الحاضرين ثم بعد ذلك شاع الخبر في دمشق فتسارع الناس لحضور بركة هذا الختام وكنت ترى طلبة مدارس المسلمين من سائر الأنحاء صفاً صفاً يتسابقون للانتظام في سلك هذا المجتمع وجعل القوم يذكرون الله تعالى باسمه (اللطيف) نحواً من ساعة ثم صاروا يرددون صيغة صلاة على النبي صلى الله عليه وسلم نحواً من ذلك ثم ختم هذا 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_107" n="107" xml:id="pb_45.d2e942"/>
+                    المشهد المهيب خطيب المسجد الشريف وبلبل منبره (الشيخ حسن أفندي الأسطواني) بدعاء مؤثر للغاية رجا الله فيه أن ينصر دولتنا ويؤدها بروح من عنده وأن يخذل كلمة الباغين المعتدين. والشيوخ والأطفال والكبار والعلماء والأمراء يؤمنون على دعائه تأميناً خالصاً من قلوب تبكي حناناً ورحمة لأولئك الأقوام البائسين مع انكسار وخضوع لله ورجوع إليه سبحانه اعترافاً بأن بيده مقاليد كل شيء وأن الأمر له كله.</p>
+                <p xml:id="p_57.d1e726" xml:lang="ar">وبعد الدعاء انبرى حضرة العالم العلامة المصلح الكبير 
+                    <persName ref="viaf:58892856">الأستاذ الشيخ صالح أفندي الشريف</persName>
+                    فخطب الناس بخطاب وجلت منه القلوب وذرفت منه الدموع وجعل الناس على كثرتهم كأنهم الرجل الواحد يسمع للأمر يهمه وكان مدار خطابه على أمور 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_20.d1e941" xml:lang="ar">ثلاثة</num>
-                    الأول التأسف
-                    على طرابلس وذكر حدودها وأنها لبقية الباقية من أفريقيا. والثاني دعوى الناس إلى
-                    رفع الخلاف والشحنأ وأن يتحدوا ويتفقوا ويكونوا يداً واحدة على إنقاذ بلادهم
-                    والثالث دعوتهم إلى جمع الإعانات لهذه الحرب وإعلامهم بأن المال في مثل هذه الأوقات
-                    الحرجة أعظم معين لصد هجمات هذا العدو المتوحش. وقد ظهر في هذه الخطبة العظيمة لمن
-                    لم يعرف الاستاذ حفظه الله مقدار همته، وشدة غيرته، على جمع كلمة العثمانيين،
-                    وتفانيه في تأييد هذه الخلافة وجمع القلوب عليها وأن قلبه يتفتت رحمة وحناناً
-                    لأولئك الضعفاء 
+                    الأول التأسف على طرابلس وذكر حدودها وأنها لبقية الباقية من أفريقيا. والثاني دعوى الناس إلى رفع الخلاف والشحنأ وأن يتحدوا ويتفقوا ويكونوا يداً واحدة على إنقاذ بلادهم والثالث دعوتهم إلى جمع الإعانات لهذه الحرب وإعلامهم بأن المال في مثل هذه الأوقات الحرجة أعظم معين لصد هجمات هذا العدو المتوحش. وقد ظهر في هذه الخطبة العظيمة لمن لم يعرف الاستاذ حفظه الله مقدار همته، وشدة غيرته، على جمع كلمة العثمانيين، وتفانيه في تأييد هذه الخلافة وجمع القلوب عليها وأن قلبه يتفتت رحمة وحناناً لأولئك الضعفاء 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P409.xhtml" ed="shamela" n="n14-p19" xml:id="pb_19.d1e728"/>
-                    المساكين. ثم تلاه حضرة العالم الفاضل والأديب الكامل الشيخ عبد الجليل أفندي الدرا
-                    بخطاب مؤثر للغاية. دعا الناس فيه إلى الجهاد في سبيل الله فيما إذا دعتهم الدولة
-                    العلية. وبين لهم لذة الاتفاق والوفاق وأمرهم بالاطمئنان والسكون ثم تلاه الشاعر
-                    المجيد الفاضل الشيخ عبد الرحمن أفندي القصار فتلا قصيدة 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="108" xml:id="pb_47.d2e952" facs="#facs_108"/>
-                    حركت
-                    العواطف وبثت في الناس روح الشجاعة والشهامة وسننشرها بعد تتميماً للفائدة ثم ختمت
-                    هذه الجلسة المباركة كما بدأت بالصلاة على النبي صلى الله عليه وسلم وابتدر الناس
-                    يجودون بما في وسعهم من المال كل على حسبه ومقدار وطنيته إعانة لهذه الحرب ومعاضدة
-                    لإخوانهم الطرابلسيين والله يعلم بما خامر قلوبنا من الاستبشار بسبب هذه المظاهر
-                    الوطنية والاحساسات القومية. ثم انفض القوم وكلهم يبتهل إلى الله تعالى بأن ينصر
-                    دولتنا العلية المحبوبة. أما الذين كانوا يقبضون أموال الإعانة من الناس فقد نشطوا
-                    لهذا العمل المبرور فهرعوا إلى الأسواق يدعون الناس إلى الإعانة فكنت ترى الإقبال
-                    عليهم من كل صوب من المسلمين والمسيحيين والإسرائيليين.</p>
-                <p xml:id="p_58.d1e732" xml:lang="ar">وقد كان هذا الاجتماع باعثاً على تأليف جمعية
-                    عمومية يرأسها مفتي الشام غايتها جمع الإعانة من أهل الإحسان والمروءة لتنفق في ما
-                    نحتاج إليه إبان هذه الحرب وقد جعلت هذه الجمعية مركزها دائرة البلدية لأنها المحل
-                    العام للأهلين ودعت بعض سراة الحاضرة ليقوموا معاً في هذا المشروع الخيري وقر
-                    قرارها على أن تجتمع في كل أسبوع 
+                    المساكين. ثم تلاه حضرة العالم الفاضل والأديب الكامل الشيخ عبد الجليل أفندي الدرا بخطاب مؤثر للغاية. دعا الناس فيه إلى الجهاد في سبيل الله فيما إذا دعتهم الدولة العلية. وبين لهم لذة الاتفاق والوفاق وأمرهم بالاطمئنان والسكون ثم تلاه الشاعر المجيد الفاضل الشيخ عبد الرحمن أفندي القصار فتلا قصيدة 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_108" n="108" xml:id="pb_47.d2e952"/>
+                    حركت العواطف وبثت في الناس روح الشجاعة والشهامة وسننشرها بعد تتميماً للفائدة ثم ختمت هذه الجلسة المباركة كما بدأت بالصلاة على النبي صلى الله عليه وسلم وابتدر الناس يجودون بما في وسعهم من المال كل على حسبه ومقدار وطنيته إعانة لهذه الحرب ومعاضدة لإخوانهم الطرابلسيين والله يعلم بما خامر قلوبنا من الاستبشار بسبب هذه المظاهر الوطنية والاحساسات القومية. ثم انفض القوم وكلهم يبتهل إلى الله تعالى بأن ينصر دولتنا العلية المحبوبة. أما الذين كانوا يقبضون أموال الإعانة من الناس فقد نشطوا لهذا العمل المبرور فهرعوا إلى الأسواق يدعون الناس إلى الإعانة فكنت ترى الإقبال عليهم من كل صوب من المسلمين والمسيحيين والإسرائيليين.</p>
+                <p xml:id="p_58.d1e732" xml:lang="ar">وقد كان هذا الاجتماع باعثاً على تأليف جمعية عمومية يرأسها مفتي الشام غايتها جمع الإعانة من أهل الإحسان والمروءة لتنفق في ما نحتاج إليه إبان هذه الحرب وقد جعلت هذه الجمعية مركزها دائرة البلدية لأنها المحل العام للأهلين ودعت بعض سراة الحاضرة ليقوموا معاً في هذا المشروع الخيري وقر قرارها على أن تجتمع في كل أسبوع 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_21.d1e950" xml:lang="ar">ثلاث</num>
-                    ليال وأن تعين في كل ثمن من
-                    أثمان البلدة 
+                    ليال وأن تعين في كل ثمن من أثمان البلدة 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="6" xml:id="num_22.d1e953" xml:lang="ar">ستة</num>
-                    أشخاص ليستوردوا المال من ساكني محلتهم بموجب وصولات
-                    مختومة بختم الرئيس وأميني الصندوق ثم يردون في كل جمعة ما استوردوه إلى الجمعية
-                    العمومية وقد بدأ القوم بعملهم هذا واستمطروا كف أهل الخير.</p>
-                <p xml:id="p_59.d1e735" xml:lang="ar">وهو عمل كبير يدل على وطنية صادقة ومروءة تامة
-                    وتعلق شديد بعرش الخلافة العظمى فنشكرهم شكراً خالصاً. ونخص عامة الدمشقيين مؤملين
-                    فيهم كبير المساعدة بالنظر لما اشتهر عنهم من الحمية والغيرة وحب الإحسان 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="109" xml:id="pb_48.d2e967" facs="#facs_109"/>
-                    والمعاضدة للأعمال الخيرية والمشاريع العمومية ونذكرهم بأن هذا
-                    الوقت وقت إظهار الحمية وقت الغيرة والشفقة على اليائسين وقت إبداء المعروف وإغاثة
-                    الملهوف.و</p>
-                <p xml:id="p_60.d1e738" xml:lang="ar">هذا وقد دبت الغيرة في جميع الأنحاء العثمانية
-                    فقام والله الحمد أهل كل قطر يجمعون 
+                    أشخاص ليستوردوا المال من ساكني محلتهم بموجب وصولات مختومة بختم الرئيس وأميني الصندوق ثم يردون في كل جمعة ما استوردوه إلى الجمعية العمومية وقد بدأ القوم بعملهم هذا واستمطروا كف أهل الخير.</p>
+                <p xml:id="p_59.d1e735" xml:lang="ar">وهو عمل كبير يدل على وطنية صادقة ومروءة تامة وتعلق شديد بعرش الخلافة العظمى فنشكرهم شكراً خالصاً. ونخص عامة الدمشقيين مؤملين فيهم كبير المساعدة بالنظر لما اشتهر عنهم من الحمية والغيرة وحب الإحسان 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_109" n="109" xml:id="pb_48.d2e967"/>
+                    والمعاضدة للأعمال الخيرية والمشاريع العمومية ونذكرهم بأن هذا الوقت وقت إظهار الحمية وقت الغيرة والشفقة على اليائسين وقت إبداء المعروف وإغاثة الملهوف.و</p>
+                <p xml:id="p_60.d1e738" xml:lang="ar">هذا وقد دبت الغيرة في جميع الأنحاء العثمانية فقام والله الحمد أهل كل قطر يجمعون 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P410.xhtml" ed="shamela" n="n14-p20" xml:id="pb_20.d1e740"/>
-                    الإعانة لهذه الغاية والأمل من شهامة كل عثماني بذل الجهد في هذا السبيل والله لا
-                    يضيع أجر المحسنين.</p>
-                <p xml:id="p_61.d1e743" xml:lang="ar">الجهاد والاستعداد</p>
-                <p xml:id="p_62.d1e746" xml:lang="ar">الجهاد والاستعداد للحرب هما قوام الأمم، وحياة
-                    الشعوب، بهما يحفظ كيانهم، وتصان معتقداتهم وأخلاقهم، وبهما يرقون مراقي العز.
-                    ويتسنمون ذرى المجد، كما أنهم بإهمالهما يتلاشى أمرهم، ويفقدون استقلالهم ويضطرون
-                    للخنوع لسلطة العدو، والاستسلام لبأسه وشدته.</p>
-                <p xml:id="p_63.d1e749" xml:lang="ar">الجهاد والاستعداد من أجل ما يعنى بأمره
-                    المفكرون، وأعظم ما يبحث عن شأنه الباحثون، إذ كان من نتائجهما أنه ما قامت أمه
-                    بهما وأحسنت استعمالها إلا وتم لها الحصول على ما تريد، وأرهبت بسطوتها عظماء ملوك
-                    الأرض.</p>
-                <p xml:id="p_64.d1e753" xml:lang="ar">الجهاد والاستعداد مما تأمر به الأديان
-                    السماوية، وتدعو إليه النواميس الطبيعية، لأنهما الحافظان لهذا النوع الإنساني
-                    والعاملان الوحيدان على 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="110" xml:id="pb_50.d2e987" facs="#facs_110"/>
-                    بقائه حيث كان حب التفوق على الأفران،
-                    والاستئثار بمرافق الحياة غريزة من غرائز النوع البشري، وخاصة من خواصه، يتطلبهما
-                    ما وجد غليهما سبيلاً، ولا يصده عنهما إلا ما يرهبه من القوي، ويهوله من المعدات
-                    الجهاد والاستعداد يتشكلان بأشكال مختلفة، ولهما مظاهر متنوعة، يتبعان في ذلك
-                    اختلاف الزمان والمكان، وتغير الأقوام والشعوب، فشكلهما اليوم غيره بالأمس. وستكون
-                    صورتهما غداً غيرها اليوم.</p>
-                <p xml:id="p_65.d1e756" xml:lang="ar">كان مجموعهما بالأمس مقصوراً على المدافعة
-                    والهجوم وعلى السيف والرمح وما مثلهما وكان ذلك كافياً للتغلب على العدو ونيل الوطر
-                    منه أما هما اليوم فالاستعداد إنشاء المدرعات الضخمة ذات المدافع الهائلة وعمل
-                    المدافع الرشاشة والموز وغيرهما من آلات الرماية وتشييد المعاقل التي لا تتأثر
-                    بقذائف المدرعات واستحضار الآلات التي تمكن كل لحظة من معرفة حال العدد ما هو عليه
-                    في عامة شؤونه إلى غير ذلك من الاختراعات التي تحير الأفكار وتدهش الألباب.</p>
+                    الإعانة لهذه الغاية والأمل من شهامة كل عثماني بذل الجهد في هذا السبيل والله لا يضيع أجر المحسنين.</p>
+            </div>
+            <div type="article" xml:lang="ar">
+                <head>الجهاد والاستعداد</head>
+                <p xml:id="p_62.d1e746" xml:lang="ar">الجهاد والاستعداد للحرب هما قوام الأمم، وحياة الشعوب، بهما يحفظ كيانهم، وتصان معتقداتهم وأخلاقهم، وبهما يرقون مراقي العز. ويتسنمون ذرى المجد، كما أنهم بإهمالهما يتلاشى أمرهم، ويفقدون استقلالهم ويضطرون للخنوع لسلطة العدو، والاستسلام لبأسه وشدته.</p>
+                <p xml:id="p_63.d1e749" xml:lang="ar">الجهاد والاستعداد من أجل ما يعنى بأمره المفكرون، وأعظم ما يبحث عن شأنه الباحثون، إذ كان من نتائجهما أنه ما قامت أمه بهما وأحسنت استعمالها إلا وتم لها الحصول على ما تريد، وأرهبت بسطوتها عظماء ملوك الأرض.</p>
+                <p xml:id="p_64.d1e753" xml:lang="ar">الجهاد والاستعداد مما تأمر به الأديان السماوية، وتدعو إليه النواميس الطبيعية، لأنهما الحافظان لهذا النوع الإنساني والعاملان الوحيدان على 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_110" n="110" xml:id="pb_50.d2e987"/>
+                    بقائه حيث كان حب التفوق على الأفران، والاستئثار بمرافق الحياة غريزة من غرائز النوع البشري، وخاصة من خواصه، يتطلبهما ما وجد غليهما سبيلاً، ولا يصده عنهما إلا ما يرهبه من القوي، ويهوله من المعدات الجهاد والاستعداد يتشكلان بأشكال مختلفة، ولهما مظاهر متنوعة، يتبعان في ذلك اختلاف الزمان والمكان، وتغير الأقوام والشعوب، فشكلهما اليوم غيره بالأمس. وستكون صورتهما غداً غيرها اليوم.</p>
+                <p xml:id="p_65.d1e756" xml:lang="ar">كان مجموعهما بالأمس مقصوراً على المدافعة والهجوم وعلى السيف والرمح وما مثلهما وكان ذلك كافياً للتغلب على العدو ونيل الوطر منه أما هما اليوم فالاستعداد إنشاء المدرعات الضخمة ذات المدافع الهائلة وعمل المدافع الرشاشة والموز وغيرهما من آلات الرماية وتشييد المعاقل التي لا تتأثر بقذائف المدرعات واستحضار الآلات التي تمكن كل لحظة من معرفة حال العدد ما هو عليه في عامة شؤونه إلى غير ذلك من الاختراعات التي تحير الأفكار وتدهش الألباب.</p>
                 <p xml:id="p_66.d1e759" xml:lang="ar">والجهاد 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_23.d1e983" xml:lang="ar">أربعة</num>
-                    أقسام مقاومة وسياسة ونشر
-                    للمبادئ واستنزاف للثروة.</p>
-                <p xml:id="p_67.d1e762" xml:lang="ar">فجهاد المقاومة ظاهرة وهو القيام بوجه العدو
-                    بالآلات الحربية للتمكن منه والاستيلاء عليه. 
+                    أقسام مقاومة وسياسة ونشر للمبادئ واستنزاف للثروة.</p>
+                <p xml:id="p_67.d1e762" xml:lang="ar">فجهاد المقاومة ظاهرة وهو القيام بوجه العدو بالآلات الحربية للتمكن منه والاستيلاء عليه. 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P411.xhtml" ed="shamela" n="n14-p21" xml:id="pb_21.d1e764"/>
-                    وجهاد السياسة هو أن تبذر الأمة المجاهدة بذور الشقاق بين عناصر الشعب الذي تحاربه.
-                    وتنفخ فيهم روح التعصب لأجناسهم ومذاهبهم وتعمل على حل عرى جامعتهم من دين أو وطن.
-                    وتسعى بما فيها من قوة لتنفيرهم من ساستهم وعلمائهم فلا يلبثون إلا قليلاً حي تثور
-                    ثائرتهم. وتضرم نيران 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="111" xml:id="pb_52.d2e1003" facs="#facs_111"/>
-                    الحرب فيما بينهم وعند ذلك تتمكن من الدخول
-                    فيهم فلا تخرج إلا وقد استولت عليهم وأصبحوا من المحكومين لها والخاضعين
-                    لسلطانها.</p>
-                <p xml:id="p_68.d1e767" xml:lang="ar">وجهاد نشر المبادئ هو أن تنشئ الأمة المحاربة
-                    المدارس في مدن أعدائها وتبث المبشرين بدينها في عامة قراهم لتسلبهم دينهم وأخلاقهم
-                    وتعوضهم عنها بدينها وأخلاقها وبذلك يتأتى لها أخذهم بدون مقاومة وتستفيد منهم
-                    مالاً تستفيده ممن استولت عليهم بالتغلب.</p>
-                <p xml:id="p_69.d1e770" xml:lang="ar">وجهاد استنزاف الثروة هو أن تعمد الأمة القوية
-                    إلى تجارة الشعب الذي تريد ابتلاعه فتسعى لإضعافها، وتأتي إلى ما بيده من الحرف
-                    والصناعات فتعمل على انتزاعها. وذلك بأن تبعث إليه ما بيده من الحرف والصناعات
-                    فتعمل على انتزاعها. وذلك بأن تبعث غليه بالعارفين بفنون التجارة من شعبها. فيقبضون
-                    على زمام تجارته وتتحفه بمصنوعاتها المزخرفة فتقضي بها على حرفة وصنائعه. ولا تزال
-                    به حتى تستأصل ثروته وتسلبه جميع ما يملك وتذهله عن كل استعداد وتضعفه عن كل مقاومة
-                    وبذلك تجد فرصة لابتلاعه. ومساغاً لالتقامه.</p>
-                <p xml:id="p_70.d1e774" xml:lang="ar">هذا الجهاد بأنواعه ال
+                    وجهاد السياسة هو أن تبذر الأمة المجاهدة بذور الشقاق بين عناصر الشعب الذي تحاربه. وتنفخ فيهم روح التعصب لأجناسهم ومذاهبهم وتعمل على حل عرى جامعتهم من دين أو وطن. وتسعى بما فيها من قوة لتنفيرهم من ساستهم وعلمائهم فلا يلبثون إلا قليلاً حي تثور ثائرتهم. وتضرم نيران 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_111" n="111" xml:id="pb_52.d2e1003"/>
+                    الحرب فيما بينهم وعند ذلك تتمكن من الدخول فيهم فلا تخرج إلا وقد استولت عليهم وأصبحوا من المحكومين لها والخاضعين لسلطانها.</p>
+                <p xml:id="p_68.d1e767" xml:lang="ar">وجهاد نشر المبادئ هو أن تنشئ الأمة المحاربة المدارس في مدن أعدائها وتبث المبشرين بدينها في عامة قراهم لتسلبهم دينهم وأخلاقهم وتعوضهم عنها بدينها وأخلاقها وبذلك يتأتى لها أخذهم بدون مقاومة وتستفيد منهم مالاً تستفيده ممن استولت عليهم بالتغلب.</p>
+                <p xml:id="p_69.d1e770" xml:lang="ar">وجهاد استنزاف الثروة هو أن تعمد الأمة القوية إلى تجارة الشعب الذي تريد ابتلاعه فتسعى لإضعافها، وتأتي إلى ما بيده من الحرف والصناعات فتعمل على انتزاعها. وذلك بأن تبعث إليه ما بيده من الحرف والصناعات فتعمل على انتزاعها. وذلك بأن تبعث غليه بالعارفين بفنون التجارة من شعبها. فيقبضون على زمام تجارته وتتحفه بمصنوعاتها المزخرفة فتقضي بها على حرفة وصنائعه. ولا تزال به حتى تستأصل ثروته وتسلبه جميع ما يملك وتذهله عن كل استعداد وتضعفه عن كل مقاومة وبذلك تجد فرصة لابتلاعه. ومساغاً لالتقامه.</p>
+                <p xml:id="p_70.d1e774" xml:lang="ar">هذا الجهاد بأنواعه ال 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_24.d1e1001" xml:lang="ar">أربعة</num>
-                    المارة، وذلك الاستعداد بشكله المتقدم هما اللذان رفعا من مقام دول أوروبا ومكناها
-                    من العالم بأسره كما أن فقد هما هو الذي حط من قدر من دونها، وأوصلها إلى ما هي
-                    عليه من الضعف.</p>
-                <p xml:id="p_71.d1e777" xml:lang="ar">ومن تأمل في قول الله تعالى (وجاهدوا في الله حق
-                    جهاده) وقوله عز من قائل (واعدوا لهم ما استطعتم من قوة) يرى أن الله جلت عظمته
-                    أوجب على هذه الأمة المحمدية أن يكون جهادها في كل وقت بحسبه إذ هو حق الجهاد (وهو
-                    شامل للجهاد بالأنواع ال
+                    المارة، وذلك الاستعداد بشكله المتقدم هما اللذان رفعا من مقام دول أوروبا ومكناها من العالم بأسره كما أن فقد هما هو الذي حط من قدر من دونها، وأوصلها إلى ما هي عليه من الضعف.</p>
+                <p xml:id="p_71.d1e777" xml:lang="ar">ومن تأمل في قول الله تعالى (وجاهدوا في الله حق جهاده) وقوله عز من قائل (واعدوا لهم ما استطعتم من قوة) يرى أن الله جلت عظمته أوجب على هذه الأمة المحمدية أن يكون جهادها في كل وقت بحسبه إذ هو حق الجهاد (وهو شامل للجهاد بالأنواع ال 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_25.d1e1007" xml:lang="ar">أربعة</num>
-                    المارة كما هو
-                    ظاهر) وأن يكون استعدادها كذلك لأنه مما تستطيعه. يدخل في وسعها.
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="112" xml:id="pb_53.d2e1024" facs="#facs_112"/></p>
-                <p xml:id="p_72.d1e780" xml:lang="ar">نعم من الواجب عليها أن يكون جهادها اليوم كجهاد
-                    الدول الكبرى واستعدادها كاستعدادهم ولكنها تركت ما افترض عليها وتمادت في غفلتها
-                    فأصابها ما نشاهده من الضعف وما نبصره من الانحطاط حتى تمكن أعداؤها من محاربتها
-                    بجميع أنواع الحرب. وقدروا أن 
+                    المارة كما هو ظاهر) وأن يكون استعدادها كذلك لأنه مما تستطيعه. يدخل في وسعها. 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_112" n="112" xml:id="pb_53.d2e1024"/></p>
+                <p xml:id="p_72.d1e780" xml:lang="ar">نعم من الواجب عليها أن يكون جهادها اليوم كجهاد الدول الكبرى واستعدادها كاستعدادهم ولكنها تركت ما افترض عليها وتمادت في غفلتها فأصابها ما نشاهده من الضعف وما نبصره من الانحطاط حتى تمكن أعداؤها من محاربتها بجميع أنواع الحرب. وقدروا أن 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P412.xhtml" ed="shamela" n="n14-p22" xml:id="pb_22.d1e782"/>
-                    يسلبوها كل حق ومنفعة فما أحراها والحالة هذه أن تهب من سباتها وتبتصر في أمرها
-                    فتجمع كلمتها وتوحد غايتها وتعد لأعدائها فوق ما أعدوه لها وتجاهد فيهم مثل جهادهم
-                    فيها وبذلك تحفظ كيانها وتصون شرفها وأخلاقها وتسترجع مجد أسلافها وما حصلوا عليه
-                    من العز والمهابة هذا ما نذكر به أولي الأمر ومن بيدهم الحل والعقد إذ هم الأمة بهم
-                    تذل وتعز وبهم تشقى وتسعد هذا وليعملوا أن كل فرد من العثمانيين رهن إشارتهم
-                    ماعدلوا. وطوع أمرهم ما استقاموا وأهون شيء عليه أن يبذل نفسه وماله في سبيل تأييد
-                    هذا الوطن وإعزازه.</p>
-                <p xml:id="p_73.d1e785" xml:lang="ar">دعوة إلى الإعانة</p>
-                <p xml:id="p_74.d1e788" xml:lang="ar">من خطبة للعلامة الفاضل صاحب الإمضاء</p>
-                <p xml:id="p_75.d1e791" xml:lang="ar">أيها المؤمنون سارعوا إلى فعل الخير قبل أن ينزل
-                    بكم المنون (سارعوا إلى مغفرة من ربكم وجنة عرضها السموات والأرض أعدت للمتقين
-                    الذين ينفقون في السراء والضراء والكاظمين الغيظ والعافين عن الناس والله يحب
-                    المحسنين) اعلموا إخواني أن ارتفاع شأن الملة الحنفية بارتفاع 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="113" xml:id="pb_55.d2e1039" facs="#facs_113"/>
-                    شأن
-                    الخلافة العثمانية وذلك بإعداد المعدات البحرية والبرية وتجنيد الجيوش واتخاذ
-                    الأساطيل المدرعة السليمة القوية وحفظ الثغور والقلاع بجيوش تردون بها غارات من
-                    يرومونكم قال تعالى (وأعدوا لهم ما استطعتم من قوة ومن رباط الخيل ترهبون به عدو
-                    الله وعدوكم وآخرين من دونهم لا تعلمونهم الله يعلمهم وما تنفقوا من شيء يوف إليكم
-                    وأنتم لا تظلمون) إخواني رحمكم الله وهداكم هذه الأعداء أحاطت بنا إحاطة السوار
-                    بالمعصم وأخذوا من بلادنا المعظم فيجب علينا أن نتوسل بكل الذراع لنحفظ كياننا
-                    وأموالنا ونساءنا وناموسنا وعرضنا وبلادنا ولا أظنكم ترضون بالدمار وخراب الديار
-                    وانتساف الآثار وتلبسون ثوب الذل والعار فلهذا تنبهت الأفكار وقامت الملة على قدم
-                    وساق لتدفع هذا الأمر المدلهم الذي هو حميم وغساق وأسسوا جمعيات خيرية وصناديق
-                    للإعانة البحرية وبرز الموحدون إلى ميدان السباق ولم يبخلوا بالبذل والإنفاق فلو
-                    نظرتم إلى أقدام أهالي مركز الخلافة والأناطول والروم إيلي وسائر البلاد العثمانية
-                    لاستصغرتم أنفسكم عندهم في بذل الإعانة فمنهم من تعهد بشراء سفينة مدرعة ومنهم من
-                    بذل جل ما معه وملئوا الصناديق وذلك المهم أن هذا المال لا يضيع منه درهم بل يصرف
-                    في سبيل الله لكشف 
+                    يسلبوها كل حق ومنفعة فما أحراها والحالة هذه أن تهب من سباتها وتبتصر في أمرها فتجمع كلمتها وتوحد غايتها وتعد لأعدائها فوق ما أعدوه لها وتجاهد فيهم مثل جهادهم فيها وبذلك تحفظ كيانها وتصون شرفها وأخلاقها وتسترجع مجد أسلافها وما حصلوا عليه من العز والمهابة هذا ما نذكر به أولي الأمر ومن بيدهم الحل والعقد إذ هم الأمة بهم تذل وتعز وبهم تشقى وتسعد هذا وليعملوا أن كل فرد من العثمانيين رهن إشارتهم ماعدلوا. وطوع أمرهم ما استقاموا وأهون شيء عليه أن يبذل نفسه وماله في سبيل تأييد هذا الوطن وإعزازه.</p>
+            </div>
+            <div type="article" xml:lang="ar">
+                <head>دعوة إلى الإعانة</head>
+                <byline>من خطبة للعلامة الفاضل صاحب الإمضاء</byline>
+                <p xml:id="p_75.d1e791" xml:lang="ar">أيها المؤمنون سارعوا إلى فعل الخير قبل أن ينزل بكم المنون (سارعوا إلى مغفرة من ربكم وجنة عرضها السموات والأرض أعدت للمتقين الذين ينفقون في السراء والضراء والكاظمين الغيظ والعافين عن الناس والله يحب المحسنين) اعلموا إخواني أن ارتفاع شأن الملة الحنفية بارتفاع شأن 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_113" n="113" xml:id="pb_55.d2e1039"/>
+                    الخلافة العثمانية وذلك بإعداد المعدات البحرية والبرية وتجنيد الجيوش واتخاذ الأساطيل المدرعة السليمة القوية وحفظ الثغور والقلاع بجيوش تردون بها غارات من يرومونكم قال تعالى (وأعدوا لهم ما استطعتم من قوة ومن رباط الخيل ترهبون به عدو الله وعدوكم وآخرين من دونهم لا تعلمونهم الله يعلمهم وما تنفقوا من شيء يوف إليكم وأنتم لا تظلمون) إخواني رحمكم الله وهداكم هذه الأعداء أحاطت بنا إحاطة السوار بالمعصم وأخذوا من بلادنا المعظم فيجب علينا أن نتوسل بكل الذراع لنحفظ كياننا وأموالنا ونساءنا وناموسنا وعرضنا وبلادنا ولا أظنكم ترضون بالدمار وخراب الديار وانتساف الآثار وتلبسون ثوب الذل والعار فلهذا تنبهت الأفكار وقامت الملة على قدم وساق لتدفع هذا الأمر المدلهم الذي هو حميم وغساق وأسسوا جمعيات خيرية وصناديق للإعانة البحرية وبرز الموحدون إلى ميدان السباق ولم يبخلوا بالبذل والإنفاق فلو نظرتم إلى أقدام أهالي مركز الخلافة والأناطول والروم إيلي وسائر البلاد العثمانية لاستصغرتم أنفسكم عندهم في بذل الإعانة فمنهم من تعهد بشراء سفينة مدرعة ومنهم من بذل جل ما معه وملئوا الصناديق وذلك المهم أن هذا المال لا يضيع منه درهم بل يصرف في سبيل الله لكشف 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P413.xhtml" ed="shamela" n="n14-p23" xml:id="pb_23.d1e793"/>
-                    هذا الأمر المدلهم فيا طوبى لهم قد شروا الدار الآخرة بالعرض الأدنى وعلموا أن الله
-                    مخلفة فهو الذي أعطى وأغنى وأنتم أيها الإخوان تعلمون أن هذا المال ظل زائل ولا
-                    فائدة في كنزه ولا طائل ولا سمح الله إذا استولى عليكم العدو يلحقكم الذل والصغار
-                    ويسومكم أنواع الخسف والاحتقار ويبتز أموالكم بما فيه الهلاك والدمار 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="114" xml:id="pb_57.d2e1043" facs="#facs_114"/>
-                    فليكن كل منا لأمر الله سميعاً مطيعاً واعتصموا بحبل الله جميعاً
-                    واسمعوا ما أتلوه عليكم من الكتاب والسنة قال تعالى وأنفقوا مما رزقناكم من قبل أن
-                    يأتي أحدكم الموت فيقول رب لولا أخرتني إلى أجل قريب فأصدق وأكن من الصالحين وروى
-                    البخاري بسنده إلى سهل رضي الله تعالى عنه أنه قال سمعت النبي صلى الله عليه وسلم
-                    يقول موضع سوط في الجنة خير من الدنيا وما فيها ولغدوة في سبيل الله خير من الدنيا
-                    وما فيها فرحم الله عبداً سمع النصيحة ووعاها وبادر إلى العمل بمقتضاها.</p>
-                <byline change="#d2e361" xml:id="byline_3.d2e1047">مفتي الاى <tei:num value="76" xml:id="num_1.d1e900" xml:lang="ar">٧٦</tei:num> <persName change="#d2e361" xml:id="persName_13.d2e1052">محمد رضا</persName></byline>
+                    هذا الأمر المدلهم فيا طوبى لهم قد شروا الدار الآخرة بالعرض الأدنى وعلموا أن الله مخلفة فهو الذي أعطى وأغنى وأنتم أيها الإخوان تعلمون أن هذا المال ظل زائل ولا فائدة في كنزه ولا طائل ولا سمح الله إذا استولى عليكم العدو يلحقكم الذل والصغار ويسومكم أنواع الخسف والاحتقار ويبتز أموالكم بما فيه الهلاك والدمار 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_114" n="114" xml:id="pb_57.d2e1043"/>
+                    فليكن كل منا لأمر الله سميعاً مطيعاً واعتصموا بحبل الله جميعاً واسمعوا ما أتلوه عليكم من الكتاب والسنة قال تعالى وأنفقوا مما رزقناكم من قبل أن يأتي أحدكم الموت فيقول رب لولا أخرتني إلى أجل قريب فأصدق وأكن من الصالحين وروى البخاري بسنده إلى سهل رضي الله تعالى عنه أنه قال سمعت النبي صلى الله عليه وسلم يقول موضع سوط في الجنة خير من الدنيا وما فيها ولغدوة في سبيل الله خير من الدنيا وما فيها فرحم الله عبداً سمع النصيحة ووعاها وبادر إلى العمل بمقتضاها.</p>
+                <byline change="#d2e361" xml:id="byline_3.d2e1047">مفتي الاى 
+                    <tei:num value="76" xml:id="num_1.d1e900" xml:lang="ar">٧٦</tei:num>
+                    <lb/>
+                    <persName change="#d2e361" xml:id="persName_13.d2e1052">محمد رضا</persName></byline>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P414.xhtml" ed="shamela" n="n14-p24" xml:id="pb_24.d1e799"/>
             <div type="article" xml:id="div_5.d1e804" xml:lang="ar">
@@ -761,7 +812,7 @@
                         <seg xml:id="seg_17.d1e877" xml:lang="ar">يا أمة الدين هذا يوم نجدتكم </seg>
                         <seg xml:id="seg_18.d1e880" xml:lang="ar">بالروح والمال أين العزم
                             والهمم</seg>
-                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="115" xml:id="pb_59.d2e1137" facs="#facs_115"/>
+                        <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_115" n="115" xml:id="pb_59.d2e1137"/>
                     </l>
                     <l type="bayt" xml:id="l_10.d1e884" xml:lang="ar">
                         <seg xml:id="seg_19.d1e886" xml:lang="ar">فليبذل المال من لم يستطع عملا </seg>
@@ -837,12 +888,20 @@
                         <pb corresp="file:../epub/29676/OEBPS/xhtml/P415.xhtml" ed="shamela" n="n14-p25" xml:id="pb_25.d1e1036"/>
                     </l>
                 </lg>
-                <byline xml:id="byline_1.d1e1278"> <placeName xml:id="placeName_5.d1e1279" ref="geon:170654" change="#d5e380">دمشق</placeName> <persName xml:id="persName_9.d1e1282"> <forename xml:id="forename_5.d1e1283">عبد الرحمن</forename> <surname xml:id="surname_5.d1e1286">القصار</surname> </persName> </byline>
+                <byline xml:id="byline_1.d1e1278">
+                    <placeName change="#d5e380" ref="geon:170654" xml:id="placeName_5.d1e1279">دمشق</placeName>
+                    <persName xml:id="persName_9.d1e1282">
+                        <forename xml:id="forename_5.d1e1283">عبد الرحمن</forename>
+                        <surname xml:id="surname_5.d1e1286">القصار</surname>
+                    </persName>
+                </byline>
             </div>
-            <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="116" xml:id="pb_61.d2e1315" facs="#facs_116"/>
+            <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_116" n="116" xml:id="pb_61.d2e1315"/>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P416.xhtml" ed="shamela" n="n14-p26" xml:id="pb_26.d1e1041"/>
             <div type="article" xml:id="div_6.d1e1045" xml:lang="ar">
-                <head xml:id="head_6.d1e1047" xml:lang="ar">الإعانة بالوسائل المنكرة</head>
+                <head xml:id="head_6.d1e1047" xml:lang="ar">الإعانة بالوسائل 
+                    <lb/>
+                    المنكرة</head>
                 <p xml:id="p_79.d1e1050" xml:lang="ar">لايشك مسلم اعتقد أن هذا الدين المحمدي حق، وإن
                     القرآن الكريم صدق، وأن سيدنا الله صلى الله تعالى عليه وسلم ما كان ينطق عن الهوى،
                     وقرأ قوله تعالى: (إنما الصدقات للفقراء والمساكين والعاملين عليها والمؤلفة قلوبهم
@@ -863,7 +922,7 @@
                     الجهاد وأن الجهاد كما يكون بالنفس يكون بالمال وأن المسلم لا يتزكى عند الله ماله
                     إذا آتاه ل
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_28.d1e1304" xml:lang="ar">أحد</num>
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="117" xml:id="pb_63.d2e1336" facs="#facs_117"/>
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_117" n="117" xml:id="pb_63.d2e1336"/>
                     له عنده نعمة تجزى وأن الصدقة رثاء الناس موصوف بها الذين لا
                     يؤمنون بالله واليوم الآخر وأن روايات التمثيل التي تحكي الناس حظرنا سيدنا رسول
                     الله صلى الله عليه وسلم وأن الصدقة التي تؤتى بواسطة أمر محرم شرعاً لا أجر فيها
@@ -905,7 +964,7 @@
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_29.d1e1355" xml:lang="ar">أحد</num>
                     من المواطنين سيما أصحاب المروءة والدين
                     يؤازر 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="118" xml:id="pb_65.d2e1389" facs="#facs_118"/>
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_118" n="118" xml:id="pb_65.d2e1389"/>
                     هذا العمل الشري المنكور وأن 
                     <num resp="#pers_TG" subtype="d3" type="auto-markup" value="100" xml:id="num_30.d1e1358" xml:lang="ar">موه</num>
                     بأنه تدعو إليه الوطنية الصحيحة في مثل هذه
@@ -926,13 +985,23 @@
             <div type="article" xml:id="div_7.d1e1107" xml:lang="ar">
                 <head xml:id="head_7.d1e1109" xml:lang="ar">جنايات 
                     <title level="j" xml:id="title_9.d1e1372">المقتبس</title>
-                    على الدولة والوطن</head>
-                <p xml:id="p_85.d1e1112" xml:lang="ar">(شر ملحقاً ل
-                    <bibl xml:id="bibl_2.d1e1378">
-                        <biblScope from="2" to="2" unit="issue" xml:id="biblScope_7.d1e1379">لعدد الثاني</biblScope>
-                        من 
-                        <biblScope from="2" to="2" unit="volume" xml:id="biblScope_8.d1e1382">السنة
-                            الثانية</biblScope></bibl>)</p>
+                    <note n="*" type="footnote">
+                        نكتب ما نكتب وسائقنا اليه والله حب الدين والوطن والمحافظة عا
+                        <gap resp="#pers_TG"/>
+                        ها وليس بيننا وبين 
+                        <lb/>
+                        <persName>
+                            صاحب 
+                            <title level="j">المقتبس</title></persName>عداوة او مآرب شخصية وانما القصد تنبيه الناس الى اجثناب من بريد بهم شالر</note>على الدولة والوطن</head>
+                <p xml:id="p_85.d1e1112" xml:lang="ar">(
+                    <del resp="#org_MS">ن</del>
+                    شر ملحقاً ل
+                    <ref>
+                        <bibl xml:id="bibl_2.d1e1378">
+                            <biblScope from="2" to="2" unit="issue" xml:id="biblScope_7.d1e1379">لعدد الثاني</biblScope>
+                            من 
+                            <biblScope from="2" to="2" unit="volume" xml:id="biblScope_8.d1e1382">السنة الثانية</biblScope></bibl>
+                    </ref>)</p>
                 <p xml:id="p_86.d1e1115" xml:lang="ar">يقوم بيننا دعاة الفساد ينشرون أفكارهم، ويجرون
                     علينا ويلاتهم، يفسدون علينا سياستنا، يغرقون بين عناصرنا، ينفروننا من دولتنا،
                     يساعدون علينا أعداءنا يتسلطون على علماءنا، يحقرون كبرياءنا، يضروننا في ديننا،
@@ -940,48 +1009,29 @@
                     لانتزاع الشجاعة والشهامة منا، كل ذلك يفعله المفسدون ونحن ساهون لاهون.</p>
                 <p xml:id="p_87.d1e1118" xml:lang="ar">لا ينبض لنا عرق، ولا يتحرك فينا دم، كأننا
                     لسنا من أهل الحياة فإلى 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="119" xml:id="pb_67.d2e1428" facs="#facs_119"/>
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_119" n="119" xml:id="pb_67.d2e1428"/>
                     متى هذا النوم يا قوم، هذا صاحب المقتلس
                     منذ إعلان الحرب بين دولتنا المحبوبة وبين إيطاليا أخذ ينشر الأخبار المنكوبة التي
                     تجلب اليأس وتضعف القوى.</p>
-                <p xml:id="p_88.d1e1121" xml:lang="ar">نشر قوات إيطاليا وما عندها من الاستعدادات
-                    الحربية ليرهبنا بذلك ويقطع عزائمنا. بين ضعف الدولة وفقرها وثبط العثمانيين عن جمع
-                    الإعانات وتحرص بأنهم لا يجمعون من المملكة أكثر من ربع مليون ليرة وأن من الحكمة
-                    أن يصرف على أعمار بلادهم. وقال في الرد على من يحث العثمانيين وعموم البلاد
-                    الإسلامية على مساعدة الدولة بأموالهم كما فعل الفرنسيون واليابانيون (فأين نحن من
-                    يا بأن مملكة الشمس المشرقة وفرنسا ممدنة العالم) كأن العثمانيين ليسوا من بني
-                    البشر. وقارب أن يفضل السياسة المدنية على السياسة الشرعية الربانية في مقالة نشرها
-                    بإمضاء س. ز. ولما رأى أن مسألة اختلاف العرب والترك قد زالت وأن الأمة أدركت خطأها
-                    وتبين لها بفضل الوعظ الديني أن الواجب عليها أن تتضامن وتتكافل وتنسى الأحقاد وتدع
-                    الشخصيات ليتسنى لها الخروج من هذا المأزق الحرج الذي وقعت فيه لم يرق له ذلك فقام
-                    ينشر ما يدعو إلى النفور ويزعم أن خطباء المسلمين يهيجون الناس لأنهم يأمرونهم
-                    بالجهاد في سبيل الله بأموالهم وأنفسهم ويحثونهم على مساعدة دولتهم والدفاع عن
-                    إخوانهم بالإعانات والتطوع مموها أن في ذلك ما يثير الخواطر على المسيحيين كذب
-                    والله فأله، وطاش سهمه، وخاب ظنه فليس في الحث على الجهاد ما يوجب شيئاً من ذلك.
-                    وهل المسلمون والمسيحيون إلا سواء في الوطنية، سواء في العثمانية وهاهم يعملون معاً
-                    يداً واحدة على جمع الإعانات لإنقاذ دولتهم وأهل وطنهم 
+                <p xml:id="p_88.d1e1121" xml:lang="ar">نشر قوات إيطاليا وما عندها من الاستعدادات الحربية ليرهبنا بذلك ويقطع عزائمنا. بين ضعف الدولة وفقرها وثبط العثمانيين عن جمع الإعانات وتحرص بأنهم لا يجمعون من المملكة أكثر من ربع مليون ليرة وأن من الحكمة أن يصرف على أعمار بلادهم. وقال في الرد على من يحث العثمانيين وعموم البلاد الإسلامية على مساعدة الدولة بأموالهم كما فعل الفرنسيون واليابانيون (فأين نحن من يا بأن مملكة الشمس المشرقة وفرنسا ممدنة العالم) كأن العثمانيين ليسوا من بني البشر. وقارب أن يفضل السياسة المدنية على السياسة الشرعية الربانية في مقالة نشرها بإمضاء س. ز. ولما رأى أن مسألة اختلاف العرب والترك قد زالت وأن الأمة أدركت خطأها وتبين لها بفضل الوعظ الديني أن الواجب عليها أن تتضامن وتتكافل وتنسى الأحقاد وتدع الشخصيات ليتسنى لها الخروج من هذا المأزق الحرج الذي وقعت فيه لم يرق له ذلك فقام ينشر ما يدعو إلى النفور ويزعم أن خطباء المسلمين يهيجون الناس لأنهم يأمرونهم بالجهاد في سبيل الله بأموالهم وأنفسهم ويحثونهم على مساعدة دولتهم والدفاع عن إخوانهم بالإعانات والتطوع مموها أن في ذلك ما يثير الخواطر على المسيحيين كذب والله فأله، وطاش سهمه، وخاب ظنه فليس في الحث على الجهاد ما يوجب شيئاً من ذلك. وهل المسلمون والمسيحيون إلا سواء في الوطنية، سواء في العثمانية وهاهم يعملون معاً يداً واحدة على جمع الإعانات لإنقاذ دولتهم وأهل وطنهم 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P419.xhtml" ed="shamela" n="n14-p29" xml:id="pb_29.d1e1123"/>
-                    والحماسة سائدة بين الجميع على رغم أنف من يريد
-                    التفرقة بينهم فليدع المتخرصون تخرصاتهم فإن الشرع الشريف يعتبر مواطنينا المسيحيين
-                    قسمين ذمي ومعاهد فالذمي له ما المسلمين وعليه ما عليهم دمه حرام، وعرضه حرام،
-                    وماله حرام ولا يحل لمسلم أن بمثابة فضلاً عن أن يتعرض له بسوء والمعاهد الأجنبي قد
-                    دخل البلاد بإذن الخليفة الأعظم فهو محقون الدم مصون العرض محفوظ الحقوق عملاً
-                    بالأمان الذي منحته 
-                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" n="120" xml:id="pb_69.d2e1435" facs="#facs_120"/>
-                    الحكومة إياه ومن أوفى ذمة من المسلمين وليرجع
-                    القارئ إلى
+                    والحماسة سائدة بين الجميع على رغم أنف من يريد التفرقة بينهم فليدع المتخرصون تخرصاتهم فإن الشرع الشريف يعتبر مواطنينا المسيحيين قسمين ذمي ومعاهد فالذمي له ما المسلمين وعليه ما عليهم دمه حرام، وعرضه حرام، وماله حرام ولا يحل لمسلم أن بمثابة فضلاً عن أن يتعرض له بسوء والمعاهد الأجنبي قد دخل البلاد بإذن الخليفة الأعظم فهو محقون الدم مصون العرض محفوظ الحقوق عملاً بالأمان الذي منحته 
+                    <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_120" n="120" xml:id="pb_69.d2e1435"/>
+                    الحكومة إياه ومن أوفى ذمة من المسلمين وليرجع القارئ إلى 
                     <bibl xml:id="bibl_3.d1e1396">
                         مقالة 
                         <author xml:id="author_2.d1e1398">
-                            صاحب 
-                            <title level="j" xml:id="title_10.d1e1400">المقتبس</title></author>(
+                            <persName>
+                                صاحب 
+                                <title level="j" xml:id="title_10.d1e1400">المقتبس</title></persName>
+                        </author>( 
                         <title level="a" xml:id="title_11.d1e1403">التكهن السياسي</title>
                         المنشورة 
                         <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7084;r=2340" from="795" to="795" unit="issue" xml:id="biblScope_9.d1e1406">
                             عدد ( 
                             <tei:num value="795" xml:id="num_1.d1e1229" xml:lang="ar">٧٩٥</tei:num>
                             )</biblScope>
-                    </bibl>و
+                    </bibl>و 
                     <bibl xml:id="bibl_4.d1e1412">
                         مقالة 
                         <title level="a" xml:id="title_12.d1e1414">ماليتنا والإعانات</title>
@@ -995,22 +1045,13 @@
                         <title level="a" xml:id="title_13.d1e1424">الأقاويل والأراجيف</title>
                         الموقعة بإمضاء 
                         <author xml:id="author_3.d1e1427">
-                            <persName xml:id="persName_11.d1e1428">س.
-                                ز</persName></author>المنشورة 
+                            <persName xml:id="persName_11.d1e1428">س. ز</persName></author>المنشورة 
                         <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7088;r=21476" from="801" to="801" unit="issue" xml:id="biblScope_11.d1e1431">
                             عدد 
                             <tei:num value="801" xml:id="num_1.d1e1235" xml:lang="ar">٨٠١</tei:num></biblScope>
-                    </bibl>ويتصفح
-                    جريدته وليقابل بينها وبين غيرها من الجرائد العثمانية التي تتقد حماسة وغيرة وتحمل
-                    العثمانيين على أن يفدوا دولتهم العثمانية بأنفسهم وأموالهم وأولادهم وأن يعيشوا
-                    شرفاء أو يموتوا أعزاء قال لنا بعض الناس أنني حينما أقرأ جريدة المفيد تأخذ في
-                    الحماسة الشديدة وآخذ العهود على نفسي أنني إذا وجدت احتياجاً في دولتي لا مثالي لا
-                    فدينها بنفسي ومالي وإذا طالعت جريدة 
+                    </bibl>ويتصفح جريدته وليقابل بينها وبين غيرها من الجرائد العثمانية التي تتقد حماسة وغيرة وتحمل العثمانيين على أن يفدوا دولتهم العثمانية بأنفسهم وأموالهم وأولادهم وأن يعيشوا شرفاء أو يموتوا أعزاء قال لنا بعض الناس أنني حينما أقرأ جريدة المفيد تأخذ في الحماسة الشديدة وآخذ العهود على نفسي أنني إذا وجدت احتياجاً في دولتي لا مثالي لا فدينها بنفسي ومالي وإذا طالعت جريدة 
                     <title level="j" xml:id="title_14.d1e1436">المقتبس</title>
-                    يعتورني اليأس والخور وأتصور أن الطليان لابد أن يأخذوا
-                    طرابلس الغرب وأن حماستنا وغيرتنا وإعاناتنا وقوتنا لا تقيد شيئاً وقد اجتمعنا
-                    بكثير ممن كانوا يعتقدون فيه الوطنية فرأيناهم ساخطين عليه وقد ظهر لهم ما كان
-                    يخفيه من العداء للأمة والملة.</p>
+                    يعتورني اليأس والخور وأتصور أن الطليان لابد أن يأخذوا طرابلس الغرب وأن حماستنا وغيرتنا وإعاناتنا وقوتنا لا تقيد شيئاً وقد اجتمعنا بكثير ممن كانوا يعتقدون فيه الوطنية فرأيناهم ساخطين عليه وقد ظهر لهم ما كان يخفيه من العداء للأمة والملة.</p>
                 <lg xml:id="lg_5.d1e1127" xml:lang="ar">
                     <l type="bayt" xml:id="l_29.d1e1129" xml:lang="ar">
                         <seg xml:id="seg_57.d1e1131" xml:lang="ar">ومهما تكن عند امرئ من خليقة </seg>
@@ -1018,29 +1059,19 @@
                             تعلم</seg>
                     </l>
                 </lg>
-                <p xml:id="p_89.d1e1139" xml:lang="ar">ذلك بعض ما قام به صاحب 
-                    <title level="j" xml:id="title_15.d1e1455">المقتبس</title>
-                    من المفاسد فلما كان عمل العثمانيين تجاهها هل رهبوا إليه
-                    ونصحوه وبينوا له خطورة الأمر هل أقاموا عليه احتجاجاً مشروعاً ليرتدع فما هو عليه
-                    من الغي ويرجع إلى الصواب شاء أم أبى هل رفعوا أمره إلى الحكومة لتتلاقى الخطر قبل
-                    أن يتسع الخرق؟ هل قاطعوا جريدته ورفضوا الاشتراك ليتضح له خلل رأيه وأن الأمة قد
-                    انتبهت له فيعدل خطته أو يعتزل الصحافة فيريح الناس من إفساده وسخافة رأيه حقاً ليس
-                    الوقت وقت خصام وشحناء وتضاغن وعداء وتخطئ مخطئ وتفيد مزاعم متحرض وإنما الوقت وقت
-                    أن نجتمع بدا واحدة ونعمل على تلاقي هذا الخطر المحدق بنا الذي لا يعلم ما تكون
-                    النتيجة فيه (وستكون خيراً أن شاطئه) وليكن من لنا بتقييد تلك اليد الأثيمة عن
-                    تفريق وحدتنا والعبث بمصالحنا وزرع اليأس في قلوبنا والتلاعب بديننا. نحن 
+                <p xml:id="p_89.d1e1139" xml:lang="ar">ذلك بعض ما قام به 
+                    <persName>
+                        صاحب 
+                        <title level="j" xml:id="title_15.d1e1455">المقتبس</title></persName>من المفاسد فلما كان عمل العثمانيين تجاهها هل رهبوا إليه ونصحوه وبينوا له خطورة الأمر هل أقاموا عليه احتجاجاً مشروعاً ليرتدع فما هو عليه من الغي ويرجع إلى الصواب شاء أم أبى هل رفعوا أمره إلى الحكومة لتتلاقى الخطر قبل أن يتسع الخرق؟ هل قاطعوا جريدته ورفضوا الاشتراك ليتضح له خلل رأيه وأن الأمة قد انتبهت له فيعدل خطته أو يعتزل الصحافة فيريح الناس من إفساده وسخافة رأيه حقاً ليس الوقت وقت خصام وشحناء وتضاغن وعداء وتخطئ مخطئ وتفيد مزاعم متحرض وإنما الوقت وقت أن نجتمع بدا واحدة ونعمل على تلاقي هذا الخطر المحدق بنا الذي لا يعلم ما تكون النتيجة فيه (وستكون خيراً أن شاطئه) وليكن من لنا بتقييد تلك اليد الأثيمة عن تفريق وحدتنا والعبث بمصالحنا وزرع اليأس في قلوبنا والتلاعب بديننا. نحن 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P420.xhtml" ed="shamela" n="n14-p30" xml:id="pb_30.d1e1141"/>
-                    والله لا نطلب من صاحب 
-                    <title level="j" xml:id="title_16.d1e1460">المقتبس</title>
-                    إصلاحاً لأنه بعيد عن الخير والخير بعيد عنه ولا نعلم أن
-                    جريدته بجريدة أجنبية منها بجريدة عثمانية وأنها لا تعمل على نفع العثمانيين وإنما
-                    نريد أن يكف عنا شروره ويكفينا وتعزيزه أو يرغم على ترك هذه السياسات السخيفة
-                    والآراء الصبيانية الضعيفة ويحزنها في فؤاده فلا يراها 
+                    والله لا نطلب من 
+                    <persName>
+                        صاحب 
+                        <title level="j" xml:id="title_16.d1e1460">المقتبس</title></persName>إصلاحاً لأنه بعيد عن الخير والخير بعيد عنه ولا نعلم أن جريدته بجريدة أجنبية منها بجريدة عثمانية وأنها لا تعمل على نفع العثمانيين وإنما نريد أن يكف عنا شروره ويكفينا وتعزيزه أو يرغم على ترك هذه السياسات السخيفة والآراء الصبيانية الضعيفة ويحزنها في فؤاده فلا يراها 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_31.d1e1463" xml:lang="ar">أحد</num>
-                    من
-                    العالمين وخلاصة القول أن الواجب على من عنده غيرة وحمية مقاطعة كل جريدة إفسادية
-                    ورفض الاشتراك بها ليرتدع بذلك المفسدون. 
+                    من العالمين وخلاصة القول أن الواجب على من عنده غيرة وحمية مقاطعة كل جريدة إفسادية ورفض الاشتراك بها ليرتدع بذلك المفسدون. 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P421.xhtml" ed="shamela" n="" xml:id="pb_31.d1e1143"/></p>
             </div>
         </body>
-    </text></TEI>
+    </text>
+</TEI>
