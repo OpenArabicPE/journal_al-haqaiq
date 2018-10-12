@@ -83,7 +83,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e356" xml:id="xi:include_1.d2e185"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e356" xml:id="xi:include_2.d2e187"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-10-12" who="#pers_TG" xml:id="d2e390" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e401" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e390" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e367" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e390" xml:id="gi_1.d2e199">persName</tei:gi>s without such references based on  <tei:gi change="#d2e390" xml:id="gi_1.d2e202">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e390" xml:id="ref_1.d2e205">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <change when="2018-09-30" who="#pers_TG" xml:id="d2e356" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e390" xml:id="att_1.d2e211">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e390" xml:id="gi_1.d2e214">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e390" xml:id="att_1.d2e217">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <change when="2018-05-23" who="#pers_TG" xml:id="d2e346" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e192">num</tei:gi> node in <tei:gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e195">date</tei:gi>.</change>
@@ -1129,7 +1129,7 @@
                </lg>
                <p xml:id="p_122.d1e1763" xml:lang="ar">(أثنى عليك الله في التبيين) </p>
                <byline change="#d2e356" xml:id="byline_4.d2e1912">
-                  <placeName change="#d2e356" xml:id="placeName_5.d2e1913">حماه</placeName> 
+                  <placeName change="#d2e356 #d5e401" xml:id="placeName_5.d2e1913" ref="geon:170017">حماه</placeName> 
                   <persName change="#d2e356" xml:id="persName_16.d2e1916">فارس النجار</persName>
                </byline>
             </div>
@@ -1158,7 +1158,7 @@
                </lg>
                <p xml:id="p_126.d1e1818" xml:lang="ar">(أثنى عليك الله في التبيين)</p>
                <byline change="#d2e356" xml:id="byline_5.d2e1971">
-                  <placeName change="#d2e356" xml:id="placeName_6.d2e1972">حماه</placeName> إحدى محبات النبي صلى الله عليه وسلم <lb change="#d2e356" xml:id="lb_1.d2e1975"/>
+                  <placeName change="#d2e356 #d5e401" xml:id="placeName_6.d2e1972" ref="geon:170017">حماه</placeName> إحدى محبات النبي صلى الله عليه وسلم <lb change="#d2e356" xml:id="lb_1.d2e1975"/>
                   <persName change="#d2e356" xml:id="persName_17.d2e1976">حنيفة</persName>
                </byline>
             </div>

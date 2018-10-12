@@ -84,7 +84,7 @@
         </fileDesc>
         <xi:include change="#d2e361" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e185" xpointer="encodingDesc"/>
         <xi:include change="#d2e361" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e187" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-10-12" who="#pers_TG" xml:id="d2e442" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e453" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e442" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e423" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e442" xml:id="gi_1.d2e205">persName</tei:gi>s without such references based on  <tei:gi change="#d2e442" xml:id="gi_1.d2e208">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e442" xml:id="ref_1.d2e211">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <change when="2018-10-09" who="#pers_TG" xml:id="d2e412" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e442" xml:id="att_1.d2e217">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e442" xml:id="gi_1.d2e220">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e442" xml:id="att_1.d2e223">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
             <change when="2018-10-09" who="#pers_TG" xml:lang="en" change="#d2e412" xml:id="change_1.d2e197">Validated page breaks and mark-up of articles against the facsimiles.</change>
@@ -612,7 +612,7 @@
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P403.xhtml" ed="shamela" n="n14-p13" xml:id="pb_13.d1e632"/>
             <div type="article" xml:id="div_4.d1e636" xml:lang="ar">
                 <head xml:id="head_4.d1e638" xml:lang="ar">
-                    <placeName change="#d2e412" xml:id="placeName_7.d2e1001">طرابلس الغرب</placeName>
+                    <placeName change="#d2e412 #d5e453" xml:id="placeName_7.d2e1001" ref="geon:11713946">طرابلس الغرب</placeName>
                 </head>
                 <p xml:id="p_37.d1e641" xml:lang="ar">جغرافيتها وتاريخها</p>
                 <p xml:id="p_38.d1e644" xml:lang="ar">هي عبارة عن قطعة واسعة من شمالي أفريقيا واقعة بين مصر وتونس يمتد طولها من مصر حتى إيالة تونس وشمل هذه البلاد مطل على البحر المتوسط ومن الجنوب تتصل بالصحراء الإفريقية الكبرى مساحتها نحو 
@@ -679,8 +679,8 @@
             </div>
             <div type="article" xml:lang="ar" change="#d2e412" xml:id="div_7.d2e1109">
                 <head change="#d2e412" xml:id="head_7.d2e1111">
-                    <placeName change="#d2e412" xml:id="placeName_8.d2e1113">إيطاليا</placeName>و
-                    <placeName change="#d2e412" xml:id="placeName_9.d2e1116">طرابلس الغرب</placeName>
+                    <placeName change="#d2e412 #d5e453" xml:id="placeName_8.d2e1113" ref="geon:3175395">إيطاليا</placeName>و
+                    <placeName change="#d2e412 #d5e453" xml:id="placeName_9.d2e1116" ref="geon:11713946">طرابلس الغرب</placeName>
             </head>
                 <p xml:id="p_47.d1e677" xml:lang="ar">باغتتنا دولة إيطاليا بأمر غير منتظر ألا وهو رغبتها باحتلال طرابلس الغرب وضمها إلى أملاكها وقد قدمت مذكرة للباب العالي جعلتها مبررة لهذا العمل الفظيع بينتا فيه أن الحكومة تسعى في عرقلة مساعيها الاقتصادية في تلك الولاية وتمنعها بعض امتيازاتها المشروعة إلى غير ذلك من الأباطيل التي تستند عليها لتموه أنها مطالبة بحق. أو مضطرة إلى حماية رعاياها ومصالحها، والحقيقة التي ينبغي أن نعتقدها ونثق بصحتها تام الوثوق هو أن دول أوروبا منذ تداخلت في شؤوننا لم ننتظر منا إلا مضايق الضعف لتوسعها. ومكامن المغانم لتجرها. وكل دولة من دول أوروبا إذا بدن لنا 
                     <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_103" n="103" xml:id="pb_38.d2e877"/>
@@ -716,7 +716,7 @@
             </div>
             <div type="article" xml:lang="ar" change="#d2e412" xml:id="div_8.d2e1174">
                 <head change="#d2e412" xml:id="head_8.d2e1176">
-                    <placeName change="#d2e412" xml:id="placeName_10.d2e1178">طرابلس</placeName>والإعانة 
+                    <placeName change="#d2e412 #d5e453" xml:id="placeName_10.d2e1178" ref="geon:266826">طرابلس</placeName>والإعانة 
                     <lb change="#d2e412" xml:id="lb_1.d2e1181"/>
                     في دمشق</head>
                 <p xml:id="p_56.d1e721" xml:lang="ar">كان لنبأ اعتداء إيطاليا وقع سيء في نفوس عموم العثمانيين، تمزقت له الأحشاء، وانفطرت له الأكباد، وبدت علائم الحمية على وجه كل عثماني، وأخذت منهم الحماسة مأخذها. وأصبح أكثرهم يجب أن يكتب في دفتر المتطوعين، نعم أخذوا يشعرون بوجوب 

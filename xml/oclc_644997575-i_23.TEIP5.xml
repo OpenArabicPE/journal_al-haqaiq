@@ -85,7 +85,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e381" xml:id="xi:include_1.d2e190"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e381" xml:id="xi:include_2.d2e192"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-10-12" who="#pers_TG" xml:id="d2e418" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e429" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e418" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e392" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e418" xml:id="gi_1.d2e205">persName</tei:gi>s without such references based on  <tei:gi change="#d2e418" xml:id="gi_1.d2e208">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e418" xml:id="ref_1.d2e211">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <change when="2018-09-30" who="#pers_TG" xml:id="d2e381" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e418" xml:id="att_1.d2e217">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e418" xml:id="gi_1.d2e220">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e418" xml:id="att_1.d2e223">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <change when="2018-05-23" who="#pers_TG" xml:id="d2e371" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en" change="#d2e381" xml:id="gi_1.d2e197">num</tei:gi> node in <tei:gi xml:lang="en" change="#d2e381" xml:id="gi_1.d2e200">date</tei:gi>.</change>
@@ -666,7 +666,7 @@
                <persName xml:lang="ar" change="#d2e381 #d4e392" xml:id="persName_10.d2e870" ref="viaf:305215027">
                   <forename change="#d2e18656 #d2e23203 #d2e418" xml:lang="ar" xml:id="forename_7.d2e1271">مصطفى</forename>
                   <surname change="#d2e18656 #d2e23203 #d2e418" xml:lang="ar" xml:id="surname_7.d2e1274">نجا</surname>
-               </persName> مفتي <placeName change="#d2e381" xml:id="placeName_5.d2e873">بيروت</placeName>
+               </persName> مفتي <placeName change="#d2e381 #d5e429" xml:id="placeName_5.d2e873" ref="geon:276781">بيروت</placeName>
             </byline> 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P662.xhtml" ed="shamela" n="n22-p8" xml:id="pb_8.d1e637"/>
             </div>
@@ -752,7 +752,7 @@
                 <p xml:id="p_49.d1e708" xml:lang="ar">(خاتمة نسئل الله أحسنها)</p>
                 <p xml:id="p_50.d1e711" xml:lang="ar">في فضل الصلاة على النبي صلى الله عليه وسلم والأمر بها قال الله تعالى (إن الله وملائكته يصلون على النبي) الآية قال النووي في أذكاره والأحاديث في فضلها والأمر بها أكثر من أن تحصى ولكن نشير إلى <pb change="#d2e565 #d2e343 #d2e381" ed="print" n="422" xml:id="pb_39.d2e1004"/> أحرف من ذلك تنبيهاً على ما سواها وتبركاً بذكرها روينا في صحيح مسلم عن عبد الله بن عمرو بن العاص رضي الله عنهما أنه سمع رسول الله صلى الله عليه وسلم يقول من صلى عليَّ صلاة الله عليه بها عشراً وروينا في صحيح مسلم أيضاً عن أبي هريرة رضي الله عنه أن رسول الله صلى الله عليه وسلم قال من صلى عليَّ واحدة صلى الله عليه عشراً وروينا في كتاب الترمذي عن عبد الله بن مسعود رضي الله عنه أن رسول الله صلى الله عليه وسلم قال أولى الناس بي يوم القيامة أكثرهم عليَّ صلاة قال الترمذي حديث حسن قال وفي الباب عن عيد الرحمن بن عوف وعامر بنم ربيعة وعمار وأبي طلحة وأنس وأبي ابن كعب رضي الله عنهم ورورينا في سنن أبي داود والنسائي وابن ماجه بالأسانيد الصحيحة عن أوس رضي الله عنه قال قال رسول الله صلى الله عليه وسلم أم من أفضل أيامكم يوم الجمعة فأكثروا عليَّ من الصلاة فإن صلاتكم معروضة علي فقالوا يارسول الله وكيف تعرض صلاتنا عليك وقد أرمت قال يقول بليت قال إن الله حرم على الأرض أجساد الأنبياء قلت أرمت بفتح الراء وإسكان الميم وفتح المثناة قال الخطابي أصله أرممت فحذفوا <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_14.d1e870" xml:lang="ar">إحدى</num> الميمين وهي لغة بعض العرب كما قالوا أظلت أفعل كذا أي أظللت في نظائره لذلك وقال غيره إنما هو أرمت بفتح الراء والميم المشددة وإسكان التاء أي أرمت العظام وقيل فيه أقوال أخر والله ألم وروينا في سنن أبي داود في آخر كتاب الحج في باب زيارة القبور بالإسناد الصحيح عن أبي هريرة رضي الله عنه قال قال رسول الله صلى الله عليه وسلم لا تجعلوا قبري عيداً وصلوا عليَّ فإن <pb corresp="file:../epub/29676/OEBPS/xhtml/P672.xhtml" ed="shamela" n="n22-p18" xml:id="pb_18.d1e713"/> صلاتكم تبلغني حيث كنتم وروينا فيه أيضاً بإسناد صحيح عن أبي هريرة أيضاً أن رسول الله صلى الله عليه وسلم قال ما من <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_15.d1e875" xml:lang="ar">أحد</num> يسلم عليَّ إلا رد الله <pb change="#d2e565 #d2e343 #d2e381" ed="print" n="423" xml:id="pb_41.d2e1014"/> عليَّ روحي حتى أرد عليه السلام وروينا في كتاب الترمذي عن أبي هريرة رضي الله عنه قال قال رسول الله صلى الله عليه وسلم رغم أنف رجل ذكرت عنده فلم يصل عليَّ قال الترمذي حديث حسن أهـ قلت وفي حديث عبد الرحمن بن أبي ليلى قال لقيني كعب بن عجرة فقال ألا أهدي لك هدية خرج علينا رسول الله صلى الله عليه وسلم فقلنا قد عرفنا كيف نسلم عليك فكيف نصلي عليك قال قولوا اللهم ثلِ على محمد وعلى آل محمد كما صليت على إبراهيم إنك حميد مجيد اللهم بارك وفي لفظ وبارك على محمد وعلى آل محمد كما باركت على آل إبراهيم إنك حميد مجيد رواه أهل الصحاح والسنن والمسانيد والإمام أحمد في مسنده وغيرهم وفي الصحيحين والسنن ال <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_16.d1e878" xml:lang="ar">ثلاثة</num> عن أبي حميد الساعدي إنهم قالوا يا رسول الله كيف نصلي عليك قال قولوا اللهم صلِ على محمد وعلى أزواجه وذريته كما صليت على إبراهيم وبارك على محمد وعلى أزواجه وذريته كما باركت على آل إبراهيم إنك حميد مجيد هذا هو اللفظ المشهور وفي صحيح البخاري عن أبي سعيد الخدري قال قلنا يا رسول الله هذا السلام عليك فكيف الصلاة عليك قال قولوا اللهم صلِ على محمد عبدك ورسولك كما صليت على آل إبراهيم وبارك على محمد وعلى آل محمد كما باركت على آل إبراهيم وعن أبي هريرة أن النبي صلى الله عليه وسلم قال من أراد أن يكتال بالمكيال إلا وفي إذا صلى علينا أهل البيت فليقل اللهم صلِ على محمد النبي وعلى أزواجه أمهات المؤمنين وذريته وأهل بيته كما صليت على آل إبراهيم إنك حميد مجيد رواه الشافعي في مسنده وصلى الله على سيدنا محمد وعلى آله وأصحابه أجمعين آمين. </p>
             <byline change="#d2e381" xml:id="byline_2.d2e1022">
-               <placeName change="#d2e381" xml:id="placeName_6.d2e1023">دمشق</placeName> 
+               <placeName change="#d2e381 #d5e429" xml:id="placeName_6.d2e1023" ref="geon:170654">دمشق</placeName> 
                <persName change="#d2e381" xml:id="persName_11.d2e1026">محمد القاسمي</persName> 
             </byline>
             </div>
@@ -862,7 +862,7 @@
             <p xml:id="p_56.d1e937" xml:lang="ar">إن الإمام المذكور رحمه الله تعالى ذكر في الفتاوى المذكورة جواباً عن سؤال صورته (روي في التفسير أنه لما نزل (أتى أمر الله) وثب النبي صلى الله عليه وسلم وسمعنا من أفواه بعض الناس قام النبي صلى الله عليه وسلم فهل يسن لنا إذا قرأناه أن نقوم أو لا فإن قلتم نعم فهل يختص بالقارئ أو يشمل المستمع وإن قلتم لا فهل يمنع من ذلك أو لا فأجاب رحمه الله تعالى عن هذا السؤال جواباً أسهب فيه ثم قال في آخره (فدل على أن فعله صلى الله عليه وسلم وأفعالهم إنما كان لسبب وهو فزعه صلى الله عليه وسلم من حلول العذاب بقومه وقد زال السبب المذكور وحينئذ فعل ذلك الآن بدعة لا ينبغي ارتكابها لإيهام العامة ندبها أهـ ثم زيل هذا الجواب بقوله (ونظير ذلك فعل كثير عند ذكر مولده صلى الله عليه وسلم ووضع أمه له من القيام وهو أيضاً بدعة لم يرد فيه شيء على أن الناس إنما يفعلون ذلك تعظيماً له صلى الله عليه وسلم فالعوام معذورون لذلك بخلاف الخواص) أهـ فقوله رحمه الله تعالى على أن الناس استدراك وإضراب إبطالي عما يتوهم من قوله (وهو أيضاً بدعة لم <pb change="#d2e565 #d2e343 #d2e381" ed="print" n="426" xml:id="pb_46.d2e1260"/> يرد فيه شيء) لأن لفظ على هنا للاستدراك والإضراب الإبطالي ونظيره قولهم (فلا لا يدخل الجنة لسوء صنيعه على أنه لا ييأس من رحمة الله) ولمجيء على لهذا المعنى شواهد كثيرة لا نطيل بذكرها فمعنى كلام الإمام المذكور رحمه الله تعالى لكن الناس إنما يفعلون ذلك تعظيماً له صلى الله عليه وسلم وتعظيمه واحترامه وإجلاله ومحبته وإظهار الفرح والسرور به صلى الله عليه وسلم لا يشك ذو دين في طلبها والحث عليها وفعلها والقيام بها بأي طريق من طرقها وقوله رحمه الله تعالى (فالعوام معذورون لذلك) أي العوام معذورون في تركهم القيام من حيث أنه بدعة لم يرد فيه شيء بخصوصه وإن كان مطلوباً من جهة أخرى ولخلو أذهانهم عن طلب تعظيمه صلى الله عليه وسلم وعن كون نفس القيام فيه تعظيم له صلى الله عليه وسلم بمعنى أن تركهم القيام عند ذكر وضع أمه له صلى الله عليه وسلم يحمل على ذلك وقولهُ رحمهُ الله تعالى (بخلاف الخواص) أي الخواص غير معذورين في تركهم القيام إذ ذاك لعلمهم بطلب تعظميهِ صلى الله عليه وسلم <pb corresp="file:../epub/29676/OEBPS/xhtml/P675.xhtml" ed="shamela" n="n22-p21" xml:id="pb_21.d1e939"/> طلباً مؤكداً وملاحظتهم التعظيم حال القيام المطلوب بأي طريق من طرقهِ هذا حل ومحمل كلام الإمام رحمهُ الله ومما يؤكد هذا أي كون الإمام ابن حجر قائل بندب القيام ما نقله صاحب السيرة الحلبية عنه في آخر باب تسميته صلى الله عليه وسلم محمداً وأحمد حيث قال ما نصهُ وقد قال ابن حجر الهيتمي والحاصل أن البدعة الحسنة متفق على ندبها وعمل المولد واجتماع الناس له كذلك أي بدعة حسنة أهـ ومن ثم قال الإمام أبو شامة شيخ النووي رحمهما الله تعالى ومن أحسن ابتدع في زماننا ما يفعل كل عام في اليوم الموافق ليوم مولده صلى الله عليه وسلم من الصدقات والمعروف وإظهار الزينة والسرور فإن ذلك مع ما فيه <pb change="#d2e565 #d2e343 #d2e381" ed="print" n="427" xml:id="pb_48.d2e1264"/> من الإحسان للفقراء مشعر بمحبته صلى الله عليه وسلم وتعظيمه وجلالته في قلب فاعل ذلك وشكر الله تعالى ما من به من إيجاد رسوله الذي أرسله رحمة للعالمين صلى الله عليه وسلم هذا كلامه أهـ وعليه يلزم حمل كلامه في فتاواه الحديثية كما بيناه سابقاً فلا ينبغي أن يغتر بالفهرسة الموضوعة للفتاوى وهي قوله (مطلب في أن القيام في أثناء مولده الشريف بدعة لا ينبغي فعلها).</p>
             <p xml:id="p_57.d1e942" xml:lang="ar">وذلك لأنهُ رحمهُ الله تعالى لم يفهرس فتاواه المذكورة ولا وضع على حاشيتها المطالب وإنما فهرسها ووضع المطالب على حاشيتها من سعى بطبعها وباشر تصحيحها فحينئذ يقال أن المفهرس واضع المطالب لم يمعن النظر في كلام الإمام المذكور فحمله على غير محمله وحله على غير مراده واغتر بعنوانهِ أيضاً من لم يتأمل ويمعن النظر في كلامهِ رحمهُ الله تعالى فنسب هذه الفرية إلى الإمام المذكور وجعلها دليلاً لرأيهِ الفاسد وفعله الزائغ الكاسد وتبعهُ من وجه الاعتراض على الإمام المذكور البريء من ذلك وأمثاله فعلى كل من اطلع على الفتاوى المذكورة المطبوعة أن لا يغتر بذلك العنوان وأن يمعن النظر في التوضيح والبيان نسألهُ تعالى أن يمن علينا بالتوفيق والإحسان آمين.</p>
             <byline change="#d2e381" xml:id="byline_3.d2e1271">
-               <placeName change="#d2e381" xml:id="placeName_7.d2e1272">دمشق</placeName> 
+               <placeName change="#d2e381 #d5e429" xml:id="placeName_7.d2e1272" ref="geon:170654">دمشق</placeName> 
                <persName change="#d2e381" xml:id="persName_13.d2e1275">أحمد الجوبري</persName>
             </byline>
          </div>
@@ -1479,7 +1479,7 @@
                 <p xml:id="p_171.d1e1456" xml:lang="ar">
                <title level="j" change="#d2e381" xml:id="title_11.d2e2118">المفيد</title> 
                <pb corresp="file:../epub/29676/OEBPS/xhtml/P710.xhtml" ed="shamela" n="n22-p57" xml:id="pb_56.d1e1458"/> 
-               <placeName change="#d2e381" xml:id="placeName_8.d2e2123">بيروت</placeName> 
+               <placeName change="#d2e381 #d5e429" xml:id="placeName_8.d2e2123" ref="geon:276781">بيروت</placeName> 
                <persName change="#d2e381" xml:id="persName_15.d2e2126">ر. ق</persName> 
                <pb corresp="file:../epub/29676/OEBPS/xhtml/P711.xhtml" ed="shamela" n="n22-p58" xml:id="pb_57.d1e1460"/>
             </p>
@@ -1551,7 +1551,7 @@
                   </l>
                </lg>
                <byline change="#d2e381" xml:id="byline_7.d2e2295">
-                  <placeName change="#d2e381" xml:id="placeName_9.d2e2296">دمشق</placeName> 
+                  <placeName change="#d2e381 #d5e429" xml:id="placeName_9.d2e2296" ref="geon:170654">دمشق</placeName> 
                   <persName change="#d2e381" xml:id="persName_17.d2e2299">هـ ر خ</persName>
                </byline>
             </div>
@@ -1658,7 +1658,7 @@
                   <tei:num value="1243" xml:id="num_1.d1e1912" xml:lang="ar">١٢٤٣</tei:num> 
                </p>
                <byline change="#d2e381" xml:id="byline_10.d2e2518">
-                  <placeName change="#d2e381" xml:id="placeName_10.d2e2519">دمشق</placeName> 
+                  <placeName change="#d2e381 #d5e429" xml:id="placeName_10.d2e2519" ref="geon:170654">دمشق</placeName> 
                   <persName change="#d2e381" xml:id="persName_21.d2e2522">عبد الرحمن القصار</persName>
                </byline>
             </div>
@@ -1847,7 +1847,7 @@
                   </l>
                </lg>
                <byline change="#d2e381" xml:id="byline_12.d2e2936">
-                  <placeName change="#d2e381" xml:id="placeName_11.d2e2937">دمشق</placeName> 
+                  <placeName change="#d2e381 #d5e429" xml:id="placeName_11.d2e2937" ref="geon:170654">دمشق</placeName> 
                   <persName change="#d2e381" xml:id="persName_24.d2e2940">محمد سليم الحنفي</persName> 
                </byline>
             </div>

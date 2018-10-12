@@ -85,7 +85,7 @@
       </fileDesc>
       <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e340" xml:id="xi:include_1.d2e185"/>
       <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e340" xml:id="xi:include_2.d2e187"/>
-      <revisionDesc xml:id="revisionDesc_1.d1e426"><change when="2018-10-12" who="#pers_TG" xml:id="d2e381" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+      <revisionDesc xml:id="revisionDesc_1.d1e426"><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e392" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e381" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e351" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e381" xml:id="gi_1.d2e199">persName</tei:gi>s without such references based on  <tei:gi change="#d2e381" xml:id="gi_1.d2e202">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e381" xml:id="ref_1.d2e205">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <change when="2018-09-30" who="#pers_TG" xml:id="d2e340" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e381" xml:id="att_1.d2e211">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e381" xml:id="gi_1.d2e214">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e381" xml:id="att_1.d2e217">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e327" xml:lang="en">Added references to GeoNames IDs to <tei:gi change="#d2e340" xml:id="gi_1.d2e192">placeName</tei:gi>s without such references based on  <tei:gi change="#d2e340" xml:id="gi_1.d2e195">place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e340" xml:id="ref_1.d2e198">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
@@ -504,7 +504,7 @@
                         فقال: {وَكَانَ حَقّاً عَلَيْنَا نَصْرُ الْمُؤْمِنِينَ}.</p>
                     <p xml:id="p_109.d1e1085" xml:lang="ar">ونحن نقول لهم كما قال الله تعالى لأمثالهم {فَمَا لِهَؤُلاء الْقَوْمِ لاَ يَكَادُونَ يَفْقَهُونَ حَدِيثاً}، {أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ أَمْ عَلَى قُلُوبٍ أَقْفَالُهَا}، {أَفَلَمْ يَسِيرُوا فِي الْأَرْضِ فَتَكُونَ لَهُمْ قُلُوبٌ يَعْقِلُونَ بِهَا أَوْ آذَانٌ يَسْمَعُونَ بِهَا فَإِنَّهَا لَا تَعْمَى الْأَبْصَارُ وَلَكِن تَعْمَى الْقُلُوبُ الَّتِي فِي الصُّدُورِ}. ونقول مهما حاول السياسيون والمفكرون <pb change="#d2e316 #d2e340" ed="print" n="347" xml:id="pb_45.d2e1172"/>في نهوض الأمة ورقي الوطن إن لم يعضدوا سياستهم بالشرع الشريف فلا تقدم ولا رقي ولا حياة ولا نجاح.  </p>
             <byline change="#d2e340" xml:id="byline_2.d2e1175">
-               <placeName change="#d2e340" xml:id="placeName_5.d2e1176">يبرود</placeName> 
+               <placeName change="#d2e340 #d5e392" xml:id="placeName_5.d2e1176" ref="geon:162627">يبرود</placeName> 
                <persName change="#d2e340" xml:id="persName_11.d2e1179">أحمد الباشا</persName>
             </byline>
                 </div>
@@ -628,7 +628,7 @@
                </l>
                     </lg>
             <byline change="#d2e340" xml:id="byline_3.d2e1458">
-               <placeName change="#d2e340" xml:id="placeName_6.d2e1459">القاهرة</placeName> 
+               <placeName change="#d2e340 #d5e392" xml:id="placeName_6.d2e1459" ref="geon:360630">القاهرة</placeName> 
                <persName change="#d2e340" xml:id="persName_12.d2e1462">ولي الدين يكن</persName>
             </byline>
                 </div>
