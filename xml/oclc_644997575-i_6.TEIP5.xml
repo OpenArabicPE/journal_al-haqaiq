@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_7" prev="oclc_644997575-i_5" xml:id="oclc_644997575-i_6" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_7" prev="oclc_644997575-i_5" xml:id="oclc_644997575-i_6" xml:lang="en">
     <teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
         <fileDesc xml:id="fileDesc_1.d1e9" xml:lang="en">
             <titleStmt xml:id="titleStmt_1.d1e11" xml:lang="en">
@@ -11,11 +6,14 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName xml:id="persName_1.d1e24" xml:lang="ar">
+                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="viaf:4795364" change="#d4e394">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir al-Iskandarānī</persName>
+                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e394">
+                  <forename xml:lang="ar-Latn-x-ijmes" change="#d2e417" xml:id="forename_2.d2e37">ʿAbd al-Qādir</forename>
+                  <surname xml:lang="ar-Latn-x-ijmes" change="#d2e417" xml:id="surname_2.d2e40">al-Iskandarānī</surname>
+               </persName>
                 </author>
                 <respStmt xml:id="respStmt_1.d1e37" xml:lang="en">
                     <resp xml:id="resp_1.d1e39" xml:lang="en">Transcription</resp>
@@ -48,11 +46,11 @@
                         <title level="j" type="sub" xml:id="title_7.d1e96" xml:lang="ar-Latn-x-ijmes">Majalla ʿilmiyya
                             dīniyya akhlāqiyya ijtimāʿiyya</title>
                         <editor ref="viaf:4795364" xml:id="editor_1.d1e99" xml:lang="en">
-                            <persName xml:id="persName_5.d1e101" xml:lang="ar">
+                            <persName xml:id="persName_5.d1e101" xml:lang="ar" ref="viaf:4795364" change="#d4e394">
                                 <forename xml:id="forename_2.d1e103" xml:lang="ar">عبد القادر</forename>
                                 <surname xml:id="surname_2.d1e106" xml:lang="ar">الإسكندراني</surname>
                             </persName>
-                            <persName xml:id="persName_6.d1e110" xml:lang="ar-Latn-x-ijmes">
+                            <persName xml:id="persName_6.d1e110" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e394">
                                 <forename xml:id="forename_3.d1e112" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_3.d1e115" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -84,9 +82,15 @@
                 </biblStruct>
             </sourceDesc>
         </fileDesc>
-        <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml"/>
-        <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-05-23" who="#pers_TG" xml:id="d2e384" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en">num</tei:gi> node in <tei:gi xml:lang="en">date</tei:gi>.</change><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e372" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change><change when="2018-04-16" who="#pers_TG" xml:id="d2e597" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2018-04-16" who="#pers_TG" change="#d2e597" xml:id="change_1.d2e428">Wrapped all numerals in <tei:gi change="#d2e597" xml:id="gi_8.d2e430">num</tei:gi> with <tei:att change="#d2e597" xml:id="att_6.d2e433">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
+        <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e417" xml:id="xi:include_1.d2e187"/>
+        <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e417" xml:id="xi:include_2.d2e189"/>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-10-12" who="#pers_TG" xml:id="d2e417" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+         <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e394" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e417" xml:id="gi_1.d2e195">persName</tei:gi>s without such references based on  <tei:gi change="#d2e417" xml:id="gi_1.d2e198">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e417" xml:id="ref_1.d2e201">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
+         <change when="2018-05-23" who="#pers_TG" xml:id="d2e384" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en" change="#d2e417" xml:id="gi_1.d2e207">num</tei:gi> node in <tei:gi xml:lang="en" change="#d2e417" xml:id="gi_1.d2e210">date</tei:gi>.</change>
+         <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e372" xml:lang="en">Added references to GeoNames IDs to <tei:gi change="#d2e417" xml:id="gi_1.d2e216">placeName</tei:gi>s without such references based on  <tei:gi change="#d2e417" xml:id="gi_1.d2e219">place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e417" xml:id="ref_1.d2e222">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
+         <change when="2018-04-16" who="#pers_TG" change="#d2e417" xml:id="change_2.d2e226">Replaced <gi change="#d2e417" xml:id="gi_1.d2e228">encodingDesc</gi> and <gi change="#d2e417" xml:id="gi_2.d2e231">profileDesc</gi>with XPointers pointing to a master file.</change>
+         <change when="2018-04-16" who="#pers_TG" xml:id="d2e597" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e417" xml:id="att_1.d2e237">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e417" xml:id="gi_3.d2e240">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e417" xml:id="att_1.d2e243">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+         <tei:change when="2018-04-16" who="#pers_TG" change="#d2e597" xml:id="change_1.d2e428">Wrapped all numerals in <tei:gi change="#d2e597" xml:id="gi_8.d2e430">num</tei:gi> with <tei:att change="#d2e597" xml:id="att_6.d2e433">value</tei:att> recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
             <change when="2018-04-16" who="#pers_TG" xml:lang="en" change="#d2e597" xml:id="change_1.d2e437">Verified page breaks, corrected mark-up. Fixed the final table of printing errors</change>
             <change when="2017-08-04" who="#pers_TG" xml:id="change_1.d1e431">Added the remaining page beginnings based on the facsimile. Moved to text of the following issue (7) to its own file. Added automated page numbers as 
                 <att xml:id="att_6.d1e433">n</att>
@@ -419,20 +423,24 @@
                         <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1911-01-02" when-custom="1329-01-01" xml:id="date_11.d1e992">غرة محرم الحرام سنة 
                             <choice xml:id="choice_1.d1e994">
                                 <orig xml:id="orig_1.d1e996">١٢٢٩</orig>
-                                <corr resp="#pers_TG" xml:id="corr_1.d1e999">١٣٢٩</corr></choice>
+                                <corr resp="#pers_TG" xml:id="corr_1.d1e999">١٣٢٩</corr>
+                     </choice>
                         </date>و 
                         <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1911-01-02" when-custom="1326-10-20" xml:id="date_12.d1e1003">
                             <choice xml:id="choice_2.d1e1004">
                                 <orig xml:id="orig_2.d1e1006">٣</orig>
-                                <corr resp="#pers_TG" xml:id="corr_2.d1e1009">20</corr></choice>كانون اول 
+                                <corr resp="#pers_TG" xml:id="corr_2.d1e1009">20</corr>
+                     </choice>كانون اول 
                             <choice xml:id="choice_3.d1e1013">
                                 <orig xml:id="orig_3.d1e1015">١٣٢٧</orig>
-                                <corr resp="#pers_TG" xml:id="corr_3.d1e1018">١٣٢٦</corr></choice>
+                                <corr resp="#pers_TG" xml:id="corr_3.d1e1018">١٣٢٦</corr>
+                     </choice>
                         </date>و 
                         <date calendar="#cal_gregorian" datingMethod="#cal_gregorian" when="1911-01-02" xml:id="date_13.d1e1022">
                             <choice xml:id="choice_4.d1e1023">
                                 <orig xml:id="orig_4.d1e1025">٢٠ كانون اول</orig>
-                                <corr resp="#pers_TG" xml:id="corr_4.d1e1028">٢ كانون ثاني</corr></choice>سنة ١٩١١</date>
+                                <corr resp="#pers_TG" xml:id="corr_4.d1e1028">٢ كانون ثاني</corr>
+                     </choice>سنة ١٩١١</date>
                     </date>
                 </bibl>
             </div>
@@ -536,11 +544,13 @@
                     <p xml:id="p_31.d1e606" xml:lang="ar">(أقوال علماء الأصول في إبطال التلفيق وتتبع الرخص زيادة على ما تقدم) 
                         <lb change="#d2e597" xml:id="lb_3.d2e1242"/>
                         الأسنوي في منهاجه 
-                        <del resp="#org_MS" change="#d2e597" xml:id="del_1.d2e1244">ص ( <tei:num type="auto-markup" resp="#pers_TG" value="49" xml:lang="ar" change="#d2e597" xml:id="num_12.d2e1246">٤٩</tei:num> ) جزء ( <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_12.d2e1249">٣</tei:num> )</del></p>
+                        <del resp="#org_MS" change="#d2e597" xml:id="del_1.d2e1244">ص ( <tei:num type="auto-markup" resp="#pers_TG" value="49" xml:lang="ar" change="#d2e597" xml:id="num_12.d2e1246">٤٩</tei:num> ) جزء ( <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_12.d2e1249">٣</tei:num> )</del>
+               </p>
                     <p xml:id="p_32.d1e609" xml:lang="ar">(فرعان) حكاهما ابن الحاجب (الثاني) إذا قلد مجتهداص في مسئلة 
                         <lb change="#d2e597" xml:id="lb_4.d2e1255"/>
                         فليس له تقليد غيره فيها إتفاقاً. 
-                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P132.xhtml" ed="shamela" n="n6-p9" xml:id="pb_9.d1e611"/></p>
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P132.xhtml" ed="shamela" n="n6-p9" xml:id="pb_9.d1e611"/>
+               </p>
                     <p xml:lang="ar" change="#d2e597" xml:id="p_31.d2e1259">وقال أيضاً ص ( 
                         <tei:num value="350" xml:id="num_1.d1e1075" xml:lang="ar">٣٥٠</tei:num>
                         ) (فائدتان) إحداهما ذكر القرافي في شرح 
@@ -578,7 +588,8 @@
                         ) وليس للعامي أن ينتقي من 
                         <pb ed="print" facs="#facs_218" n="208" xml:id="pb_23.d1e1227"/>
                         المذاهب في كل مسئلة أطيبها عنده فيتوسع بل هذا الترجيح عنده كترجيح الدليلين المتعارضين عند المفتى فإنه يتبع ظنه في الترجيح فكذلك ههنا وأن صوبنا كل مجتهد ولكن الخطأ ممكن بالغفلة عند دليل قاطع وبالحكم قبل تمام الاجتهاد واستفراغ الوسع، والغلط على الأعلم بعيد لا محالة وهذا التحقيق وهو أنا نعتقد أن الله تعالى سراً في رد أباد إلى ظنونهم حتى لا يكونوا مهملين متبعين للهوى مسترسلين استرسال البهائم من غير أن يزمهم لجام التكليف فيردهم من جانب إلى جانب فيتذكرون العبودية ونفاذ حكم الله تعالى فيهم في كل حركة وسكون يمنعهم من جانب إلى جانب فما دمنا نقدر على ضبطهم بضابط فذلك أولى من تخيرهم وإهمالهم كالبهائم أو الصبيان. 
-                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P133.xhtml" ed="shamela" n="n6-p10" xml:id="pb_10.d1e623"/></p>
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P133.xhtml" ed="shamela" n="n6-p10" xml:id="pb_10.d1e623"/>
+               </p>
                 </div>
             </div>
             <div type="article" xml:id="div_4.d1e627" xml:lang="ar">
@@ -589,16 +600,20 @@
                     فتوى فضيلة المفتي 
                     <lb change="#d2e597" xml:id="lb_16.d2e1325"/>
                     تمثال 
-                    <persName ref="viaf:10758777" change="#d2e597" xml:id="persName_8.d2e1327">مدحت باشا</persName>
+                    <persName ref="viaf:10758777" change="#d2e597" xml:id="persName_8.d2e1327">
+                  <forename change="#d2e18656 #d2e23203 #d2e417" xml:lang="ar" xml:id="forename_5.d2e1156">مدحت</forename>
+                  <addName change="#d2e18656 #d2e23203 #d2e417" type="title" xml:lang="ar" xml:id="addName_1.d2e1159">باشا</addName>
+               </persName>
                     في 
-                    <placeName change="#d2e597 #d5e372" xml:id="placeName_5.d2e1330" ref="geon:99532">البصرة</placeName></head>
+                    <placeName change="#d2e597 #d5e372" xml:id="placeName_5.d2e1330" ref="geon:99532">البصرة</placeName>
+            </head>
                 <div type="section" xml:id="div_6.d1e1247">
                     <p xml:id="p_39.d1e641" xml:lang="ar">في مصر جرائد إفرنجية راقية تكتب فصولاً لا أجدها في غيرها من صحف مصر، ومن هذه الجرائد 
                         <title level="j" xml:id="title_9.d1e1251">الجورنال دي كير</title>
                         — وقد عثرت في عددها 
                         <pb ed="print" facs="#facs_219" n="209" xml:id="pb_25.d1e1254"/>
                         المؤرخ باليوم الرابع من هذا الشهر على مقالة في (التماثيل والإسلام) عنيت بدرسها، وعن لي بعد ذلك أن أتناول الموضوع نفسه.</p>
-                    <p xml:id="p_40.d1e645" xml:lang="ar">هان على اختيار الموضوع ولكنني ما بدأت بمعالجته حتى شعرت بصعوبته فكتبت إلى فضيلة <persName ref="viaf:305215027">الأستاذ الشيخ مصطفى نجا</persName> مفتي بيروت الفاضل كتاباً جملته سيدي الأستاذ:</p>
+                    <p xml:id="p_40.d1e645" xml:lang="ar">هان على اختيار الموضوع ولكنني ما بدأت بمعالجته حتى شعرت بصعوبته فكتبت إلى فضيلة <persName ref="viaf:305215027" change="#d2e417" xml:id="persName_9.d2e1179">الاستاذالشيخمصطفىنجا</persName> مفتي بيروت الفاضل كتاباً جملته سيدي الأستاذ:</p>
                     <p xml:id="p_41.d1e648" xml:lang="ar">عرض لي مبحث في (التماثيل والإسلام) فتهيبت وعورة مسكله وفكرت فيمن اتجه إليه فقادني التفكير إلى مقامكم السامي وعلمكم الجم نفعنا الله به إلا يجوز إقامة التماثيل في البلاد الإسلامية؟</p>
                     <p xml:id="p_42.d1e651" xml:lang="ar">وإذا حرم ذلك على إطلاقه فهل يشمل التحريم الأنصاب السياسية.</p>
                     <p xml:id="p_43.d1e654" xml:lang="ar">ثم كيف تجيز الحكومة إقامة التماثيل للموتى في المقابر وهل لا يجوز اعتبار هذه كتلك ثم كيف أقيمت تماثيل محمد علي باشا وإبراهيم باشا وسليمان باشا الفرنسوي في مصر وكيف أجازها مقام الأفتاء السامي بمصر.</p>
@@ -613,7 +628,8 @@
                         <date xml:id="date_15.d1e1287">
                             <tei:num value="12" xml:id="num_1.d1e1146" xml:lang="ar">١٢</tei:num>
                             تشرين الثاني سنة 
-                            <tei:num value="1910" xml:id="num_1.d1e1149" xml:lang="ar">١٩١٠</tei:num></date>حررناه ونحن نثنى على آدابكم وندعو لكم بمزيد التوفيق حرر في 
+                            <tei:num value="1910" xml:id="num_1.d1e1149" xml:lang="ar">١٩١٠</tei:num>
+                  </date>حررناه ونحن نثنى على آدابكم وندعو لكم بمزيد التوفيق حرر في 
                         <date xml:id="date_16.d1e1294">
                             <tei:num value="15" xml:id="num_1.d1e1152" xml:lang="ar">١٥</tei:num>
                             ذي القعدة سنة 
@@ -623,7 +639,8 @@
                             ت 
                             <tei:num value="2" xml:id="num_1.d1e1162" xml:lang="ar">٢</tei:num>
                             سنة 
-                            <tei:num value="1910" xml:id="num_1.d1e1165" xml:lang="ar">١٩١٠</tei:num></date>.</p>
+                            <tei:num value="1910" xml:id="num_1.d1e1165" xml:lang="ar">١٩١٠</tei:num>
+                  </date>.</p>
                     <p xml:id="p_48.d1e670" xml:lang="ar">(الختم)</p>
                     <pb ed="print" facs="#facs_220" n="210" xml:id="pb_26.d1e1314"/>
                 </div>
@@ -635,16 +652,18 @@
                         سداً للذريعة ومنعاً للتشبه بالوثنيين واتخاذها حرام بالإجماع للنهي عنه وكذلك تعظيمها لأنه يفتح باب عبادة الأصنام وينوه أمر الوثنية وهذا التحريم بإطلاقه شامل للسياسة وغيرها ولذا منع ناظر الداخلية من وضع تمثال مدحت باشا في مدينة البصرة وأجاب بأنه مخالف للشرع الشريف كما نقلته الجرائد من عهد قريب.</p>
                     <p xml:id="p_50.d1e678" xml:lang="ar">والحكومة التي تجيب بهذا الجواب لا تجيز إقامة التماثيل للموتى في المقابر وهي لا توجد في مقابر المسلمين وأما نصب تلك التماثيل لمحمد علي باشا وغيره فلم يكن عن فتوى صادرة عن مقام الإفتاء في مصر لما علم من أن الشرع الشريف يمنع ذلك وقد أفتى العلامة العباسي مفتي الديار رحمه الله بوجوب إزالة الصنم الموضوع بالأزبكية وكسر رؤوس الصور الموجود في فتحتي كبرى قصر النيل حين سئل عنها كما في فتاويه والله تعالى أعلم حرر في 
                         <tei:num value="15" xml:id="num_1.d1e1179" xml:lang="ar">١٥</tei:num>
-                        ذي القعدة <tei:date when="1328" type="auto-markup" change="#d2e384">سنة <tei:num value="1328" xml:id="num_1.d1e1182" xml:lang="ar">١٣٢٨</tei:num></tei:date>
+                        ذي القعدة <tei:date when="1328" type="auto-markup" change="#d2e384 #d2e417" xml:id="date_9.d2e1262">سنة <tei:num value="1328" xml:id="num_1.d1e1182" xml:lang="ar">١٣٢٨</tei:num>
+                  </tei:date>
                         .</p>
                     <p xml:id="p_53.d1e688" xml:lang="ar">(مكان الختم)</p>
                     <byline xml:id="byline_2.d1e1342">الفقير إليه سبحانه 
                         <lb xml:id="lb_4.d1e1344"/>
                         مفتي بيروت
                         <lb xml:id="lb_5.d1e1346"/>
-                        <persName xml:id="persName_8.d1e1347">
+                        <persName xml:id="persName_8.d1e1347" ref="viaf:305215027" change="#d4e394">
                             <forename xml:id="forename_4.d1e1348">مصطفى</forename>
-                            <surname xml:id="surname_4.d1e1351">نجا</surname></persName>
+                            <surname xml:id="surname_4.d1e1351">نجا</surname>
+                  </persName>
                     </byline>
                 </div>
                 <div type="section" xml:id="div_9.d1e1355">
@@ -654,10 +673,14 @@
                         <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_14.d1e1281" xml:lang="ar">أحد</num>
                         علماء الألمان أراد نشر كتاب يبين فيه (على زعمه) أن فلسفة المسيح منقولة عن شارع قبله فكتب إليه الإمبراطور غليوم كتابه المشهور قائلاً له: حافظ على إحساسات الملايين من الناس الذين يعتقدون ما تريد نقضه ونحن نقول أنه إذا لم يكن في إبطال التماثيل السياسية غير مراعاة عواطف الملايين من العثمانيين المسلمين لكان ذلك موجباً لإبطالها والسلام. </p>
                     <byline xml:id="byline_3.d1e1365">(النصير البيروتي) 
-                        <persName rend="brackets" xml:id="persName_9.d1e1367">سعيد</persName></byline>
+                        <persName rend="brackets" xml:id="persName_9.d1e1367">سعيد</persName>
+               </byline>
                     <dateline xml:id="dateline_1.d1e1370">
                         <placeName xml:id="placeName_5.d1e1371" ref="geon:276781" change="#d5e372">بيروت</placeName>في 
-                        <date xml:id="date_17.d1e1374"> <tei:num type="auto-markup" resp="#pers_TG" value="16" xml:lang="ar" change="#d2e597" xml:id="num_15.d2e1468">١٦</tei:num>  تشرين ثاني  <tei:num type="auto-markup" resp="#pers_TG" value="910" xml:lang="ar" change="#d2e597" xml:id="num_15.d2e1471">٩١٠</tei:num> </date></dateline>
+                        <date xml:id="date_17.d1e1374"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="16" xml:lang="ar" change="#d2e597" xml:id="num_15.d2e1468">١٦</tei:num>  تشرين ثاني  <tei:num type="auto-markup" resp="#pers_TG" value="910" xml:lang="ar" change="#d2e597" xml:id="num_15.d2e1471">٩١٠</tei:num> 
+                  </date>
+               </dateline>
                 </div>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P135.xhtml" ed="shamela" n="n6-p12" xml:id="pb_12.d1e696"/>
@@ -667,7 +690,8 @@
                     <persName ref="viaf:93607460" xml:id="persName_9.d1e1299" xml:lang="ar">
                         الشيخ 
                         <forename xml:id="forename_5.d1e1301" xml:lang="ar">جمال الدين</forename>
-                        <surname xml:id="surname_5.d1e1304" xml:lang="ar">القاسمي</surname></persName>دام نفعه آمين</salute>
+                        <surname xml:id="surname_5.d1e1304" xml:lang="ar">القاسمي</surname>
+               </persName>دام نفعه آمين</salute>
                 <p xml:id="p_57.d1e709" xml:lang="ar">قد أطلعنا في 
                     <ref xml:id="ref_5.d1e1310" xml:lang="ar">
                         <bibl xml:id="bibl_2.d1e1311" xml:lang="ar">
@@ -696,7 +720,8 @@
                     با يعلم أن شيخ الجامع الأزهر بل شيخ الإسلام بالنسبة لأمور الدين كأحد أفراد العلماء المتبحرين أو غير المتبحرين بحسب درجتهما في العلوم كيف وقد قال عالم المدينة المنورة وإمام دار الهجرة مالك بن أصبح رضى الله تعالى عنه (ما منا إلا من رد ورد عليه إلا صاحب هذا القبر) صلى الله عليه وعلى آله وصحبه وسلم وشرف وكرم الذي شيخ الأزهر المنوه به يفتخر بأنه من اتباعه المتمذهبين بمذهبه فمثل هذا العنوان لا يرهبنا ولا عن المناقشة معه ومعكم والتنقيب بالحق يوقفنا الثاني قولكم كنا أثرنا في 
                     <bibl xml:id="bibl_4.d1e1345" xml:lang="ar">
                         مقالتين متقدمتين في 
-                        <title level="j" xml:id="title_12.d1e1347" xml:lang="ar">المقتبس</title></bibl>الأغر ذكر من قطع بهذه المسئلة من الإعلام كالعباسي والشيخ عليش والعلامة الشطي وذكرنا من عمل بمقتضاها في هذا العام وحكم بموجبها وهم قضاة مصر والإسكندرية وغيرهما وهذا مجموعه غير صحيح فإن سماحة قاضي مصر عبد الرحمن أفندي نسيب أيده الله تعالى بالشريعة وأيد الشريعة به وبأمثاله لم يحكم به أصلاً فكن أنت وأمثالك على ثقة من قولي هذا لا كما عزي إليه فإن قاضي مصر المشار إليه لم يحكم به كما تقدم وإنما كان الحكم فيها بالإطار بمجرد إشهار من محافظ مصر بضرب المدافع بثبوت هلال شوال بناء على التلغراف الوارد إليه من محافظ الإسكندرية بأنه ثبت عند قاضي الإسكندرية، وفتاوى الباقين سيظهر ما أنطوت عليه من التناقض 
+                        <title level="j" xml:id="title_12.d1e1347" xml:lang="ar">المقتبس</title>
+               </bibl>الأغر ذكر من قطع بهذه المسئلة من الإعلام كالعباسي والشيخ عليش والعلامة الشطي وذكرنا من عمل بمقتضاها في هذا العام وحكم بموجبها وهم قضاة مصر والإسكندرية وغيرهما وهذا مجموعه غير صحيح فإن سماحة قاضي مصر عبد الرحمن أفندي نسيب أيده الله تعالى بالشريعة وأيد الشريعة به وبأمثاله لم يحكم به أصلاً فكن أنت وأمثالك على ثقة من قولي هذا لا كما عزي إليه فإن قاضي مصر المشار إليه لم يحكم به كما تقدم وإنما كان الحكم فيها بالإطار بمجرد إشهار من محافظ مصر بضرب المدافع بثبوت هلال شوال بناء على التلغراف الوارد إليه من محافظ الإسكندرية بأنه ثبت عند قاضي الإسكندرية، وفتاوى الباقين سيظهر ما أنطوت عليه من التناقض 
                     <pb ed="print" facs="#facs_223" n="213" xml:id="pb_31.d1e1442"/>
                     في بعضها وعدم البت في البعض الآخر واستظهارها الحكم به إلى غير ذلك مما 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P136.xhtml" ed="shamela" n="n6-p13" xml:id="pb_13.d1e711"/>
@@ -719,14 +744,24 @@
                     الله تعالى وقد اكتفينا الآن بهذه الأسطر وسنتبعها بالكلام على الفتاوى التي اعتمدتم عليها بما يفتح الله به علينا ومنه نسأل السداد والثبات فإنه المحبب للدعوات وهو اعلم بالنيات.</p>
                 <byline xml:id="byline_4.d1e1470">
                     <placeName xml:id="placeName_6.d1e1471" ref="geon:170654" change="#d5e372">دمشق</placeName>
-                    <persName xml:id="persName_11.d1e1474">محمد عارف المنير الحسيني</persName>
+                    <persName xml:id="persName_11.d1e1474" ref="viaf:299025643" change="#d4e394">
+                  <forename change="#d2e18656 #d2e23203 #d2e417" xml:lang="ar" xml:id="forename_8.d2e1427">محمد</forename>
+                  <forename change="#d2e18656 #d2e23203 #d2e417" xml:lang="ar" xml:id="forename_9.d2e1430">عارف</forename>
+                  <surname change="#d2e18656 #d2e23203 #d2e417" xml:lang="ar" xml:id="surname_7.d2e1433">المنير</surname>
+                  <addName change="#d2e18656 #d2e23203 #d2e417" type="nisbah" xml:lang="ar" xml:id="addName_2.d2e1436">الحسيني</addName>
+               </persName>
                 </byline>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P139.xhtml" ed="shamela" n="n6-p16" xml:id="pb_16.d1e730"/>
             <div type="article" xml:id="div_6.d1e734" xml:lang="ar">
                 <head xml:id="head_6.d1e736" xml:lang="ar">مسألة المرأة المصرية</head>
                 <byline xml:id="byline_5.d1e1485">لحضرة الأستاذ المفكر الكبير 
-                    <persName xml:id="persName_12.d1e1487">فريد بك وجدي</persName></byline>
+                    <persName xml:id="persName_12.d1e1487" ref="viaf:53094077" change="#d4e394">
+                  <forename change="#d2e18656 #d2e23203 #d2e417" xml:lang="ar" xml:id="forename_10.d2e1453">فريد</forename>
+                  <addName change="#d2e18656 #d2e23203 #d2e417" type="title" xml:lang="ar" xml:id="addName_3.d2e1456">بك</addName>
+                  <surname change="#d2e18656 #d2e23203 #d2e417" xml:lang="ar" xml:id="surname_8.d2e1459">وجدي</surname>
+               </persName>
+            </byline>
                 <p xml:id="p_63.d1e742" xml:lang="ar">في كل أمة مسالة خطيرة تكسب بحروف عريضة في المجلات والجراءة اليومية هي مسألة المرأة، ففي أوروبا ذات المدينة العتيقة وفي أمريكا صاحبة الحضارة الحديثة والحرية المطلقة تتجلى هذه المسألة بأشكال وحالات شتى.</p>
                 <p xml:id="p_64.d1e745" xml:lang="ar">يغم على الباحث الاجتماعي وجه الحل فيها فيكاد يعتقد أنها عضلة العقد، والمعمى الذي لا يفك ما دام الوجود الإنساني قائماً.</p>
                 <p xml:id="p_65.d1e748" xml:lang="ar">ونحن الذين أخذنا لندفع وراء المدنية الأوروبية بغير حساب بحكم قانون التقليد الذي هو بعض ما تمنى به الأمم الضعيفة المغلوبة على أمرها 
@@ -746,8 +781,10 @@
                     <bibl change="#d2e597" xml:id="bibl_5.d2e1632">
                         الفيلسوف الاقتصادي 
                         <author change="#d2e597" xml:id="author_2.d2e1634">
-                            <persName change="#d2e597" xml:id="persName_14.d2e1636">برودون</persName></author>في كتابه ابتكار 
-                        <title level="m" change="#d2e597" xml:id="title_15.d2e1639">النظام في تعليل سبق الرجل للمرأة في ميدان الأعمال</title></bibl>. قال:</p>
+                            <persName change="#d2e597" xml:id="persName_14.d2e1636">برودون</persName>
+                  </author>في كتابه ابتكار 
+                        <title level="m" change="#d2e597" xml:id="title_15.d2e1639">النظام في تعليل سبق الرجل للمرأة في ميدان الأعمال</title>
+               </bibl>. قال:</p>
                 <pb ed="print" facs="#facs_228" n="218" xml:id="pb_41.d1e1529"/>
                 <p xml:id="p_72.d1e773" xml:lang="ar">
                     <quote change="#d2e597" xml:id="quote_1.d2e1648">إن نبسة مجموعة قوى الرجل إلى قوى المرأة تساوي 
@@ -759,8 +796,10 @@
                     <bibl change="#d2e597" xml:id="bibl_6.d2e1660">
                         العلامة 
                         <author rend="brackets" change="#d2e597" xml:id="author_3.d2e1662">
-                            <persName change="#d2e597" xml:id="persName_15.d2e1664">أجوست كونت</persName></author>مؤسس علم الاجتماع البشري في كتابه 
-                        <title level="m" rend="brackets" change="#d2e597" xml:id="title_16.d2e1667">النظام السياسي</title></bibl>قال:</p>
+                            <persName change="#d2e597" xml:id="persName_15.d2e1664">أجوست كونت</persName>
+                  </author>مؤسس علم الاجتماع البشري في كتابه 
+                        <title level="m" rend="brackets" change="#d2e597" xml:id="title_16.d2e1667">النظام السياسي</title>
+               </bibl>قال:</p>
                 <p xml:id="p_74.d1e779" xml:lang="ar">
                     <quote change="#d2e597" xml:id="quote_2.d2e1673">إنه لو نال النساء هذه المساواة (المادية) التي يتطلبها لهن الذين يزعمون الدفاع عنهن بغير رضاهن فإن ضمانتهن الاجتماعية تفسد على قدر ما تفسد حالتهن الأدبية لأنهن في تلك الحالة سيكن خاضعات في أغلب الصنائع لمزاحمة يومية قوية بحيث لا يمكنهم القيام بها كما أنه في الوقت نفسه تتكدر المنابع الأصلية للمحبة المتبادلة </quote>انتهى.</p>
                 <p xml:id="p_75.d1e782" xml:lang="ar">أحست الهيئة الاجتماعية في أوروبا بفداحة المصاب فصاح العلماء يستغيثون ولكن بمن يصيحون؟ إن لكل دور حداً هو بالغه، ينتهي منه إلى نهاية ثم يرتكس بذويه إلى الضد، عقاباً على التفريط، وزجراً عن الاندفاع وراء الأهواء.</p>
@@ -802,7 +841,8 @@
                 <p xml:id="p_91.d1e837" xml:lang="ar">فالحجاب في اعتقادهم صاد للمرأة عن العلم ومسقط لها تحت كلا كل الرق مفسد لأخلاقها الكريمة مانع من رؤية الخاطب لخطيبته ومعاشرته لها قبل الزواج فهو مجتمع الإزراء ومنار كل بلاء!</p>
                 <p xml:id="p_92.d1e840" xml:lang="ar">ولو زال الحجاب في يقينهم أصبحت المرأة عالمة بما لها وما عليها حاصلة على تمام حريتها بإزاء الرجل. أديبة مهذبة منزهة عن الأهواء وفوق ذلك تصبح عرضة للخطاب فيتهافت عليها الشبان ويستطيعون أن يعاشروها قبل الزواج فيقترن بها من يهواها عن بينة واختبار فيعيش معها عيشة السعداء (كما يعيش الأوروبي مع امرأته. . . خالي البال من المنغصات فارغ لبصدر من المكدرات فينعدم الطلاق ويقل (كما هو في أوروبا. . .) ثم يكون من أثر هذا الانتقال البديع إقبال الشبان على الزواج ورواج سوق المصاهرات فلا يعود الشرق يشكو من انتشار مبدأ العزوبة (كما لا يشكو منه الغرب الآن. . . .)</p>
                 <p xml:id="p_93.d1e843" xml:lang="ar">هكذا يقولون 
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P143.xhtml" ed="shamela" n="n6-p20" xml:id="pb_20.d1e845"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P143.xhtml" ed="shamela" n="n6-p20" xml:id="pb_20.d1e845"/>
+            </p>
                 <p xml:lang="ar" change="#d2e597" xml:id="p_84.d2e1773">كل هذه المسائل الخطيرة سببها هذا الحجاب الشفاف الذي يشبه كما قالت جريدة لابورص اللثام الذي يضعه الآن الأوربيات المغاليات في حب الظهور بأقصى شكل من الجمال.</p>
                 <p xml:id="p_94.d1e848" xml:lang="ar">ما الذي يمنع أن يكون الحجاب في نظر باحثنا الشرقي علة كل هذه الأرزاء وهو لم من علة سواء.</p>
                 <p xml:id="p_95.d1e851" xml:lang="ar">لا شك عندنا في أن هذا النظر المعوج من بعض الكتاب وهذه الخفة المتناهية في تقدير المسائل الاجتماعية سيكون لها نتائج وخيمة جداً على مجموعنا الإسلامي إن لم يسرع أهل الذكر بالوقوف أمام تيارها وإن هذه المسائل الخطيرة ما دامت متروكة لأقلام السطحيين من الكتاب فلا ينتظر منها إلا أسوأ العواقب على العفاف والأعراض.</p>
@@ -829,19 +869,23 @@
                 <p xml:id="p_102.d1e876" xml:lang="ar">
                     <bibl xml:id="bibl_5.d1e1672">كتب الكاتب الأميركي الشهير (
                         <author xml:id="author_2.d1e1674">
-                            <persName xml:id="persName_13.d1e1675">لوسن</persName></author>) في 
+                            <persName xml:id="persName_13.d1e1675">لوسن</persName>
+                  </author>) في 
                         <biblScope from="25" to="25" unit="volume" xml:id="biblScope_6.d1e1678">
                             المجلد الخامس وال
-                            <num resp="#pers_TG" subtype="d2" type="auto-markup" value="20" xml:id="num_29.d1e1550" xml:lang="ar">عشرين</num></biblScope>من 
+                            <num resp="#pers_TG" subtype="d2" type="auto-markup" value="20" xml:id="num_29.d1e1550" xml:lang="ar">عشرين</num>
+                  </biblScope>من 
                         <title level="j" xml:id="title_15.d1e1683">مجلة المجلات</title>
                         الفرنسية إحصاء</bibl>عن الطلاق في أميركا بلد حر المطلقة بناءً على طلب المجلة نقتطف منه مايأتي قال:</p>
                 <p xml:id="p_103.d1e879" xml:lang="ar">سجلت المحاكم في مملكة (مساشوزيت) من ولايات الممالك المتحدة ( 
                     <tei:num value="1622" xml:id="num_1.d1e1389" xml:lang="ar">١٦٢٢</tei:num>
-                    ) ورقة طلاق <tei:date when="1894" type="auto-markup" change="#d2e384">سنة <tei:num value="1894" xml:id="num_1.d1e1392" xml:lang="ar">١٨٩٤</tei:num></tei:date>
+                    ) ورقة طلاق <tei:date when="1894" type="auto-markup" change="#d2e384 #d2e417" xml:id="date_10.d2e1723">سنة <tei:num value="1894" xml:id="num_1.d1e1392" xml:lang="ar">١٨٩٤</tei:num>
+               </tei:date>
                     بعد إن كانت في سنة قبلها ( 
                     <tei:num value="770" xml:id="num_1.d1e1395" xml:lang="ar">٧٧٠</tei:num>
                     ) فقط أي أنه آخذ في الازدياد بسرعة مدهشة.</p>
-                <p xml:id="p_104.d1e882" xml:lang="ar">أما في مملكة (أهيو) من الممالك المتحدة فقد سجلت المحاكم <tei:date when="1865" type="auto-markup" change="#d2e384">سنة <tei:num value="1865" xml:id="num_1.d1e1401" xml:lang="ar">١٨٦٥</tei:num></tei:date>
+                <p xml:id="p_104.d1e882" xml:lang="ar">أما في مملكة (أهيو) من الممالك المتحدة فقد سجلت المحاكم <tei:date when="1865" type="auto-markup" change="#d2e384 #d2e417" xml:id="date_10.d2e1735">سنة <tei:num value="1865" xml:id="num_1.d1e1401" xml:lang="ar">١٨٦٥</tei:num>
+               </tei:date>
                     <tei:num value="98" xml:id="num_1.d1e1404" xml:lang="ar">٩٨</tei:num>
                     / 
                     <tei:num value="22" xml:id="num_1.d1e1407" xml:lang="ar">٢٢</tei:num>
@@ -867,7 +911,8 @@
                     ) ونقص الزواج عن معدله بمقدار ( 
                     <tei:num value="84889" xml:id="num_1.d1e1438" xml:lang="ar">٨٤٨٨٩</tei:num>
                     ).</p>
-                <p xml:id="p_106.d1e888" xml:lang="ar">وفي كاليفورنيا من الممالك المتحدة حصل في ألفي زواج في <tei:date when="1897" type="auto-markup" change="#d2e384">سنة <tei:num value="1897" xml:id="num_1.d1e1444" xml:lang="ar">١٨٩٧</tei:num></tei:date>
+                <p xml:id="p_106.d1e888" xml:lang="ar">وفي كاليفورنيا من الممالك المتحدة حصل في ألفي زواج في <tei:date when="1897" type="auto-markup" change="#d2e384 #d2e417" xml:id="date_10.d2e1784">سنة <tei:num value="1897" xml:id="num_1.d1e1444" xml:lang="ar">١٨٩٧</tei:num>
+               </tei:date>
                     ( 
                     <tei:num value="641" xml:id="num_1.d1e1447" xml:lang="ar">٦٤١</tei:num>
                     ) طلاقاً أي في كل 
@@ -911,7 +956,9 @@
                     <bibl change="#d2e597" xml:id="bibl_8.d2e1982">
                         العمراني الخطير 
                         <author rend="brackets" change="#d2e597" xml:id="author_5.d2e1984">
-                            <persName change="#d2e597" xml:id="persName_19.d2e1986">جيوم فريرو</persName></author>في مجلة <tei:date when="1895" type="auto-markup" change="#d2e384">سنة <tei:num value="1895" xml:id="num_1.d1e1504" xml:lang="ar">١٨٩٥</tei:num></tei:date>
+                            <persName change="#d2e597" xml:id="persName_19.d2e1986">جيوم فريرو</persName>
+                  </author>في مجلة <tei:date when="1895" type="auto-markup" change="#d2e384 #d2e417" xml:id="date_10.d2e1875">سنة <tei:num value="1895" xml:id="num_1.d1e1504" xml:lang="ar">١٨٩٥</tei:num>
+                  </tei:date>
                         من مجلات الفرنسية</bibl>ما يأتي:</p>
                 <quote rend="quotation-marks" change="#d2e597" xml:id="quote_7.d2e1994">
                     <p xml:id="p_120.d1e937" xml:lang="ar">إن العلامات المنذرة بقرب حلول الأزمة النهائية لهذا الشكل من المدنية التي تعيس فيه كثيرة جداً (تأمل) بحيث لا يمر يوم حتى يقف الباحث على إنذارات جديدة فيه. فلنعط نحن أيضاً أنفسنا وظيفة الطبيب ولنساعد في مساعدة ما شخصه الأطباء من هذا المرض الاجتماعي في زماننا هذا بدرس هذا الشكل الجديد من الرهينة التي هي مع عدم استنادها على دين تهددنا بأنها ستصل إلى الحد الذي وصلت إليه الرهينة الدينية في زمن من أزمنة القرون الوسطى.</p>
@@ -931,7 +978,8 @@
                         الفرنسية في 
                         <biblScope from="18" to="18" unit="issue" change="#d2e597" xml:id="biblScope_7.d2e2023">
                             المجلد الثامن 
-                            <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_35.d1e1707" xml:lang="ar">عشر</num></biblScope>في فصل على المرأة</bibl>:</p>
+                            <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_35.d1e1707" xml:lang="ar">عشر</num>
+                  </biblScope>في فصل على المرأة</bibl>:</p>
                 <p xml:id="p_125.d1e954" xml:lang="ar">إن الزواج الذي كان آباؤنا يعتبرونه ضرورياً يظهر أنه قد صدم صدمة شديدة في كل جهة فإن الرقي العقلي الذي قالته المرأة وامتداد حقوقها يوما بعد يوم وغرامها الشديد بمساواة الرجل في حقوقه وافراطاته كل ذلك يهدد مدركاتنا التي ورثناها على الزواج. ثم قالت: إن رفض الناس للزواج 
                     <pb ed="print" facs="#facs_237" n="227" xml:id="pb_57.d1e1854"/>
                     ومحبتهم للطلاق وهما الأمران اللذان ينتشران يوماً فيوماً في أمريكا وفي كل الممالك الأوربية ثم كل هذه الاعتصابات النسائية تشعر بمرض يجب أن يتنبه له المتشرعون. انتهى</p>
@@ -959,7 +1007,8 @@
                     <bibl xml:id="bibl_6.d1e1899">جاء في 
                         <biblScope from="21" to="21" unit="volume" xml:id="biblScope_7.d1e1901">
                             المجلد الحادي 
-                            <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_38.d1e1753" xml:lang="ar">عشر</num></biblScope>من 
+                            <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_38.d1e1753" xml:lang="ar">عشر</num>
+                  </biblScope>من 
                         <title level="j" xml:id="title_16.d1e1906">مجلة المجلات</title>
                         الفرنسية نقلا</bibl>عن الإحصاءات الرسمية أنه 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P149.xhtml" ed="shamela" n="n6-p26" xml:id="pb_26.d1e990"/>
@@ -995,7 +1044,9 @@
                     <salute xml:id="salute_3.d1e1968">حضرة الأفاضل المحترمين أصحاب مجلة 
                         <title level="j" xml:id="title_17.d1e1970">الحقائق</title>
                         الغراء</salute>
-                    <p xml:id="p_142.d1e1020" xml:lang="ar">غلب تقديم واجبات التعليم والاحترام أرجو من فضلكم التأمل بالحديث المذكور <ref target="oclc_644997575-i_5.TEIP5.xml#pb_52.d1e1504">في <bibl change="#d2e597" xml:id="bibl_11.d2e2161"> خطاب العلامة <persName change="#d2e597" xml:id="persName_21.d2e2163">الشيخ صالح أفندي المدرج</persName> في <biblScope change="#d2e597" from="5" to="5" unit="issue" xml:id="biblScope_9.d2e2166">الجزء الخامس</biblScope> من مجلتكم  <biblScope from="185" to="185" unit="page">ص ( <tei:num value="172" xml:id="num_1.d1e1610" xml:lang="ar">١٧٢</tei:num> ) التي صواب نمرتها ( <tei:num value="185" xml:id="num_1.d1e1613" xml:lang="ar">١٨٥</tei:num> )</biblScope> س <tei:num value="8" xml:id="num_1.d1e1616" xml:lang="ar">٨</tei:num></bibl></ref> بلفظ نعم مطية الدنيا الآخرة فإنه ظهر لي من هذا اللفظ كون الآخرة مطية للدنيا وأشكل علي ذلك فإن كنت متوهماً أفيدوني وإلا فإما أن يكون فيه خطأ من الطبع أو سبق قلم من الأستاذ على كل أرى لزوم التنبيه على ذلك مع بعض غلطات بديهية وقعت في طبع هذا الجزء كما هو محرر في جانبه وما القصد إلا أن تبلغ مجلتكم الدرجة القصوى من التحقيق والتدقيق من جميع الوجوه جزاكم الله خيراً على هذا المشروع الخيري هذا ويوجد عند الداعي تلغراف بهذا اللفظ - شام جامع الدرويشية سليم أفندي السكري:</p>
+                    <p xml:id="p_142.d1e1020" xml:lang="ar">غلب تقديم واجبات التعليم والاحترام أرجو من فضلكم التأمل بالحديث المذكور <ref target="oclc_644997575-i_5.TEIP5.xml#pb_52.d1e1504" change="#d2e417" xml:id="ref_6.d2e2052">في <bibl change="#d2e597" xml:id="bibl_11.d2e2161"> خطاب العلامة <persName change="#d2e597" xml:id="persName_21.d2e2163">الشيخ صالح أفندي المدرج</persName> في <biblScope change="#d2e597" from="5" to="5" unit="issue" xml:id="biblScope_9.d2e2166">الجزء الخامس</biblScope> من مجلتكم  <biblScope from="185" to="185" unit="page" change="#d2e417" xml:id="biblScope_10.d2e2062">ص ( <tei:num value="172" xml:id="num_1.d1e1610" xml:lang="ar">١٧٢</tei:num> ) التي صواب نمرتها ( <tei:num value="185" xml:id="num_1.d1e1613" xml:lang="ar">١٨٥</tei:num> )</biblScope> س <tei:num value="8" xml:id="num_1.d1e1616" xml:lang="ar">٨</tei:num>
+                     </bibl>
+                  </ref> بلفظ نعم مطية الدنيا الآخرة فإنه ظهر لي من هذا اللفظ كون الآخرة مطية للدنيا وأشكل علي ذلك فإن كنت متوهماً أفيدوني وإلا فإما أن يكون فيه خطأ من الطبع أو سبق قلم من الأستاذ على كل أرى لزوم التنبيه على ذلك مع بعض غلطات بديهية وقعت في طبع هذا الجزء كما هو محرر في جانبه وما القصد إلا أن تبلغ مجلتكم الدرجة القصوى من التحقيق والتدقيق من جميع الوجوه جزاكم الله خيراً على هذا المشروع الخيري هذا ويوجد عند الداعي تلغراف بهذا اللفظ - شام جامع الدرويشية سليم أفندي السكري:</p>
                     <lg xml:id="lg_1.d1e1023" xml:lang="ar">
                         <l type="bayt" xml:id="l_1.d1e1025" xml:lang="ar">
                             <seg xml:id="seg_1.d1e1027" xml:lang="ar">عن خالتي طمنتكم </seg>
@@ -1011,7 +1062,8 @@
                         </l>
                     </lg>
                     <byline xml:id="byline_6.d1e2016">الأمضا 
-                        <persName xml:id="persName_14.d1e2018">توفيق العلمي</persName></byline>
+                        <persName xml:id="persName_14.d1e2018">توفيق العلمي</persName>
+               </byline>
                 </div>
                 <div type="article" xml:id="div_14.d1e2022">
                     <p xml:id="p_144.d1e1057" xml:lang="ar">وصواب البيت الأول عن خالتي لأن المقصود مرسله تطميننا عن خالتنا وخالته بأنها وصلت إلى معان بصحة بعد أداء فريضة الحج وصواب البيت الثاني لبت سعت_فأين لفظ لعت من سعت وطارت من طافت 
@@ -1063,205 +1115,364 @@
                         <cell xml:id="cell_4.d1e2117">صواب </cell>
                     </row>
                     <row role="data" xml:id="row_2.d1e2121">
-                        <cell xml:id="cell_5.d1e2123"> <tei:num type="auto-markup" resp="#pers_TG" value="160" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2326">١٦٠</tei:num>  </cell>
-                        <cell xml:id="cell_6.d1e2126"> <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2332">١٨</tei:num> </cell>
+                        <cell xml:id="cell_5.d1e2123"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="160" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2326">١٦٠</tei:num>  
+                  </cell>
+                        <cell xml:id="cell_6.d1e2126"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2332">١٨</tei:num> 
+                  </cell>
                         <cell xml:id="cell_7.d1e2129">والحروف في الحروف</cell>
                         <cell xml:id="cell_8.d1e2132">في الحروف </cell>
                     </row>
                     <pb ed="print" facs="#facs_243" n="233" xml:id="pb_68.d1e2136"/>
                     <row role="data" xml:id="row_3.d1e2138">
-                        <cell xml:id="cell_9.d1e2140"> <tei:num type="auto-markup" resp="#pers_TG" value="164" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2349">١٦٤</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_10.d2e2353"> <tei:num type="auto-markup" resp="#pers_TG" value="5" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2355">٥</tei:num> </cell>
+                        <cell xml:id="cell_9.d1e2140"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="164" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2349">١٦٤</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_10.d2e2353"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="5" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2355">٥</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_11.d2e2359">فساد أخلاق</cell>
                         <cell change="#d2e597" xml:id="cell_12.d2e2362">فساد الأخلاق </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_4.d2e2366">
-                        <cell change="#d2e597" xml:id="cell_13.d2e2368"> <tei:num type="auto-markup" resp="#pers_TG" value="171" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2370">١٧١</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_14.d2e2374"> <tei:num type="auto-markup" resp="#pers_TG" value="14" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2376">١٤</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_13.d2e2368"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="171" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2370">١٧١</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_14.d2e2374"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="14" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2376">١٤</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_15.d2e2380">غنياً أو فقير</cell>
                         <cell change="#d2e597" xml:id="cell_16.d2e2383">اغنياً أو فقيراً </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_5.d2e2388">
-                        <cell change="#d2e597" xml:id="cell_17.d2e2390"> <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2392">١٧٢</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_18.d2e2396"> <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2398">١٢</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_17.d2e2390"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2392">١٧٢</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_18.d2e2396"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2398">١٢</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_19.d2e2402">شهدين</cell>
                         <cell change="#d2e597" xml:id="cell_20.d2e2405">شهيدين </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_6.d2e2409">
                         <cell change="#d2e597" xml:id="cell_21.d2e2411">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="173" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2413">١٧٣</tei:num> </cell><cell change="#d2e597" xml:id="cell_22.d2e2416"> <tei:num type="auto-markup" resp="#pers_TG" value="2" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2418">٢</tei:num> </cell><cell change="#d2e597" xml:id="cell_23.d2e2421">المرأتان</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="173" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2413">١٧٣</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_22.d2e2416"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="2" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2418">٢</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_23.d2e2421">المرأتان</cell>
                         <cell change="#d2e597" xml:id="cell_24.d2e2424">المرأتين </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_7.d2e2428">
                         <cell change="#d2e597" xml:id="cell_25.d2e2430">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="175" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2432">١٧٥</tei:num> </cell><cell change="#d2e597" xml:id="cell_26.d2e2435"> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2437">٣</tei:num> </cell><cell change="#d2e597" xml:id="cell_27.d2e2440">اليقينة</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="175" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2432">١٧٥</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_26.d2e2435"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2437">٣</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_27.d2e2440">اليقينة</cell>
                         <cell change="#d2e597" xml:id="cell_28.d2e2443">اليقينية </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_8.d2e2447">
                         <cell change="#d2e597" xml:id="cell_29.d2e2449">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2451">١٧٢</tei:num> </cell><cell change="#d2e597" xml:id="cell_30.d2e2454"> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2456">٣</tei:num> </cell><cell change="#d2e597" xml:id="cell_31.d2e2459">لما أمنكهم</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2451">١٧٢</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_30.d2e2454"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2456">٣</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_31.d2e2459">لما أمنكهم</cell>
                         <cell change="#d2e597" xml:id="cell_32.d2e2462">لما أمكنهم </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_9.d2e2466">
                         <cell change="#d2e597" xml:id="cell_33.d2e2468">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2470">١٧٢</tei:num> </cell><cell change="#d2e597" xml:id="cell_34.d2e2473"> <tei:num type="auto-markup" resp="#pers_TG" value="7" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2475">٧</tei:num> </cell><cell change="#d2e597" xml:id="cell_35.d2e2478">نعم مطية الدنيا الآخرة</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="172" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2470">١٧٢</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_34.d2e2473"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="7" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2475">٧</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_35.d2e2478">نعم مطية الدنيا الآخرة</cell>
                         <cell change="#d2e597" xml:id="cell_36.d2e2481">نعم مطية الآخرة الدنيا </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_10.d2e2485">
                         <cell change="#d2e597" xml:id="cell_37.d2e2487">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="183" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2489">١٨٣</tei:num> </cell><cell change="#d2e597" xml:id="cell_38.d2e2492"> <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2494">١٢</tei:num> </cell><cell change="#d2e597" xml:id="cell_39.d2e2497">إنما المؤمنين</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="183" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2489">١٨٣</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_38.d2e2492"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2494">١٢</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_39.d2e2497">إنما المؤمنين</cell>
                         <cell change="#d2e597" xml:id="cell_40.d2e2500">إنما المؤمنون </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_11.d2e2505">
                         <cell change="#d2e597" xml:id="cell_41.d2e2507">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="186" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2509">١٨٦</tei:num> </cell><cell change="#d2e597" xml:id="cell_42.d2e2512"> <tei:num type="auto-markup" resp="#pers_TG" value="11" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2514">١١</tei:num> </cell><cell change="#d2e597" xml:id="cell_43.d2e2517">روحان</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="186" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2509">١٨٦</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_42.d2e2512"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="11" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2514">١١</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_43.d2e2517">روحان</cell>
                         <cell change="#d2e597" xml:id="cell_44.d2e2520">الروحان </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_12.d2e2524">
                         <cell change="#d2e597" xml:id="cell_45.d2e2526">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2528">١٨٧</tei:num> </cell><cell change="#d2e597" xml:id="cell_46.d2e2531"> <tei:num type="auto-markup" resp="#pers_TG" value="4" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2533">٤</tei:num> </cell><cell change="#d2e597" xml:id="cell_47.d2e2536">شهدء</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2528">١٨٧</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_46.d2e2531"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="4" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2533">٤</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_47.d2e2536">شهدء</cell>
                         <cell change="#d2e597" xml:id="cell_48.d2e2539">شهداء </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_13.d2e2543">
                         <cell change="#d2e597" xml:id="cell_49.d2e2545">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2547">١٨٧</tei:num> </cell><cell change="#d2e597" xml:id="cell_50.d2e2550"> <tei:num type="auto-markup" resp="#pers_TG" value="8" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2552">٨</tei:num> </cell><cell change="#d2e597" xml:id="cell_51.d2e2555">يالأرواح</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2547">١٨٧</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_50.d2e2550"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="8" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2552">٨</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_51.d2e2555">يالأرواح</cell>
                         <cell change="#d2e597" xml:id="cell_52.d2e2558">بالأرواح </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_14.d2e2562">
                         <cell change="#d2e597" xml:id="cell_53.d2e2564">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2566">١٨٧</tei:num> </cell><cell change="#d2e597" xml:id="cell_54.d2e2569"> <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2571">١٢</tei:num> </cell><cell change="#d2e597" xml:id="cell_55.d2e2574">وقظو</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2566">١٨٧</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_54.d2e2569"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="12" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2571">١٢</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_55.d2e2574">وقظو</cell>
                         <cell change="#d2e597" xml:id="cell_56.d2e2577">وقظوا </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_15.d2e2581">
                         <cell change="#d2e597" xml:id="cell_57.d2e2583">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2585">١٨٧</tei:num> </cell><cell change="#d2e597" xml:id="cell_58.d2e2588"> <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2590">١٨</tei:num> </cell><cell change="#d2e597" xml:id="cell_59.d2e2593">وزراريهم</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2585">١٨٧</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_58.d2e2588"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2590">١٨</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_59.d2e2593">وزراريهم</cell>
                         <cell change="#d2e597" xml:id="cell_60.d2e2596">وذراريهم </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_16.d2e2600">
                         <cell change="#d2e597" xml:id="cell_61.d2e2602">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2604">١٨٧</tei:num> </cell><cell change="#d2e597" xml:id="cell_62.d2e2607"> <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2609">١٨</tei:num> </cell><cell change="#d2e597" xml:id="cell_63.d2e2612">ووضا</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2604">١٨٧</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_62.d2e2607"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="18" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2609">١٨</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_63.d2e2612">ووضا</cell>
                         <cell change="#d2e597" xml:id="cell_64.d2e2615">ورضا </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_17.d2e2620">
                         <cell change="#d2e597" xml:id="cell_65.d2e2622">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2624">١٨٧</tei:num> </cell><cell change="#d2e597" xml:id="cell_66.d2e2627"> <tei:num type="auto-markup" resp="#pers_TG" value="21" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2629">٢١</tei:num> </cell><cell change="#d2e597" xml:id="cell_67.d2e2632">أموالكم</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="187" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2624">١٨٧</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_66.d2e2627"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="21" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2629">٢١</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_67.d2e2632">أموالكم</cell>
                         <cell change="#d2e597" xml:id="cell_68.d2e2635">بأموالكم </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_18.d2e2639">
                         <cell change="#d2e597" xml:id="cell_69.d2e2641">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="188" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2643">١٨٨</tei:num> </cell><cell change="#d2e597" xml:id="cell_70.d2e2646"> <tei:num type="auto-markup" resp="#pers_TG" value="17" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2648">١٧</tei:num> </cell><cell change="#d2e597" xml:id="cell_71.d2e2651">وعظام</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="188" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2643">١٨٨</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_70.d2e2646"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="17" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2648">١٧</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_71.d2e2651">وعظام</cell>
                         <cell change="#d2e597" xml:id="cell_72.d2e2654">وأعظام </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_19.d2e2658">
                         <cell change="#d2e597" xml:id="cell_73.d2e2660">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="190" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2662">١٩٠</tei:num> </cell><cell change="#d2e597" xml:id="cell_74.d2e2665"> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2667">٣</tei:num> </cell><cell change="#d2e597" xml:id="cell_75.d2e2670">بعضم</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="190" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2662">١٩٠</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_74.d2e2665"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2667">٣</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_75.d2e2670">بعضم</cell>
                         <cell change="#d2e597" xml:id="cell_76.d2e2673">بعضهم </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_20.d2e2677">
                         <cell change="#d2e597" xml:id="cell_77.d2e2679">
-                             <tei:num type="auto-markup" resp="#pers_TG" value="194" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2681">١٩٤</tei:num> </cell><cell change="#d2e597" xml:id="cell_78.d2e2684"> <tei:num type="auto-markup" resp="#pers_TG" value="6" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2686">٦</tei:num> </cell><cell change="#d2e597" xml:id="cell_79.d2e2689">بداعة</cell>
+                             <tei:num type="auto-markup" resp="#pers_TG" value="194" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2681">١٩٤</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_78.d2e2684"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="6" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2686">٦</tei:num> 
+                  </cell>
+                  <cell change="#d2e597" xml:id="cell_79.d2e2689">بداعة</cell>
                         <cell change="#d2e597" xml:id="cell_80.d2e2692">براعة </cell>
                     </row>
                     <pb ed="print" facs="#facs_244" n="234" xml:id="pb_69.d1e2199"/>
                     <row role="data" xml:id="row_4.d1e2202">
-                        <cell xml:id="cell_10.d1e2204"> <tei:num type="auto-markup" resp="#pers_TG" value="194" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2702">١٩٤</tei:num> </cell>
-                        <cell xml:id="cell_11.d1e2207"> <tei:num type="auto-markup" resp="#pers_TG" value="10" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2708">١٠</tei:num> </cell>
+                        <cell xml:id="cell_10.d1e2204"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="194" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2702">١٩٤</tei:num> 
+                  </cell>
+                        <cell xml:id="cell_11.d1e2207"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="10" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2708">١٠</tei:num> 
+                  </cell>
                         <cell xml:id="cell_12.d1e2210">لاشدور</cell>
                         <cell xml:id="cell_13.d1e2213">لاشذوذ </cell>
                     </row>
                     <row role="data" xml:id="row_5.d1e2217">
-                        <cell xml:id="cell_14.d1e2219"> <tei:num type="auto-markup" resp="#pers_TG" value="197" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2724">١٩٧</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_86.d2e2728"> <tei:num type="auto-markup" resp="#pers_TG" value="16" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2730">١٦</tei:num> </cell>
+                        <cell xml:id="cell_14.d1e2219"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="197" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2724">١٩٧</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_86.d2e2728"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="16" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2730">١٦</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_87.d2e2734">هذ</cell>
                         <cell change="#d2e597" xml:id="cell_88.d2e2737">هذا </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_23.d2e2741">
-                        <cell change="#d2e597" xml:id="cell_89.d2e2743"> <tei:num type="auto-markup" resp="#pers_TG" value="197" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2745">١٩٧</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_90.d2e2749"> <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2751">١</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_89.d2e2743"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="197" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2745">١٩٧</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_90.d2e2749"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2751">١</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_91.d2e2755">قليلاً ماتتذكرون</cell>
                         <cell change="#d2e597" xml:id="cell_92.d2e2758">قليلاً ماتذكرون </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_24.d2e2762">
-                        <cell change="#d2e597" xml:id="cell_93.d2e2764"> <tei:num type="auto-markup" resp="#pers_TG" value="198" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2766">١٩٨</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_94.d2e2770"> <tei:num type="auto-markup" resp="#pers_TG" value="13" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2772">١٣</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_93.d2e2764"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="198" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2766">١٩٨</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_94.d2e2770"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="13" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2772">١٣</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_95.d2e2776">ووحدانية في الصفات</cell>
                         <cell change="#d2e597" xml:id="cell_96.d2e2779">ووحدانية الصفات </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_25.d2e2783">
-                        <cell change="#d2e597" xml:id="cell_97.d2e2785"> <tei:num type="auto-markup" resp="#pers_TG" value="199" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2787">١٩٩</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_98.d2e2791"> <tei:num type="auto-markup" resp="#pers_TG" value="19" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2793">١٩</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_97.d2e2785"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="199" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2787">١٩٩</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_98.d2e2791"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="19" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2793">١٩</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_99.d2e2797">في مدنية</cell>
                         <cell change="#d2e597" xml:id="cell_100.d2e2800">في مدينة </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_26.d2e2804">
-                        <cell change="#d2e597" xml:id="cell_101.d2e2806"> <tei:num type="auto-markup" resp="#pers_TG" value="213" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2808">٢١٣</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_102.d2e2812"> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2814">٣</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_101.d2e2806"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="213" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2808">٢١٣</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_102.d2e2812"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2814">٣</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_103.d2e2818">الذي</cell>
                         <cell change="#d2e597" xml:id="cell_104.d2e2821">التي </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_27.d2e2825">
-                        <cell change="#d2e597" xml:id="cell_105.d2e2827"> <tei:num type="auto-markup" resp="#pers_TG" value="214" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2829">٢١٤</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_106.d2e2833"> <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2835">١</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_105.d2e2827"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="214" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2829">٢١٤</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_106.d2e2833"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2835">١</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_107.d2e2839">فضلتكم</cell>
                         <cell change="#d2e597" xml:id="cell_108.d2e2842">فضيلتكم </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_28.d2e2847">
-                        <cell change="#d2e597" xml:id="cell_109.d2e2849"> <tei:num type="auto-markup" resp="#pers_TG" value="218" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2851">٢١٨</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_110.d2e2855"> <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2857">١</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_109.d2e2849"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="218" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2851">٢١٨</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_110.d2e2855"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="1" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2857">١</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_111.d2e2861">إن نبسة</cell>
                         <cell change="#d2e597" xml:id="cell_112.d2e2864">إن نسبة </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_29.d2e2868">
-                        <cell change="#d2e597" xml:id="cell_113.d2e2870"> <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2872">٢٢٢</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_114.d2e2876"> <tei:num type="auto-markup" resp="#pers_TG" value="15" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2878">١٥</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_113.d2e2870"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2872">٢٢٢</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_114.d2e2876"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="15" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2878">١٥</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_115.d2e2882">يالنساء</cell>
                         <cell change="#d2e597" xml:id="cell_116.d2e2885">بالنساء </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_30.d2e2889">
-                        <cell change="#d2e597" xml:id="cell_117.d2e2891"> <tei:num type="auto-markup" resp="#pers_TG" value="223" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2893">٢٢٣</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_118.d2e2897"> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2899">٣</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_117.d2e2891"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="223" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2893">٢٢٣</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_118.d2e2897"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2899">٣</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_119.d2e2903">قيطلقها</cell>
                         <cell change="#d2e597" xml:id="cell_120.d2e2906">فيطلقها </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_31.d2e2910">
-                        <cell change="#d2e597" xml:id="cell_121.d2e2912"> <tei:num type="auto-markup" resp="#pers_TG" value="225" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2914">٢٢٥</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_122.d2e2918"> <tei:num type="auto-markup" resp="#pers_TG" value="8" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2920">٨</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_121.d2e2912"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="225" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2914">٢٢٥</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_122.d2e2918"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="8" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2920">٨</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_123.d2e2924">منها</cell>
                         <cell change="#d2e597" xml:id="cell_124.d2e2927">منه </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_32.d2e2931">
-                        <cell change="#d2e597" xml:id="cell_125.d2e2933"> <tei:num type="auto-markup" resp="#pers_TG" value="226" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2935">٢٢٦</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_126.d2e2939"> <tei:num type="auto-markup" resp="#pers_TG" value="17" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2941">١٧</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_125.d2e2933"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="226" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2935">٢٢٦</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_126.d2e2939"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="17" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2941">١٧</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_127.d2e2945">للسننن</cell>
                         <cell change="#d2e597" xml:id="cell_128.d2e2948">للسنن </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_33.d2e2952">
-                        <cell change="#d2e597" xml:id="cell_129.d2e2954"> <tei:num type="auto-markup" resp="#pers_TG" value="218" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2956">٢١٨</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_130.d2e2960"> <tei:num type="auto-markup" resp="#pers_TG" value="9" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2962">٩</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_129.d2e2954"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="218" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2956">٢١٨</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_130.d2e2960"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="9" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2962">٩</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_131.d2e2966">يمكنهم</cell>
                         <cell change="#d2e597" xml:id="cell_132.d2e2969">يمكنهن </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_34.d2e2974">
-                        <cell change="#d2e597" xml:id="cell_133.d2e2976"> <tei:num type="auto-markup" resp="#pers_TG" value="219" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2978">٢١٩</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_134.d2e2982"> <tei:num type="auto-markup" resp="#pers_TG" value="19" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2984">١٩</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_133.d2e2976"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="219" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2978">٢١٩</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_134.d2e2982"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="19" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2984">١٩</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_135.d2e2988">إلى</cell>
                         <cell change="#d2e597" xml:id="cell_136.d2e2991">على </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_35.d2e2995">
-                        <cell change="#d2e597" xml:id="cell_137.d2e2997"> <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2999">٢٢٢</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_138.d2e3003"> <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e3005">٣</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_137.d2e2997"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e2999">٢٢٢</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_138.d2e3003"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="3" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e3005">٣</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_139.d2e3009">من وراء</cell>
                         <cell change="#d2e597" xml:id="cell_140.d2e3012">وراء </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_36.d2e3016">
-                        <cell change="#d2e597" xml:id="cell_141.d2e3018"> <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e3020">٢٢٢</tei:num> </cell>
-                        <cell change="#d2e597" xml:id="cell_142.d2e3024"> <tei:num type="auto-markup" resp="#pers_TG" value="10" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e3026">١٠</tei:num> </cell>
+                        <cell change="#d2e597" xml:id="cell_141.d2e3018"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="222" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e3020">٢٢٢</tei:num> 
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_142.d2e3024"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="10" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e3026">١٠</tei:num> 
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_143.d2e3030">زاب</cell>
                         <cell change="#d2e597" xml:id="cell_144.d2e3033">ذاب </cell>
                     </row>
                     <row role="data" change="#d2e597" xml:id="row_37.d2e3037">
-                        <cell change="#d2e597" xml:id="cell_145.d2e3039"> <tei:num type="auto-markup" resp="#pers_TG" value="229" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e3041">٢٢٩</tei:num>  </cell>
-                        <cell change="#d2e597" xml:id="cell_146.d2e3045"><tei:num value="11" xml:id="num_1.d1e1832" xml:lang="ar">١١</tei:num></cell>
+                        <cell change="#d2e597" xml:id="cell_145.d2e3039"> 
+                     <tei:num type="auto-markup" resp="#pers_TG" value="229" xml:lang="ar" change="#d2e597" xml:id="num_41.d2e3041">٢٢٩</tei:num>  
+                  </cell>
+                        <cell change="#d2e597" xml:id="cell_146.d2e3045">
+                     <tei:num value="11" xml:id="num_1.d1e1832" xml:lang="ar">١١</tei:num>
+                  </cell>
                         <cell change="#d2e597" xml:id="cell_147.d2e3049">تحدس</cell>
                         <cell change="#d2e597" xml:id="cell_148.d2e3052">تحدث </cell>
                     </row>

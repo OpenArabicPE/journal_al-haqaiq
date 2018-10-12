@@ -6,11 +6,14 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName xml:id="persName_1.d1e24" xml:lang="ar">
+                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="viaf:4795364" change="#d4e367">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir al-Iskandarānī</persName>
+                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e367">
+                  <forename xml:lang="ar-Latn-x-ijmes" change="#d2e390" xml:id="forename_2.d2e37">ʿAbd al-Qādir</forename>
+                  <surname xml:lang="ar-Latn-x-ijmes" change="#d2e390" xml:id="surname_2.d2e40">al-Iskandarānī</surname>
+               </persName>
                 </author>
                 <respStmt xml:id="respStmt_1.d1e37" xml:lang="en">
                     <resp xml:id="resp_1.d1e39" xml:lang="en">Transcription</resp>
@@ -48,7 +51,7 @@
                   <idno type="oclc" xml:lang="en" change="#d2e356" xml:id="idno_4.d2e117">145289742</idno>
                   <idno type="epub" xml:lang="en" change="#d2e356" xml:id="idno_5.d2e120">urn:uuid:381100bcebe62d09ade63dd41b7ddd38</idno>
                   <idno type="shamela" xml:lang="en" change="#d2e356" xml:id="idno_6.d2e123">29676</idno>
-<idno type="zenodo" xml:lang="en" change="#d2e356" xml:id="idno_7.d2e126">52619834</idno>
+                  <idno type="zenodo" xml:lang="en" change="#d2e356" xml:id="idno_7.d2e126">52619834</idno>
                   <editor ref="viaf:4795364" xml:lang="en" change="#d2e356" xml:id="editor_1.d2e129">
                             <persName ref="viaf:4795364" xml:lang="ar" change="#d2e356" xml:id="persName_6.d2e131">
                                 <forename xml:lang="ar" change="#d2e356" xml:id="forename_2.d2e133">عبد القادر</forename>
@@ -80,7 +83,13 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e356" xml:id="xi:include_1.d2e185"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e356" xml:id="xi:include_2.d2e187"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-09-30" who="#pers_TG" xml:id="d2e356" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><change when="2018-05-23" who="#pers_TG" xml:id="d2e346" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e192">num</tei:gi> node in <tei:gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e195">date</tei:gi>.</change><tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e335" xml:lang="en">Added references to GeoNames IDs to <tei:gi change="#d2e356" xml:id="gi_1.d2e200">placeName</tei:gi>s without such references based on  <tei:gi change="#d2e356" xml:id="gi_1.d2e203">place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e356" xml:id="ref_1.d2e206">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-04-30" who="#pers_TG" xml:id="d2e323">Added automated page numbers as <att change="#d2e356" xml:id="att_1.d2e211">n</att>s and <att change="#d2e356" xml:id="att_2.d2e214">ed</att>="print" for every<gi change="#d2e356" xml:id="gi_1.d2e217">pb</gi> that was not of <att change="#d2e356" xml:id="att_3.d2e220">ed</att>="shamela".</change><change when="2018-04-27" who="#pers_TG" change="#d2e356" xml:id="change_3.d2e223">Replaced <gi change="#d2e356" xml:id="gi_2.d2e225">encodingDesc</gi> and <gi change="#d2e356" xml:id="gi_3.d2e228">profileDesc</gi>with XPointers pointing to a master file.</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-10-12" who="#pers_TG" xml:id="d2e390" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+         <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e367" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e390" xml:id="gi_1.d2e199">persName</tei:gi>s without such references based on  <tei:gi change="#d2e390" xml:id="gi_1.d2e202">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e390" xml:id="ref_1.d2e205">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
+         <change when="2018-09-30" who="#pers_TG" xml:id="d2e356" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e390" xml:id="att_1.d2e211">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e390" xml:id="gi_1.d2e214">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e390" xml:id="att_1.d2e217">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+         <change when="2018-05-23" who="#pers_TG" xml:id="d2e346" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e192">num</tei:gi> node in <tei:gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e195">date</tei:gi>.</change>
+         <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e335" xml:lang="en">Added references to GeoNames IDs to <tei:gi change="#d2e356" xml:id="gi_1.d2e200">placeName</tei:gi>s without such references based on  <tei:gi change="#d2e356" xml:id="gi_1.d2e203">place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e356" xml:id="ref_1.d2e206">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
+         <change when="2018-04-30" who="#pers_TG" xml:id="d2e323">Added automated page numbers as <att change="#d2e356" xml:id="att_1.d2e211">n</att>s and <att change="#d2e356" xml:id="att_2.d2e214">ed</att>="print" for every<gi change="#d2e356" xml:id="gi_1.d2e217">pb</gi> that was not of <att change="#d2e356" xml:id="att_3.d2e220">ed</att>="shamela".</change>
+         <change when="2018-04-27" who="#pers_TG" change="#d2e356" xml:id="change_3.d2e223">Replaced <gi change="#d2e356" xml:id="gi_2.d2e225">encodingDesc</gi> and <gi change="#d2e356" xml:id="gi_3.d2e228">profileDesc</gi>with XPointers pointing to a master file.</change>
             <tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected 
                 <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi>
                 by moving all 
@@ -163,8 +172,11 @@
                     <monogr xml:id="monogr_2.d1e471" xml:lang="ar">
                         <title level="j" xml:id="title_8.d1e473" xml:lang="ar">الحقائق</title>
                         <editor ref="viaf:4795364" xml:id="editor_2.d1e476" xml:lang="ar">
-                            <persName xml:id="persName_7.d1e478" xml:lang="ar">عبد القادر الإسكندراني</persName>
-                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes">
+                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="viaf:4795364" change="#d4e367">
+                        <forename xml:lang="ar" change="#d2e390" xml:id="forename_5.d2e412">عبد القادر</forename>
+                        <surname xml:lang="ar" change="#d2e390" xml:id="surname_5.d2e415">الإسكندراني</surname>
+                     </persName>
+                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e367">
                                 <forename xml:id="forename_2.d1e483" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_2.d1e486" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -179,10 +191,12 @@
                                 -  
                                 <tei:num value="12" xml:id="num_1.d1e547" xml:lang="ar">١٢</tei:num>
                                 -  
-                                <tei:num value="1912" xml:id="num_1.d1e550" xml:lang="ar">١٩١٢</tei:num></date>
+                                <tei:num value="1912" xml:id="num_1.d1e550" xml:lang="ar">١٩١٢</tei:num>
+                     </date>
                         </imprint>
                         <biblScope from="23" to="23" unit="issue" xml:id="biblScope_1.d1e505" xml:lang="ar">العدد  
-                            <tei:num value="23" xml:id="num_1.d1e556" xml:lang="ar">٢٣</tei:num></biblScope>
+                            <tei:num value="23" xml:id="num_1.d1e556" xml:lang="ar">٢٣</tei:num>
+                  </biblScope>
                         <biblScope from="x" to="y" unit="page" xml:id="biblScope_2.d1e508"/>
                     </monogr>
                 </biblStruct>
@@ -192,13 +206,15 @@
             <head xml:id="head_1.d1e517" xml:lang="ar">
                 <bibl xml:id="bibl_1.d1e519" xml:lang="ar">
                     <biblScope from="23" to="23" unit="issue" xml:id="biblScope_3.d1e521" xml:lang="ar">العدد  
-                        <tei:num value="23" xml:id="num_1.d1e575" xml:lang="ar">٢٣</tei:num></biblScope>
+                        <tei:num value="23" xml:id="num_1.d1e575" xml:lang="ar">٢٣</tei:num>
+               </biblScope>
                     <date when="1912-12-10" xml:id="date_12.d1e524" xml:lang="ar">بتاريخ:  
                         <tei:num value="10" xml:id="num_1.d1e581" xml:lang="ar">١٠</tei:num>
                         -  
                         <tei:num value="12" xml:id="num_1.d1e584" xml:lang="ar">١٢</tei:num>
                         -  
-                        <tei:num value="1912" xml:id="num_1.d1e587" xml:lang="ar">١٩١٢</tei:num></date>
+                        <tei:num value="1912" xml:id="num_1.d1e587" xml:lang="ar">١٩١٢</tei:num>
+               </date>
                 </bibl>
             </head>
             <pb change="#d2e323 #d2e356" ed="print" n="1" xml:id="pb_1.d2e447"/>
@@ -215,7 +231,8 @@
                         تعالى.</p>
                 <p xml:id="p_18.d1e545" xml:lang="ar">وفي الختام نكرر رجاءنا لأهل العلم والفضل أن يمدونا بأفكارهم وآثار أقلامهم والله نسأل أن يزيد بصحيفتنا النفع ويعظم بها الأجر إنه ولي التوفيق.
                     <pb change="#d2e323 #d2e356" ed="print" n="3" xml:id="pb_4.d2e469"/>
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P720.xhtml" ed="shamela" n="n23-p2" xml:id="pb_2.d1e547"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P720.xhtml" ed="shamela" n="n23-p2" xml:id="pb_2.d1e547"/>
+            </p>
             </div>
             <div type="article" xml:id="div_3.d1e551" xml:lang="ar">
                 <head xml:id="head_3.d1e553" xml:lang="ar">الدين الإسلامي والتوحيد</head>
@@ -285,7 +302,8 @@
                         أحبهم ومن أبغضهم فببغضي أبغضهم إلخ.</p>
                 <p xml:id="p_32.d1e601" xml:lang="ar">ولا يخفى ترجيح رتبة مكن لازمه صلى الله عليه وسلمة وقاتل معه وقتل تحت رايته على من لم يكن كذلك وأفضل الصحابة النفر الذي ولي الخلافة العمى وهم أبو بكر وعمر وعثمان وعلي رضي الله عنهم وشأنهم في ترتيبهم في الفضل على حسب ترتيبهم في الخلافة ويدل على ذلك حديث بن عمر رضي الله عنه المخرج عند الطبراني كنا نقول ورسول الله صلى الله عليه وسلم حي أفضل هذه الأمة بعد نبيها أبو بكر ثم عمر ثم عثمان ثم علي فلم ينكره صلى الله عليه وسلم.
                     <pb change="#d2e323 #d2e356" ed="print" n="7" xml:id="pb_11.d2e542"/>
-                    <pb change="#d2e323 #d2e356" ed="print" n="8" xml:id="pb_12.d2e544"/></p>
+                    <pb change="#d2e323 #d2e356" ed="print" n="8" xml:id="pb_12.d2e544"/>
+            </p>
                 <p xml:id="p_33.d1e604" xml:lang="ar">قال السعد التفتازاني على هذا وجدنا السلف والخلف ثم يلي الخلفاء ال
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_3.d1e729" xml:lang="ar">أربع</num>
                     في
@@ -314,7 +332,8 @@
                         القرن الثالث لحديث البخاري ومسلم عن عمر أن أبن حصين وبن مسعود رضي الله عنهما
                         قال صلى الله عليه وسلم خير الناس قرنى ثم الذين يلونهم ثم الذين يلونهم. يتبع
                             
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P724.xhtml" ed="shamela" n="n23-p6" xml:id="pb_6.d1e611"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P724.xhtml" ed="shamela" n="n23-p6" xml:id="pb_6.d1e611"/>
+            </p>
             </div>
             <div type="article" xml:id="div_4.d1e616" xml:lang="ar">
                 <head xml:id="head_4.d1e618" xml:lang="ar">الخط العربي</head>
@@ -385,12 +404,23 @@
                     وشكلته وقيدته وهذا كتاب غفل كقولك دابة غفل إذ لم يكن موسوماً والسجل كتاب العهد وتقول أمليت الكتاب وأمللته واستملة إذا سأل الإملاء والزبور والرقيم الكتاب وزبرت ورقمت كتبت وقرمطت قاربت بين الحروف مأخوذ من القرمطة وهي دقة الكتابة وسحيت الكتاب سحياً إذا قلعت منه سحاية وهي القشرة تأخذها عن القرطاس وخزمته ثقبته وحزمته شددته ويقال تربت الكتاب وأتربته وتربته وختمته ومنونته وأرخته تاريخاً وهذه إضبارة من كتب أي حزمة منها وإضمامة والكراسة ما تكرست أوراقه وتلبدت واحدة الكراس والكراريس وهي الجزء من الصحيفة والمصحف سمي مصحفاً لأنه أصحف أي جعل جامعاً للصحف المكتوبة بين الدفتين وهما اللوحان اللذان يكتنفانه وله الغلاف وفيه العروتان والمحبرة والحبرية التي فيها الحبر وهو الزاج والرشق صوت القلم وحصرم القلم براه والمرقم كمنبر هو القلم ومثل ذلك بكثير في كتب اللغة والأدب مما يرشدك إلى أم الكتابة كانت منتشرة في العرب بدليل استعمال ما تقدم من الألفاظ الموضوعة لآلات ا
                     <pb change="#d2e323 #d2e356" ed="print" n="13" xml:id="pb_22.d2e666"/>
                     لكتابة وما يتعلق بهذه الصناعة ولم يكن للعرب القرطاس المعهود اليوم بل كان عندهم كل ما يمكن أن يكتب عليه كالرق وربما كانوا يكتبون على العُسب والجريد وماشاكل ذلك وإنما حدث الكاغد (القرطاس) في زمن الملوك العباسية بإشارة الفضل بن يحيى زوكتب فيه رسائل السلطان وصكوكه واتخذه الناس من بعده صحفاً لمكتوباتهم العلمية والسلطانية وبلغت الإجادةة في صناعته ما شاءت كما بسطه ابن خلدون في مقدمته والله أعلم. 
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P728.xhtml" ed="shamela" n="n23-p10" xml:id="pb_10.d1e675"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P728.xhtml" ed="shamela" n="n23-p10" xml:id="pb_10.d1e675"/>
+            </p>
             </div>
             <div type="article" xml:id="div_5.d1e679" xml:lang="ar">
                 <head xml:id="head_5.d1e681" xml:lang="ar">دليل نبوة سيدنا محمد صلى الله عليه وسلم</head>
-                <p xml:id="p_44.d1e687" xml:lang="ar"><bibl change="#d2e356" xml:id="bibl_2.d2e677">من مقال للكاتب الشهير <author change="#d2e356" xml:id="author_2.d2e679"><persName change="#d2e356" xml:id="persName_10.d2e680">محمد قريد بك وجدي</persName></author></bibl></p>
-                <p xml:id="p_45.d1e690" xml:lang="ar">قال <persName change="#d2e356" xml:id="persName_11.d2e685">كارلايل</persName> الفيلسوف الإنكليزي الشهير الذي يعد أكبر الإنكليز بعد <persName ref="viaf:96994048" xml:id="persName_9.d1e858" xml:lang="en-Arab-AR"> <surname xml:id="surname_5.d1e859">شكسبير</surname></persName>(توفي <tei:date change="#d2e346 #d2e356" type="auto-markup" when="1881" xml:id="date_4.d2e693">سنة <tei:num value="1881" xml:id="num_1.d1e759" xml:lang="ar">١٨٨١</tei:num></tei:date> ) م قال في إقامة الدليل على نبوة محمد صلى الله عليه وسلم في كتابه الأبطال وديانة الأبطال ما معناه:</p>
+                <p xml:id="p_44.d1e687" xml:lang="ar">
+               <bibl change="#d2e356" xml:id="bibl_2.d2e677">من مقال للكاتب الشهير <author change="#d2e356" xml:id="author_2.d2e679">
+                     <persName change="#d2e356" xml:id="persName_10.d2e680">محمد قريد بك وجدي</persName>
+                  </author>
+               </bibl>
+            </p>
+                <p xml:id="p_45.d1e690" xml:lang="ar">قال <persName change="#d2e356 #d4e367" xml:id="persName_11.d2e685" ref="viaf:39390702">
+                  <surname change="#d2e19579 #d2e23203 #d2e390" xml:lang="en-Arab-AR" xml:id="surname_7.d2e740">كارلايل</surname>
+               </persName> الفيلسوف الإنكليزي الشهير الذي يعد أكبر الإنكليز بعد <persName ref="viaf:96994048" xml:id="persName_9.d1e858" xml:lang="en-Arab-AR"> 
+                  <surname xml:id="surname_5.d1e859">شكسبير</surname>
+               </persName>(توفي <tei:date change="#d2e346 #d2e356" type="auto-markup" when="1881" xml:id="date_4.d2e693">سنة <tei:num value="1881" xml:id="num_1.d1e759" xml:lang="ar">١٨٨١</tei:num>
+               </tei:date> ) م قال في إقامة الدليل على نبوة محمد صلى الله عليه وسلم في كتابه الأبطال وديانة الأبطال ما معناه:</p>
                 <p xml:id="p_46.d1e693" xml:lang="ar">(لو جاءك رجل فادعى لك أنه بناءً فماذا تطلب من الأدلة على زعمه ذلك أكثر من أن بيني ذلك بيتاً مشيد الدعائم ثابت الأركان. ثم ماذا كنت قائلاً لو بني ذلك البيت من السعة بحيث يسع نحو 
                     <num resp="#pers_TG" subtype="d3" type="auto-markup" value="100" xml:id="num_17.d1e868" xml:lang="ar">مائة</num>
                     و
@@ -432,7 +462,8 @@
                     إلى ضدها أو ترتكس طبيعته إلى نقيضها هل تبدلت سنة الخليقة، هل تحولت نواميس الطبيعة. 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P730.xhtml" ed="shamela" n="n23-p12" xml:id="pb_12.d1e704"/>
                     أما فرض أنه كان متظاهراً بتلك الخلال الكريمة والصفات القويمة رياءً فأوهى أمام الامتحان من الفرض الأول. لأن الرياء صفة النفوس المنحطة وديدن أصحاب القلوب الخوارة وهي خصلة عالية وصبغة ظاهرية إن استترت حيناً انكشفت بعده لا محالة بطبيعتها لأن الرياء لما كان حبالة لصيد أو وسيلة لكيد فهو ثوب مستعار تنفعل له النفس انفعالاً ما دام فيها أمل للوصول إليه ويكون شأنه كشأن سائر الصفات العارية من التلاشي أمام العوارض الفجائية والزوال أمام المخاوف الطاءرة! فصاحب هذا الحال يكون دائماً مضطرباً مذبذباً يكاد يظن أن نفسه تنم عليه! ثم إن حوادث الحياة وطوارق الحدثان وماجريات الأحوال كاشفات للغش فاضحات للتدليس فلا تجد مرائياً بالزهد أو بالشجاعة أو بالكرم إلا وقد فضح أشنع فضيحة أمام الناس لا سيما إن كان متعرضاً للحوادث يعالجها أو متصدياً للخلائق يكافحها! ومن أبعد الفروض عن العقل أن يدعي مدع إمكان الثبات على مثل هذا الرياء حياة بأكملها لأن المراآة لا تكون إلا نيل غرض فإن حصل ذلك الغرض عاجلاً أو آجلاً ضعفت المراآة وشفت عما وراءها من التمويه لأن نفس المرائي لا تكون عادة إلا نفساً منحطة سافلة يستطيرها بارق الأمل ويزدهيبها ظاهر النجاح فتفتضح سنة الله في خلقه ليتميز الحق من الباطل.
-                    <pb change="#d2e323 #d2e356" ed="print" n="17" xml:id="pb_29.d2e756"/></p>
+                    <pb change="#d2e323 #d2e356" ed="print" n="17" xml:id="pb_29.d2e756"/>
+            </p>
                 <p xml:id="p_49.d1e707" xml:lang="ar">أما الفرض الثالث وهو أنه استطاع أن يكتم رياءه على أخص أصحابه ونسائه. فهذا
                         الفرض أضعف أمام التمحيص من سابقيه لأن تاريخه دلنا أن كل صاحب أصحابه مثله فمن
                         كانوا من أصحاب التدليس يكون لهم أخصاء على شاكلتهم يعاونونهم على نيل بغيتهم
@@ -487,11 +518,16 @@
                         العالمين وإمام الأنبياء الصالحين وخاتم رسل الله المخلصين وأنه أرسل رحمة
                         للعالمين، بكتاب من عند الله مبين سيكون كتاب الناس أجمعين ولتعلمن نبأه بعد
                         حين.</p>
-<byline change="#d2e356" xml:id="byline_1.d2e806">(<persName change="#d2e356" xml:id="persName_13.d2e808">فريد وجدي</persName>)</byline>
-            </div><pb change="#d2e323 #d2e356" ed="print" n="20" xml:id="pb_34.d2e812"/><pb corresp="file:../epub/29676/OEBPS/xhtml/P733.xhtml" ed="shamela" n="n23-p15" xml:id="pb_15.d1e738"/>
+            <byline change="#d2e356" xml:id="byline_1.d2e806">(<persName change="#d2e356 #d4e367" xml:id="persName_13.d2e808" ref="viaf:53094077">
+                  <forename xml:lang="ar" change="#d2e390" xml:id="forename_7.d2e869">فريد</forename>
+                  <surname xml:lang="ar" change="#d2e390" xml:id="surname_9.d2e872">وجدي</surname>
+               </persName>)</byline>
+            </div>
+         <pb change="#d2e323 #d2e356" ed="print" n="20" xml:id="pb_34.d2e812"/>
+         <pb corresp="file:../epub/29676/OEBPS/xhtml/P733.xhtml" ed="shamela" n="n23-p15" xml:id="pb_15.d1e738"/>
             <div type="article" xml:id="div_6.d1e742" xml:lang="ar">
                 <head xml:id="head_6.d1e744" xml:lang="ar">حكم أخلاقية</head>
-<byline change="#d2e356" xml:id="byline_2.d2e820">جاءنا من حضرة العالم الفاضل التقي الشيخ <persName change="#d2e356" xml:id="persName_14.d2e822">عارف أفندي المحملجي</persName> قصيدة أخلاقية غراء نقتطف منها ما يأتي، قال في مطلعها:</byline>
+            <byline change="#d2e356" xml:id="byline_2.d2e820">جاءنا من حضرة العالم الفاضل التقي الشيخ <persName change="#d2e356" xml:id="persName_14.d2e822">عارف أفندي المحملجي</persName> قصيدة أخلاقية غراء نقتطف منها ما يأتي، قال في مطلعها:</byline>
                 <lg xml:id="lg_3.d1e750" xml:lang="ar">
                     <l type="bayt" xml:id="l_3.d1e752" xml:lang="ar">
                         <seg xml:id="seg_5.d1e754" xml:lang="ar">افتتح الظلم يا إلهي </seg>
@@ -642,7 +678,8 @@
                     <gap resp="#org_MS" xml:id="gap_1.d1e1082"/>
                     ولاحظ الشرع حيث كنت 
                     <pb change="#d2e323 #d2e356" ed="print" n="22" xml:id="pb_37.d2e1162"/>
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P735.xhtml" ed="shamela" n="n23-p17" xml:id="pb_16.d1e1084"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P735.xhtml" ed="shamela" n="n23-p17" xml:id="pb_16.d1e1084"/>
+            </p>
             </div>
             <div type="article" xml:id="div_7.d1e1088" xml:lang="ar">
                 <head xml:id="head_7.d1e1090" xml:lang="ar">العمامة في الإسلام</head>
@@ -690,8 +727,11 @@
                     </l>
                 </lg>
                 <p xml:id="p_68.d1e1129" xml:lang="ar">على أن المسئلة لو لم يكن فيها نص كان العقل يقضي علينا باتباع عادة قومنا وبلادنا والمحافظة على أزيائنا إذ لا يخفي ما في ذلك من تقوية الرابطة القومية. هؤلاء الغربيون يأتون بلادنا ويقيمون فيها محافظين على ملابسهم وأخلاقهم وعاداتهم وكنا نستبشع ملابسهم ولم يزل البعض منا يكره ذك منهم وهم لا يغيرون عادة بلادهم وقومهم وإن كانت مستقبحة في حد ذاتها وبالعكس بعض شبابنا أليس هذا شيء عجيب؟ وحيث ثبت أن العمامة سنة <pb change="#d2e323 #d2e356" ed="print" n="25" xml:id="pb_42.d2e1217"/> من سنن الإسلام فتركها مكروه ونسئل الله أن يلهمنا رشدنا وأن يوفقنا لاتباع أوامره <pb corresp="file:../epub/29676/OEBPS/xhtml/P737.xhtml" ed="shamela" n="n23-p19" xml:id="pb_18.d1e1131"/> والمحافظة على التمسك بحبل شريعته والحمد لله رب العالمين. </p>
-<byline change="#d2e356" xml:id="byline_3.d2e1222"><persName change="#d2e356" xml:id="persName_15.d2e1223">صلاح الدين الزعيم</persName></byline>
-            </div><pb corresp="file:../epub/29676/OEBPS/xhtml/P738.xhtml" ed="shamela" n="n23-p20" xml:id="pb_19.d1e1136"/>
+            <byline change="#d2e356" xml:id="byline_3.d2e1222">
+               <persName change="#d2e356" xml:id="persName_15.d2e1223">صلاح الدين الزعيم</persName>
+            </byline>
+            </div>
+         <pb corresp="file:../epub/29676/OEBPS/xhtml/P738.xhtml" ed="shamela" n="n23-p20" xml:id="pb_19.d1e1136"/>
             <div type="article" xml:id="div_8.d1e1140" xml:lang="ar">
                 <head xml:id="head_8.d1e1142" xml:lang="ar">حالتنا وفساد الأخلاق</head>
                 <p xml:id="p_70.d1e1145" xml:lang="ar">قلما ترى أحداً من العقلاء المفكرين غير شاكٍ مما آلت إليه حالة المسلمين اليوم
@@ -763,14 +803,18 @@
                         عاصمة خلافتهم وهم على ما هم عليه من تفرق الكلمة وفساد الأخلاق والاشتغال
                         بالخصوصيات.</p>
                 <p xml:id="p_90.d1e1212" xml:lang="ar">أما آن لهم أن يتوبوا من ذنبهم ويرجعوا إلى ربهم ويتناسوا أحقادهم؟ ويجتمعوا على ما فيه مصلحتهم وحفظ دينهم ووطنهم واستقلالهم ليبرهنوا على أنهم نسل أولئك الأسلاف الذين تطأطيء لهم الرؤوس إجلالاً كلما ذكرت أعمالهم الجليلة وآثارهم الباقية.
-                    <pb change="#d2e323 #d2e356" ed="print" n="29" xml:id="pb_50.d2e1312"/></p>
+                    <pb change="#d2e323 #d2e356" ed="print" n="29" xml:id="pb_50.d2e1312"/>
+            </p>
                 <p xml:id="p_91.d1e1215" xml:lang="ar">اللهم خذ بيد هذه الأمة إلى ما فيه صلاحها واصرف عنها كيد الكافرين إنك
                         بالمؤمنين لطيف رحيم. 
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P741.xhtml" ed="shamela" n="n23-p23" xml:id="pb_22.d1e1217"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P741.xhtml" ed="shamela" n="n23-p23" xml:id="pb_22.d1e1217"/>
+            </p>
             </div>
             <div type="article" xml:id="div_9.d1e1221" xml:lang="ar">
                 <head xml:id="head_9.d1e1223" xml:lang="ar">خواطر</head>
-                <p xml:id="p_92.d1e1226" xml:lang="ar"><bibl change="#d2e356" xml:id="bibl_3.d2e1325">قرأنا في مجلة العثماني الغراء القصيدة الفريدةو فاقتطفنا منها ما يأتي حباً بالنفع والفائدة.</bibl></p>
+                <p xml:id="p_92.d1e1226" xml:lang="ar">
+               <bibl change="#d2e356" xml:id="bibl_3.d2e1325">قرأنا في مجلة العثماني الغراء القصيدة الفريدةو فاقتطفنا منها ما يأتي حباً بالنفع والفائدة.</bibl>
+            </p>
                 <p xml:id="p_93.d1e1229" xml:lang="ar">قال:</p>
                 <lg xml:id="lg_6.d1e1232" xml:lang="ar">
                     <l type="bayt" xml:id="l_39.d1e1234" xml:lang="ar">
@@ -911,7 +955,8 @@
                 <p xml:id="p_98.d1e1534" xml:lang="ar">فالناس بين تخلق وتملق 
                     <gap resp="#org_MS" xml:id="gap_2.d1e1536"/>
                     عرجوا المعارج للحظوظ فباؤُا 
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P743.xhtml" ed="shamela" n="n23-p25" xml:id="pb_23.d1e1538"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P743.xhtml" ed="shamela" n="n23-p25" xml:id="pb_23.d1e1538"/>
+            </p>
             </div>
             <div type="article" xml:id="div_10.d1e1543" xml:lang="ar">
                 <head xml:id="head_10.d1e1545" xml:lang="ar">لا حياة لنا ما دمنا واثقين بأوروبا</head>
@@ -944,7 +989,8 @@
                     <pb change="#d2e323 #d2e356" ed="print" n="34" xml:id="pb_58.d2e1679"/>
                     أبناءها وتحفظ رجالها ومسيحيو الكريديين يذبحون المسلمين في عقر دورهم وفي وسط بيوتهم وفي رواجهم وغدوهم وهم ينظرون إليهم ويتغاضون عن أعمالهم أتصدقون بأن رجال أوروبا أهل وفاء وصدق إذاً لماذا نقضوا أكثر المعاهدات التي جرت بينهم وبين حكومتنا العلية. هذه معاهدة باريز التي عقدت في 
                     <tei:num value="30" xml:id="num_1.d1e1635" xml:lang="ar">٣٠</tei:num>
-                    مارس <tei:date when="1856" type="auto-markup" change="#d2e346 #d2e356" xml:id="date_4.d2e1685">سنة <tei:num value="1856" xml:id="num_1.d1e1638" xml:lang="ar">١٨٥٦</tei:num></tei:date>
+                    مارس <tei:date when="1856" type="auto-markup" change="#d2e346 #d2e356" xml:id="date_4.d2e1685">سنة <tei:num value="1856" xml:id="num_1.d1e1638" xml:lang="ar">١٨٥٦</tei:num>
+               </tei:date>
                     بعد أن وقع عليها 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P745.xhtml" ed="shamela" n="n23-p27" xml:id="pb_25.d1e1565"/>
                     من طرف فرنسا وانكلترا وسردينيا وألمانيا والروسيا وأصبحت حبراً على ورق. فقد جاء في المادة الأولى منها ما نصه:</p>
@@ -995,7 +1041,8 @@
                     على الشرائع ومخالفتهم لما جاءت به الأديان، وجشعهم وطمعهم وظلمهم وجورهم وتعصبهم وحقدهم وقساوة قلوبهم وسفكهم لدماء الأبرياء - لمما يوجب عليهم السخط والمقت من الإله القادر الحكيم وهو مما ينزع هذه القوة من أيديهم ويديل دولتهم ويجعل الدائرة عليهم. وهو أيضاً مما يوجب فرح الدولة وعامة رعاياها لأن بعد العسر اليسر وعقب الشدة الفرج. ولا بد أن ينتبه المسلمون من غفلتهم وينزعوا حب أوروبا من قلوبهم ويبرؤا إلى الله من الثقة بها ويعلموا أنه لاينفعهم إلا عملهم ولا يرفع ذكرهم إلا اجتهادهم ويجعل آمرهم ومأمورهم وحاكمهم ومحكومهم وغنيهم وفقيرهم وصغيرهم وكبيرهم نصب عينيه قول الله تعالى: (وأعدوا لهم ما استطعتم من قوة ومن رباط الخيل ترهبون به عدو الله وعدوكم) فيلبوا داعي الحكومة كلما دعاهم إلى مساعدتها ويعملوا يداً واحدة على معاضدتهم ومؤازرتها.</p>
                 <p xml:id="p_115.d1e1607" xml:lang="ar">وفي الختام نكرر ما ذكرناه ونجهر بما قدمناه وهو أنه لا حياة لنا ما دمنا واثقين بأوروبا. فيجب أن ننزع ثقتنا بهم ونمتثل قول الله تعالى بإعداد ما استطعنا لهم من قوة وننبذ التفرنج في اللباس والمتاع والكلام وسائر الأعمال كبيرنا وصغيرنا وآمرنا ومأمورنا في ذلك سواء وحينئذ ينقلب شكل هيئتنا من شكل أوروبي إلى شكل إسلامي فنفلح وننجح ونتقدم ونربح ونعيد لبلادنا مجدها السابق وعزها الغابر. والله الفعال لما يختار.
                     <pb change="#d2e323 #d2e356" ed="print" n="38" xml:id="pb_65.d2e1746"/>
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P748.xhtml" ed="shamela" n="n23-p30" xml:id="pb_28.d1e1609"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P748.xhtml" ed="shamela" n="n23-p30" xml:id="pb_28.d1e1609"/>
+            </p>
             </div>
             <div type="article" xml:id="div_11.d1e1613" xml:lang="ar">
                 <head xml:id="head_11.d1e1615" xml:lang="ar">كلمة قارصة</head>
@@ -1016,7 +1063,8 @@
                     <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_42.d1e1882" xml:lang="ar">عشر</num>
                     ألفاً من أهالي طرابلس الغرب وبنغازي لم يقترفوا ذنباً.</p>
                 <p xml:id="p_119.d1e1627" xml:lang="ar">تتداخل أوروبا في شؤوننا من أجل حماية اشخاص هم من رعايانا ولا يمكنونا من التداخل في شؤون أنفسنا من أجل الدفاع عن بلادنا واستقلالنا وأخواننا.
-                    <pb change="#d2e323 #d2e356" ed="print" n="39" xml:id="pb_67.d2e1773"/></p>
+                    <pb change="#d2e323 #d2e356" ed="print" n="39" xml:id="pb_67.d2e1773"/>
+            </p>
                 <lg xml:id="lg_11.d1e1631" xml:lang="ar">
                     <l type="bayt" xml:id="l_69.d1e1633" xml:lang="ar">
                         <seg xml:id="seg_137.d1e1635" xml:lang="ar">(ابعد هذا التناهي في تعصبهم </seg>
@@ -1052,46 +1100,93 @@
                     </l>
                 </lg>
                 <p xml:id="p_120.d1e1707" xml:lang="ar">(البرهان) 
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P749.xhtml" ed="shamela" n="n23-p32" xml:id="pb_29.d1e1709"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P749.xhtml" ed="shamela" n="n23-p32" xml:id="pb_29.d1e1709"/>
+            </p>
             </div>
             <div type="section" xml:id="div_12.d1e1713" xml:lang="ar">
-<head xml:id="head_12.d1e1715" xml:lang="ar">إجابة طلب المؤيد</head>
-<div type="item" change="#d2e356" xml:id="div_12.d2e1862">
-<lg xml:id="lg_12.d1e1718" xml:lang="ar">
-<l type="bayt" xml:id="l_77.d1e1720" xml:lang="ar"> <seg xml:id="seg_153.d1e1722" xml:lang="ar">وطئت وحقك أزمة في نعلها </seg> <seg xml:id="seg_154.d1e1725" xml:lang="ar">حراً أخا نفس يضن بذلها</seg> </l>
-<l type="bayt" xml:id="l_78.d1e1729" xml:lang="ar"> <seg xml:id="seg_155.d1e1731" xml:lang="ar">وبك استغاث فجد عليه بحلها </seg> <seg xml:id="seg_156.d1e1734" xml:lang="ar">(يا مصطفى قبل العوالم كلها)</seg> </l>
-</lg>
-<p xml:id="p_121.d1e1739" xml:lang="ar">(والكون لم يبرز من التكوين)</p>
-<lg xml:id="lg_13.d1e1742" xml:lang="ar">
-<l type="bayt" xml:id="l_79.d1e1744" xml:lang="ar"> <seg xml:id="seg_157.d1e1746" xml:lang="ar">ضاقت عليه فباب مدحك يمما </seg> <seg xml:id="seg_158.d1e1749" xml:lang="ar">لكن كبا فيه الجواد فأحجما</seg> </l>
-<l type="bayt" xml:id="l_80.d1e1753" xml:lang="ar"> <seg xml:id="seg_159.d1e1755" xml:lang="ar">يا من على عرش المحامد قد سما </seg> <seg xml:id="seg_160.d1e1758" xml:lang="ar">(أيروم مخلوق مديحك بعدما)</seg> </l>
-</lg>
-<p xml:id="p_122.d1e1763" xml:lang="ar">(أثنى عليك الله في التبيين) </p>
-<byline change="#d2e356" xml:id="byline_4.d2e1912"><placeName change="#d2e356" xml:id="placeName_5.d2e1913">حماه</placeName> <persName change="#d2e356" xml:id="persName_16.d2e1916">فارس النجار</persName></byline>
-</div><pb change="#d2e323 #d2e356" ed="print" n="40" xml:id="pb_69.d2e1919"/>
-<div type="item" change="#d2e356" xml:id="div_13.d2e1921">
-<lg xml:id="lg_14.d1e1773" xml:lang="ar">
-<l type="bayt" xml:id="l_81.d1e1775" xml:lang="ar"> <seg xml:id="seg_161.d1e1777" xml:lang="ar">خطب الزمان لمهجتي قد علها </seg> <seg xml:id="seg_162.d1e1780" xml:lang="ar">والنفس قد ألفت لذلك ذلها</seg> </l>
-<l type="bayt" xml:id="l_82.d1e1784" xml:lang="ar"> <seg xml:id="seg_163.d1e1786" xml:lang="ar">ناديت خير الأنبيا وأجلها </seg> <seg xml:id="seg_164.d1e1789" xml:lang="ar">(يا مصطفى قبل العوالم كلها)</seg> </l>
-</lg>
-<p xml:id="p_125.d1e1794" xml:lang="ar">(والكون لم يبرز من التكوين)</p>
-<lg xml:id="lg_15.d1e1797" xml:lang="ar">
-<l type="bayt" xml:id="l_83.d1e1799" xml:lang="ar"> <seg xml:id="seg_165.d1e1801" xml:lang="ar">كن لي الشفيع فبحر عصياني طما </seg> <seg xml:id="seg_166.d1e1804" xml:lang="ar">أرجو بك التوفيق إني في عما</seg> </l>
-<l type="bayt" xml:id="l_84.d1e1808" xml:lang="ar"> <seg xml:id="seg_167.d1e1810" xml:lang="ar">فإن الذي صلى عليك وسلما </seg> <seg xml:id="seg_168.d1e1813" xml:lang="ar">(أيروم مخلوق مديحك بعدما)</seg> </l>
-</lg>
-<p xml:id="p_126.d1e1818" xml:lang="ar">(أثنى عليك الله في التبيين)</p>
-<byline change="#d2e356" xml:id="byline_5.d2e1971"><placeName change="#d2e356" xml:id="placeName_6.d2e1972">حماه</placeName> إحدى محبات النبي صلى الله عليه وسلم <lb change="#d2e356" xml:id="lb_1.d2e1975"/><persName change="#d2e356" xml:id="persName_17.d2e1976">حنيفة</persName></byline>
-</div>
-<div type="item" change="#d2e356" xml:id="div_14.d2e1980">
-<lg xml:id="lg_16.d1e1831" xml:lang="ar">
-<l type="bayt" xml:id="l_85.d1e1833" xml:lang="ar"> <seg xml:id="seg_169.d1e1835" xml:lang="ar">(يا مصطفى قبل العوالم كلها) </seg> <seg xml:id="seg_170.d1e1838" xml:lang="ar">نوراً لانت المجتبى بيقين</seg> </l>
-<l type="bayt" xml:id="l_86.d1e1842" xml:lang="ar"> <seg xml:id="seg_171.d1e1844" xml:lang="ar">ناداك ربك يا رسولا للملا </seg> <seg xml:id="seg_172.d1e1847" xml:lang="ar">(والكون لم يبرز من التكوين)</seg> </l>
-<l type="bayt" xml:id="l_87.d1e1851" xml:lang="ar"> <seg xml:id="seg_173.d1e1853" xml:lang="ar">(أيروم مخلوق مديحك بعدما) </seg> <seg xml:id="seg_174.d1e1856" xml:lang="ar">خصصت بالحسنى وأكرم دين</seg> </l>
-<l type="bayt" xml:id="l_88.d1e1860" xml:lang="ar"> <seg xml:id="seg_175.d1e1862" xml:lang="ar">من ذا يبقى بالمدح أو يثني كما </seg> <seg xml:id="seg_176.d1e1865" xml:lang="ar">(أثنى عليك الله في التبيين)</seg> </l>
-</lg>
-<byline change="#d2e356" xml:id="byline_6.d2e2021"><persName change="#d2e356" xml:id="persName_18.d2e2022">ع. ر</persName></byline><pb corresp="file:../epub/29676/OEBPS/xhtml/P750.xhtml" ed="shamela" n="" xml:id="pb_30.d1e1872"/>
-</div>
-</div>
+            <head xml:id="head_12.d1e1715" xml:lang="ar">إجابة طلب المؤيد</head>
+            <div type="item" change="#d2e356" xml:id="div_12.d2e1862">
+               <lg xml:id="lg_12.d1e1718" xml:lang="ar">
+                  <l type="bayt" xml:id="l_77.d1e1720" xml:lang="ar"> 
+                     <seg xml:id="seg_153.d1e1722" xml:lang="ar">وطئت وحقك أزمة في نعلها </seg> 
+                     <seg xml:id="seg_154.d1e1725" xml:lang="ar">حراً أخا نفس يضن بذلها</seg> 
+                  </l>
+                  <l type="bayt" xml:id="l_78.d1e1729" xml:lang="ar"> 
+                     <seg xml:id="seg_155.d1e1731" xml:lang="ar">وبك استغاث فجد عليه بحلها </seg> 
+                     <seg xml:id="seg_156.d1e1734" xml:lang="ar">(يا مصطفى قبل العوالم كلها)</seg> 
+                  </l>
+               </lg>
+               <p xml:id="p_121.d1e1739" xml:lang="ar">(والكون لم يبرز من التكوين)</p>
+               <lg xml:id="lg_13.d1e1742" xml:lang="ar">
+                  <l type="bayt" xml:id="l_79.d1e1744" xml:lang="ar"> 
+                     <seg xml:id="seg_157.d1e1746" xml:lang="ar">ضاقت عليه فباب مدحك يمما </seg> 
+                     <seg xml:id="seg_158.d1e1749" xml:lang="ar">لكن كبا فيه الجواد فأحجما</seg> 
+                  </l>
+                  <l type="bayt" xml:id="l_80.d1e1753" xml:lang="ar"> 
+                     <seg xml:id="seg_159.d1e1755" xml:lang="ar">يا من على عرش المحامد قد سما </seg> 
+                     <seg xml:id="seg_160.d1e1758" xml:lang="ar">(أيروم مخلوق مديحك بعدما)</seg> 
+                  </l>
+               </lg>
+               <p xml:id="p_122.d1e1763" xml:lang="ar">(أثنى عليك الله في التبيين) </p>
+               <byline change="#d2e356" xml:id="byline_4.d2e1912">
+                  <placeName change="#d2e356" xml:id="placeName_5.d2e1913">حماه</placeName> 
+                  <persName change="#d2e356" xml:id="persName_16.d2e1916">فارس النجار</persName>
+               </byline>
+            </div>
+            <pb change="#d2e323 #d2e356" ed="print" n="40" xml:id="pb_69.d2e1919"/>
+            <div type="item" change="#d2e356" xml:id="div_13.d2e1921">
+               <lg xml:id="lg_14.d1e1773" xml:lang="ar">
+                  <l type="bayt" xml:id="l_81.d1e1775" xml:lang="ar"> 
+                     <seg xml:id="seg_161.d1e1777" xml:lang="ar">خطب الزمان لمهجتي قد علها </seg> 
+                     <seg xml:id="seg_162.d1e1780" xml:lang="ar">والنفس قد ألفت لذلك ذلها</seg> 
+                  </l>
+                  <l type="bayt" xml:id="l_82.d1e1784" xml:lang="ar"> 
+                     <seg xml:id="seg_163.d1e1786" xml:lang="ar">ناديت خير الأنبيا وأجلها </seg> 
+                     <seg xml:id="seg_164.d1e1789" xml:lang="ar">(يا مصطفى قبل العوالم كلها)</seg> 
+                  </l>
+               </lg>
+               <p xml:id="p_125.d1e1794" xml:lang="ar">(والكون لم يبرز من التكوين)</p>
+               <lg xml:id="lg_15.d1e1797" xml:lang="ar">
+                  <l type="bayt" xml:id="l_83.d1e1799" xml:lang="ar"> 
+                     <seg xml:id="seg_165.d1e1801" xml:lang="ar">كن لي الشفيع فبحر عصياني طما </seg> 
+                     <seg xml:id="seg_166.d1e1804" xml:lang="ar">أرجو بك التوفيق إني في عما</seg> 
+                  </l>
+                  <l type="bayt" xml:id="l_84.d1e1808" xml:lang="ar"> 
+                     <seg xml:id="seg_167.d1e1810" xml:lang="ar">فإن الذي صلى عليك وسلما </seg> 
+                     <seg xml:id="seg_168.d1e1813" xml:lang="ar">(أيروم مخلوق مديحك بعدما)</seg> 
+                  </l>
+               </lg>
+               <p xml:id="p_126.d1e1818" xml:lang="ar">(أثنى عليك الله في التبيين)</p>
+               <byline change="#d2e356" xml:id="byline_5.d2e1971">
+                  <placeName change="#d2e356" xml:id="placeName_6.d2e1972">حماه</placeName> إحدى محبات النبي صلى الله عليه وسلم <lb change="#d2e356" xml:id="lb_1.d2e1975"/>
+                  <persName change="#d2e356" xml:id="persName_17.d2e1976">حنيفة</persName>
+               </byline>
+            </div>
+            <div type="item" change="#d2e356" xml:id="div_14.d2e1980">
+               <lg xml:id="lg_16.d1e1831" xml:lang="ar">
+                  <l type="bayt" xml:id="l_85.d1e1833" xml:lang="ar"> 
+                     <seg xml:id="seg_169.d1e1835" xml:lang="ar">(يا مصطفى قبل العوالم كلها) </seg> 
+                     <seg xml:id="seg_170.d1e1838" xml:lang="ar">نوراً لانت المجتبى بيقين</seg> 
+                  </l>
+                  <l type="bayt" xml:id="l_86.d1e1842" xml:lang="ar"> 
+                     <seg xml:id="seg_171.d1e1844" xml:lang="ar">ناداك ربك يا رسولا للملا </seg> 
+                     <seg xml:id="seg_172.d1e1847" xml:lang="ar">(والكون لم يبرز من التكوين)</seg> 
+                  </l>
+                  <l type="bayt" xml:id="l_87.d1e1851" xml:lang="ar"> 
+                     <seg xml:id="seg_173.d1e1853" xml:lang="ar">(أيروم مخلوق مديحك بعدما) </seg> 
+                     <seg xml:id="seg_174.d1e1856" xml:lang="ar">خصصت بالحسنى وأكرم دين</seg> 
+                  </l>
+                  <l type="bayt" xml:id="l_88.d1e1860" xml:lang="ar"> 
+                     <seg xml:id="seg_175.d1e1862" xml:lang="ar">من ذا يبقى بالمدح أو يثني كما </seg> 
+                     <seg xml:id="seg_176.d1e1865" xml:lang="ar">(أثنى عليك الله في التبيين)</seg> 
+                  </l>
+               </lg>
+               <byline change="#d2e356" xml:id="byline_6.d2e2021">
+                  <persName change="#d2e356" xml:id="persName_18.d2e2022">ع. ر</persName>
+               </byline>
+               <pb corresp="file:../epub/29676/OEBPS/xhtml/P750.xhtml" ed="shamela" n="" xml:id="pb_30.d1e1872"/>
+            </div>
+         </div>
         </body>
     </text>
 </TEI>

@@ -6,11 +6,14 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName xml:id="persName_1.d1e24" xml:lang="ar">
+                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="viaf:4795364" change="#d4e411">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir al-Iskandarānī</persName>
+                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e411">
+                  <forename xml:lang="ar-Latn-x-ijmes" change="#d2e430" xml:id="forename_2.d2e37">ʿAbd al-Qādir</forename>
+                  <surname xml:lang="ar-Latn-x-ijmes" change="#d2e430" xml:id="surname_2.d2e40">al-Iskandarānī</surname>
+               </persName>
                 </author>
                 <respStmt xml:id="respStmt_1.d1e37" xml:lang="en">
                     <resp xml:id="resp_1.d1e39" xml:lang="en">Transcription</resp>
@@ -81,7 +84,9 @@
         </fileDesc>
         <xi:include change="#d2e358" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e185" xpointer="encodingDesc"/>
         <xi:include change="#d2e358" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e187" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-10-09" who="#pers_TG" xml:id="d2e400" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2018-10-12" who="#pers_TG" xml:id="d2e430" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+         <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e411" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e430" xml:id="gi_1.d2e205">persName</tei:gi>s without such references based on  <tei:gi change="#d2e430" xml:id="gi_1.d2e208">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e430" xml:id="ref_1.d2e211">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
+         <change when="2018-10-09" who="#pers_TG" xml:id="d2e400" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e430" xml:id="att_1.d2e217">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e430" xml:id="gi_1.d2e220">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e430" xml:id="att_1.d2e223">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
             <change when="2018-10-09" who="#pers_TG" xml:lang="en" change="#d2e400" xml:id="change_1.d2e197">Validated page breaks and mark-up of articles against the facsimiles.</change>
             <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e377" xml:lang="en">Added references to GeoNames IDs to 
                 <tei:gi change="#d2e400" xml:id="gi_1.d2e202">placeName</tei:gi>
@@ -369,8 +374,11 @@
                     <monogr xml:id="monogr_2.d1e471" xml:lang="ar">
                         <title level="j" xml:id="title_8.d1e473" xml:lang="ar">الحقائق</title>
                         <editor ref="viaf:4795364" xml:id="editor_2.d1e476" xml:lang="ar">
-                            <persName xml:id="persName_7.d1e478" xml:lang="ar">عبد القادر الإسكندراني</persName>
-                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes">
+                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="viaf:4795364" change="#d4e411">
+                        <forename xml:lang="ar" change="#d2e430" xml:id="forename_5.d2e741">عبد القادر</forename>
+                        <surname xml:lang="ar" change="#d2e430" xml:id="surname_5.d2e744">الإسكندراني</surname>
+                     </persName>
+                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e411">
                                 <forename xml:id="forename_2.d1e483" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_2.d1e486" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -385,10 +393,12 @@
                                 -  
                                 <tei:num value="10" xml:id="num_1.d1e547" xml:lang="ar">١٠</tei:num>
                                 -  
-                                <tei:num value="1911" xml:id="num_1.d1e550" xml:lang="ar">١٩١١</tei:num></date>
+                                <tei:num value="1911" xml:id="num_1.d1e550" xml:lang="ar">١٩١١</tei:num>
+                     </date>
                         </imprint>
                         <biblScope from="15" to="15" unit="issue" xml:id="biblScope_1.d1e505" xml:lang="ar">العدد  
-                            <tei:num value="15" xml:id="num_1.d1e556" xml:lang="ar">١٥</tei:num></biblScope>
+                            <tei:num value="15" xml:id="num_1.d1e556" xml:lang="ar">١٥</tei:num>
+                  </biblScope>
                         <biblScope from="x" to="y" unit="page" xml:id="biblScope_2.d1e508"/>
                     </monogr>
                 </biblStruct>
@@ -410,7 +420,8 @@
                     ومنذرين بعقابه اصطفاهم لرسالته، وفضلهم بخطابه، وفطرهم على معرفته، وجعلهم سفراء
                     بينه وبين خلقه، يعرفونهم بمصالحهم ويسعون لهدايتهم ويرشونهم إلى طريق النجاة
                     ويخرجونهم من الظلمات إلى النور بإذن ربهم.
-                    <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_122" n="122" xml:id="pb_3.d2e570"/></p>
+                    <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_122" n="122" xml:id="pb_3.d2e570"/>
+            </p>
                 <p xml:id="p_18.d1e545" xml:lang="ar">إن في إرسال الرسل إلى العباد حكمة بالغة، ورحمة للعالم شاملة، ونعمة من نعم
                         واهب الوجود سابقة، إذ يبعثهم تهتدي العقول إلى معرفة الخالق جل وعلا وما يجب
                         له من الصفات المقدسة، وتتكامل النفوس البشرية بحسب استعداداتها في العمليات
@@ -456,7 +467,8 @@
                 <p xml:id="p_23.d1e563" xml:lang="ar">يرشدون الناس إلى أن للكون إلهاً واحدا
                     متصفا بصفات الكمال منزها عن صفات النقصان ويبينون لهم الحد الذي يجب أن يقفوا
                         عنده.
-                    <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_124" n="124" xml:id="pb_6.d2e597"/></p>
+                    <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_124" n="124" xml:id="pb_6.d2e597"/>
+            </p>
                 <p xml:id="p_24.d1e566" xml:lang="ar">يعرفون من أين تقتاد العقول المستعصية وكيف تستلين القلوب القاسية وبأي وسيلة
                         تلجأ الجباه العالية العاتية إلى السجود والاخبات أمام عظمة الله وجبروته.</p>
                 <p xml:id="p_25.d1e570" xml:lang="ar">وقد اتفق العلماء على أن النبوة خصيصة من الله تعالى لا يبلغ العبد أن يكتسبها
@@ -675,7 +687,8 @@
                     المنكر فيقول بلى كنت آمر بالمعروف ولا آتيه وأنهى عن المنكر وآتيه نسأل الله أن
                     يوفقنا لمرضاته ويجنبنا منهياته إنه قريب مجيب.
                     <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_135" n="135" xml:id="pb_24.d2e682"/>
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P431.xhtml" ed="shamela" n="n15-p10" xml:id="pb_10.d1e620"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P431.xhtml" ed="shamela" n="n15-p10" xml:id="pb_10.d1e620"/>
+            </p>
             </div>
             <div prev="oclc_644997575-i_13.TEIP5.xml#div_6.d1e798" type="article" xml:id="div_4.d1e624" xml:lang="ar">
                 <head xml:id="head_4.d1e626" xml:lang="ar">تحريم المتعة</head>
@@ -689,13 +702,16 @@
                             <bibl change="#d2e358" xml:id="bibl_1.d2e702">
                                 <biblScope change="#d2e358" from="14" unit="page" xml:id="biblScope_3.d2e703">
                                     ص 
-                                    <tei:num value="14" xml:id="num_1.d1e704" xml:lang="ar">١٤</tei:num></biblScope>من 
-                                <biblScope change="#d2e358" from="2" to="2" unit="issue" xml:id="biblScope_4.d2e708">المجلد الثاني</biblScope></bibl>
+                                    <tei:num value="14" xml:id="num_1.d1e704" xml:lang="ar">١٤</tei:num>
+                        </biblScope>من 
+                                <biblScope change="#d2e358" from="2" to="2" unit="issue" xml:id="biblScope_4.d2e708">المجلد الثاني</biblScope>
+                     </bibl>
                         </ref>
                     </opener>
                     <p xml:id="p_37.d1e635" xml:lang="ar">قال مؤلف الرسالة (ومنها) أي من وجود اختلاف أخبار التحريم أن رواية ابن ماجة عن ابن عمر تدل على أن عمر بين التحريم في أول ولايته وتوعد بالرجم وهو ينافي ما في رواية الموطأ من قوله لو كنت تقدمت فيها لرجمت الخ.</p>
                     <p xml:id="p_38.d1e638" xml:lang="ar">ونقول لا منافاة بين الروايتين لأن الأولى لا تفيد أن عمر رضي الله عنه بين التحريم في أول وقت من ولايته كما زعمه مؤلف الرسالة بل الذي يستفاد منها أن عمر رضي الله عنه بين التحريم في حال ولايته. وذلك لأن لما لا تقتضي وقوع الخطبة من عمر في أول وقت من خلافته بدليل قول الله تعالى (فلما قضينا عليه الموت ما دلهم على موته إلا دابة الأرض) إذ من المعلوم أنه مضى حول كامل بين موت سليمان عليه الصلاة والسلام ودلالة دابة الأرض على موته كما ذكره المفسرون وتمتع ربيعه إنما كان قبل نهي عمر كما يشهد له ما نقله الزرقاني في شرح الموطأ قال ابن عبد البر الخبر وعن عمر من رواية مالك منقطع ورويناه متصلا ثم أسنده عن يحي ابن سعيد عن نافع عن ابن عمر قال عمر لو تقدمت فيها لرجمت يعني المتعة وهذا القول منه قبل نهيه عنها وهو تغليظ ليرتدع الناس وينزجروا عن سوء مذهبهم وقبيح تأويلاتهم الخ. 
-                        <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_136" n="136" xml:id="pb_26.d2e716"/></p>
+                        <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_136" n="136" xml:id="pb_26.d2e716"/>
+               </p>
                     <p xml:id="p_39.d1e642" xml:lang="ar">قال مؤلف الرسالة (ومنها) أي من وجوه اختلاف أخبار التحريم أن في نصها أن النبي صلى الله عليه وسلم أذن فيها ثلاثا فإن أريد 
                         <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_5.d1e779" xml:lang="ar">ثلاث</num>
                         مرات نافت جميع هذه الروايات لدلالتها على أن الأذن كحان أكثر من ذلك وأن أريد 
@@ -728,7 +744,8 @@
                         كان حاضراً في جميع تلك الغزوات فهل يكون هذا اختلافاً وتعارضاً. . سبحانك اللهم ما يكون لعاقل أن يتكلم بهذا. . على أن حديث النهي في غزوة تبوك ضعيف كما نقلناه عن القسطلاني والزرقاني سابقاً فاتضح أن كلام الإمام النووي رحمة الله عليه جليٌّ مقبول ومسموع عند العلماء المحققين.</p>
                     <p xml:id="p_43.d1e656" xml:lang="ar">وقال مؤلف الرسالة (ومنها) أن رواية أباحتها وتحريمها في عمرة القضاء لا غير تنافي جميع ما ورد في إباحتها وتحريمها في غيرها الخ ما ذكره مما هو واضح البطلان. 
                         <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_138" n="138" xml:id="pb_29.d2e771"/>
-                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P433.xhtml" ed="shamela" n="n15-p12" xml:id="pb_12.d1e658"/></p>
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P433.xhtml" ed="shamela" n="n15-p12" xml:id="pb_12.d1e658"/>
+               </p>
                     <p xml:lang="ar" change="#d2e400" xml:id="p_28.d2e996">ونقول بينا فيما تقدم أن هذا الحديث مرسل ضعيف فما زعمه مؤلف الرسالة من معارضته لغيره واضح الفساد. إذ من المعلوم أن الضعيف لا يعارض الصحيح وقد استوفينا الكلام على مايتعلق بهذا الوجه ص 
                         <tei:num value="17" xml:id="num_1.d1e736" xml:lang="ar">١٧</tei:num>
                         من المجلد الثاني.</p>
@@ -753,7 +770,8 @@
                         <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_19.d1e860" xml:lang="ar">أحد</num>
                         إلا شفى إلى أن قال الأزهري وهذا حديث صحيح وهو الذي يبين أن ابن عباس صح له نهي النبي صلى الله عليه وسلم عن المتعة الشرطية وأنه رجع عن إحلالها إلى تحريمها أهـ ما ذكره في اللسان وهو نص صريح على رجوع الضمير في قوله (فلولا نهيه) إلى النبي صلى الله عليه وسلم كما هو واضح من كلام الأزهري لا إلى عمر كما استظهره مؤلف الرسالة وعلله بأن الكلام في معرض التأسف والتألم من النهي عنها. وما كنا نظن أن مؤلف الرسالة يتهور في مثل ذلك. وكيف يصح لعاقل أن يدعي تأَلم ابن عباس من شيء أتى به رسول الله صلى الله عليه وسلم. فتعوذ بالله من زلة القدم ونسئل الله أن يجعلنا ممن يستمعون القول فيتبعون أحسنه. 
                         <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_141" n="141" xml:id="pb_34.d2e813"/>
-                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P435.xhtml" ed="shamela" n="n15-p14" xml:id="pb_14.d1e675"/></p>
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P435.xhtml" ed="shamela" n="n15-p14" xml:id="pb_14.d1e675"/>
+               </p>
                     <p xml:lang="ar" change="#d2e400" xml:id="p_33.d2e1040">(الوجه الثاني) أن ابن عباس رضي الله عنهما عَلَى تقدير بقائه عَلَى القول بالإباحة عند الضرورة كما تحل الميتة للمضطر صيانة لنفسه عن للتلف لا يصح للشيعة الاستدلال بمذهبه لأنهم يقولون بجوازها مطلقاً. وتمسكهم بظاهر ما ورد من الأحاديث لا يصح لأن أحاديث الإباحة منسوخة بما صح عن رسول الله صلى الله عليه وسلم من التحريم إلى يوم القيامة.
                         <note n="1" type="footnote" change="#d2e400" xml:id="note_1.d2e1042">
                             راجع 
@@ -761,20 +779,23 @@
                                 <bibl change="#d2e400" xml:id="bibl_2.d2e1046">
                                     <biblScope from="71" unit="page" change="#d2e400" xml:id="biblScope_5.d2e1048">ص ٧١</biblScope>
                                     من 
-                                    <biblScope from="1" to="1" unit="volume" change="#d2e400" xml:id="biblScope_6.d2e1051">المجلد الأول</biblScope></bibl>
+                                    <biblScope from="1" to="1" unit="volume" change="#d2e400" xml:id="biblScope_6.d2e1051">المجلد الأول</biblScope>
+                        </bibl>
                             </ref>و
                             <ref target="oclc_644997575-i_13.TEIP5.xml#pb_29.d2e950" change="#d2e400" xml:id="ref_5.d2e1055">
                                 <bibl change="#d2e400" xml:id="bibl_3.d2e1057">
                                     <biblScope from="16" unit="page" change="#d2e400" xml:id="biblScope_7.d2e1059">ص ١٦</biblScope>
                                     من 
-                                    <biblScope from="2" to="2" unit="volume" change="#d2e400" xml:id="biblScope_8.d2e1062">المجلد الثاني</biblScope></bibl>
+                                    <biblScope from="2" to="2" unit="volume" change="#d2e400" xml:id="biblScope_8.d2e1062">المجلد الثاني</biblScope>
+                        </bibl>
                             </ref>
                         </note>
                     </p>
                     <p xml:id="p_48.d1e678" xml:lang="ar">ثم ما قاله مؤلف الرسالة من أن ابن عباس هو تلميذ الإمام علي كرم الله وجهه وعنه أخذ فلم يكن ليخالفه الخ واضح الفساد لأن أخذ ابن عباس عن علي رضي الله عنه لا يستلزم أن يوافقه في جميع ما يراه كيف والإمام الشافعي كان تلميذاً للإمام مالك والإمام أحمد كان تلميذاً للإمام أبي حنيفة ومع ذلك جميع هؤلاء قد خالفوا من أخذوا عنهم في كثير من المسائل الاجتهاديّة واتبع كل منهم ما ظهر له صحته بحسب اجتهاده. عَلَى أنا لو سلمنا لمؤلف الرسالة كلامه لجاز أن يقال أن مذهب ابن عباس التحريم ضرورة أخذه عن علي كرم الله وجهه.</p>
                     <p xml:id="p_49.d1e681" xml:lang="ar">وقال مؤلف الرسالة (وخامساً) أي من الأجوبة عن أحاديث التحريم أن رواية الموطأ تدل عَلَى بقاء التحليل إلى زمان عمر وإلا لما استمع ربيعة بن أمية الخ.</p>
                     <p xml:id="p_50.d1e684" xml:lang="ar">ونقول أن فعل ربيعة لذلك إنما هو لجهله بالتحريم كما يدل عليه اهتمام عمر رضي الله عنه لما بلغه ذلك حيث خرج فزعاً يجرّ رداءه من شدة العجلة وبيّن للناس أنَّ النبي صلى الله عليه وسلم نهى عن المتعة وحرمها تحريماً مؤبداً وهذا ظاهر لمن له قلب. 
-                        <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_142" n="142" xml:id="pb_36.d2e826"/></p>
+                        <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_142" n="142" xml:id="pb_36.d2e826"/>
+               </p>
                     <p xml:id="p_51.d1e688" xml:lang="ar">قال مؤلف الرسالة وسادساً (أي من الأجوبة عن أحاديث التحريم) كان اللازم أن يقول علي لابن عباس لما بلغه أنه لا يرى بالمتعة بأساً أو يلين في أمرها أن النبي صلى الله عليه وسلم قد نهى عنها في حجة الوداع لأن المفروض أن ذلك آخر نهي صدر منه صلى الله عليه وسلم ولم يتعقبه رخصة أما النهي يوم خيبر فالمفروض أنه منسوخ بالرخصة بعده فلا يحسن الاستدلال به على ابن عباس فله حينئذ أن يقول أن النبي صلى الله عليه وآله وسلم رجع عن هذا النهي فيحتاج علي عليه السلام إلى أن يقول له أنه بعد أن رجع قد نهى أخيراً نهياً لم يرجع عنه قال مؤلف الرسالة وهذا كالأكل من القفا ثم قال (لا يقال.) لعل علياً بلغه ذلك عن ابن عباس بعد وقعة خيبر وقبل صدور الرخصة يوم وقعة حنين (لأنا 
                         <pb corresp="file:../epub/29676/OEBPS/xhtml/P436.xhtml" ed="shamela" n="n15-p15" xml:id="pb_15.d1e690"/>
                         نقول) ظاهر الكلام أن ابن عباس كان لا يرى بها بأساً بعد وفاة النبي صلى الله عليه وسلم الخ. ونقول ليس في هذا الكلام ما يظهر منه أن علياً كرم الله وجهه نهى ابن عباس عن ذلك بعد وفاة النبي عليه الصلاة والسلام فيمكن أن يكون هذا النهي إنما صدر من علي بعد غزوة خيبر وقبل فتح مكة ويؤيده سكوت ابن عباس وامتثاله لذلك يومئذ فقول مؤلف الرسالة لا يقال ذلك لأنا نقول الخ ممنوع إذ كون ابن عباس كان لا يرى بها بأساً بعد وفاة النبي صلى الله عليه وسلم لا ينافي ذلك لأنه يمكن أن يكون بعد ذلك قد أداه اجتهاده إلى إباحتها عند الضرورة. والصحابة رضي الله عنهم كان أكثرهم مجتهدين يختلفون في كثير من المسائل كما هو مشهور ومعروف ويصح تقليد كل و 
@@ -825,7 +846,8 @@
                                 من مجلة 
                                 <title change="#d2e358" level="j" xml:id="title_9.d2e911">الحقائق</title>
                                 الغراء ولما تلوته واطلعت على السؤَال الذي أدرج فيه بخصوص تمثيل 
-                                <title change="#d2e358" level="a" xml:id="title_10.d2e914">رواية زهير الأندلسي</title></bibl>
+                                <title change="#d2e358" level="a" xml:id="title_10.d2e914">رواية زهير الأندلسي</title>
+                     </bibl>
                         </ref>وما فاه به ذلك الخطيب ندبت السلف، وأسفت على الخلف، وأثنيت على فضيلة الأستاذ الكامل 
                         <persName change="#d2e400" xml:id="persName_11.d2e1175">الشيخ حسن أفندي الأسطواني</persName>
                         الذي أدى النصيحة الواجبة وبين الحق للناس في خطبته الجليلة كما شكرت حمية العلماء الأكارم أصحاب مجلة الحقائق الذين لا تأْخذهم في الله لومة لائم وهذا جوابي على السؤال المذكور.</p>
@@ -845,7 +867,11 @@
                         <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_148" n="148" xml:id="pb_47.d2e942"/>
                         عن تفسيرهم كان مخطئاً بل مبتدعاً لأنهم كانوا أعلم الناس بتفسير القرآن ومعانيه كما أنهم أعلم بالحق الذي بعث به رسوله صلى الله عليه وسلم والله الموفق الهادي إلى سواء السبيل.</p>
                     <byline change="#d2e358" xml:id="byline_2.d2e945">محل الختم 
-                        <persName change="#d2e358" ref="viaf:305215027" xml:id="persName_11.d2e947">مصطفى نجا</persName></byline>
+                        <persName change="#d2e358" ref="viaf:305215027" xml:id="persName_11.d2e947">
+                     <forename change="#d2e18656 #d2e23203 #d2e430" xml:lang="ar" xml:id="forename_7.d2e1260">مصطفى</forename>
+                     <surname change="#d2e18656 #d2e23203 #d2e430" xml:lang="ar" xml:id="surname_7.d2e1263">نجا</surname>
+                  </persName>
+               </byline>
                 </div>
                 <div change="#d2e358" type="article" xml:id="div_6.d2e951">
                     <head change="#d2e358" xml:id="head_6.d2e953">الجواب الرابع للعالم العلامة — التقي الورع صاحب الإمضاء</head>
@@ -875,7 +901,8 @@
                         <pb corresp="file:../epub/29676/OEBPS/xhtml/P442.xhtml" ed="shamela" n="n15-p21" xml:id="pb_21.d1e787"/>
                         الحق وأتباعه إنه خير مسؤول ومعين.</p>
                     <p xml:id="p_76.d1e790" xml:lang="ar">التمثيل (ويسمى رواية وكوميدة) هو لغة مصدر لمثل من باب التفعيل أي شبه الشيء بغيره عبارة اللسان مثل الشيء بالشيء سواه وشبهه به وجعله مثله وعلى مثاله وفي اصطلاح الممثلين اليوم هو تشبيه جمع من الموجودين بجمع من الماضي في أقوالهم وأفعالهم وألبستهم وقيامهم وقعودهم واجتماعهم وتفرقهم والتسمي بأسمائهم وكناهم وألقابهم والاتصاف بأوصافهم وفي مناصبهم من سلطنة ووزارة وغير ذلك لإظهار ما كان عليه المشبه به وإفهامه للحاضرين من اقتدار واستعداد واستقامة وعدمها ومن خداع ومكر واحتيال وخيانة وسوء استعمال وانهماك في اللذات وتماد في المخالفات وعكوف على الشراب وتعشق للكعاب وكيفية التحيل على وصالهن وغير ذلك من المفاسد التي لاتحصى وتبث بذور الفساد في نفوس الحاضرين خصوصاً الأحداث فهذا التمثيل المذكور محرم شرعاً شديد التحريم من وجوده لأن فيه سباً ولعناً ومنابزة وغيبة وتبذيراً أما تحريمه من حيث السب فلقوله صلى الله عليه وسلم من حديث رواه البخاري ومسلم. سباب المسلم فسوق. وأما تحريمه من حيث اللعن فلقوله صلى الله عليه وسلم فيما رواه البخاري ومسلم أيضاً. لعن المؤمن كقتله. 
-                        <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_151" n="151" xml:id="pb_52.d2e999"/></p>
+                        <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_151" n="151" xml:id="pb_52.d2e999"/>
+               </p>
                     <p xml:id="p_77.d1e793" xml:lang="ar">وأما تحريمه من حيث السخرية واللمز والمنابزة فلقوله تعالى (يا أيها الذين آمنوا لا يسخر قوم من قوم عسى أن يكونوا خيراً منهم ولا نساء من نساء عسى أن يكنَّ خيراً منهن ولا تلمزوا أنفسكم ولا تنابزوا بالألقاب بئس الاسم الفسوق بعد الإيمان ومن لم يتب فأولئك هم الظالمون) وأما تحريمه من حيث الغيبة فلقوله تعالى (أيحب أحدكم أن يأكل لحم أخيه ميتاً) الآية. وضابط الغيبة كما قاله النووي رحمه الله تعالى. ما أفهمت بع غيرك نقصان مسلم فهو غيبة محرمة ومن ذلك المحاكاة بأن يمشي متعارجاً ومطاطئاً أو على غير ذلك مريداً حكاية هيئة من ينتقضه بذلك فكل ذلك حرام بلا خلاف وأما تحريمه من حيث أنه يحمل على التبذير. فللنهي عنه في الآية الكريمة قال تعالى (ولا تبذر تبذيراً إن المبذرين كانوا أخوان الشياطين) والتبذير الإنفاق في غير طاعة الله وهذا فيما إذا لم يكن فيه تشبه الرجال بالنساء أو النساء بالرجال ولم يكن فيه مرد ذوو جمال بألبسة وهيئات يزيد بها حسنهم وجمالهم ولم يكن فيه آلات لهو وطرب ولم يكن فيه هيئة اجتماع الشربة ولا غير ذلك مما 
                         <pb corresp="file:../epub/29676/OEBPS/xhtml/P443.xhtml" ed="shamela" n="n15-p22" xml:id="pb_22.d1e795"/>
                         هو ظاهر التحريم وأما مع و 
@@ -980,7 +1007,8 @@
                         <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_33.d1e1152" xml:lang="ar">عشرة</num>
                         أيام وأمر بالرجوع إلى الحيرة وتخلف مظهراً أنه في الساق ثم توجه إلى مكة فحج ورجع ولم يعلم أبو بكر بذلك إلا بعد رجوعه ثم أنه استخلف على العراق المثنى بن حارثة وأبقى له نصف الجيش وسار بالنصف الآخر قاصداً الشام مدداً لجيوش المسلمين هناك بأمر من أبي بكر رضي الله عنه (للبحث صلة). 
                         <pb change="#d2e562 #d2e576 #d2e358 #d2e372" ed="print" facs="#facs_159" n="159" xml:id="pb_66.d2e1197"/>
-                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P449.xhtml" ed="shamela" n="n15-p28" xml:id="pb_28.d1e916"/></p>
+                        <pb corresp="file:../epub/29676/OEBPS/xhtml/P449.xhtml" ed="shamela" n="n15-p28" xml:id="pb_28.d1e916"/>
+               </p>
                 </div>
             </div>
             <div type="article" xml:id="div_7.d1e920" xml:lang="ar">
@@ -1125,10 +1153,12 @@
                         <title change="#d2e358" level="j" xml:id="title_11.d2e1507">المفيد</title>
                         <biblScope change="#d2e358" from="832" to="832" unit="issue" xml:id="biblScope_7.d2e1510">
                             عدد 
-                            <tei:num value="832" xml:id="num_1.d1e1300" xml:lang="ar">٨٣٢</tei:num></biblScope>بإمضاء رائد حقيقة </bibl>من أنه من محرري مجلة 
+                            <tei:num value="832" xml:id="num_1.d1e1300" xml:lang="ar">٨٣٢</tei:num>
+                  </biblScope>بإمضاء رائد حقيقة </bibl>من أنه من محرري مجلة 
                     <title change="#d2e358" level="j" xml:id="title_12.d2e1516">الحقائق</title>
                     منتقداً على الكاتب إخفاء اسمه وقال فيها ليس من اللائق أن يعتمد الكاتب على الكذب والتحامل بل اللائق أن يقابل الأدلة بمثلها وينقض ما اشتملت عليه كتابته بالأوجه المعقولة ونحن نبين لقرائنا أن ما يكتب في مجلتنا بإمضاء أصحابه الصريحة أو الرمزية فهو فكرهم وعلى عهدتهم أما كتابة أصحاب المجلة فتكون خالية من الإمضاء. 
-                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P452.xhtml" ed="shamela" n="" xml:id="pb_30.d1e1212"/></p>
+                    <pb corresp="file:../epub/29676/OEBPS/xhtml/P452.xhtml" ed="shamela" n="" xml:id="pb_30.d1e1212"/>
+            </p>
             </div>
         </body>
     </text>
