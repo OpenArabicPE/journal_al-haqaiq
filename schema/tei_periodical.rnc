@@ -6,7 +6,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-11-09T07:37:49Z. .
+# Schema generated from ODD source 2018-11-09T08:22:55Z. .
 # TEI Edition: Version 3.4.0. Last updated on
 #	23rd July 2018, revision 1fa0b54
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.4.0/
@@ -1261,6 +1261,7 @@ OpenArabicPE_model.biblPart =
   | OpenArabicPE_model.imprintPart
   | OpenArabicPE_citedRange
   | OpenArabicPE_bibl
+  | OpenArabicPE_textLang
   | OpenArabicPE_edition
   | OpenArabicPE_availability
   | OpenArabicPE_listRelation
@@ -2418,12 +2419,14 @@ OpenArabicPE_monogr =
        OpenArabicPE_title+,
        (OpenArabicPE_model.ptrLike
         | OpenArabicPE_idno
+        | OpenArabicPE_textLang
         | OpenArabicPE_editor
         | OpenArabicPE_respStmt)*)
       | ((OpenArabicPE_title
           | OpenArabicPE_model.ptrLike
           | OpenArabicPE_idno)+,
-         (OpenArabicPE_author
+         (OpenArabicPE_textLang
+          | OpenArabicPE_author
           | OpenArabicPE_editor
           | OpenArabicPE_respStmt)*)
       | (OpenArabicPE_authority, OpenArabicPE_idno))?,
@@ -2722,6 +2725,32 @@ OpenArabicPE_teiCorpus =
     ## specifies the version number of the TEI Guidelines against which this document is valid.
     attribute version {
       xsd:token { pattern = "[\d]+(\.[\d]+){0,2}" }
+    }?,
+    empty
+  }
+OpenArabicPE_textLang =
+  
+  ## (text language) describes the languages and writing systems identified within the bibliographic work being described, rather than its description. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 10.6.6. Languages and Writing Systems]
+  element textLang {
+    OpenArabicPE_macro.phraseSeq,
+    OpenArabicPE_att.global.attributes,
+    
+    ## (main language) supplies a code which identifies the chief language used in the bibliographic work.
+    attribute mainLang {
+      xsd:language
+      | (
+         ##
+         "")
+    }?,
+    
+    ## (other languages) one or more codes identifying any other languages used in the bibliographic work.
+    attribute otherLangs {
+      list {
+        (xsd:language
+         | (
+            ##
+            ""))*
+      }
     }?,
     empty
   }
