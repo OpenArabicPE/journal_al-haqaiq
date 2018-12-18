@@ -6,7 +6,7 @@ date: 2018-04-27 09:54:43 +0300
 
 # Digital *Ḥaqāʾiq*: An open, collaborative, and scholarly digital edition of ʿAbd al-Qādir al-Iskandarānī's monthly journal *al-Ḥaqāʾiq* (Damascus, 1910--1913)
 
-[![GitHub release](https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg?maxAge=2592000)](https://github.com/openarabicpe/digital-haqaiq/releases)
+[![GitHub release](https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg)](https://github.com/openarabicpe/digital-haqaiq/releases)
 [![DOI](https://zenodo.org/badge/52619834.svg)](https://zenodo.org/badge/latestdoi/52619834)
 
 This project is inspired by and follows the principles of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas).
