@@ -6,11 +6,11 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName change="#d4e382" ref="viaf:4795364" xml:id="persName_1.d1e24" xml:lang="ar">
+                    <persName change="#d4e382 #d2e436" ref="oape:pers:270 viaf:4795364" xml:id="persName_1.d1e24" xml:lang="ar">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName change="#d4e382" ref="viaf:4795364" xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">
+                    <persName change="#d4e382 #d2e436" ref="oape:pers:270 viaf:4795364" xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">
                         <forename change="#d2e414" xml:id="forename_2.d2e37" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                         <surname change="#d2e414" xml:id="surname_2.d2e40" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                     </persName>
@@ -45,11 +45,11 @@
                         <title level="j" type="sub" xml:id="title_7.d1e96" xml:lang="ar-Latn-x-ijmes">Majalla ʿilmiyya
                             dīniyya akhlāqiyya ijtimāʿiyya</title>
                         <editor ref="viaf:4795364" xml:id="editor_1.d1e99" xml:lang="en">
-                            <persName change="#d4e382" ref="viaf:4795364" xml:id="persName_5.d1e101" xml:lang="ar">
+                            <persName change="#d4e382 #d2e436" ref="oape:pers:270 viaf:4795364" xml:id="persName_5.d1e101" xml:lang="ar">
                                 <forename xml:id="forename_2.d1e103" xml:lang="ar">عبد القادر</forename>
                                 <surname xml:id="surname_2.d1e106" xml:lang="ar">الإسكندراني</surname>
                             </persName>
-                            <persName change="#d4e382" ref="viaf:4795364" xml:id="persName_6.d1e110" xml:lang="ar-Latn-x-ijmes">
+                            <persName change="#d4e382 #d2e436" ref="oape:pers:270 viaf:4795364" xml:id="persName_6.d1e110" xml:lang="ar-Latn-x-ijmes">
                                 <forename xml:id="forename_3.d1e112" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_3.d1e115" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -86,7 +86,7 @@
         </fileDesc>
         <xi:include change="#d2e414" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e195" xpointer="encodingDesc"/>
         <xi:include change="#d2e414" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e197" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e425" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e436" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e425" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
             <change when="2018-10-12" who="#pers_TG" xml:id="d2e414" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>
                 s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi>
                 and had no existing <tei:att xml:lang="en">xml:id</tei:att>
@@ -475,7 +475,12 @@
                         <biblScope from="3" to="3" unit="volume" xml:id="biblScope_7.d1e1131">القسم الثالث</biblScope>
                         من هذا الكتاب <title level="m" xml:id="title_10.d1e1134">
                             <supplied resp="#pers_TG" xml:id="supplied_1.d1e1135">دروس التاريخ الإسلامي</supplied></title>لجامعه <editor xml:id="editor_3.d1e1138">
-                            <persName xml:id="persName_9.d1e1139">الأديب الشيخ محي الدين  الخياط</persName></editor>
+                            <persName xml:id="persName_9.d1e1139" change="#d2e436" ref="oape:pers:391 viaf:4812503">
+                            <addName type="honorific" xml:lang="ar">الأديب</addName>
+                            <addName type="honorific" xml:lang="ar">الشيخ</addName>
+                            <forename xml:lang="ar">محي الدين</forename>
+                            <surname xml:lang="ar">الخياط</surname>
+                        </persName></editor>
                     </bibl>وهو يحتوي على نبذ من تاريخ بني أمية وفي أول صحيفة مرسوم فيها <lb change="#d2e414" xml:id="lb_3.d2e982"/>
                     خريطة الدول العربية الإسلامية وقد أهدانا مؤلفه الفاضل نسخة منع <lb change="#d2e414" xml:id="lb_4.d2e984"/>
                     أصحبها بكتاب شكر فيه للحقائق حسن ظنها قال وربما أبين رأي في <lb change="#d2e414" xml:id="lb_5.d2e986"/>
@@ -527,7 +532,7 @@
                     <head xml:id="head_4.d1e1207">
                         <title change="#d2e414" level="m" xml:id="title_11.d2e1094">ذكر خروج شوذب الخارجي</title>
                     </head>
-                    <byline xml:id="byline_1.d1e1210">تحت هذا العنوان قال <persName xml:id="persName_10.d1e1212">ابن الأثير</persName>
+                    <byline xml:id="byline_1.d1e1210">تحت هذا العنوان قال <persName xml:id="persName_10.d1e1212" change="#d2e436" ref="oape:pers:44">ابنالاثير</persName>
                         في الكامل ما نصه:</byline>
                     <p xml:id="p_37.d1e628" xml:lang="ar">في هذه السنة خرج شوذب واسمه بسطام بن يشكر من جوخي وكان في <num resp="#pers_TG" subtype="d2" type="auto-markup" value="80" xml:id="num_18.d1e1218" xml:lang="ar">ثمانين</num>
                         رجلاً فكتب عمر بن عبد العزيز إلى عبد الحميد عامله بالكوفة أن لا يحركهم حتى يسفكوا دماً ويفسدوا في الأرض فإن فعلوا وجه غليه رجلاً صليباً حازماً في جند فبعث عبد الحميد محمد بن جرير بن عبد الله البجلي في <num resp="#pers_TG" subtype="d4" type="auto-markup" value="2000" xml:id="num_19.d1e1221" xml:lang="ar">ألفين</num>
@@ -600,7 +605,7 @@
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P316.xhtml" ed="shamela" n="n11-p17" xml:id="pb_17.d1e697"/>
             <pb ed="print" facs="#facs_474" n="464" xml:id="pb_43.d1e1357"/>
             <div type="article" xml:id="div_5.d1e702" xml:lang="ar">
-                <head xml:id="head_5.d1e704" xml:lang="ar">رأي <persName change="#d4e382" ref="viaf:31996761" xml:id="persName_11.d1e1363">
+                <head xml:id="head_5.d1e704" xml:lang="ar">رأي <persName change="#d4e382 #d2e436" ref="oape:pers:473 viaf:31996761" xml:id="persName_11.d1e1363">
                         <surname change="#d2e18656 #d2e23203 #d2e414" xml:id="surname_5.d2e1272" xml:lang="ar">الغزالي</surname></persName>في تربية الأطفال</head>
                 <p xml:id="p_53.d1e707" xml:lang="ar">(بيان الطريق في رياضة الصبيان في أول مشوهم
                     ووجه تأديبهم وتحسين أخلاقهم)</p>
@@ -632,7 +637,10 @@
                 <p xml:id="p_55.d1e727" xml:lang="ar">كتب بعض المتفرنجين الذين طبع الله على قلوبهم، يطلب من حكومة دمشق إرجاع المومسات إلى محالهن أو إنشاء بيوت لهن تباع فيها الفروج بيع السلعات وتنتهك فيها حرمات الله جهازاً في بلاد المسلمين فكتبت <title change="#d2e414" level="j" xml:id="title_13.d2e1334">الحقائق</title>
                     مقالة مسهبة بينت فيها ضرر الزنا بالأخلاق والآداب والعمران وأن الإسلام وجميع الشرائع حرمته وزادت في عقوبات مرتكبيه وحثت الدمشقيين على مطالبة الحكومة بالقضاء على هذه الفاحشة بما يخولها إياه القانون وتراه مناسباً وكرت على المتفرنجين الذين لا يقنعون بالأدلة الدينية مخاطبة لهم بما معناه أنكم تدعون إلى تقليد الغربيين في جميع مناحيهم فهلا دعوتم <pb ed="print" facs="#facs_480" n="470" xml:id="pb_53.d1e1418"/>
                     إلى تقليد إنكلترا في منع محلات الفحش بدلاً من أن تطلبوا من الحكومة وهي إسلامية بنص القانون الأساسي بإرجاع المومسات إلى محالهن أو إنشاء بيوت خاصة لهن ونقلت عن مجلة <title level="j">الهلال</title>
-                    لصاحبها الشهير <persName>جرجي زيدان</persName>
+                    لصاحبها الشهير <persName change="#d2e436" ref="oape:pers:713 viaf:76496271">
+                            <forename xml:lang="ar">جرجي</forename>
+                            <surname xml:lang="ar">زيدان</surname>
+                        </persName>
                     أن انكلترا ليس عندها محال عامة رسمية للبغاء إلى آخر ما كتبت <title change="#d2e414" level="j" xml:id="title_14.d2e1339">الحقائق</title>
                     فراجعه فإنه ينبغي لكل مسلم الاطلاع عليه.</p>
                 <p xml:id="p_56.d1e730" xml:lang="ar">صدرت <title change="#d2e414" level="j" xml:id="title_15.d2e1345">الحقائق</title>
@@ -640,7 +648,7 @@
                         صاحب <title level="j" xml:id="title_12.d1e1423">المقتبس</title></person>استاء منها شأنه في الأمور التي يدعو إليها لدين فكتب <bibl corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7043;r=20237" xml:id="bibl_5.d1e1427">
                         <author xml:id="author_2.d1e1428">
                             <supplied resp="#pers_TG" xml:id="supplied_2.d1e1429">
-                                <persName change="#d4e382" ref="viaf:32272677" xml:id="persName_12.d1e1430">
+                                <persName change="#d4e382 #d2e436" ref="oape:pers:878 viaf:32272677" xml:id="persName_12.d1e1430">
                                     <forename xml:id="forename_5.d1e1431">محمد</forename>
                                     <surname xml:id="surname_5.d1e1434">كرد علي</surname></persName>
                             </supplied>
@@ -784,7 +792,9 @@
                     هذه الجمعية بالإنفاق عليهن مما تجمعه من أهل اليسار والخير وتحرض أهل النخوة والحمية من الشبان على الاقتران بهن بالنكاح الشرعي بواسطة نائب الشرع الشريف ولا بأس إذا أعدوا لهن صنائع يتعلمنها أثناء النهار فلا يمضي زمن قليل إلا وقدامنا من غوائل هذا المصاب العظيم وتكون الحكومة والجمعية قد خدمتا الأمة والدين أحسن خدمة يرضاها الله ورسوله صلى الله عليه وسلم فإلى هذه الجمعية ندعو أرباب الدين وإلى تأليفها ننادي المصلحين والأمر لله وهو ولي المحسنين.  </p>
                 <byline xml:id="byline_2.d1e1665">
                     <placeName change="#d5e361 #d5e425" ref="oape:place:61 geon:170654" xml:id="placeName_5.d1e1666">دمشق</placeName>
-                    <persName xml:id="persName_13.d1e1669">ع</persName>
+                    <persName xml:id="persName_13.d1e1669" change="#d2e436" ref="oape:pers:7">
+                            <abbr xml:lang="ar">ع</abbr>
+                        </persName>
                 </byline>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P328.xhtml" ed="shamela" n="n11-p29" xml:id="pb_29.d1e876"/>

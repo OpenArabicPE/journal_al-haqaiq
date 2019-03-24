@@ -6,11 +6,11 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="viaf:4795364" change="#d4e404">
+                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="oape:pers:270 viaf:4795364" change="#d4e404 #d2e463">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e404">
+                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="oape:pers:270 viaf:4795364" change="#d4e404 #d2e463">
                   <forename xml:lang="ar-Latn-x-ijmes" change="#d2e430" xml:id="forename_2.d2e37">ʿAbd al-Qādir</forename>
                   <surname xml:lang="ar-Latn-x-ijmes" change="#d2e430" xml:id="surname_2.d2e40">al-Iskandarānī</surname>
                </persName>
@@ -53,11 +53,11 @@
                   <idno type="shamela" xml:lang="en" change="#d2e430" xml:id="idno_6.d2e129">29676</idno>
                   <idno type="zenodo" xml:lang="en" change="#d2e430" xml:id="idno_7.d2e132">52619834</idno>
                   <editor ref="viaf:4795364" xml:lang="en" change="#d2e430" xml:id="editor_1.d2e135">
-                            <persName ref="viaf:4795364" xml:lang="ar" change="#d2e430" xml:id="persName_6.d2e137">
+                            <persName ref="oape:pers:270 viaf:4795364" xml:lang="ar" change="#d2e430 #d2e463" xml:id="persName_6.d2e137">
                                 <forename xml:lang="ar" change="#d2e430" xml:id="forename_3.d2e139">عبد القادر</forename>
                                 <surname xml:lang="ar" change="#d2e430" xml:id="surname_3.d2e142">الإسكندراني</surname>
                             </persName>
-                            <persName ref="viaf:4795364" xml:lang="ar-Latn-x-ijmes" change="#d2e430" xml:id="persName_7.d2e146">
+                            <persName ref="oape:pers:270 viaf:4795364" xml:lang="ar-Latn-x-ijmes" change="#d2e430 #d2e463" xml:id="persName_7.d2e146">
                                 <forename xml:lang="ar-Latn-x-ijmes" change="#d2e430" xml:id="forename_4.d2e148">ʿAbd al-Qādir</forename>
                                 <surname xml:lang="ar-Latn-x-ijmes" change="#d2e430" xml:id="surname_4.d2e151">al-Iskandarānī</surname>
                             </persName>
@@ -85,7 +85,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e430" xml:id="xi:include_1.d2e197"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e430" xml:id="xi:include_2.d2e199"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e452" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e441" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e430" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e463" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e452" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e441" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e430" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e404" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e430" xml:id="gi_1.d2e205">persName</tei:gi>s without such references based on  <tei:gi change="#d2e430" xml:id="gi_1.d2e208">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e430" xml:id="ref_1.d2e211">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <change when="2018-05-23" who="#pers_TG" xml:id="d2e394" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en" change="#d2e430" xml:id="gi_1.d2e217">num</tei:gi> node in <tei:gi xml:lang="en" change="#d2e430" xml:id="gi_1.d2e220">date</tei:gi>.</change>
          <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e383" xml:lang="en">Added references to GeoNames IDs to <tei:gi change="#d2e430" xml:id="gi_1.d2e226">placeName</tei:gi>s without such references based on  <tei:gi change="#d2e430" xml:id="gi_1.d2e229">place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e430" xml:id="ref_1.d2e232">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
@@ -356,11 +356,11 @@
                     <monogr xml:id="monogr_2.d1e471" xml:lang="ar">
                         <title level="j" xml:id="title_8.d1e473" xml:lang="ar">الحقائق</title>
                         <editor ref="viaf:4795364" xml:id="editor_2.d1e476" xml:lang="ar">
-                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="viaf:4795364" change="#d4e404">
+                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="oape:pers:270 viaf:4795364" change="#d4e404 #d2e463">
                         <forename xml:lang="ar" change="#d2e430" xml:id="forename_5.d2e741">عبد القادر</forename>
                         <surname xml:lang="ar" change="#d2e430" xml:id="surname_5.d2e744">الإسكندراني</surname>
                      </persName>
-                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e404">
+                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="oape:pers:270 viaf:4795364" change="#d4e404 #d2e463">
                                 <forename xml:id="forename_2.d1e483" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_2.d1e486" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -838,7 +838,7 @@
                 </lg>
                 <byline change="#d2e430" xml:id="byline_2.d2e1922">
                <placeName ref="oape:place:61 geon:170654" change="#d5e383 #d2e430 #d5e452" xml:id="placeName_5.d2e1924">دمشق</placeName>
-                    <persName ref="viaf:17087051" change="#d4e404 #d2e430" xml:id="persName_10.d2e1927">محمدابوالخيرالطباع</persName>
+                    <persName ref="oape:pers:456 viaf:17087051" change="#d4e404 #d2e430 #d2e463" xml:id="persName_10.d2e1927">محمدابوالخيرالطباع</persName>
             </byline>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P466.xhtml" ed="shamela" n="n16-p14" xml:id="pb_11.d1e1490"/>
@@ -886,7 +886,7 @@
                <placeName ref="oape:place:218 geon:109223" change="#d5e383 #d2e430 #d5e452" xml:id="placeName_7.d2e2128">المدينة المنورة</placeName> 
                <date calendar="#cal_islamic" datingMethod="#cal_islamic" change="#d2e430" xml:id="date_3.d2e2131">السبت في <tei:num value="11" xml:id="num_1.d1e1665" xml:lang="ar">١١</tei:num> ذي الحجة سنة <tei:num value="1329" xml:id="num_1.d1e1668" xml:lang="ar">١٣٢٩</tei:num>
                </date>
-                    <persName ref="viaf:267054449" change="#d4e404 #d2e430" xml:id="persName_12.d2e2140">
+                    <persName ref="oape:pers:512 viaf:267054449" change="#d4e404 #d2e430 #d2e463" xml:id="persName_12.d2e2140">
                   <forename change="#d2e18656 #d2e23203 #d2e430" xml:lang="ar" xml:id="forename_7.d2e2142">مختار</forename>
                   <surname change="#d2e18656 #d2e23203 #d2e430" xml:lang="ar" xml:id="surname_7.d2e2145">المؤيد</surname>
                </persName>
@@ -967,7 +967,7 @@
                     <p xml:id="p_109.d1e1697" xml:lang="ar">سلام الله عليكم وبركاته. اطلعت في الجزء <tei:num value="4" xml:id="num_1.d1e1817" xml:lang="ar">٤</tei:num> من ج <tei:num value="2" xml:id="num_1.d1e1820" xml:lang="ar">٢</tei:num> على ما أجاب به السادة العلماء عن بدعة التمثيل. وكان بنفسي أن أتطفل على هذه المائدة لكني توقفت من الشرط الذي شرطه (رائد الحقيقة) وصرح به وهو طلب الحكم من (العلماء المتنورين) وما أنا منهم. لأن (الرائد) يعني بالعلماء المتنورين ليس من نقلتم عنهم بل الذين ساحوا في مصر وأوربا فتنورت عقولهم بأكل الميتة والمخنوقة ولحم الخنزير. وحضور محافل الرقص والتمثيل وما أشبه ذلك. فهؤلاء الذين يرضى (الرائد) بحكمهم ليس من قضوا حياتهم في العلوم الدينية ووقفوا عند ما أحلّ الله وحرم وما ذاقوا من المدنية الأوروبية طعماً. فعبثاً تحاولون إقناع من لا يرى الحق حقاً والباطل باطلاً (ومن لم يجعل الله له نوراً فما له من نور).</p>
                     <byline change="#d2e430" xml:id="byline_10.d2e2391">
                   <placeName ref="oape:place:218 geon:109223" change="#d5e383 #d2e430 #d5e452" xml:id="placeName_12.d2e2393">المدينة المنورة</placeName>
-                        <persName ref="viaf:267054449" change="#d2e430" xml:id="persName_15.d2e2396"/>
+                        <persName ref="oape:pers:512 viaf:267054449" change="#d2e430 #d2e463" xml:id="persName_15.d2e2396"/>
                </byline>
                 </div>
             </div>
@@ -979,7 +979,7 @@
             </head>
                 <p xml:id="p_112.d1e1714" xml:lang="ar">مقابلته لجلالة الخليفة الأعظم، سفره لطرابلس الغرب للجهاد في سبيل الله، كتابه لأولاده، لحوق ولده الأمير عبد القادر به، وصوله لسيدي براني</p>
                 <p xml:id="p_113.d1e1717" xml:lang="ar">تشرف الأمير علي باشا الحسني بالمثول لدى جلالة الخليفة الأعظم فكان موضع التفاته واحترامه ثم قرر مجلسا الوكلاء والأعيان ذهاب حضرة الأمير إلى طرابلس الغرب فتوجه إلى (المابين) لوداع جلالة السلطان وطلب بواسطة رئيس كتاب الحضرة العلية مقابلة جلالته فأذن له الخليفة بذلك ولما دخل على جلالته كان السلطان نصره الله واقفاً وعلى وجهه دلائل الارتياح وعلائم السرور فتقرب الأمير منه بكل احترام وهم بتقبيل يده الشريفة لكن الخليفة الأعظم لم يدعه يفعل ذلك قائلاً أستغفر الله أستغفر الله. فكان جواب الأمير لجلالته إنني أتشرف بقبيل يد أمير المؤمنين وخليفة رسول رب العالمين أدام الله شوكتكم وأيدكم بملائكته فتكرم جلالة السلطان وأذن للأمير بالجلوس بقربه فجلس الأمير وخرج رئيس كتاب المابين وبعد أن مكث فقال جلالة الأمير في الحضرة السلطانية نصف ساعة طلب الإذن بالذهاب فقال جلالة السلطان للأمير اجلس اجلس وهو يتبسم ثم ابتدره بالسؤال الممزوج باللطف الملوكاني والحنان الأبوي كم لك من الأنجال؟ فأجاب الأمير <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_53.d1e2054" xml:lang="ar">ثلاثة</num> ذكور محمد سعيد وعبد القادر وأحمد و <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_54.d1e2057" xml:lang="ar">أربع</num> بنات وهم عبيد لجلالتك ووديعتي عندكم فأجابه أيده الله كن مطمئن البال إنهم أولادي ومرهم إذا لزمهم شيء أن يخبروني به ثم استأذن بالانصراف <pb change="#d2e562 #d2e576 #d2e361 #d2e375 #d2e430" ed="print" facs="#facs_190" n="190" xml:id="pb_53.d2e2424"/> فأذن له وودعه إليه فانثنى داعياً له بطول العمر، وسعة الملك ولدى خروجه قدم إليه رئيس الكتاب ساعة مرصعة بالأحجار الثمينة قائلاً له من جلالة السلطان يهديك هذه الساعة لتعرف بها أوقات الصلاة فتذكره وتدعو له فشكره وخرج من المابين وقبل مغادرة الأمير العاصمة قابل النطار فودعوه بكل إجلال واحترام داعين له بالظفر في جهاده وقد أرسل حضرة الأمير كتاباً لأنجاله يقول فيه ما خلاصته بعد وصيته عائلته وأمرهم بوفاء ما عليه من الديون والعناية بمن يلوذ به من الأقارب والأخوان.</p>
-                <p xml:id="p_114.d1e1720" xml:lang="ar">إن مجلس الوكلاء والأعيان قررا عليّ الذهاب إلى طرابلس الغرب لأجل الذب عن حياض الوطن والمحافظة على البلاد التي يريد العدو اغتيالها بالطرق المخالفة للشعائر الإنسانية والمغايرة للعهود الدولية فلم يسعني إلاَّ الإجابة والقيام بهذا الواجب الديني الوطني فاسئل الله أن يكون لنا خير معين وينصرنا على القوم الظالمين وكونوا مطمئني البال مسلمي <pb corresp="file:../epub/29676/OEBPS/xhtml/P479.xhtml" ed="shamela" n="n16-p27" xml:id="pb_24.d1e1722"/> الأمر لله سبحانه فإن القضاء محتم والقدر مبرم وإن شاء الله تعالى لا أتأخر عن إبلاغكم الأخبار السارة بالطرق التي أستطيع مخابرتكم بها وقد استصحبت معي حضرة العلامة المرشد <persName ref="viaf:58892856" change="#d2e430" xml:id="persName_17.d2e2431"/> و <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_55.d1e2065" xml:lang="ar">عشرة</num> ضباط (أركان حرب) وعدداً وافراً من متطوعي المغاربة وغاية الأمل منكم أن تكونوا روحاً واحدة في جسد و <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_56.d1e2068" xml:lang="ar">احد</num> كبيركم يرحم صغيركم وصغيركم يوقر كبيركم أهـ.</p>
+                <p xml:id="p_114.d1e1720" xml:lang="ar">إن مجلس الوكلاء والأعيان قررا عليّ الذهاب إلى طرابلس الغرب لأجل الذب عن حياض الوطن والمحافظة على البلاد التي يريد العدو اغتيالها بالطرق المخالفة للشعائر الإنسانية والمغايرة للعهود الدولية فلم يسعني إلاَّ الإجابة والقيام بهذا الواجب الديني الوطني فاسئل الله أن يكون لنا خير معين وينصرنا على القوم الظالمين وكونوا مطمئني البال مسلمي <pb corresp="file:../epub/29676/OEBPS/xhtml/P479.xhtml" ed="shamela" n="n16-p27" xml:id="pb_24.d1e1722"/> الأمر لله سبحانه فإن القضاء محتم والقدر مبرم وإن شاء الله تعالى لا أتأخر عن إبلاغكم الأخبار السارة بالطرق التي أستطيع مخابرتكم بها وقد استصحبت معي حضرة العلامة المرشد <persName ref="oape:pers:438 viaf:58892856" change="#d2e430 #d2e463" xml:id="persName_17.d2e2431"/> و <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_55.d1e2065" xml:lang="ar">عشرة</num> ضباط (أركان حرب) وعدداً وافراً من متطوعي المغاربة وغاية الأمل منكم أن تكونوا روحاً واحدة في جسد و <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_56.d1e2068" xml:lang="ar">احد</num> كبيركم يرحم صغيركم وصغيركم يوقر كبيركم أهـ.</p>
                 <p xml:id="p_115.d1e1725" xml:lang="ar">وبعد سفر الأمير المشار إليه رغب كل من ولديه الأميرين محمد سعيد وعبد القادر على اللحاق به وحسماً للخلاف اقترعا على الذهاب فأصابت القرعة الأمير عبد القادر فخف لمساعدة والده وقد وردت برقية من حضرة <pb change="#d2e562 #d2e576 #d2e361 #d2e375 #d2e430" ed="print" facs="#facs_191" n="191" xml:id="pb_55.d2e2442"/> الأمير علي باشا بوصوله وولده سالمين (لسيدي براني) ونص البرقية (صحتنا بخير ولدنا وصل لطرفنا الأحوال جيدة).</p>
                 <p xml:id="p_116.d1e1729" xml:lang="ar">وهنا يحسن بنا أن نحمد سياسة الحكومة في بعثة هذا البطل الكبير يصحبه فئة من المفكرين الخبيرين لتنظيم المجاهدين في طرابلس، وحثهم على المثابرة على الدفاع عن حوزة الدين والوطن وسنرى بحوله تعالى وقوته من أعماله الخطيرة الجليلة في تلك الأصقاع ما يرفع من شأن هذه الأمة ويخلد له بالذكر الجميل مدى الدهر ولا غرو فالأمير من سادة عرفوا بالشجاعة وحسن السياسة ويكفيه أنه شبل ذلك الأسد الذي قام يجاهد الفرنسيس مدة <num resp="#pers_TG" subtype="d2" type="auto-markup" value="20" xml:id="num_57.d1e2078" xml:lang="ar">عشرين</num> سنة في زمن نابليونها الثالث أخذ الله بيده ووفقه لما يكبت العدو ويفرح الصديق آمين. <pb corresp="file:../epub/29676/OEBPS/xhtml/P480.xhtml" ed="shamela" n="n16-p28" xml:id="pb_25.d1e1731"/>
             </p>
@@ -1000,7 +1000,13 @@
                 <p xml:id="p_127.d1e1778" xml:lang="ar">وأنا بقية كلامه في ما سبق فتعرف أجوبته وبيان خلطه وخبطه مما قدمناه لك فتذكر فما في العهد من قدم ولا حاجة بنا إلى الإعادة خشية من سآمة التالين وهذا ما حضرني وفوق كل ذي علم عليم.</p>
                 <byline change="#d2e430" xml:id="byline_12.d2e2551">
                <placeName ref="oape:place:61 geon:170654" change="#d5e383 #d2e430 #d5e452" xml:id="placeName_13.d2e2553">دمشق</placeName>
-                    <persName change="#d2e430" xml:id="persName_18.d2e2556">محمد القاسمي الحلاق</persName>
+                    <persName change="#d2e430 #d2e463" xml:id="persName_18.d2e2556" ref="oape:pers:223 viaf:51567828">
+                            <forename xml:lang="ar">محمد</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah" xml:lang="ar">القاسمي</addName>
+                                <addName type="nickname" xml:lang="ar">الحلاق</addName>
+                            </surname>
+                        </persName>
             </byline>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P484.xhtml" ed="shamela" n="n16-p32" xml:id="pb_29.d1e1786"/>

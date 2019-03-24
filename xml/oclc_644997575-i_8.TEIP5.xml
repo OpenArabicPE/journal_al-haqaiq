@@ -6,11 +6,11 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName change="#d4e425" ref="viaf:4795364" xml:id="persName_1.d1e24" xml:lang="ar">
+                    <persName change="#d4e425 #d2e487" ref="oape:pers:270 viaf:4795364" xml:id="persName_1.d1e24" xml:lang="ar">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName change="#d4e425" ref="viaf:4795364" xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">
+                    <persName change="#d4e425 #d2e487" ref="oape:pers:270 viaf:4795364" xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">
                         <forename change="#d2e465" xml:id="forename_2.d2e37" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                         <surname change="#d2e465" xml:id="surname_2.d2e40" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                     </persName>
@@ -47,11 +47,11 @@
                         <title level="j" xml:id="title_6.d1e93" xml:lang="ar-Latn-x-ijmes">al-Ḥaqāʾiq</title>
                         <title level="j" type="sub" xml:id="title_7.d1e96" xml:lang="ar-Latn-x-ijmes">Majalla ʿilmiyya dīniyya akhlāqiyya ijtimāʿiyya</title>
                         <editor ref="viaf:4795364" xml:id="editor_1.d1e99" xml:lang="en">
-                            <persName change="#d4e425" ref="viaf:4795364" xml:id="persName_5.d1e101" xml:lang="ar">
+                            <persName change="#d4e425 #d2e487" ref="oape:pers:270 viaf:4795364" xml:id="persName_5.d1e101" xml:lang="ar">
                                 <forename xml:id="forename_2.d1e103" xml:lang="ar">عبد القادر</forename>
                                 <surname xml:id="surname_2.d1e106" xml:lang="ar">الإسكندراني</surname>
                             </persName>
-                            <persName change="#d4e425" ref="viaf:4795364" xml:id="persName_6.d1e110" xml:lang="ar-Latn-x-ijmes">
+                            <persName change="#d4e425 #d2e487" ref="oape:pers:270 viaf:4795364" xml:id="persName_6.d1e110" xml:lang="ar-Latn-x-ijmes">
                                 <forename xml:id="forename_3.d1e112" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_3.d1e115" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -87,7 +87,7 @@
         </fileDesc>
         <xi:include change="#d2e465" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e201" xpointer="encodingDesc"/>
         <xi:include change="#d2e465" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e203" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e476" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e487" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e476" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
             <change when="2018-10-12" who="#pers_TG" xml:id="d2e465" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>
                 s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi>
                 and had no existing <tei:att xml:lang="en">xml:id</tei:att>
@@ -636,7 +636,12 @@
                 <p xml:id="p_62.d1e807" xml:lang="ar">لاريب في أن كل عالم بما بني عليه الدين الإسلامي من دعائم العمران وآداب الاجتماع ينفطر قلبه حينما يشاهد من ناشئة العصر أناساً جاهلين بتاريخه غير واقفين على حقيقته. ذلك الدين الذي صارت هذه الأمة بسببه أرقى الأمم أخلاقاً وأحكمها ارتباطاً وأشدها باساً وأكثرها اعتناء <pb change="#d2e443x" ed="print" facs="#facs_304" n="294" xml:id="pb_33.d2e1406"/>
                     بالإنسانية، وقد سرنا ما ينشره في هذه الآونة حضرة الكاتب الألمعي <bibl change="#d2e446" xml:id="bibl_2.d1e1405" xml:lang="ar">
                         <author change="#d2e443x #d2e446" xml:id="author_2.d2e1409" xml:lang="ar">
-                            <persName change="#d2e443x #d2e446" xml:id="persName_8.d2e1410" xml:lang="ar">الشيخ محي الدين أفندي الخياط</persName></author>باسم <title change="#d2e443x #d2e446" level="m" rend="brackets" xml:id="title_10.d2e1413" xml:lang="ar">دروس التاريخ الإسلامي</title></bibl>حيث وجدناه ضالتنا المنشودة فإنه جمع في ذلك خلاصة ما ينبغي لناشئة المسلمين أن يطلعوا عليه بعبارات قلت ألفاظها وكثرت فوائدها على طريق مختصر وأسلوب سهل فجزاه الله على هذا العمل خيراً ووفقه لإتمام هذا المشروع المفيد. غير أن موضوعاً كهذا الموضوع الجليل المخترع في أسلوبه قد لا يسلم من هفوات شأن كل عمل في مبدئه. وكنا اطلعنا على الجزء الثاني وكتبنا عنه جملة مختصرة في عدد من هذه المجلة ووعدنا أن نبين رأينا فيه. وها نحن نذكر ما عثرنا عليه مما يلزم بيانه إيفاءً بالوعد وخدمة للتاريخ جملة ما انتدبناه عليه <num resp="#pers_TG" subtype="d1" type="auto-markup" value="8" xml:id="num_34.d1e1408" xml:lang="ar">ثمانية</num>
+                            <persName change="#d2e443x #d2e446 #d2e487" xml:id="persName_8.d2e1410" xml:lang="ar" ref="oape:pers:391 viaf:4812503">
+                            <addName type="honorific" xml:lang="ar">الشيخ</addName>
+                            <forename xml:lang="ar">محي الدين</forename>
+                            <addName type="title" xml:lang="ar">أفندي</addName>
+                            <surname xml:lang="ar">الخياط</surname>
+                        </persName></author>باسم <title change="#d2e443x #d2e446" level="m" rend="brackets" xml:id="title_10.d2e1413" xml:lang="ar">دروس التاريخ الإسلامي</title></bibl>حيث وجدناه ضالتنا المنشودة فإنه جمع في ذلك خلاصة ما ينبغي لناشئة المسلمين أن يطلعوا عليه بعبارات قلت ألفاظها وكثرت فوائدها على طريق مختصر وأسلوب سهل فجزاه الله على هذا العمل خيراً ووفقه لإتمام هذا المشروع المفيد. غير أن موضوعاً كهذا الموضوع الجليل المخترع في أسلوبه قد لا يسلم من هفوات شأن كل عمل في مبدئه. وكنا اطلعنا على الجزء الثاني وكتبنا عنه جملة مختصرة في عدد من هذه المجلة ووعدنا أن نبين رأينا فيه. وها نحن نذكر ما عثرنا عليه مما يلزم بيانه إيفاءً بالوعد وخدمة للتاريخ جملة ما انتدبناه عليه <num resp="#pers_TG" subtype="d1" type="auto-markup" value="8" xml:id="num_34.d1e1408" xml:lang="ar">ثمانية</num>
                     أشياء:</p>
                 <p xml:id="p_63.d1e810" xml:lang="ar">عدم إتيانه بالصلاة والسلام على النبي صلى الله عليه وسلم كلما كتب اسمه الكريم. مع أن تعظيم النبي صلى الله عليه وسلم فرض على كل مؤمن فقد أنقذنا عليه الصلاة والسلام من الظلمات إلى النور وخلصنا من غياهب الجهل الحالك إلى مشارق أنوار العلم وطهرنا مما كان عليه الجاهلية وعبدة الأوثان حتى بلغنا أرقى ذروة في الآداب وانتهينا إلى أشرف مدينة محفوفة بأحسن الأخلاق وأسدى غلينا صلى الله عليه وسلم من الإحسان مالا نبلغ معشار واجب شكره فجزاه الله عنا ما هو أهله. وكيف لا يجب علينا أن نربي الناشئة على تعظيمه صلى الله عليه وسلم وقد قال الله تعالى:</p>
                 <p xml:id="p_64.d1e813" xml:lang="ar">[إنا أرسلناك شاهداً ومبشراً ونذيراً لتؤمنوا بالله ورسوله وتعزروه <pb change="#d2e443x" ed="print" facs="#facs_305" n="295" xml:id="pb_34.d2e1423"/>
@@ -800,7 +805,7 @@
                         مقالة في <title change="#d2e446" level="j" xml:id="title_11.d1e1761" xml:lang="ar">المقتبس</title>
                         <biblScope change="#d2e446 #d2e465" from="500" to="500" unit="issue" xml:id="biblScope_4.d2e1862" xml:lang="ar">
                             عدد <tei:num value="500" xml:id="num_1.d1e1546" xml:lang="ar">٥٠٠</tei:num></biblScope>للعالم الفاضل <author change="#d2e446 #d2e465" xml:id="author_3.d2e1868" xml:lang="ar">
-                            <persName ref="viaf:93607460" xml:id="persName_9.d1e1767" xml:lang="ar">
+                            <persName ref="oape:pers:482 viaf:93607460" xml:id="persName_9.d1e1767" xml:lang="ar" change="#d2e487">
                                 <forename change="#d2e446" xml:id="forename_5.d1e1768" xml:lang="ar">جمال الدين</forename>
                                 <surname change="#d2e446" xml:id="surname_5.d1e1771" xml:lang="ar">القاسمي</surname></persName>
                         </author>فيما يتعلق بالتلغراف</bibl>من ثبوت الأحكام الشرعية وقد ذكر أنه كان من الباحثين في هذه المسألة من سنين وأنه الآن رأى في <bibl change="#d2e446 #d2e465" xml:id="bibl_6.d2e1881" xml:lang="ar">
@@ -813,16 +818,25 @@
                                 العدد <lb change="#d2e465" xml:id="lb_24.d2e1899"/>
                                 السابع</biblScope>
                             <biblScope change="#d2e446 #d2e465" from="264" unit="page" xml:id="biblScope_6.d2e1902" xml:lang="ar">صحيفة ٢٦٤</biblScope>اثناء مقالة <author change="#d2e446 #d2e465" xml:id="author_4.d2e1905" xml:lang="ar">
-                                <persName change="#d4e425 #d2e446 #d2e465" ref="viaf:299025643" xml:id="persName_10.d2e1907" xml:lang="ar">
+                                <persName change="#d4e425 #d2e446 #d2e465 #d2e487" ref="oape:pers:547 viaf:299025643" xml:id="persName_10.d2e1907" xml:lang="ar">
                                     <addName change="#d2e18656 #d2e446 #d2e465" type="honorific" xml:id="addName_1.d2e1909" xml:lang="ar">الشيخ</addName>
                                     <forename change="#d2e18656 #d2e446 #d2e465" xml:id="forename_6.d2e1912" xml:lang="ar">عارف</forename>
                                     <addName change="#d2e18656 #d2e446 #d2e465" type="title" xml:id="addName_2.d2e1915" xml:lang="ar">افندي</addName>
                                     <surname change="#d2e18656 #d2e446 #d2e465" xml:id="surname_6.d2e1918" xml:lang="ar">المنير</surname></persName>
                             </author>
-                        </bibl>وان ما نسب اليه خلاف الواقع</note>بعد مذاكرته مع مفتيها استناداً على التلغراف الوارد في رؤية الهلال هناك وأكده بفتوى <persName change="#d2e446 #d2e465" xml:id="persName_11.d2e1925" xml:lang="ar">الشيخ عليش المالكي</persName>
-                    بذلك ونقل عن <persName change="#d2e446 #d2e465" xml:id="persName_12.d2e1928" xml:lang="ar">الشيخ عبد الباقي الأفغاني الحنفي</persName>
+                        </bibl>وان ما نسب اليه خلاف الواقع</note>بعد مذاكرته مع مفتيها استناداً على التلغراف الوارد في رؤية الهلال هناك وأكده بفتوى <persName change="#d2e446 #d2e465 #d2e487" xml:id="persName_11.d2e1925" xml:lang="ar" ref="oape:pers:514">
+                            <addName type="honorific" xml:lang="ar">الشيخ</addName>
+                            <forename xml:lang="ar">عليش</forename>
+                            <surname xml:lang="ar">المالكي</surname>
+                        </persName>
+                    بذلك ونقل عن <persName change="#d2e446 #d2e465 #d2e487" xml:id="persName_12.d2e1928" xml:lang="ar" ref="oape:pers:267">
+                            <addName type="honorific" xml:lang="ar">الشيخ</addName>
+                            <forename xml:lang="ar">عبد الباقي</forename>
+                            <surname xml:lang="ar">الأفغاني</surname>
+                            <addName type="nisbah" xml:lang="ar">الحنفي</addName>
+                        </persName>
                     و
-                    <persName change="#d4e425 #d2e446 #d2e465" ref="viaf:96963151" xml:id="persName_13.d2e1932" xml:lang="ar">
+                    <persName change="#d4e425 #d2e446 #d2e465 #d2e487" ref="oape:pers:441 viaf:96963151" xml:id="persName_13.d2e1932" xml:lang="ar">
                         <addName change="#d2e18656 #d2e446 #d2e465" type="honorific" xml:id="addName_3.d2e1934" xml:lang="ar">الشيخ</addName>
                         <forename change="#d2e18656 #d2e446 #d2e465" xml:id="forename_7.d2e1937" xml:lang="ar">محمد</forename>
                         <surname change="#d2e18656 #d2e446 #d2e465" xml:id="surname_7.d2e1940" xml:lang="ar">الشطي</surname>
@@ -834,8 +848,12 @@
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="4" xml:id="num_54.d1e1783" xml:lang="ar">أربعة</num>
                     على رد قول من قال أنه يثبت بقول أهل الحساب مع أنه أولى من التلغراف وأجدر منه بالاعتبار لما هو مشاهد من شيوع الغلط فيه على أن الشيخ عليش رحمه الله س ل عن حكم شرب الدخان فيما نقله عنه في الفتاوى الكمالية فأجاب بأن الدخان لا نص فيه للمتقدمين لعدم وجوده في زمانهم وإنما حدث بعد ال
                     <num resp="#pers_TG" subtype="d4" type="auto-markup" value="1000" xml:id="num_55.d1e1786" xml:lang="ar">ألف</num>
-                    من الهجرة ولذلك اختلف العلماء فيه الخ. . فأنت ترى أن الشيخ المذكور ناقض نفسه لأنه لم يفت بحكم الدخان لعدم وجوده في زمن المتقدمين وأفتى بالتلغراف وكلاهما لم يوجدا بزمن المتقدمين بل حدوث التلغراف بعد الدخان بأعوام عديدة وهذا منه عجيب وأما ما نقله عن رسالة <persName change="#d2e446 #d2e465" xml:id="persName_14.d2e1964" xml:lang="ar">الشيخ عبد الباقي الأفغاني</persName>
-                    ورسالة <persName change="#d4e425 #d2e446 #d2e465" ref="viaf:96963151" xml:id="persName_15.d2e1967" xml:lang="ar">
+                    من الهجرة ولذلك اختلف العلماء فيه الخ. . فأنت ترى أن الشيخ المذكور ناقض نفسه لأنه لم يفت بحكم الدخان لعدم وجوده في زمن المتقدمين وأفتى بالتلغراف وكلاهما لم يوجدا بزمن المتقدمين بل حدوث التلغراف بعد الدخان بأعوام عديدة وهذا منه عجيب وأما ما نقله عن رسالة <persName change="#d2e446 #d2e465 #d2e487" xml:id="persName_14.d2e1964" xml:lang="ar" ref="oape:pers:267">
+                            <addName type="honorific" xml:lang="ar">الشيخ</addName>
+                            <forename xml:lang="ar">عبد الباقي</forename>
+                            <surname xml:lang="ar">الأفغاني</surname>
+                        </persName>
+                    ورسالة <persName change="#d4e425 #d2e446 #d2e465 #d2e487" ref="oape:pers:441 viaf:96963151" xml:id="persName_15.d2e1967" xml:lang="ar">
                         <addName change="#d2e465" type="honorific" xml:id="addName_5.d2e1969" xml:lang="ar">الشيخ</addName>
                         <forename change="#d2e465" xml:id="forename_8.d2e1972" xml:lang="ar">محمد</forename>
                         <surname change="#d2e465" xml:id="surname_8.d2e1975" xml:lang="ar">الشطي</surname></persName>فهو نقل محرف لأنهما بعد تقديم مقدمات حقوقية يجري فيها قبول الكتابة المحفوظة كالمبرآات السلطانية والفرمانات الخاقانية ألحقا بذلك قبول التلغراف بالحقوق كالوكالة وما شابهها لا أنهما أفتيا <pb change="#d2e443x" ed="print" facs="#facs_319" n="309" xml:id="pb_57.d2e1805"/>
@@ -844,7 +862,7 @@
                 <p xml:id="p_115.d1e1026" xml:lang="ar">وأما نقله عن بعض الطلبة القائل ليس هذا أي ثبوت شهر رمضان بالتلغراف من مذهبنا أو ليس عندنا الخ ثم رده عليه بقوله أن هذا اشتباه لأن المذهب الذي ينسب إلى إمام نفياً أو إثباتاً هو ما قاله أو نص عليه إلى آخر ما رده فأجيب عنه بأن ما قاله هذا البعض هو الحق الصريح وخلافه باطل وغير صحيح وكون إثبات رمضان غير منصوص عليه من صاحب المذهب غير صحيح وأيضاً بل نصت علماء المذاهب على حصر ثبوت شهر رمضان بالرؤية أو بإتمام العدة وذلك نص صاحب الشرع صلى الله عليه وسلم والحاصل أن من له أدنى إلمام بفروع الشرع وأصوله لا يقول بثبوت شهري رمضان وشوال بالتلغراف بل أكثر ما يقال فيه أنه يورث شبهة بالحقوق لا بالديانات ثم ليت شعلاري من هم علماء الشافعية في دمشق الذين أفتوا به ووافقهم الشيخ عبد الباقي الأفغاني ليتنا نطلع على أسماءهم وعلى ما ذكروه من الأدلة وأظن أنه ليس عندهم إلا الاستحسان العقي ومن المعلوم المقرر أن أسرار الشرع المطهر لا يستقل بها العقل أعفانا الله تعالى من هذه الترهات ودخلنا بواسع الرحمات بجاه صاحب المعجزات صلى الله عليه وسلم</p>
                 <byline change="#d2e443x #d2e446" xml:id="byline_1.d2e1811" xml:lang="ar">
                     <placeName change="#d2e443x #d5e404 #d2e446 #d5e476" ref="oape:place:61 geon:170654" xml:id="placeName_3.d2e1812" xml:lang="ar">دمشق</placeName>
-                    <persName change="#d2e443x #d2e446" xml:id="persName_10.d2e1815" xml:lang="ar">راغب السادات</persName>
+                    <persName change="#d2e443x #d2e446 #d2e487" xml:id="persName_10.d2e1815" xml:lang="ar" ref="oape:pers:420">راغب السادات</persName>
                 </byline>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P204.xhtml" ed="shamela" n="n7-p24" xml:id="pb_24.d1e1035"/>
@@ -852,7 +870,7 @@
             <div type="article" xml:id="div_9.d1e1039" xml:lang="ar">
                 <head xml:id="head_9.d1e1041" xml:lang="ar">عود على بدء <lb change="#d2e443x" xml:id="lb_13.d2e1824"/>
                     <hi change="#d2e443x #d2e446" rend="brackets" xml:id="hi_17.d2e1825" xml:lang="ar">
-                        لحضرة <persName change="#d2e443x #d2e446" xml:id="persName_11.d2e1827" xml:lang="ar">
+                        لحضرة <persName change="#d2e443x #d2e446 #d2e487" xml:id="persName_11.d2e1827" xml:lang="ar" ref="oape:pers:481">
                             الأستاذ <addName change="#d2e443x #d2e446" type="honorific" xml:id="addName_1.d2e1829" xml:lang="ar">الشيخ</addName>
                             <forename change="#d2e443x #d2e446" xml:id="forename_5.d2e1832" xml:lang="ar">جمال</forename>
                             <addName change="#d2e443x #d2e446" type="title" xml:id="addName_2.d2e1835" xml:lang="ar">أفندي</addName>
@@ -880,7 +898,7 @@
                     بسائر البدع العصرية لا جرم أنك لو بشرت هؤلاء المتمدنين بها قبل ما بشرتهم بشيء لا علاقة بينهم وبينه ولا تعارف لكانوا أكثر سروراً منك واشد غبطة بفضلك هذا ما حضرني الآن راجياً تغاضيك عن مزجاة بضاعتي وعسى أن تعود فنعود.</p>
                 <byline change="#d2e443x #d2e446" xml:id="byline_2.d2e1886" xml:lang="ar">
                     <placeName change="#d2e443x #d5e404 #d2e446 #d5e476" ref="oape:place:218 geon:109223" xml:id="placeName_4.d2e1887" xml:lang="ar">المدينة المنورة</placeName>
-                    <persName change="#d2e443x #d2e446" ref="viaf:267054449" xml:id="persName_12.d2e1890" xml:lang="ar">
+                    <persName change="#d2e443x #d2e446 #d2e487" ref="oape:pers:512 viaf:267054449" xml:id="persName_12.d2e1890" xml:lang="ar">
                         <forename change="#d2e18656 #d2e446 #d2e465" xml:id="forename_10.d2e2087" xml:lang="ar">مختار</forename>
                         <surname change="#d2e18656 #d2e446 #d2e465" xml:id="surname_10.d2e2090" xml:lang="ar">المؤيد</surname>
                     </persName>
@@ -889,7 +907,7 @@
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P206.xhtml" ed="shamela" n="n7-p26" xml:id="pb_26.d1e1070"/>
             <div type="article" xml:id="div_10.d1e1074" xml:lang="ar">
                 <head xml:id="head_10.d1e1076" xml:lang="ar">حجاب الفتاة</head>
-                <byline change="#d2e443x #d2e446" xml:id="byline_3.d2e1898" xml:lang="ar">بقلم الشاعر الكبير <persName change="#d2e443x #d2e446 #d4e451" ref="viaf:280763829" xml:id="persName_13.d2e1900" xml:lang="ar">عبدالحميدافنديالرافعي</persName></byline>
+                <byline change="#d2e443x #d2e446" xml:id="byline_3.d2e1898" xml:lang="ar">بقلم الشاعر الكبير <persName change="#d2e443x #d2e446 #d4e451 #d2e487" ref="oape:pers:407 viaf:280763829" xml:id="persName_13.d2e1900" xml:lang="ar">عبدالحميدافنديالرافعي</persName></byline>
                 <p xml:id="p_127.d1e1082" xml:lang="ar">عن الرأي العام الأغر</p>
                 <lg xml:id="lg_7.d1e1085" xml:lang="ar">
                     <l type="bayt" xml:id="l_9.d1e1087" xml:lang="ar">
@@ -1097,7 +1115,12 @@
             <div type="article" xml:id="div_11.d1e1530" xml:lang="ar">
                 <head xml:id="head_11.d1e1532" xml:lang="ar">المولد الشريف</head>
                 <opener change="#d2e443x #d2e446" xml:id="opener_1.d2e2335" xml:lang="ar">بعد طبع ما تقدم قرأنا في <title change="#d2e443x #d2e446" level="j" rend="brackets" xml:id="title_14.d2e2337" xml:lang="ar">الكائنات</title>
-                    للشاعر المجيد <persName change="#d2e443x #d2e446" xml:id="persName_14.d2e2340" xml:lang="ar">الشيخ أحمد أفندي الصابوني</persName>
+                    للشاعر المجيد <persName change="#d2e443x #d2e446 #d2e487" xml:id="persName_14.d2e2340" xml:lang="ar" ref="oape:pers:452">
+                            <addName type="honorific" xml:lang="ar">الشيخ</addName>
+                            <forename xml:lang="ar">أحمد</forename>
+                            <addName type="title" xml:lang="ar">أفندي</addName>
+                            <surname xml:lang="ar">الصابوني</surname>
+                        </persName>
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_60.d1e2330" xml:lang="ar">أحد</num>
                     كتاب حماه قصيدة عنوانها <title change="#d2e443x #d2e446" rend="brackets" xml:id="title_15.d2e2346" xml:lang="ar">المولد الشريف</title>
                     قال في أولها:</opener>
@@ -1166,7 +1189,7 @@
                 </lg>
                 <byline change="#d2e446 #d2e465" xml:id="byline_4.d2e2730" xml:lang="ar">
                     <supplied change="#d2e446 #d2e465" resp="#pers_TG" xml:id="supplied_1.d2e2732" xml:lang="ar">
-                        <persName change="#d2e446 #d2e465" xml:id="persName_21.d2e2734" xml:lang="ar">
+                        <persName change="#d2e446 #d2e465 #d2e487" xml:id="persName_21.d2e2734" xml:lang="ar" ref="oape:pers:451">
                             <forename change="#d2e446 #d2e465" xml:id="forename_11.d2e2736" xml:lang="ar">أحمد</forename>أفندي <surname change="#d2e446 #d2e465" xml:id="surname_11.d2e2739" xml:lang="ar">الصابوني</surname></persName>
                     </supplied>
                 </byline>

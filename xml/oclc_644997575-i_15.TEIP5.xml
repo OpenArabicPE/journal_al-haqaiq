@@ -6,11 +6,11 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="viaf:4795364" change="#d4e423">
+                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="oape:pers:270 viaf:4795364" change="#d4e423 #d2e476">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e423">
+                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="oape:pers:270 viaf:4795364" change="#d4e423 #d2e476">
                   <forename xml:lang="ar-Latn-x-ijmes" change="#d2e442" xml:id="forename_2.d2e37">ʿAbd al-Qādir</forename>
                   <surname xml:lang="ar-Latn-x-ijmes" change="#d2e442" xml:id="surname_2.d2e40">al-Iskandarānī</surname>
                </persName>
@@ -53,11 +53,11 @@
                         <idno change="#d2e361" type="shamela" xml:id="idno_6.d2e120" xml:lang="en">29676</idno>
                         <idno type="zenodo" xml:lang="en" change="#d2e412" xml:id="idno_7.d2e126">52619834</idno>
                         <editor change="#d2e361" ref="viaf:4795364" xml:id="editor_1.d2e123" xml:lang="en">
-                            <persName change="#d2e361" ref="viaf:4795364" xml:id="persName_6.d2e125" xml:lang="ar">
+                            <persName change="#d2e361 #d2e476" ref="oape:pers:270 viaf:4795364" xml:id="persName_6.d2e125" xml:lang="ar">
                                 <forename change="#d2e361" xml:id="forename_2.d2e127" xml:lang="ar">عبد القادر</forename>
                                 <surname change="#d2e361" xml:id="surname_2.d2e130" xml:lang="ar">الإسكندراني</surname>
                             </persName>
-                            <persName change="#d2e361" ref="viaf:4795364" xml:id="persName_7.d2e134" xml:lang="ar-Latn-x-ijmes">
+                            <persName change="#d2e361 #d2e476" ref="oape:pers:270 viaf:4795364" xml:id="persName_7.d2e134" xml:lang="ar-Latn-x-ijmes">
                                 <forename change="#d2e361" xml:id="forename_3.d2e136" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname change="#d2e361" xml:id="surname_3.d2e139" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -84,7 +84,7 @@
         </fileDesc>
         <xi:include change="#d2e361" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e185" xpointer="encodingDesc"/>
         <xi:include change="#d2e361" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e187" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e465" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e453" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e442" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e476" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e465" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e453" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e442" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e423" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e442" xml:id="gi_1.d2e205">persName</tei:gi>s without such references based on  <tei:gi change="#d2e442" xml:id="gi_1.d2e208">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e442" xml:id="ref_1.d2e211">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <change when="2018-10-09" who="#pers_TG" xml:id="d2e412" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e442" xml:id="att_1.d2e217">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e442" xml:id="gi_1.d2e220">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e442" xml:id="att_1.d2e223">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
             <change when="2018-10-09" who="#pers_TG" xml:lang="en" change="#d2e412" xml:id="change_1.d2e197">Validated page breaks and mark-up of articles against the facsimiles.</change>
@@ -381,11 +381,11 @@
                     <monogr xml:id="monogr_2.d1e471" xml:lang="ar">
                         <title level="j" xml:id="title_8.d1e473" xml:lang="ar">الحقائق</title>
                         <editor ref="viaf:4795364" xml:id="editor_2.d1e476" xml:lang="ar">
-                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="viaf:4795364" change="#d4e423">
+                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="oape:pers:270 viaf:4795364" change="#d4e423 #d2e476">
                         <forename xml:lang="ar" change="#d2e442" xml:id="forename_5.d2e753">عبد القادر</forename>
                         <surname xml:lang="ar" change="#d2e442" xml:id="surname_5.d2e756">الإسكندراني</surname>
                      </persName>
-                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e423">
+                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="oape:pers:270 viaf:4795364" change="#d4e423 #d2e476">
                                 <forename xml:id="forename_2.d1e483" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_2.d1e486" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -529,7 +529,7 @@
                         يكفر ببدعته حرام غلا ذكر بدعته فليس حراماً ولا مكروهاً. وأما الجواب عن سائر ما وقع في الجمعية التمثيلية بما أشار له السائل وطلب الجواب عنه فإنه منوط كما قدمنا بمن شاهده من علماء الدين مثل أصحاب الفضيلة الشيخ عبد الرزاق أفندي البيطار والشيخ جمال أفندي القاسمي الحلاق والشيخ رشيد أفندي سنان وعبد الرزاق أفندي الدردري ومحمد أفندي الحكيم وأبي السعود أفندي مراد الذين حضروها وشاهدوا الأعمال التي حوتها (فماء راء كمن سمعا) والله تعالى أعلم.</p>
                     <byline change="#d2e361" xml:id="byline_1.d2e661">
                         <placeName change="#d2e361 #d5e380 #d5e465" ref="oape:place:61 geon:170654" xml:id="placeName_5.d2e662">دمشق</placeName>
-                        <persName change="#d2e361 #d4e423" xml:id="persName_10.d2e665" ref="viaf:299025643">
+                        <persName change="#d2e361 #d4e423 #d2e476" xml:id="persName_10.d2e665" ref="oape:pers:547 viaf:299025643">
                      <forename change="#d2e18656 #d2e23203 #d2e442" xml:lang="ar" xml:id="forename_7.d2e926">محمد</forename>
                      <forename change="#d2e18656 #d2e23203 #d2e442" xml:lang="ar" xml:id="forename_8.d2e929">عارف</forename>
                      <surname change="#d2e18656 #d2e23203 #d2e442" xml:lang="ar" xml:id="surname_7.d2e932">المنير</surname>
@@ -604,7 +604,13 @@
                         يموتوا ومسلم في صحيحه من رأى منكم منكر فليغيره بيده فإن لم يستطع فبلسانه فإن لم يستطع فبقلبه وذلك أضعف الإيمان فياللعجب من رجال حاضرة ولهم السنة ناطقة وعيون باصرة وأذان صاغية واعية ترى أفعالاً منكرات وتسمع أقوالاً محرمات وتستطيع أن تغير بالأقوى فضلاً عن الأضعف فلم تفعل كيف وقد أجمعوا على أنه يجب على أئمة الدين وعلماء المسلمين إيضاح المشكلات ورد شبه أهل الضلالات وبيان ما يجب وما يحرم وغير ذلك ليكونوا من جملة المرادين بقوله صلى الله عليه وسلم يحمل هذا العلم من كل خلف عدوُ له ينفون عنه تحريف الغالين وانتحال المبطلين وتأويل الجاهلين أو كما قال والله تعالى أعلم.</p>
                     <byline change="#d2e361" xml:id="byline_2.d2e756">
                         <placeName change="#d2e361 #d5e380 #d5e465" ref="oape:place:61 geon:170654" xml:id="placeName_6.d2e757">دمشق</placeName>
-                        <persName change="#d2e361" xml:id="persName_12.d2e760">محمد القاسمي الحلاق</persName>
+                        <persName change="#d2e361 #d2e476" xml:id="persName_12.d2e760" ref="oape:pers:223 viaf:51567828">
+                            <forename xml:lang="ar">محمد</forename>
+                            <surname xml:lang="ar">
+                                <addName type="nisbah" xml:lang="ar">القاسمي</addName>
+                                <addName type="nickname" xml:lang="ar">الحلاق</addName>
+                            </surname>
+                        </persName>
                     </byline>
                 </div>
             </div>
@@ -727,7 +733,7 @@
                     <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_107" n="107" xml:id="pb_45.d2e942"/>
                     المشهد المهيب خطيب المسجد الشريف وبلبل منبره (الشيخ حسن أفندي الأسطواني) بدعاء مؤثر للغاية رجا الله فيه أن ينصر دولتنا ويؤدها بروح من عنده وأن يخذل كلمة الباغين المعتدين. والشيوخ والأطفال والكبار والعلماء والأمراء يؤمنون على دعائه تأميناً خالصاً من قلوب تبكي حناناً ورحمة لأولئك الأقوام البائسين مع انكسار وخضوع لله ورجوع إليه سبحانه اعترافاً بأن بيده مقاليد كل شيء وأن الأمر له كله.</p>
                 <p xml:id="p_57.d1e726" xml:lang="ar">وبعد الدعاء انبرى حضرة العالم العلامة المصلح الكبير 
-                    <persName ref="viaf:58892856" change="#d2e412" xml:id="persName_13.d2e1196"/>
+                    <persName ref="oape:pers:438 viaf:58892856" change="#d2e412 #d2e476" xml:id="persName_13.d2e1196"/>
                     فخطب الناس بخطاب وجلت منه القلوب وذرفت منه الدموع وجعل الناس على كثرتهم كأنهم الرجل الواحد يسمع للأمر يهمه وكان مدار خطابه على أمور 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_20.d1e941" xml:lang="ar">ثلاثة</num>
                     الأول التأسف على طرابلس وذكر حدودها وأنها لبقية الباقية من أفريقيا. والثاني دعوى الناس إلى رفع الخلاف والشحنأ وأن يتحدوا ويتفقوا ويكونوا يداً واحدة على إنقاذ بلادهم والثالث دعوتهم إلى جمع الإعانات لهذه الحرب وإعلامهم بأن المال في مثل هذه الأوقات الحرجة أعظم معين لصد هجمات هذا العدو المتوحش. وقد ظهر في هذه الخطبة العظيمة لمن لم يعرف الاستاذ حفظه الله مقدار همته، وشدة غيرته، على جمع كلمة العثمانيين، وتفانيه في تأييد هذه الخلافة وجمع القلوب عليها وأن قلبه يتفتت رحمة وحناناً لأولئك الضعفاء 
@@ -910,7 +916,7 @@
                 </lg>
                 <byline xml:id="byline_1.d1e1278">
                     <placeName change="#d5e380 #d5e465" ref="oape:place:61 geon:170654" xml:id="placeName_5.d1e1279">دمشق</placeName>
-                    <persName xml:id="persName_9.d1e1282">
+                    <persName xml:id="persName_9.d1e1282" change="#d2e476" ref="oape:pers:492">
                         <forename xml:id="forename_5.d1e1283">عبد الرحمن</forename>
                         <surname xml:id="surname_5.d1e1286">القصار</surname>
                     </persName>
@@ -998,7 +1004,7 @@
                     الشبان أن يجتهدوا في نفع أمتهم بما يرفع شأنهم ويعلى من أقدارهم ولعلهم إلى ذلك
                     صائرون.</p>
                 <byline xml:id="byline_2.d1e1362">
-                    <persName xml:id="persName_10.d1e1363" ref="viaf:299025643" change="#d4e423">
+                    <persName xml:id="persName_10.d1e1363" ref="oape:pers:547 viaf:299025643" change="#d4e423 #d2e476">
                   <forename change="#d2e18656 #d2e23203 #d2e442" xml:lang="ar" xml:id="forename_10.d2e1721">محمد</forename>
                   <forename change="#d2e18656 #d2e23203 #d2e442" xml:lang="ar" xml:id="forename_11.d2e1724">عارف</forename>
                   <surname change="#d2e18656 #d2e23203 #d2e442" xml:lang="ar" xml:id="surname_9.d2e1727">المنير</surname>
@@ -1015,7 +1021,7 @@
                         <gap resp="#pers_TG" change="#d2e412" xml:id="gap_1.d2e1675"/>
                         ها وليس بيننا وبين 
                         <lb change="#d2e412" xml:id="lb_4.d2e1677"/>
-                        <persName change="#d2e412 #d4e423" xml:id="persName_17.d2e1679" ref="viaf:32272677">
+                        <persName change="#d2e412 #d4e423 #d2e476" xml:id="persName_17.d2e1679" ref="oape:pers:878 viaf:32272677">
                             صاحب 
                             <title level="j" change="#d2e412" xml:id="title_12.d2e1681">المقتبس</title>
                   </persName> عداوة او مآرب شخصية وانما القصد تنبيه الناس الى اجثناب من بريد بهم شالر</note> على الدولة والوطن</head>
@@ -1040,7 +1046,7 @@
                     متى هذا النوم يا قوم، هذا صاحب المقتلس
                     منذ إعلان الحرب بين دولتنا المحبوبة وبين إيطاليا أخذ ينشر الأخبار المنكوبة التي
                     تجلب اليأس وتضعف القوى.</p>
-                <p xml:id="p_88.d1e1121" xml:lang="ar">نشر قوات إيطاليا وما عندها من الاستعدادات الحربية ليرهبنا بذلك ويقطع عزائمنا. بين ضعف الدولة وفقرها وثبط العثمانيين عن جمع الإعانات وتحرص بأنهم لا يجمعون من المملكة أكثر من ربع مليون ليرة وأن من الحكمة أن يصرف على أعمار بلادهم. وقال في الرد على من يحث العثمانيين وعموم البلاد الإسلامية على مساعدة الدولة بأموالهم كما فعل الفرنسيون واليابانيون (فأين نحن من يا بأن مملكة الشمس المشرقة وفرنسا ممدنة العالم) كأن العثمانيين ليسوا من بني البشر. وقارب أن يفضل السياسة المدنية على السياسة الشرعية الربانية في مقالة نشرها بإمضاء س. ز. ولما رأى أن مسألة اختلاف العرب والترك قد زالت وأن الأمة أدركت خطأها وتبين لها بفضل الوعظ الديني أن الواجب عليها أن تتضامن وتتكافل وتنسى الأحقاد وتدع الشخصيات ليتسنى لها الخروج من هذا المأزق الحرج الذي وقعت فيه لم يرق له ذلك فقام ينشر ما يدعو إلى النفور ويزعم أن خطباء المسلمين يهيجون الناس لأنهم يأمرونهم بالجهاد في سبيل الله بأموالهم وأنفسهم ويحثونهم على مساعدة دولتهم والدفاع عن إخوانهم بالإعانات والتطوع مموها أن في ذلك ما يثير الخواطر على المسيحيين كذب والله فأله، وطاش سهمه، وخاب ظنه فليس في الحث على الجهاد ما يوجب شيئاً من ذلك. وهل المسلمون والمسيحيون إلا سواء في الوطنية، سواء في العثمانية وهاهم يعملون معاً يداً واحدة على جمع الإعانات لإنقاذ دولتهم وأهل وطنهم <pb corresp="file:../epub/29676/OEBPS/xhtml/P419.xhtml" ed="shamela" n="n14-p29" xml:id="pb_29.d1e1123"/> والحماسة سائدة بين الجميع على رغم أنف من يريد التفرقة بينهم فليدع المتخرصون تخرصاتهم فإن الشرع الشريف يعتبر مواطنينا المسيحيين قسمين ذمي ومعاهد فالذمي له ما المسلمين وعليه ما عليهم دمه حرام، وعرضه حرام، وماله حرام ولا يحل لمسلم أن بمثابة فضلاً عن أن يتعرض له بسوء والمعاهد الأجنبي قد دخل البلاد بإذن الخليفة الأعظم فهو محقون الدم مصون العرض محفوظ الحقوق عملاً بالأمان الذي منحته <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_120" n="120" xml:id="pb_69.d2e1435"/> الحكومة إياه ومن أوفى ذمة من المسلمين وليرجع القارئ إلى <bibl xml:id="bibl_3.d1e1396"> مقالة <author xml:id="author_2.d1e1398"> <persName change="#d2e412 #d4e423" ref="viaf:32272677" xml:id="persName_18.d2e1721"> صاحب <title level="j" xml:id="title_10.d1e1400">المقتبس</title> </persName> </author>( <title level="a" xml:id="title_11.d1e1403">التكهن السياسي</title> المنشورة <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7084;r=2340" from="795" to="795" unit="issue" xml:id="biblScope_9.d1e1406"> عدد ( <tei:num value="795" xml:id="num_1.d1e1229" xml:lang="ar">٧٩٥</tei:num> )</biblScope> </bibl>و <bibl xml:id="bibl_4.d1e1412"> مقالة <title level="a" xml:id="title_12.d1e1414">ماليتنا والإعانات</title> (المنشورة <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7086;r=28400" from="799" to="799" unit="issue" xml:id="biblScope_10.d1e1417"> عدد <tei:num value="799" xml:id="num_1.d1e1232" xml:lang="ar">٧٩٩</tei:num> </biblScope> </bibl>وإلى <bibl xml:id="bibl_5.d1e1422"> مقالة <title level="a" xml:id="title_13.d1e1424">الأقاويل والأراجيف</title> الموقعة بإمضاء <author xml:id="author_3.d1e1427"> <persName xml:id="persName_11.d1e1428">س. ز</persName> </author>المنشورة <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7088;r=21476" from="801" to="801" unit="issue" xml:id="biblScope_11.d1e1431"> عدد <tei:num value="801" xml:id="num_1.d1e1235" xml:lang="ar">٨٠١</tei:num> </biblScope> </bibl>ويتصفح جريدته وليقابل بينها وبين غيرها من الجرائد العثمانية التي تتقد حماسة وغيرة وتحمل العثمانيين على أن يفدوا دولتهم العثمانية بأنفسهم وأموالهم وأولادهم وأن يعيشوا شرفاء أو يموتوا أعزاء قال لنا بعض الناس أنني حينما أقرأ جريدة <title level="j">المفيد</title> تأخذ في الحماسة الشديدة وآخذ العهود على نفسي أنني إذا وجدت احتياجاً في دولتي لا مثالي لا فدينها بنفسي ومالي وإذا طالعت جريدة <title level="j" xml:id="title_14.d1e1436">المقتبس</title> يعتورني اليأس والخور وأتصور أن الطليان لابد أن يأخذوا <placeName>طرابلس الغرب</placeName> وأن حماستنا وغيرتنا وإعاناتنا وقوتنا لا تقيد شيئاً وقد اجتمعنا بكثير ممن كانوا يعتقدون فيه الوطنية فرأيناهم ساخطين عليه وقد ظهر لهم ما كان يخفيه من العداء للأمة والملة.</p>
+                <p xml:id="p_88.d1e1121" xml:lang="ar">نشر قوات إيطاليا وما عندها من الاستعدادات الحربية ليرهبنا بذلك ويقطع عزائمنا. بين ضعف الدولة وفقرها وثبط العثمانيين عن جمع الإعانات وتحرص بأنهم لا يجمعون من المملكة أكثر من ربع مليون ليرة وأن من الحكمة أن يصرف على أعمار بلادهم. وقال في الرد على من يحث العثمانيين وعموم البلاد الإسلامية على مساعدة الدولة بأموالهم كما فعل الفرنسيون واليابانيون (فأين نحن من يا بأن مملكة الشمس المشرقة وفرنسا ممدنة العالم) كأن العثمانيين ليسوا من بني البشر. وقارب أن يفضل السياسة المدنية على السياسة الشرعية الربانية في مقالة نشرها بإمضاء س. ز. ولما رأى أن مسألة اختلاف العرب والترك قد زالت وأن الأمة أدركت خطأها وتبين لها بفضل الوعظ الديني أن الواجب عليها أن تتضامن وتتكافل وتنسى الأحقاد وتدع الشخصيات ليتسنى لها الخروج من هذا المأزق الحرج الذي وقعت فيه لم يرق له ذلك فقام ينشر ما يدعو إلى النفور ويزعم أن خطباء المسلمين يهيجون الناس لأنهم يأمرونهم بالجهاد في سبيل الله بأموالهم وأنفسهم ويحثونهم على مساعدة دولتهم والدفاع عن إخوانهم بالإعانات والتطوع مموها أن في ذلك ما يثير الخواطر على المسيحيين كذب والله فأله، وطاش سهمه، وخاب ظنه فليس في الحث على الجهاد ما يوجب شيئاً من ذلك. وهل المسلمون والمسيحيون إلا سواء في الوطنية، سواء في العثمانية وهاهم يعملون معاً يداً واحدة على جمع الإعانات لإنقاذ دولتهم وأهل وطنهم <pb corresp="file:../epub/29676/OEBPS/xhtml/P419.xhtml" ed="shamela" n="n14-p29" xml:id="pb_29.d1e1123"/> والحماسة سائدة بين الجميع على رغم أنف من يريد التفرقة بينهم فليدع المتخرصون تخرصاتهم فإن الشرع الشريف يعتبر مواطنينا المسيحيين قسمين ذمي ومعاهد فالذمي له ما المسلمين وعليه ما عليهم دمه حرام، وعرضه حرام، وماله حرام ولا يحل لمسلم أن بمثابة فضلاً عن أن يتعرض له بسوء والمعاهد الأجنبي قد دخل البلاد بإذن الخليفة الأعظم فهو محقون الدم مصون العرض محفوظ الحقوق عملاً بالأمان الذي منحته <pb change="#d2e565 #d2e579 #d2e361 #d2e375" ed="print" facs="#facs_120" n="120" xml:id="pb_69.d2e1435"/> الحكومة إياه ومن أوفى ذمة من المسلمين وليرجع القارئ إلى <bibl xml:id="bibl_3.d1e1396"> مقالة <author xml:id="author_2.d1e1398"> <persName change="#d2e412 #d4e423 #d2e476" ref="oape:pers:878 viaf:32272677" xml:id="persName_18.d2e1721"> صاحب <title level="j" xml:id="title_10.d1e1400">المقتبس</title> </persName> </author>( <title level="a" xml:id="title_11.d1e1403">التكهن السياسي</title> المنشورة <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7084;r=2340" from="795" to="795" unit="issue" xml:id="biblScope_9.d1e1406"> عدد ( <tei:num value="795" xml:id="num_1.d1e1229" xml:lang="ar">٧٩٥</tei:num> )</biblScope> </bibl>و <bibl xml:id="bibl_4.d1e1412"> مقالة <title level="a" xml:id="title_12.d1e1414">ماليتنا والإعانات</title> (المنشورة <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7086;r=28400" from="799" to="799" unit="issue" xml:id="biblScope_10.d1e1417"> عدد <tei:num value="799" xml:id="num_1.d1e1232" xml:lang="ar">٧٩٩</tei:num> </biblScope> </bibl>وإلى <bibl xml:id="bibl_5.d1e1422"> مقالة <title level="a" xml:id="title_13.d1e1424">الأقاويل والأراجيف</title> الموقعة بإمضاء <author xml:id="author_3.d1e1427"> <persName xml:id="persName_11.d1e1428" change="#d2e476" ref="oape:pers:1776">س . ز</persName> </author>المنشورة <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=7088;r=21476" from="801" to="801" unit="issue" xml:id="biblScope_11.d1e1431"> عدد <tei:num value="801" xml:id="num_1.d1e1235" xml:lang="ar">٨٠١</tei:num> </biblScope> </bibl>ويتصفح جريدته وليقابل بينها وبين غيرها من الجرائد العثمانية التي تتقد حماسة وغيرة وتحمل العثمانيين على أن يفدوا دولتهم العثمانية بأنفسهم وأموالهم وأولادهم وأن يعيشوا شرفاء أو يموتوا أعزاء قال لنا بعض الناس أنني حينما أقرأ جريدة <title level="j">المفيد</title> تأخذ في الحماسة الشديدة وآخذ العهود على نفسي أنني إذا وجدت احتياجاً في دولتي لا مثالي لا فدينها بنفسي ومالي وإذا طالعت جريدة <title level="j" xml:id="title_14.d1e1436">المقتبس</title> يعتورني اليأس والخور وأتصور أن الطليان لابد أن يأخذوا <placeName>طرابلس الغرب</placeName> وأن حماستنا وغيرتنا وإعاناتنا وقوتنا لا تقيد شيئاً وقد اجتمعنا بكثير ممن كانوا يعتقدون فيه الوطنية فرأيناهم ساخطين عليه وقد ظهر لهم ما كان يخفيه من العداء للأمة والملة.</p>
                 <lg xml:id="lg_5.d1e1127" xml:lang="ar">
                     <l type="bayt" xml:id="l_29.d1e1129" xml:lang="ar">
                         <seg xml:id="seg_57.d1e1131" xml:lang="ar">ومهما تكن عند امرئ من خليقة </seg>
@@ -1049,13 +1055,13 @@
                     </l>
                 </lg>
                 <p xml:id="p_89.d1e1139" xml:lang="ar">ذلك بعض ما قام به 
-                    <persName change="#d2e412 #d4e423" xml:id="persName_20.d2e1784" ref="viaf:32272677">
+                    <persName change="#d2e412 #d4e423 #d2e476" xml:id="persName_20.d2e1784" ref="oape:pers:878 viaf:32272677">
                         صاحب 
                         <title level="j" xml:id="title_15.d1e1455">المقتبس</title>
                </persName>من المفاسد فلما كان عمل العثمانيين تجاهها هل رهبوا إليه ونصحوه وبينوا له خطورة الأمر هل أقاموا عليه احتجاجاً مشروعاً ليرتدع فما هو عليه من الغي ويرجع إلى الصواب شاء أم أبى هل رفعوا أمره إلى الحكومة لتتلاقى الخطر قبل أن يتسع الخرق؟ هل قاطعوا جريدته ورفضوا الاشتراك ليتضح له خلل رأيه وأن الأمة قد انتبهت له فيعدل خطته أو يعتزل الصحافة فيريح الناس من إفساده وسخافة رأيه حقاً ليس الوقت وقت خصام وشحناء وتضاغن وعداء وتخطئ مخطئ وتفيد مزاعم متحرض وإنما الوقت وقت أن نجتمع بدا واحدة ونعمل على تلاقي هذا الخطر المحدق بنا الذي لا يعلم ما تكون النتيجة فيه (وستكون خيراً أن شاطئه) وليكن من لنا بتقييد تلك اليد الأثيمة عن تفريق وحدتنا والعبث بمصالحنا وزرع اليأس في قلوبنا والتلاعب بديننا. نحن 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P420.xhtml" ed="shamela" n="n14-p30" xml:id="pb_30.d1e1141"/>
                     والله لا نطلب من 
-                    <persName change="#d2e412 #d4e423" xml:id="persName_21.d2e1791" ref="viaf:32272677">
+                    <persName change="#d2e412 #d4e423 #d2e476" xml:id="persName_21.d2e1791" ref="oape:pers:878 viaf:32272677">
                         صاحب 
                         <title level="j" xml:id="title_16.d1e1460">المقتبس</title>
                </persName>إصلاحاً لأنه بعيد عن الخير والخير بعيد عنه ولا نعلم أن جريدته بجريدة أجنبية منها بجريدة عثمانية وأنها لا تعمل على نفع العثمانيين وإنما نريد أن يكف عنا شروره ويكفينا وتعزيزه أو يرغم على ترك هذه السياسات السخيفة والآراء الصبيانية الضعيفة ويحزنها في فؤاده فلا يراها 

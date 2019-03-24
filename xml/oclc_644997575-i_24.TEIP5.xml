@@ -6,11 +6,11 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="viaf:4795364" change="#d4e367">
+                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="oape:pers:270 viaf:4795364" change="#d4e367 #d2e424">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e367">
+                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="oape:pers:270 viaf:4795364" change="#d4e367 #d2e424">
                   <forename xml:lang="ar-Latn-x-ijmes" change="#d2e390" xml:id="forename_2.d2e37">ʿAbd al-Qādir</forename>
                   <surname xml:lang="ar-Latn-x-ijmes" change="#d2e390" xml:id="surname_2.d2e40">al-Iskandarānī</surname>
                </persName>
@@ -53,11 +53,11 @@
                   <idno type="shamela" xml:lang="en" change="#d2e356" xml:id="idno_6.d2e123">29676</idno>
                   <idno type="zenodo" xml:lang="en" change="#d2e356" xml:id="idno_7.d2e126">52619834</idno>
                   <editor ref="viaf:4795364" xml:lang="en" change="#d2e356" xml:id="editor_1.d2e129">
-                            <persName ref="viaf:4795364" xml:lang="ar" change="#d2e356" xml:id="persName_6.d2e131">
+                            <persName ref="oape:pers:270 viaf:4795364" xml:lang="ar" change="#d2e356 #d2e424" xml:id="persName_6.d2e131">
                                 <forename xml:lang="ar" change="#d2e356" xml:id="forename_2.d2e133">عبد القادر</forename>
                                 <surname xml:lang="ar" change="#d2e356" xml:id="surname_2.d2e136">الإسكندراني</surname>
                             </persName>
-                            <persName ref="viaf:4795364" xml:lang="ar-Latn-x-ijmes" change="#d2e356" xml:id="persName_7.d2e140">
+                            <persName ref="oape:pers:270 viaf:4795364" xml:lang="ar-Latn-x-ijmes" change="#d2e356 #d2e424" xml:id="persName_7.d2e140">
                                 <forename xml:lang="ar-Latn-x-ijmes" change="#d2e356" xml:id="forename_3.d2e142">ʿAbd al-Qādir</forename>
                                 <surname xml:lang="ar-Latn-x-ijmes" change="#d2e356" xml:id="surname_3.d2e145">al-Iskandarānī</surname>
                             </persName>
@@ -83,7 +83,7 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e356" xml:id="xi:include_1.d2e185"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e356" xml:id="xi:include_2.d2e187"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e413" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e401" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e390" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e424" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e413" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><tei:change when="2018-10-12" who="#pers_TG" xml:id="d5e401" xml:lang="en">Added references to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in <tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e390" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e367" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e390" xml:id="gi_1.d2e199">persName</tei:gi>s without such references based on  <tei:gi change="#d2e390" xml:id="gi_1.d2e202">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e390" xml:id="ref_1.d2e205">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <change when="2018-09-30" who="#pers_TG" xml:id="d2e356" xml:lang="en">Added automated <tei:att xml:lang="en" change="#d2e390" xml:id="att_1.d2e211">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en" change="#d2e390" xml:id="gi_1.d2e214">tei:text</tei:gi> and had no existing <tei:att xml:lang="en" change="#d2e390" xml:id="att_1.d2e217">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <change when="2018-05-23" who="#pers_TG" xml:id="d2e346" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e192">num</tei:gi> node in <tei:gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e195">date</tei:gi>.</change>
@@ -172,11 +172,11 @@
                     <monogr xml:id="monogr_2.d1e471" xml:lang="ar">
                         <title level="j" xml:id="title_8.d1e473" xml:lang="ar">الحقائق</title>
                         <editor ref="viaf:4795364" xml:id="editor_2.d1e476" xml:lang="ar">
-                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="viaf:4795364" change="#d4e367">
+                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="oape:pers:270 viaf:4795364" change="#d4e367 #d2e424">
                         <forename xml:lang="ar" change="#d2e390" xml:id="forename_5.d2e412">عبد القادر</forename>
                         <surname xml:lang="ar" change="#d2e390" xml:id="surname_5.d2e415">الإسكندراني</surname>
                      </persName>
-                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e367">
+                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="oape:pers:270 viaf:4795364" change="#d4e367 #d2e424">
                                 <forename xml:id="forename_2.d1e483" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_2.d1e486" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -415,9 +415,9 @@
                   </author>
                </bibl>
             </p>
-                <p xml:id="p_45.d1e690" xml:lang="ar">قال <persName change="#d2e356 #d4e367" xml:id="persName_11.d2e685" ref="viaf:39390702">
+                <p xml:id="p_45.d1e690" xml:lang="ar">قال <persName change="#d2e356 #d4e367 #d2e424" xml:id="persName_11.d2e685" ref="oape:pers:871 viaf:39390702">
                   <surname change="#d2e19579 #d2e23203 #d2e390" xml:lang="en-Arab-AR" xml:id="surname_7.d2e740">كارلايل</surname>
-               </persName> الفيلسوف الإنكليزي الشهير الذي يعد أكبر الإنكليز بعد <persName ref="viaf:96994048" xml:id="persName_9.d1e858" xml:lang="en-Arab-AR"> 
+               </persName> الفيلسوف الإنكليزي الشهير الذي يعد أكبر الإنكليز بعد <persName ref="oape:pers:760 viaf:96994048" xml:id="persName_9.d1e858" xml:lang="en-Arab-AR" change="#d2e424"> 
                   <surname xml:id="surname_5.d1e859">شكسبير</surname>
                </persName>(توفي <tei:date change="#d2e346 #d2e356" type="auto-markup" when="1881" xml:id="date_4.d2e693">سنة <tei:num value="1881" xml:id="num_1.d1e759" xml:lang="ar">١٨٨١</tei:num>
                </tei:date> ) م قال في إقامة الدليل على نبوة محمد صلى الله عليه وسلم في كتابه الأبطال وديانة الأبطال ما معناه:</p>
@@ -518,7 +518,7 @@
                         العالمين وإمام الأنبياء الصالحين وخاتم رسل الله المخلصين وأنه أرسل رحمة
                         للعالمين، بكتاب من عند الله مبين سيكون كتاب الناس أجمعين ولتعلمن نبأه بعد
                         حين.</p>
-            <byline change="#d2e356" xml:id="byline_1.d2e806">(<persName change="#d2e356 #d4e367" xml:id="persName_13.d2e808" ref="viaf:53094077">
+            <byline change="#d2e356" xml:id="byline_1.d2e806">(<persName change="#d2e356 #d4e367 #d2e424" xml:id="persName_13.d2e808" ref="oape:pers:980 viaf:53094077">
                   <forename xml:lang="ar" change="#d2e390" xml:id="forename_7.d2e869">فريد</forename>
                   <surname xml:lang="ar" change="#d2e390" xml:id="surname_9.d2e872">وجدي</surname>
                </persName>)</byline>
@@ -728,7 +728,10 @@
                 </lg>
                 <p xml:id="p_68.d1e1129" xml:lang="ar">على أن المسئلة لو لم يكن فيها نص كان العقل يقضي علينا باتباع عادة قومنا وبلادنا والمحافظة على أزيائنا إذ لا يخفي ما في ذلك من تقوية الرابطة القومية. هؤلاء الغربيون يأتون بلادنا ويقيمون فيها محافظين على ملابسهم وأخلاقهم وعاداتهم وكنا نستبشع ملابسهم ولم يزل البعض منا يكره ذك منهم وهم لا يغيرون عادة بلادهم وقومهم وإن كانت مستقبحة في حد ذاتها وبالعكس بعض شبابنا أليس هذا شيء عجيب؟ وحيث ثبت أن العمامة سنة <pb change="#d2e323 #d2e356" ed="print" n="25" xml:id="pb_42.d2e1217"/> من سنن الإسلام فتركها مكروه ونسئل الله أن يلهمنا رشدنا وأن يوفقنا لاتباع أوامره <pb corresp="file:../epub/29676/OEBPS/xhtml/P737.xhtml" ed="shamela" n="n23-p19" xml:id="pb_18.d1e1131"/> والمحافظة على التمسك بحبل شريعته والحمد لله رب العالمين. </p>
             <byline change="#d2e356" xml:id="byline_3.d2e1222">
-               <persName change="#d2e356" xml:id="persName_15.d2e1223">صلاح الدين الزعيم</persName>
+               <persName change="#d2e356 #d2e424" xml:id="persName_15.d2e1223" ref="oape:pers:416">
+                            <forename xml:lang="ar">صلاح الدين</forename>
+                            <surname xml:lang="ar">الزعيم</surname>
+                        </persName>
             </byline>
             </div>
          <pb corresp="file:../epub/29676/OEBPS/xhtml/P738.xhtml" ed="shamela" n="n23-p20" xml:id="pb_19.d1e1136"/>

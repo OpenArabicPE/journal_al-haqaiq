@@ -6,11 +6,11 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName change="#d4e394" ref="viaf:4795364" xml:id="persName_1.d1e24" xml:lang="ar">
+                    <persName change="#d4e394 #d2e440" ref="oape:pers:270 viaf:4795364" xml:id="persName_1.d1e24" xml:lang="ar">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName change="#d4e394" ref="viaf:4795364" xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">
+                    <persName change="#d4e394 #d2e440" ref="oape:pers:270 viaf:4795364" xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes">
                         <forename change="#d2e417" xml:id="forename_2.d2e37" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                         <surname change="#d2e417" xml:id="surname_2.d2e40" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                     </persName>
@@ -45,11 +45,11 @@
                         <title level="j" type="sub" xml:id="title_7.d1e96" xml:lang="ar-Latn-x-ijmes">Majalla ʿilmiyya
                             dīniyya akhlāqiyya ijtimāʿiyya</title>
                         <editor ref="viaf:4795364" xml:id="editor_1.d1e99" xml:lang="en">
-                            <persName change="#d4e394" ref="viaf:4795364" xml:id="persName_5.d1e101" xml:lang="ar">
+                            <persName change="#d4e394 #d2e440" ref="oape:pers:270 viaf:4795364" xml:id="persName_5.d1e101" xml:lang="ar">
                                 <forename xml:id="forename_2.d1e103" xml:lang="ar">عبد القادر</forename>
                                 <surname xml:id="surname_2.d1e106" xml:lang="ar">الإسكندراني</surname>
                             </persName>
-                            <persName change="#d4e394" ref="viaf:4795364" xml:id="persName_6.d1e110" xml:lang="ar-Latn-x-ijmes">
+                            <persName change="#d4e394 #d2e440" ref="oape:pers:270 viaf:4795364" xml:id="persName_6.d1e110" xml:lang="ar-Latn-x-ijmes">
                                 <forename xml:id="forename_3.d1e112" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
                                 <surname xml:id="surname_3.d1e115" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
                             </persName>
@@ -83,7 +83,7 @@
         </fileDesc>
         <xi:include change="#d2e417" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e187" xpointer="encodingDesc"/>
         <xi:include change="#d2e417" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e189" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e429" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e440" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e429" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
             <change when="2018-10-12" who="#pers_TG" xml:id="d2e417" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>
                 s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi>
                 and had no existing <tei:att xml:lang="en">xml:id</tei:att>
@@ -477,7 +477,7 @@
                     من الصحابة والتابعين أنه قال لمن استفتاه يجب عليك أن تراعي أحكام مذهب من قلدته لا يفيد ذلك أما أو لا فلأنه لا يلزم من عدم نقل ذلك عنهم انهم لم يبينوه لمن يسئلهم وثانياً لو سلمنا عدم بيانهم لذلك لا يلزم منه وقوع التلفيق من السائل بالفعل ومن زعمه فعليه إثبات صدور ذلك منهم وإذا جزم المحققون بحرمة التلفيق بعد إطلاعهم على ذلك فالوقوف عنده أولى إلى أن يثبت نقل صحيح يخالفه وأنى بذلك فيؤخذ مما ذكرناه حرمة التلفيق وهو الحق الأحق بأن يتبع فنسئله تعالى أن يلهم الجميع صواباً، ونعوذ من جهل بدا بسببه سوء الفهم والله أعلم.</p>
                 <byline xml:id="byline_1.d1e1174">
                     <placeName change="#d5e372 #d5e429" ref="oape:place:61 geon:170654" xml:id="placeName_4.d1e1175">دمشق</placeName>
-                    <persName xml:id="persName_7.d1e1178">
+                    <persName xml:id="persName_7.d1e1178" change="#d2e440" ref="oape:pers:6">
                         <abbr xml:id="abbr_1.d1e1179">ت</abbr>
                         <abbr xml:id="abbr_2.d1e1182">ف</abbr>
                     </persName>
@@ -520,14 +520,14 @@
                 <head xml:id="head_4.d1e629" xml:lang="ar">التماثيل السياسية <lb xml:id="lb_3.d1e1238"/>
                     في البلاد العثمانية <lb change="#d2e597" xml:id="lb_15.d2e1323"/>
                     فتوى فضيلة المفتي <lb change="#d2e597" xml:id="lb_16.d2e1325"/>
-                    تمثال <persName change="#d2e597" ref="viaf:10758777" xml:id="persName_8.d2e1327">
+                    تمثال <persName change="#d2e597 #d2e440" ref="oape:pers:208 viaf:10758777" xml:id="persName_8.d2e1327">
                         <forename change="#d2e18656 #d2e23203 #d2e417" xml:id="forename_5.d2e1156" xml:lang="ar">مدحت</forename>
                         <addName change="#d2e18656 #d2e23203 #d2e417" type="title" xml:id="addName_1.d2e1159" xml:lang="ar">باشا</addName></persName>في <placeName change="#d2e597 #d5e372 #d5e429" ref="oape:place:210 geon:99532" xml:id="placeName_5.d2e1330">البصرة</placeName></head>
                 <div type="section" xml:id="div_6.d1e1247">
                     <p xml:id="p_39.d1e641" xml:lang="ar">في مصر جرائد إفرنجية راقية تكتب فصولاً لا أجدها في غيرها من صحف مصر، ومن هذه الجرائد <title level="j" xml:id="title_9.d1e1251">الجورنال دي كير</title>
                         — وقد عثرت في عددها <pb ed="print" facs="#facs_219" n="209" xml:id="pb_25.d1e1254"/>
                         المؤرخ باليوم الرابع من هذا الشهر على مقالة في (التماثيل والإسلام) عنيت بدرسها، وعن لي بعد ذلك أن أتناول الموضوع نفسه.</p>
-                    <p xml:id="p_40.d1e645" xml:lang="ar">هان على اختيار الموضوع ولكنني ما بدأت بمعالجته حتى شعرت بصعوبته فكتبت إلى فضيلة <persName change="#d2e417" ref="viaf:305215027" xml:id="persName_9.d2e1179">الاستاذالشيخمصطفىنجا</persName>
+                    <p xml:id="p_40.d1e645" xml:lang="ar">هان على اختيار الموضوع ولكنني ما بدأت بمعالجته حتى شعرت بصعوبته فكتبت إلى فضيلة <persName change="#d2e417 #d2e440" ref="oape:pers:956 viaf:305215027" xml:id="persName_9.d2e1179">الاستاذالشيخمصطفىنجا</persName>
                         مفتي بيروت الفاضل كتاباً جملته سيدي الأستاذ:</p>
                     <p xml:id="p_41.d1e648" xml:lang="ar">عرض لي مبحث في (التماثيل والإسلام) فتهيبت وعورة مسكله وفكرت فيمن اتجه إليه فقادني التفكير إلى مقامكم السامي وعلمكم الجم نفعنا الله به إلا يجوز إقامة التماثيل في البلاد الإسلامية؟</p>
                     <p xml:id="p_42.d1e651" xml:lang="ar">وإذا حرم ذلك على إطلاقه فهل يشمل التحريم الأنصاب السياسية.</p>
@@ -560,7 +560,7 @@
                     <p xml:id="p_53.d1e688" xml:lang="ar">(مكان الختم)</p>
                     <byline xml:id="byline_2.d1e1342">الفقير إليه سبحانه <lb xml:id="lb_4.d1e1344"/>
                         مفتي بيروت <lb xml:id="lb_5.d1e1346"/>
-                        <persName change="#d4e394" ref="viaf:305215027" xml:id="persName_8.d1e1347">
+                        <persName change="#d4e394 #d2e440" ref="oape:pers:956 viaf:305215027" xml:id="persName_8.d1e1347">
                             <forename xml:id="forename_4.d1e1348">مصطفى</forename>
                             <surname xml:id="surname_4.d1e1351">نجا</surname></persName>
                     </byline>
@@ -569,7 +569,7 @@
                     <p xml:id="p_54.d1e691" xml:lang="ar">إن الكثير من جاهلي الحقيقية الظاهرة في كتاب فضيلة المفتي ينسبون منع إقامة الأنصاب السياسية إلى تعصب أو غرض على ان البلاد العثمانية وهي بلاد <pb ed="print" facs="#facs_221" n="211" xml:id="pb_28.d1e1359"/>
                         أكثر رعاياها يدينون بالإسلام لمن الضروري أن تراعى فيها المور الدينية الواجب مراعاتها ومما يروى أن <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_14.d1e1281" xml:lang="ar">أحد</num>
                         علماء الألمان أراد نشر كتاب يبين فيه (على زعمه) أن فلسفة المسيح منقولة عن شارع قبله فكتب إليه الإمبراطور غليوم كتابه المشهور قائلاً له: حافظ على إحساسات الملايين من الناس الذين يعتقدون ما تريد نقضه ونحن نقول أنه إذا لم يكن في إبطال التماثيل السياسية غير مراعاة عواطف الملايين من العثمانيين المسلمين لكان ذلك موجباً لإبطالها والسلام. </p>
-                    <byline xml:id="byline_3.d1e1365">(النصير البيروتي) <persName rend="brackets" xml:id="persName_9.d1e1367">سعيد</persName></byline>
+                    <byline xml:id="byline_3.d1e1365">(النصير البيروتي) <persName rend="brackets" xml:id="persName_9.d1e1367" change="#d2e440" ref="oape:pers:103">سعيد</persName></byline>
                     <dateline xml:id="dateline_1.d1e1370">
                         <placeName change="#d5e372 #d5e429" ref="oape:place:26 geon:276781" xml:id="placeName_5.d1e1371">بيروت</placeName>في <date xml:id="date_17.d1e1374">
                             <tei:num change="#d2e597" resp="#pers_TG" type="auto-markup" value="16" xml:id="num_15.d2e1468" xml:lang="ar">١٦</tei:num>
@@ -580,7 +580,7 @@
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P135.xhtml" ed="shamela" n="n6-p12" xml:id="pb_12.d1e696"/>
             <div type="article" xml:id="div_5.d1e701" xml:lang="ar">
                 <head xml:id="head_5.d1e703" xml:lang="ar">مناظرة بين عالمين</head>
-                <salute xml:id="salute_1.d1e1297" xml:lang="ar">حضرة العلامة الفاضل <persName ref="viaf:93607460" xml:id="persName_9.d1e1299" xml:lang="ar">
+                <salute xml:id="salute_1.d1e1297" xml:lang="ar">حضرة العلامة الفاضل <persName ref="oape:pers:482 viaf:93607460" xml:id="persName_9.d1e1299" xml:lang="ar" change="#d2e440">
                         الشيخ <forename xml:id="forename_5.d1e1301" xml:lang="ar">جمال الدين</forename>
                         <surname xml:id="surname_5.d1e1304" xml:lang="ar">القاسمي</surname></persName>دام نفعه آمين</salute>
                 <p xml:id="p_57.d1e709" xml:lang="ar">قد أطلعنا في <ref xml:id="ref_5.d1e1310" xml:lang="ar">
@@ -615,7 +615,7 @@
                     الله تعالى وقد اكتفينا الآن بهذه الأسطر وسنتبعها بالكلام على الفتاوى التي اعتمدتم عليها بما يفتح الله به علينا ومنه نسأل السداد والثبات فإنه المحبب للدعوات وهو اعلم بالنيات.</p>
                 <byline xml:id="byline_4.d1e1470">
                     <placeName change="#d5e372 #d5e429" ref="oape:place:61 geon:170654" xml:id="placeName_6.d1e1471">دمشق</placeName>
-                    <persName change="#d4e394" ref="viaf:299025643" xml:id="persName_11.d1e1474">
+                    <persName change="#d4e394 #d2e440" ref="oape:pers:547 viaf:299025643" xml:id="persName_11.d1e1474">
                         <forename change="#d2e18656 #d2e23203 #d2e417" xml:id="forename_8.d2e1427" xml:lang="ar">محمد</forename>
                         <forename change="#d2e18656 #d2e23203 #d2e417" xml:id="forename_9.d2e1430" xml:lang="ar">عارف</forename>
                         <surname change="#d2e18656 #d2e23203 #d2e417" xml:id="surname_7.d2e1433" xml:lang="ar">المنير</surname>
@@ -626,7 +626,7 @@
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P139.xhtml" ed="shamela" n="n6-p16" xml:id="pb_16.d1e730"/>
             <div type="article" xml:id="div_6.d1e734" xml:lang="ar">
                 <head xml:id="head_6.d1e736" xml:lang="ar">مسألة المرأة المصرية</head>
-                <byline xml:id="byline_5.d1e1485">لحضرة الأستاذ المفكر الكبير <persName change="#d4e394" ref="viaf:53094077" xml:id="persName_12.d1e1487">
+                <byline xml:id="byline_5.d1e1485">لحضرة الأستاذ المفكر الكبير <persName change="#d4e394 #d2e440" ref="oape:pers:980 viaf:53094077" xml:id="persName_12.d1e1487">
                         <forename change="#d2e18656 #d2e23203 #d2e417" xml:id="forename_10.d2e1453" xml:lang="ar">فريد</forename>
                         <addName change="#d2e18656 #d2e23203 #d2e417" type="title" xml:id="addName_3.d2e1456" xml:lang="ar">بك</addName>
                         <surname change="#d2e18656 #d2e23203 #d2e417" xml:id="surname_8.d2e1459" xml:lang="ar">وجدي</surname></persName>
@@ -645,7 +645,7 @@
                     الأعمال، وقدر على مزاولة المشاق.</p>
                 <p xml:id="p_71.d1e769" xml:lang="ar">قال <bibl change="#d2e597" xml:id="bibl_5.d2e1632">
                         الفيلسوف الاقتصادي <author change="#d2e597" xml:id="author_2.d2e1634">
-                            <persName change="#d2e597" xml:id="persName_14.d2e1636">برودون</persName></author>في كتابه ابتكار <title change="#d2e597" level="m" xml:id="title_15.d2e1639">النظام في تعليل سبق الرجل للمرأة في ميدان الأعمال</title></bibl>. قال:</p>
+                            <persName change="#d2e597 #d2e440" xml:id="persName_14.d2e1636" ref="oape:pers:87">برودون</persName></author>في كتابه ابتكار <title change="#d2e597" level="m" xml:id="title_15.d2e1639">النظام في تعليل سبق الرجل للمرأة في ميدان الأعمال</title></bibl>. قال:</p>
                 <pb ed="print" facs="#facs_228" n="218" xml:id="pb_41.d1e1529"/>
                 <p xml:id="p_72.d1e773" xml:lang="ar">
                     <quote change="#d2e597" xml:id="quote_1.d2e1648">إن نبسة مجموعة قوى الرجل إلى قوى المرأة تساوي <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_22.d1e1426" xml:lang="ar">ثلاثة</num>
@@ -653,16 +653,22 @@
                         فيكون التحرير الذي يطلبه بعضهم باسمهن هو تسجيل الشقاء عليهن تسجيلاً شرعياً إن لم أقل تسجيل العبودية</quote>.</p>
                 <p xml:id="p_73.d1e776" xml:lang="ar">وقال <bibl change="#d2e597" xml:id="bibl_6.d2e1660">
                         العلامة <author change="#d2e597" rend="brackets" xml:id="author_3.d2e1662">
-                            <persName change="#d2e597" xml:id="persName_15.d2e1664">أجوست كونت</persName></author>مؤسس علم الاجتماع البشري في كتابه <title change="#d2e597" level="m" rend="brackets" xml:id="title_16.d2e1667">النظام السياسي</title></bibl>قال:</p>
+                            <persName change="#d2e597 #d2e440" xml:id="persName_15.d2e1664" ref="oape:pers:888">
+                            <forename xml:lang="fr-Arab-AR">أجوست</forename>
+                            <surname xml:lang="fr-Arab-AR">كونت</surname>
+                        </persName></author>مؤسس علم الاجتماع البشري في كتابه <title change="#d2e597" level="m" rend="brackets" xml:id="title_16.d2e1667">النظام السياسي</title></bibl>قال:</p>
                 <p xml:id="p_74.d1e779" xml:lang="ar">
                     <quote change="#d2e597" xml:id="quote_2.d2e1673">إنه لو نال النساء هذه المساواة (المادية) التي يتطلبها لهن الذين يزعمون الدفاع عنهن بغير رضاهن فإن ضمانتهن الاجتماعية تفسد على قدر ما تفسد حالتهن الأدبية لأنهن في تلك الحالة سيكن خاضعات في أغلب الصنائع لمزاحمة يومية قوية بحيث لا يمكنهم القيام بها كما أنه في الوقت نفسه تتكدر المنابع الأصلية للمحبة المتبادلة </quote>انتهى.</p>
                 <p xml:id="p_75.d1e782" xml:lang="ar">أحست الهيئة الاجتماعية في أوروبا بفداحة المصاب فصاح العلماء يستغيثون ولكن بمن يصيحون؟ إن لكل دور حداً هو بالغه، ينتهي منه إلى نهاية ثم يرتكس بذويه إلى الضد، عقاباً على التفريط، وزجراً عن الاندفاع وراء الأهواء.</p>
-                <p xml:id="p_76.d1e785" xml:lang="ar">من تلك الصيحات التي فتت أكباد الأحرار ما كتبه العلامة <persName change="#d2e597" xml:id="persName_16.d2e1682">قورييه</persName>
+                <p xml:id="p_76.d1e785" xml:lang="ar">من تلك الصيحات التي فتت أكباد الأحرار ما كتبه العلامة <persName change="#d2e597 #d2e440" xml:id="persName_16.d2e1682" ref="oape:pers:133">قورييه</persName>
                     قال:</p>
                 <p xml:id="p_77.d1e788" xml:lang="ar">
                     <quote change="#d2e597" xml:id="quote_3.d2e1689">ما هي حالة المرأة اليوم؟ إنها لا تعيش إلا في الحرمان حتى في عالم الصناعة الذي ألم الرجل بجميع أنحائه لغاية الاشتغالات التافهة بالخياطة وصنع الريش. أما المرأة فيراها الناس منكبة على أشق الأعمال في الخلاء</quote>
                 </p>
-                <p change="#d2e597" xml:id="p_67.d2e1693" xml:lang="ar">ومنها ما كتبه الاقتصادي الأشهر <persName change="#d2e597" xml:id="persName_17.d2e1695">جول شيمون</persName>
+                <p change="#d2e597" xml:id="p_67.d2e1693" xml:lang="ar">ومنها ما كتبه الاقتصادي الأشهر <persName change="#d2e597 #d2e440" xml:id="persName_17.d2e1695" ref="oape:pers:772">
+                            <forename xml:lang="fr-Arab-AR">جول</forename>
+                            <surname xml:lang="fr-Arab-AR">شيمون</surname>
+                        </persName>
                     قال:</p>
                 <p xml:id="p_78.d1e792" xml:lang="ar">
                     <quote change="#d2e597" rend="quotation-marks" xml:id="quote_4.d2e1701">النساء قد صرن الآن نساجات وطباعات إلخ إلخ وقد استخدمتهن الحكومة في معاملها ولهذا فقد اكتسبن بعض دريهمات ولكنهن في مقابل ذلك قد فوضن دعائم عائلاتهن تقويضاً</quote>انتهى.</p>
@@ -708,7 +714,7 @@
                 <p xml:id="p_87.d1e1668" xml:lang="ar">يقولون أن الحجاب هو سبب كل هذا الطلاق لأن الرجل بعد إمكان معاشرة المرأة قبل زواجها يجهل أخلاقها تمام الجهل فإذا اقترن بها وجدها على ما لا يرام فيطلقها. وهذا قول بعيد عن الصواب لأن الإنسان لاتظهر أخلاقه بمجرد التنزه في الخلوات والجلوس على القهوات خصوصاً إذ وراء ذلك الزواج فيسهله على كل من الزوج والزوجة أن يتصنعا الكمال ويتكلفا محاسن الخصال ليتم المراد. ولو كان هذا النظر صادق لبطل الطلاق عند الأوربيين والأميركيين وهو لديهم آخذ في الازدياد فلو كان هؤلاء المعارضون للحجاب ممن يطالعون الكتب الاجتماعية ويستأنسون بالحوادث الوجودية لخجلوا أن ينسبوا للحجاب هذه العلة الوهمي.</p>
                 <p xml:id="p_102.d1e876" xml:lang="ar">
                     <bibl xml:id="bibl_5.d1e1672">كتب الكاتب الأميركي الشهير ( <author xml:id="author_2.d1e1674">
-                            <persName xml:id="persName_13.d1e1675">لوسن</persName></author>) في <biblScope from="25" to="25" unit="volume" xml:id="biblScope_6.d1e1678">
+                            <persName xml:id="persName_13.d1e1675" change="#d2e440" ref="oape:pers:137">لوسن</persName></author>) في <biblScope from="25" to="25" unit="volume" xml:id="biblScope_6.d1e1678">
                             المجلد الخامس وال <num resp="#pers_TG" subtype="d2" type="auto-markup" value="20" xml:id="num_29.d1e1550" xml:lang="ar">عشرين</num></biblScope>من <title level="j" xml:id="title_15.d1e1683">مجلة المجلات</title>
                         الفرنسية إحصاء</bibl>عن الطلاق في أميركا بلد حر المطلقة بناءً على طلب المجلة نقتطف منه مايأتي قال:</p>
                 <p xml:id="p_103.d1e879" xml:lang="ar">سجلت المحاكم في مملكة (مساشوزيت) من ولايات الممالك المتحدة ( <tei:num value="1622" xml:id="num_1.d1e1389" xml:lang="ar">١٦٢٢</tei:num>
@@ -760,7 +766,10 @@
                     هدايا المدينة الأوربية التي نفحتنا بها مع علومها وآدابها. وليس سببه هذا الحجاب الشفاف كما يذهب إليه المفتونون ببدع الحياة الغربية المادية.</p>
                 <p xml:id="p_119.d1e933" xml:lang="ar">كتب <bibl change="#d2e597" xml:id="bibl_8.d2e1982">
                         العمراني الخطير <author change="#d2e597" rend="brackets" xml:id="author_5.d2e1984">
-                            <persName change="#d2e597" xml:id="persName_19.d2e1986">جيوم فريرو</persName></author>في مجلة <tei:date change="#d2e384 #d2e417" type="auto-markup" when="1895" xml:id="date_10.d2e1875">
+                            <persName change="#d2e597 #d2e440" xml:id="persName_19.d2e1986" ref="oape:pers:843">
+                            <forename xml:lang="fr-Arab-AR">جيوم</forename>
+                            <surname xml:lang="fr-Arab-AR">فريرو</surname>
+                        </persName></author>في مجلة <tei:date change="#d2e384 #d2e417" type="auto-markup" when="1895" xml:id="date_10.d2e1875">
                             سنة <tei:num value="1895" xml:id="num_1.d1e1504" xml:lang="ar">١٨٩٥</tei:num></tei:date>من مجلات الفرنسية</bibl>ما يأتي:</p>
                 <quote change="#d2e597" rend="quotation-marks" xml:id="quote_7.d2e1994">
                     <p xml:id="p_120.d1e937" xml:lang="ar">إن العلامات المنذرة بقرب حلول الأزمة النهائية لهذا الشكل من المدنية التي تعيس فيه كثيرة جداً (تأمل) بحيث لا يمر يوم حتى يقف الباحث على إنذارات جديدة فيه. فلنعط نحن أيضاً أنفسنا وظيفة الطبيب ولنساعد في مساعدة ما شخصه الأطباء من هذا المرض الاجتماعي في زماننا هذا بدرس هذا الشكل الجديد من الرهينة التي هي مع عدم استنادها على دين تهددنا بأنها ستصل إلى الحد الذي وصلت إليه الرهينة الدينية في زمن من أزمنة القرون الوسطى.</p>
@@ -782,7 +791,11 @@
                 <p xml:id="p_128.d1e964" xml:lang="ar">إن هؤلاء أغرقوا فيما هم فيه حتى عزوا لتكشف النساء كل آثار التعليم والتربية والآداب الصحيحة وغاب عنهم أن فلاحات مصر وبدويات الصحارى وزنجيات إفريقيا منكشفات وهن مع ذلك محرومات من كل ثمرات الحياة الصالحة وراسفات في أثقل قيود الأسرة والعبودية لرجالهن فلماذا لم يؤثر تكشفهن على حالتهن الاجتماعية فنخفف من وطأة النوازل عليهن؟</p>
                 <p xml:id="p_129.d1e967" xml:lang="ar">إن الاختلاط بين النساء والرجال إذا كان له أثر على حالة النساء فلا يكون إلا في تدنيس قلوبهن وإفساد فطرهن وتسهيل سبيل الفسق والفجور على الأرذال من الرجال ومنهن </p>
                 <p change="#d2e597" xml:id="p_122.d2e2048" xml:lang="ar">يقول <pb corresp="file:../epub/29676/OEBPS/xhtml/P148.xhtml" ed="shamela" n="n6-p25" xml:id="pb_25.d1e969"/>
-                    <persName change="#d2e597" xml:id="persName_20.d2e2052">قسم بك أمين</persName>
+                    <persName change="#d2e597 #d2e440" xml:id="persName_20.d2e2052" ref="oape:pers:244">
+                            <forename xml:lang="ar">قسم</forename>
+                            <addName type="title" xml:lang="ar">بك</addName>
+                            <surname xml:lang="ar">أمين</surname>
+                        </persName>
                     رحمه الله أنه يجب علينا أن نكشف نساءنا واو أدى ذلك إلى دخولهن في جميع الأدوار التي دخلت فيها المرأة الأوربية يريد بذلك ولو أصبح الحال في العالم الإسلامي كما هو في العالم الأوربي من شيوع الزنا ورواج سوق الفسق والغرام وانتشار العزوبة إلى الحد الذي بلغت إليه أوروبا وهو كلام لا نفهمه وليس هو من الحكمة في شيء فقد كان يصح ما يقول إذا كانت المرأة الأوربية خرجت من كل هذه الأدوار راقية <pb ed="print" facs="#facs_238" n="228" xml:id="pb_59.d1e1871"/>
                     شريفة. أما هي لا تزال تتخبط في تلك الأدوار ويجأر فلاسفة بلادها إلى الله من فداحة مصابها ومصاب الرجال. ويعتبرون ذلك علة أصلية لتلاشي مدينتهم وتقوض دولتهم فلا يصح في عقل عاقل أن ينصح ناصح قومه بأن يدفعوا نساءهم في هذا السبيل المحفوف بالمكارم الذي هو إلى الشر أقرب منه إلى الخير.</p>
                 <p xml:id="p_130.d1e972" xml:lang="ar">فأما أن نصبر على ما نحن عليه حتى يتبين لنا ما وراء كل هذه المقاذر التي تخوضها المرأة الغربية وأما أن نعمل عقولنا فندرك أن أحسن السبل هو أن نقوي في مجتمعاتنا مبدأ عدم الاختلاط حتى لا نقع فيما وقع فيه سوانا من الإرزاء.</p>
@@ -822,7 +835,12 @@
                         الغراء</salute>
                     <p xml:id="p_142.d1e1020" xml:lang="ar">غلب تقديم واجبات التعليم والاحترام أرجو من فضلكم التأمل بالحديث المذكور <ref change="#d2e417" target="oclc_644997575-i_5.TEIP5.xml#pb_52.d1e1504" xml:id="ref_6.d2e2052">
                             في <bibl change="#d2e597" xml:id="bibl_11.d2e2161">
-                                خطاب العلامة <persName change="#d2e597" xml:id="persName_21.d2e2163">الشيخ صالح أفندي المدرج</persName>
+                                خطاب العلامة <persName change="#d2e597 #d2e440" xml:id="persName_21.d2e2163" ref="oape:pers:527">
+                            <addName type="honorific" xml:lang="ar">الشيخ</addName>
+                            <forename xml:lang="ar">صالح</forename>
+                            <addName type="title" xml:lang="ar">أفندي</addName>
+                            <surname xml:lang="ar">المدرج</surname>
+                        </persName>
                                 في <biblScope change="#d2e597" from="5" to="5" unit="issue" xml:id="biblScope_9.d2e2166">الجزء الخامس</biblScope>
                                 من مجلتكم <biblScope change="#d2e417" from="185" to="185" unit="page" xml:id="biblScope_10.d2e2062">
                                     ص ( <tei:num value="172" xml:id="num_1.d1e1610" xml:lang="ar">١٧٢</tei:num>
@@ -843,13 +861,20 @@
                             <seg xml:id="seg_6.d1e1048" xml:lang="ar">منو بتطمن الجميع</seg>
                         </l>
                     </lg>
-                    <byline xml:id="byline_6.d1e2016">الأمضا <persName xml:id="persName_14.d1e2018">توفيق العلمي</persName></byline>
+                    <byline xml:id="byline_6.d1e2016">الأمضا <persName xml:id="persName_14.d1e2018" change="#d2e440" ref="oape:pers:468">
+                            <forename xml:lang="ar">توفيق</forename>
+                            <surname xml:lang="ar">العلمي</surname>
+                        </persName></byline>
                 </div>
                 <div type="article" xml:id="div_14.d1e2022">
                     <p xml:id="p_144.d1e1057" xml:lang="ar">وصواب البيت الأول عن خالتي لأن المقصود مرسله تطميننا عن خالتنا وخالته بأنها وصلت إلى معان بصحة بعد أداء فريضة الحج وصواب البيت الثاني لبت سعت_فأين لفظ لعت من سعت وطارت من طافت <pb ed="print" facs="#facs_242" n="232" xml:id="pb_65.d1e2026"/>
                         وصواب البيت الثالث_نزلت معان بصحة منوا بتطمين الجميع_وخطؤه بديهي وقد تكرر معنا الخطأ بجملة تلغرافات غير هذا كما بينتم حفظكم لله كثرة خطائه والله يحفظكم آمين.</p>
                     <byline xml:id="byline_7.d1e2029">
-                        <persName rend="brackets" xml:id="persName_15.d1e2030">محمد سعيد السكري</persName>
+                        <persName rend="brackets" xml:id="persName_15.d1e2030" change="#d2e440" ref="oape:pers:424">
+                            <forename xml:lang="ar">محمد</forename>
+                            <forename xml:lang="ar">سعيد</forename>
+                            <surname xml:lang="ar">السكري</surname>
+                        </persName>
                     </byline>
                 </div>
                 <div type="article" xml:id="div_15.d1e2034">
@@ -878,7 +903,10 @@
                     </lg>
                     <byline xml:id="byline_8.d1e2087">
                         <placeName change="#d5e372 #d5e429" ref="oape:place:61 geon:170654" xml:id="placeName_7.d1e2088">دمشق</placeName>
-                        <persName xml:id="persName_16.d1e2091">محي الدين الخاني</persName>
+                        <persName xml:id="persName_16.d1e2091" change="#d2e440" ref="oape:pers:370">
+                            <forename xml:lang="ar">محي الدين</forename>
+                            <surname xml:lang="ar">الخاني</surname>
+                        </persName>
                     </byline>
                 </div>
             </div>

@@ -6,11 +6,11 @@
                 <title xml:id="title_2.d1e16" xml:lang="en">Majallat al-Ḥaqāʾiq</title>
                 <title type="sub" xml:id="title_3.d1e19" xml:lang="en">TEI edition</title>
                 <author xml:id="author_1.d1e22" xml:lang="en">
-                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="viaf:4795364" change="#d4e400">
+                    <persName xml:id="persName_1.d1e24" xml:lang="ar" ref="oape:pers:270 viaf:4795364" change="#d4e400 #d2e440">
                         <forename xml:id="forename_1.d1e26" xml:lang="ar">عبد القادر</forename>
                         <surname xml:id="surname_1.d1e29" xml:lang="ar">الإسكندراني</surname>
                     </persName>
-                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="viaf:4795364" change="#d4e400">
+                    <persName xml:id="persName_2.d1e33" xml:lang="ar-Latn-x-ijmes" ref="oape:pers:270 viaf:4795364" change="#d4e400 #d2e440">
                   <forename xml:lang="ar-Latn-x-ijmes" change="#d2e418" xml:id="forename_2.d2e37">ʿAbd al-Qādir</forename>
                   <surname xml:lang="ar-Latn-x-ijmes" change="#d2e418" xml:id="surname_2.d2e40">al-Iskandarānī</surname>
                </persName>
@@ -53,11 +53,11 @@
                         <idno type="shamela" xml:lang="en" change="#d2e418" xml:id="idno_6.d2e129">29676</idno>
                         <idno type="zenodo" xml:lang="en" change="#d2e418" xml:id="idno_7.d2e132">52619834</idno>
                         <editor ref="viaf:4795364" xml:lang="en" change="#d2e418" xml:id="editor_1.d2e135">
-                            <persName ref="viaf:4795364" xml:lang="ar" change="#d2e418" xml:id="persName_6.d2e137">
+                            <persName ref="oape:pers:270 viaf:4795364" xml:lang="ar" change="#d2e418 #d2e440" xml:id="persName_6.d2e137">
                                 <forename xml:lang="ar" change="#d2e418" xml:id="forename_3.d2e139">عبد القادر</forename>
                                 <surname xml:lang="ar" change="#d2e418" xml:id="surname_3.d2e142">الإسكندراني</surname>
                             </persName>
-                            <persName ref="viaf:4795364" xml:lang="ar-Latn-x-ijmes" change="#d2e418" xml:id="persName_7.d2e146">
+                            <persName ref="oape:pers:270 viaf:4795364" xml:lang="ar-Latn-x-ijmes" change="#d2e418 #d2e440" xml:id="persName_7.d2e146">
                                 <forename xml:lang="ar-Latn-x-ijmes" change="#d2e418" xml:id="forename_4.d2e148">ʿAbd al-Qādir</forename>
                                 <surname xml:lang="ar-Latn-x-ijmes" change="#d2e418" xml:id="surname_4.d2e151">al-Iskandarānī</surname>
                             </persName>
@@ -84,7 +84,7 @@
         </fileDesc>
         <xi:include change="#d2e358" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e192" xpointer="encodingDesc"/>
         <xi:include change="#d2e358" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e194" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e429" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e418" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e440" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e429" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e418" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e400" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e418" xml:id="gi_1.d2e205">persName</tei:gi>s without such references based on  <tei:gi change="#d2e418" xml:id="gi_1.d2e208">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e418" xml:id="ref_1.d2e211">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
             <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e379" xml:lang="en">Added references to GeoNames IDs to 
                 <tei:gi change="#d2e418" xml:id="gi_1.d2e217">placeName</tei:gi>
@@ -699,7 +699,7 @@
                 </head>
                 <div change="#d2e358" next="oclc_644997575-i_14.TEIP5.xml#div_6.d2e1333" prev="oclc_644997575-i_8.TEIP5.xml#div_16.d2e1662" type="article" xml:id="div_8.d2e1089">
                     <head change="#d2e358" xml:id="head_9.d2e1091">تابع ترجمة 
-                        <persName change="#d2e418" xml:id="persName_8.d2e1373">أبو بكر</persName>
+                        <persName change="#d2e418 #d2e440" xml:id="persName_8.d2e1373" ref="oape:pers:14">أبو بكر</persName>
                         رضي الله عنه
                         <note change="#d2e358" n="1" type="footnote" xml:id="note_1.d2e1093">
                             <ref target="oclc_644997575-i_8.TEIP5.xml#div_16.d2e1662" change="#d2e418" xml:id="ref_4.d2e1378">تتمة لما نشر في المجلد الاول</ref>
@@ -769,13 +769,13 @@
                 <head xml:id="head_8.d1e967" xml:lang="ar">التقريظ والانتقاد</head>
                 <div change="#d2e358" type="article" xml:id="div_13.d2e1208">
                     <head type="sub" xml:id="head_9.d1e1177">الرائية الكبرى للعلامة 
-                        <persName change="#d2e358" ref="viaf:12718257" xml:id="persName_8.d2e1212">
+                        <persName change="#d2e358 #d2e440" ref="oape:pers:556 viaf:12718257" xml:id="persName_8.d2e1212">
                             <surname change="#d2e358" xml:id="surname_4.d2e1213">النبهاني</surname>
                   </persName>
                     </head>
                     <p xml:id="p_121.d1e973" xml:lang="ar">المؤلفون في هذا الدور من الزمن من أكثرهم يؤلف للتجارة ومعلوم أن التاجر يجلب ما يرى رواجه لاما يتحقق فائدته وغنائه لذلك كثرت بيننا التآليف السخيفة كالروايات والقصص الهزلية وأمثالها مما يضيع الوقت به سدى ولا يأتي بفائدة للقارئ إن لم يعد عليه بضرر كأن يعتقد أمر واقعاً وهو غير واقع ويكون من الأمور التي يترتب عليها حكم شرعي والشعب لقلة علمه ونضوب فهمه لعدم تعهد أهل العلم الحقيقيين له بالمواعظ يروج بينه هذا النوع من المؤلفات وتجار التأليف مازالوا كل يوم يتحفون هذا المجتمع بشيء جديد من هذه السخافات.</p>
                     <p xml:id="p_122.d1e976" xml:lang="ar">وقسم من المؤلفين وهو أقل من الأول يؤلف لينشر بدعة أو ليروج ضلالة وهذا القسم يروج عند فريق قليل من الناس وقد يدعون العامة إليه ليزحزحوهم عن الصراط السوي. وندر جداً من يؤلف ليفيد علماً ويستفيد مثوبة وأجراً من هؤلاء المؤلفين العلامة الأستاذ الفاضل 
-                        <persName change="#d2e358" ref="viaf:12718257" xml:id="persName_9.d2e1223">
+                        <persName change="#d2e358 #d2e440" ref="oape:pers:556 viaf:12718257" xml:id="persName_9.d2e1223">
                             <addName change="#d2e358" type="title" xml:id="addName_1.d2e1224">الشيخ</addName>
                             <forename change="#d2e358" xml:id="forename_4.d2e1227">يوسف</forename>
                             <addName change="#d2e358" type="title" xml:id="addName_2.d2e1230">أفندي</addName>
@@ -804,7 +804,7 @@
                     <div change="#d2e358" type="section" xml:id="div_14.d2e1275">
                         <byline change="#d2e358" xml:id="byline_1.d2e1277">
                             <supplied change="#d2e358" resp="#pers_TG" xml:id="supplied_1.d2e1278">
-                                <persName change="#d2e358" ref="viaf:12718257" xml:id="persName_10.d2e1279">
+                                <persName change="#d2e358 #d2e440" ref="oape:pers:556 viaf:12718257" xml:id="persName_10.d2e1279">
                                     <addName change="#d2e358" type="title" xml:id="addName_3.d2e1280">الشيخ</addName>
                                     <forename change="#d2e358" xml:id="forename_5.d2e1283">يوسف</forename>
                                     <addName change="#d2e358" type="title" xml:id="addName_4.d2e1286">أفندي</addName>
@@ -1215,7 +1215,12 @@
                 </head>
                 <p xml:id="p_138.d1e1876" xml:lang="ar">
                     <bibl change="#d2e358" xml:id="bibl_4.d2e2198">كتاب نشر في بيان التعاليم الاجتماعية. ترجمه من التركية إلى العربية الفاضل 
-                        <persName change="#d2e358" xml:id="persName_11.d2e2200">السيد عبد القادر أفندي المبارك</persName>
+                        <persName change="#d2e358 #d2e440" xml:id="persName_11.d2e2200" ref="oape:pers:516">
+                            <addName type="title" xml:lang="ar">السيد</addName>
+                            <forename xml:lang="ar">عبد القادر</forename>
+                            <addName type="title" xml:lang="ar">أفندي</addName>
+                            <surname xml:lang="ar">المبارك</surname>
+                        </persName>
                </bibl>معلم القسم الديني في المكتب الإعدادي الملكي في هذه الحاضرة وقد تصفحنا أكثره وجدناه حافلاً بالمسائل المفيدة. سهل العبارة حسن الأسلوب فنحض على اقتنائه. ونسدي جامعه شكراً جزيلاً. وفقنا الله جميعنا لخدمة الأمة والعمل بما يعلي شأنها. 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P359.xhtml" ed="shamela" n="" xml:id="pb_26.d1e1878"/>
             </p>
