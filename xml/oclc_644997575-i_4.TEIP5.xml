@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>-->
-<TEI next="oclc_644997575-i_5" prev="oclc_644997575-i_3" xml:id="oclc_644997575-i_4" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_5" prev="oclc_644997575-i_3" xml:id="oclc_644997575-i_4" xml:lang="en">
     <teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
         <fileDesc xml:id="fileDesc_1.d1e9" xml:lang="en">
             <titleStmt xml:id="titleStmt_1.d1e11" xml:lang="en">
@@ -71,8 +64,8 @@
                                 <orgName xml:id="orgName_5.d1e137" xml:lang="ar-Latn-x-ijmes">Maṭbaʿa al-Maqāṣid</orgName>
                             </publisher>
                             <pubPlace xml:id="pubPlace_2.d1e141" xml:lang="en">
-                                <placeName change="#d5e378" ref="geon:170654" xml:id="placeName_1.d1e143" xml:lang="ar">دمشق</placeName>
-                                <placeName change="#d5e378" ref="geon:170654" xml:id="placeName_2.d1e146" xml:lang="en">Damascus</placeName>
+                                <placeName change="#d5e378 #d5e447" ref="oape:place:61 geon:170654" xml:id="placeName_1.d1e143" xml:lang="ar">دمشق</placeName>
+                                <placeName change="#d5e378 #d5e447" ref="oape:place:61 geon:170654" xml:id="placeName_2.d1e146" xml:lang="en">Damascus</placeName>
                             </pubPlace>
                             <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1910-11-04" when-custom="1328-11-01" xml:id="date_3.d1e151"/>
                             <date calendar="#cal_ottomanfiscal" change="#d2e603" datingMethod="#cal_ottomanfiscal" when="1910-11-04" when-custom="1326-08-23" xml:id="date_3.d2e152"/>
@@ -93,7 +86,7 @@
         </fileDesc>
         <xi:include change="#d2e422" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e195" xpointer="encodingDesc"/>
         <xi:include change="#d2e422" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e197" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432">
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e447" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
             <tei:change when="2018-11-09" who="#pers_TG" xml:id="d4e433" xml:lang="en">Added references to VIAF IDs to <tei:gi>persName</tei:gi>
                 s without such references based on <tei:gi>person</tei:gi>
                 s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>
@@ -101,7 +94,7 @@
             <change when="2018-10-12" who="#pers_TG" xml:id="d2e422" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>
                 s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi>
                 and had no existing <tei:att xml:lang="en">xml:id</tei:att>
-                following the pattern &quot;name()_generate-id()&quot;.</change>
+                following the pattern "name()_generate-id()".</change>
             <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e391" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e422" xml:id="gi_1.d2e203">persName</tei:gi>
                 s without such references based on <tei:gi change="#d2e422" xml:id="gi_1.d2e206">person</tei:gi>
                 s mentioned in <tei:ref change="#d2e422" target="../data/tei/personography_OpenArabicPE.TEIP5.xml" xml:id="ref_1.d2e209">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>
@@ -116,7 +109,7 @@
             <change when="2018-04-16" who="#pers_TG" xml:id="d2e603" xml:lang="en">Added automated <tei:att change="#d2e422" xml:id="att_1.d2e236" xml:lang="en">xml:id</tei:att>
                 s for every element that is a descendant of <tei:gi change="#d2e422" xml:id="gi_3.d2e239" xml:lang="en">tei:text</tei:gi>
                 and had no existing <tei:att change="#d2e422" xml:id="att_1.d2e242" xml:lang="en">xml:id</tei:att>
-                following the pattern &quot;name()_generate-id()&quot;.</change>
+                following the pattern "name()_generate-id()".</change>
             <change change="#d2e603" xml:id="change_1.d2e437" xml:lang="en" who="#pers_TG">Verified page breaks and corrected mark-up on the basis of the facsimiles. Added cross links.</change>
             <change when="2018-04-07" who="#pers_TG" xml:id="d9e592" xml:lang="en">Generated a new <tei:gi change="#d2e603" xml:id="gi_8.d2e441" xml:lang="en">front</tei:gi>
                 based on the <tei:gi change="#d2e603" xml:id="gi_8.d2e444" xml:lang="en">sourceDesc</tei:gi>
@@ -124,15 +117,15 @@
             <tei:change change="#d2e603" when="2017-07-28" who="#pers_TG" xml:id="change_3.d2e448">Added cross references and corrected the publication date. </tei:change>
             <tei:change change="#d2e603" when="2017-07-24" who="#pers_TG" xml:id="change_3.d2e451">Added the <tei:att change="#d2e603" xml:id="att_6.d2e453">xml:lang</tei:att>
                 attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-            <tei:change when="2017-05-28" who="#pers_TG" xml:id="change_1.d1e433" xml:lang="en">Linked all <tei:tag xml:id="tag_1.d1e435" xml:lang="en">pb ed=&quot;print&quot;</tei:tag>
+            <tei:change when="2017-05-28" who="#pers_TG" xml:id="change_1.d1e433" xml:lang="en">Linked all <tei:tag xml:id="tag_1.d1e435" xml:lang="en">pb ed="print"</tei:tag>
                 to the corresponding facsimile</tei:change>
             <change when="2017-05-28" who="#pers_TG" xml:id="change_1.d1e438" xml:lang="en">Added automated page numbers as <att xml:id="att_6.d1e440" xml:lang="en">n</att>
                 s and <att xml:id="att_7.d1e443" xml:lang="en">ed</att>
-                =&quot;print&quot; for every <gi xml:id="gi_8.d1e446" xml:lang="en">pb</gi>
+                ="print" for every <gi xml:id="gi_8.d1e446" xml:lang="en">pb</gi>
                 that was not of <att xml:id="att_8.d1e449" xml:lang="en">ed</att>
-                =&quot;shamela&quot;.</change>
-            <tei:change when="2017-05-27" who="#pers_TG" xml:id="change_2.d1e452" xml:lang="en">Automatically split all <tei:tag xml:id="tag_1.d1e454" xml:lang="en">div type=&quot;section&quot;</tei:tag>
-                into subsections of <tei:tag xml:id="tag_1.d1e457" xml:lang="en">div type=&quot;article&quot;</tei:tag>
+                ="shamela".</change>
+            <tei:change when="2017-05-27" who="#pers_TG" xml:id="change_2.d1e452" xml:lang="en">Automatically split all <tei:tag xml:id="tag_1.d1e454" xml:lang="en">div type="section"</tei:tag>
+                into subsections of <tei:tag xml:id="tag_1.d1e457" xml:lang="en">div type="article"</tei:tag>
                 , using paragraphs with a length of 30 or less as indicator of a heading.</tei:change>
             <tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e432" xml:lang="en">Corrected <tei:gi xml:id="gi_8.d1e435" xml:lang="en">biblStruct</tei:gi>
                 by moving all <tei:gi xml:id="gi_8.d1e438" xml:lang="en">biblScope</tei:gi>
@@ -148,7 +141,7 @@
             <change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e465" xml:lang="en">Added automated <att xml:id="att_7.d1e467" xml:lang="en">xml:id</att>
                 s for every element that is a descendant of <gi xml:id="gi_9.d1e470" xml:lang="en">tei:text</gi>
                 and had no existing <att xml:id="att_8.d1e473" xml:lang="en">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change when="2016-03-11" xml:id="change_3.d1e476" xml:lang="en">Wrapped all numerals in <tei:gi xml:id="gi_10.d1e478" xml:lang="en">num</tei:gi>
                 with <tei:att xml:id="att_9.d1e481" xml:lang="en">value</tei:att>
                 recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
@@ -160,7 +153,7 @@
                 s for every
                 element that is a descendant of <gi xml:id="gi_10.d1e498" xml:lang="en">tei:text</gi>
                 and had no existing <att xml:id="att_10.d1e501" xml:lang="en">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change when="2016-02-27" xml:id="change_4.d1e505" xml:lang="en">Added the <tei:att xml:id="att_11.d1e507" xml:lang="en">xml:lang</tei:att>
                 attribute to all
                 nodes that lacked this attribute. The value is based on the closest
@@ -179,7 +172,7 @@
                 divided by a <gi xml:id="gi_15.d1e538" xml:lang="en">gap</gi>
                 to <gi xml:id="gi_16.d1e541" xml:lang="en">l</gi>
                 of <att xml:id="att_11.d1e544" xml:lang="en">type</att>
-                =&quot;bayt&quot; comprising two <gi xml:id="gi_17.d1e548" xml:lang="en">seg</gi>
+                ="bayt" comprising two <gi xml:id="gi_17.d1e548" xml:lang="en">seg</gi>
                 nodes.</change>
             <change when="2016-02-26" who="#pers_TG" xml:id="change_7.d1e552" xml:lang="en">Created this TEI P5 file by
                 automatic conversion from ePub.</change>
@@ -397,7 +390,7 @@
                     <lb change="#d2e603" xml:id="lb_1.d2e987"/>
                     <title change="#d2e603" level="j" xml:id="title_8.d2e988" xml:lang="ar">الحقائق</title>
                     <lb change="#d2e603" xml:id="lb_2.d2e990"/>
-                    <placeName change="#d2e603 #d5e378" ref="geon:170654" xml:id="placeName_3.d2e991" xml:lang="ar">دمشق</placeName>في <date calendar="#cal_islamic" change="#d2e603" datingMethod="#cal_islamic" when="1910-11-04" when-custom="1328-11-01" xml:id="date_13.d2e994" xml:lang="ar">غرة ذو القعدة ١٣٢٨</date>
+                    <placeName change="#d2e603 #d5e378 #d5e447" ref="oape:place:61 geon:170654" xml:id="placeName_3.d2e991" xml:lang="ar">دمشق</placeName>في <date calendar="#cal_islamic" change="#d2e603" datingMethod="#cal_islamic" when="1910-11-04" when-custom="1328-11-01" xml:id="date_13.d2e994" xml:lang="ar">غرة ذو القعدة ١٣٢٨</date>
                     و <date calendar="#cal_ottomanfiscal" change="#d2e603" datingMethod="#cal_ottomanfiscal" when="1910-11-04" when-custom="1326-08-23" xml:id="date_14.d2e997" xml:lang="ar">٢٣ تشرين الاول ١٣٢٦</date>
                     و <date calendar="#cal_gregorian" change="#d2e603" datingMethod="#cal_gregorian" when="1910-11-04" xml:id="date_15.d2e1001" xml:lang="ar">٤ تشرين الثاني ١٩١٠</date></bibl>
             </div>
@@ -631,7 +624,7 @@
                         <gap resp="#org_MS" xml:id="gap_11.d1e1476"/>
                         <pb ed="print" facs="#facs_157" n="147" xml:id="pb_52.d1e1477"/></p>
                     <byline xml:id="byline_1.d1e1479" xml:lang="ar">
-                        <placeName change="#d5e378" ref="geon:170654" xml:id="placeName_5.d1e1480" xml:lang="ar">دمشق</placeName>
+                        <placeName change="#d5e378 #d5e447" ref="oape:place:61 geon:170654" xml:id="placeName_5.d1e1480" xml:lang="ar">دمشق</placeName>
                         <persName change="#d4e391" ref="viaf:299025643" xml:id="persName_10.d1e1483" xml:lang="ar">
                             <forename change="#d2e18656 #d2e23203 #d2e422" xml:id="forename_5.d2e1399" xml:lang="ar">عارف</forename>
                             <surname change="#d2e18656 #d2e23203 #d2e422" xml:id="surname_5.d2e1402" xml:lang="ar">المنير</surname>
@@ -648,7 +641,7 @@
                     <gap resp="#org_MS" xml:id="gap_14.d1e1503"/>
                     <pb ed="print" facs="#facs_158" n="148" xml:id="pb_53.d1e1505"/>
                     <gap resp="#org_MS" xml:id="gap_15.d1e1507"/>
-                    <byline xml:id="byline_2.d1e1510" xml:lang="ar">يدوي في <placeName change="#d5e378" ref="geon:6254930" xml:id="placeName_6.d1e1512" xml:lang="ar">فلسطين</placeName></byline>
+                    <byline xml:id="byline_2.d1e1510" xml:lang="ar">يدوي في <placeName change="#d5e378 #d5e447" ref="oape:place:202 geon:6254930" xml:id="placeName_6.d1e1512" xml:lang="ar">فلسطين</placeName></byline>
                 </div>
                 <div type="article" xml:id="div_16.d1e1516" xml:lang="ar">
                     <head xml:id="head_15.d1e1518" xml:lang="ar">
@@ -681,7 +674,7 @@
                     <p xml:id="p_73.d1e780" xml:lang="ar">
                         <bibl prev="#bibl_6.d1e1546" xml:id="bibl_7.d1e1551" xml:lang="ar">
                             <title level="j" type="sub" xml:id="title_14.d1e1552" xml:lang="ar">جريدة علمية سياسية أدبية تجارية مصورة</title>(كذا) تصدر يوم السبت من كل أسبوع في <pubPlace xml:id="pubPlace_4.d1e1555" xml:lang="ar">
-                                <placeName change="#d5e378" ref="geon:11713946" xml:id="placeName_7.d1e1556" xml:lang="ar">طرابلس الغرب</placeName></pubPlace>لصاحبها الفاضل <editor xml:id="editor_3.d1e1559" xml:lang="ar">
+                                <placeName change="#d5e378 #d5e447" ref="oape:place:222 geon:11713946" xml:id="placeName_7.d1e1556" xml:lang="ar">طرابلس الغرب</placeName></pubPlace>لصاحبها الفاضل <editor xml:id="editor_3.d1e1559" xml:lang="ar">
                                 <persName xml:id="persName_12.d1e1560" xml:lang="ar">محمد علي أفندي البارودي</persName></editor>قيمة اشتراكها ثم مجيديان و <num resp="#pers_TG" subtype="d2" type="auto-markup" value="50" xml:id="num_14.d1e1323" xml:lang="ar">خمسون</num>
                             قرشاً بباقي <placeName xml:id="placeName_8.d1e1566" xml:lang="ar">الولايات العثمانية</placeName>
                             و <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_15.d1e1326" xml:lang="ar">عشرة</num>
@@ -713,7 +706,7 @@
                     <p xml:id="p_80.d1e810" xml:lang="ar">أيها السادة سقطتم على الحقيقة المقصودة. بتمامها ووفقتم لما سيكون بحوله <pb ed="print" facs="#facs_161" n="151" xml:id="pb_57.d1e1627"/>
                         تعالي وطوله كافلاً للأمة بمرامها، أعلا الله مناركم على كل منار، وقبض لحقائقكم أنصاراً إلى أنصار والسلام.</p>
                     <byline xml:id="byline_3.d1e1631" xml:lang="ar">
-                        <placeName change="#d5e378" ref="geon:745044" xml:id="placeName_9.d1e1632" xml:lang="ar">الاستانة</placeName>
+                        <placeName change="#d5e378 #d5e447" ref="oape:place:3 geon:745044" xml:id="placeName_9.d1e1632" xml:lang="ar">الاستانة</placeName>
                         <persName ref="viaf:58892856" xml:id="persName_14.d1e1635" xml:lang="ar">
                             <addName change="#d2e18656 #d2e23203 #d2e422" type="honorific" xml:id="addName_2.d2e1596" xml:lang="ar">السيد</addName>
                             <forename change="#d2e18656 #d2e23203 #d2e422" xml:id="forename_6.d2e1599" xml:lang="ar">صالح</forename>
@@ -731,7 +724,7 @@
                         ) لا تدع مجالاً لأ باطليلهم.</p>
                     <p xml:id="p_85.d1e828" xml:lang="ar">هذا وأن عموم طلبة العلم عندنا وبخص وبسائر الأقطار الإسلامية على مشربكم، ومعززون لمبدأكم، فلا تهنوا ولا تحزنوا وأنتم الأعلون، والله معكم وأياه أسئل أن يدين النفع بحقائقكم والسلام.</p>
                     <byline xml:id="byline_4.d1e1663" xml:lang="ar">
-                        <placeName change="#d5e378" ref="geon:170017" xml:id="placeName_10.d1e1664" xml:lang="ar">حماه</placeName>
+                        <placeName change="#d5e378 #d5e447" ref="oape:place:175 geon:170017" xml:id="placeName_10.d1e1664" xml:lang="ar">حماه</placeName>
                         <persName xml:id="persName_15.d1e1667" xml:lang="ar">محمد سعيد زهور</persName>
                     </byline>
                 </tei:div>
@@ -748,7 +741,7 @@
                         </l>
                     </lg>
                     <byline xml:id="byline_5.d1e1695" xml:lang="ar">
-                        <placeName change="#d5e378" ref="geon:170654" xml:id="placeName_11.d1e1696" xml:lang="ar">دمشق</placeName>
+                        <placeName change="#d5e378 #d5e447" ref="oape:place:61 geon:170654" xml:id="placeName_11.d1e1696" xml:lang="ar">دمشق</placeName>
                         <persName xml:id="persName_16.d1e1699" xml:lang="ar">محي الدين الخاني</persName>
                     </byline>
                 </tei:div>

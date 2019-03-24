@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<TEI next="oclc_644997575-i_9" prev="oclc_644997575-i_7" xml:id="oclc_644997575-i_8" xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_9" prev="oclc_644997575-i_7" xml:id="oclc_644997575-i_8" xml:lang="en">
     <teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
         <fileDesc xml:id="fileDesc_1.d1e9" xml:lang="en">
             <titleStmt xml:id="titleStmt_1.d1e11" xml:lang="en">
@@ -72,8 +66,8 @@
                                 <orgName xml:id="orgName_5.d1e137" xml:lang="ar-Latn-x-ijmes">Maṭbaʿa al-Maqāṣid</orgName>
                             </publisher>
                             <pubPlace xml:id="pubPlace_2.d1e141" xml:lang="en">
-                                <placeName change="#d5e404" ref="geon:170654" xml:id="placeName_1.d1e143" xml:lang="ar">دمشق</placeName>
-                                <placeName change="#d5e404" ref="geon:170654" xml:id="placeName_2.d1e146" xml:lang="en">Damascus</placeName>
+                                <placeName change="#d5e404 #d5e476" ref="oape:place:61 geon:170654" xml:id="placeName_1.d1e143" xml:lang="ar">دمشق</placeName>
+                                <placeName change="#d5e404 #d5e476" ref="oape:place:61 geon:170654" xml:id="placeName_2.d1e146" xml:lang="en">Damascus</placeName>
                             </pubPlace>
                             <date calendar="#cal_gregorian" datingMethod="#cal_gregorian" when="1911-03-03" xml:id="date_2.d1e150"/>
                             <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1911-03-03" when-custom="1329-03-02" xml:id="date_3.d1e151"/>
@@ -93,11 +87,11 @@
         </fileDesc>
         <xi:include change="#d2e465" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e201" xpointer="encodingDesc"/>
         <xi:include change="#d2e465" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e203" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432">
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e476" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
             <change when="2018-10-12" who="#pers_TG" xml:id="d2e465" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>
                 s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi>
                 and had no existing <tei:att xml:lang="en">xml:id</tei:att>
-                following the pattern &quot;name()_generate-id()&quot;.</change>
+                following the pattern "name()_generate-id()".</change>
             <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e451" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e465" xml:id="gi_1.d2e209">persName</tei:gi>
                 s without such references based on <tei:gi change="#d2e465" xml:id="gi_1.d2e212">person</tei:gi>
                 s mentioned in <tei:ref change="#d2e465" target="../data/tei/personography_OpenArabicPE.TEIP5.xml" xml:id="ref_1.d2e215">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>
@@ -108,7 +102,7 @@
                 s without such references based on <tei:gi change="#d2e446 #d2e465" xml:id="gi_1.d2e230" xml:lang="en">person</tei:gi>
                 s mentioned in <tei:ref change="#d2e446 #d2e465" target="../data/tei/personography_OpenArabicPE.TEIP5.xml" xml:id="ref_1.d2e233" xml:lang="en">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>
                 but not previously present in this master file.</tei:change>
-            <change when="2018-05-23" who="#pers_TG" xml:id="d2e415" xml:lang="en">Automatically wrapped all occurrences of &quot;sana&quot; and &quot;ʿām&quot; followed by a <tei:gi change="#d2e465" xml:id="gi_1.d2e239" xml:lang="en">num</tei:gi>
+            <change when="2018-05-23" who="#pers_TG" xml:id="d2e415" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <tei:gi change="#d2e465" xml:id="gi_1.d2e239" xml:lang="en">num</tei:gi>
                 node in <tei:gi change="#d2e465" xml:id="gi_1.d2e242" xml:lang="en">date</tei:gi>
                 .</change>
             <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e404" xml:lang="en">Added references to GeoNames IDs to <tei:gi change="#d2e446 #d2e465" xml:id="gi_1.d2e248" xml:lang="en">placeName</tei:gi>
@@ -121,26 +115,26 @@
             <change change="d2e443x #d2e446 #d2e465" when="2018-01-16" who="#pers_TG" xml:id="change_3.d2e268" xml:lang="en">Added automated <att change="#d2e446 #d2e465" xml:id="att_1.d2e270" xml:lang="en">xml:id</att>
                 s for every element that is a descendant of <gi change="#d2e446 #d2e465" xml:id="gi_3.d2e273" xml:lang="en">tei:text</gi>
                 and had no existing <att change="#d2e446 #d2e465" xml:id="att_2.d2e276" xml:lang="en">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <change change="#d2e446" when="2018-01-15" who="#pers_TG" xml:id="d9e442x" xml:lang="en">Generated a new <tei:gi change="#d2e443x #d2e446" xml:id="gi_8.d2e445" xml:lang="en">front</tei:gi>
                 based on the <tei:gi change="#d2e443x #d2e446" xml:id="gi_8.d2e448" xml:lang="en">sourceDesc</tei:gi>
                 that matches the information found in the masthead of the actual issues.</change>
-            <tei:change change="#d2e443x #d2e446" when="2018-01-15" who="#pers_TG" xml:id="change_2.d2e452" xml:lang="en">Linked all <tei:tag change="#d2e443x #d2e446" xml:id="tag_1.d2e454" xml:lang="en">pb ed=&quot;print&quot;</tei:tag>
+            <tei:change change="#d2e443x #d2e446" when="2018-01-15" who="#pers_TG" xml:id="change_2.d2e452" xml:lang="en">Linked all <tei:tag change="#d2e443x #d2e446" xml:id="tag_1.d2e454" xml:lang="en">pb ed="print"</tei:tag>
                 to the corresponding facsimile</tei:change>
             <change change="#d2e443x #d2e446" when="2018-01-15" who="#pers_TG" xml:id="change_2.d2e458" xml:lang="en">Added automated page numbers as <att change="#d2e443x #d2e446" xml:id="att_6.d2e460" xml:lang="en">n</att>
                 s and <att change="#d2e443x #d2e446" xml:id="att_7.d2e463" xml:lang="en">ed</att>
-                =&quot;print&quot; for every
+                ="print" for every
                 <gi change="#d2e443x #d2e446" xml:id="gi_8.d2e466" xml:lang="en">pb</gi>
                 that was not of <att change="#d2e443x #d2e446" xml:id="att_8.d2e469" xml:lang="en">ed</att>
-                =&quot;shamela&quot;.</change>
-            <tei:change change="#d2e443x #d2e446" when="2018-01-15" who="#pers_TG" xml:id="change_3.d2e473" xml:lang="en">Linked all <tei:tag change="#d2e443x #d2e446" xml:id="tag_1.d2e475" xml:lang="en">pb ed=&quot;print&quot;</tei:tag>
+                ="shamela".</change>
+            <tei:change change="#d2e443x #d2e446" when="2018-01-15" who="#pers_TG" xml:id="change_3.d2e473" xml:lang="en">Linked all <tei:tag change="#d2e443x #d2e446" xml:id="tag_1.d2e475" xml:lang="en">pb ed="print"</tei:tag>
                 to the corresponding facsimile</tei:change>
             <change change="#d2e443x #d2e446" when="2018-01-15" who="#pers_TG" xml:id="change_3.d2e478" xml:lang="en">Added automated page numbers as <att change="#d2e443x #d2e446" xml:id="att_9.d2e480" xml:lang="en">n</att>
                 s and <att change="#d2e443x #d2e446" xml:id="att_10.d2e483" xml:lang="en">ed</att>
-                =&quot;print&quot; for every
+                ="print" for every
                 <gi change="#d2e443x #d2e446" xml:id="gi_9.d2e486" xml:lang="en">pb</gi>
                 that was not of <att change="#d2e443x #d2e446" xml:id="att_11.d2e489" xml:lang="en">ed</att>
-                =&quot;shamela&quot;.</change>
+                ="shamela".</change>
             <tei:change change="#d2e446" when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433" xml:lang="en">Corrected <tei:gi change="#d2e446" xml:id="gi_8.d1e435" xml:lang="en">biblStruct</tei:gi>
                 by moving all <tei:gi change="#d2e446" xml:id="gi_8.d1e438" xml:lang="en">biblScope</tei:gi>
                 from <tei:gi change="#d2e446" xml:id="gi_8.d1e441" xml:lang="en">imprint</tei:gi>
@@ -155,7 +149,7 @@
             <change change="#d2e446" when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e465" xml:lang="en">Added automated <att change="#d2e446" xml:id="att_7.d1e467" xml:lang="en">xml:id</att>
                 s for every element that is a descendant of <gi change="#d2e446" xml:id="gi_9.d1e470" xml:lang="en">tei:text</gi>
                 and had no existing <att change="#d2e446" xml:id="att_8.d1e473" xml:lang="en">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change change="#d2e446" when="2016-03-11" xml:id="change_3.d1e476" xml:lang="en">Wrapped all numerals in <tei:gi change="#d2e446" xml:id="gi_10.d1e478" xml:lang="en">num</tei:gi>
                 with <tei:att change="#d2e446" xml:id="att_9.d1e481" xml:lang="en">value</tei:att>
                 recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</tei:change>
@@ -168,7 +162,7 @@
             <change change="#d2e446" when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e502" xml:lang="en">Added automated <att change="#d2e446" xml:id="att_10.d1e504" xml:lang="en">xml:id</att>
                 s for every element that is a descendant of <gi change="#d2e446" xml:id="gi_11.d1e507" xml:lang="en">tei:text</gi>
                 and had no existing <att change="#d2e446" xml:id="att_11.d1e510" xml:lang="en">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change change="#d2e446" when="2016-02-27" xml:id="change_4.d1e515" xml:lang="en">Added the <tei:att change="#d2e446" xml:id="att_12.d1e517" xml:lang="en">xml:lang</tei:att>
                 attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
             <change when="2016-02-27" who="#pers_TG" xml:id="change_4.d1e521" xml:lang="en">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:id="ref_4.d1e523" xml:lang="en">the master file</ref>
@@ -182,7 +176,7 @@
                 s divided by a <gi xml:id="gi_16.d1e547" xml:lang="en">gap</gi>
                 to <gi xml:id="gi_17.d1e550" xml:lang="en">l</gi>
                 of <att xml:id="att_12.d1e553" xml:lang="en">type</att>
-                =&quot;bayt&quot; comprising two <gi xml:id="gi_18.d1e557" xml:lang="en">seg</gi>
+                ="bayt" comprising two <gi xml:id="gi_18.d1e557" xml:lang="en">seg</gi>
                 nodes.</change>
             <change when="2016-02-26" who="#pers_TG" xml:id="change_7.d1e561" xml:lang="en">Created this TEI P5 file by automatic conversion from ePub.</change>
         </revisionDesc>
@@ -410,7 +404,7 @@
                     <title level="j" xml:id="title_4.d1e88" xml:lang="ar">الحقائق</title>
                     <lb change="#d2e443x" xml:id="lb_2.d2e1032"/>
                     <pubPlace change="#d2e446 #d2e465" xml:id="pubPlace_3.d2e882" xml:lang="ar">
-                        <placeName change="#d5e404 #d2e446 #d2e465" ref="geon:170654" xml:id="placeName_3.d2e884" xml:lang="ar">دمشق</placeName>
+                        <placeName change="#d5e404 #d2e446 #d2e465 #d5e476" ref="oape:place:61 geon:170654" xml:id="placeName_3.d2e884" xml:lang="ar">دمشق</placeName>
                     </pubPlace>
                     <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1911-03-01" when-custom="1329-03-01" xml:id="date_3.d1e152" xml:lang="ar">غرة ربيع الانور 1329</date>و
                     <date calendar="#cal_ottomanfiscal" change="#d2e465" datingMethod="#cal_ottomanfiscal" when="1911-03-01" when-custom="1326-12-17" xml:id="date_6.d2e891" xml:lang="ar">١٧ شباط ١٣٢٦</date>
@@ -849,7 +843,7 @@
                     مقصوده ويترك محل الشاهد الذي هو مقصود المؤلف منها وهذا ليس من شأن العلماء لأن العلم أمانة.</p>
                 <p xml:id="p_115.d1e1026" xml:lang="ar">وأما نقله عن بعض الطلبة القائل ليس هذا أي ثبوت شهر رمضان بالتلغراف من مذهبنا أو ليس عندنا الخ ثم رده عليه بقوله أن هذا اشتباه لأن المذهب الذي ينسب إلى إمام نفياً أو إثباتاً هو ما قاله أو نص عليه إلى آخر ما رده فأجيب عنه بأن ما قاله هذا البعض هو الحق الصريح وخلافه باطل وغير صحيح وكون إثبات رمضان غير منصوص عليه من صاحب المذهب غير صحيح وأيضاً بل نصت علماء المذاهب على حصر ثبوت شهر رمضان بالرؤية أو بإتمام العدة وذلك نص صاحب الشرع صلى الله عليه وسلم والحاصل أن من له أدنى إلمام بفروع الشرع وأصوله لا يقول بثبوت شهري رمضان وشوال بالتلغراف بل أكثر ما يقال فيه أنه يورث شبهة بالحقوق لا بالديانات ثم ليت شعلاري من هم علماء الشافعية في دمشق الذين أفتوا به ووافقهم الشيخ عبد الباقي الأفغاني ليتنا نطلع على أسماءهم وعلى ما ذكروه من الأدلة وأظن أنه ليس عندهم إلا الاستحسان العقي ومن المعلوم المقرر أن أسرار الشرع المطهر لا يستقل بها العقل أعفانا الله تعالى من هذه الترهات ودخلنا بواسع الرحمات بجاه صاحب المعجزات صلى الله عليه وسلم</p>
                 <byline change="#d2e443x #d2e446" xml:id="byline_1.d2e1811" xml:lang="ar">
-                    <placeName change="#d2e443x #d5e404 #d2e446" ref="geon:170654" xml:id="placeName_3.d2e1812" xml:lang="ar">دمشق</placeName>
+                    <placeName change="#d2e443x #d5e404 #d2e446 #d5e476" ref="oape:place:61 geon:170654" xml:id="placeName_3.d2e1812" xml:lang="ar">دمشق</placeName>
                     <persName change="#d2e443x #d2e446" xml:id="persName_10.d2e1815" xml:lang="ar">راغب السادات</persName>
                 </byline>
             </div>
@@ -885,7 +879,7 @@
                 <p xml:id="p_123.d1e1062" xml:lang="ar">لماذا يا أستاذ اكتفيت بهذه البشارة عن (طبارة) عن (مصر) بخ بخ (يوحي بعضهم إلى بعض) ولم تبشر المسلمين كافة والناشئة المتمدنة خاصة <pb change="#d2e443x" ed="print" facs="#facs_323" n="313" xml:id="pb_64.d2e1884"/>
                     بسائر البدع العصرية لا جرم أنك لو بشرت هؤلاء المتمدنين بها قبل ما بشرتهم بشيء لا علاقة بينهم وبينه ولا تعارف لكانوا أكثر سروراً منك واشد غبطة بفضلك هذا ما حضرني الآن راجياً تغاضيك عن مزجاة بضاعتي وعسى أن تعود فنعود.</p>
                 <byline change="#d2e443x #d2e446" xml:id="byline_2.d2e1886" xml:lang="ar">
-                    <placeName change="#d2e443x #d5e404 #d2e446" ref="geon:109223" xml:id="placeName_4.d2e1887" xml:lang="ar">المدينة المنورة</placeName>
+                    <placeName change="#d2e443x #d5e404 #d2e446 #d5e476" ref="oape:place:218 geon:109223" xml:id="placeName_4.d2e1887" xml:lang="ar">المدينة المنورة</placeName>
                     <persName change="#d2e443x #d2e446" ref="viaf:267054449" xml:id="persName_12.d2e1890" xml:lang="ar">
                         <forename change="#d2e18656 #d2e446 #d2e465" xml:id="forename_10.d2e2087" xml:lang="ar">مختار</forename>
                         <surname change="#d2e18656 #d2e446 #d2e465" xml:id="surname_10.d2e2090" xml:lang="ar">المؤيد</surname>
