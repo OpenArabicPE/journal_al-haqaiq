@@ -84,7 +84,7 @@
         </fileDesc>
         <xi:include change="#d2e358" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e192" xpointer="encodingDesc"/>
         <xi:include change="#d2e358" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e194" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e440" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e429" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e418" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-04-07" who="#pers_TG" xml:id="d2e454" xml:lang="en">Added <tei:gi>graphic</tei:gi> for all pages linking to local facsimiles.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e440" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e429" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change><change when="2018-10-12" who="#pers_TG" xml:id="d2e418" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <tei:change when="2018-10-12" who="#pers_TG" xml:id="d4e400" xml:lang="en">Added references to VIAF IDs to <tei:gi change="#d2e418" xml:id="gi_1.d2e205">persName</tei:gi>s without such references based on  <tei:gi change="#d2e418" xml:id="gi_1.d2e208">person</tei:gi>s mentioned in <tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e418" xml:id="ref_1.d2e211">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
             <tei:change when="2018-05-20" who="#pers_TG" xml:id="d5e379" xml:lang="en">Added references to GeoNames IDs to 
                 <tei:gi change="#d2e418" xml:id="gi_1.d2e217">placeName</tei:gi>
@@ -204,169 +204,169 @@
     </teiHeader>
     <tei:facsimile xml:id="facs">
         <tei:surface xml:id="facs_1">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_012.tif" xml:id="facs_1-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_012.jpg" xml:id="facs_1-g_2"/>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_012.tif" xml:id="facs_1-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_012.jpg" xml:id="facs_1-g_2"/>-->
             <tei:graphic mimeType="image/jpeg" url="https://c1.staticflickr.com/8/7415/16262097498_67dfdd4a1c_o.jpg" xml:id="facs_1-g_3"/>
-        </tei:surface>
+        <tei:graphic xml:id="facs_1-g_4" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_001.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_2">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_013.tif" xml:id="facs_2-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_013.jpg" xml:id="facs_2-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_013.tif" xml:id="facs_2-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_013.jpg" xml:id="facs_2-g_2"/>-->
+        <tei:graphic xml:id="facs_2-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_002.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_3">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_014.tif" xml:id="facs_3-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_014.jpg" xml:id="facs_3-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_014.tif" xml:id="facs_3-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_014.jpg" xml:id="facs_3-g_2"/>-->
+        <tei:graphic xml:id="facs_3-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_003.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_4">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_015.tif" xml:id="facs_4-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_015.jpg" xml:id="facs_4-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_015.tif" xml:id="facs_4-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_015.jpg" xml:id="facs_4-g_2"/>-->
+        <tei:graphic xml:id="facs_4-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_004.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_5">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_016.tif" xml:id="facs_5-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_016.jpg" xml:id="facs_5-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_016.tif" xml:id="facs_5-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_016.jpg" xml:id="facs_5-g_2"/>-->
+        <tei:graphic xml:id="facs_5-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_005.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_6">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_017.tif" xml:id="facs_6-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_017.jpg" xml:id="facs_6-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_017.tif" xml:id="facs_6-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_017.jpg" xml:id="facs_6-g_2"/>-->
+        <tei:graphic xml:id="facs_6-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_006.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_7">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_018.tif" xml:id="facs_7-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_018.jpg" xml:id="facs_7-g_2"/>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_018.tif" xml:id="facs_7-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_018.jpg" xml:id="facs_7-g_2"/>-->
             <tei:graphic mimeType="image/jpeg" url="https://c1.staticflickr.com/8/7393/16262101148_b68944e432_o.jpg" xml:id="facs_7-g_3"/>
-        </tei:surface>
+        <tei:graphic xml:id="facs_7-g_4" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_007.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_8">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_019.tif" xml:id="facs_8-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_019.jpg" xml:id="facs_8-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_019.tif" xml:id="facs_8-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_019.jpg" xml:id="facs_8-g_2"/>-->
+        <tei:graphic xml:id="facs_8-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_008.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_9">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_020.tif" xml:id="facs_9-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_020.jpg" xml:id="facs_9-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_020.tif" xml:id="facs_9-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_020.jpg" xml:id="facs_9-g_2"/>-->
+        <tei:graphic xml:id="facs_9-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_009.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_10">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_021.tif" xml:id="facs_10-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_021.jpg" xml:id="facs_10-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_021.tif" xml:id="facs_10-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_021.jpg" xml:id="facs_10-g_2"/>-->
+        <tei:graphic xml:id="facs_10-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_010.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_11">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_022.tif" xml:id="facs_11-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_022.jpg" xml:id="facs_11-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_022.tif" xml:id="facs_11-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_022.jpg" xml:id="facs_11-g_2"/>-->
+        <tei:graphic xml:id="facs_11-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_011.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_12">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_023.tif" xml:id="facs_12-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_023.jpg" xml:id="facs_12-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_023.tif" xml:id="facs_12-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_023.jpg" xml:id="facs_12-g_2"/>-->
+        <tei:graphic xml:id="facs_12-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_012.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_13">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_024.tif" xml:id="facs_13-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_024.jpg" xml:id="facs_13-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_024.tif" xml:id="facs_13-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_024.jpg" xml:id="facs_13-g_2"/>-->
+        <tei:graphic xml:id="facs_13-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_013.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_14">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_025.tif" xml:id="facs_14-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_025.jpg" xml:id="facs_14-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_025.tif" xml:id="facs_14-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_025.jpg" xml:id="facs_14-g_2"/>-->
+        <tei:graphic xml:id="facs_14-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_014.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_15">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_026.tif" xml:id="facs_15-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_026.jpg" xml:id="facs_15-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_026.tif" xml:id="facs_15-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_026.jpg" xml:id="facs_15-g_2"/>-->
+        <tei:graphic xml:id="facs_15-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_015.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_16">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_027.tif" xml:id="facs_16-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_027.jpg" xml:id="facs_16-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_027.tif" xml:id="facs_16-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_027.jpg" xml:id="facs_16-g_2"/>-->
+        <tei:graphic xml:id="facs_16-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_016.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_17">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_028.tif" xml:id="facs_17-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_028.jpg" xml:id="facs_17-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_028.tif" xml:id="facs_17-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_028.jpg" xml:id="facs_17-g_2"/>-->
+        <tei:graphic xml:id="facs_17-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_017.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_18">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_029.tif" xml:id="facs_18-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_029.jpg" xml:id="facs_18-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_029.tif" xml:id="facs_18-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_029.jpg" xml:id="facs_18-g_2"/>-->
+        <tei:graphic xml:id="facs_18-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_018.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_19">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_030.tif" xml:id="facs_19-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_030.jpg" xml:id="facs_19-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_030.tif" xml:id="facs_19-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_030.jpg" xml:id="facs_19-g_2"/>-->
+        <tei:graphic xml:id="facs_19-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_019.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_20">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_031.tif" xml:id="facs_20-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_031.jpg" xml:id="facs_20-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_031.tif" xml:id="facs_20-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_031.jpg" xml:id="facs_20-g_2"/>-->
+        <tei:graphic xml:id="facs_20-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_020.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_21">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_032.tif" xml:id="facs_21-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_032.jpg" xml:id="facs_21-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_032.tif" xml:id="facs_21-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_032.jpg" xml:id="facs_21-g_2"/>-->
+        <tei:graphic xml:id="facs_21-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_021.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_22">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_033.tif" xml:id="facs_22-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_033.jpg" xml:id="facs_22-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_033.tif" xml:id="facs_22-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_033.jpg" xml:id="facs_22-g_2"/>-->
+        <tei:graphic xml:id="facs_22-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_022.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_23">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_034.tif" xml:id="facs_23-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_034.jpg" xml:id="facs_23-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_034.tif" xml:id="facs_23-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_034.jpg" xml:id="facs_23-g_2"/>-->
+        <tei:graphic xml:id="facs_23-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_023.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_24">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_035.tif" xml:id="facs_24-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_035.jpg" xml:id="facs_24-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_035.tif" xml:id="facs_24-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_035.jpg" xml:id="facs_24-g_2"/>-->
+        <tei:graphic xml:id="facs_24-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_024.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_25">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_036.tif" xml:id="facs_25-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_036.jpg" xml:id="facs_25-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_036.tif" xml:id="facs_25-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_036.jpg" xml:id="facs_25-g_2"/>-->
+        <tei:graphic xml:id="facs_25-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_025.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_26">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_037.tif" xml:id="facs_26-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_037.jpg" xml:id="facs_26-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_037.tif" xml:id="facs_26-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_037.jpg" xml:id="facs_26-g_2"/>-->
+        <tei:graphic xml:id="facs_26-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_026.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_27">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_038.tif" xml:id="facs_27-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_038.jpg" xml:id="facs_27-g_2"/>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_038.tif" xml:id="facs_27-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_038.jpg" xml:id="facs_27-g_2"/>-->
             <tei:graphic mimeType="image/jpeg" url="https://c1.staticflickr.com/8/7451/16262106008_937195f8db_o.jpg" xml:id="facs_27-g_3"/>
-        </tei:surface>
+        <tei:graphic xml:id="facs_27-g_4" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_027.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_28">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_039.tif" xml:id="facs_28-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_039.jpg" xml:id="facs_28-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_039.tif" xml:id="facs_28-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_039.jpg" xml:id="facs_28-g_2"/>-->
+        <tei:graphic xml:id="facs_28-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_028.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_29">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_040.tif" xml:id="facs_29-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_040.jpg" xml:id="facs_29-g_2"/>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_040.tif" xml:id="facs_29-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_040.jpg" xml:id="facs_29-g_2"/>-->
             <tei:graphic mimeType="image/jpeg" url="https://c1.staticflickr.com/8/7447/16262348860_2e2ab07088_o.jpg" xml:id="facs_29-g_3"/>
-        </tei:surface>
+        <tei:graphic xml:id="facs_29-g_4" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_029.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_30">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_041.tif" xml:id="facs_30-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_041.jpg" xml:id="facs_30-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_041.tif" xml:id="facs_30-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_041.jpg" xml:id="facs_30-g_2"/>-->
+        <tei:graphic xml:id="facs_30-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_030.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_31">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_042.tif" xml:id="facs_31-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_042.jpg" xml:id="facs_31-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_042.tif" xml:id="facs_31-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_042.jpg" xml:id="facs_31-g_2"/>-->
+        <tei:graphic xml:id="facs_31-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_031.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_32">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_043.tif" xml:id="facs_32-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_043.jpg" xml:id="facs_32-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_043.tif" xml:id="facs_32-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_043.jpg" xml:id="facs_32-g_2"/>-->
+        <tei:graphic xml:id="facs_32-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_032.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_33">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_044.tif" xml:id="facs_33-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_044.jpg" xml:id="facs_33-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_044.tif" xml:id="facs_33-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_044.jpg" xml:id="facs_33-g_2"/>-->
+        <tei:graphic xml:id="facs_33-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_033.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_34">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_045.tif" xml:id="facs_34-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_045.jpg" xml:id="facs_34-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_045.tif" xml:id="facs_34-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_045.jpg" xml:id="facs_34-g_2"/>-->
+        <tei:graphic xml:id="facs_34-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_034.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_35">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_046.tif" xml:id="facs_35-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_046.jpg" xml:id="facs_35-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_046.tif" xml:id="facs_35-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_046.jpg" xml:id="facs_35-g_2"/>-->
+        <tei:graphic xml:id="facs_35-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_035.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_36">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_047.tif" xml:id="facs_36-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_047.jpg" xml:id="facs_36-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_047.tif" xml:id="facs_36-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_047.jpg" xml:id="facs_36-g_2"/>-->
+        <tei:graphic xml:id="facs_36-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_036.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_37">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_048.tif" xml:id="facs_37-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_048.jpg" xml:id="facs_37-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_048.tif" xml:id="facs_37-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_048.jpg" xml:id="facs_37-g_2"/>-->
+        <tei:graphic xml:id="facs_37-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_037.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_38">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_049.tif" xml:id="facs_38-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_049.jpg" xml:id="facs_38-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_049.tif" xml:id="facs_38-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_049.jpg" xml:id="facs_38-g_2"/>-->
+        <tei:graphic xml:id="facs_38-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_038.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_39">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_050.tif" xml:id="facs_39-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_050.jpg" xml:id="facs_39-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_050.tif" xml:id="facs_39-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_050.jpg" xml:id="facs_39-g_2"/>-->
+        <tei:graphic xml:id="facs_39-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_039.tif" mimeType="image/tiff"/></tei:surface>
         <tei:surface xml:id="facs_40">
-            <tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_051.tif" xml:id="facs_40-g_1"/>
-            <tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_051.jpg" xml:id="facs_40-g_2"/>
-        </tei:surface>
+            <!--<tei:graphic mimeType="image/tiff" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_051.tif" xml:id="facs_40-g_1"/>-->
+            <!--<tei:graphic mimeType="image/jpeg" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_051.jpg" xml:id="facs_40-g_2"/>-->
+        <tei:graphic xml:id="facs_40-g_3" change="#d2e454" url="../images/oclc_644997575-v_2/oclc_644997575-v_2-img_040.tif" mimeType="image/tiff"/></tei:surface>
     </tei:facsimile>
     <text n="i_12" type="issue" xml:id="text" xml:lang="ar">
         <pb change="#d2e566 #d2e353" ed="print" facs="#facs_1" n="1" xml:id="pb_2.d1e566"/>
