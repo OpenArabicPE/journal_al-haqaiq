@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<TEI next="oclc_644997575-i_21" prev="oclc_644997575-i_19" xml:id="oclc_644997575-i_20" xml:lang="" xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_21" prev="oclc_644997575-i_19" xml:id="oclc_644997575-i_20" xml:lang="">
     <teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
         <fileDesc xml:id="fileDesc_1.d1e9" xml:lang="en">
             <titleStmt xml:id="titleStmt_1.d1e11" xml:lang="en">
@@ -89,7 +84,7 @@
         </fileDesc>
         <xi:include change="#d2e383" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e188" xpointer="encodingDesc"/>
         <xi:include change="#d2e383" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e190" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432">
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-05-16" who="#pers_TG" xml:id="d2e489" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change>
 <change when="2019-04-17" who="#pers_TG" xml:lang="en">Improved mark-up of sections and bibliographic information on the basis of the facsimiles.</change>
             <tei:change when="2019-04-07" who="#pers_TG" xml:id="d2e469" xml:lang="en">Added 
                 <tei:gi>graphic</tei:gi>
@@ -123,8 +118,8 @@
                 <tei:gi xml:lang="en">tei:text</tei:gi>
                 and had no existing 
                 <tei:att xml:lang="en">xml:id</tei:att>
-                following the pattern &quot;name()_generate-id()&quot;.</change>
-            <change when="2018-05-23" who="#pers_TG" xml:id="d2e405" xml:lang="en">Automatically wrapped all occurrences of &quot;sana&quot; and &quot;ʿām&quot; followed by a 
+                following the pattern "name()_generate-id()".</change>
+            <change when="2018-05-23" who="#pers_TG" xml:id="d2e405" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a 
                 <tei:gi change="#d2e415" xml:id="gi_1.d2e197" xml:lang="en">num</tei:gi>
                 node in 
                 <tei:gi change="#d2e415" xml:id="gi_1.d2e200" xml:lang="en">date</tei:gi>
@@ -142,20 +137,20 @@
                 <tei:gi change="#d2e415" xml:id="gi_1.d2e219" xml:lang="en">tei:text</tei:gi>
                 and had no existing 
                 <tei:att change="#d2e415" xml:id="att_1.d2e222" xml:lang="en">xml:id</tei:att>
-                following the pattern &quot;name()_generate-id()&quot;.</change>
+                following the pattern "name()_generate-id()".</change>
             <change change="#d2e383" xml:id="change_1.d2e194" xml:lang="en">Validated / corrected the position of page breaks against the facsimile. Added structural mark-up, mainly bylines.</change>
             <tei:change when="2018-05-15" who="#pers_TG" xml:id="d2e375">Linked all 
-                <tei:tag change="#d2e383" xml:id="tag_1.d2e198">pb ed=&quot;print&quot;</tei:tag>
+                <tei:tag change="#d2e383" xml:id="tag_1.d2e198">pb ed="print"</tei:tag>
                 to the corresponding facsimile</tei:change>
             <change when="2018-05-15" who="#pers_TG" xml:id="d2e361">Added automated page numbers as 
                 <att change="#d2e383" xml:id="att_1.d2e203">n</att>
                 s and 
                 <att change="#d2e383" xml:id="att_2.d2e206">ed</att>
-                =&quot;print&quot; for every
+                ="print" for every
                 <gi change="#d2e383" xml:id="gi_1.d2e209">pb</gi>
                 that was not of 
                 <att change="#d2e383" xml:id="att_3.d2e212">ed</att>
-                =&quot;shamela&quot;.</change>
+                ="shamela".</change>
             <tei:change when="2018-04-27" who="#pers_TG" xml:id="d2e361">Added 
                 <tei:gi change="#d2e383" xml:id="gi_2.d2e217">graphic</tei:gi>
                 for 40 pages with references to digital images.</tei:change>
@@ -168,20 +163,20 @@
                 <att change="#d2e383" xml:id="att_4.d2e231">n</att>
                 s and 
                 <att change="#d2e383" xml:id="att_5.d2e234">ed</att>
-                =&quot;print&quot; for every
+                ="print" for every
                 <gi change="#d2e383" xml:id="gi_4.d2e237">pb</gi>
                 that was not of 
                 <att change="#d2e383" xml:id="att_6.d2e240">ed</att>
-                =&quot;shamela&quot;.</change>
+                ="shamela".</change>
             <change when="2018-04-17" who="#pers_XK" xml:id="d2e562">Added automated page numbers as 
                 <att change="#d2e383" xml:id="att_7.d2e246">n</att>
                 s and 
                 <att change="#d2e383" xml:id="att_8.d2e249">ed</att>
-                =&quot;print&quot; for every
+                ="print" for every
                 <gi change="#d2e383" xml:id="gi_5.d2e252">pb</gi>
                 that was not of 
                 <att change="#d2e383" xml:id="att_9.d2e255">ed</att>
-                =&quot;shamela&quot;.</change>
+                ="shamela".</change>
             <tei:change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected 
                 <tei:gi xml:id="gi_8.d1e435">biblStruct</tei:gi>
                 by moving all 
@@ -208,7 +203,7 @@
                 <gi xml:id="gi_9.d1e470">tei:text</gi>
                 and had no existing 
                 <att xml:id="att_8.d1e473">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change when="2016-03-11" xml:id="change_3.d1e476">Wrapped all numerals in 
                 <tei:gi xml:id="gi_10.d1e478">num</tei:gi>
                 with 
@@ -225,7 +220,7 @@
                 <gi xml:id="gi_11.d1e497">tei:text</gi>
                 and had no existing 
                 <att xml:id="att_11.d1e500">xml:id</att>
-                following the pattern &quot;name()_generate-id()&quot;</change>
+                following the pattern "name()_generate-id()"</change>
             <tei:change when="2016-02-27" xml:id="change_4.d1e503">Added the 
                 <tei:att xml:id="att_12.d1e505">xml:lang</tei:att>
                 attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
@@ -249,7 +244,7 @@
                 <gi xml:id="gi_17.d1e539" xml:lang="en">l</gi>
                 of
                 <att xml:id="att_12.d1e542" xml:lang="en">type</att>
-                =&quot;bayt&quot; comprising two 
+                ="bayt" comprising two 
                 <gi xml:id="gi_18.d1e546" xml:lang="en">seg</gi>
                 nodes.</change>
             <change when="2016-02-26" who="#pers_TG" xml:id="change_7.d1e550" xml:lang="en">Created this TEI P5 file by automatic
@@ -1031,7 +1026,7 @@
 <l type="bayt" xml:id="l_98.d1e1790" xml:lang="ar"> <seg xml:id="seg_195.d1e1792" xml:lang="ar">أجل إن هذا بعض ما نستحقه </seg> <seg xml:id="seg_196.d1e1795" xml:lang="ar">ولكنما الأطفال هل تعرف النكرا</seg> </l>
 <l type="bayt" xml:id="l_99.d1e1799" xml:lang="ar"> <seg xml:id="seg_197.d1e1801" xml:lang="ar">فرحماك بالأطفال واشفع بنا عسى </seg> <seg xml:id="seg_198.d1e1804" xml:lang="ar">بجاهك يا مولاي نغتنم النصرا</seg> </l>
 </lg>
-<byline change="#d2e383" xml:id="byline_4.d2e2029"> <placeName change="#d2e383 #d5e394 #d5e427" ref="oape:place:176 geon:169577" xml:id="placeName_7.d2e2030">حمص</placeName> <persName change="#d2e383" xml:id="persName_11.d2e2033">سعيد زهور</persName> </byline>
+<byline change="#d2e383" xml:id="byline_4.d2e2029"> <placeName change="#d2e383 #d5e394 #d5e427" ref="oape:place:176 geon:169577" xml:id="placeName_7.d2e2030">حمص</placeName> <persName change="#d2e383 #d2e489" xml:id="persName_11.d2e2033" ref="oape:pers:3670">سعيد زهور</persName> </byline>
 </div>
             <pb change="#d2e562 #d2e576 #d2e361 #d2e375 #d2e383" ed="print" facs="#facs_314" n="314" xml:id="pb_56.d2e2037"/>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P579.xhtml" ed="shamela" n="n19-p26" xml:id="pb_23.d1e1815"/>
@@ -1103,7 +1098,7 @@
             </div>
             <div subtype="verse" type="item" xml:id="div_12.d1e1885" xml:lang="ar">
 <head xml:id="head_12.d1e1887" xml:lang="ar">حكم وأخلاق</head>
-<byline change="#d2e383" xml:id="byline_5.d2e2152">ل <persName change="#d2e383" xml:id="persName_13.d2e2154">محمد بن أبي شحاذ الضبي</persName></byline>
+<byline change="#d2e383" xml:id="byline_5.d2e2152">ل <persName change="#d2e383 #d2e489" xml:id="persName_13.d2e2154" ref="oape:pers:3945">محمد بن أبي شحاذ الضبي</persName></byline>
 <lg xml:id="lg_6.d1e1893" xml:lang="ar">
 <l type="bayt" xml:id="l_102.d1e1895" xml:lang="ar"> <seg xml:id="seg_203.d1e1897" xml:lang="ar">إذا أنت أُعطيت الغنى ثم لم تجدُ </seg> <seg xml:id="seg_204.d1e1900" xml:lang="ar">بفضل الغنى أُلفيت مالك حامد</seg> </l>
 <l type="bayt" xml:id="l_103.d1e1904" xml:lang="ar"> <seg xml:id="seg_205.d1e1906" xml:lang="ar">إذا أنت لم تعرُك بجنبك بعض ما </seg> <seg xml:id="seg_206.d1e1909" xml:lang="ar">يريب من الأدنى رماك الأباعد</seg> </l>
