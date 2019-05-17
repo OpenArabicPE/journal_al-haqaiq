@@ -29,9 +29,9 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="tei:sourceDesc/tei:biblStruct[child::tei:monogr/tei:title[@level = 'j']]">
+    <xsl:template match="tei:sourceDesc/tei:biblStruct[child::tei:monogr/tei:title]">
         <div class="cSource">
-            <xsl:for-each select="child::tei:monogr/tei:title[@level = 'j'][not(@type = 'sub')]">
+            <xsl:for-each select="child::tei:monogr/tei:title[not(@type = 'sub')]">
                 <xsl:apply-templates select="." mode="mBibl"/>
             </xsl:for-each>
         </div>
@@ -41,7 +41,7 @@
         <xsl:text>hello</xsl:text>
     </xsl:template>-->
     
-    <xsl:template match="tei:monogr/tei:title[@level = 'j'][not(@type = 'sub')]" mode="mBibl">
+    <xsl:template match="tei:monogr/tei:title[not(@type = 'sub')]" mode="mBibl">
         <xsl:variable name="vLang" select="@xml:lang"/>
         <div>
             <xsl:call-template name="templHtmlAttrLang">
@@ -50,7 +50,7 @@
             <title>
                 <xsl:value-of select="."/>
             </title>
-            <xsl:for-each select="parent::tei:monogr/tei:title[@level = 'j'][@type = 'sub'][@xml:lang = $vLang]">
+            <xsl:for-each select="parent::tei:monogr/tei:title[@type = 'sub'][@xml:lang = $vLang]">
                 <xsl:text>: </xsl:text>
                 <span class="cSubTitle">
                     <xsl:value-of select="."/>
@@ -174,7 +174,7 @@
                 <xsl:apply-templates select="parent::tei:monogr/tei:imprint/tei:publisher/tei:orgName[@xml:lang = $vLang]"/>
                 <xsl:text>, </xsl:text>
                 <!-- publication date(s) -->
-                <xsl:apply-templates select="parent::tei:monogr/tei:imprint/tei:date[@calendar='#cal_islamic'][1]" mode="mBibl">
+                <xsl:apply-templates select="parent::tei:monogr/tei:imprint/tei:date[@datingMethod='#cal_islamic'][1]" mode="mBibl">
                     <xsl:with-param name="pLang" select="$vLang"/>
                 </xsl:apply-templates>
             </span>
@@ -187,7 +187,7 @@
         <xsl:variable name="vMonth" select="number(substring(@when-custom, 6, 2))"/>
         <xsl:variable name="vDay" select="number(substring(@when-custom, 9, 2))"/>
         <xsl:choose>
-            <xsl:when test="@calendar = '#cal_islamic'">
+            <xsl:when test="@datingMethod = '#cal_islamic'">
                 <xsl:value-of select="$vDay"/>
                 <xsl:text> </xsl:text>
                 <xsl:call-template name="templMonthNames">
