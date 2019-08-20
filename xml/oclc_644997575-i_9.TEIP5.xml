@@ -76,7 +76,7 @@
         </fileDesc>
         <xi:include change="#d2e405" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e195" xpointer="encodingDesc"/>
         <xi:include change="#d2e405" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e197" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-05-22" who="#pers_TG" xml:id="d2e460" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><tei:change when="2019-05-16" who="#pers_TG" xml:id="d2e446" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-04-08" who="#pers_TG" xml:id="d2e441" xml:lang="en">Added <tei:gi>graphic</tei:gi> for all pages linking to local facsimiles.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e427" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e416" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-08-20" who="#pers_TG" xml:id="d5e445" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-22" who="#pers_TG" xml:id="d2e460" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><tei:change when="2019-05-16" who="#pers_TG" xml:id="d2e446" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-04-08" who="#pers_TG" xml:id="d2e441" xml:lang="en">Added <tei:gi>graphic</tei:gi> for all pages linking to local facsimiles.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d2e427" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change><tei:change when="2019-03-24" who="#pers_TG" xml:id="d5e416" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</tei:ref>) and to GeoNames IDs to <tei:gi>placeName</tei:gi>s without such references based on  <tei:gi>place</tei:gi>s mentioned in the authority file.</tei:change>
             <change when="2018-10-12" who="#pers_TG" xml:id="d2e405" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>
                 s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi>
                 and had no existing <tei:att xml:lang="en">xml:id</tei:att>
@@ -370,7 +370,7 @@
                     <tei:biblScope change="#d2e405" from="9" to="9" unit="issue" xml:id="biblScope_4.d2e789">الجزء 9</tei:biblScope>
                     <tei:biblScope change="#d2e405" from="1" to="1" unit="volume" xml:id="biblScope_4.d2e792">المجلد 1</tei:biblScope>
                     <lb change="#d2e405 #d2e460" xml:id="lb_1.d2e795" ed="print" edRef="#edition_1"/>
-                    <title change="#d2e405" level="j" xml:id="title_8.d2e797" xml:lang="ar">الحقائق</title>
+                    <title change="#d2e405 #d5e445" level="j" xml:id="title_8.d2e797" xml:lang="ar" ref="oape:bibl:13 oclc:644997575">الحقائق</title>
                     <lb change="#d2e405 #d2e460" xml:id="lb_2.d2e800" ed="print" edRef="#edition_1"/>
                     <placeName change="#d5e361 #d2e405 #d5e416" ref="oape:place:61 geon:170654" xml:id="placeName_3.d2e803" xml:lang="ar">دمشق</placeName>في <date calendar="#cal_islamic" change="#d2e405" datingMethod="#cal_islamic" when="1911-04-01" when-custom="1329-04-01" xml:id="date_5.d2e806" xml:lang="ar">غرة ربيع الثاني ١٣٢٩</date>
                     و <date calendar="#cal_ottomanfiscal" change="#d2e405" datingMethod="#cal_ottomanfiscal" when="1911-04-01" when-custom="1327-01-19" xml:id="date_6.d2e809" xml:lang="ar">١٩ مارت ١٣٢٧</date>
@@ -410,7 +410,7 @@
             <div type="item" xml:id="div_3.d1e574" xml:lang="ar" subtype="article" change="#d2e460">
                 <head xml:id="head_3.d1e576" xml:lang="ar">حجاب المرأة في الإسلام</head>
                 <p xml:id="p_25.d1e579" xml:lang="ar">تحت هذا العنوان قرأنا في <bibl xml:id="bibl_2.d1e1085">
-                        <title level="j" xml:id="title_9.d1e1086">المقتبس</title>
+                        <title level="j" xml:id="title_9.d1e1086" change="#d5e445" ref="oape:bibl:9 oclc:4770057679">المقتبس</title>
                         <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=6994;r=26333" from="593" to="593" unit="issue" xml:id="biblScope_7.d1e1089">
                             عدد <tei:num value="593" xml:id="num_1.d1e1039" xml:lang="ar">٥٩٣</tei:num></biblScope>و <biblScope corresp="http://eap.bl.uk/database/overview_item.a4d?catId=6995;r=4229" from="594" to="594" unit="issue" xml:id="biblScope_8.d1e1094">
                             <tei:num value="594" xml:id="num_1.d1e1042" xml:lang="ar">٥٩٤</tei:num></biblScope>مقالة للكاتب <author xml:id="author_2.d1e1098">
@@ -708,8 +708,8 @@
                     انهالت عليه الردود فرأى التخلص من ذلك بإلزام من اعترضه
                     بالقول بالجواز منشر سؤالاً في (
                     <ref target="#div_6.d1e832" xml:id="ref_8.d1e1287">
-                        <title level="j" xml:id="title_12.d1e1288">المفيد</title></ref>و
-                    <title level="j" xml:id="title_13.d1e1291">المقتبس</title>
+                        <title level="j" xml:id="title_12.d1e1288" change="#d5e445" ref="oape:bibl:20 oclc:1034548778">المفيد</title></ref>و
+                    <title level="j" xml:id="title_13.d1e1291" change="#d5e445" ref="oape:bibl:9 oclc:4770057679">المقتبس</title>
                     ) خلاصته_هل
                     القروي إذا تزوج مدنية أن يمنعها عادات أهلها ويكلفها عادات أهله كأن يحظر عليها
                     استعمال الإزار والمنديل خوف المثلة ويأمرها بوضع خمار تديره حول رأسها وتسدله على
@@ -1008,7 +1008,7 @@
                         العامة وأن يفعلوه تكن فتنة في الأرض وفساد كبير.</p>
                 </quote>
                 <byline xml:id="byline_3.d1e1557">عن (
-                    <title level="j" xml:id="title_14.d1e1559">المفيد</title>
+                    <title level="j" xml:id="title_14.d1e1559" change="#d5e445" ref="oape:bibl:20 oclc:1034548778">المفيد</title>
                     )</byline>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P232.xhtml" ed="shamela" n="n8-p22" xml:id="pb_22.d1e848"/>

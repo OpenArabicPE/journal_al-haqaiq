@@ -84,7 +84,7 @@
         </fileDesc>
         <xi:include change="#d2e383" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e188" xpointer="encodingDesc"/>
         <xi:include change="#d2e383" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e190" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-05-22" who="#pers_TG" xml:id="d2e503" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><tei:change when="2019-05-16" who="#pers_TG" xml:id="d2e489" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2019-08-20" who="#pers_TG" xml:id="d5e505" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</tei:ref>) and to OCLC (WorldCat) IDs to <tei:gi>titles</tei:gi>s without such references based on  <tei:gi>biblStruct</tei:gi>s mentioned in the authority file (bibliography).</tei:change><tei:change when="2019-05-22" who="#pers_TG" xml:id="d2e503" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</tei:change><tei:change when="2019-05-16" who="#pers_TG" xml:id="d2e489" xml:lang="en">Added references to local authority file (<tei:ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</tei:ref>) and VIAF to <tei:gi>persName</tei:gi>s without such references based on <tei:gi>person</tei:gi>s in the local authority file. If the source <tei:gi>persName</tei:gi> did not contain any further TEI mark-up, this has been added from the local authority file.</tei:change>
 <change when="2019-04-17" who="#pers_TG" xml:lang="en">Improved mark-up of sections and bibliographic information on the basis of the facsimiles.</change>
             <tei:change when="2019-04-07" who="#pers_TG" xml:id="d2e469" xml:lang="en">Added 
                 <tei:gi>graphic</tei:gi>
@@ -378,7 +378,7 @@
             <div xml:id="div_1.d1e467" xml:lang="ar">
                 <biblStruct xml:id="biblStruct_2.d1e469" xml:lang="ar">
                     <monogr xml:id="monogr_2.d1e471" xml:lang="ar">
-                        <title level="j" xml:id="title_8.d1e473" xml:lang="ar">الحقائق</title>
+                        <title level="j" xml:id="title_8.d1e473" xml:lang="ar" change="#d5e505" ref="oape:bibl:13 oclc:644997575">الحقائق</title>
                         <editor ref="viaf:4795364" xml:id="editor_2.d1e476" xml:lang="ar">
                             <persName change="#d2e438" ref="oape:pers:270 viaf:4795364" xml:id="persName_7.d1e478" xml:lang="ar">
                                 <forename xml:lang="ar">عبد القادر</forename>
@@ -670,14 +670,14 @@
 <l type="bayt" xml:id="l_72.d1e1378" xml:lang="ar"> <seg xml:id="seg_143.d1e1380" xml:lang="ar">وإن تقحم منا الغمرة انقلبت </seg> <seg xml:id="seg_144.d1e1383" xml:lang="ar">عيناه رعباً فما يهدي له بصر</seg> </l>
 <l type="bayt" xml:id="l_73.d1e1387" xml:lang="ar"> <seg xml:id="seg_145.d1e1389" xml:lang="ar">وفرَّ لافزعاً منا ولاجزعاً </seg> <seg xml:id="seg_146.d1e1392" xml:lang="ar">لكن خيال وجبن منه مبتكر</seg> </l>
 <l type="bayt" xml:id="l_74.d1e1396" xml:lang="ar"> <seg xml:id="seg_147.d1e1398" xml:lang="ar">يا أمة النحت والتصوير ويحكم </seg> <seg xml:id="seg_148.d1e1401" xml:lang="ar">حتى جنودكم الأنصاب والصور</seg> </l>
-</lg><note place="inline" type="bibliographic"><bibl><title change="#d2e383" level="j" xml:id="title_9.d2e1521">الهلال</title>: <author><persName change="#d2e383 #d2e438" ref="oape:pers:410 viaf:236524859" xml:id="persName_10.d2e1524"><forename xml:lang="ar">مصطفى</forename> <forename xml:lang="ar">صادق</forename> <surname xml:lang="ar">الرافعي</surname></persName></author></bibl></note>
+</lg><note place="inline" type="bibliographic"><bibl><title change="#d2e383 #d5e505" level="j" xml:id="title_9.d2e1521" ref="oape:bibl:10 oclc:1639361">الهلال</title>: <author><persName change="#d2e383 #d2e438" ref="oape:pers:410 viaf:236524859" xml:id="persName_10.d2e1524"><forename xml:lang="ar">مصطفى</forename> <forename xml:lang="ar">صادق</forename> <surname xml:lang="ar">الرافعي</surname></persName></author></bibl></note>
 </div>
             <pb change="#d2e562 #d2e576 #d2e361 #d2e375 #d2e383 #d2e503" ed="print" facs="#facs_299" n="299" xml:id="pb_30.d2e1528" edRef="#edition_1"/>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P567.xhtml" ed="shamela" n="n19-p14" xml:id="pb_12.d1e1411"/>
             <div type="item" xml:id="div_6.d1e1415" xml:lang="ar" subtype="article" change="#d2e503">
 <head xml:id="head_6.d1e1417" xml:lang="ar">تعليم المرأة وضرورة حجابها</head>
 <p xml:id="p_63.d1e1420" xml:lang="ar">الإنسان مقهور لعوامل الطبيعة بلا نزاع فإن كان حكيماً فيكون معها في حروب وقتال والسواد الأعظم في هذا التغالب مغلوب سنة الله في التكوين ولن تجد لسنة الله تبديلاً مهما هذبت النفوس وآويتها في حضانة الأخلاق الفاضلة بما تلقيه إليها من دروس العلم والحكمة فلابد لأن تنازعك يوماً ما بحكم عوامل فطرتها وربما صارعتك وتغلبت عليك باستدراجك إلى حيث تهلك (إن النفس لأمّارة بالسوء) اللهم ألا إذا أتاك برهان ربك فيحول بينك وبين مناها وتصبح من ذوي العزم والاستقامة وهذا لا يكون إلا لمن حزم رأيه وتشبث بأوامر الشرع الحكيم. والمرأة أضعف جانباً من الرجل في كل شيء فإذاً من الظلم أن يسيغ لها الاختلاط المغناطيسي الذي ينشدونه أضداد الحجاب ليتوسعوا في ضروب البهرجة بما بم يكن مشروعاً وبعد ذلك نطالبها بالعفة والشرف صاحب الشريعة صلى الله عليه وسلم حليم وليس من صفاته وأخلاقه الجمود بما لم يكن محموداً والتقيد بقيد الحروف والألفاظ. إلا لكل لفظة منطوق ومفهوم وفي الأحكام رخصة وعزيمة هذا هو المعتبر شرعاً في كل زمان انظر كيف أجاز النطق بكلمة الكفر عند الإكراه مادام القلب مطمئناً بالإيمان وكيف حرم نكاح الأخوات بعد أن كان مباحاً في مبدأ العمران ومع هذه الاعتبارات نسير مع الذين ينكرون الحجاب في الإسلام القائلين بأنه افتراء المجتهدين ونوافقهم جدلاً في أن الحجاب ليس مشروعاً ومشروحاً في تصريح العبارة في كتاب الله تعالى ولكن من يستقري أخلاق العالم يعلم أنه واجب لا محالة <pb change="#d2e562 #d2e576 #d2e361 #d2e375 #d2e383 #d2e503" ed="print" facs="#facs_300" n="300" xml:id="pb_32.d2e1539" edRef="#edition_1"/> إنسانية وأدباً. إذا أعرنا الشرع نظرة حقيقية وجدناه ناقماً على القائلين بالسفور وما لنا وهذا الخبط ونحن إذا نظرنا إلى أخلاق معظم المسلمين وما نزل بهم من التأخر في الأخلاق نجد أن ذلك ناشئ من عدم التمسك بأحكام الدين ولذلك أقول يجب أن يكون الحجاب للمرأة متعدداً لا حجاباً واحداً حيث لا يبصرها الرجال إلا ما أحلها له الشارع صلى الله عليه وسلم بطريق العقد الشرعي.</p>
-<p xml:id="p_64.d1e1423" xml:lang="ar">قلنا أن الدين بعيد عن الجمود ولو فرضنا أنه لم يشرع الحجاب فإن الزمان الغابر لم تكن الحرمات فيه منتهكة بل كانت السلطة الفردية فيه للعفة النقية والأخلاق الفاضلة وإكبار التشريع الإلهي والانقياد لأحكامه وتعاليمه فإذا كان كذلك بالأمس فلم يكن ثمة ما يسجل عليه الجمود لهذا الحد ولا يكون للخروج إلى ما تمس إليه الحاجة سبيل خصوصاً في زماننا هذا الذي ماتت فيه المروءة واستهين بالشرف والدين ولم يكن التفاخر إلا بالانصياع <pb corresp="file:../epub/29676/OEBPS/xhtml/P568.xhtml" ed="shamela" n="n19-p15" xml:id="pb_13.d1e1425"/> للشهوة البهيمية والتقاليد الأوروبية وأكبر دليل على حكمة الشارع صلى الله عليه وسلم وتصرفه في الأحكام على نحو ما يوافق العمران أنك تراه يحرم حكماً ويبيحه في الوقت الذي يقتضيه والحكمة في ذلك بقاء عقد الجمعية الإنسانية منظماً على أساس صروح المدنية والحضارة ومصادرة وباء الفساد في الأرض (يلقي الروح من أمره على من يشاء من عباده. والله يعلم وأنتم لا تعلمون).</p><note place="inline" type="bibliographic"><bibl><title change="#d2e383" level="j" rend="quotation-marks" xml:id="title_10.d2e1548">المؤيد</title></bibl></note>
+<p xml:id="p_64.d1e1423" xml:lang="ar">قلنا أن الدين بعيد عن الجمود ولو فرضنا أنه لم يشرع الحجاب فإن الزمان الغابر لم تكن الحرمات فيه منتهكة بل كانت السلطة الفردية فيه للعفة النقية والأخلاق الفاضلة وإكبار التشريع الإلهي والانقياد لأحكامه وتعاليمه فإذا كان كذلك بالأمس فلم يكن ثمة ما يسجل عليه الجمود لهذا الحد ولا يكون للخروج إلى ما تمس إليه الحاجة سبيل خصوصاً في زماننا هذا الذي ماتت فيه المروءة واستهين بالشرف والدين ولم يكن التفاخر إلا بالانصياع <pb corresp="file:../epub/29676/OEBPS/xhtml/P568.xhtml" ed="shamela" n="n19-p15" xml:id="pb_13.d1e1425"/> للشهوة البهيمية والتقاليد الأوروبية وأكبر دليل على حكمة الشارع صلى الله عليه وسلم وتصرفه في الأحكام على نحو ما يوافق العمران أنك تراه يحرم حكماً ويبيحه في الوقت الذي يقتضيه والحكمة في ذلك بقاء عقد الجمعية الإنسانية منظماً على أساس صروح المدنية والحضارة ومصادرة وباء الفساد في الأرض (يلقي الروح من أمره على من يشاء من عباده. والله يعلم وأنتم لا تعلمون).</p><note place="inline" type="bibliographic"><bibl><title change="#d2e383 #d5e505" level="j" rend="quotation-marks" xml:id="title_10.d2e1548" ref="oape:bibl:25 oclc:792755902">المؤيد</title></bibl></note>
 </div>
             <pb change="#d2e562 #d2e576 #d2e361 #d2e375 #d2e383 #d2e503" ed="print" facs="#facs_301" n="301" xml:id="pb_34.d2e1552" edRef="#edition_1"/>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P569.xhtml" ed="shamela" n="n19-p16" xml:id="pb_14.d1e1430"/>
@@ -737,7 +737,7 @@
                         المرأة) تأليف محمد طلعت حرب سهل عليه أن يذعن لما قلناه ويعتقد أنه حقيقة لا
                         مبالغة فيها.</p>
                 <p xml:id="p_73.d1e1463" xml:lang="ar">نقل المؤلف عن مجلة 
-                    <title level="j">العالمين</title>
+                    <title level="j" change="#d5e505" ref="oape:bibl:43">العالمين</title>
                     الفرنساوية
                     مقالاً للكاتب الفرنساوي الشهير موسيو أتين لامي قال فيه أن من الواجب على الأمم
                     المسيحية أن تعاكس الإسلام في كل طريق وتحارب أهله بكل سلاح , أن مقاومة الإسلام
@@ -889,7 +889,7 @@
                 <p xml:id="p_94.d1e1545" xml:lang="ar">جاء في 
                     <bibl>
                         مجلة 
-                        <title level="j">الهلال</title>
+                        <title level="j" change="#d5e505" ref="oape:bibl:10 oclc:1639361">الهلال</title>
                         في 
                         <biblScope from="3" to="3" unit="issue">العدد الثالث</biblScope>
                         من 
