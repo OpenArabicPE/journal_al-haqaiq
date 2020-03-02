@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="..., ..." />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>journal_al-haqaiq</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="an-open-collaborative-and-scholarly-digital-edition-of-ʿabd-al-qādir-al-iskandarānīs-monthly-journal-al-ḥaqāʾiq-damascus-19101913">An open, collaborative, and scholarly digital edition of ʿAbd al-Qādir al-Iskandarānī’s monthly journal <em>al-Ḥaqāʾiq</em> (Damascus, 1910–1913)</h1>
+<p><a href="https://github.com/openarabicpe/digital-haqaiq/releases"><img src="https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg" alt="GitHub release" /></a> <a href="https://zenodo.org/badge/latestdoi/52619834"><img src="https://zenodo.org/badge/52619834.svg" alt="DOI" /></a></p>
+<p>This digital edition of ʿAbd al-Qādir al-Iskandarānī’s monthly journal <em>al-Ḥaqāʾiq</em> (Damascus, 1910–1913) is part of and follows the principles of <a href="https://openarabicpe.github.io">Open Arabic Periodical Editions (OpenArabicPE)</a> that were originally developped in the context of <a href="https://github.com/tillgrallert/digital-muqtabas">Digital Muqtabas</a>.</p>
+<p>If you just want to browse the edition in a more human-readable view, start <a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml">here</a> and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust’s scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of <a href="https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ">OpenArabicPE’s public Zotero group</a>.</p>
+<p><strong>UPDATE 2016-05-23</strong>: apparently HathiTrust decided to remove the images from the public domain. I have inquired with them about the reasons for this removal but have not yet received a reply.</p>
+<p><strong>UPDATE 2018-04-27</strong>: we scanned all three volumes of al-Ḥaqāʾiq available at the library of the Orient-Institut Beirut and we are currently negotiating agreements with other institutions to host and archive the digital imagery. We plan for facsimiles to be online by the end of the year.</p>
+<h1 id="scope-and-deliverables-of-the-project">1. Scope and deliverables of the project</h1>
+<p>The purpose and scope of the project is to provide an open, collaborative, referencable, and scholarly digital edition of ʿAbd al-Qādir al-Iskandarānī’s journal <em>al-Ḥaqāʾiq</em>, which includes the full text, semantic mark-up, bibliographic metadata, and digital imagery. All files but the digital facsimiles are hosted on <a href="https://www.github.com">GitHub</a>.</p>
+<p>All deliverables and milestones will be covered in more detail in the following sections of this <code>readme.md</code>.</p>
+<h2 id="deliverables">1.1 Deliverables</h2>
+<ul>
+<li>Current deliverables:
+<ul>
+<li>Full text of 34 issues with semantic mark-up as TEI P5 XML with its <a href="https://github.com/OpenArabicPE/OpenArabicPE_ODD">own schema</a>. TEI files can be found in the folder <code>xml/</code></li>
+<li>The text of digital edition links to open-access digital facsimiles if available (see below).</li>
+<li><a href="https://github.com/tillgrallert/tei-boilerplate-arabic-editions">A webview</a>, based on <a href="http://dcl.slis.indiana.edu/teibp/">TEI Boilerplate</a>, shows digital text and images side by side. It provides an automatically generated table of content and links to the bibliographic metadata of every article. Click <a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml">here</a> to start reading <em>al-Ḥaqāʾiq</em>.</li>
+<li>Bibliographic metadata for every article in <em>al-Ḥaqāʾiq</em> is provided as individual BibTeX and MODS files in the folder <code>metadata/</code>. The metadata includes a URL pointing to the webview of this item and the webview includes a link to the metadata files for every article.
+<ul>
+<li>To ease browsing the journal, we have set up the public Zotero group <a href="https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ">OpenArabicPE/digital-haqaiq</a>. This group is updated by means of the MODS XML files.</li>
+</ul></li>
+</ul></li>
+<li>Planned deliverables
+<ul>
+<li>Scans of issues not currently available in open-access repositories, which we hold at <a href="http://www.orient-institut.org">Orient-Institut Beirut</a>.</li>
+</ul></li>
+</ul>
+<h2 id="timeline-scheduled-releases">1.2 Timeline / scheduled releases</h2>
+<p><a href="https://github.com/openarabicpe/digital-haqaiq/releases"><img src="https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg" alt="GitHub release" /></a></p>
+<p>There is no proper release schedule yet but I conceive of version 1.0 as the first complete edition. Progress is tracked using a public <a href="https://trello.com/b/8LjguBCl/digital-ḥaqāʾiq">Trello board</a>.</p>
+<ul>
+<li>version 0.1 shall be the first “official” release. It is scheduled for April 2018 and will include
+<ol type="1">
+<li>TEI files of all at least one volume of <em>al-Ḥaqāʾiq</em> (i.e. 12 issues / files) with structural mark-up of mastheads, sections, articles, and with page breaks linked to the facsimiles;</li>
+<li>MODS / BibTeX files for all issues, sections, and articles;</li>
+<li>XSLT, JS, and CSS for a webview.</li>
+</ol></li>
+<li>versions 0.1.1 - 0.1.x: each completed issue will warant a minor release.</li>
+<li>versions 0.1 - 0.x: each completed volume of 11 to 12 issues / TEI files will warant an incremental release.</li>
+<li>version 1.0 shall include
+<ol type="1">
+<li>TEI files of all 35 issues of <em>al-Ḥaqāʾiq</em> with structural mark-up of mastheads, sections, articles, and with page breaks linked to the facsimiles;</li>
+<li>all the components of version 0.1</li>
+</ol></li>
+</ul>
+<h1 id="the-journal-al-ḥaqāʾiq">2. The journal <em>al-Ḥaqāʾiq</em></h1>
+<p>ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal <em>al-Ḥaqāʾiq</em> in Damascus in <a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml">August 1910</a>. Until the end of publication in late 1913 or early 1914, he had completed three volumes. The final issue of volume 3 contains the reference “will be continued …” under several articles (e.g. <a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_35.TEIP5.xml#div_9.d1e1511">here</a> and <a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_35.TEIP5.xml#div_10.d1e1618">here</a>). According to some library catalogues—while stating that they hold no copy beyond the end of volume three—<em>al-Ḥaqāʾiq</em> published the first issue of volume four. The annual local subscription cost was 1 <em>mecidiye</em> and, according to foreign observer, the issue was sold at a price of Ps 23.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<h2 id="frequency-of-publication">frequency of publication</h2>
+<p><em>al-Ḥaqāʾiq</em> was a monthly journal and followed the Islamic calendar. Each issue carried information on month and year in its masthead but no specific publication date. Few articles mention datable events but occasionally one is able to track referenced newspaper issues.</p>
+<p><a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_22.TEIP5.xml">Issue 2/10 of <em>Jumādā al-Ūlā 1330</em></a> contains two articles reacting to the conflagration of <em>Sūq al-Ḥamīdiyya</em> in Damascus on 27 April 1912 (10 Jum I 1330 aH).</p>
+<p>There is an, as of yet, unexplained six-month gap in publication between June and December 1912.</p>
+<h1 id="input">3. Input:</h1>
+<h2 id="digital-imagery">3.1 Digital imagery</h2>
+<p>Digital files are available from <a href="http://hdl.handle.net/2027/njp.32101036074001">HathiTrust (vol. 1)</a> and it seems that the Bayerische Staatsbibliothek in Munich sells <a href="https://opacplus.bsb-muenchen.de/metaopac/search.do?methodToCall=volumeSearch&amp;dbIdentifier=100&amp;forward=success&amp;catKey=8827480&amp;isPeriodical=N">PDFs of vols. 1-3</a></p>
+<h3 id="hathitrust">3.1.1 <a href="https://www.hathitrust.org/">HathiTrust</a></h3>
+<ul>
+<li>links to volumes
+<ul>
+<li><a href="http://hdl.handle.net/2027/njp.32101036074001">Vol. 1</a></li>
+</ul></li>
+<li>access
+<ul>
+<li>The journal is in the public domain in the US and can be freely accessed and downloaded</li>
+<li>Outside the US, access is restricted.</li>
+<li>Formal <a href="https://www.hathitrust.org/access_use#pd-us-google">licence</a>:</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>Public Domain or Public Domain in the United States, Google-digitized: In addition to the terms for works that are in the Public Domain or in the Public Domain in the United States above, the following statement applies: The digital images and OCR of this work were produced by Google, Inc. (indicated by a watermark on each page in the PageTurner). Google requests that the images and OCR not be re-hosted, redistributed or used commercially. The images are provided for educational, scholarly, non-commercial purposes.</p>
+<p>Note: There are no restrictions on use of text transcribed from the images, or paraphrased or translated using the images.</p>
+</blockquote>
+<h2 id="full-text">3.2 Full text</h2>
+<p>Somebody took the pains to create fully searchable text files and uploaded everything to <a href="http://shamela.ws/index.php/book/29676">al-Maktaba al-Shamela</a>.</p>
+<h3 id="al-maktaba-al-shāmila">3.2.1 <a href="http://www.shamela.ws">al-Maktaba al-Shāmila</a></h3>
+<ul>
+<li>Extent: According to the main <a href="http://shamela.ws/index.php/book/29676">entry</a>, <em>shamela</em> has all 35 issues.</li>
+<li>Transcribers, editors: Apparently, they have been typed and copy-edited by unnamed humans.</li>
+<li>Features edition: paragraphs, page breaks, headlines.</li>
+<li>Features interface:
+<ul>
+<li>all issues can be browsed for headlines and searched</li>
+<li>all pages can be individually adressed in the browser: <a href="http://shamela.ws/browse.php/book-29676#page-113">http://shamela.ws/browse.php/book-29676#page-113</a></li>
+</ul></li>
+</ul>
+<h1 id="deliverable-tei-edition">4. Deliverable: TEI edition</h1>
+<p>The main challenge is to combine the full text and the images in a TEI edition. As <em>al-maktaba al-shāmila</em> did not reproduce page breaks true to the print edition, every single one of the more than 1500 page breaks must be added manually and linked to the digital image of the page.</p>
+<p>The TEI files can be found in the folder <a href="xml/"><code>xml/</code></a>.</p>
+<h2 id="general-design">4.1 General design</h2>
+<p>The edition should be conceived of as a corpus of tei files that are grouped by means of xinclude. This way, volumes can be constructed as single TEI files containing a <code>&lt;group/&gt;</code> of TEI files and a volume specific <code>&lt;front/&gt;</code> and <code>&lt;back/&gt;</code></p>
+<p>Detailled description and notes on the mark-up can be found in a separate repository for the TEI schema: <a href="https://github.com/OpenArabicPE/OpenArabicPE_ODD">OpenArabicPE_ODD</a>.</p>
+<h1 id="deliverable-a-web-displayadapting-tei-boilerplate">5. Deliverable: A <a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml">Web display</a>adapting TEI Boilerplate</h1>
+<p>To allow a quick review of the mark-up and read the journal’s content, I decided to customise <a href="http://dcl.slis.indiana.edu/teibp/">TEI Boilerplate</a> for a first display of the TEI files in the browser without need for pre-processed HTML and to host this heavily customised boilerplate view as part of another <a href="https://www.github.com/tillgrallert/tei-boilerplate-arabic-editions">GitHub repository</a> that can be used across various projects. For a first impression see <a href="https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml">here</a>. It is important to note that at the moment there is no front-end beyond the GitHub repository that allows for searching and browsing across files.</p>
+<h1 id="deliverable-bibliographic-metadata-index">6. Deliverable: Bibliographic metadata / index</h1>
+<p>Bibliographic metadata for every article in <em>al-Ḥaqāʾiq</em> is provided in two formats: BibTeX and MODS in the sub-folder <a href="metadata/"><code>metadata/</code></a>. The metadata includes a URL pointing to the webview of this item and the webview, in turn, includes links to the metadata files for every article.</p>
+<h2 id="bibtex">6.1 BibTeX</h2>
+<!-- Added reference to principles of minimal computing etc.  -->
+<p><a href="http://www.bibtex.org/Format/">BibTeX</a> is a plain text format which has been around for more than 30 years and which is widely supported by reference managers. Thus it seems to be a safe bet to preserve and exchange minimal bibliographic data. OpenArbicPE maintains a number of <a href="https://github.com/OpenArabicPE/convert_tei-to-bibtex">XSLT stylesheets to automatically generate BibTeX files</a> from the TEI source:</p>
+<ol type="1">
+<li><code>Tei2BibTex-articles.xsl</code>: generates one BibTeX file for each article and section of a periodical issue.</li>
+<li><code>Tei2BibTex-issues.xsl</code>: generates one BibTeX file per periodical issue, comprising entries for every article and section.</li>
+</ol>
+<p>There are, however, a number of problems with the format:</p>
+<ul>
+<li>The format and thus the tools implementing it aren’t really strict.</li>
+<li>The <a href="http://www.bibtex.org/Format/">format description</a> is fairly short and since development of BibTeX stalled between 1988 and 2010, it is most definitely not the most current or detailed when it comes to bibliographic metadata descriptions.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>Only basic information can be included:
+<ul>
+<li>information on publication dates is commonly limited to year and month only</li>
+<li>periodicals are not perceived as having different editions or print-runs</li>
+<li>non-Gregorian calendars cannot be added.</li>
+</ul></li>
+</ul>
+<h2 id="mods-metadata-object-description-schema">6.2 MODS (Metadata Object Description Schema)</h2>
+<p>The <a href="http://www.loc.gov/standards/mods/">MODS standard</a> is expressed in XML and maintained by the <a href="http://www.loc.gov/marc/ndmso.html">Network Development and MARC Standards Office</a> of the Library of Congress with input from users. Compared to BibTeX MODS has he advantage of being properly standardised, human and machine readable, and much better suited to include all the needed bibliographic information.</p>
+<p>OpenArabicPE maintains a number of <a href="https://github.com/OpenArabicPE/convert_tei-to-mods">XSLT stylesheets to automatically generate MODS XML files</a> from the TEI source:</p>
+<ol type="1">
+<li><code>Tei2Mods-articles.xsl</code>: generates one MODS file for each article and section of a periodical issue.</li>
+<li><code>Tei2Mods-issues.xsl</code>: generates one MODS file per periodical issue, comprising entries for every article and section.</li>
+</ol>
+<p>MODS also serves as the intermediary format for the free <a href="https://sourceforge.net/projects/bibutils/">bibutils suite</a> of conversions between bibliographic metadata formats (including BibTeX) which is under constant development and released under a GNU/GPL (General Public License). <code>Tei2Mods-issues.xsl</code> and <code>bibutils</code> provide a means to automatically generate a large number of bibliographic formats to suit the reference manager one is working with; e.g.:</p>
+<ul>
+<li>to generate EndNote (refer-format) one only needs the following terminal command: <code>$ xml2end MODS.xml &gt; output_file.end</code></li>
+<li>to generate BibTex: <code>$ xml2bib MODS.xml &gt; output_file.bib</code></li>
+</ul>
+<h2 id="index-by-means-of-a-zotero-group">6.3 Index by means of a Zotero group</h2>
+<p>As the webview or reading edition is implemented on the issue level and as we have currently no plans to implement and host a database on the backend, OpenArabicPE needed a way to navigate and browse all articles, authors etc. To this end, we have set up the public <a href="ttps://www.zotero.org/groups/openarabicpe/items/">Zotero group OpenArabicPE</a>. It can be updated by means of the MODS or BibTeX files. Updating from MODS is the preferred method since it is the more expressive format.</p>
+<p><a href="https://www.zotero.org/groups">Zotero groups</a> are great way to share bibliographic metadata. Hosted by the Roy Rosenzweig Center for History and Media, they allow for public access to structured bibliographic metadata through a web interface. Of course they also integrate with the free and open-source reference manager <a href="https://www.zotero.org">Zotero</a>. All one needs is a free Zotero account and either the Zotero plug-in for the Firefox and Chrome browsers or the Zotero standalone version for Mac OSX and Linux. One can then join the group and sync all data to the local installation of Zotero, which means that, similar to the webview and all other components of this edition, bibliographic metadata can be browsed and searched through a graphical user interface without a continuous internet connection.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Thomsen, P. “Verzeichnis der Arabischen Zeitungen und Zeitschriften Palästinas.” <em>Zeitschrift des Deutschen Palästina-Vereins (1878-1945)</em> 35, no. 4 (1912):214<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p><a href="https://en.wikipedia.org/wiki/BibTeX">Wikipedia</a> has a better description than the official website.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
