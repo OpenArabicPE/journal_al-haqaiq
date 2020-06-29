@@ -8,7 +8,7 @@ date: 2017-02-23 11:30:21 +0100
 
 The journal of *al-Ḥaqāʾiq* has been identified by HathiTrust to be in the public domain in the US. The transcription itself is therefore marked with the Creative Common's [Public Domain Mark](https://creativecommons.org/publicdomain/mark/1.0/).
 
-All data files (`.bib`, `.md`, `.xml`) in this [repository](https://github.com/OpenArabicPE/digital-haqaiq) are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) if not otherwise stated in the files themselves.
+All data files (`.bib`, `.md`, `.xml`) in this [repository](https://github.com/OpenArabicPE/journal_al-haqaiq) are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) if not otherwise stated in the files themselves.
 
 All software (`.xql`, `.xsl`) in this repository with the exception of the "TEI Boilerplate" (in [`xslt-boilerplate/`](xslt-boilerplate/))  is licensed under MIT license (see below) if not otherwise stated in the files themselves.
 

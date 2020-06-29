@@ -6,12 +6,12 @@ date: 2019-05-17
 
 # An open, collaborative, and scholarly digital edition of ʿAbd al-Qādir al-Iskandarānī's monthly journal *al-Ḥaqāʾiq* (Damascus, 1910--1913)
 
-[![GitHub release](https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg)](https://github.com/openarabicpe/digital-haqaiq/releases)
+[![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-haqaiq.svg)](https://github.com/openarabicpe/journal_al-haqaiq/releases)
 [![DOI](https://zenodo.org/badge/52619834.svg)](https://zenodo.org/badge/latestdoi/52619834)
 
 This digital edition of ʿAbd al-Qādir al-Iskandarānī's monthly journal *al-Ḥaqāʾiq* (Damascus, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas).
 
-If you just want to browse the edition in a more human-readable view, start [here](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ).
+If you just want to browse the edition in a more human-readable view, start [here](https://openarabicpe.github.io/journal_al-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ).
 
 **UPDATE 2016-05-23**: apparently HathiTrust decided to remove the images from the public domain. I have inquired with them about the reasons for this removal but have not yet received a reply.
 
@@ -28,15 +28,15 @@ All deliverables and milestones will be covered in more detail in the following 
 - Current deliverables:
     - Full text of 34 issues with semantic mark-up as TEI P5 XML with its [own schema](https://github.com/OpenArabicPE/OpenArabicPE_ODD). TEI files can be found in the folder `xml/`
     - The text of digital edition links to open-access digital facsimiles if available (see below).
-    - [A webview](https://github.com/tillgrallert/tei-boilerplate-arabic-editions), based on [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/), shows digital text and images side by side. It provides an automatically generated table of content and links to the bibliographic metadata of every article. Click [here](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml) to start reading *al-Ḥaqāʾiq*.
+    - [A webview](https://github.com/tillgrallert/tei-boilerplate-arabic-editions), based on [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/), shows digital text and images side by side. It provides an automatically generated table of content and links to the bibliographic metadata of every article. Click [here](https://openarabicpe.github.io/journal_al-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml) to start reading *al-Ḥaqāʾiq*.
     - Bibliographic metadata for every article in *al-Ḥaqāʾiq* is provided as individual BibTeX and MODS files in the folder `metadata/`. The metadata includes a URL pointing to the webview of this item and the webview includes a link to the metadata files for every article.
-        + To ease browsing the journal, we have set up the public Zotero group [OpenArabicPE/digital-haqaiq](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ). This group is updated by means of the MODS XML files.
+        + To ease browsing the journal, we have set up the public Zotero group [OpenArabicPE/journal_al-haqaiq](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ). This group is updated by means of the MODS XML files.
 - Planned deliverables
     + Scans of issues not currently available in open-access repositories, which we hold at [Orient-Institut Beirut](http://www.orient-institut.org).
 
 ## 1.2 Timeline / scheduled releases
 
-[![GitHub release](https://img.shields.io/github/release/openarabicpe/digital-haqaiq.svg)](https://github.com/openarabicpe/digital-haqaiq/releases)
+[![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-haqaiq.svg)](https://github.com/openarabicpe/journal_al-haqaiq/releases)
 
 There is no proper release schedule yet but I conceive of version 1.0 as the first complete edition. Progress is tracked using a public [Trello board](https://trello.com/b/8LjguBCl/digital-ḥaqāʾiq).
 
@@ -52,7 +52,7 @@ There is no proper release schedule yet but I conceive of version 1.0 as the fir
 
 # 2. The journal *al-Ḥaqāʾiq*
 
-ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. The final issue of volume 3 contains the reference "will be continued ..." under several articles (e.g. [here](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_35.TEIP5.xml#div_9.d1e1511) and [here](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_35.TEIP5.xml#div_10.d1e1618)). According to some library catalogues---while stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
+ʿAbd al-Qādir al-Iskandarānī began publishing the monthly journal *al-Ḥaqāʾiq* in Damascus in [August 1910](https://openarabicpe.github.io/journal_al-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml). Until the end of publication in late 1913 or early 1914, he had completed three volumes. The final issue of volume 3 contains the reference "will be continued ..." under several articles (e.g. [here](https://openarabicpe.github.io/journal_al-haqaiq/xml/oclc_644997575-i_35.TEIP5.xml#div_9.d1e1511) and [here](https://openarabicpe.github.io/journal_al-haqaiq/xml/oclc_644997575-i_35.TEIP5.xml#div_10.d1e1618)). According to some library catalogues---while stating that they hold no copy beyond the end of volume three---*al-Ḥaqāʾiq* published the first issue of volume four. The annual local subscription cost was 1 *mecidiye* and, according to foreign observer, the issue was sold at a price of Ps 23.[^1]
 
 [^1]: Thomsen, P. "Verzeichnis der Arabischen Zeitungen und Zeitschriften Palästinas." *Zeitschrift des Deutschen Palästina-Vereins (1878-1945)* 35, no. 4 (1912):214
 
@@ -60,7 +60,7 @@ There is no proper release schedule yet but I conceive of version 1.0 as the fir
 
 *al-Ḥaqāʾiq* was a monthly journal and followed the Islamic calendar. Each issue carried information on month and year in its masthead but no specific publication date. Few articles mention datable events but occasionally one is able to track referenced newspaper issues.
 
-[Issue 2/10 of *Jumādā al-Ūlā 1330*](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_22.TEIP5.xml) contains two articles reacting to the conflagration of *Sūq al-Ḥamīdiyya* in Damascus on 27 April 1912 (10 Jum I 1330 aH).
+[Issue 2/10 of *Jumādā al-Ūlā 1330*](https://openarabicpe.github.io/journal_al-haqaiq/xml/oclc_644997575-i_22.TEIP5.xml) contains two articles reacting to the conflagration of *Sūq al-Ḥamīdiyya* in Damascus on 27 April 1912 (10 Jum I 1330 aH).
 
 There is an, as of yet, unexplained six-month gap in publication between June and December 1912.
 
@@ -108,9 +108,9 @@ The edition should be conceived of as a corpus of tei files that are grouped by 
 
 Detailled description and notes on the mark-up can be found in a separate repository for the TEI schema: [OpenArabicPE_ODD](https://github.com/OpenArabicPE/OpenArabicPE_ODD).
 
-# 5. Deliverable: A [Web display](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml)adapting TEI Boilerplate
+# 5. Deliverable: A [Web display](https://openarabicpe.github.io/journal_al-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml)adapting TEI Boilerplate
 
-To allow a quick review of the mark-up and read the journal's content, I decided to customise [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) for a first display of the TEI files in the browser without need for pre-processed HTML and to host this heavily customised boilerplate view as part of another [GitHub repository](https://www.github.com/tillgrallert/tei-boilerplate-arabic-editions) that can be used across various projects. For a first impression see [here](https://openarabicpe.github.io/digital-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml). It is important to note that at the moment there is no front-end beyond the GitHub repository that allows for searching and browsing across files.
+To allow a quick review of the mark-up and read the journal's content, I decided to customise [TEI Boilerplate](http://dcl.slis.indiana.edu/teibp/) for a first display of the TEI files in the browser without need for pre-processed HTML and to host this heavily customised boilerplate view as part of another [GitHub repository](https://www.github.com/tillgrallert/tei-boilerplate-arabic-editions) that can be used across various projects. For a first impression see [here](https://openarabicpe.github.io/journal_al-haqaiq/xml/oclc_644997575-i_1.TEIP5.xml). It is important to note that at the moment there is no front-end beyond the GitHub repository that allows for searching and browsing across files.
 
 # 6. Deliverable: Bibliographic metadata / index
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_25" prev="oclc_644997575-i_23" xml:id="oclc_644997575-i_24" xml:lang=""><teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" next="oclc_644997575-i_25" prev="oclc_644997575-i_23" xml:id="oclc_644997575-i_24" xml:lang=""><teiHeader xml:id="teiHeader_1.d1e7" xml:lang="en">
         <fileDesc xml:id="fileDesc_1.d1e9" xml:lang="en">
             <titleStmt xml:id="titleStmt_1.d1e11" xml:lang="en">
                 <title xml:id="title_1.d1e13" xml:lang="ar">مجلة الحقائق</title>
@@ -22,9 +22,9 @@
                     <resp xml:id="resp_2.d1e49" xml:lang="en">TEI edition</resp>
                     <persName xml:id="pers_TG" xml:lang="en">Till Grallert</persName>
                 </respStmt>
-                <respStmt change="#d2e356" xml:id="respStmt_3.d2e58">
+                <respStmt change="#d2e356 #d2e480" xml:id="respStmt_3.d2e58" xml:lang="en">
                     <resp xml:lang="en" change="#d2e356" xml:id="resp_3.d2e60">Mark-up of page breaks</resp>
-                    <persName xml:id="pers_XK">Xaver Kretzschmar</persName>
+                    <persName xml:id="pers_XK" change="#d2e480" xml:lang="en">Xaver Kretzschmar</persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt xml:id="publicationStmt_1.d1e57" xml:lang="en">
@@ -36,7 +36,7 @@
                 <availability status="restricted" xml:id="availability_1.d1e71" xml:lang="en">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:id="licence_1.d1e73" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
                 </availability>
-                <idno type="url" xml:id="idno_1.d1e77">https://github.com/openarabicpe/digital-haqaiq/blob/master/xml/oclc_644997575-i_24.TEIP5.xml</idno>
+                <idno type="url" xml:id="idno_1.d1e77" change="#d2e480" xml:lang="en">https://github.com/openarabicpe/journal_al-haqaiq/blob/master/xml/oclc_644997575-i_24.TEIP5.xml</idno>
             </publicationStmt>
             <sourceDesc xml:id="sourceDesc_1.d1e81" xml:lang="en">
                 <biblStruct xml:lang="en" change="#d2e356" xml:id="biblStruct_1.d2e94">
@@ -82,62 +82,62 @@
         </fileDesc>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="encodingDesc" parse="xml" change="#d2e356" xml:id="xi:include_1.d2e185"/>
         <xi:include href="oclc_644997575-master_teiHeader.TEIP5.xml" xpointer="profileDesc" parse="xml" change="#d2e356" xml:id="xi:include_2.d2e187"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2019-08-20" who="#pers_TG" xml:id="d5e463" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi>titles</gi>s without such references based on  <gi>biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-22" who="#pers_TG" xml:id="d2e458">Linked all <tag>pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-05-22" who="#pers_TG" xml:id="d2e454">Added <gi>graphic</gi> for 40 pages with references to digital images.</change><change when="2019-05-22" who="#pers_TG" xml:id="d2e452" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</change><change when="2019-05-16" who="#pers_TG" xml:id="d2e438" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-03-24" who="#pers_TG" xml:id="d2e424" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi>persName</gi>s without such references based on <gi>person</gi>s in the local authority file. If the source <gi>persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-03-24" who="#pers_TG" xml:id="d5e413" xml:lang="en">Added references to local authority file (<ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</ref>) and to GeoNames IDs to <gi>placeName</gi>s without such references based on  <gi>place</gi>s mentioned in the authority file.</change><change when="2018-10-12" who="#pers_TG" xml:id="d5e401" xml:lang="en">Added references to GeoNames IDs to <gi>placeName</gi>s without such references based on  <gi>place</gi>s mentioned in <ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml">../data/tei/gazetteer_levant-phd.TEIP5.xml</ref> but not previously present in this master file.</change><change when="2018-10-12" who="#pers_TG" xml:id="d2e390" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change>
-         <change when="2018-10-12" who="#pers_TG" xml:id="d4e367" xml:lang="en">Added references to VIAF IDs to <gi change="#d2e390" xml:id="gi_1.d2e199">persName</gi>s without such references based on  <gi change="#d2e390" xml:id="gi_1.d2e202">person</gi>s mentioned in <ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e390" xml:id="ref_1.d2e205">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref> but not previously present in this master file.</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2020-06-29" who="#pers_TG" change="d2e480" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><change when="2020-06-29" who="#pers_TG" xml:id="d3e474" xml:lang="en">Generated a new <tei:gi xml:lang="en">front</tei:gi>based on the <tei:gi xml:lang="en">sourceDesc</tei:gi>that matches the information found in the masthead of the actual issues.</change><change when="2019-08-20" who="#pers_TG" xml:id="d5e463" xml:lang="en">Added references to local authority file (<ref target="../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml" change="#d2e480" xml:lang="en">../data/tei/bibliography_OpenArabicPE-periodicals.TEIP5.xml</ref>) and to OCLC (WorldCat) IDs to <gi change="#d2e480" xml:lang="en">titles</gi>s without such references based on  <gi change="#d2e480" xml:lang="en">biblStruct</gi>s mentioned in the authority file (bibliography).</change><change when="2019-05-22" who="#pers_TG" xml:id="d2e458" change="#d2e480" xml:lang="en">Linked all <tag change="#d2e480" xml:lang="en">pb ed="print"</tag> to the corresponding facsimile</change><change when="2019-05-22" who="#pers_TG" xml:id="d2e454" change="#d2e480" xml:lang="en">Added <gi change="#d2e480" xml:lang="en">graphic</gi> for 40 pages with references to digital images.</change><change when="2019-05-22" who="#pers_TG" xml:id="d2e452" xml:lang="en">Mapped elements from version 1 of the ODD to version 2</change><change when="2019-05-16" who="#pers_TG" xml:id="d2e438" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e480" xml:lang="en">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi change="#d2e480" xml:lang="en">persName</gi>s without such references based on <gi change="#d2e480" xml:lang="en">person</gi>s in the local authority file. If the source <gi change="#d2e480" xml:lang="en">persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-03-24" who="#pers_TG" xml:id="d2e424" xml:lang="en">Added references to local authority file (<ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e480" xml:lang="en">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref>) and VIAF to <gi change="#d2e480" xml:lang="en">persName</gi>s without such references based on <gi change="#d2e480" xml:lang="en">person</gi>s in the local authority file. If the source <gi change="#d2e480" xml:lang="en">persName</gi> did not contain any further TEI mark-up, this has been added from the local authority file.</change><change when="2019-03-24" who="#pers_TG" xml:id="d5e413" xml:lang="en">Added references to local authority file (<ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e480" xml:lang="en">../data/tei/gazetteer_levant-phd.TEIP5.xml</ref>) and to GeoNames IDs to <gi change="#d2e480" xml:lang="en">placeName</gi>s without such references based on  <gi change="#d2e480" xml:lang="en">place</gi>s mentioned in the authority file.</change><change when="2018-10-12" who="#pers_TG" xml:id="d5e401" xml:lang="en">Added references to GeoNames IDs to <gi change="#d2e480" xml:lang="en">placeName</gi>s without such references based on  <gi change="#d2e480" xml:lang="en">place</gi>s mentioned in <ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e480" xml:lang="en">../data/tei/gazetteer_levant-phd.TEIP5.xml</ref> but not previously present in this master file.</change><change when="2018-10-12" who="#pers_TG" xml:id="d2e390" xml:lang="en">Added automated <att xml:lang="en">xml:id</att>s for every element that is a descendant of <gi xml:lang="en">tei:text</gi> and had no existing <att xml:lang="en">xml:id</att> following the pattern "name()_generate-id()".</change>
+         <change when="2018-10-12" who="#pers_TG" xml:id="d4e367" xml:lang="en">Added references to VIAF IDs to <gi change="#d2e390 #d2e480" xml:id="gi_1.d2e199" xml:lang="en">persName</gi>s without such references based on  <gi change="#d2e390 #d2e480" xml:id="gi_1.d2e202" xml:lang="en">person</gi>s mentioned in <ref target="../data/tei/personography_OpenArabicPE.TEIP5.xml" change="#d2e390 #d2e480" xml:id="ref_1.d2e205" xml:lang="en">../data/tei/personography_OpenArabicPE.TEIP5.xml</ref> but not previously present in this master file.</change>
          <change when="2018-09-30" who="#pers_TG" xml:id="d2e356" xml:lang="en">Added automated <att xml:lang="en" change="#d2e390" xml:id="att_1.d2e211">xml:id</att>s for every element that is a descendant of <gi xml:lang="en" change="#d2e390" xml:id="gi_1.d2e214">tei:text</gi> and had no existing <att xml:lang="en" change="#d2e390" xml:id="att_1.d2e217">xml:id</att> following the pattern "name()_generate-id()".</change>
          <change when="2018-05-23" who="#pers_TG" xml:id="d2e346" xml:lang="en">Automatically wrapped all occurrences of "sana" and "ʿām" followed by a <gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e192">num</gi> node in <gi xml:lang="en" change="#d2e356" xml:id="gi_1.d2e195">date</gi>.</change>
-         <change when="2018-05-20" who="#pers_TG" xml:id="d5e335" xml:lang="en">Added references to GeoNames IDs to <gi change="#d2e356" xml:id="gi_1.d2e200">placeName</gi>s without such references based on  <gi change="#d2e356" xml:id="gi_1.d2e203">place</gi>s mentioned in <ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e356" xml:id="ref_1.d2e206">../data/tei/gazetteer_levant-phd.TEIP5.xml</ref> but not previously present in this master file.</change>
-         <change when="2018-04-30" who="#pers_TG" xml:id="d2e323">Added automated page numbers as <att change="#d2e356" xml:id="att_1.d2e211">n</att>s and <att change="#d2e356" xml:id="att_2.d2e214">ed</att>="print" for every<gi change="#d2e356" xml:id="gi_1.d2e217">pb</gi> that was not of <att change="#d2e356" xml:id="att_3.d2e220">ed</att>="shamela".</change>
-         <change when="2018-04-27" who="#pers_TG" change="#d2e356" xml:id="change_3.d2e223">Replaced <gi change="#d2e356" xml:id="gi_2.d2e225">encodingDesc</gi> and <gi change="#d2e356" xml:id="gi_3.d2e228">profileDesc</gi>with XPointers pointing to a master file.</change>
-            <change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433">Corrected 
-                <gi xml:id="gi_8.d1e435">biblStruct</gi>
+         <change when="2018-05-20" who="#pers_TG" xml:id="d5e335" xml:lang="en">Added references to GeoNames IDs to <gi change="#d2e356 #d2e480" xml:id="gi_1.d2e200" xml:lang="en">placeName</gi>s without such references based on  <gi change="#d2e356 #d2e480" xml:id="gi_1.d2e203" xml:lang="en">place</gi>s mentioned in <ref target="../data/tei/gazetteer_levant-phd.TEIP5.xml" change="#d2e356 #d2e480" xml:id="ref_1.d2e206" xml:lang="en">../data/tei/gazetteer_levant-phd.TEIP5.xml</ref> but not previously present in this master file.</change>
+         <change when="2018-04-30" who="#pers_TG" xml:id="d2e323" change="#d2e480" xml:lang="en">Added automated page numbers as <att change="#d2e356 #d2e480" xml:id="att_1.d2e211" xml:lang="en">n</att>s and <att change="#d2e356 #d2e480" xml:id="att_2.d2e214" xml:lang="en">ed</att>="print" for every<gi change="#d2e356 #d2e480" xml:id="gi_1.d2e217" xml:lang="en">pb</gi> that was not of <att change="#d2e356 #d2e480" xml:id="att_3.d2e220" xml:lang="en">ed</att>="shamela".</change>
+         <change when="2018-04-27" who="#pers_TG" change="#d2e356 #d2e480" xml:id="change_3.d2e223" xml:lang="en">Replaced <gi change="#d2e356 #d2e480" xml:id="gi_2.d2e225" xml:lang="en">encodingDesc</gi> and <gi change="#d2e356 #d2e480" xml:id="gi_3.d2e228" xml:lang="en">profileDesc</gi>with XPointers pointing to a master file.</change>
+            <change when="2017-02-23" who="#pers_TG" xml:id="change_1.d1e433" change="#d2e480" xml:lang="en">Corrected 
+                <gi xml:id="gi_8.d1e435" change="#d2e480" xml:lang="en">biblStruct</gi>
                 by moving all 
-                <gi xml:id="gi_8.d1e438">biblScope</gi>
+                <gi xml:id="gi_8.d1e438" change="#d2e480" xml:lang="en">biblScope</gi>
                 from 
-                <gi xml:id="gi_8.d1e441">imprint</gi>
+                <gi xml:id="gi_8.d1e441" change="#d2e480" xml:lang="en">imprint</gi>
                 to 
-                <gi xml:id="gi_8.d1e444">monogr</gi>
+                <gi xml:id="gi_8.d1e444" change="#d2e480" xml:lang="en">monogr</gi>
                 and by converting all 
-                <att xml:id="att_6.d1e447">n</att>
+                <att xml:id="att_6.d1e447" change="#d2e480" xml:lang="en">n</att>
                 to 
-                <att xml:id="att_6.d1e451">from</att>
+                <att xml:id="att_6.d1e451" change="#d2e480" xml:lang="en">from</att>
                 and 
-                <att xml:id="att_6.d1e454">to</att>
+                <att xml:id="att_6.d1e454" change="#d2e480" xml:lang="en">to</att>
                 with identical values.</change>
-            <change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e457">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as 
-                <gi xml:id="gi_8.d1e459">tei:num</gi>
+            <change when="2016-05-23" who="#pers_TG" xml:id="change_1.d1e457" change="#d2e480" xml:lang="en">Added automated mark-up of Arabic numerals from 10 to 90 in increments of 10 as 
+                <gi xml:id="gi_8.d1e459" change="#d2e480" xml:lang="en">tei:num</gi>
                 and 
-                <att xml:id="att_6.d1e462">xml:value</att>
+                <att xml:id="att_6.d1e462" change="#d2e480" xml:lang="en">xml:value</att>
                 recording the normalised value.</change>
-            <change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e465">Added automated 
-                <att xml:id="att_7.d1e467">xml:id</att>
+            <change when="2016-03-11" who="#pers_TG" xml:id="change_2.d1e465" change="#d2e480" xml:lang="en">Added automated 
+                <att xml:id="att_7.d1e467" change="#d2e480" xml:lang="en">xml:id</att>
                 s for every element that is a descendant of 
-                <gi xml:id="gi_9.d1e470">tei:text</gi>
+                <gi xml:id="gi_9.d1e470" change="#d2e480" xml:lang="en">tei:text</gi>
                 and had no existing 
-                <att xml:id="att_8.d1e473">xml:id</att>
+                <att xml:id="att_8.d1e473" change="#d2e480" xml:lang="en">xml:id</att>
                 following the pattern "name()_generate-id()"</change>
-            <change when="2016-03-11" xml:id="change_3.d1e476">Wrapped all numerals in 
-                <gi xml:id="gi_10.d1e478">num</gi>
+            <change when="2016-03-11" xml:id="change_3.d1e476" change="#d2e480" xml:lang="en">Wrapped all numerals in 
+                <gi xml:id="gi_10.d1e478" change="#d2e480" xml:lang="en">num</gi>
                 with 
-                <att xml:id="att_9.d1e481">value</att>
+                <att xml:id="att_9.d1e481" change="#d2e480" xml:lang="en">value</att>
                 recording their value in standardised form and converted them into Arabic numerals to reflect the original text.</change>
-            <change when="2016-02-28" xml:id="change_3.d1e484">Corrected the file's URL and 
-                <att xml:id="att_9.d1e486">xml:id</att>
+            <change when="2016-02-28" xml:id="change_3.d1e484" change="#d2e480" xml:lang="en">Corrected the file's URL and 
+                <att xml:id="att_9.d1e486" change="#d2e480" xml:lang="en">xml:id</att>
                 on 
-                <gi xml:id="gi_10.d1e489">TEI</gi>
+                <gi xml:id="gi_10.d1e489" change="#d2e480" xml:lang="en">TEI</gi>
                 to account for issues missing from the Shamela transcription.</change>
-            <change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e492">Added automated 
-                <att xml:id="att_10.d1e494">xml:id</att>
+            <change when="2016-02-27" who="#pers_TG" xml:id="change_3.d1e492" change="#d2e480" xml:lang="en">Added automated 
+                <att xml:id="att_10.d1e494" change="#d2e480" xml:lang="en">xml:id</att>
                 s for every element that is a descendant of 
-                <gi xml:id="gi_11.d1e497">tei:text</gi>
+                <gi xml:id="gi_11.d1e497" change="#d2e480" xml:lang="en">tei:text</gi>
                 and had no existing 
-                <att xml:id="att_11.d1e500">xml:id</att>
+                <att xml:id="att_11.d1e500" change="#d2e480" xml:lang="en">xml:id</att>
                 following the pattern "name()_generate-id()"</change>
-            <change when="2016-02-27" xml:id="change_4.d1e503">Added the 
-                <att xml:id="att_12.d1e505">xml:lang</att>
+            <change when="2016-02-27" xml:id="change_4.d1e503" change="#d2e480" xml:lang="en">Added the 
+                <att xml:id="att_12.d1e505" change="#d2e480" xml:lang="en">xml:lang</att>
                 attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</change>
             <change when="2016-02-27" who="#pers_TG" xml:id="change_4.d1e509" xml:lang="en">Created this file by splitting 
-                <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:id="ref_4.d1e511" xml:lang="en">the master file</ref>
+                <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/journal_al-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml" xml:id="ref_4.d1e511" xml:lang="en">the master file</ref>
                 into individual files for each issue that are linked to the master file by means of xPointer.</change>
             <change when="2016-02-26" xml:id="change_5.d1e515" xml:lang="en">Divided the 
                 <gi xml:id="gi_12.d1e517" xml:lang="en">body</gi>
@@ -163,62 +163,12 @@
             <change when="2016-02-26" who="#pers_TG" xml:id="change_7.d1e550" xml:lang="en">Created this TEI P5 file by automatic
                 conversion from ePub.</change>
         </revisionDesc>
-    </teiHeader><facsimile xml:id="facs"><surface xml:id="facs_1"><graphic xml:id="facs_1-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_001.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_2"><graphic xml:id="facs_2-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_002.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_3"><graphic xml:id="facs_3-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_003.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_4"><graphic xml:id="facs_4-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_004.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_5"><graphic xml:id="facs_5-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_005.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_6"><graphic xml:id="facs_6-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_006.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_7"><graphic xml:id="facs_7-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_007.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_8"><graphic xml:id="facs_8-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_008.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_9"><graphic xml:id="facs_9-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_009.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_10"><graphic xml:id="facs_10-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_010.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_11"><graphic xml:id="facs_11-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_011.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_12"><graphic xml:id="facs_12-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_012.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_13"><graphic xml:id="facs_13-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_013.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_14"><graphic xml:id="facs_14-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_014.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_15"><graphic xml:id="facs_15-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_015.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_16"><graphic xml:id="facs_16-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_016.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_17"><graphic xml:id="facs_17-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_017.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_18"><graphic xml:id="facs_18-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_018.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_19"><graphic xml:id="facs_19-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_019.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_20"><graphic xml:id="facs_20-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_020.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_21"><graphic xml:id="facs_21-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_021.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_22"><graphic xml:id="facs_22-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_022.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_23"><graphic xml:id="facs_23-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_023.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_24"><graphic xml:id="facs_24-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_024.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_25"><graphic xml:id="facs_25-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_025.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_26"><graphic xml:id="facs_26-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_026.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_27"><graphic xml:id="facs_27-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_027.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_28"><graphic xml:id="facs_28-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_028.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_29"><graphic xml:id="facs_29-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_029.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_30"><graphic xml:id="facs_30-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_030.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_31"><graphic xml:id="facs_31-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_031.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_32"><graphic xml:id="facs_32-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_032.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_33"><graphic xml:id="facs_33-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_033.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_34"><graphic xml:id="facs_34-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_034.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_35"><graphic xml:id="facs_35-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_035.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_36"><graphic xml:id="facs_36-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_036.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_37"><graphic xml:id="facs_37-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_037.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_38"><graphic xml:id="facs_38-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_038.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_39"><graphic xml:id="facs_39-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_039.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_40"><graphic xml:id="facs_40-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_040.tif" mimeType="image/tiff"/></surface></facsimile><text n="i_23" type="issue" xml:id="text" xml:lang="ar">
-        <front xml:id="front_1.d1e465" xml:lang="ar">
-            <div xml:id="div_1.d1e467" xml:lang="ar">
-                <biblStruct xml:id="biblStruct_2.d1e469" xml:lang="ar">
-                    <monogr xml:id="monogr_2.d1e471" xml:lang="ar">
-                        <title level="j" xml:id="title_8.d1e473" xml:lang="ar" change="#d5e463" ref="oape:bibl:13 oclc:644997575">الحقائق</title>
-                        <editor ref="viaf:4795364" xml:id="editor_2.d1e476" xml:lang="ar">
-                            <persName xml:id="persName_7.d1e478" xml:lang="ar" ref="oape:pers:270 viaf:4795364" change="#d4e367 #d2e424">
-                        <forename xml:lang="ar" change="#d2e390" xml:id="forename_5.d2e412">عبد القادر</forename>
-                        <surname xml:lang="ar" change="#d2e390" xml:id="surname_5.d2e415">الإسكندراني</surname>
-                     </persName>
-                            <persName xml:id="persName_8.d1e481" xml:lang="ar-Latn-x-ijmes" ref="oape:pers:270 viaf:4795364" change="#d4e367 #d2e424">
-                                <forename xml:id="forename_2.d1e483" xml:lang="ar-Latn-x-ijmes">ʿAbd al-Qādir</forename>
-                                <surname xml:id="surname_2.d1e486" xml:lang="ar-Latn-x-ijmes">al-Iskandarānī</surname>
-                            </persName>
-                        </editor>
-                        <imprint xml:id="imprint_2.d1e491" xml:lang="ar">
-                            <pubPlace xml:id="pubPlace_3.d1e493" xml:lang="en">
-                                <placeName xml:id="placeName_3.d1e495" xml:lang="ar" ref="oape:place:61 geon:170654" change="#d5e335 #d5e413">دمشق</placeName>
-                                <placeName xml:id="placeName_4.d1e498" xml:lang="en" ref="oape:place:61 geon:170654" change="#d5e335 #d5e413">Damascus</placeName>
-                            </pubPlace>
-                            <date when="1912-12-10" xml:id="date_11.d1e502" xml:lang="ar">بتاريخ:  
-                                <num value="10" xml:id="num_1.d1e544" xml:lang="ar">١٠</num>
-                                -  
-                                <num value="12" xml:id="num_1.d1e547" xml:lang="ar">١٢</num>
-                                -  
-                                <num value="1912" xml:id="num_1.d1e550" xml:lang="ar">١٩١٢</num>
-                     </date>
-                        </imprint>
-                        <biblScope from="23" to="23" unit="issue" xml:id="biblScope_1.d1e505" xml:lang="ar">العدد  
-                            <num value="23" xml:id="num_1.d1e556" xml:lang="ar">٢٣</num>
-                  </biblScope>
-                        <biblScope from="x" to="y" unit="page" xml:id="biblScope_2.d1e508"/>
-                    </monogr>
-                </biblStruct>
-            </div>
-        </front>
+    </teiHeader><facsimile xml:id="facs"><surface xml:id="facs_1"><graphic xml:id="facs_1-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_001.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_2"><graphic xml:id="facs_2-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_002.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_3"><graphic xml:id="facs_3-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_003.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_4"><graphic xml:id="facs_4-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_004.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_5"><graphic xml:id="facs_5-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_005.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_6"><graphic xml:id="facs_6-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_006.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_7"><graphic xml:id="facs_7-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_007.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_8"><graphic xml:id="facs_8-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_008.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_9"><graphic xml:id="facs_9-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_009.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_10"><graphic xml:id="facs_10-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_010.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_11"><graphic xml:id="facs_11-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_011.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_12"><graphic xml:id="facs_12-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_012.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_13"><graphic xml:id="facs_13-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_013.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_14"><graphic xml:id="facs_14-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_014.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_15"><graphic xml:id="facs_15-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_015.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_16"><graphic xml:id="facs_16-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_016.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_17"><graphic xml:id="facs_17-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_017.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_18"><graphic xml:id="facs_18-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_018.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_19"><graphic xml:id="facs_19-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_019.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_20"><graphic xml:id="facs_20-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_020.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_21"><graphic xml:id="facs_21-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_021.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_22"><graphic xml:id="facs_22-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_022.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_23"><graphic xml:id="facs_23-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_023.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_24"><graphic xml:id="facs_24-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_024.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_25"><graphic xml:id="facs_25-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_025.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_26"><graphic xml:id="facs_26-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_026.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_27"><graphic xml:id="facs_27-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_027.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_28"><graphic xml:id="facs_28-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_028.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_29"><graphic xml:id="facs_29-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_029.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_30"><graphic xml:id="facs_30-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_030.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_31"><graphic xml:id="facs_31-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_031.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_32"><graphic xml:id="facs_32-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_032.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_33"><graphic xml:id="facs_33-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_033.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_34"><graphic xml:id="facs_34-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_034.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_35"><graphic xml:id="facs_35-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_035.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_36"><graphic xml:id="facs_36-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_036.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_37"><graphic xml:id="facs_37-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_037.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_38"><graphic xml:id="facs_38-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_038.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_39"><graphic xml:id="facs_39-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_039.tif" mimeType="image/tiff"/></surface><surface xml:id="facs_40"><graphic xml:id="facs_40-g_1" url="../images/oclc_644997575-v_3/oib/oclc_644997575-v_3-img_040.tif" mimeType="image/tiff"/></surface></facsimile><text n="i_23" type="issue" xml:id="text" xml:lang="ar"><pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="1" xml:id="pb_1.d2e447" edRef="#edition_1" facs="#facs_1"/>
+        <front xml:id="front_1.d1e465" xml:lang="ar" change="#d3e474"><tei:div change="#d3e474 #d2e480" type="masthead" xml:lang="ar"><tei:bibl change="#d2e480" xml:lang="ar"><tei:biblScope unit="issue" from="1" to="1" change="#d2e480" xml:lang="ar">الجزء 1</tei:biblScope><tei:biblScope unit="volume" from="3" to="3" change="#d2e480" xml:lang="ar">المجلد 3</tei:biblScope><lb/><title level="j" xml:lang="ar" change="#d2e356">الحقائق</title><lb/><placeName xml:lang="ar" ref="oape:place:61 geon:170654" change="#d5e335 #d2e356 #d5e413" xml:id="placeName_1.d2e164">دمشق</placeName> في <tei:date calendar="#cal_islamic" xml:lang="ar" when="1912-12-11" when-custom="1331-01-01" datingMethod="#cal_islamic">١ محرم سنة ١٣٣١</tei:date></tei:bibl></tei:div></front>
+        <pb corresp="file:../epub/29676/OEBPS/xhtml/P719.xhtml" ed="shamela" n="n23-p1" xml:id="pb_1.d1e529"/>
         <body xml:id="body_1.d1e515" xml:lang="ar">
-            <head xml:id="head_1.d1e517" xml:lang="ar">
-                <bibl xml:id="bibl_1.d1e519" xml:lang="ar">
-                    <biblScope from="23" to="23" unit="issue" xml:id="biblScope_3.d1e521" xml:lang="ar">العدد  
-                        <num value="23" xml:id="num_1.d1e575" xml:lang="ar">٢٣</num>
-               </biblScope>
-                    <date when="1912-12-10" xml:id="date_12.d1e524" xml:lang="ar">بتاريخ:  
-                        <num value="10" xml:id="num_1.d1e581" xml:lang="ar">١٠</num>
-                        -  
-                        <num value="12" xml:id="num_1.d1e584" xml:lang="ar">١٢</num>
-                        -  
-                        <num value="1912" xml:id="num_1.d1e587" xml:lang="ar">١٩١٢</num>
-               </date>
-                </bibl>
-            </head>
-            <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="1" xml:id="pb_1.d2e447" edRef="#edition_1" facs="#facs_1"/>
-            <pb corresp="file:../epub/29676/OEBPS/xhtml/P719.xhtml" ed="shamela" n="n23-p1" xml:id="pb_1.d1e529"/>
-            <p xml:id="p_15.d1e531" xml:lang="ar">بسم الله الرحمن الرحيم</p>
             <div type="item" xml:id="div_2.d1e534" xml:lang="ar" subtype="article" change="#d2e452">
+              <salute xml:id="p_15.d1e531" xml:lang="ar">بسم الله الرحمن الرحيم</salute>
                 <head xml:id="head_2.d1e536" xml:lang="ar">فاتحة السنة الثالثة</head>
                 <p xml:id="p_16.d1e539" xml:lang="ar">سبحانك اللهم لا نحصي ثناءً عليك. أنت كما أثنيت على نفسك وفقتنا لخدمة ديبنك فارزقنا الثبات. وهديتنا سبيل الخير فأخلص منا النيات. وألهتنما القيام بهذا العمل فخذ بيدنا إلى الصواب واجعلنا هاديين مهديين. غير ضالين ولا مضلين. وصل وسلم على سيدنا محمد سيد رسلك. وخيرتك من خلقك وعلى آله وصحبه وعترته وحزبه. وبعد فهذه مجلتنا الحقائق على رأس عامه الثالث وقد مر عليها حولان كاملان وهي قائمة برد الشبه عن الدين. ونشر الأخلاق الفاضلة بين المسلمين شعارها الصدق. ودثارها الحق. وهي للمسلمين عامة لا علاقة لها بالأحزاب السشياسية ولاغرض لها إلا 
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="2" xml:id="pb_3.d2e461" edRef="#edition_1" facs="#facs_2"/>
@@ -361,9 +311,9 @@
                         والعربية واليونانية والسريانية والعبرانية والرومية والقبطية والبربرية
                         والأندلسية والهندية والصينية وقد انقرض بعض هذه اللغات بانقراض من يتكلم
                         بها.</p>
-                <p xml:id="p_37.d1e639" xml:lang="ar">أول من خط بالعربي مر أمر ابن مرة وكان يسكن الأنبار ومن الأنبار انتشرت الكتابة في العرب والذي نقل الكتابة من الأنبار إلى <placeName>الحجاز</placeName> حرب بن أمية جد الملوك الأموية إلا ن الخط العربي لأول الإسلام كان غير بالغ إلى الغاية من الأحكام والاتقان والإجادة ولا إلى التوسط 
+                <p xml:id="p_37.d1e639" xml:lang="ar">أول من خط بالعربي مر أمر ابن مرة وكان يسكن الأنبار ومن الأنبار انتشرت الكتابة في العرب والذي نقل الكتابة من الأنبار إلى <placeName change="#d2e480" xml:lang="ar">الحجاز</placeName> حرب بن أمية جد الملوك الأموية إلا ن الخط العربي لأول الإسلام كان غير بالغ إلى الغاية من الأحكام والاتقان والإجادة ولا إلى التوسط 
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="9" xml:id="pb_15.d2e609" edRef="#edition_1" facs="#facs_9"/>
-                    لمكان العرب من البداوة وبعدهم عن الصنائع قال ابن خلدون واعلم أن الخط ليس بكمال في حقهم إذ الخط من جملة الصنائع المدنية المعاشية والكمال في الصنايع إضافي وليس بكمال مطلق إذ لا يعود نقصه على الذات في الدين ولا في الخلال وإنما يعود على أسباب المعاش وبحسب العمران والتعاون عليه لأجل دلالته على مافي النفوس إلى أن قال ثم لما جاء الملك للعرب وفتحوا الأمصار وملوا الممالك ونزلوا <placeName>البصرة</placeName> والكوفة واحتاجت الدولة إلى الكتابة استعملوا الخط وطلبوا صناعته وتعلمه وتداولوه فترقت الإجادة فيه واستحكم وبلغ في الكوفة و<placeName>البصرة</placeName> رتبة من الإتقان.</p>
+                    لمكان العرب من البداوة وبعدهم عن الصنائع قال ابن خلدون واعلم أن الخط ليس بكمال في حقهم إذ الخط من جملة الصنائع المدنية المعاشية والكمال في الصنايع إضافي وليس بكمال مطلق إذ لا يعود نقصه على الذات في الدين ولا في الخلال وإنما يعود على أسباب المعاش وبحسب العمران والتعاون عليه لأجل دلالته على مافي النفوس إلى أن قال ثم لما جاء الملك للعرب وفتحوا الأمصار وملوا الممالك ونزلوا <placeName change="#d2e480" xml:lang="ar">البصرة</placeName> والكوفة واحتاجت الدولة إلى الكتابة استعملوا الخط وطلبوا صناعته وتعلمه وتداولوه فترقت الإجادة فيه واستحكم وبلغ في الكوفة و<placeName change="#d2e480" xml:lang="ar">البصرة</placeName> رتبة من الإتقان.</p>
                 <p xml:id="p_38.d1e643" xml:lang="ar">وذكر المؤرخون أن تحسين الخط العربي في الإسلام كان في زمن بني أمية وكان أول
                             
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P725.xhtml" ed="shamela" n="n23-p7" xml:id="pb_7.d1e645"/>
@@ -407,17 +357,17 @@
             </div>
             <div type="item" xml:id="div_5.d1e679" xml:lang="ar" subtype="article" change="#d2e452">
                 <head xml:id="head_5.d1e681" xml:lang="ar">دليل نبوة سيدنا محمد صلى الله عليه وسلم</head>
-               <note type="bibliographic" place="inline"><bibl change="#d2e356" xml:id="bibl_2.d2e677">من مقال للكاتب الشهير <author change="#d2e356" xml:id="author_2.d2e679">
-                                    <persName change="#d2e356 #d2e438" xml:id="persName_10.d2e680" ref="oape:pers:980">محمد فريد 
-                                           <roleName type="title">بك</roleName>
+               <note type="bibliographic" place="inline" change="#d2e480" xml:lang="ar"><bibl change="#d2e356 #d2e480" xml:id="bibl_2.d2e677" xml:lang="ar">من مقال للكاتب الشهير <author change="#d2e356 #d2e480" xml:id="author_2.d2e679" xml:lang="ar">
+                                    <persName change="#d2e356 #d2e438 #d2e480" xml:id="persName_10.d2e680" ref="oape:pers:980" xml:lang="ar">محمد فريد 
+                                           <roleName type="title" change="#d2e480" xml:lang="ar">بك</roleName>
                                            وجدي</persName>
                                  </author>
                               </bibl></note>
-                <p xml:id="p_45.d1e690" xml:lang="ar">قال <persName change="#d2e356 #d4e367 #d2e424" xml:id="persName_11.d2e685" ref="oape:pers:871 viaf:39390702">
+                <p xml:id="p_45.d1e690" xml:lang="ar">قال <persName change="#d2e356 #d4e367 #d2e424 #d2e480" xml:id="persName_11.d2e685" ref="oape:pers:871 viaf:39390702" xml:lang="ar">
                   <surname change="#d2e19579 #d2e23203 #d2e390" xml:lang="en-Arab-AR" xml:id="surname_7.d2e740">كارلايل</surname>
                </persName> الفيلسوف الإنكليزي الشهير الذي يعد أكبر الإنكليز بعد <persName ref="oape:pers:760 viaf:96994048" xml:id="persName_9.d1e858" xml:lang="en-Arab-AR" change="#d2e424"> 
-                  <surname xml:id="surname_5.d1e859">شكسبير</surname>
-               </persName>(توفي <date change="#d2e346 #d2e356" type="auto-markup" when="1881" xml:id="date_4.d2e693">سنة <num value="1881" xml:id="num_1.d1e759" xml:lang="ar">١٨٨١</num>
+                  <surname xml:id="surname_5.d1e859" change="#d2e480" xml:lang="en-Arab-AR">شكسبير</surname>
+               </persName>(توفي <date change="#d2e346 #d2e356 #d2e480" type="auto-markup" when="1881" xml:id="date_4.d2e693" xml:lang="ar">سنة <num value="1881" xml:id="num_1.d1e759" xml:lang="ar">١٨٨١</num>
                </date> ) م قال في إقامة الدليل على نبوة محمد صلى الله عليه وسلم في كتابه الأبطال وديانة الأبطال ما معناه:</p>
                 <p xml:id="p_46.d1e693" xml:lang="ar">(لو جاءك رجل فادعى لك أنه بناءً فماذا تطلب من الأدلة على زعمه ذلك أكثر من أن بيني ذلك بيتاً مشيد الدعائم ثابت الأركان. ثم ماذا كنت قائلاً لو بني ذلك البيت من السعة بحيث يسع نحو 
                     <num resp="#pers_TG" subtype="d3" type="auto-markup" value="100" xml:id="num_17.d1e868" xml:lang="ar">مائة</num>
@@ -440,7 +390,7 @@
                         هو ومن تبعه نحواً من 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_23.d1e891" xml:lang="ar">ثلاثة</num>
                     <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_24.d1e894" xml:lang="ar">عشرة</num>
-                    سنة ب<placeName>مكة</placeName> ثم هاجر إلى المدينة وهناك وجد
+                    سنة ب<placeName change="#d2e480" xml:lang="ar">مكة</placeName> ثم هاجر إلى المدينة وهناك وجد
                         أنصاراً قاتل بهم من قاتلهم حتى خضد شوكتهم وثلم حدهم وانتهى الأمر بجزيرة
                         العرب كلها إلى الإسلام.</p>
                 <p xml:id="p_48.d1e700" xml:lang="ar">وكل الناس يعلمون أنه كان وهو صاحب الكلمة العليا ومالك ناصية الأمة بحذافيرها الزهد والعبودية والبعد عن حطام الدنيا كما كان أيام كانوا يرمونه بالحجارة ويستهزؤن به في النوادي. وكل الناس يعلمون أنه لما اشتد أذى الكافرين وثقلت وطأتهم على المؤمنين حتى 
@@ -501,7 +451,7 @@
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="19" xml:id="pb_32.d2e789" edRef="#edition_1" facs="#facs_19"/>
                     كل هذا التدليس فمن 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P732.xhtml" ed="shamela" n="n23-p14" xml:id="pb_14.d1e727"/>
-                    الفروض الساذجة فإن التاريخ دلنا على أن رسول الله صلى الله عليه وسلم لبث بين ظهراني <placeName>مكة</placeName> نحواً من 
+                    الفروض الساذجة فإن التاريخ دلنا على أن رسول الله صلى الله عليه وسلم لبث بين ظهراني <placeName change="#d2e480" xml:lang="ar">مكة</placeName> نحواً من 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="3" xml:id="num_32.d1e949" xml:lang="ar">ثلاث</num>
                     <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_33.d1e952" xml:lang="ar">عشرة</num>
                     سنة وهو يدعوهم إلى الله فلم يقبل الدعوة منهم إلا نفل قليلون وكان الباقون من تسلط الشك عليه بحيث يقولون كما حكى الله عنهم (وقالوا لن نؤمن لك حتى تفجر لنا من الأرض ينبوعاً أو تكون لك جنة من نخيل وعنب فتفجر الأنهار خلالها تفجيرا) إلى قوله عز اسمه (أو ترقى في السماء ولن نؤمن لرقيك حتى تنزل علينا كتاباً نقرؤه) الآية، وقد كانوا من شدة الشكيمة والبعد عن العقيدة وتمكن الشك من قلوبهم بحيث قال الله عنهم (ولو فتحنا عليهم باباً من السماء فظلوا فيه يعرجون لقالوا إنما سكرت أبصارنا بل نحن قوم مسحورون).</p>
@@ -516,7 +466,7 @@
                         العالمين وإمام الأنبياء الصالحين وخاتم رسل الله المخلصين وأنه أرسل رحمة
                         للعالمين، بكتاب من عند الله مبين سيكون كتاب الناس أجمعين ولتعلمن نبأه بعد
                         حين.</p>
-            <byline change="#d2e356" xml:id="byline_1.d2e806">(<persName change="#d2e356 #d4e367 #d2e424" xml:id="persName_13.d2e808" ref="oape:pers:980 viaf:53094077">
+            <byline change="#d2e356 #d2e480" xml:id="byline_1.d2e806" xml:lang="ar">(<persName change="#d2e356 #d4e367 #d2e424 #d2e480" xml:id="persName_13.d2e808" ref="oape:pers:980 viaf:53094077" xml:lang="ar">
                   <forename xml:lang="ar" change="#d2e390" xml:id="forename_7.d2e869">فريد</forename>
                   <surname xml:lang="ar" change="#d2e390" xml:id="surname_9.d2e872">وجدي</surname>
                </persName>)</byline>
@@ -525,8 +475,8 @@
          <pb corresp="file:../epub/29676/OEBPS/xhtml/P733.xhtml" ed="shamela" n="n23-p15" xml:id="pb_15.d1e738"/>
             <div type="item" xml:id="div_6.d1e742" xml:lang="ar" subtype="article" change="#d2e452">
                 <head xml:id="head_6.d1e744" xml:lang="ar">حكم أخلاقية</head>
-            <byline change="#d2e356" xml:id="byline_2.d2e820">جاءنا من حضرة العالم الفاضل التقي الشيخ <persName change="#d2e356 #d2e438" xml:id="persName_14.d2e822" ref="oape:pers:3731">عارف 
-                            <roleName type="title">أفندي</roleName>
+            <byline change="#d2e356 #d2e480" xml:id="byline_2.d2e820" xml:lang="ar">جاءنا من حضرة العالم الفاضل التقي الشيخ <persName change="#d2e356 #d2e438 #d2e480" xml:id="persName_14.d2e822" ref="oape:pers:3731" xml:lang="ar">عارف 
+                            <roleName type="title" change="#d2e480" xml:lang="ar">أفندي</roleName>
                             المحملجي</persName> قصيدة أخلاقية غراء نقتطف منها ما يأتي، قال في مطلعها:</byline>
                 <lg xml:id="lg_3.d1e750" xml:lang="ar">
                     <l type="bayt" xml:id="l_3.d1e752" xml:lang="ar">
@@ -727,8 +677,8 @@
                     </l>
                 </lg>
                 <p xml:id="p_68.d1e1129" xml:lang="ar">على أن المسئلة لو لم يكن فيها نص كان العقل يقضي علينا باتباع عادة قومنا وبلادنا والمحافظة على أزيائنا إذ لا يخفي ما في ذلك من تقوية الرابطة القومية. هؤلاء الغربيون يأتون بلادنا ويقيمون فيها محافظين على ملابسهم وأخلاقهم وعاداتهم وكنا نستبشع ملابسهم ولم يزل البعض منا يكره ذك منهم وهم لا يغيرون عادة بلادهم وقومهم وإن كانت مستقبحة في حد ذاتها وبالعكس بعض شبابنا أليس هذا شيء عجيب؟ وحيث ثبت أن العمامة سنة <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="25" xml:id="pb_42.d2e1217" edRef="#edition_1" facs="#facs_25"/> من سنن الإسلام فتركها مكروه ونسئل الله أن يلهمنا رشدنا وأن يوفقنا لاتباع أوامره <pb corresp="file:../epub/29676/OEBPS/xhtml/P737.xhtml" ed="shamela" n="n23-p19" xml:id="pb_18.d1e1131"/> والمحافظة على التمسك بحبل شريعته والحمد لله رب العالمين. </p>
-            <byline change="#d2e356" xml:id="byline_3.d2e1222">
-               <persName change="#d2e356 #d2e424" xml:id="persName_15.d2e1223" ref="oape:pers:416">
+            <byline change="#d2e356 #d2e480" xml:id="byline_3.d2e1222" xml:lang="ar">
+               <persName change="#d2e356 #d2e424 #d2e480" xml:id="persName_15.d2e1223" ref="oape:pers:416" xml:lang="ar">
                             <forename xml:lang="ar">صلاح الدين</forename>
                             <surname xml:lang="ar">الزعيم</surname>
                         </persName>
@@ -816,7 +766,7 @@
             <div type="item" xml:id="div_9.d1e1221" xml:lang="ar" subtype="article" change="#d2e452">
                 <head xml:id="head_9.d1e1223" xml:lang="ar">خواطر</head>
                 <p xml:id="p_92.d1e1226" xml:lang="ar">
-               <bibl change="#d2e356" xml:id="bibl_3.d2e1325">قرأنا في مجلة <title level="j">العثماني</title> الغراء القصيدة الفريدةو فاقتطفنا منها ما يأتي حباً بالنفع والفائدة.</bibl>
+               <bibl change="#d2e356 #d2e480" xml:id="bibl_3.d2e1325" xml:lang="ar">قرأنا في مجلة <title level="j" change="#d2e480" xml:lang="ar">العثماني</title> الغراء القصيدة الفريدةو فاقتطفنا منها ما يأتي حباً بالنفع والفائدة.</bibl>
             </p>
                 <p xml:id="p_93.d1e1229" xml:lang="ar">قال:</p>
                 <lg xml:id="lg_6.d1e1232" xml:lang="ar">
@@ -988,23 +938,23 @@
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P744.xhtml" ed="shamela" n="n23-p26" xml:id="pb_24.d1e1563"/>
                     شرط أن لا يخل ذلك بمصالحهن هناك. فإلى متى هذا الاغترار بأوروبا؟ ومتى ينتهي هذا الغرور برجالها؟ ألم يكفكم أيها الأقوام أنكم انسلختم عن عاداتكم، وهجرتم ما كان عليه أباؤكم، وتطرفتم إلى الآداب الدينية فحاربتموها، وإلى العوائد الإسلامية فقاومتموها، وزعمتم أن أوروبا ملقنة 
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="33" xml:id="pb_57.d2e1677" edRef="#edition_1" facs="#facs_33"/>
-                    الخلق معنى الإخاء والحرية والمساواة ليعاشروا بالمعروف ويقوم نظام اجتماعهم على تبادل المنافع حتى لا يبقى تمييز في الحقوق والواجبات بين المختلفين في المواليد والديانات لم يكفكم ذلك كله لم يكفكم تربعكم في المناصب وتهافتكم على الوظائف وإسرافكم في الملذات، وتبذخكم في الشهوات، ومحاربتكم المنافع العامة في سبيل منافعكم الخاصة حتى صبغتم أنفسكم وأولادكم بصبغة أفرنجية ثم أتيتم إلى الناس تسقونهم من خمر تلك المدنية الغريبة، وتكرهونهم على أن يربوا أولادهم بتربيتهم، ويأخذونهم بعوائدهم، ويعلمونهم علومهم ولغاتهم حتى ينشئوا وقد تمكنت من قلوبهم وأخلاقهم وأميالهم وأضحوا يظاهرونهم لاتحادهم معهم لغة وعادات وأفكار. إلى متى أيها الأقوام تثقون بأوروبا وتحمدونها وتزعمون أن رجالها هم محبو السلم، وناشروا لوائه وهم أرباب الأخلاق والغيرة ومثال الصدق والعفة. غركم منهم أنهم يجهرون بحب الإنسانية وخدمتها. أنسيتم أساطيلهم؟ أجهلتم مدافعهم؟ أغفلتم عن إعدادهم المعدات الحربية والطيارات الجوية؟ أحسبتم أن ذلك كائن للحيوانات العجم؟ أم للأحجار الصم؟ كلا والله ثم كلا لم يكن ذلك إلا لقتل الإنسانية ونحرها وصب البلاء والويلات عليها. ويل لكم أتصدقون رجال أوروبا بأنهم نصراء الإنسانية المظلومة إذاً فلم تقتل الأطفال الرضّع والشيوخ الركع والنساء العجز في <placeName>طرابلس الغرب</placeName> وأوروبا واقفة لا تتحرك، أتصدقون بأن رجال أوروبا يرفقون بالبائسين والمساكين إذاً فلم تذبح المسلمون في مراكش ويهان الأشراف والعلماء في تونس وتسجن الأبرياء في مصر وأوروبا صامتة لا تتكلم. أتصدقون بأن رجال أوروبا يعطفون على الضعفاء والعاجزين ويأخذون بيد العاثرين إذاً فلماذا تقف دوارعهم في جزيرة كريد لتحرس 
+                    الخلق معنى الإخاء والحرية والمساواة ليعاشروا بالمعروف ويقوم نظام اجتماعهم على تبادل المنافع حتى لا يبقى تمييز في الحقوق والواجبات بين المختلفين في المواليد والديانات لم يكفكم ذلك كله لم يكفكم تربعكم في المناصب وتهافتكم على الوظائف وإسرافكم في الملذات، وتبذخكم في الشهوات، ومحاربتكم المنافع العامة في سبيل منافعكم الخاصة حتى صبغتم أنفسكم وأولادكم بصبغة أفرنجية ثم أتيتم إلى الناس تسقونهم من خمر تلك المدنية الغريبة، وتكرهونهم على أن يربوا أولادهم بتربيتهم، ويأخذونهم بعوائدهم، ويعلمونهم علومهم ولغاتهم حتى ينشئوا وقد تمكنت من قلوبهم وأخلاقهم وأميالهم وأضحوا يظاهرونهم لاتحادهم معهم لغة وعادات وأفكار. إلى متى أيها الأقوام تثقون بأوروبا وتحمدونها وتزعمون أن رجالها هم محبو السلم، وناشروا لوائه وهم أرباب الأخلاق والغيرة ومثال الصدق والعفة. غركم منهم أنهم يجهرون بحب الإنسانية وخدمتها. أنسيتم أساطيلهم؟ أجهلتم مدافعهم؟ أغفلتم عن إعدادهم المعدات الحربية والطيارات الجوية؟ أحسبتم أن ذلك كائن للحيوانات العجم؟ أم للأحجار الصم؟ كلا والله ثم كلا لم يكن ذلك إلا لقتل الإنسانية ونحرها وصب البلاء والويلات عليها. ويل لكم أتصدقون رجال أوروبا بأنهم نصراء الإنسانية المظلومة إذاً فلم تقتل الأطفال الرضّع والشيوخ الركع والنساء العجز في <placeName change="#d2e480" xml:lang="ar">طرابلس الغرب</placeName> وأوروبا واقفة لا تتحرك، أتصدقون بأن رجال أوروبا يرفقون بالبائسين والمساكين إذاً فلم تذبح المسلمون في مراكش ويهان الأشراف والعلماء في تونس وتسجن الأبرياء في مصر وأوروبا صامتة لا تتكلم. أتصدقون بأن رجال أوروبا يعطفون على الضعفاء والعاجزين ويأخذون بيد العاثرين إذاً فلماذا تقف دوارعهم في جزيرة كريد لتحرس 
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="34" xml:id="pb_58.d2e1679" edRef="#edition_1" facs="#facs_34"/>
                     أبناءها وتحفظ رجالها ومسيحيو الكريديين يذبحون المسلمين في عقر دورهم وفي وسط بيوتهم وفي رواجهم وغدوهم وهم ينظرون إليهم ويتغاضون عن أعمالهم أتصدقون بأن رجال أوروبا أهل وفاء وصدق إذاً لماذا نقضوا أكثر المعاهدات التي جرت بينهم وبين حكومتنا العلية. هذه معاهدة باريز التي عقدت في 
                     <num value="30" xml:id="num_1.d1e1635" xml:lang="ar">٣٠</num>
-                    مارس <date when="1856" type="auto-markup" change="#d2e346 #d2e356" xml:id="date_4.d2e1685">سنة <num value="1856" xml:id="num_1.d1e1638" xml:lang="ar">١٨٥٦</num>
+                    مارس <date when="1856" type="auto-markup" change="#d2e346 #d2e356 #d2e480" xml:id="date_4.d2e1685" xml:lang="ar">سنة <num value="1856" xml:id="num_1.d1e1638" xml:lang="ar">١٨٥٦</num>
                </date>
                     بعد أن وقع عليها 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P745.xhtml" ed="shamela" n="n23-p27" xml:id="pb_25.d1e1565"/>
                     من طرف فرنسا وانكلترا وسردينيا وألمانيا والروسيا وأصبحت حبراً على ورق. فقد جاء في المادة الأولى منها ما نصه:</p>
                 <p xml:id="p_104.d1e1568" xml:lang="ar">في يوم تاريخ الإمضاء بقبول هذه المعاهدة الحاضرة يكون صلح ومودة بين كل من
                         إمبراطور الفرنسيس وملكة المملكة المتحدة في بريطانيا الكبرى وأرلاندا وملك
-                        سردينيا وسلطان <placeName>الدولة العثمانية</placeName> من جهة ومن إمبراطور جميع الروسيا من جهة أخرى
+                        سردينيا وسلطان <placeName change="#d2e480" xml:lang="ar">الدولة العثمانية</placeName> من جهة ومن إمبراطور جميع الروسيا من جهة أخرى
                         وكذا بين ورثتهم وخلفائهم ودولهم ورعاياهم على الدوام.</p>
                 <p xml:id="p_105.d1e1571" xml:lang="ar">وفي المادة الثالثة ما نصه:</p>
-                <p xml:id="p_106.d1e1574" xml:lang="ar">قد تعهد إمبراطور جميع الروسيا بأن يرد لسلطان <placeName>الدولة العثمانية</placeName> مدينة قارص
+                <p xml:id="p_106.d1e1574" xml:lang="ar">قد تعهد إمبراطور جميع الروسيا بأن يرد لسلطان <placeName change="#d2e480" xml:lang="ar">الدولة العثمانية</placeName> مدينة قارص
                         وقلعتها وكذا سائر المواضع التي استولت عليها عساكر الروسيا وهي من ملحقات بلاد
-                        <placeName>الدولة العثمانية</placeName>.</p>
+                        <placeName change="#d2e480" xml:lang="ar">الدولة العثمانية</placeName>.</p>
                 <p xml:id="p_107.d1e1577" xml:lang="ar">وفي المادة السابعة ما نصه:</p>
                 <p xml:id="p_108.d1e1580" xml:lang="ar">قد صدر إعلان وتصريح من لدن إمبراطور الفرنسينس وإمبراطور أوستريا وملكة بريطانيا العظمة وأرلاندا وملك بروسيا وإمبراطور الروسيا وملك سردينيا بأن للباب العالي اشتراكاً في فوائد الحقوق الأوروباوية العامة وغي منافع اتفاق أوروبا وقد تعهدوا بأن يحترموا استقلال السلطنة التركية وإبقاها تامة وتكفلوا جميعاً بالمحافظة على هذا التعهد وكل أمر يفضي 
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="35" xml:id="pb_60.d2e1707" edRef="#edition_1" facs="#facs_35"/>
@@ -1017,7 +967,7 @@
                         والجبر بقيمان الدول الأخرى الداخلة في المعاهدة وسطاء بينهما منعاً لما يتأتى
                         على ذلك الخلاف من الضرر.</p>
                 <p xml:id="p_111.d1e1590" xml:lang="ar">وفي المادة التاسعة ما نصه:</p>
-                <p xml:id="p_112.d1e1593" xml:lang="ar">سلطان <placeName>الدولة العثمانية</placeName> بخير رعاياه جميعاً قد تفضل بإصدار منشور غايته إصلاح
+                <p xml:id="p_112.d1e1593" xml:lang="ar">سلطان <placeName change="#d2e480" xml:lang="ar">الدولة العثمانية</placeName> بخير رعاياه جميعاً قد تفضل بإصدار منشور غايته إصلاح
                         ذات بينهم وتحسين أحوالهم بقطع النظر عن اختلافهم في الأديان والجنس وأخذ من
                         ذمته مقصده الخيري نحو النصارى القاطنين في بلاده وحيث كان من رغبته أن يبدي
                         الآن شهادة جديدة 
@@ -1036,7 +986,7 @@
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="36" xml:id="pb_62.d2e1730" edRef="#edition_1" facs="#facs_36"/>
                     فيطلبون كما قال 
                     <num resp="#pers_TG" subtype="d1" type="auto-markup" value="1" xml:id="num_40.d1e1850" xml:lang="ar">أحد</num>
-                    رصفائنا من الدولة أن تجري الإصلاحات في الداخلية لأجل سلامة أملاكها ويطلبون منها أن تمنح مقدونيا الاستقلال لأجل سلامة أملاكها. ويطلبون منها أن تعطي <placeName>طرابلس الغرب</placeName> لإيطاليا لأجل سلامة أملاكها. ويطلبون منها أن تجعل علىمقدونيا حاكماً مسيحياً لأجل سلامة أملاكها. ويطلبون منها أن ترضي حكومات البلقان لأجل سلامة أملاكها. ويطلبون منها أن تجعل مقدونيا تحت مراقبة أوروبية لأجل سلامة أملاكها، ويودن إخراجها من أوروبا لأجل سلامة أملاكها بل يتمنون زوالها بتاتاً لأجل سلامة أملاكها فبعد هذا أيها الأقوام تحبون أن نثق بأمانة أوروبا وصداقتها لدولتنا؟ أيسركم أن نعتقد أن أوروبا مهذبة العالم وما نحته المساواة يرضيكم أن نتربى بتربيتهم ونتزيا بأزيائهم ونتهافت على تعلم لغاتهم حتى نذوق طعم الحياة ونعرف معنى التمدنالويل كل الويل لنا إذاً.</p>
+                    رصفائنا من الدولة أن تجري الإصلاحات في الداخلية لأجل سلامة أملاكها ويطلبون منها أن تمنح مقدونيا الاستقلال لأجل سلامة أملاكها. ويطلبون منها أن تعطي <placeName change="#d2e480" xml:lang="ar">طرابلس الغرب</placeName> لإيطاليا لأجل سلامة أملاكها. ويطلبون منها أن تجعل علىمقدونيا حاكماً مسيحياً لأجل سلامة أملاكها. ويطلبون منها أن ترضي حكومات البلقان لأجل سلامة أملاكها. ويطلبون منها أن تجعل مقدونيا تحت مراقبة أوروبية لأجل سلامة أملاكها، ويودن إخراجها من أوروبا لأجل سلامة أملاكها بل يتمنون زوالها بتاتاً لأجل سلامة أملاكها فبعد هذا أيها الأقوام تحبون أن نثق بأمانة أوروبا وصداقتها لدولتنا؟ أيسركم أن نعتقد أن أوروبا مهذبة العالم وما نحته المساواة يرضيكم أن نتربى بتربيتهم ونتزيا بأزيائهم ونتهافت على تعلم لغاتهم حتى نذوق طعم الحياة ونعرف معنى التمدنالويل كل الويل لنا إذاً.</p>
                 <p xml:id="p_114.d1e1601" xml:lang="ar">إن ما عرف من أخلاقهم وغدرهم وختلهم لم يعرف قط في زمن من الأزمان لم يعرف ولا بأيام الجاهلية الجهلاء لم يعرف بقرن من القرون الماضية وهم مع كل هذا يرموننا بالتعصب والهمجية، بأنا أهل حرب لا نحب السلم بأنا نقتل الإنسانية ونفتك بأبنائها بأنا. . بأنا. . إلى آخر ما يزعمون ونهاية ما يدعون ولكن هو الطمع والجشع والهمجية والوحشية والتعصب الأعمى والأخلاق الذميمة. نقول التعصب الأعمى ولا نبالي لاعتقادنا بأن بعض ما تفعله أوروبا وتتغاضى عنه من إذلال المسلمين وإهانتهم وظلمهم واضطهادهم ليس مما يأمر به الدين المسيحي بل هو مناف للأديان السماوية تمام المنافاة لا يلتئم معها بحال. غلا 
                     <pb corresp="file:../epub/29676/OEBPS/xhtml/P747.xhtml" ed="shamela" n="n23-p29" xml:id="pb_27.d1e1603"/>
                     فليعلم أولئك الزعانف أن خروجهم 
@@ -1054,7 +1004,7 @@
                         الذين أوقعهم من لا ذمة لهم ولا ضمير في فوضى هائلة أه.</p>
                 <p xml:id="p_117.d1e1621" xml:lang="ar">يا للوقاحة! ويا للافتراء!! نحن العثمانيين نعامل رعايانا المسيحيين معاملة من
                         لا ذمة له ولا ضمير فيتألبوا علينا بداعي إنقاذ المسيحيين من أذانا وهؤلاء
-                        أخواننا مسلمو <placeName>طرابلس الغرب</placeName> هجمت عليهم إيطاليا في عقر دارهم وهم آمنون ففعلت
+                        أخواننا مسلمو <placeName change="#d2e480" xml:lang="ar">طرابلس الغرب</placeName> هجمت عليهم إيطاليا في عقر دارهم وهم آمنون ففعلت
                         بهم الأفاعيل وأمطرتهم من همجيتها بحجارة من سجيل.</p>
                 <p xml:id="p_118.d1e1624" xml:lang="ar">تتفق أوروبا علينا من أجل عشرات من الأشخاص قتلوا في مكدونيا بسبب انفجار قنابل
                         ديناميت لم نلقها نحن وإنما ألقاها أولئك الذين أصبحت الأرض والسماء تعرفهم. -
@@ -1064,7 +1014,7 @@
                     <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_41.d1e1879" xml:lang="ar">عشر</num>
                     شخصاً من أشقياء الرومللي أجدر برحمة أوروبا وشفقتها من بعضة 
                     <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_42.d1e1882" xml:lang="ar">عشر</num>
-                    ألفاً من أهالي <placeName>طرابلس الغرب</placeName> وبنغازي لم يقترفوا ذنباً.</p>
+                    ألفاً من أهالي <placeName change="#d2e480" xml:lang="ar">طرابلس الغرب</placeName> وبنغازي لم يقترفوا ذنباً.</p>
                 <p xml:id="p_119.d1e1627" xml:lang="ar">تتداخل أوروبا في شؤوننا من أجل حماية اشخاص هم من رعايانا ولا يمكنونا من التداخل في شؤون أنفسنا من أجل الدفاع عن بلادنا واستقلالنا وأخواننا.
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="39" xml:id="pb_67.d2e1773" edRef="#edition_1" facs="#facs_39"/>
             </p>
@@ -1108,7 +1058,7 @@
             </div>
             <div type="section" xml:id="div_12.d1e1713" xml:lang="ar">
             <head xml:id="head_12.d1e1715" xml:lang="ar">إجابة طلب المؤيد</head>
-            <div type="item" change="#d2e356 #d2e452" xml:id="div_12.d2e1862" subtype="article">
+            <div type="item" change="#d2e356 #d2e452 #d2e480" xml:id="div_12.d2e1862" subtype="article" xml:lang="ar">
                <lg xml:id="lg_12.d1e1718" xml:lang="ar">
                   <l type="bayt" xml:id="l_77.d1e1720" xml:lang="ar"> 
                      <seg xml:id="seg_153.d1e1722" xml:lang="ar">وطئت وحقك أزمة في نعلها </seg> 
@@ -1131,13 +1081,13 @@
                   </l>
                </lg>
                <p xml:id="p_122.d1e1763" xml:lang="ar">(أثنى عليك الله في التبيين) </p>
-               <byline change="#d2e356" xml:id="byline_4.d2e1912">
-                  <placeName change="#d2e356 #d5e401 #d5e413" xml:id="placeName_5.d2e1913" ref="oape:place:175 geon:170017">حماه</placeName> 
-                  <persName change="#d2e356 #d2e438" xml:id="persName_16.d2e1916" ref="oape:pers:3823">فارس النجار</persName>
+               <byline change="#d2e356 #d2e480" xml:id="byline_4.d2e1912" xml:lang="ar">
+                  <placeName change="#d2e356 #d5e401 #d5e413 #d2e480" xml:id="placeName_5.d2e1913" ref="oape:place:175 geon:170017" xml:lang="ar">حماه</placeName> 
+                  <persName change="#d2e356 #d2e438 #d2e480" xml:id="persName_16.d2e1916" ref="oape:pers:3823" xml:lang="ar">فارس النجار</persName>
                </byline>
             </div>
             <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" n="40" xml:id="pb_69.d2e1919" edRef="#edition_1" facs="#facs_40"/>
-            <div type="item" change="#d2e356 #d2e452" xml:id="div_13.d2e1921" subtype="article">
+            <div type="item" change="#d2e356 #d2e452 #d2e480" xml:id="div_13.d2e1921" subtype="article" xml:lang="ar">
                <lg xml:id="lg_14.d1e1773" xml:lang="ar">
                   <l type="bayt" xml:id="l_81.d1e1775" xml:lang="ar"> 
                      <seg xml:id="seg_161.d1e1777" xml:lang="ar">خطب الزمان لمهجتي قد علها </seg> 
@@ -1160,12 +1110,12 @@
                   </l>
                </lg>
                <p xml:id="p_126.d1e1818" xml:lang="ar">(أثنى عليك الله في التبيين)</p>
-               <byline change="#d2e356" xml:id="byline_5.d2e1971">
-                  <placeName change="#d2e356 #d5e401 #d5e413" xml:id="placeName_6.d2e1972" ref="oape:place:175 geon:170017">حماه</placeName> إحدى محبات النبي صلى الله عليه وسلم <lb change="#d2e356 #d2e452" xml:id="lb_1.d2e1975" ed="print" edRef="#edition_1"/>
-                  <persName change="#d2e356 #d2e438" xml:id="persName_17.d2e1976" ref="oape:pers:3619">حنيفة</persName>
+               <byline change="#d2e356 #d2e480" xml:id="byline_5.d2e1971" xml:lang="ar">
+                  <placeName change="#d2e356 #d5e401 #d5e413 #d2e480" xml:id="placeName_6.d2e1972" ref="oape:place:175 geon:170017" xml:lang="ar">حماه</placeName> إحدى محبات النبي صلى الله عليه وسلم <lb change="#d2e356 #d2e452" xml:id="lb_1.d2e1975" ed="print" edRef="#edition_1"/>
+                  <persName change="#d2e356 #d2e438 #d2e480" xml:id="persName_17.d2e1976" ref="oape:pers:3619" xml:lang="ar">حنيفة</persName>
                </byline>
             </div>
-            <div type="item" change="#d2e356 #d2e452" xml:id="div_14.d2e1980" subtype="article">
+            <div type="item" change="#d2e356 #d2e452 #d2e480" xml:id="div_14.d2e1980" subtype="article" xml:lang="ar">
                <lg xml:id="lg_16.d1e1831" xml:lang="ar">
                   <l type="bayt" xml:id="l_85.d1e1833" xml:lang="ar"> 
                      <seg xml:id="seg_169.d1e1835" xml:lang="ar">(يا مصطفى قبل العوالم كلها) </seg> 
@@ -1184,8 +1134,8 @@
                      <seg xml:id="seg_176.d1e1865" xml:lang="ar">(أثنى عليك الله في التبيين)</seg> 
                   </l>
                </lg>
-               <byline change="#d2e356" xml:id="byline_6.d2e2021">
-                  <persName change="#d2e356 #d2e438" xml:id="persName_18.d2e2022" ref="oape:pers:3728">ع. ر</persName>
+               <byline change="#d2e356 #d2e480" xml:id="byline_6.d2e2021" xml:lang="ar">
+                  <persName change="#d2e356 #d2e438 #d2e480" xml:id="persName_18.d2e2022" ref="oape:pers:3728" xml:lang="ar">ع. ر</persName>
                </byline>
                <pb corresp="file:../epub/29676/OEBPS/xhtml/P750.xhtml" ed="shamela" n="" xml:id="pb_30.d1e1872"/>
             </div>

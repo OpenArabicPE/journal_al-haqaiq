@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+
 <?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="../schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><!--<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
@@ -35,7 +35,7 @@
                 <availability status="restricted" xml:lang="en">
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
                 </availability>
-                <idno type="url">https://github.com/openarabicpe/digital-haqaiq</idno>
+                <idno type="url">https://github.com/openarabicpe/journal_al-haqaiq</idno>
             </publicationStmt>
             <sourceDesc>
                 <biblStruct xml:lang="en">
@@ -87,7 +87,7 @@
         <revisionDesc><change when="2018-04-16" who="#pers_TG" xml:id="d2e245">Linked all <tag>pb ed="print"</tag> to the corresponding facsimile</change>
             <change when="2018-04-16" who="#pers_TG" xml:lang="en">Added facsimiles for the first ten pages (title page and index), added transcription of the title page.</change>
             <change when="2018-04-16" who="#pers_TG">Replaced <gi>encodingDesc</gi> and <gi>profileDesc</gi>with XPointers pointing to a master file.</change>
-            <change when="2016-02-27" who="#pers_TG">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/digital-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
+            <change when="2016-02-27" who="#pers_TG">Created this file by splitting <ref target="file:/Volumes/Dessau%20HD/BachUni/BachBibliothek/GitHub/journal_al-haqaiq/xml/urn-uuid-381100bcebe62d09ade63dd41b7ddd38.TEIP5.xml">the master file</ref> into individual files for each issue that are linked to the master file by means of xPointer.</change>
             <change when="2016-02-26">Divided the <gi>body</gi> into a <gi>group</gi> of <gi>text</gi>s along the issues of this periodical.</change>
             <change when="2016-02-26">Converted the mark-up of <foreign xml:lang="ar-Latn-x-ijmes">qaṣīda</foreign>s from <gi>p</gi>s divided by a <gi>gap</gi> to  <gi>l</gi> of <att>type</att>="bayt" comprising two <gi>seg</gi> nodes.</change>
             <change when="2016-02-26" who="#pers_TG">Created this TEI P5 file by automatic conversion from ePub.</change>
