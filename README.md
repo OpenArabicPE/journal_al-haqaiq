@@ -73,7 +73,7 @@ Digital files are available from [HathiTrust (vol. 1)](http://hdl.handle.net/202
 ### 3.1.1 [HathiTrust](https://www.hathitrust.org/)
 
 - links to volumes
-    + [Vol. 1](http://hdl.handle.net/2027/njp.32101036074001)
+    + [Vol. 1](http://hdl.handle.net/2027/njp.32101036074001): Princeton
 - access
     + The journal is in the public domain in the US and can be freely accessed and downloaded
     + Outside the US, access is restricted.
