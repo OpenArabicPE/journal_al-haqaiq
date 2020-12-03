@@ -60,7 +60,7 @@
       </fileDesc>
       <xi:include change="#d2e348" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e185" xpointer="encodingDesc"/>
       <xi:include change="#d2e348" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e187" xpointer="profileDesc"/>
-      <revisionDesc xml:id="revisionDesc_1.d1e426"><change when="2020-12-03" who="#pers_TG" xml:id="d2e501" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+      <revisionDesc xml:id="revisionDesc_1.d1e426"><tei:change when="2020-12-03" who="#pers_TG" change="d2e512" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><change when="2020-12-03" who="#pers_TG" xml:id="d2e501" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
          <change when="2020-12-02" who="#pers_TG" xml:lang="en" change="#d2e501" xml:id="change_1.d2e204">Final validation of mark-up.</change>
          <change when="2020-11-20" who="#pers_JK" xml:lang="en" change="#d2e501" xml:id="change_2.d2e207">Validated and added structural mark-up; added cross-links between articles.</change>
          <tei:change change="d2e469 #d2e501" when="2020-06-29" who="#pers_TG" xml:lang="en" xml:id="change_3.d2e210">Added the <tei:att xml:lang="en" change="#d2e501" xml:id="att_1.d2e212">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
@@ -290,15 +290,15 @@
          <pb change="#d2e316 #d2e348 #d2e441 #d2e447" ed="print" edRef="#edition_1" facs="#facs_218" n="218" xml:id="pb_26.d2e893"/>
          <div change="#d2e441" next="oclc_644997575-i_32.TEIP5.xml#div_8.d1e1412" prev="oclc_644997575-i_27.TEIP5.xml#div_7.d1e784" type="section" xml:id="div_4.d1e746" xml:lang="ar">
             <head xml:id="head_4.d1e748" xml:lang="ar">التاريخ</head>
-            <div type="section" change="#d2e501" xml:id="div_3.d2e1255">
+            <div type="section" change="#d2e501 #d2e512" xml:id="div_3.d2e1255" xml:lang="ar">
                <head change="#d2e480 #d2e501" xml:lang="ar" xml:id="head_4.d2e1257"><num value="14" xml:lang="ar" change="#d2e501" xml:id="num_64.d2e1258">١٤</num></head>
                <p xml:id="p_49.d1e751" xml:lang="ar">ننشر في هذا الباب سيرة كبار الرجال في الإسلام وشيئاً من فضائلهم وأخلاقهم وأعمالهم وسياستهم لما في ذلك من تحريك بواعث الهمم للاقتداء بهم في جلائل الأعمال وكرائم الخصال وليكون زاجراً لأولئك الذين يتغاضون عن مآثر رجال المسلمين ويفتخرون بحفظ تاريخ فلاسفة الغربيين.</p>
             </div>
-            <div next="oclc_644997575-i_32.TEIP5.xml#div_3_9_7_1" prev="oclc_644997575-i_27.TEIP5.xml#div_3_4_5_1" subtype="article" type="item" xml:id="div_3_6_xy">
+            <div next="oclc_644997575-i_32.TEIP5.xml#div_3_9_7_1" prev="oclc_644997575-i_27.TEIP5.xml#div_3_4_5_1" subtype="article" type="item" xml:id="div_3_6_xy" change="#d2e512" xml:lang="ar">
                <head xml:id="p_50.d1e754" xml:lang="ar">سيدنا عمر بن الخطاب رضي الله عنه</head>
-               <div type="section" change="#d2e501" xml:id="div_4.d2e1270">
+               <div type="section" change="#d2e501 #d2e512" xml:id="div_4.d2e1270" xml:lang="ar">
                   <head change="#d2e480 #d2e501" xml:lang="ar" xml:id="head_6.d2e1272"><num value="5" xml:lang="ar" change="#d2e501" xml:id="num_65.d2e1273">٥</num></head>
-                  <div type="section" change="#d2e501" xml:id="div_4.d2e1276">
+                  <div type="section" change="#d2e501 #d2e512" xml:id="div_4.d2e1276" xml:lang="ar">
                      <head xml:id="opener" xml:lang="ar">مسير سعد بن مالك رضي الله عنه إلى القادسية</head>
                      <p xml:id="p_52.d1e760" xml:lang="ar">اجتمع بسيراف بضعة و<num resp="#pers_TG" subtype="d2" type="auto-markup" value="30" xml:id="num_30.d1e1070" xml:lang="ar">ثلاثون</num> ألفاً من المؤمنين وقائدهم العام سعد ابن مالك فأمر الأمراء وجعل على كل <num resp="#pers_TG" subtype="d2" type="auto-markup" value="10" xml:id="num_31.d1e1073" xml:lang="ar">عشرة</num> عريفاًً وعلى الرايات رجالاً من أهل السابقة وولى الحروب رجالاً على ساقتها ومقدمتها وطلائعها ومجنباتها وكل ذلك بأمر سيدنا عمر ورأيه وعبى سعد جيشه تعبئة تشهد بالخبرة والانتظام وتستلفت أنظار دهاقين السياسة والقواد المنظمة في هذا العصر. وتعلم الناس أن المسلمين كانوا على غاية الاستعداد ونهاية الانتظام. وهو ما يتحتم على المسلمين القيام به والسعي وراء تحصيله إذا أرادوا الخلاص مما يتهددهم من المطامع الأوروبية والقيام بنهضة إسلامية تمزق تلك الوحوش الضارية وتعمم انتشار العجل على وجه البسيطة مرة أخرى. فيتسابق <pb change="#d2e316 #d2e348 #d2e441 #d2e447" ed="print" edRef="#edition_1" facs="#facs_219" n="219" xml:id="pb_27.d2e917"/>الناس إلى الدخول في دين الله أفواجاً كما جرى من قبل ويخلص بنو الإنسان من همجية أمم تزعم أنها متمدنة راقية همجية لو دامت لقضت على العالم البشري بالهلاك والتلاشي ومهما يكن من المؤمنين من ضعف وفي أعدائهم من قوة فلا بد أن يرجع الإسلام إلى عزه ويحفظ كيان أمته بحول الله تعالى وقوته.</p>
                      <p xml:id="p_53.d1e764" xml:lang="ar">ثم أن سعداً بعد أن عبى جيشه بعث في المقدمة زهرة بن عبد الله التميمي فانتهى إلى العذيب وجعل على الميمنة عبد الله بن المعتمر وعلى الميسرة شرحبيل بن السمط وخالد بن عرفطة خليفة له وسواد بن مالك التميمي على الطلائع وسلمان بن ربيعة الباهلي على المجردة ثم سار سعد على التعبية وكان الفرس قد بعثوا قابوس بن قابوس بن المنذر إلى القادسية يستنفر العرب فسار إليه المهنى بن حارثة الشيباني بجيشه وذلك بعد وفاة أخيه المثنى فبيته واستولى على قابوس ومن معه ثم رجع المهنى إلى ذي قار وجاء إلى سعد بالخبر فوافاه بسياف فأعلمه بوصية أخيه المثنى إليه أن لا يدخلوا بلاد فارس بل يقابلونهم <pb corresp="file:../epub/29676/OEBPS/xhtml/P885.xhtml" ed="shamela" n="n28-p9" xml:id="pb_9.d1e766"/> على حدود أرضهم وقدم على سعد كتاب من سيدنا عمر بمثل رأي المثنى.</p>
@@ -311,14 +311,14 @@
                      <p xml:id="p_60.d1e790" xml:lang="ar">وأرسل سعد رضي الله عنه السرايا إلى السواد وسمع بهم رستم فبعث الفرس لاعتراضهم وبلغ ذلك سعداً فأمد السرايا بعاصم بن عمر فجاءهم وخيل فارس قد أحاطت بهم فلما رأى الفرس عاصماً هربوا منهزمين. وجاء عاصم بالغنائم ثم أرسل سعد رضي الله عنه عمرو <pb corresp="file:../epub/29676/OEBPS/xhtml/P887.xhtml" ed="shamela" n="n28-p11" xml:id="pb_11.d1e792"/> بن معديكرب وطليحة الأسدي طليعة فلما ساروا أكثر من فرسخ رأوا عاصماً قد وافى بالغنائم فرجع عمرو ومضى طليحة حتى وصل عسكر رستم فبيتهم ليلاً واقتاد بعض الخيل وخرج يعدو به فرسه فركب الفرس في طلبه إلى أن أصبح وهم في أثره فرجع عليهم فقتل <num resp="#pers_TG" subtype="d1" type="auto-markup" value="2" xml:id="num_38.d1e1127" xml:lang="ar">اثنين</num> وأسر الثالث وشارف عسكر المسلمين فخاف الفرس ورجعوا عنه ثم سار رستم فنزل القادسية وذلك بعد خروجه من المدائن بستة اشهر وكان يطاول ويحاول خوفاً منهم ويزدجرد يستحثه في الخروج عليهم.</p>
                   </div>
                </div>
-               <closer xml:id="p_61.d1e795" xml:lang="ar"><ref target="oclc_644997575-i_32.TEIP5.xml#div_3_9_7_1" change="#d2e501" xml:id="ref_9.d2e1354">يتبع</ref> </closer>
+               <closer xml:id="p_61.d1e795" xml:lang="ar"><ref target="oclc_644997575-i_32.TEIP5.xml#div_3_9_7_1" change="#d2e501 #d2e512" xml:id="ref_9.d2e1354" xml:lang="ar">يتبع</ref> </closer>
             </div>
          </div>
          <pb change="#d2e316 #d2e348 #d2e441 #d2e447" ed="print" edRef="#edition_1" facs="#facs_223" n="223" xml:id="pb_34.d2e982"/>
          <pb corresp="file:../epub/29676/OEBPS/xhtml/P888.xhtml" ed="shamela" n="n28-p12" xml:id="pb_12.d1e797"/>
          <div change="#d2e441" next="oclc_644997575-i_30.TEIP5.xml#div_9.d1e1548" subtype="article" type="item" xml:id="div_5.d1e802" xml:lang="ar">
             <head xml:id="head_5.d1e804" xml:lang="ar">قصيدة أخلاقية</head>
-            <p xml:id="p_62.d1e807" xml:lang="ar">أتحفنا حضرة العالم الأديب <persName change="#d2e501" xml:id="persName_12.d2e1371">السيد عبد القادر المبارك الجزائري</persName> بهذه القصيدة الفريدة الأخلاقية من نظم شيخ أدباء عصره أبي عبد الله محمد بن أحمد الحنفي الأربلي المخزومي من شعراء القرن السادس شارحاً ألفاظها اللغوية ومعنوناً لعناوينها فنشكره على تحفته هذه</p>
+            <p xml:id="p_62.d1e807" xml:lang="ar">أتحفنا حضرة العالم الأديب <persName change="#d2e501 #d2e512" xml:id="persName_12.d2e1371" xml:lang="ar">السيد عبد القادر المبارك الجزائري</persName> بهذه القصيدة الفريدة الأخلاقية من نظم شيخ أدباء عصره أبي عبد الله محمد بن أحمد الحنفي الأربلي المخزومي من شعراء القرن السادس شارحاً ألفاظها اللغوية ومعنوناً لعناوينها فنشكره على تحفته هذه</p>
             <p xml:id="p_63.d1e810" xml:lang="ar">أمد الحياة قصير</p>
             <lg xml:id="lg_7.d1e813" xml:lang="ar">
                <l type="bayt" xml:id="l_8.d1e815" xml:lang="ar"> <seg xml:id="seg_15.d1e817" xml:lang="ar">كل حي إلى الممات مآبه </seg> <seg xml:id="seg_16.d1e820" xml:lang="ar"> ومدى عمره سريع ذهابه</seg> </l>
@@ -407,7 +407,7 @@
                <l type="bayt" xml:id="l_59.d1e1356" xml:lang="ar"> <seg xml:id="seg_117.d1e1358" xml:lang="ar">يا لغاوٍ قد أوبق النفس لم يك </seg> <seg xml:id="seg_118.d1e1361" xml:lang="ar"> ثر عليها عويله وانتحابه</seg> </l>
                <l type="bayt" xml:id="l_60.d1e1365" xml:lang="ar"> <seg xml:id="seg_119.d1e1367" xml:lang="ar">آمناً موقف الحساب ولا أح </seg> <seg xml:id="seg_120.d1e1370" xml:lang="ar"> سابه جنة ولا أنسابه</seg> </l>
                <l type="bayt" xml:id="l_61.d1e1374" xml:lang="ar"> <seg xml:id="seg_121.d1e1376" xml:lang="ar">ومليك أمد في العمر والرز </seg> <seg xml:id="seg_122.d1e1379" xml:lang="ar"> ق ومدت من ملكه أطنابه</seg></l>
-               <l type="bayt" xml:lang="ar" change="#d2e501" xml:id="l_62.d2e1959"><seg change="#d2e501" xml:id="seg_123.d2e1960">يوسع الخطو في الخطايا وإن ضا</seg> <seg change="#d2e501" xml:id="seg_124.d2e1963">ق عليه ضاقت عليه رحابه</seg> </l>
+               <l type="bayt" xml:lang="ar" change="#d2e501" xml:id="l_62.d2e1959"><seg change="#d2e501 #d2e512" xml:id="seg_123.d2e1960" xml:lang="ar">يوسع الخطو في الخطايا وإن ضا</seg> <seg change="#d2e501 #d2e512" xml:id="seg_124.d2e1963" xml:lang="ar">ق عليه ضاقت عليه رحابه</seg> </l>
             </lg>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P891.xhtml" ed="shamela" n="n28-p15" xml:id="pb_15.d1e1388"/>
             <byline change="#d2e348 #d2e469" xml:id="byline_1.d2e1582" xml:lang="ar"> <supplied change="#d2e348 #d2e469" resp="#pers_TG" xml:id="supplied_1.d2e1583" xml:lang="ar"> <persName change="#d2e348 #d2e427 #d2e469" ref="oape:pers:3330" xml:id="persName_11.d2e1584" xml:lang="ar"> <roleName change="#d2e469 #d2e501" type="nobility" xml:lang="ar" xml:id="roleName_1.d2e1976">السيد</roleName> عبد القادر المبارك الجزائري</persName> </supplied> </byline>
@@ -439,7 +439,7 @@
          </div>
          <div change="#d2e441" next="oclc_644997575-i_30.TEIP5.xml#div_12.d1e1989" subtype="article" type="item" xml:id="div_8.d1e1476" xml:lang="ar">
             <head xml:id="head_8.d1e1478" xml:lang="ar">سلسلة حكم الخلفاء</head>
-            <div type="section" change="#d2e501" xml:id="div_11.d2e2096">
+            <div type="section" change="#d2e501 #d2e512" xml:id="div_11.d2e2096" xml:lang="ar">
                <head change="#d2e480 #d2e501" xml:lang="ar" xml:id="head_13.d2e2098"><num value="1" xml:lang="ar" change="#d2e501" xml:id="num_76.d2e2099">١</num></head>
                <div change="#d2e469 #d2e501" type="section" xml:lang="ar" xml:id="div_11.d2e2102">
                   <head xml:id="p_96.d1e1481" xml:lang="ar">الخلفاء الراشدون رضي الله تعالى عنه</head>

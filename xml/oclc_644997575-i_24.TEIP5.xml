@@ -60,7 +60,7 @@
         </fileDesc>
         <xi:include change="#d2e356" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e185" xpointer="encodingDesc"/>
         <xi:include change="#d2e356" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e187" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e432"><change when="2020-12-03" who="#pers_TG" xml:id="d2e514" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e432"><tei:change when="2020-12-03" who="#pers_TG" change="d2e525" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><change when="2020-12-03" who="#pers_TG" xml:id="d2e514" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
             <change when="2020-12-01" who="#pers_TG" xml:lang="en" change="#d2e514" xml:id="change_1.d2e204">Final validation of mark-up.</change>
             <change when="2020-11-20" who="#pers_JK" xml:lang="en" change="#d2e514" xml:id="change_2.d2e207">Validated and added structural mark-up; added cross-links between articles.</change>
             <tei:change change="d2e480 #d2e514" when="2020-06-29" who="#pers_TG" xml:lang="en" xml:id="change_3.d2e210">Added the <tei:att xml:lang="en" change="#d2e514" xml:id="att_1.d2e212">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
@@ -233,7 +233,7 @@
             </div>
             <div change="#d2e452" next="oclc_644997575-i_26.TEIP5.xml#div_2.d1e531" prev="oclc_644997575-i_23.TEIP5.xml#div_8.d1e1269" subtype="article" type="item" xml:id="div_3.d1e551" xml:lang="ar">
                 <head xml:id="head_3.d1e553" xml:lang="ar">الدين الإسلامي والتوحيد</head>
-                <div type="section" change="#d2e514" xml:id="div_2.d2e786">
+                <div type="section" change="#d2e514 #d2e525" xml:id="div_2.d2e786" xml:lang="ar">
                     <head xml:id="p_19.d1e556" xml:lang="ar"> <num value="18" xml:id="num_1.d1e622" xml:lang="ar">١٨</num> </head>
                     <head xml:id="p_20.d1e559" xml:lang="ar">التفاضل بين الرسل والأنبياء عليهم الصلاة والسلام <lb change="#d2e514" xml:id="lb_3.d2e796"/>والملائكة والصحابة</head>
                     <p xml:id="p_22.d1e565" xml:lang="ar">قدمنا أن من تمام نعمة الله تعالى وكمال رحمته بهذا النوع الإنساني أن أرسل إليه رسلاً هادين مرشدين اصطفاهم من بين أفراده وميزهم بخصائص لا يشركهم فيها سواهم وأيدهم بالآيات والمعجزات تصديقاً لدعواهم وتحقيقاً لصدق نبوتهم لئلا يكون للناس على الله حجة بعد الرسل وذكرنا معنى المعجزة والفرق بينها وبين ما يظهر من خوارق العادات على أيدي غيرهم وأثبتنا أن سيدنا محمد صلى الله عليه وسلم هو أكثر الأنبياء معجزة وأبهرهم آية وأظهرهم برهاناً وأوضحهم محجة وتبياناً ثم سردنا شيئاً يسيراً من معجزاته إظهاراً لعظيم قدره وسمو مكانته وإيذاناً بما حباه الله تعالى من الآيات المثبتة لنبوته والمواهب الدالة على تحقيق رسالته وفي هذا المقام نريد أن نبين أن نبينا صلى الله عليه وسلم هو أفضل خلق الله تعالى وأن الأنبياء والملائكة عليهم السلام متفاوتون في الرتبة وكذلك الصحابة رضي الله عنهم فنقول:</p>
@@ -330,7 +330,7 @@
                     <l type="bayt" xml:id="l_35.d1e1051" xml:lang="ar"> <seg xml:id="seg_69.d1e1053" xml:lang="ar">فثق به دائماً وانفق </seg> <seg xml:id="seg_70.d1e1056" xml:lang="ar">يهبك من خير ما رزقت</seg> </l>
                     <l type="bayt" xml:id="l_36.d1e1060" xml:lang="ar"> <seg xml:id="seg_71.d1e1062" xml:lang="ar">لا تشتغل بالعباد عنه </seg> <seg xml:id="seg_72.d1e1065" xml:lang="ar">وخف من الطرد إن شغلت</seg> </l>
                     <l type="bayt" xml:id="l_37.d1e1069" xml:lang="ar"> <seg xml:id="seg_73.d1e1071" xml:lang="ar">وكن حليماً سمحاً كريماً </seg> <seg xml:id="seg_74.d1e1074" xml:lang="ar">وكن رحيماً بمن وليت</seg></l>
-                    <l type="bayt" xml:lang="ar" change="#d2e514" xml:id="l_38.d2e1505"><seg change="#d2e514" xml:id="seg_75.d2e1506">وفه بخير مادمت حيا</seg> <seg change="#d2e514" xml:id="seg_76.d2e1509">ولاحظ الشرع حيث كنت</seg> </l>
+                    <l type="bayt" xml:lang="ar" change="#d2e514" xml:id="l_38.d2e1505"><seg change="#d2e514 #d2e525" xml:id="seg_75.d2e1506" xml:lang="ar">وفه بخير مادمت حيا</seg> <seg change="#d2e514 #d2e525" xml:id="seg_76.d2e1509" xml:lang="ar">ولاحظ الشرع حيث كنت</seg> </l>
                 </lg>
             </div>
             <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" edRef="#edition_1" facs="#facs_22" n="22" xml:id="pb_37.d2e1162"/>
@@ -379,7 +379,7 @@
             </div>
             <div change="#d2e452" subtype="article" type="item" xml:id="div_9.d1e1221" xml:lang="ar">
                 <head xml:id="head_9.d1e1223" xml:lang="ar">خواطر</head>
-                <p xml:id="p_92.d1e1226" xml:lang="ar"> <bibl change="#d2e356 #d2e480" xml:id="bibl_3.d2e1325" xml:lang="ar">قرأنا في مجلة <title change="#d2e480 #d2e514" level="j" xml:lang="ar" xml:id="title_9.d2e1691">العثماني</title> الغراء القصيدة الفريدة <add resp="#org_MS" change="#d2e514" xml:id="add_1.d2e1694">و</add> فاقتطفنا منها ما يأتي حباً بالنفع والفائدة.</bibl> </p>
+                <p xml:id="p_92.d1e1226" xml:lang="ar"> <bibl change="#d2e356 #d2e480" xml:id="bibl_3.d2e1325" xml:lang="ar">قرأنا في مجلة <title change="#d2e480 #d2e514" level="j" xml:lang="ar" xml:id="title_9.d2e1691">العثماني</title> الغراء القصيدة الفريدة <add resp="#org_MS" change="#d2e514 #d2e525" xml:id="add_1.d2e1694" xml:lang="ar">و</add> فاقتطفنا منها ما يأتي حباً بالنفع والفائدة.</bibl> </p>
                 <p xml:id="p_93.d1e1229" xml:lang="ar">قال:</p>
                 <lg xml:id="lg_6.d1e1232" xml:lang="ar">
                     <l type="bayt" xml:id="l_39.d1e1234" xml:lang="ar"> <seg xml:id="seg_77.d1e1236" xml:lang="ar">بله الحكيم وفاهت العجماء </seg> <seg xml:id="seg_78.d1e1239" xml:lang="ar">وتناولت لمم الأسود ظباء</seg> </l>
@@ -426,7 +426,7 @@
                     <pb change="#d2e323 #d2e356 #d2e452 #d2e458" ed="print" edRef="#edition_1" facs="#facs_31" n="31" xml:id="pb_53.d2e1615"/>
                     <l type="bayt" xml:id="l_67.d1e1515" xml:lang="ar"> <seg xml:id="seg_133.d1e1517" xml:lang="ar">وليزه ذو جهل بما أملت له </seg> <seg xml:id="seg_134.d1e1520" xml:lang="ar">فاليوم حظ السافل العلياء</seg> </l>
                     <l type="bayt" xml:id="l_68.d1e1524" xml:lang="ar"> <seg xml:id="seg_135.d1e1526" xml:lang="ar">وليعترف خدن العلوم بجهله </seg> <seg xml:id="seg_136.d1e1529" xml:lang="ar">إن الجهالة ما حوى العلماء</seg></l>
-                    <l type="bayt" xml:lang="ar" change="#d2e514" xml:id="l_70.d2e2006"><seg change="#d2e514" xml:id="seg_139.d2e2007">فالناس بين تخلق وتملق</seg> <seg change="#d2e514" xml:id="seg_140.d2e2010">عرجوا المعارج للحظوظ فباؤُا</seg> </l>
+                    <l type="bayt" xml:lang="ar" change="#d2e514" xml:id="l_70.d2e2006"><seg change="#d2e514 #d2e525" xml:id="seg_139.d2e2007" xml:lang="ar">فالناس بين تخلق وتملق</seg> <seg change="#d2e514 #d2e525" xml:id="seg_140.d2e2010" xml:lang="ar">عرجوا المعارج للحظوظ فباؤُا</seg> </l>
                 </lg>
                 <p xml:id="p_98.d1e1534" xml:lang="ar"> <pb corresp="file:../epub/29676/OEBPS/xhtml/P743.xhtml" ed="shamela" n="n23-p25" xml:id="pb_23.d1e1538"/> </p>
             </div>
@@ -466,12 +466,12 @@
                     <l type="bayt" xml:id="l_75.d1e1688" xml:lang="ar"> <seg xml:id="seg_149.d1e1690" xml:lang="ar">(إذا اتحدتم أمنتم كل غائلة </seg> <seg xml:id="seg_150.d1e1693" xml:lang="ar">وإن تخاذلتم فالعار والندم)</seg> </l>
                     <l type="bayt" xml:id="l_76.d1e1697" xml:lang="ar"> <seg xml:id="seg_151.d1e1699" xml:lang="ar">(لا تشتكوا لسوى الصمصام مظلمة </seg> <seg xml:id="seg_152.d1e1702" xml:lang="ar">الفاصل الموت والصمصامة الحكم)</seg> </l>
                 </lg>
-                <byline xml:id="p_120.d1e1707" xml:lang="ar">(<title level="j" change="#d2e514" xml:id="title_10.d2e2258">البرهان</title>)  </byline>
+                <byline xml:id="p_120.d1e1707" xml:lang="ar">(<title level="j" change="#d2e514 #d2e525" xml:id="title_10.d2e2258" xml:lang="ar">البرهان</title>)  </byline>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P749.xhtml" ed="shamela" n="n23-p32" xml:id="pb_29.d1e1709"/>
             <div next="oclc_644997575-i_25.TEIP5.xml#div_10.d1e1067" prev="oclc_644997575-i_23.TEIP5.xml#div_13.d1e1566" type="section" xml:id="div_12.d1e1713" xml:lang="ar">
                 <head xml:id="head_12.d1e1715" xml:lang="ar">إجابة طلب المؤيد</head>
-                <div type="section" change="#d2e514" xml:id="div_12.d2e2270">
+                <div type="section" change="#d2e514 #d2e525" xml:id="div_12.d2e2270" xml:lang="ar">
                     <head change="#d2e480 #d2e514" xml:lang="ar" xml:id="head_14.d2e2272"><num value="3" xml:lang="ar" change="#d2e514" xml:id="num_47.d2e2273">٣</num></head>
                     <div change="#d2e356 #d2e452 #d2e480" subtype="article" type="item" xml:id="div_12.d2e1862" xml:lang="ar">
                         <lg xml:id="lg_12.d1e1718" xml:lang="ar">

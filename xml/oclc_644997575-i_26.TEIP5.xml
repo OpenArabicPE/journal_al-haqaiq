@@ -60,7 +60,7 @@
         </fileDesc>
         <xi:include change="#d2e340" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_1.d2e185" xpointer="encodingDesc"/>
         <xi:include change="#d2e340" href="oclc_644997575-master_teiHeader.TEIP5.xml" parse="xml" xml:id="xi:include_2.d2e187" xpointer="profileDesc"/>
-        <revisionDesc xml:id="revisionDesc_1.d1e426"><change when="2020-12-03" who="#pers_TG" xml:id="d2e511" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <revisionDesc xml:id="revisionDesc_1.d1e426"><tei:change when="2020-12-03" who="#pers_TG" change="d2e522" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><change when="2020-12-03" who="#pers_TG" xml:id="d2e511" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
             <change when="2020-12-01" who="#pers_TG" xml:lang="en" change="#d2e511" xml:id="change_1.d2e204">Final validation of mark-up.</change>
             <change when="2020-11-20" who="#pers_JK" xml:lang="en" change="#d2e511" xml:id="change_2.d2e207">Validated and added structural mark-up; added cross-links between articles.</change>
             <tei:change change="d2e476 #d2e511" when="2020-06-29" who="#pers_TG" xml:lang="en" xml:id="change_3.d2e210">Added the <tei:att xml:lang="en" change="#d2e511" xml:id="att_1.d2e212">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
@@ -226,7 +226,7 @@
         <body xml:id="body_1.d1e515" xml:lang="ar">
             <div change="#d2e448" next="oclc_644997575-i_27.TEIP5.xml#div_2.d1e531" prev="oclc_644997575-i_24.TEIP5.xml#div_3.d1e551" subtype="article" type="item" xml:id="div_2.d1e531" xml:lang="ar">
                 <head xml:id="head_2.d1e533" xml:lang="ar">الدين الإسلامي والتوحيد</head>
-                <div type="section" change="#d2e511" xml:id="div_1.d2e759">
+                <div type="section" change="#d2e511 #d2e522" xml:id="div_1.d2e759" xml:lang="ar">
                     <head change="#d2e480 #d2e511" xml:lang="ar" xml:id="head_2.d2e761"><num value="19" xml:lang="ar" change="#d2e511" xml:id="num_1.d2e762">١٩</num></head>
                     <head xml:id="p_15.d1e536" xml:lang="ar">خصائص الرسول صلى الله عليه وسلم</head>
                     <p xml:id="p_16.d1e539" xml:lang="ar">ذكرنا في مقالاتنا السابقة ما وهب الله تعالى لنبيه محمد صلى الله تعالى عليه وسلم من المقامات السامية والمراتب العالية الدالة على اصطفاء الله له من بين خلقه، وتفضيله على سائر أنبيائه وأثبتنا بالدلائل الواضحة والبراهين القاطعة ما لهذا الرسول من المعجزات الباهرات والآيات البينات الدالة على صدق نبوته وتحقيق رسالته ولكننا لم نوف الموضوع حقه بذكر الخصائص التي اختص فيها عليه الصلاة والسلام مما تثبت أنه نسيج وحده ووحيد عالمه وأنه الجامع لأشتات الفضائل والسجايا والجامع لمتفرقات المواهب والمزايا اعتماداً على أننا نفرد بالذكر موضوعاً خاصاً يتضمن بيان بعض الخصائص التي خص الله بها نبيه صلى الله عليه وسلم <pb change="#d2e316 #d2e340 #d2e448 #d2e454" ed="print" edRef="#edition_1" facs="#facs_82" n="82" xml:id="pb_3.d2e447"/>تشريفاً وتكريماً وتفضلاً وتعظيماً فنقول معتمدين في النقل على ما ثبت عن العلماء الثقات الحائزين قصبات السبق في مضمار الضبط وصحة النقل.</p>
@@ -244,7 +244,7 @@
                     <p xml:id="p_28.d1e583" xml:lang="ar">ومن خصائصه صلى الله عليه وسلم أنه أوتي علم كل شيء حتى المغيبات أخرج الإمام أحمد عن أبي ذر قال لقد تركنا رسول الله صلى الله عليه وسلم وما يقلب طائر جناحيه في السماء إلا ذكر لنا منه علماً وفي الحديث المخرج عند الطبراني بسند صحيح عن ابن عمر رضي الله عنه عن النبي صلى الله عليه وسلم أنه قال أوتيت مفاتيح كل شيء إلا ال<num resp="#pers_TG" subtype="d1" type="auto-markup" value="5" xml:id="num_4.d1e702" xml:lang="ar">خمس</num> إن الله عنده علم الساعة وينزل الغيث ويعلم ما في الأرحام وما تدري نفس ماذا تكسب غداً وما تدري نفس بأي أرض تموت.)</p>
                     <p xml:id="p_29.d1e586" xml:lang="ar">ومن خصائصه صلى الله عليه وسلم أنه كان أشجع الناس وأثبتهم في الهيجاء ومواقف الحروب قال في الشفاء وكان صلى الله عليه وسلم من الشجاعة والنجدة بالمكان الذي لا يجهل قد حضر المواقف الصعبة وفر الكماة والأبطال منه غير مرة وهو ثابت لا يبرح ومقبل لا يدبر ولا يتزحزح وما شجاع إلا وقد أحصيت له فرة وحفظت له حولة إلا رسول الله صلى الله عليه وسلم ثم ذكر حديثاً أخرجه البخاري عن البراء بن عازب رضي الله عنه وقد سأله رجل أفررتم يوم حنين عن رسول الله صلى الله عليه وسلم قال نعم لكن رسول الله لم يفر ثم قال لقد ريته على بغلته البيضاء وأبو سفيان آخذ بلجامها والنبي صلى الله عليه وسلم يقول_أنا النبي لا كذب أنا بن عبد المطلب — </p>
                 </div>
-                <closer change="#d2e511" xml:id="closer_1.d2e841"><ref rend="brackets" target="oclc_644997575-i_27.TEIP5.xml#div_2.d1e531" change="#d2e511" xml:id="ref_9.d2e842">يتبع</ref></closer>
+                <closer change="#d2e511 #d2e522" xml:id="closer_1.d2e841" xml:lang="ar"><ref rend="brackets" target="oclc_644997575-i_27.TEIP5.xml#div_2.d1e531" change="#d2e511 #d2e522" xml:id="ref_9.d2e842" xml:lang="ar">يتبع</ref></closer>
             </div>
             <pb change="#d2e316 #d2e340 #d2e448 #d2e454" ed="print" edRef="#edition_1" facs="#facs_87" n="87" xml:id="pb_11.d2e516"/>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P787.xhtml" ed="shamela" n="n25-p5" xml:id="pb_5.d1e588"/>
@@ -255,15 +255,15 @@
             </div>
             <div change="section" next="oclc_644997575-i_27.TEIP5.xml#div_7.d1e784" prev="oclc_644997575-i_25.TEIP5.xml#div_3.d1e561" type="section" xml:id="div_4.d1e608" xml:lang="ar">
                 <head xml:id="head_4.d1e610" xml:lang="ar">التاريخ</head>
-                <div type="section" change="#d2e511" xml:id="div_4.d2e877">
+                <div type="section" change="#d2e511 #d2e522" xml:id="div_4.d2e877" xml:lang="ar">
                     <head change="#d2e480 #d2e511" xml:lang="ar" xml:id="head_6.d2e879"><num value="12" xml:lang="ar" change="#d2e511" xml:id="num_6.d2e880">١٢</num></head>
                     <p xml:id="p_32.d1e613" xml:lang="ar">ننشر في هذا الباب سيرة كبار الرجال في الإسلام وشيئاً من فضائلهم وأخلاقهم وأعمالهم وسياستهم لما في ذلك من تحريك بواعث الهمم للاقتداء بهم في جلائل الأعمال وكرائم الخصال وليكون زاجراً لأولئك الذين يتغاضون عن مآثر رجال المسلمين ويفتخرون بحفظ تاريخ فلاسفة الغربيين</p>
                 </div>
-                <div next="oclc_644997575-i_27.TEIP5.xml#div_3_4_5_1" prev="oclc_644997575-i_25.TEIP5.xml#div_3_2_2_1" subtype="article" type="item" xml:id="div_3_3_3_1">
+                <div next="oclc_644997575-i_27.TEIP5.xml#div_3_4_5_1" prev="oclc_644997575-i_25.TEIP5.xml#div_3_2_2_1" subtype="article" type="item" xml:id="div_3_3_3_1" change="#d2e522" xml:lang="ar">
                     <head xml:id="p_33.d1e616" xml:lang="ar">سيدنا عمر بن الخطاب رضي الله عنه</head>
-                    <div type="section" change="#d2e511" xml:id="div_5.d2e892">
+                    <div type="section" change="#d2e511 #d2e522" xml:id="div_5.d2e892" xml:lang="ar">
                         <head change="#d2e480 #d2e511" xml:lang="ar" xml:id="head_8.d2e894"><num value="3" xml:lang="ar" change="#d2e511" xml:id="num_7.d2e895">٣</num></head>
-                        <div type="section" change="#d2e511" xml:id="div_5.d2e898">
+                        <div type="section" change="#d2e511 #d2e522" xml:id="div_5.d2e898" xml:lang="ar">
                             <head xml:id="p_34.d1e619" xml:lang="ar">إجلاء أهل نجران من جزيرة العرب</head>
                             <p xml:id="p_35.d1e622" xml:lang="ar">بعد أن سار أبو عبيدة بن مسعود بجيشه إلى <placeName change="#d2e476 #d2e511" xml:lang="ar" xml:id="placeName_4.d2e905">العراق</placeName> لمقاتلة أهل فارس كما تقدم، أرسل سيدنا عمر رضي الله عنه يعلى ابن أمية إلى <placeName change="#d2e476 #d2e511" xml:lang="ar" xml:id="placeName_5.d2e908">اليمن</placeName> بجيش من المسلمين وأمره بإجلاء أهل نجران لأن رسول الله صلى الله عليه وسلم أوصى بأن لا يترك دينان بأرض العرب ولأنهم نقضوا ما عاهدوا رسول الله صلى الله عليه وسلم عليه من المتاجرة بالربا وكان مما قاله عمر رضي الله عنه ليعلى أيتهم ولا تفتنهم عن دينهم، ثم أجلهم من أقام منهم على دينه، وأقرر المسلم، وامسح أرض كل من تجلي منهم ثم خيرهم البلدان، واعلمهم أننا نجليهم بأمر الله ورسوله أن لا يترك بجزيرة العرب دينان، فليخرجوا من <pb change="#d2e316 #d2e340 #d2e448 #d2e454" ed="print" edRef="#edition_1" facs="#facs_91" n="91" xml:id="pb_18.d2e559"/>أقام على دينه منهم ثم نعطيهم أرضاً كأرضهم إقراراً لهم بالحق على أنفسنا ووفاء بذمتهم فيما أمر الله من ذلك، الخ ثم عوضهم رضي الله عنه أرضاً كأرضهم وفاءً بذمتهم.</p>
                             <p xml:id="p_36.d1e626" xml:lang="ar">وهنا ندعو من يتهم المسلمين بعدم الوفاء بالعهود لأهل الذمة ليرجعوا إلى الحق وينظروا ما كان عليه المؤمنون من المحافظة على حقوق أهل الذمة والرأفة بهم ومعاملتهم بالعدل والرحمة يوم كان نفوذ المؤمنين في الكرة الأرضية في مكانة من العز ضجت أمام بأسها فراعنة الدنيا. ورغمت بها أنوف جبابرة العالم ودان لها أهل الشرك قاطبة حتى دفعوا الجزية عن يد وهم صاغرون. . في أيام تلك القوة الإسلامية المنيعة. عوض عمر رضي الله عنه أهل نجران أرضاً كأرضهم التي أخرجهم منها وتركهم آمنين على دمائهم وأعراضهم وأموالهم عملاً بالشريعة الإسلامية السمحة التي أمرت بحفظ حقوق أهل الذمة والوفاء بما عوهدوا عليه ولو أراد سيدنا عمر يومئذ أن يستأصلهم من الأرض لما وجدوا ولياً ولا نصيرا. <pb corresp="file:../epub/29676/OEBPS/xhtml/P790.xhtml" ed="shamela" n="n25-p8" xml:id="pb_8.d1e628"/> لكن النفوس الإسلامية الكريمة التي أدبها القرآن بالكمال وحبب الإسلام إليها الصدق وكره إليها الغدر والخيانة قد حافظت على قوم ضعاف أذلاء وصدقت فيما عاهدتهم عليه.</p>
@@ -273,19 +273,19 @@
                             <p xml:id="p_40.d1e640" xml:lang="ar">ولما وصل المثنى الشيباني وأبو عبيد الثقفي ومن معهما إلى الحيرة كتب رستم إلى دهاقين السواد أن يثوروا بالمسلمين وبعث لذلك في كل قرية رجلاً فجعل جابان أميراً على جيش وسيره إلى فرات بادفلا وأرسل ترسى ابن خالة كسرى في جيش إلى أرض كسكر وبعث جنداً آخر لمصادمة المثنى وعلم المثنى بذلك فخرج من الحيرة حذراً منهم ونزل جابان بأرض النمارق ومعه جمع عظيم ثم سار إليه أبو عبيد بمن معه وجعل المثنى على الخيل فاقتتلوا بالنمارق قتالاً <pb change="#d2e316 #d2e340 #d2e448 #d2e454" ed="print" edRef="#edition_1" facs="#facs_93" n="93" xml:id="pb_21.d2e581"/>شديداً كانت نتيجته انهزام أهل فارس وأسر أميرهم جابان.</p>
                             <p xml:id="p_41.d1e643" xml:lang="ar">ثم لحق المنهزمون منهم بجيش نرسى ابن خالة كسرى واجتمع إليه سائر عسكر الفرس وبلغ بوران ورستم أسر جابان وانهزام جيشه فبعثا الجالينوس بمدد عظيم إلى نرسى فعاجلهم أبو عبيد وخرج إلى نرسى فاجتمع به عند كسكر بمكان يقال له السقاطية واشتد الأمر على المشركين فانهزموا وهرب أميرهم نرسى وغنم المؤمنون أرضهم وأموالهم وأسروا منهم كثيراً. <pb corresp="file:../epub/29676/OEBPS/xhtml/P791.xhtml" ed="shamela" n="n25-p9" xml:id="pb_9.d1e645"/> ووصل بعد ذلك الجالينوس بجيش عظيم من فارس فسار إليهم أبو عبيد فهزمهم أيضاً وهرب الجالينوس واستولى أبو عبيد على تلك البلاد ثم ارتحل حتى رجع إلى الحيرة.</p>
                         </div>
-                        <div type="section" change="#d2e511" xml:id="div_6.d2e942">
+                        <div type="section" change="#d2e511 #d2e522" xml:id="div_6.d2e942" xml:lang="ar">
                             <head xml:id="p_42.d1e649" xml:lang="ar">وقعة الجسر</head>
                             <p xml:id="p_43.d1e652" xml:lang="ar">لما انهزم الجالينوس بمن معه رجعوا إلى رستم وأخبروه فجهز جيشاً أعظم من الأول وجعل بهمن المعروف بذي الحاجب أميراً عليهم وأرسلهم إلى الحيرة فساروا ومعهم راية كسرى حتى نزلوا الجسر وأقبل أبو عبيد فنزل قريباً منهم ونصبوا جسراً على الفرات ليتمكن الفريقان من القتال وقال ذو الحاجب أمير فارس للمسلمين إما أن تعبروا إلينا وإما أن نعبر إليكم فاختار أبو عبيد أن يعبر هو بجيشه إليهم وقال</p>
                         </div>
-                        <div type="section" change="#d2e511" xml:id="div_7.d2e951">
+                        <div type="section" change="#d2e511 #d2e522" xml:id="div_7.d2e951" xml:lang="ar">
                             <head xml:id="p_44.d1e655" xml:lang="ar">لا يكونوا أجرأ على الموت منا</head>
                             <p xml:id="p_45.d1e658" xml:lang="ar">وعهد إلى الناس فقال إن قتلت فعلى الناس فلان فإن قتل فعليهم <pb change="#d2e316 #d2e340 #d2e448 #d2e454" ed="print" edRef="#edition_1" facs="#facs_94" n="94" xml:id="pb_23.d2e601"/>فلان وسمى <num resp="#pers_TG" subtype="d1" type="auto-markup" value="7" xml:id="num_5.d1e780" xml:lang="ar">سبعة</num> اشخاص يتعاقبون على إمارة الجيش حتى قال فإن قتل فلان فالأمير هو المثنى ثم عبر على الجسر واستعرت بين الفريقين نار الوغى وكان أهل فارس يقاتلون على الفيلة وخيل المسلمين لم تألف ذلك فأحجمت ولم تقدم عليهم واشتد الأمر بالمسلمين فترجل أبو عبيد والناس وساروا مشاة حتى صافحوا المشركين بالسيوف وقطعوا بطان الفيلة فسقطت رحالها وقتلوا من كان عليها وعمد أبو عبيد إلى فيل أبيض فضربه بالسيف ثم خبطه الفيل بيده فوقع أبو عبيد على الأرض فتناول الراية رجل من ال<num resp="#pers_TG" subtype="d1" type="auto-markup" value="7" xml:id="num_6.d1e783" xml:lang="ar">سبعة</num> الذين سماهم أبو عبيد للإمارة فقتله الفيل وتتابع بقية ال<num resp="#pers_TG" subtype="d1" type="auto-markup" value="7" xml:id="num_7.d1e786" xml:lang="ar">سبعة</num> على أخذ الراية كل منهم يأخذ اللواء ويقاتل حتى يقتل ثم أخذ اللواء المثنى وانهزم البعض من المسلمين فلما رأى عبد الله الثقفي انهزام الناس سبقهم إلى الجسر فقطعه وقال يا أيها الناس </p>
                         </div>
-                        <div type="section" change="#d2e511" xml:id="div_8.d2e971">
+                        <div type="section" change="#d2e511 #d2e522" xml:id="div_8.d2e971" xml:lang="ar">
                             <head xml:lang="ar" change="#d2e511" xml:id="head_12.d2e973">موتوا أو تظفروا</head>
                             <p xml:id="p_46.d1e661" xml:lang="ar">فثبت المسلمون لقتال أعدائهم ثم أمر المثنى جنده بالانسحاب فعبروا كلهم على الجسر ورجع بعضهم إلى المدينة وبقي المثنى في قلة وكان قد جرح وأراد ذو الحاجب العبور خلف المسلمين فأتاه الخبر باختلاف الفرس فرجع إلى المدائن.</p>
                         </div>
-                        <div type="section" change="#d2e511" xml:id="div_9.d2e981">
+                        <div type="section" change="#d2e511 #d2e522" xml:id="div_9.d2e981" xml:lang="ar">
                             <head xml:id="p_47.d1e664" xml:lang="ar">وقعة البويب</head>
                             <p xml:id="p_48.d1e668" xml:lang="ar">ولما بلغ عمر بن الخطاب رضي الله عنه مقتل أبي عبيد بالجسر ندب الناس إلى المثنى <pb corresp="file:../epub/29676/OEBPS/xhtml/P792.xhtml" ed="shamela" n="n25-p10" xml:id="pb_10.d1e670"/> وجهز جيشاً شديد البأس وأرسلهم إلى <placeName change="#d2e476 #d2e511" xml:lang="ar" xml:id="placeName_6.d2e990">العراق</placeName> مدداً <pb change="#d2e316 #d2e340 #d2e448 #d2e454" ed="print" edRef="#edition_1" facs="#facs_95" n="95" xml:id="pb_25.d2e624"/>للمثنى وبلغ الخبر رستم فبعث مهران أميراً على جند وأرسله إلى الحيرة.</p>
                             <p xml:id="p_49.d1e673" xml:lang="ar">فعلم المثنى بذلك وهو بين القادسية وخفان فقصد أرض البويب وكتب إلى الجند الذي أرسله سيدنا عمر مدداً له يخبرهم بذلك. وأمرهم أن يقصدوا أرض البويب أيضاً مما يلي الكوفة حيث يجتمعون فيه فوافوه جميعاً وقد وصل مهران إلى إزائه من وراء الفرات ثم أذن المثنى لمهران أن يعبر بجيشه إليهم على جسر الفرات وعبأ المثنى أصحابه وكان الوقت في رمضان فأمرهم بالإفطار ليقووا على عدوهم.</p>
@@ -295,7 +295,7 @@
                             <p xml:id="p_53.d1e685" xml:lang="ar">وكيف يستطيع الكاتب وصف ثبات قوم اشتاقوا إلى منازلهم في الجنة وهم قد علموا أنها تحت ظلال السيوف. </p>
                         </div>
                     </div>
-                    <closer change="#d2e511" xml:id="closer_2.d2e1022"><ref rend="brackets" target="oclc_644997575-i_27.TEIP5.xml#div_3_4_5_1" change="#d2e511" xml:id="ref_10.d2e1023">يتبع</ref></closer>
+                    <closer change="#d2e511 #d2e522" xml:id="closer_2.d2e1022" xml:lang="ar"><ref rend="brackets" target="oclc_644997575-i_27.TEIP5.xml#div_3_4_5_1" change="#d2e511 #d2e522" xml:id="ref_10.d2e1023" xml:lang="ar">يتبع</ref></closer>
                 </div>
             </div>
             <pb corresp="file:../epub/29676/OEBPS/xhtml/P793.xhtml" ed="shamela" n="n25-p11" xml:id="pb_11.d1e687"/>
@@ -375,7 +375,7 @@
                     <l type="bayt" xml:id="l_22.d1e1054" xml:lang="ar"> <seg xml:id="seg_43.d1e1056" xml:lang="ar">قد اشتكى الوطن الواني تقاعسكم </seg> <seg xml:id="seg_44.d1e1059" xml:lang="ar"> عنه وأطفالكم شابت نواصيها</seg> </l>
                     <l type="bayt" xml:id="l_23.d1e1063" xml:lang="ar"> <seg xml:id="seg_45.d1e1065" xml:lang="ar">أبعد ذا اليوم نغضي الطرف عن وطن </seg> <seg xml:id="seg_46.d1e1068" xml:lang="ar"> أيامه بالشقا ساوت لياليها </seg> </l>
                     <l type="bayt" xml:id="l_24.d1e1073" xml:lang="ar"> <seg xml:id="seg_47.d1e1075" xml:lang="ar"> وارحمتها لأوطان تئن أسى </seg> <seg xml:id="seg_48.d1e1078" xml:lang="ar"> منكم ولم تلق فيكم من يلبيها</seg></l>
-                    <l type="bayt" xml:lang="ar" change="#d2e511" xml:id="l_25.d2e1559"><seg change="#d2e511" xml:id="seg_49.d2e1560">فإن تداركتموها بالحياة من ال</seg> <seg change="#d2e511" xml:id="seg_50.d2e1563">إصلاح أو فدعوني اليوم أرثيها</seg> </l>
+                    <l type="bayt" xml:lang="ar" change="#d2e511" xml:id="l_25.d2e1559"><seg change="#d2e511 #d2e522" xml:id="seg_49.d2e1560" xml:lang="ar">فإن تداركتموها بالحياة من ال</seg> <seg change="#d2e511 #d2e522" xml:id="seg_50.d2e1563" xml:lang="ar">إصلاح أو فدعوني اليوم أرثيها</seg> </l>
                 </lg>
                 <byline change="#d2e340 #d2e476" xml:id="byline_2.d2e1174" xml:lang="ar"> <persName change="#d2e340 #d2e434 #d2e476" ref="oape:pers:3748" xml:id="persName_11.d2e1175" xml:lang="ar">عبد الرحمن <roleName change="#d2e476 #d2e511" type="title" xml:lang="ar" xml:id="roleName_1.d2e1572">أفندي</roleName> القصار</persName> </byline>
             </div>
@@ -419,7 +419,7 @@
             <pb change="#d2e316 #d2e340 #d2e448 #d2e454 #d2e511" ed="print" edRef="#edition_1" facs="#facs_118" n="118" xml:id="pb_65.d2e1757"/>
             <div change="#d2e448" subtype="article" type="item" xml:id="div_11.d1e1246" xml:lang="ar">
                 <head xml:id="head_11.d1e1248" xml:lang="ar">الحكمة</head>
-                <div type="section" change="#d2e511" xml:id="div_22.d2e1765">
+                <div type="section" change="#d2e511 #d2e522" xml:id="div_22.d2e1765" xml:lang="ar">
                     <lg xml:id="lg_6.d1e1251" xml:lang="ar">
                         <l type="bayt" xml:id="l_37.d1e1253" xml:lang="ar"> <seg xml:id="seg_73.d1e1255" xml:lang="ar">شربنا هواها مذ ال<num resp="#pers_TG" subtype="d1" type="auto-markup" value="6" xml:id="num_37.d1e1475" xml:lang="ar">ست</num> وقد صفا </seg> <seg xml:id="seg_74.d1e1258" xml:lang="ar"> ولذّ كأن الله خص به الشفا</seg> </l>
                         <l type="bayt" xml:id="l_38.d1e1262" xml:lang="ar"> <seg xml:id="seg_75.d1e1264" xml:lang="ar">ومذ رابنا أنا لديها على شفا </seg> <seg xml:id="seg_76.d1e1267" xml:lang="ar"> (دخلنا عليها نستجير من الجفا)</seg> </l>
@@ -431,7 +431,7 @@
                     </lg>
                     <p xml:id="p_99.d1e1296" xml:lang="ar">(فقالت رضائي بالخروج عن النفس)</p>
                 </div>
-                <div type="section" change="#d2e511" xml:id="div_23.d2e1819">
+                <div type="section" change="#d2e511 #d2e522" xml:id="div_23.d2e1819" xml:lang="ar">
                     <lg xml:id="lg_8.d1e1300" xml:lang="ar">
                         <l type="bayt" xml:id="l_41.d1e1302" xml:lang="ar"> <seg xml:id="seg_81.d1e1304" xml:lang="ar">(دخلنا عليها نستجير من الجفا) </seg> <seg xml:id="seg_82.d1e1307" xml:lang="ar"> لئلا يغوص القلب في لجة اليأس</seg> </l>
                         <l type="bayt" xml:id="l_42.d1e1311" xml:lang="ar"> <seg xml:id="seg_83.d1e1313" xml:lang="ar">ويا حبذا لو كان يبدو خيالها </seg> <seg xml:id="seg_84.d1e1316" xml:lang="ar"> (على غفلة الواشي من الجن والإنس)</seg> </l>
@@ -440,7 +440,7 @@
                     </lg>
                     <byline xml:id="p_100.d1e1339" xml:lang="ar">ابن المدرسة</byline>
                 </div>
-                <div type="section" change="#d2e511" xml:id="div_24.d2e1864">
+                <div type="section" change="#d2e511 #d2e522" xml:id="div_24.d2e1864" xml:lang="ar">
                     <lg xml:id="lg_9.d1e1342" xml:lang="ar">
                         <l type="bayt" xml:id="l_45.d1e1344" xml:lang="ar"> <seg xml:id="seg_89.d1e1346" xml:lang="ar">سعدنا بكشف الضر والوقت قد صفا </seg> <seg xml:id="seg_90.d1e1349" xml:lang="ar"> بأنظار من نهوى إذا الدهر أنصفا</seg> </l>
                         <l type="bayt" xml:id="l_46.d1e1353" xml:lang="ar"> <seg xml:id="seg_91.d1e1355" xml:lang="ar">ولما رأيناها تبدت من الخفا </seg> <seg xml:id="seg_92.d1e1358" xml:lang="ar"> (دخلنا عليها نستجير من الجفا)</seg> </l>
@@ -462,12 +462,12 @@
                 </div>
                 <pb corresp="file:../epub/29676/OEBPS/xhtml/P812.xhtml" ed="shamela" n="n25-p30" xml:id="pb_29.d1e1432"/>
             </div>
-            <div prev="oclc_644997575-i_23.TEIP5.xml#div_12.d1e1464" subtype="article" type="item" change="#d2e511" xml:id="div_26.d2e1966">
-                <head xml:id="head_12.d1e1438" xml:lang="ar">من <title level="m" change="#d2e511" xml:id="title_10.d2e1970">كتاب الأدب</title></head>
+            <div prev="oclc_644997575-i_23.TEIP5.xml#div_12.d1e1464" subtype="article" type="item" change="#d2e511 #d2e522" xml:id="div_26.d2e1966" xml:lang="ar">
+                <head xml:id="head_12.d1e1438" xml:lang="ar">من <title level="m" change="#d2e511 #d2e522" xml:id="title_10.d2e1970" xml:lang="ar">كتاب الأدب</title></head>
                 <byline xml:id="p_104.d1e1441" xml:lang="ar">ل<persName change="#d2e340 #d2e434 #d2e476" ref="oape:pers:3580" xml:id="persName_16.d2e1547" xml:lang="ar">جعفر بن شمس الخلافة</persName> وهو من الكتب المخطوطة النادرة</byline>
-                <div subtype="verse" type="section" change="#d2e511" xml:id="div_26.d2e1979">
+                <div subtype="verse" type="section" change="#d2e511 #d2e522" xml:id="div_26.d2e1979" xml:lang="ar">
                     <head change="#d2e480 #d2e511" xml:lang="ar" xml:id="head_22.d2e1981"><num value="3" xml:lang="ar" change="#d2e511" xml:id="num_42.d2e1982">٣</num></head>
-                    <lg change="#d2e511" xml:id="lg_12.d2e1985">
+                    <lg change="#d2e511 #d2e522" xml:id="lg_12.d2e1985" xml:lang="ar">
                         <l xml:id="p_105.d1e1444" xml:lang="ar">ولم أر مثل المال أرفع للنذل</l>
                         <l xml:id="p_106.d1e1447" xml:lang="ar">عش عمر نوح الياً ستعزل</l>
                         <l xml:id="p_107.d1e1450" xml:lang="ar">حسن في كل عين من تود</l>
