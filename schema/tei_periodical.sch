@@ -79,5 +79,9 @@
         <sch:rule context="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr/tei:imprint/tei:date" role="error">
             <sch:assert test="@type">Publication dates of original sources must be typed.</sch:assert>
         </sch:rule>
+        <!-- enforce @source if @type='supplied'  -->
+        <sch:rule context="tei:date[@type = 'supplied']" role="error">
+            <sch:assert test="@source">If the date has been supplied, the source of this information must be indicated through the @source attribute.</sch:assert>
+        </sch:rule>
     </sch:pattern>
 </sch:schema>

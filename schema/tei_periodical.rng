@@ -5,10 +5,10 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-04-09T20:59:52Z. .
-TEI Edition: Version 3.5.0. Last updated on
-	29th January 2019, revision 3c0c64ec4
-TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
+Schema generated from ODD source 2021-01-20T11:50:46Z. .
+TEI Edition: Version 4.1.0. Last updated on
+	19th August 2020, revision b414ba550
+TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
   
 --><!--[http://creativecommons.org/licenses/by-sa/4.0/] Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license-->
    <define name="OpenArabicPE_macro.paraContent">
@@ -38,7 +38,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
          <choice>
             <text/>
             <ref name="OpenArabicPE_model.gLike"/>
-            <ref name="OpenArabicPE_model.qLike"/>
+            <ref name="OpenArabicPE_model.attributable"/>
             <ref name="OpenArabicPE_model.phrase"/>
             <ref name="OpenArabicPE_model.global"/>
          </choice>
@@ -128,7 +128,7 @@ TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the unit used for the measurement
-Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inches) ; 4] lines; 5] chars (characters) </a:documentation>
+Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] line; 5] char (characters)</a:documentation>
             <choice>
                <value>cm</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(centimetres) </a:documentation>
@@ -136,12 +136,12 @@ Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inc
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(millimetres) </a:documentation>
                <value>in</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(inches) </a:documentation>
-               <value>lines</value>
+               <value>line</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">lines of text</a:documentation>
-               <value>chars</value>
+               <value>char</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(characters) characters of text</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </choice>
          </attribute>
@@ -175,7 +175,7 @@ Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inc
    <define name="OpenArabicPE_att.cReferencing.attribute.cRef">
       <optional>
          <attribute name="cRef">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a refsDecl element in the TEI header</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a <code xmlns="http://www.w3.org/1999/xhtml">&lt;refsDecl&gt;</code> element in the TEI header</a:documentation>
             <data type="string"/>
          </attribute>
       </optional>
@@ -275,6 +275,7 @@ Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inc
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tei_OpenArabicPE-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:oape="https://openarabicpe.github.io/ns"
@@ -285,6 +286,7 @@ Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inc
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tei_OpenArabicPE-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:oape="https://openarabicpe.github.io/ns"
@@ -295,6 +297,7 @@ Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inc
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tei_OpenArabicPE-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:oape="https://openarabicpe.github.io/ns"
@@ -318,13 +321,14 @@ Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inc
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="tei_OpenArabicPE-att.datable-calendar-calendar-constraint-rule-4">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:oape="https://openarabicpe.github.io/ns"
                 context="tei:*[@calendar]">
-            <sch:assert test="string-length(.) gt 0">
-@calendar indicates the system or calendar to which the date represented by the content of this element
-belongs, but this <sch:name/> element has no textual content.</sch:assert>
+            <sch:assert test="string-length(.) gt 0"> @calendar indicates the system or calendar to
+              which the date represented by the content of this element belongs, but this
+              <sch:name/> element has no textual content.</sch:assert>
           </sch:rule>
    </pattern>
    <define name="OpenArabicPE_att.divLike.attributes">
@@ -341,7 +345,7 @@ belongs, but this <sch:name/> element has no textual content.</sch:assert>
             <a:documentation>describes the status of a document either currently or, when associated with a dated element, at the time indicated.
 Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] draft; 6] embargoed; 7] expired; 8] frozen; 9] galley; 10] proposed; 11] published; 12] recommendation; 13] submitted; 14] unfinished; 15] withdrawn</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -373,7 +377,7 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -447,7 +451,8 @@ Sample values include: 1] approved; 2] candidate; 3] cleared; 4] deprecated; 5] 
          <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
                     name="xml:lang"
                     a:defaultValue="ar">
-            <a:documentation>(language) indicates the language of the element content using a tag generated according to BCP 47.
+            <a:documentation>(language) indicates the language of the element content using a tag generated according to <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="http://www.rfc-editor.org/rfc/bcp/bcp47.txt">BCP 47</a>.
 Suggested values include: 1] ar; 2] ota; 3] tr; 4] en; 5] fr; 6] de; 7] he; 8] fa; 9] ar-Latn-x-ijmes; 10] ota-Latn-x-ijmes; 11] ota-Latn-TR; 12] fa-Latn-x-ijmes; 13] ar-Latn-EN; 14] ar-Latn-FR; 15] ar-Latn-x-dmg; 16] de-Arab-AR; 17] en-Arab-AR; 18] fr-Arab-AR</a:documentation>
             <choice>
                <value>ar</value>
@@ -507,7 +512,7 @@ Suggested values include: 1] ar; 2] ota; 3] tr; 4] en; 5] fr; 6] de; 7] he; 8] f
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -528,6 +533,7 @@ Suggested values include: 1] ar; 2] ota; 3] tr; 4] en; 5] fr; 6] de; 7] he; 8] f
    </define>
    <define name="OpenArabicPE_att.measurement.attributes">
       <ref name="OpenArabicPE_att.measurement.attribute.unit"/>
+      <ref name="OpenArabicPE_att.measurement.attribute.unitRef"/>
       <ref name="OpenArabicPE_att.measurement.attribute.quantity"/>
       <ref name="OpenArabicPE_att.measurement.attribute.commodity"/>
    </define>
@@ -535,7 +541,7 @@ Suggested values include: 1] ar; 2] ota; 3] tr; 4] en; 5] fr; 6] de; 7] he; 8] f
       <optional>
          <attribute name="unit">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the units used for the measurement, usually using the standard symbol for the desired units.
-Suggested values include: 1] m (metre) ; 2] kg (kilogram) ; 3] s (second) ; 4] Hz (hertz) ; 5] Pa (pascal) ; 6] Ω (ohm) ; 7] L (litre) ; 8] t (tonne) ; 9] ha (hectare) ; 10] Å (ångström) ; 11] mL (millilitre) ; 12] cm (centimetre) ; 13] dB (decibel) ; 14] kbit (kilobit) ; 15] Kibit (kibibit) ; 16] kB (kilobyte) ; 17] KiB (kibibyte) ; 18] MB (megabyte) ; 19] MiB (mebibyte) </a:documentation>
+Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (hertz); 5] Pa (pascal); 6] Ω (ohm); 7] L (litre); 8] t (tonne); 9] ha (hectare); 10] Å (ångström); 11] mL (millilitre); 12] cm (centimetre); 13] dB (decibel); 14] kbit (kilobit); 15] Kibit (kibibit); 16] kB (kilobyte); 17] KiB (kibibyte); 18] MB (megabyte); 19] MiB (mebibyte)</a:documentation>
             <choice>
                <value>m</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(metre) SI base unit of length</a:documentation>
@@ -547,7 +553,7 @@ Suggested values include: 1] m (metre) ; 2] kg (kilogram) ; 3] s (second) ; 4] H
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(hertz) SI unit of frequency</a:documentation>
                <value>Pa</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(pascal) SI unit of pressure or stress</a:documentation>
-               <value>Ω</value>
+               <value>Ω</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ohm) SI unit of electric resistance</a:documentation>
                <value>L</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(litre) 1 dm³</a:documentation>
@@ -555,7 +561,7 @@ Suggested values include: 1] m (metre) ; 2] kg (kilogram) ; 3] s (second) ; 4] H
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(tonne) 10³ kg</a:documentation>
                <value>ha</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(hectare) 1 hm²</a:documentation>
-               <value>Å</value>
+               <value>Å</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(ångström) 10⁻¹⁰ m</a:documentation>
                <value>mL</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(millilitre) </a:documentation>
@@ -576,9 +582,17 @@ Suggested values include: 1] m (metre) ; 2] kg (kilogram) ; 3] s (second) ; 4] H
                <value>MiB</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(mebibyte) 2²⁰ or 1 048 576 bytes</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </choice>
+         </attribute>
+      </optional>
+   </define>
+   <define name="OpenArabicPE_att.measurement.attribute.unitRef">
+      <optional>
+         <attribute name="unitRef">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a unique identifier stored in the <code xmlns="http://www.w3.org/1999/xhtml">@xml:id</code> of a <code xmlns="http://www.w3.org/1999/xhtml">&lt;unitDef&gt;</code> element that defines a unit of measure.</a:documentation>
+            <data type="anyURI"/>
          </attribute>
       </optional>
    </define>
@@ -603,13 +617,24 @@ Suggested values include: 1] m (metre) ; 2] kg (kilogram) ; 3] s (second) ; 4] H
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
          </attribute>
       </optional>
    </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="tei_OpenArabicPE-att.measurement-att-measurement-unitRef-constraint-rule-5">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:oape="https://openarabicpe.github.io/ns"
+                context="tei:*[@unitRef]">
+        <sch:report test="@unit" role="info">The @unit attribute may be unnecessary when @unitRef is present.</sch:report>
+      </sch:rule>
+   </pattern>
    <define name="OpenArabicPE_att.naming.attributes">
       <ref name="OpenArabicPE_att.canonical.attributes"/>
       <ref name="OpenArabicPE_att.naming.attribute.nymRef"/>
@@ -634,7 +659,7 @@ Suggested values include: 1] m (metre) ; 2] kg (kilogram) ; 3] s (second) ; 4] H
          <attribute name="notation">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">names the notation used for the content of the element.</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -671,7 +696,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                      <value>inspace</value>
                      <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a predefined space, for example left by an earlier scribe.</a:documentation>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </choice>
                </oneOrMore>
@@ -688,7 +713,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <attribute name="type">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -698,14 +723,15 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          <attribute name="subtype">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a sub-categorization of the element, if needed</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="tei_OpenArabicPE-att.typed-subtypeTyped-constraint-rule-5">
+            id="tei_OpenArabicPE-att.typed-subtypeTyped-constraint-rule-6">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:oape="https://openarabicpe.github.io/ns"
@@ -739,7 +765,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -778,7 +804,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
    <define name="OpenArabicPE_att.styleDef.attribute.schemeVersion">
       <optional>
          <attribute name="schemeVersion">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a version number for the style language provided in scheme.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a version number for the style language provided in <code xmlns="http://www.w3.org/1999/xhtml">@scheme</code>.</a:documentation>
             <data type="token">
                <param name="pattern">[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}</param>
             </data>
@@ -786,8 +812,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       </optional>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-            id="tei_OpenArabicPE-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-6">
+            id="tei_OpenArabicPE-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-7">
       <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:xi="http://www.w3.org/2001/XInclude"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:oape="https://openarabicpe.github.io/ns"
@@ -828,7 +855,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
                <value>entry</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies an entry number or label in a list of entries.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </choice>
          </attribute>
@@ -837,9 +864,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    <define name="OpenArabicPE_att.citing.attribute.from">
       <optional>
          <attribute name="from">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the starting point of the range of units indicated by the unit attribute.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the starting point of the range of units indicated by the <code xmlns="http://www.w3.org/1999/xhtml">@unit</code> attribute.</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -847,9 +874,9 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    <define name="OpenArabicPE_att.citing.attribute.to">
       <optional>
          <attribute name="to">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the end-point of the range of units indicated by the unit attribute.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the end-point of the range of units indicated by the <code xmlns="http://www.w3.org/1999/xhtml">@unit</code> attribute.</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </attribute>
       </optional>
@@ -914,29 +941,41 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    <define name="OpenArabicPE_model.hiLike">
       <choice>
          <ref name="OpenArabicPE_hi"/>
+         <ref name="OpenArabicPE_q"/>
       </choice>
    </define>
    <define name="OpenArabicPE_model.hiLike_alternation">
       <choice>
          <ref name="OpenArabicPE_hi"/>
+         <ref name="OpenArabicPE_q"/>
       </choice>
    </define>
    <define name="OpenArabicPE_model.hiLike_sequence">
       <ref name="OpenArabicPE_hi"/>
+      <ref name="OpenArabicPE_q"/>
    </define>
    <define name="OpenArabicPE_model.hiLike_sequenceOptional">
       <optional>
          <ref name="OpenArabicPE_hi"/>
+      </optional>
+      <optional>
+         <ref name="OpenArabicPE_q"/>
       </optional>
    </define>
    <define name="OpenArabicPE_model.hiLike_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="OpenArabicPE_hi"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="OpenArabicPE_q"/>
+      </zeroOrMore>
    </define>
    <define name="OpenArabicPE_model.hiLike_sequenceRepeatable">
       <oneOrMore>
          <ref name="OpenArabicPE_hi"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="OpenArabicPE_q"/>
       </oneOrMore>
    </define>
    <define name="OpenArabicPE_model.emphLike">
@@ -1956,29 +1995,26 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="OpenArabicPE_cit"/>
       </oneOrMore>
    </define>
-   <define name="OpenArabicPE_model.qLike">
+   <define name="OpenArabicPE_model.attributable">
       <choice>
          <ref name="OpenArabicPE_model.quoteLike"/>
          <ref name="OpenArabicPE_said"/>
-         <ref name="OpenArabicPE_q"/>
          <ref name="OpenArabicPE_floatingText"/>
       </choice>
    </define>
-   <define name="OpenArabicPE_model.qLike_alternation">
+   <define name="OpenArabicPE_model.attributable_alternation">
       <choice>
          <ref name="OpenArabicPE_model.quoteLike_alternation"/>
          <ref name="OpenArabicPE_said"/>
-         <ref name="OpenArabicPE_q"/>
          <ref name="OpenArabicPE_floatingText"/>
       </choice>
    </define>
-   <define name="OpenArabicPE_model.qLike_sequence">
+   <define name="OpenArabicPE_model.attributable_sequence">
       <ref name="OpenArabicPE_model.quoteLike_sequence"/>
       <ref name="OpenArabicPE_said"/>
-      <ref name="OpenArabicPE_q"/>
       <ref name="OpenArabicPE_floatingText"/>
    </define>
-   <define name="OpenArabicPE_model.qLike_sequenceOptional">
+   <define name="OpenArabicPE_model.attributable_sequenceOptional">
       <optional>
          <ref name="OpenArabicPE_model.quoteLike_sequenceOptional"/>
       </optional>
@@ -1986,13 +2022,10 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="OpenArabicPE_said"/>
       </optional>
       <optional>
-         <ref name="OpenArabicPE_q"/>
-      </optional>
-      <optional>
          <ref name="OpenArabicPE_floatingText"/>
       </optional>
    </define>
-   <define name="OpenArabicPE_model.qLike_sequenceOptionalRepeatable">
+   <define name="OpenArabicPE_model.attributable_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="OpenArabicPE_model.quoteLike_sequenceOptionalRepeatable"/>
       </zeroOrMore>
@@ -2000,21 +2033,15 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="OpenArabicPE_said"/>
       </zeroOrMore>
       <zeroOrMore>
-         <ref name="OpenArabicPE_q"/>
-      </zeroOrMore>
-      <zeroOrMore>
          <ref name="OpenArabicPE_floatingText"/>
       </zeroOrMore>
    </define>
-   <define name="OpenArabicPE_model.qLike_sequenceRepeatable">
+   <define name="OpenArabicPE_model.attributable_sequenceRepeatable">
       <oneOrMore>
          <ref name="OpenArabicPE_model.quoteLike_sequenceRepeatable"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="OpenArabicPE_said"/>
-      </oneOrMore>
-      <oneOrMore>
-         <ref name="OpenArabicPE_q"/>
       </oneOrMore>
       <oneOrMore>
          <ref name="OpenArabicPE_floatingText"/>
@@ -2054,6 +2081,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
       <choice>
          <ref name="OpenArabicPE_head"/>
          <ref name="OpenArabicPE_byline"/>
+         <ref name="OpenArabicPE_dateline"/>
       </choice>
    </define>
    <define name="OpenArabicPE_model.divBottomPart">
@@ -2253,13 +2281,14 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="OpenArabicPE_model.labelLike"/>
          <ref name="OpenArabicPE_model.listLike"/>
          <ref name="OpenArabicPE_model.stageLike"/>
-         <ref name="OpenArabicPE_model.qLike"/>
+         <ref name="OpenArabicPE_model.attributable"/>
       </choice>
    </define>
    <define name="OpenArabicPE_model.common">
       <choice>
          <ref name="OpenArabicPE_model.divPart"/>
          <ref name="OpenArabicPE_model.inter"/>
+         <ref name="OpenArabicPE_q"/>
       </choice>
    </define>
    <define name="OpenArabicPE_model.phrase">
@@ -2298,6 +2327,19 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
    <define name="OpenArabicPE_model.div1Like">
       <notAllowed/>
    </define>
+   <define name="OpenArabicPE_model.annotationLike">
+      <choice>
+         <ref name="OpenArabicPE_note"/>
+         <ref name="OpenArabicPE_annotation"/>
+      </choice>
+   </define>
+   <define name="OpenArabicPE_model.annotationPart.body">
+      <choice>
+         <ref name="OpenArabicPE_ptr"/>
+         <ref name="OpenArabicPE_ref"/>
+         <ref name="OpenArabicPE_note"/>
+      </choice>
+   </define>
    <define name="OpenArabicPE_model.teiHeaderPart">
       <choice>
          <ref name="OpenArabicPE_encodingDesc"/>
@@ -2314,6 +2356,7 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="OpenArabicPE_editorialDecl"/>
          <ref name="OpenArabicPE_refsDecl"/>
          <ref name="OpenArabicPE_listPrefixDef"/>
+         <ref name="OpenArabicPE_unitDecl"/>
       </choice>
    </define>
    <define name="OpenArabicPE_model.editorialDeclPart">
@@ -2329,10 +2372,39 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
          <ref name="OpenArabicPE_settingDesc"/>
       </choice>
    </define>
-   <define name="OpenArabicPE_model.resourceLike">
+   <define name="OpenArabicPE_model.standOffPart">
+      <choice>
+         <ref name="OpenArabicPE_model.global.meta"/>
+         <ref name="OpenArabicPE_model.biblLike"/>
+         <ref name="OpenArabicPE_model.listLike"/>
+         <ref name="OpenArabicPE_model.annotationLike"/>
+         <ref name="OpenArabicPE_seg"/>
+         <ref name="OpenArabicPE_listAnnotation"/>
+         <ref name="OpenArabicPE_zone"/>
+      </choice>
+   </define>
+   <define name="OpenArabicPE_att.formula.attributes">
+      <ref name="OpenArabicPE_att.formula.attribute.formula"/>
+   </define>
+   <define name="OpenArabicPE_att.formula.attribute.formula">
+      <optional>
+         <attribute name="formula">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">An <code xmlns="http://www.w3.org/1999/xhtml">@formula</code> is provided to describe a mathematical calculation such as a conversion between measurement systems.</a:documentation>
+            <text/>
+         </attribute>
+      </optional>
+   </define>
+   <define name="OpenArabicPE_model.resource">
       <choice>
          <ref name="OpenArabicPE_text"/>
+         <ref name="OpenArabicPE_standOff"/>
          <ref name="OpenArabicPE_facsimile"/>
+      </choice>
+   </define>
+   <define name="OpenArabicPE_model.describedResource">
+      <choice>
+         <ref name="OpenArabicPE_teiCorpus"/>
+         <ref name="OpenArabicPE_TEI"/>
       </choice>
    </define>
    <define name="OpenArabicPE_model.objectLike">
@@ -2367,11 +2439,11 @@ Suggested values include: 1] volume; 2] issue; 3] page; 4] line; 5] chapter; 6] 
 Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] canto; 7] speaker; 8] stanza; 9] act; 10] scene; 11] section; 12] absent; 13] unnumbered</a:documentation>
          <choice>
             <value>page</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">physical page breaks (synonymous with the pb element).</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">physical page breaks (synonymous with the <code xmlns="http://www.w3.org/1999/xhtml">&lt;pb&gt;</code> element).</a:documentation>
             <value>column</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">column breaks.</a:documentation>
             <value>line</value>
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">line breaks (synonymous with the lb element).</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">line breaks (synonymous with the <code xmlns="http://www.w3.org/1999/xhtml">&lt;lb&gt;</code> element).</a:documentation>
             <value>book</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">any units termed book, liber, etc.</a:documentation>
             <value>poem</value>
@@ -2393,7 +2465,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
             <value>unnumbered</value>
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">passages present in the text, but not to be included as part of the reference.</a:documentation>
             <data type="token">
-               <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+               <param name="pattern">[^\p{C}\p{Z}]+</param>
             </data>
          </choice>
       </attribute>
@@ -2511,7 +2583,7 @@ Suggested values include: 1] brackets; 2] quotation-marks</a:documentation>
                         <value>quotation-marks</value>
                         <a:documentation/>
                         <data type="token">
-                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -2552,7 +2624,7 @@ Suggested values include: 1] brackets; 2] quotation-marks</a:documentation>
                         <value>quotation-marks</value>
                         <a:documentation/>
                         <data type="token">
-                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -2583,7 +2655,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
                   <value>mentioned</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">refering to itself, not its normal referent</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -2596,12 +2668,15 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(cited quotation) contains a quotation from some other document, together with a bibliographic reference to its source. In a dictionary it may contain an example text with at least one occurrence of the word form, used in the sense being described, or a translation of the headword, or an example. [3.3.3. Quotation 4.3.1. Grouped Texts 9.3.5.1. Examples]</a:documentation>
          <oneOrMore>
             <choice>
-               <ref name="OpenArabicPE_model.qLike"/>
-               <ref name="OpenArabicPE_model.egLike"/>
                <ref name="OpenArabicPE_model.biblLike"/>
-               <ref name="OpenArabicPE_model.ptrLike"/>
-               <ref name="OpenArabicPE_model.global"/>
+               <ref name="OpenArabicPE_model.egLike"/>
                <ref name="OpenArabicPE_model.entryPart"/>
+               <ref name="OpenArabicPE_model.global"/>
+               <ref name="OpenArabicPE_model.graphicLike"/>
+               <ref name="OpenArabicPE_model.ptrLike"/>
+               <ref name="OpenArabicPE_model.attributable"/>
+        
+               <ref name="OpenArabicPE_q"/>
             </choice>
          </oneOrMore>
          <ref name="OpenArabicPE_att.global.attributes"/>
@@ -2734,7 +2809,7 @@ Suggested values include: 1] cancelled; 2] deleted; 3] editorial; 4] illegible; 
                         <value>sampling</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <data type="token">
-                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -2746,7 +2821,7 @@ Suggested values include: 1] cancelled; 2] deleted; 3] editorial; 4] illegible; 
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in the case of text omitted because of damage, categorizes the cause of the damage, if it can be identified.
 Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -2836,7 +2911,7 @@ Suggested values include: 1] illegible; 2] inaudible; 3] faded; 4] background_no
                         <value>eccentric_ductus</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <data type="token">
-                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -2848,7 +2923,7 @@ Suggested values include: 1] illegible; 2] inaudible; 3] faded; 4] background_no
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Where the difficulty in transcription arises from damage, categorizes the cause of the damage, if it can be identified.
 Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -2883,8 +2958,27 @@ Measures]</a:documentation>
          <ref name="OpenArabicPE_macro.phraseSeq"/>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <optional>
+            <attribute name="type">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of numeric value.
+Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a:documentation>
+               <choice>
+                  <value>cardinal</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">absolute number, e.g. 21, 21.5</a:documentation>
+                  <value>ordinal</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ordinal number, e.g. 21st</a:documentation>
+                  <value>fraction</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">fraction, e.g. one half or three-quarters</a:documentation>
+                  <value>percentage</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a percentage</a:documentation>
+                  <data type="token">
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
+                  </data>
+               </choice>
+            </attribute>
+         </optional>
+         <optional>
             <attribute name="subtype">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides a sub-categorization of the element, if needed
 Suggested values include: 1] d1; 2] d2; 3] d3; 4] d4; 5] d5; 6] d6</a:documentation>
                <choice>
                   <value>d1</value>
@@ -2899,25 +2993,8 @@ Suggested values include: 1] d1; 2] d2; 3] d3; 4] d4; 5] d5; 6] d6</a:documentat
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Five digits</a:documentation>
                   <value>d6</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Six digits</a:documentation>
-                  <data type="Name"/>
-               </choice>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of numeric value.
-Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a:documentation>
-               <choice>
-                  <value>cardinal</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">absolute number, e.g. 21, 21.5</a:documentation>
-                  <value>ordinal</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">ordinal number, e.g. 21st</a:documentation>
-                  <value>fraction</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">fraction, e.g. one half or three-quarters</a:documentation>
-                  <value>percentage</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a percentage</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -2943,12 +3020,13 @@ Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage</a
 Measures]</a:documentation>
          <ref name="OpenArabicPE_macro.phraseSeq"/>
          <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.typed.attribute.subtype"/>
          <ref name="OpenArabicPE_att.measurement.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the type of measurement in any convenient typology.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -3027,18 +3105,19 @@ Measures]</a:documentation>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tei_OpenArabicPE-date-calendar-calendar-constraint-rule-8">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:oape="https://openarabicpe.github.io/ns"
                       context="tei:*[@calendar]">
-               <sch:assert test="string-length(.) gt 0">
-@calendar indicates the system or calendar to which the date represented by the content of this element
-belongs, but this <sch:name/> element has no textual content.</sch:assert>
+               <sch:assert test="string-length(.) gt 0"> @calendar indicates the system or calendar to
+              which the date represented by the content of this element belongs, but this
+              <sch:name/> element has no textual content.</sch:assert>
             </sch:rule>
          </pattern>
          <optional>
             <attribute name="datingMethod">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;calendar&gt;</code> element or other means of interpreting the values of the custom dating attributes.</a:documentation>
                <choice>
                   <value>#cal_gregorian</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gregorian calendar</a:documentation>
@@ -3065,7 +3144,7 @@ Suggested values include: 1] official; 2] scheduled; 3] supplied</a:documentatio
                   <value>supplied</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A publication date as indicated by other sources</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -3087,6 +3166,7 @@ Suggested values include: 1] official; 2] scheduled; 3] supplied</a:documentatio
          </zeroOrMore>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <ref name="OpenArabicPE_att.datable.attributes"/>
+         <ref name="OpenArabicPE_att.canonical.attributes"/>
          <ref name="OpenArabicPE_att.dimensions.attributes"/>
          <ref name="OpenArabicPE_att.typed.attributes"/>
          <empty/>
@@ -3103,7 +3183,7 @@ Suggested values include: 1] official; 2] scheduled; 3] supplied</a:documentatio
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">allows the encoder to classify the abbreviation according to some convenient typology.
 Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscription; 5] acronym; 6] title; 7] organization; 8] geographic</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -3129,11 +3209,11 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
 attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
          </pattern>
-         <ref name="OpenArabicPE_att.global.attributes"/>
-         <ref name="OpenArabicPE_att.pointing.attributes"/>
-         <ref name="OpenArabicPE_att.internetMedia.attributes"/>
-         <ref name="OpenArabicPE_att.typed.attributes"/>
          <ref name="OpenArabicPE_att.cReferencing.attributes"/>
+         <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.internetMedia.attributes"/>
+         <ref name="OpenArabicPE_att.pointing.attributes"/>
+         <ref name="OpenArabicPE_att.typed.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3149,11 +3229,11 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                </report>
             </rule>
          </pattern>
-         <ref name="OpenArabicPE_att.global.attributes"/>
-         <ref name="OpenArabicPE_att.pointing.attributes"/>
-         <ref name="OpenArabicPE_att.internetMedia.attributes"/>
-         <ref name="OpenArabicPE_att.typed.attributes"/>
          <ref name="OpenArabicPE_att.cReferencing.attributes"/>
+         <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.internetMedia.attributes"/>
+         <ref name="OpenArabicPE_att.pointing.attributes"/>
+         <ref name="OpenArabicPE_att.typed.attributes"/>
          <empty/>
       </element>
    </define>
@@ -3166,10 +3246,8 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                <choice>
           
                   <ref name="OpenArabicPE_model.divTop"/>
-          
-          
                   <ref name="OpenArabicPE_model.global"/>
-          
+                      
                </choice>
             </zeroOrMore>
       
@@ -3241,7 +3319,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
 Suggested values include: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syllogism</a:documentation>
                <choice>
                   <value>gloss</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">each list item glosses some term or concept, which is given by a label element preceding the list item.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">each list item glosses some term or concept, which is given by a <code xmlns="http://www.w3.org/1999/xhtml">&lt;label&gt;</code> element preceding the list item.</a:documentation>
                   <value>index</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">each list item is an entry in an index such as the alphabetical topical index at the back of a print volume.</a:documentation>
                   <value>instructions</value>
@@ -3251,7 +3329,7 @@ Suggested values include: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syl
                   <value>syllogism</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">each list item is part of an argument consisting of two or more propositions and a final conclusion derived from them.</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -3289,7 +3367,7 @@ Suggested values include: 1] block; 2] inline</a:documentation>
                         <value>inline</value>
                         <a:documentation/>
                         <data type="token">
-                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -3385,7 +3463,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                         <value>inspace</value>
                         <a:documentation>in a predefined space, for example left by an earlier scribe.</a:documentation>
                         <data type="token">
-                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -3398,21 +3476,22 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
 Suggested values include: 1] bibliographic; 2] editorial; 3] endnote; 4] footnote; 5] gloss; 6] inline; 7] tagList</a:documentation>
                <choice>
                   <value>bibliographic</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Note identifying authors, editors, or other sources of a text for cases that canot be covered by a byline.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Note identifying authors, editors, or other sources of a text for cases that canot be covered by a <code xmlns="http://www.w3.org/1999/xhtml">&lt;byline&gt;</code>.</a:documentation>
                   <value>editorial</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Note added by editors of the digital edition. The editor is identified by means of resp</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Note added by editors of the digital edition. The editor is identified by means of <code xmlns="http://www.w3.org/1999/xhtml">@resp</code>
+                  </a:documentation>
                   <value>endnote</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Discouraged: use place='end' instead.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Discouraged: use <code xmlns="http://www.w3.org/1999/xhtml">@place</code>='end' instead.</a:documentation>
                   <value>footnote</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Discouraged: use place='bottom' instead.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Discouraged: use <code xmlns="http://www.w3.org/1999/xhtml">@place</code>='bottom' instead.</a:documentation>
                   <value>gloss</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Discouraged: use place='margin' instead.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Discouraged: use <code xmlns="http://www.w3.org/1999/xhtml">@place</code>='margin' instead.</a:documentation>
                   <value>inline</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Discouraged: use place='inline' instead.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Discouraged: use <code xmlns="http://www.w3.org/1999/xhtml">@place</code>='inline' instead.</a:documentation>
                   <value>tagList</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Note containing a list of tags to be used mainly in authority files for further computational transformations and analysis</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -3491,9 +3570,9 @@ Suggested values include: 1] print; 2] shamela</a:documentation>
                      <value>print</value>
                      <a:documentation>Page beginning, i.e. break, according to a printed edition</a:documentation>
                      <value>shamela</value>
-                     <a:documentation>Page beginning, i.e. break, as found in the transcription from Maktabat al-Shamela</a:documentation>
+                     <a:documentation>Page beginning, i.e. break, as found in the transcription from al-Maktaba al-Shamela</a:documentation>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </choice>
                </oneOrMore>
@@ -3503,13 +3582,13 @@ Suggested values include: 1] print; 2] shamela</a:documentation>
             <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
                        name="edRef"
                        a:defaultValue="#edition_1">
-               <a:documentation>(edition reference) Points to the xml:id of the corresponding print edition
+               <a:documentation>(edition reference) Points to the <code xmlns="http://www.w3.org/1999/xhtml">@xml:id</code> of the corresponding print edition
 Suggested values include: 1] #edition_1</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
                         <value>#edition_1</value>
-                        <a:documentation>Points to an exemplary xml:id of a biblStruct describing the corresponding print edition.</a:documentation>
+                        <a:documentation>Points to an exemplary <code xmlns="http://www.w3.org/1999/xhtml">@xml:id</code> of a <code xmlns="http://www.w3.org/1999/xhtml">&lt;biblStruct&gt;</code> describing the corresponding print edition.</a:documentation>
                         <data type="anyURI"/>
                      </choice>
                   </oneOrMore>
@@ -3540,7 +3619,7 @@ Suggested values include: 1] print; 2] shamela</a:documentation>
                         <value>shamela</value>
                         <a:documentation>Line beginning, i.e. break, as found in the transcription from Maktabat al-Shamela</a:documentation>
                         <data type="token">
-                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -3551,13 +3630,13 @@ Suggested values include: 1] print; 2] shamela</a:documentation>
             <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
                        name="edRef"
                        a:defaultValue="#edition_1">
-               <a:documentation>(edition reference) Points to the xml:id of the corresponding print edition
+               <a:documentation>(edition reference) Points to the <code xmlns="http://www.w3.org/1999/xhtml">@xml:id</code> of the corresponding print edition
 Suggested values include: 1] #edition_1</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
                         <value>#edition_1</value>
-                        <a:documentation>Exemplary xml:id of a biblStruct describing the corresponding print edition.</a:documentation>
+                        <a:documentation>Exemplary <code xmlns="http://www.w3.org/1999/xhtml">@xml:id</code> of a <code xmlns="http://www.w3.org/1999/xhtml">&lt;biblStruct&gt;</code> describing the corresponding print edition.</a:documentation>
                         <data type="anyURI"/>
                      </choice>
                   </oneOrMore>
@@ -3588,7 +3667,7 @@ Suggested values include: 1] print; 2] shamela</a:documentation>
                         <value>shamela</value>
                         <a:documentation>Column beginning, i.e. break, as found in the transcription from Maktabat al-Shamela</a:documentation>
                         <data type="token">
-                           <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                           <param name="pattern">[^\p{C}\p{Z}]+</param>
                         </data>
                      </choice>
                   </oneOrMore>
@@ -3599,13 +3678,13 @@ Suggested values include: 1] print; 2] shamela</a:documentation>
             <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
                        name="edRef"
                        a:defaultValue="#edition_1">
-               <a:documentation>(edition reference) Points to the xml:id of the corresponding print edition
+               <a:documentation>(edition reference) Points to the <code xmlns="http://www.w3.org/1999/xhtml">@xml:id</code> of the corresponding print edition
 Suggested values include: 1] #edition_1</a:documentation>
                <list>
                   <oneOrMore>
                      <choice>
                         <value>#edition_1</value>
-                        <a:documentation>Points to an exemplary xml:id of a biblStruct describing the corresponding print edition.</a:documentation>
+                        <a:documentation>Points to an exemplary <code xmlns="http://www.w3.org/1999/xhtml">@xml:id</code> of a <code xmlns="http://www.w3.org/1999/xhtml">&lt;biblStruct&gt;</code> describing the corresponding print edition.</a:documentation>
                         <data type="anyURI"/>
                      </choice>
                   </oneOrMore>
@@ -3813,15 +3892,15 @@ Suggested values include: 1] #edition_1</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]</a:documentation>
          <ref name="OpenArabicPE_macro.paraContent"/>
          <ref name="OpenArabicPE_att.global.attributes"/>
-         <ref name="OpenArabicPE_att.canonical.attributes"/>
          <ref name="OpenArabicPE_att.typed.attribute.subtype"/>
+         <ref name="OpenArabicPE_att.canonical.attributes"/>
          <ref name="OpenArabicPE_att.datable.attributes"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the title according to some convenient typology.
-Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] short; 5] desc (descriptive) </a:documentation>
+Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -3948,7 +4027,7 @@ Suggested values include: 1] book; 2] periodical</a:documentation>
                   <value>periodical</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A periodical publication</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -3963,7 +4042,7 @@ Suggested values include: 1] journal; 2] newspaper</a:documentation>
                   <value>newspaper</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A type of periodical publication that is called jarīda in Arabic.</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -4024,7 +4103,7 @@ Suggested values include: 1] book; 2] periodical</a:documentation>
                   <value>periodical</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A periodical publication</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -4039,7 +4118,7 @@ Suggested values include: 1] journal; 2] newspaper</a:documentation>
                   <value>newspaper</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A type of periodical publication that is called jarīda in Arabic.</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -4079,6 +4158,7 @@ Suggested values include: 1] daily; 2] weekly; 3] biweekly; 4] fortnightly; 5] m
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
+        
       
       
             <oneOrMore>
@@ -4131,7 +4211,7 @@ Suggested values include: 1] daily; 2] weekly; 3] biweekly; 4] fortnightly; 5] m
                        a:defaultValue="bayt">
                <a:documentation>characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -4187,7 +4267,7 @@ Suggested values include: 1] daily; 2] weekly; 3] biweekly; 4] fortnightly; 5] m
                            xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:oape="https://openarabicpe.github.io/ns"
                            test="count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) &gt; 0">An lg element
-        must contain at least one child l, lg or gap element.</sch:assert>
+        must contain at least one child l, lg, or gap element.</sch:assert>
             </rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -4207,34 +4287,15 @@ Suggested values include: 1] daily; 2] weekly; 3] biweekly; 4] fortnightly; 5] m
    </define>
    <define name="OpenArabicPE_teiCorpus">
       <element name="teiCorpus">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more TEI elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <group>
             <ref name="OpenArabicPE_teiHeader"/>
-            <choice>
-               <group>
-          
-                  <oneOrMore>
-                     <ref name="OpenArabicPE_model.resourceLike"/>
-                  </oneOrMore>
-          
-          
-                  <zeroOrMore>
-                     <choice>
-                        <ref name="OpenArabicPE_TEI"/>
-                        <ref name="OpenArabicPE_teiCorpus"/>
-                     </choice>
-                  </zeroOrMore>
-          
-               </group>
-        
-               <oneOrMore>
-                  <choice>
-                     <ref name="OpenArabicPE_TEI"/>
-                     <ref name="OpenArabicPE_teiCorpus"/>
-                  </choice>
-               </oneOrMore>
-        
-            </choice>
+            <zeroOrMore>
+               <ref name="OpenArabicPE_model.resource"/>
+            </zeroOrMore>
+            <oneOrMore>
+               <ref name="OpenArabicPE_model.describedResource"/>
+            </oneOrMore>
          </group>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <ref name="OpenArabicPE_att.typed.attributes"/>
@@ -4297,7 +4358,7 @@ Suggested values include: 1] daily; 2] weekly; 3] biweekly; 4] fortnightly; 5] m
    </define>
    <define name="OpenArabicPE_att.patternReplacement.attribute.replacementPattern">
       <attribute name="replacementPattern">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a replacement pattern, that is, the skeleton of a relative or absolute URI containing references to groups in the matchPattern which, once subpattern substitution has been performed, complete the URI.</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies a replacement pattern, that is, the skeleton of a relative or absolute URI containing references to groups in the <code xmlns="http://www.w3.org/1999/xhtml">@matchPattern</code> which, once subpattern substitution has been performed, complete the URI.</a:documentation>
          <text/>
       </attribute>
    </define>
@@ -4306,16 +4367,12 @@ Suggested values include: 1] daily; 2] weekly; 3] biweekly; 4] fortnightly; 5] m
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]</a:documentation>
          <group>
             <ref name="OpenArabicPE_fileDesc"/>
-      
             <zeroOrMore>
                <ref name="OpenArabicPE_model.teiHeaderPart"/>
             </zeroOrMore>
-      
-      
             <optional>
                <ref name="OpenArabicPE_revisionDesc"/>
             </optional>
-      
          </group>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <empty/>
@@ -4461,7 +4518,7 @@ Suggested values include: 1] daily; 2] weekly; 3] biweekly; 4] fortnightly; 5] m
    </define>
    <define name="OpenArabicPE_idno">
       <element name="idno">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
          <zeroOrMore>
             <choice>
                <text/>
@@ -4478,7 +4535,9 @@ Suggested values include: 1] daily; 2] weekly; 3] biweekly; 4] fortnightly; 5] m
 Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC</a:documentation>
                <choice>
                   <value>ISBN</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the International ISBN Agency.</a:documentation>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the <a xmlns="http://www.w3.org/1999/xhtml"
+                        href="https://www.isbn-international.org"> International ISBN Agency.</a>
+                  </a:documentation>
                   <value>ISSN</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">International Standard Serial Number: an eight-digit number to uniquely identify a serial publication.</a:documentation>
                   <value>DOI</value>
@@ -4492,7 +4551,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                   <value>OCLC</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OCLC control number (record number) for the union catalog record in WorldCat, a union catalog for member libraries in the Online Computer Library Center global cooperative.</a:documentation>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -4551,14 +4610,11 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
    </define>
    <define name="OpenArabicPE_sourceDesc">
       <element name="sourceDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
          <choice>
-      
             <oneOrMore>
                <ref name="OpenArabicPE_model.pLike"/>
             </oneOrMore>
-      
-      
             <oneOrMore>
                <choice>
                   <ref name="OpenArabicPE_model.biblLike"/>
@@ -4566,7 +4622,6 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                   <ref name="OpenArabicPE_model.listLike"/>
                </choice>
             </oneOrMore>
-      
          </choice>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <empty/>
@@ -4704,7 +4759,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="OpenArabicPE_prefixDef">
       <element name="prefixDef">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(prefix definition) defines a prefixing scheme used in data.pointer values, showing how abbreviated URIs using the scheme may be expanded into full URIs. [16.2.3. Using Abbreviated Pointers]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(prefix definition) defines a prefixing scheme used in teidata.pointer values, showing how abbreviated URIs using the scheme may be expanded into full URIs. [16.2.3. Using Abbreviated Pointers]</a:documentation>
          <zeroOrMore>
             <ref name="OpenArabicPE_model.pLike"/>
          </zeroOrMore>
@@ -4721,14 +4776,71 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="OpenArabicPE_listPrefixDef">
       <element name="listPrefixDef">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of prefix definitions) contains a list of definitions of prefixing schemes used in data.pointer values, showing how abbreviated URIs using each scheme may be expanded into full URIs. [16.2.3. Using Abbreviated Pointers]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of prefix definitions) contains a list of definitions of prefixing schemes used in teidata.pointer values, showing how abbreviated URIs using each scheme may be expanded into full URIs. [16.2.3. Using Abbreviated Pointers]</a:documentation>
+         <group>
+      
+            <oneOrMore>
+               <choice>
+                  <ref name="OpenArabicPE_prefixDef"/>
+                  <ref name="OpenArabicPE_listPrefixDef"/>
+               </choice>
+            </oneOrMore>
+         </group>
+         <ref name="OpenArabicPE_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="OpenArabicPE_unitDecl">
+      <element name="unitDecl">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unit declarations) provides information about units of measurement that are not members of the International System of Units. [2.3.9. The Unit Declaration]</a:documentation>
+         <oneOrMore>
+            <ref name="OpenArabicPE_unitDef"/>
+         </oneOrMore>
+         <ref name="OpenArabicPE_att.canonical.attributes"/>
+         <ref name="OpenArabicPE_att.datable.attributes"/>
+         <ref name="OpenArabicPE_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="OpenArabicPE_unitDef">
+      <element name="unitDef">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(unit definition) contains descriptive information related to a specific unit of measurement. [2.3.9. The Unit Declaration]</a:documentation>
          <oneOrMore>
             <choice>
-               <ref name="OpenArabicPE_prefixDef"/>
-               <ref name="OpenArabicPE_listPrefixDef"/>
+               <ref name="OpenArabicPE_model.labelLike"/>
+               <optional>
+                  <ref name="OpenArabicPE_model.placeNamePart"/>
+               </optional>
+               <optional>
+                  <ref name="OpenArabicPE_conversion"/>
+               </optional>
+               <optional>
+                  <ref name="OpenArabicPE_unit"/>
+               </optional>     
             </choice>
          </oneOrMore>
          <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.datable.attributes"/>
+         <ref name="OpenArabicPE_att.canonical.attributes"/>
+         <ref name="OpenArabicPE_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="OpenArabicPE_conversion">
+      <element name="conversion">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines how to calculate one unit of measure in terms of another. [2.3.9. The Unit Declaration]</a:documentation>
+         <empty/>
+         <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.datable.attributes"/>
+         <ref name="OpenArabicPE_att.formula.attributes"/>
+         <attribute name="fromUnit">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates a source unit of measure that is to be converted into another unit indicated in <code xmlns="http://www.w3.org/1999/xhtml">@toUnit</code>.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
+         <attribute name="toUnit">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the target unit of measurement for a conversion from a source unit referenced in <code xmlns="http://www.w3.org/1999/xhtml">@fromUnit</code>.</a:documentation>
+            <data type="anyURI"/>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -4767,7 +4879,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="OpenArabicPE_macro.phraseSeq.limited"/>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <attribute name="ident">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the language documented by this element, and which is referenced by the global xml:lang attribute.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) Supplies a language code constructed as defined in <a xmlns="http://www.w3.org/1999/xhtml"
+                  href="https://tools.ietf.org/html/bcp47">BCP 47</a> which is used to identify the language documented by this element, and which is referenced by the global <code xmlns="http://www.w3.org/1999/xhtml">@xml:lang</code> attribute.</a:documentation>
             <choice>
                <data type="language"/>
                <choice>
@@ -4825,7 +4938,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="OpenArabicPE_change">
       <element name="change">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.6. Identifying Changes and Revisions]</a:documentation>
          <ref name="OpenArabicPE_macro.specialPara"/>
          <ref name="OpenArabicPE_att.ascribed.attributes"/>
          <ref name="OpenArabicPE_att.datable.attributes"/>
@@ -4847,22 +4960,41 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="OpenArabicPE_TEI">
       <element name="TEI">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple TEI elements may be combined to form a teiCorpus element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> elements may be combined within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> (or <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code>) element. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <group>
             <ref name="OpenArabicPE_teiHeader"/>
-            <oneOrMore>
-               <ref name="OpenArabicPE_model.resourceLike"/>
-            </oneOrMore>
+            <choice>
+	              <group>
+	                 <oneOrMore>
+                     <ref name="OpenArabicPE_model.resource"/>
+                  </oneOrMore>
+	                 <zeroOrMore>
+                     <ref name="OpenArabicPE_TEI"/>
+                  </zeroOrMore>
+	              </group>
+	              <oneOrMore>
+                  <ref name="OpenArabicPE_TEI"/>
+               </oneOrMore>
+            </choice>
          </group>
-         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
-             prefix="tei"
-             uri="http://www.tei-c.org/ns/1.0"/>
-         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
-             prefix="xs"
-             uri="http://www.w3.org/2001/XMLSchema"/>
-         <ns xmlns="http://purl.oclc.org/dsdl/schematron"
-             prefix="rng"
-             uri="http://relaxng.org/ns/structure/1.0"/>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:oape="https://openarabicpe.github.io/ns"
+                 prefix="tei"
+                 uri="http://www.tei-c.org/ns/1.0"/>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:oape="https://openarabicpe.github.io/ns"
+                 prefix="xs"
+                 uri="http://www.w3.org/2001/XMLSchema"/>
+         <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:oape="https://openarabicpe.github.io/ns"
+                 prefix="rng"
+                 uri="http://relaxng.org/ns/structure/1.0"/>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <ref name="OpenArabicPE_att.typed.attributes"/>
          <optional>
@@ -4880,38 +5012,30 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
       <element name="text">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="OpenArabicPE_model.global"/>
             </zeroOrMore>
-      
             <optional>
                <group>
                   <ref name="OpenArabicPE_front"/>
-        
-                  <zeroOrMore>
+	                 <zeroOrMore>
                      <ref name="OpenArabicPE_model.global"/>
                   </zeroOrMore>
-        
                </group>
             </optional>
             <choice>
                <ref name="OpenArabicPE_body"/>
                <ref name="OpenArabicPE_group"/>
             </choice>
-      
             <zeroOrMore>
                <ref name="OpenArabicPE_model.global"/>
             </zeroOrMore>
-      
             <optional>
                <group>
                   <ref name="OpenArabicPE_back"/>
-        
-                  <zeroOrMore>
+	                 <zeroOrMore>
                      <ref name="OpenArabicPE_model.global"/>
                   </zeroOrMore>
-        
                </group>
             </optional>
          </group>
@@ -5258,7 +5382,7 @@ Suggested values include: 1] item; 2] section; 3] volume; 4] issue</a:documentat
                <value>issue</value>
                <a:documentation/>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </choice>
          </attribute>
@@ -5282,7 +5406,7 @@ Suggested values include: 1] article; 2] bill; 3] advert; 4] letter; 5] masthead
                   <value>verse</value>
                   <a:documentation/>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </choice>
             </attribute>
@@ -5306,6 +5430,7 @@ Suggested values include: 1] article; 2] bill; 3] advert; 4] letter; 5] masthead
          </zeroOrMore>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <ref name="OpenArabicPE_att.typed.attributes"/>
+         <ref name="OpenArabicPE_att.placement.attributes"/>
          <empty/>
       </element>
    </define>
@@ -5530,9 +5655,9 @@ Suggested values include: 1] article; 2] bill; 3] advert; 4] letter; 5] masthead
                        name="scheme"
                        a:defaultValue="TEI">
                <a:documentation>supplies an identifier for the scheme in which this name is defined.
-Sample values include: 1] TEI (Text Encoding Initiative) ; 2] DBK (Docbook) ; 3] XX (unknown) ; 4] imaginary; 5] XHTML; 6] XML; 7] XI</a:documentation>
+Sample values include: 1] TEI (Text Encoding Initiative); 2] DBK (Docbook); 3] XX (unknown); 4] imaginary; 5] XHTML; 6] XML; 7] XI</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -5549,9 +5674,9 @@ Sample values include: 1] TEI (Text Encoding Initiative) ; 2] DBK (Docbook) ; 3]
                        name="scheme"
                        a:defaultValue="TEI">
                <a:documentation>supplies the name of the scheme in which this name is defined.
-Sample values include: 1] TEI; 2] DBK (docbook) ; 3] XX (unknown) ; 4] Schematron; 5] HTML</a:documentation>
+Sample values include: 1] TEI; 2] DBK (docbook); 3] XX (unknown); 4] Schematron; 5] HTML</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -5563,23 +5688,13 @@ Sample values include: 1] TEI; 2] DBK (docbook) ; 3] XX (unknown) ; 4] Schematro
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains text of a complete start- or end-tag, possibly including attribute specifications, but excluding the opening and closing markup delimiter characters. [22. Documentation Elements]</a:documentation>
          <text/>
          <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.typed.attribute.subtype"/>
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the type of XML tag intended</a:documentation>
-               <choice>
-                  <value>start</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a start-tag, with delimiters &lt; and &gt; is intended</a:documentation>
-                  <value>end</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">an end-tag, with delimiters &lt;/ and &gt; is intended</a:documentation>
-                  <value>empty</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a empty tag, with delimiters &lt; and /&gt; is intended</a:documentation>
-                  <value>pi</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a pi (processing instruction), with delimiters &lt;? and ?&gt; is intended</a:documentation>
-                  <value>comment</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a comment, with delimiters &lt;!-- and --&gt; is intended</a:documentation>
-                  <value>ms</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">a marked-section, with delimiters &lt;[CDATA[ and ]]&gt; is intended</a:documentation>
-               </choice>
+               <data type="token">
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
+               </data>
             </attribute>
          </optional>
          <optional>
@@ -5587,9 +5702,9 @@ Sample values include: 1] TEI; 2] DBK (docbook) ; 3] XX (unknown) ; 4] Schematro
                        name="scheme"
                        a:defaultValue="TEI">
                <a:documentation>supplies the name of the schema in which this tag is defined.
-Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3] XX (unknown) ; 4] Schematron; 5] HTML</a:documentation>
+Sample values include: 1] TEI (text encoding initiative); 2] DBK (docbook); 3] XX (unknown); 4] Schematron; 5] HTML</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -5611,7 +5726,7 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -5625,7 +5740,7 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -5639,7 +5754,7 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -5653,7 +5768,7 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -5667,7 +5782,7 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
             <list>
                <oneOrMore>
                   <data type="token">
-                     <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                     <param name="pattern">[^\p{C}\p{Z}]+</param>
                   </data>
                </oneOrMore>
             </list>
@@ -5677,7 +5792,7 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
    <define name="OpenArabicPE_att.datable.custom.attribute.datingMethod">
       <optional>
          <attribute name="datingMethod">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a pointer to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;calendar&gt;</code> element or other means of interpreting the values of the custom dating attributes.</a:documentation>
             <data type="anyURI"/>
          </attribute>
       </optional>
@@ -5842,12 +5957,6 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
                     a:defaultValue="title">
             <a:documentation>characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
             <choice>
-               <value>title</value>
-               <a:documentation>indicates formal titles, such as "Bey", "Pasha" etc. This use is depreciated in favour of </a:documentation>
-               <value>honorific</value>
-               <a:documentation>indicates honorific addresses or titles, such as Miss, Shaykh , zade. This use is depreciated in favour of </a:documentation>
-               <value>rank</value>
-               <a:documentation>indicates ranks within an administrative, military or religious hierarchy, such as farīq , vālī , Captain. This use is depreciated in favour of </a:documentation>
                <value>nickname</value>
                <a:documentation>a phrase someone is commonly referred to, such as "Owner of the newspaper xyz". This use is depreciated in favour of </a:documentation>
                <value>nasab</value>
@@ -5858,6 +5967,8 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
                <a:documentation>an honorific name, which is usually ended by the suffix al-Dīn ( الدين )</a:documentation>
                <value>nisbah</value>
                <a:documentation>an adjective formed by using the suffix ī in order to indicate the person origin, his birth place, or his residence. It represents the relationship name, which can be a genealogical, political or ideological affiliation of a person. Example: the mathematician al-Khawarizmī refers to “Khuwarism”, the name of a place located in Central Asia</a:documentation>
+               <value>theophoric</value>
+               <a:documentation>Theophoric names contain the name of god, such as ʿAnd al-Raḥmān (عبد الرحمن)</a:documentation>
             </choice>
          </attribute>
          <optional>
@@ -5940,9 +6051,9 @@ Sample values include: 1] TEI (text encoding initiative) ; 2] DBK (docbook) ; 3]
          <optional>
             <attribute name="type">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
-Sample values include: 1] caesarean (caesarean section) ; 2] vaginal (vaginal delivery) ; 3] exNihilo (ex nihilo) ; 4] incorporated; 5] founded; 6] established</a:documentation>
+Sample values include: 1] caesarean (caesarean section); 2] vaginal (vaginal delivery); 3] exNihilo (ex nihilo); 4] incorporated; 5] founded; 6] established</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -5963,7 +6074,7 @@ Sample values include: 1] caesarean (caesarean section) ; 2] vaginal (vaginal de
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
 Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] brain; 6] natural; 7] unnatural; 8] fragmentation; 9] dissolution</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -5983,7 +6094,7 @@ Sample values include: 1] proclaimed; 2] assumed; 3] verified; 4] clinical; 5] b
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
 Sample values include: 1] primary; 2] secondary; 3] undergraduate; 4] graduate; 5] residency; 6] apprenticeship</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -5994,42 +6105,33 @@ Sample values include: 1] primary; 2] secondary; 3] undergraduate; 4] graduate; 
       <element name="event">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains data relating to any kind of significant event associated with a person, place, or organization. [13.3.1. Basic Principles]</a:documentation>
          <group>
-      
+            <zeroOrMore>
+               <ref name="OpenArabicPE_idno"/>
+            </zeroOrMore>
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
-      
             <choice>
-        
-          
                <oneOrMore>
                   <ref name="OpenArabicPE_model.pLike"/>
                </oneOrMore>
-          
-        
-        
-          
                <oneOrMore>
                   <ref name="OpenArabicPE_model.labelLike"/>
                </oneOrMore>
-          
-        
             </choice>
-      
             <zeroOrMore>
                <choice>
                   <ref name="OpenArabicPE_model.noteLike"/>
                   <ref name="OpenArabicPE_model.biblLike"/>
           
           
+                  <ref name="OpenArabicPE_idno"/>
+                  <ref name="OpenArabicPE_ptr"/>
                </choice>
             </zeroOrMore>
-      
-      
             <zeroOrMore>
                <ref name="OpenArabicPE_event"/>
             </zeroOrMore>
-      
          </group>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <ref name="OpenArabicPE_att.datable.attributes"/>
@@ -6037,7 +6139,7 @@ Sample values include: 1] primary; 2] secondary; 3] undergraduate; 4] graduate; 
          <ref name="OpenArabicPE_att.naming.attributes"/>
          <optional>
             <attribute name="where">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of an event by pointing to a place element</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the location of an event by pointing to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;place&gt;</code> element</a:documentation>
                <data type="anyURI"/>
             </attribute>
          </optional>
@@ -6057,7 +6159,7 @@ Sample values include: 1] primary; 2] secondary; 3] undergraduate; 4] graduate; 
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
 Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrilineal; 5] convert</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -6090,7 +6192,7 @@ Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrili
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
-      
+        
       
             <oneOrMore>
                <choice>
@@ -6120,6 +6222,7 @@ Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrili
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
+  
             <oneOrMore>
                <ref name="OpenArabicPE_model.eventLike"/>
             </oneOrMore>
@@ -6139,11 +6242,9 @@ Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrili
       <element name="listPerson">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
-      
       
             <oneOrMore>
                <choice>
@@ -6151,15 +6252,12 @@ Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrili
                   <ref name="OpenArabicPE_listPerson"/>
                </choice>
             </oneOrMore>
-      
-      
             <zeroOrMore>
                <choice>
                   <ref name="OpenArabicPE_relation"/>
                   <ref name="OpenArabicPE_listRelation"/>
                </choice>
-            </zeroOrMore>
-      
+            </zeroOrMore>      
          </group>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <ref name="OpenArabicPE_att.typed.attributes"/>
@@ -6174,7 +6272,7 @@ Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrili
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
-      
+        
       
             <oneOrMore>
                <choice>
@@ -6231,19 +6329,19 @@ Sample values include: 1] practicing; 2] clandestine; 3] patrilineal; 4] matrili
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.
 Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
          <optional>
             <attribute name="scheme">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the classification system or taxonomy in use, for example by supplying the identifier of a taxonomy element, or pointing to some other resource.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the classification system or taxonomy in use, for example by supplying the identifier of a <code xmlns="http://www.w3.org/1999/xhtml">&lt;taxonomy&gt;</code> element, or pointing to some other resource.</a:documentation>
                <data type="anyURI"/>
             </attribute>
          </optional>
          <optional>
             <attribute name="code">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies an occupation code defined within the classification system or taxonomy defined by the scheme attribute.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies an occupation code defined within the classification system or taxonomy defined by the <code xmlns="http://www.w3.org/1999/xhtml">@scheme</code> attribute.</a:documentation>
                <data type="anyURI"/>
             </attribute>
          </optional>
@@ -6252,48 +6350,37 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
    </define>
    <define name="OpenArabicPE_org">
       <element name="org">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization) provides information about an identifiable organization such as a business, a tribe, or any other grouping of people. [13.2.2. Organizational Names]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization) provides information about an identifiable organization such as a business, a tribe, or any other grouping of people. [13.3.3. Organizational Data]</a:documentation>
          <group>
-      
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
-      
             <choice>
-        
-          
                <zeroOrMore>
                   <ref name="OpenArabicPE_model.pLike"/>
                </zeroOrMore>
-          
-        
-        
                <zeroOrMore>
                   <choice>
                      <ref name="OpenArabicPE_model.labelLike"/>
                      <ref name="OpenArabicPE_model.nameLike"/>
                      <ref name="OpenArabicPE_model.placeLike"/>
                      <ref name="OpenArabicPE_model.orgPart"/>
-	                    <ref name="OpenArabicPE_model.milestoneLike"/>
+                     <ref name="OpenArabicPE_model.milestoneLike"/>
                   </choice>
                </zeroOrMore>
-        
             </choice>
-      
             <zeroOrMore>
                <choice>
                   <ref name="OpenArabicPE_model.noteLike"/>
                   <ref name="OpenArabicPE_model.biblLike"/>
-          
-          
+        
+        
+                  <ref name="OpenArabicPE_ptr"/>
                </choice>
             </zeroOrMore>
-      
-      
             <zeroOrMore>
                <ref name="OpenArabicPE_model.personLike"/>
             </zeroOrMore>
-      
          </group>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <ref name="OpenArabicPE_att.typed.attributes"/>
@@ -6303,7 +6390,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                <list>
                   <oneOrMore>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </oneOrMore>
                </list>
@@ -6352,6 +6439,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                <choice>
                   <ref name="OpenArabicPE_model.personPart"/>
                   <ref name="OpenArabicPE_model.global"/>
+                  <ref name="OpenArabicPE_ptr"/>
                </choice>
             </zeroOrMore>
       
@@ -6363,7 +6451,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                <list>
                   <oneOrMore>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </oneOrMore>
                </list>
@@ -6375,7 +6463,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                <list>
                   <oneOrMore>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </oneOrMore>
                </list>
@@ -6385,7 +6473,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <attribute name="age">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies an age group for the person.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -6415,7 +6503,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <attribute name="role">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the role of this group of participants in the interaction.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -6425,7 +6513,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                <list>
                   <oneOrMore>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </oneOrMore>
                </list>
@@ -6435,7 +6523,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <attribute name="age">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the age group of the participants.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -6445,7 +6533,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                <list>
                   <oneOrMore>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </oneOrMore>
                </list>
@@ -6487,6 +6575,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                   <ref name="OpenArabicPE_model.noteLike"/>
                   <ref name="OpenArabicPE_model.biblLike"/>
                   <ref name="OpenArabicPE_idno"/>
+                  <ref name="OpenArabicPE_ptr"/>
           
           
                </choice>
@@ -6536,7 +6625,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <attribute name="name">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a name for the kind of relationship of which this is an instance.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -6708,6 +6797,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
+      
             <oneOrMore>
                <ref name="OpenArabicPE_model.objectLike"/>
             </oneOrMore>
@@ -6753,8 +6843,10 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
       <element name="nym">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(canonical name) contains the definition for a canonical name or name component of any kind. [13.3.6. Names and Nyms]</a:documentation>
          <group>
-      
-        
+
+            <zeroOrMore>
+               <ref name="OpenArabicPE_idno"/>
+            </zeroOrMore>
             <zeroOrMore>
                <ref name="OpenArabicPE_model.entryPart"/>
             </zeroOrMore>
@@ -6798,7 +6890,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <zeroOrMore>
                <ref name="OpenArabicPE_model.headLike"/>
             </zeroOrMore>
-      
+        
       
             <oneOrMore>
                <choice>
@@ -6861,7 +6953,9 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tei_OpenArabicPE-ab-abstractModel-structure-ab-constraint-report-17">
             <rule context="tei:ab">
-               <report xmlns:oape="https://openarabicpe.github.io/ns"
+               <report xmlns:xi="http://www.w3.org/2001/XInclude"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:oape="https://openarabicpe.github.io/ns"
                        test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum         |parent::tei:item         |parent::tei:note         |parent::tei:q         |parent::tei:quote         |parent::tei:remarks         |parent::tei:said         |parent::tei:sp         |parent::tei:stage         |parent::tei:cell         |parent::tei:figure)">
         Abstract model violation: ab may not occur inside paragraphs or other ab elements.
       </report>
@@ -6870,7 +6964,9 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tei_OpenArabicPE-ab-abstractModel-structure-l-constraint-report-18">
             <rule context="tei:ab">
-               <report xmlns:oape="https://openarabicpe.github.io/ns"
+               <report xmlns:xi="http://www.w3.org/2001/XInclude"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:oape="https://openarabicpe.github.io/ns"
                        test="ancestor::tei:l or ancestor::tei:lg">
         Abstract model violation: Lines may not contain higher-level divisions such as p or ab.
       </report>
@@ -6888,6 +6984,136 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
          <ref name="OpenArabicPE_att.global.attributes"/>
          <ref name="OpenArabicPE_att.typed.attributes"/>
          <ref name="OpenArabicPE_att.notated.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="OpenArabicPE_standOff">
+      <element name="standOff">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Functions as a container element for linked data, contextual information, and stand-off annotations embedded in a TEI document. [16.10. The standOff Container]</a:documentation>
+         <oneOrMore>
+            <ref name="OpenArabicPE_model.standOffPart"/>
+         </oneOrMore>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="tei_OpenArabicPE-standOff-nested_standOff_should_be_typed-constraint-assert-8">
+            <rule context="tei:standOff">
+               <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:xi="http://www.w3.org/2001/XInclude"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:oape="https://openarabicpe.github.io/ns"
+                           test="@type or not(ancestor::tei:standOff)">This
+      <sch:name/> element must have a @type attribute, since it is
+      nested inside a <sch:name/>
+               </sch:assert>
+            </rule>
+         </pattern>
+         <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="OpenArabicPE_listAnnotation">
+      <element name="listAnnotation">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a list of annotations, typically encoded as <code xmlns="http://www.w3.org/1999/xhtml">&lt;annotation&gt;</code>, <code xmlns="http://www.w3.org/1999/xhtml">&lt;annotationBlock&gt;</code>, or <code xmlns="http://www.w3.org/1999/xhtml">&lt;note&gt;</code>, possibly organized with nested <code xmlns="http://www.w3.org/1999/xhtml">&lt;listAnnotation&gt;</code> elements. [16.10. The standOff Container]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="OpenArabicPE_model.headLike"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="OpenArabicPE_model.labelLike"/>
+            </zeroOrMore>
+            <oneOrMore>
+               <choice>
+                  <ref name="OpenArabicPE_model.annotationLike"/>
+                  <ref name="OpenArabicPE_listAnnotation"/>
+               </choice>
+            </oneOrMore>
+         </group>
+         <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.typed.attributes"/>
+         <ref name="OpenArabicPE_att.notated.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="OpenArabicPE_annotation">
+      <element name="annotation">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">represents an annotation following the <a xmlns="http://www.w3.org/1999/xhtml" href="#WADM">Web
+      Annotation Data Model</a>. [16.10. The standOff Container]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="OpenArabicPE_respStmt"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="OpenArabicPE_revisionDesc"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="OpenArabicPE_licence"/>
+            </zeroOrMore>
+            <zeroOrMore>
+               <ref name="OpenArabicPE_model.annotationPart.body"/>
+            </zeroOrMore>
+         </group>
+         <ref name="OpenArabicPE_att.global.attribute.n"/>
+         <ref name="OpenArabicPE_att.global.attribute.xmllang"/>
+         <ref name="OpenArabicPE_att.global.rendition.attribute.rend"/>
+         <ref name="OpenArabicPE_att.global.rendition.attribute.style"/>
+         <ref name="OpenArabicPE_att.global.rendition.attribute.rendition"/>
+         <ref name="OpenArabicPE_att.global.linking.attribute.corresp"/>
+         <ref name="OpenArabicPE_att.global.linking.attribute.next"/>
+         <ref name="OpenArabicPE_att.global.linking.attribute.prev"/>
+         <ref name="OpenArabicPE_att.global.facs.attribute.facs"/>
+         <ref name="OpenArabicPE_att.global.change.attribute.change"/>
+         <ref name="OpenArabicPE_att.global.responsibility.attribute.resp"/>
+         <ref name="OpenArabicPE_att.global.source.attribute.source"/>
+         <attribute name="xml:id">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
+            <data type="ID"/>
+         </attribute>
+         <attribute name="target">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the destination of the reference by supplying one or more URI References</a:documentation>
+            <list>
+               <oneOrMore>
+                  <data type="anyURI"/>
+               </oneOrMore>
+            </list>
+         </attribute>
+         <optional>
+            <attribute name="motivation">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <list>
+                  <oneOrMore>
+                     <choice>
+                        <value>assessing</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to assess the target resource in some way, rather than simply make a comment about it</a:documentation>
+                        <value>bookmarking</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to create a bookmark to the target or part thereof</a:documentation>
+                        <value>classifying</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to classify the target in some way</a:documentation>
+                        <value>commenting</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to comment about the target</a:documentation>
+                        <value>describing</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to describe the target, rather than (for example) comment on it</a:documentation>
+                        <value>editing</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to request an edit or a change to the target resource</a:documentation>
+                        <value>highlighting</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to highlight the target resource or a segment thereof</a:documentation>
+                        <value>identifying</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to assign an identity to the target</a:documentation>
+                        <value>linking</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to link to a resource related to the target</a:documentation>
+                        <value>moderating</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to assign some value or quality to the target</a:documentation>
+                        <value>questioning</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to ask a question about the target</a:documentation>
+                        <value>replying</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to reply to a previous statement, either an annotation or another resource</a:documentation>
+                        <value>tagging</value>
+                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">intent is to associate a tag with the target</a:documentation>
+                     </choice>
+                  </oneOrMore>
+               </list>
+            </attribute>
+         </optional>
          <empty/>
       </element>
    </define>
@@ -7065,7 +7291,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
    <define name="OpenArabicPE_att.global.change.attribute.change">
       <optional>
          <attribute name="change">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more change elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;change&gt;</code> elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder.</a:documentation>
             <list>
                <oneOrMore>
                   <data type="anyURI"/>
@@ -7078,25 +7304,19 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
       <element name="facsimile">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a representation of some written source in the form of a set of images rather than as transcribed or encoded text. [11.1. Digital Facsimiles]</a:documentation>
          <group>
-      
             <optional>
                <ref name="OpenArabicPE_front"/>
             </optional>
-      
-      
             <oneOrMore>
                <choice>
-                  <ref name="OpenArabicPE_model.graphicLike"/>
-                  <ref name="OpenArabicPE_surface"/>
-                  <ref name="OpenArabicPE_surfaceGrp"/>
+	                 <ref name="OpenArabicPE_model.graphicLike"/>
+	                 <ref name="OpenArabicPE_surface"/>
+	                 <ref name="OpenArabicPE_surfaceGrp"/>
                </choice>
             </oneOrMore>
-      
-      
             <optional>
                <ref name="OpenArabicPE_back"/>
             </optional>
-      
          </group>
          <ref name="OpenArabicPE_att.global.attributes"/>
          <empty/>
@@ -7141,7 +7361,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the method by which this surface is or was connected to the main surface
 Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -7171,10 +7391,11 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
    </define>
    <define name="OpenArabicPE_zone">
       <element name="zone">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines any two-dimensional area within a surface element. [11.1. Digital Facsimiles 11.2.2. Embedded Transcription]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines any two-dimensional area within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;surface&gt;</code> element. [11.1. Digital Facsimiles 11.2.2. Embedded Transcription]</a:documentation>
          <zeroOrMore>
             <choice>
                <text/>
+               <ref name="OpenArabicPE_model.gLike"/>
                <ref name="OpenArabicPE_model.graphicLike"/>
                <ref name="OpenArabicPE_model.global"/>
                <ref name="OpenArabicPE_surface"/>
@@ -7187,7 +7408,7 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
             <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
                        name="rotate"
                        a:defaultValue="0">
-               <a:documentation>indicates the amount by which this zone has been rotated clockwise, with respect to the normal orientation of the parent surface element as implied by the dimensions given in the msDesc element or by the coordinates of the surface itself. The orientation is expressed in arc degrees.</a:documentation>
+               <a:documentation>indicates the amount by which this zone has been rotated clockwise, with respect to the normal orientation of the parent <code xmlns="http://www.w3.org/1999/xhtml">&lt;surface&gt;</code> element as implied by the dimensions given in the <code xmlns="http://www.w3.org/1999/xhtml">&lt;msDesc&gt;</code> element or by the coordinates of the <code xmlns="http://www.w3.org/1999/xhtml">&lt;surface&gt;</code> itself. The orientation is expressed in arc degrees.</a:documentation>
                <data type="nonNegativeInteger"/>
             </attribute>
          </optional>
@@ -7196,11 +7417,12 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
    </define>
    <define name="OpenArabicPE_path">
       <element name="path">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines any line passing through two or more points within a surface element. [11.1. Digital Facsimiles 11.2.2. Embedded Transcription]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines any line passing through two or more points within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;surface&gt;</code> element. [11.1. Digital Facsimiles 11.2.2. Embedded Transcription]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="tei_OpenArabicPE-path-pathmustnotbeclosed-constraint-rule-10">
             <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:oape="https://openarabicpe.github.io/ns"
@@ -7234,16 +7456,16 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
    </define>
    <define name="OpenArabicPE_fw">
       <element name="fw">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(forme work) contains a running head (e.g. a header, footer), catchword, or similar material appearing on the current page. [11.6. Headers, Footers, and Similar Matter]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(forme work) contains a running head (e.g. a header, footer), catchword, or similar material appearing on the current page. [11.5. Headers, Footers, and Similar Matter]</a:documentation>
          <ref name="OpenArabicPE_macro.phraseSeq"/>
          <ref name="OpenArabicPE_att.global.attributes"/>
+         <ref name="OpenArabicPE_att.typed.attribute.subtype"/>
          <ref name="OpenArabicPE_att.placement.attributes"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the material encoded according to some useful typology.
-Sample values include: 1] header; 2] footer; 3] pageNum (page number) ; 4] lineNum (line number) ; 5] sig (signature) ; 6] catch (catchword) </a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">classifies the material encoded according to some useful typology.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
@@ -7296,7 +7518,7 @@ Sample values include: 1] header; 2] footer; 3] pageNum (page number) ; 4] lineN
                <list>
                   <oneOrMore>
                      <data type="token">
-                        <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                        <param name="pattern">[^\p{C}\p{Z}]+</param>
                      </data>
                   </oneOrMore>
                </list>
@@ -7315,7 +7537,7 @@ Sample values include: 1] header; 2] footer; 3] pageNum (page number) ; 4] lineN
             <attribute name="function">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the function (for example status, insertion, deletion, transposition) of the metamark.</a:documentation>
                <data type="token">
-                  <param name="pattern">(\p{L}|\p{N}|\p{P}|\p{S})+</param>
+                  <param name="pattern">[^\p{C}\p{Z}]+</param>
                </data>
             </attribute>
          </optional>
