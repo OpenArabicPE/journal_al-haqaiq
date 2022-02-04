@@ -1,17 +1,24 @@
 ---
-title: "Readme: Digial Haqāʾiq"
+title: "Readme: Journal al-Haqāʾiq"
 author: Till Grallert
-date: 2019-05-17
+date: 2022-02-04
 ---
+
+[![DOI](https://zenodo.org/badge/52619834.svg)](https://zenodo.org/badge/latestdoi/52619834)
+[![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-haqaiq.svg)](https://github.com/openarabicpe/journal_al-haqaiq/releases)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://github.com/openarabicpe/journal_al-haqaiq/graphs/commit-activity)
+![Commit activity](https://img.shields.io/github/commit-activity/m/openarabicpe/journal_al-haqaiq)
+![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/openarabicpe/journal_al-haqaiq/latest)
+![GitHub last commit](https://img.shields.io/github/last-commit/openarabicpe/journal_al-haqaiq)
+![GitHub contributors](https://img.shields.io/github/contributors/openarabicpe/journal_al-haqaiq)
 
 # An open, collaborative, and scholarly digital edition of ʿAbd al-Qādir al-Iskandarānī's monthly journal *al-Ḥaqāʾiq* (Damascus, 1910--1913)
 
-[![GitHub release](https://img.shields.io/github/release/openarabicpe/journal_al-haqaiq.svg)](https://github.com/openarabicpe/journal_al-haqaiq/releases)
-[![DOI](https://zenodo.org/badge/52619834.svg)](https://zenodo.org/badge/latestdoi/52619834)
 
-This digital edition of ʿAbd al-Qādir al-Iskandarānī's monthly journal *al-Ḥaqāʾiq* (Damascus, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/tillgrallert/digital-muqtabas).
+This digital edition of ʿAbd al-Qādir al-Iskandarānī's monthly journal *al-Ḥaqāʾiq* (Damascus, 1910--1913) is part of and follows the principles of [Open Arabic Periodical Editions (OpenArabicPE)](https://openarabicpe.github.io) that were originally developped in the context of [Digital Muqtabas](https://github.com/openarabipe/journal_al-muqtabas).
 
-If you just want to browse the edition in a more human-readable view, start [here](https://openarabicpe.github.io/journal_al-haqaiq/tei/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ).
+If you just want to browse the edition in a more **human-readable view**, start [**here**](https://openarabicpe.github.io/journal_al-haqaiq/tei/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ).
 
 **UPDATE 2016-05-23**: apparently HathiTrust decided to remove the images from the public domain. I have inquired with them about the reasons for this removal but have not yet received a reply.
 
