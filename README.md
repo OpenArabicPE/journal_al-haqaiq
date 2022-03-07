@@ -1,7 +1,7 @@
 ---
 title: "Readme: Journal al-Haqāʾiq"
 author: Till Grallert
-date: 2022-02-04
+date: 2022-03-07
 ---
 
 [![DOI](https://zenodo.org/badge/52619834.svg)](https://zenodo.org/badge/latestdoi/52619834)
@@ -21,6 +21,8 @@ This digital edition of ʿAbd al-Qādir al-Iskandarānī's monthly journal *al-�
 If you just want to browse the edition in a more **human-readable view**, start [**here**](https://openarabicpe.github.io/journal_al-haqaiq/tei/oclc_644997575-i_1.TEIP5.xml) and be reminded that facsimiles have not yet been added beyond the first volume and that, due to HathiTrust's scanning habits, page breaks might not yet link to the correct facsimile. All bibliographic metadata is available as part of [OpenArabicPE's public Zotero group](https://www.zotero.org/groups/904125/openarabicpe/items/collectionKey/JXZGTSWZ).
 
 **UPDATE 2016-05-23**: apparently HathiTrust decided to remove the images from the public domain. I have inquired with them about the reasons for this removal but have not yet received a reply.
+
+**UPDATE 2022-03-07**: After yet another query, it appears that HathiTrust changed the copyright status back to public domain. Images are back up and can be seen through the Boilerplate view. Note that pagination is off by two pages at the moment as they duplicated pages at the beginning of the volume.
 
 **UPDATE 2018-04-27**: we scanned all three volumes of al-Ḥaqāʾiq available at the library of the Orient-Institut Beirut and we are currently negotiating agreements with other institutions to host and archive the digital imagery. We plan for facsimiles to be online by the end of the year.
 
